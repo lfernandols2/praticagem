@@ -1,0 +1,2271 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>12 · Borda-Livre e Estabilidade — Apostila de Praticagem</title>
+  <meta name="description" content="NORMAM 01, borda-livre, estabilidade intacta, critérios, prova de estabilidade, avaria e alagamento.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a2238'/%3E%3Ccircle cx='32' cy='32' r='19' fill='none' stroke='%23d9ad58' stroke-width='2'/%3E%3Cpath d='M39 23l-5 11-11 5 5-11 11-5z' fill='%23d9ad58'/%3E%3C/svg%3E">
+  <style>
+/* ============================================================
+   APOSTILA DE PRATICAGEM — sistema visual
+   Tema navy/teal com papel marfim e acentos dourados.
+   ============================================================ */
+
+:root {
+  --bg: #f3efe5;
+  --bg-deep: #e9e2d2;
+  --surface: #fffdf7;
+  --surface-2: #f8f4e9;
+  --surface-3: #efe9da;
+  --ink: #14212e;
+  --ink-soft: #465866;
+  --ink-faint: #7a8794;
+  --navy: #0a2238;
+  --navy-2: #10344f;
+  --navy-3: #164866;
+  --teal: #0e6b76;
+  --teal-soft: #e0f1f1;
+  --gold: #b3872c;
+  --gold-soft: #f7edd8;
+  --red: #a53e2f;
+  --red-soft: #f9e8e4;
+  --green: #2f6b4f;
+  --green-soft: #e5f2ea;
+  --line: #d8d0bf;
+  --line-strong: #bfb49d;
+  --shadow-sm: 0 1px 2px rgba(20, 33, 46, .08);
+  --shadow-md: 0 10px 30px -12px rgba(10, 34, 56, .35);
+  --shadow-lg: 0 30px 70px -30px rgba(10, 34, 56, .45);
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --sidebar-w: 322px;
+  --content-w: 900px;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --font-body: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --ease: cubic-bezier(.2, .7, .3, 1);
+}
+
+[data-theme="dark"] {
+  --bg: #08131d;
+  --bg-deep: #060f17;
+  --surface: #0f1f2d;
+  --surface-2: #132737;
+  --surface-3: #193143;
+  --ink: #e9eff3;
+  --ink-soft: #b4c4d0;
+  --ink-faint: #8095a7;
+  --navy: #071727;
+  --navy-2: #0b2439;
+  --navy-3: #123b57;
+  --teal: #52b6c0;
+  --teal-soft: rgba(82, 182, 192, .14);
+  --gold: #d9ad58;
+  --gold-soft: rgba(217, 173, 88, .14);
+  --red: #e07c6d;
+  --red-soft: rgba(224, 124, 109, .14);
+  --green: #6fbf92;
+  --green-soft: rgba(111, 191, 146, .13);
+  --line: #24394b;
+  --line-strong: #385165;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, .35);
+  --shadow-md: 0 10px 30px -12px rgba(0, 0, 0, .65);
+  --shadow-lg: 0 30px 70px -30px rgba(0, 0, 0, .8);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 100%;
+  height: auto !important;
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.72;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow-wrap: break-word;
+}
+
+::selection { background: var(--gold-soft); color: var(--ink); }
+
+a { color: var(--teal); text-decoration-color: color-mix(in srgb, var(--teal) 35%, transparent); text-underline-offset: 3px; }
+a:hover { text-decoration-color: currentColor; }
+
+img, svg, video, canvas { max-width: 100%; height: auto; }
+
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 10px;
+  z-index: 999;
+  background: var(--surface);
+  color: var(--ink);
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+}
+.skip-link:focus { left: 10px; }
+
+/* ---------- barra de progresso de leitura ---------- */
+.read-progress {
+  position: fixed;
+  inset: 0 auto auto 0;
+  height: 3px;
+  width: 0;
+  z-index: 120;
+  pointer-events: none;
+  background: linear-gradient(90deg, var(--gold), var(--teal));
+  transition: width .1s linear;
+}
+
+/* ---------- topbar ---------- */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  height: 66px;
+  padding: 0 22px;
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  min-width: 0;
+  color: var(--ink);
+  text-decoration: none;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.02rem;
+  letter-spacing: .01em;
+  white-space: nowrap;
+}
+.brand__mark {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: var(--gold);
+  border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent);
+  background:
+    radial-gradient(circle at 50% 35%, color-mix(in srgb, var(--gold) 18%, transparent), transparent 65%),
+    var(--navy);
+  flex: 0 0 auto;
+}
+.brand__mark svg { width: 20px; height: 20px; }
+.brand small { display: block; font-family: var(--font-body); font-weight: 500; font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-faint); }
+
+.topbar__spacer { flex: 1; }
+
+.icon-btn {
+  display: inline-grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: background .2s, color .2s, border-color .2s, transform .2s;
+}
+.icon-btn:hover { background: var(--surface-2); color: var(--ink); border-color: var(--line-strong); }
+.icon-btn:active { transform: scale(.96); }
+.icon-btn svg { width: 19px; height: 19px; }
+
+.nav-toggle { display: inline-grid; }
+
+.topbar__label {
+  display: block;
+  font-size: .82rem;
+  color: var(--ink-faint);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 40vw;
+}
+
+/* ---------- layout com sidebar ---------- */
+.layout { display: block !important; min-width: 0; width: 100% !important; max-width: 100% !important; position: relative !important; height: auto !important; overflow: visible !important; margin: 0 !important; }
+.scrim { display: none !important; }
+.scrim.is-visible { display: block !important; position: fixed; inset: 66px 0 0; z-index: 90; background: rgba(4,14,22,.55); }
+
+.sidebar {
+  display: none !important;
+  position: fixed;
+  top: 66px;
+  left: 0;
+  bottom: 0;
+  z-index: 95;
+  width: min(340px, 88vw);
+  overflow-y: auto;
+  padding: 30px 24px 48px;
+  background: var(--surface);
+  border-right: 1px solid var(--line);
+  box-shadow: var(--shadow-lg);
+}
+.sidebar.is-open { display: block !important; }
+.sidebar::-webkit-scrollbar { width: 8px; }
+.sidebar::-webkit-scrollbar-thumb { background: var(--line-strong); border-radius: 8px; }
+
+.sidebar__eyebrow {
+  margin: 0 0 14px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.sidebar__group { margin-bottom: 24px; }
+.sidebar__group-title {
+  margin: 0 0 8px;
+  padding: 0 10px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.part-nav { list-style: none; margin: 0; padding: 0; }
+.part-nav a {
+  position: relative;
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr);
+  gap: 8px;
+  align-items: baseline;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-size: .86rem;
+  line-height: 1.35;
+  transition: background .15s, color .15s;
+}
+.part-nav a:hover { background: var(--surface-2); color: var(--ink); }
+.part-nav a.is-active {
+  background: var(--gold-soft);
+  color: var(--ink);
+  font-weight: 650;
+}
+.part-nav a.is-active::before {
+  content: "";
+  position: absolute;
+  left: -24px;
+  top: 8px;
+  bottom: 8px;
+  width: 3px;
+  border-radius: 3px;
+  background: var(--gold);
+}
+.part-nav__num {
+  font-family: var(--font-mono);
+  font-size: .72rem;
+  color: var(--ink-faint);
+  letter-spacing: .03em;
+}
+.part-nav a.is-active .part-nav__num { color: var(--gold); }
+.part-nav__done {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-left: 5px;
+  border-radius: 50%;
+  background: var(--green);
+  vertical-align: middle;
+}
+
+.sidebar__progress {
+  margin-top: 6px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-2);
+}
+.sidebar__progress p { margin: 0 0 10px; font-size: .78rem; color: var(--ink-soft); display: flex; justify-content: space-between; gap: 10px; }
+.sidebar__progress strong { color: var(--ink); }
+
+.bar {
+  height: 7px;
+  border-radius: 99px;
+  background: var(--surface-3);
+  overflow: hidden;
+}
+.bar__fill {
+  height: 100%;
+  width: 0;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--teal), var(--gold));
+  transition: width .5s var(--ease);
+}
+
+/* ---------- conteúdo ---------- */
+.main { display: block !important; position: relative !important; z-index: 1 !important; min-width: 0 !important; width: 100% !important; max-width: 100% !important; overflow: visible !important; min-height: auto !important; height: auto !important; margin: 0 !important; transform: none !important; }
+.content {
+  display: block !important;
+  position: relative !important;
+  z-index: 1 !important;
+  width: auto !important;
+  max-width: 940px !important;
+  margin: 0 auto !important;
+  padding: 40px 24px 80px !important;
+  min-width: 0 !important;
+  overflow: visible !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  height: auto !important;
+  box-sizing: border-box !important;
+  transform: none !important;
+  left: auto !important;
+  right: auto !important;
+}
+.chapter-body, .part-hero, .toc-card, .chapter-end, .breadcrumb, .site-footer {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  max-width: 100%;
+}
+.chapter-nav { display: grid !important; visibility: visible !important; }
+.chapter-body, .part-hero, .toc-card, .chapter-end, .chapter-nav,
+.section, .card, .callout, .def, .formula, .figure, .table-wrap, .example,
+.compare, .keyfacts, .chapter-map, .grid-2, .grid-3, .grid-4 { max-width: 100%; min-width: 0; }
+.chapter-nav a, .grid-2 > *, .grid-3 > *, .grid-4 > *, .compare > *, .keyfacts > * { min-width: 0; }
+pre, code { max-width: 100%; white-space: pre-wrap; overflow-wrap: anywhere; }
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 22px;
+  font-size: .78rem;
+  color: var(--ink-faint);
+}
+.breadcrumb a { color: var(--ink-faint); text-decoration: none; }
+.breadcrumb a:hover { color: var(--teal); }
+.breadcrumb span[aria-hidden] { opacity: .6; }
+
+/* ---------- hero do capítulo ---------- */
+.part-hero {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 42px;
+  padding: clamp(28px, 5vw, 52px);
+  border-radius: var(--radius-lg);
+  color: #f4f7f8;
+  background:
+    radial-gradient(900px 420px at 82% -20%, rgba(67, 158, 170, .42), transparent 60%),
+    radial-gradient(500px 380px at 0% 115%, rgba(179, 135, 44, .22), transparent 65%),
+    linear-gradient(135deg, #071a2b 0%, #0b2b44 55%, #0d3a50 100%);
+  box-shadow: var(--shadow-lg);
+  isolation: isolate;
+}
+.part-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: .28;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, .07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .07) 1px, transparent 1px);
+  background-size: 46px 46px;
+  mask-image: radial-gradient(circle at 75% 30%, #000 0%, transparent 72%);
+  -webkit-mask-image: radial-gradient(circle at 75% 30%, #000 0%, transparent 72%);
+}
+.part-hero::after {
+  content: "";
+  position: absolute;
+  right: -70px;
+  bottom: -90px;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, .13);
+  box-shadow: 0 0 0 42px rgba(255, 255, 255, .045), 0 0 0 86px rgba(255, 255, 255, .03);
+  z-index: -1;
+}
+.part-hero__num {
+  position: absolute;
+  right: clamp(18px, 4vw, 44px);
+  top: clamp(2px, 1vw, 10px);
+  font-family: var(--font-display);
+  font-size: clamp(6rem, 15vw, 11rem);
+  font-weight: 700;
+  line-height: 1;
+  color: rgba(255, 255, 255, .07);
+  letter-spacing: -.05em;
+  pointer-events: none;
+  user-select: none;
+}
+.part-hero__kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 16px;
+  padding: 5px 12px;
+  border: 1px solid rgba(255, 255, 255, .22);
+  border-radius: 99px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: #e7d9b4;
+  background: rgba(255, 255, 255, .05);
+}
+.part-hero__kicker::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #d9ad58;
+  box-shadow: 0 0 10px #d9ad58;
+}
+.part-hero h1 {
+  position: relative;
+  margin: 0 0 14px;
+  max-width: 16ch;
+  font-family: var(--font-display);
+  font-size: clamp(2.1rem, 4.4vw, 3.35rem);
+  font-weight: 700;
+  line-height: 1.06;
+  letter-spacing: -.02em;
+}
+.part-hero__subtitle {
+  margin: 0;
+  max-width: 62ch;
+  font-size: clamp(.98rem, 1.4vw, 1.12rem);
+  line-height: 1.6;
+  color: #c9d8df;
+}
+.part-hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-top: 26px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, .14);
+  font-size: .78rem;
+  color: #b9cbd4;
+}
+.part-hero__meta span { display: inline-flex; align-items: center; gap: 7px; }
+.part-hero__meta svg { width: 15px; height: 15px; opacity: .8; }
+.part-hero__meta a { color: #e7d9b4; }
+
+.hero-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 16px; }
+.hero-tags span {
+  padding: 4px 10px;
+  border-radius: 99px;
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  color: #dfe9ed;
+  background: rgba(255, 255, 255, .09);
+  border: 1px solid rgba(255, 255, 255, .12);
+}
+
+/* ---------- card "neste capítulo" ---------- */
+.toc-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+  gap: 26px;
+  margin-bottom: 42px;
+  padding: 24px 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.toc-card h2 {
+  margin: 0 0 4px;
+  padding: 0;
+  border: 0;
+  font-size: 1.02rem;
+  letter-spacing: .01em;
+}
+.toc-card h2::before, .toc-card h2::after { display: none; }
+.toc-card p { margin: 0; font-size: .83rem; color: var(--ink-faint); }
+.toc-card ol {
+  columns: 2;
+  column-gap: 28px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: toc;
+}
+.toc-card li {
+  break-inside: avoid;
+  margin-bottom: 7px;
+  font-size: .82rem;
+  line-height: 1.4;
+}
+.toc-card li a {
+  display: inline-flex;
+  gap: 8px;
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+.toc-card li a::before {
+  counter-increment: toc;
+  content: counter(toc, decimal-leading-zero);
+  font-family: var(--font-mono);
+  font-size: .68rem;
+  color: var(--gold);
+  padding-top: 2px;
+}
+.toc-card li a:hover { color: var(--teal); }
+.toc-card li a.is-current { color: var(--gold); font-weight: 700; }
+.toc-card li a.is-current::before { color: var(--teal); }
+
+/* ---------- tipografia do conteúdo ---------- */
+.section { margin: 0 0 46px; scroll-margin-top: 90px; }
+
+.section-kicker {
+  margin-bottom: 8px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.content h2 {
+  position: relative;
+  margin: 0 0 18px;
+  padding-bottom: 12px;
+  font-family: var(--font-display);
+  font-size: clamp(1.55rem, 2.6vw, 2.05rem);
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: -.015em;
+  color: var(--ink);
+}
+.content h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 52px;
+  height: 3px;
+  border-radius: 3px;
+  background: linear-gradient(90deg, var(--gold), color-mix(in srgb, var(--gold) 20%, transparent));
+}
+.content h3 {
+  margin: 32px 0 10px;
+  font-family: var(--font-display);
+  font-size: 1.28rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ink);
+}
+.content h4 {
+  margin: 24px 0 8px;
+  font-size: .92rem;
+  font-weight: 750;
+  letter-spacing: .02em;
+  color: var(--ink);
+}
+.content p { margin: 0 0 15px; }
+.content ul, .content ol { margin: 0 0 18px; padding-left: 1.35em; }
+.content li { margin-bottom: 7px; }
+.content li::marker { color: var(--gold); }
+.content strong { font-weight: 700; color: var(--ink); }
+.content em { font-style: italic; }
+.content small { font-size: .8rem; color: var(--ink-faint); }
+
+.anchor {
+  margin-left: 9px;
+  font-size: .72em;
+  color: var(--ink-faint);
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity .15s;
+}
+h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
+
+.lead {
+  font-size: 1.1rem;
+  line-height: 1.66;
+  color: var(--ink-soft);
+}
+.lead strong { color: var(--ink); }
+
+.src {
+  font-family: var(--font-mono);
+  font-size: .7em;
+  font-weight: 500;
+  color: var(--ink-faint);
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  padding: 1px 6px;
+  white-space: nowrap;
+}
+
+.source-line {
+  margin-top: -4px;
+  font-size: .74rem;
+  color: var(--ink-faint);
+  letter-spacing: .02em;
+}
+.source-line::before {
+  content: "Fonte ";
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+/* ---------- cartões e grades ---------- */
+.grid-2, .grid-3, .grid-4 {
+  display: grid;
+  gap: 16px;
+  margin: 22px 0 26px;
+}
+.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+.card {
+  padding: 20px 20px 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.card h3, .card h4 { margin: 0 0 6px; }
+.card h3 { font-size: 1.02rem; }
+.card p:last-child, .card ul:last-child { margin-bottom: 0; }
+.card__num {
+  display: inline-grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background: var(--gold-soft);
+  color: var(--gold);
+  font-family: var(--font-mono);
+  font-size: .74rem;
+  font-weight: 700;
+}
+.card--accent { border-top: 3px solid var(--gold); }
+.card--teal { border-top: 3px solid var(--teal); }
+
+/* ---------- callouts ---------- */
+.callout {
+  position: relative;
+  margin: 22px 0 26px;
+  padding: 18px 20px 16px 22px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--teal);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  background: var(--surface-2);
+}
+.callout > :last-child { margin-bottom: 0; }
+.callout__label {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: .66rem;
+  font-weight: 800;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+.callout p { margin-bottom: 10px; }
+.callout ul, .callout ol { margin-bottom: 0; }
+
+.callout--info { border-left-color: var(--teal); background: color-mix(in srgb, var(--teal-soft) 55%, var(--surface)); }
+.callout--info .callout__label { color: var(--teal); }
+.callout--tip { border-left-color: var(--green); background: color-mix(in srgb, var(--green-soft) 60%, var(--surface)); }
+.callout--tip .callout__label { color: var(--green); }
+.callout--warn { border-left-color: var(--gold); background: color-mix(in srgb, var(--gold-soft) 65%, var(--surface)); }
+.callout--warn .callout__label { color: var(--gold); }
+.callout--danger { border-left-color: var(--red); background: color-mix(in srgb, var(--red-soft) 65%, var(--surface)); }
+.callout--danger .callout__label { color: var(--red); }
+.callout--exam { border-left-color: var(--navy-3); background: color-mix(in srgb, var(--navy-3) 7%, var(--surface)); }
+.callout--exam .callout__label { color: var(--navy-3); }
+[data-theme="dark"] .callout--exam { background: color-mix(in srgb, var(--navy-3) 28%, var(--surface)); }
+
+.callout--mnemonic {
+  border: 1px dashed color-mix(in srgb, var(--gold) 55%, var(--line));
+  border-left: 4px dashed var(--gold);
+  background: var(--gold-soft);
+}
+.callout--mnemonic .callout__label { color: var(--gold); }
+
+/* ---------- definição ---------- */
+.def {
+  margin: 20px 0 24px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--gold-soft) 55%, transparent), transparent 70%),
+    var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.def__term {
+  display: block;
+  margin-bottom: 6px;
+  font-family: var(--font-display);
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.def__term::before {
+  content: "Definição";
+  display: inline-block;
+  margin-right: 9px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: var(--gold);
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: .58rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  vertical-align: 2px;
+}
+.def p { margin: 0; font-size: .95rem; }
+
+/* ---------- fórmulas ---------- */
+.formula {
+  margin: 20px 0 24px;
+  padding: 20px 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--navy);
+  color: #eef4f6;
+  text-align: center;
+  overflow-x: auto;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+.formula__expr {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: clamp(.95rem, 2vw, 1.15rem);
+  letter-spacing: .01em;
+  white-space: nowrap;
+}
+.formula__where {
+  display: block;
+  margin-top: 10px;
+  font-size: .78rem;
+  line-height: 1.6;
+  color: #aebfc8;
+  text-align: left;
+  white-space: normal;
+}
+.formula__where b { color: #e7d9b4; font-weight: 650; }
+.formula sub, .formula sup { font-size: .72em; }
+.formula--light {
+  background: var(--surface-2);
+  color: var(--ink);
+  border-left: 3px solid var(--teal);
+  text-align: left;
+}
+.formula--light .formula__where { color: var(--ink-soft); }
+.formula--light .formula__where b { color: var(--teal); }
+
+/* ---------- tabelas ---------- */
+.table-wrap {
+  margin: 22px 0 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.table-wrap table { width: 100%; border-collapse: collapse; font-size: .88rem; min-width: 100%; }
+.table-wrap caption {
+  padding: 13px 16px;
+  text-align: left;
+  font-size: .76rem;
+  font-weight: 600;
+  color: var(--ink-faint);
+  border-bottom: 1px solid var(--line);
+  background: var(--surface-2);
+}
+.table-wrap th {
+  padding: 11px 14px;
+  text-align: left;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--line-strong);
+  white-space: normal;
+}
+.table-wrap td {
+  padding: 11px 14px;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+  line-height: 1.5;
+}
+.table-wrap tr:last-child td { border-bottom: 0; }
+.table-wrap tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--surface-2) 45%, transparent); }
+.table-wrap td strong { color: var(--ink); }
+
+/* ---------- figuras / svg ---------- */
+.figure {
+  margin: 26px 0 30px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.figure { max-width: 100%; overflow: hidden; }
+.figure svg { display: block; width: 100%; max-width: 100%; height: auto; }
+.figure figcaption {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: .78rem;
+  line-height: 1.55;
+  color: var(--ink-faint);
+}
+.figure figcaption b { color: var(--ink-soft); }
+.figure--flush { padding: 0; overflow: hidden; }
+.figure--flush figcaption { padding: 12px 20px 14px; margin-top: 0; }
+
+.diagram-text { font-family: var(--font-body); }
+.diagram-line { stroke: var(--line-strong); stroke-width: 1.5; fill: none; }
+.diagram-accent { stroke: var(--teal); stroke-width: 2; fill: none; }
+.diagram-gold { stroke: var(--gold); stroke-width: 2; fill: none; }
+.diagram-label { font-family: var(--font-body); font-size: 11px; fill: var(--ink-soft); }
+.diagram-label--strong { font-weight: 700; fill: var(--ink); }
+
+/* ---------- exemplos / passos ---------- */
+.example {
+  margin: 24px 0 28px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+}
+.example__title {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  margin: 0 0 10px;
+  font-size: .95rem;
+  font-weight: 750;
+}
+.example__title span {
+  font-family: var(--font-mono);
+  font-size: .66rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+.steps { list-style: none; margin: 18px 0 4px; padding: 0; counter-reset: step; }
+.steps li {
+  position: relative;
+  margin: 0;
+  padding: 0 0 20px 46px;
+  counter-increment: step;
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--navy);
+  color: var(--gold);
+  font-family: var(--font-mono);
+  font-size: .76rem;
+  font-weight: 700;
+}
+.steps li::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: 34px;
+  bottom: 4px;
+  width: 1px;
+  background: var(--line);
+}
+.steps li:last-child { padding-bottom: 0; }
+.steps li:last-child::after { display: none; }
+.steps strong { display: block; margin-bottom: 2px; }
+
+/* ---------- checklist ---------- */
+.checklist { list-style: none; margin: 18px 0 22px; padding: 0; }
+.checklist li {
+  position: relative;
+  margin: 0;
+  padding: 9px 0 9px 34px;
+  border-bottom: 1px solid var(--line);
+  font-size: .94rem;
+}
+.checklist li:last-child { border-bottom: 0; }
+.checklist li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 14px;
+  width: 17px;
+  height: 17px;
+  border: 1.5px solid var(--gold);
+  border-radius: 4px;
+  background: var(--gold-soft);
+}
+.checklist li::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 18px;
+  width: 9px;
+  height: 5px;
+  border-left: 2px solid var(--green);
+  border-bottom: 2px solid var(--green);
+  transform: rotate(-45deg);
+}
+
+/* ---------- comparação prós/contras ---------- */
+.compare { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 22px 0 28px; }
+.compare > div {
+  padding: 18px 20px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
+.compare h4 { margin-top: 0; display: flex; align-items: center; gap: 8px; }
+.compare .pro { border-top: 3px solid var(--green); }
+.compare .con { border-top: 3px solid var(--red); }
+.compare ul { margin-bottom: 0; }
+.compare .pro h4 { color: var(--green); }
+.compare .con h4 { color: var(--red); }
+
+/* ---------- destaque numérico ---------- */
+.keyfacts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; margin: 24px 0 30px; }
+.keyfact {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  text-align: center;
+}
+.keyfact b {
+  display: block;
+  margin-bottom: 4px;
+  font-family: var(--font-display);
+  font-size: 1.55rem;
+  line-height: 1.1;
+  color: var(--teal);
+}
+.keyfact span { font-size: .74rem; line-height: 1.4; color: var(--ink-faint); }
+
+/* ---------- quiz ---------- */
+.quiz { margin: 22px 0 28px; }
+.quiz details {
+  margin-bottom: 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  overflow: hidden;
+}
+.quiz details[open] { box-shadow: var(--shadow-sm); border-color: var(--line-strong); }
+.quiz summary {
+  position: relative;
+  padding: 16px 48px 16px 20px;
+  cursor: pointer;
+  font-weight: 650;
+  font-size: .94rem;
+  line-height: 1.5;
+  list-style: none;
+  user-select: none;
+}
+.quiz summary::-webkit-details-marker { display: none; }
+.quiz summary::after {
+  content: "+";
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  color: var(--gold);
+  transition: transform .2s;
+}
+.quiz details[open] summary::after { content: "−"; }
+.quiz summary:hover { background: var(--surface-2); }
+.quiz__answer {
+  padding: 0 20px 18px;
+  border-top: 1px solid var(--line);
+  background: color-mix(in srgb, var(--surface-2) 55%, transparent);
+  font-size: .92rem;
+  color: var(--ink-soft);
+}
+.quiz__answer p:first-child { margin-top: 14px; }
+.quiz__answer p:last-child { margin-bottom: 0; }
+
+/* ---------- tags ---------- */
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 0; }
+.tags span {
+  padding: 3px 9px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  font-size: .68rem;
+  font-weight: 600;
+  color: var(--ink-faint);
+  background: var(--surface-2);
+}
+
+/* ---------- conclusão do capítulo ---------- */
+.chapter-end {
+  margin-top: 52px;
+  padding: 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--gold-soft) 55%, transparent), transparent 75%),
+    var(--surface);
+}
+.chapter-end h2 { margin-bottom: 10px; font-size: 1.35rem; }
+.chapter-end h2::after { display: none; }
+.chapter-end p { color: var(--ink-soft); }
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 11px 20px;
+  border: 1px solid var(--line-strong);
+  border-radius: 99px;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: .84rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform .18s var(--ease), box-shadow .18s, background .18s, border-color .18s;
+}
+.btn:hover { transform: translateY(-1px); box-shadow: var(--shadow-sm); border-color: var(--gold); }
+.btn--primary { background: var(--navy); color: #f4f7f8; border-color: var(--navy); }
+.btn--primary:hover { background: var(--navy-2); border-color: var(--navy-2); }
+.btn--gold { background: var(--gold); color: #fffdf7; border-color: var(--gold); }
+.btn--gold:hover { background: color-mix(in srgb, var(--gold) 85%, #000); }
+.btn--done { background: var(--green-soft); color: var(--green); border-color: color-mix(in srgb, var(--green) 40%, var(--line)); }
+.btn svg { width: 16px; height: 16px; }
+
+.chapter-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 34px;
+}
+.chapter-nav a {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color .18s, transform .18s, box-shadow .18s;
+}
+.chapter-nav a:hover { border-color: var(--gold); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.chapter-nav small { font-size: .66rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
+.chapter-nav span { font-family: var(--font-display); font-weight: 700; font-size: 1rem; line-height: 1.3; }
+.chapter-nav a.next { text-align: right; align-items: flex-end; }
+
+.site-footer {
+  margin-top: 54px;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+  font-size: .74rem;
+  color: var(--ink-faint);
+  line-height: 1.6;
+}
+.site-footer p { margin: 0 0 4px; }
+
+/* ============================================================
+   INDEX
+   ============================================================ */
+.index-hero {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(52px, 9vw, 110px) 24px clamp(48px, 7vw, 88px);
+  color: #f4f7f8;
+  background:
+    radial-gradient(900px 500px at 80% 0%, rgba(67, 158, 170, .38), transparent 60%),
+    radial-gradient(700px 500px at 5% 100%, rgba(179, 135, 44, .25), transparent 65%),
+    linear-gradient(150deg, #061522 0%, #0a2438 50%, #0d3a50 100%);
+  isolation: isolate;
+}
+.index-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: .3;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, .06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .06) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(circle at 60% 40%, #000, transparent 75%);
+  -webkit-mask-image: radial-gradient(circle at 60% 40%, #000, transparent 75%);
+}
+.index-hero::after {
+  content: "";
+  position: absolute;
+  right: -120px;
+  bottom: -160px;
+  width: 520px;
+  height: 520px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, .12);
+  box-shadow: 0 0 0 60px rgba(255, 255, 255, .035), 0 0 0 130px rgba(255, 255, 255, .02);
+  z-index: -1;
+}
+.index-hero__inner { width: min(100%, 1120px); margin: 0 auto; }
+.index-hero__kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 6px 14px;
+  border: 1px solid rgba(255, 255, 255, .22);
+  border-radius: 99px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: #e7d9b4;
+  background: rgba(255, 255, 255, .05);
+}
+.index-hero__kicker::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #d9ad58;
+  box-shadow: 0 0 12px #d9ad58;
+}
+.index-hero h1 {
+  max-width: 16ch;
+  margin: 0 0 20px;
+  font-family: var(--font-display);
+  font-size: clamp(2.6rem, 6.2vw, 5rem);
+  font-weight: 700;
+  line-height: .98;
+  letter-spacing: -.035em;
+}
+.index-hero h1 em { font-style: italic; color: #e7d9b4; }
+.index-hero__lead {
+  max-width: 62ch;
+  margin: 0 0 30px;
+  font-size: clamp(1rem, 1.7vw, 1.18rem);
+  line-height: 1.65;
+  color: #c9d8df;
+}
+.index-hero__actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.index-hero .btn--ghost {
+  background: transparent;
+  color: #e9eff2;
+  border-color: rgba(255, 255, 255, .32);
+}
+.index-hero .btn--ghost:hover { background: rgba(255, 255, 255, .08); border-color: #d9ad58; }
+.index-hero__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 46px;
+  margin-top: 44px;
+  padding-top: 26px;
+  border-top: 1px solid rgba(255, 255, 255, .15);
+}
+.index-hero__stats div { display: flex; flex-direction: column; gap: 2px; }
+.index-hero__stats b { font-family: var(--font-display); font-size: 1.7rem; line-height: 1; color: #e7d9b4; }
+.index-hero__stats span { font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: #9fb4bf; }
+
+.index-main { width: min(100% - 48px, 1120px); margin: 0 auto; padding: 50px 0 90px; }
+
+.index-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.index-toolbar h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  letter-spacing: -.01em;
+}
+.search {
+  position: relative;
+  flex: 0 1 320px;
+}
+.search input {
+  width: 100%;
+  padding: 11px 16px 11px 42px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: .88rem;
+  box-shadow: var(--shadow-sm);
+}
+.search input::placeholder { color: var(--ink-faint); }
+.search svg {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 17px;
+  height: 17px;
+  color: var(--ink-faint);
+  pointer-events: none;
+}
+
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 30px; }
+.filter-chip {
+  padding: 7px 14px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  background: var(--surface);
+  color: var(--ink-soft);
+  font-family: var(--font-body);
+  font-size: .76rem;
+  font-weight: 650;
+  cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.filter-chip:hover { border-color: var(--gold); color: var(--ink); }
+.filter-chip[aria-pressed="true"] {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: #f4f7f8;
+}
+
+.parts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 18px; }
+
+.part-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px 22px 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  color: var(--ink);
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform .2s var(--ease), box-shadow .2s, border-color .2s;
+}
+.part-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--teal), var(--gold));
+  opacity: 0;
+  transition: opacity .2s;
+}
+.part-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: var(--line-strong); }
+.part-card:hover::before { opacity: 1; }
+.part-card__top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.part-card__num {
+  font-family: var(--font-mono);
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  color: var(--gold);
+}
+.part-card__module {
+  font-size: .62rem;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.part-card h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.28rem;
+  line-height: 1.2;
+  letter-spacing: -.01em;
+}
+.part-card p { margin: 0; font-size: .84rem; line-height: 1.55; color: var(--ink-soft); }
+.part-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: .7rem;
+  color: var(--ink-faint);
+}
+.part-card__meta span { display: inline-flex; align-items: center; gap: 5px; }
+.part-card__meta svg { width: 13px; height: 13px; }
+.part-card.is-done { border-color: color-mix(in srgb, var(--green) 40%, var(--line)); }
+.part-card.is-done .part-card__num { color: var(--green); }
+.done-badge {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  display: none;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 99px;
+  background: var(--green-soft);
+  color: var(--green);
+  font-size: .6rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.part-card.is-done .done-badge { display: inline-flex; }
+
+.no-results {
+  display: none;
+  padding: 40px;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-md);
+  text-align: center;
+  color: var(--ink-faint);
+}
+.no-results.is-visible { display: block; }
+
+.index-note {
+  margin-top: 42px;
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-2);
+  font-size: .82rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+.index-note strong { color: var(--ink); }
+.index-note p { margin: 0 0 8px; }
+.index-note p:last-child { margin: 0; }
+
+/* ---------- animação de entrada ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal { animation: rise .6s var(--ease) both; }
+  .reveal:nth-child(2) { animation-delay: .04s; }
+  .reveal:nth-child(3) { animation-delay: .08s; }
+  .reveal:nth-child(4) { animation-delay: .12s; }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+/* ---------- responsivo ---------- */
+@media (max-width: 1120px) {
+  :root { --sidebar-w: 280px; }
+  .toc-card { grid-template-columns: 1fr; gap: 16px; }
+}
+
+@media (max-width: 1024px) {
+  .content { width: min(100% - 36px, var(--content-w)); padding-top: 26px; }
+  .grid-3, .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 640px) {
+  body { font-size: 16px; }
+  .content { width: calc(100% - 28px); }
+  .part-hero { border-radius: var(--radius-md); padding: 26px 22px; }
+  .part-hero h1 { font-size: clamp(1.85rem, 8vw, 2.5rem); }
+  .part-hero__num { font-size: 7rem; right: 8px; }
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .compare { grid-template-columns: 1fr; }
+  .chapter-nav { grid-template-columns: 1fr; }
+  .chapter-nav a.next { text-align: left; align-items: flex-start; }
+  .toc-card ol { columns: 1; }
+  .index-main { width: calc(100% - 32px); }
+  .index-toolbar { align-items: stretch; }
+  .search { flex-basis: 100%; }
+  .parts-grid { grid-template-columns: 1fr; }
+  .topbar { padding: 0 14px; gap: 8px; }
+  .brand span { display: none; }
+  .brand small { display: none; }
+  .table-wrap table { min-width: 520px; }
+  .table-wrap th { white-space: nowrap; }
+}
+
+/* ---------- impressão ---------- */
+@media print {
+  :root { --bg: #fff; --surface: #fff; --surface-2: #f6f4ef; --ink: #111; --ink-soft: #333; --ink-faint: #666; --line: #ccc; }
+  body { font-size: 11.5pt; background: #fff; }
+  .topbar, .sidebar, .scrim, .read-progress, .chapter-nav, .chapter-end .btn, .hero-tags, .index-toolbar, .filters, .index-hero__actions { display: none !important; }
+  .layout { display: block; }
+  .content { width: 100%; max-width: none; padding: 0; }
+  .part-hero { color: #111; background: #fff !important; border: 1px solid #ccc; box-shadow: none; padding: 24px; }
+  .part-hero::before, .part-hero::after, .part-hero__num { display: none; }
+  .part-hero h1 { color: #111; }
+  .part-hero__subtitle, .part-hero__meta { color: #333; }
+  .part-hero__meta { border-top-color: #ccc; }
+  .part-hero__kicker { color: #555; border-color: #ccc; background: none; }
+  .part-hero__meta a { color: #333; }
+  .section { break-inside: auto; }
+  .callout, .def, .figure, .example, .quiz details, .table-wrap { break-inside: avoid; }
+  .quiz details { border: 1px solid #ccc; }
+  .quiz__answer { display: block; }
+  .quiz summary::after { display: none; }
+  a { color: inherit; text-decoration: none; }
+  .anchor { display: none; }
+  .source-line, .src { color: #555; }
+}
+
+  </style>
+  <script>
+  (() => {
+    try {
+      const stored = localStorage.getItem("apostila-praticagem-tema");
+      const dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.setAttribute("data-theme", stored || (dark ? "dark" : "light"));
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body class="part-page" data-part="12-borda-livre-estabilidade">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="read-progress" aria-hidden="true"></div>
+  
+  
+    <header class="topbar">
+      <button class="icon-btn nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="sumario" aria-label="Abrir sumário"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <a class="brand" href="../index.html">
+        <span class="brand__mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.2"/><path d="M12 3.8v2M12 18.2v2M3.8 12h2M18.2 12h2"/><path d="M14.9 9.1l-1.6 4.2-4.2 1.6 1.6-4.2 4.2-1.6Z"/></svg></span>
+        <span>Apostila de Praticagem<small>Estudos para o prático</small></span>
+      </a>
+      <div class="topbar__spacer"></div>
+      <span class="topbar__label">Capítulo 12 de 28</span>
+      <button class="icon-btn" type="button" data-print title="Imprimir / salvar em PDF" aria-label="Imprimir ou salvar em PDF"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 8V3h10v5"/><rect x="4" y="8" width="16" height="9" rx="2"/><path d="M7 14h10v7H7z"/></svg></button>
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Alternar tema"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg></button>
+    </header>
+  <div class="layout">
+    
+      <aside class="sidebar" id="sumario">
+        <p class="sidebar__eyebrow">Sumário da apostila</p>
+        <div class="sidebar__group"><p class="sidebar__group-title">Fundamentos de Arquitetura Naval</p><ul class="part-nav"><li><a href="01-resistencia.html" data-part-id="01-resistencia"><span class="part-nav__num">01</span><span>Resistência ao Avanço</span></a></li><li><a href="02-propulsao.html" data-part-id="02-propulsao"><span class="part-nav__num">02</span><span>Propulsão</span></a></li><li><a href="03-governo-manobrabilidade.html" data-part-id="03-governo-manobrabilidade"><span class="part-nav__num">03</span><span>Governo e Manobrabilidade</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Manobra e Rebocadores</p><ul class="part-nav"><li><a href="04-shiphandling.html" data-part-id="04-shiphandling"><span class="part-nav__num">04</span><span>Shiphandling: Fundamentos e Manobras</span></a></li><li><a href="05-interacao-squat-rebocadores.html" data-part-id="05-interacao-squat-rebocadores"><span class="part-nav__num">05</span><span>Interação, Squat e Rebocadores</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Navegação e Arte Naval</p><ul class="part-nav"><li><a href="06-radar.html" data-part-id="06-radar"><span class="part-nav__num">06</span><span>Radar e Navegação Radar</span></a></li><li><a href="07-arte-naval.html" data-part-id="07-arte-naval"><span class="part-nav__num">07</span><span>Arte Naval</span></a></li><li><a href="08-btm-cis.html" data-part-id="08-btm-cis"><span class="part-nav__num">08</span><span>Bridge Team Management e CIS</span></a></li><li><a href="09-ripeam.html" data-part-id="09-ripeam"><span class="part-nav__num">09</span><span>RIPEAM / COLREGS</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Regulamentação e Segurança</p><ul class="part-nav"><li><a href="10-legislacao-tribunal.html" data-part-id="10-legislacao-tribunal"><span class="part-nav__num">10</span><span>Legislação e Tribunal Marítimo</span></a></li><li><a href="11-sinalizacao-nautica.html" data-part-id="11-sinalizacao-nautica"><span class="part-nav__num">11</span><span>Sinalização Náutica e IALA</span></a></li><li><a href="12-borda-livre-estabilidade.html" class="is-active" aria-current="page" data-part-id="12-borda-livre-estabilidade"><span class="part-nav__num">12</span><span>Borda-Livre e Estabilidade</span></a></li><li><a href="13-trafego-certificacao-praticagem.html" data-part-id="13-trafego-certificacao-praticagem"><span class="part-nav__num">13</span><span>Tráfego, Certificação e Praticagem</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Operações e Meteorologia</p><ul class="part-nav"><li><a href="14-cerimonial-sar.html" data-part-id="14-cerimonial-sar"><span class="part-nav__num">14</span><span>Cerimonial, Roteiro e SAR</span></a></li><li><a href="15-meteorologia.html" data-part-id="15-meteorologia"><span class="part-nav__num">15</span><span>Meteorologia e Marés</span></a></li><li><a href="16-auxilios-gmdss.html" data-part-id="16-auxilios-gmdss"><span class="part-nav__num">16</span><span>Auxílios Eletrônicos e GMDSS</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Programa NORMAM-311 (Anexos 2-A/2-B)</p><ul class="part-nav"><li><a href="p1-manobrabilidade.html" data-part-id="p1-manobrabilidade"><span class="part-nav__num">I</span><span>Área I — Manobrabilidade do Navio</span></a></li><li><a href="p2-arte-naval.html" data-part-id="p2-arte-naval"><span class="part-nav__num">II</span><span>Área II — Arte Naval</span></a></li><li><a href="p3-navegacao-restrita.html" data-part-id="p3-navegacao-restrita"><span class="part-nav__num">III</span><span>Área III — Navegação em Águas Restritas</span></a></li><li><a href="p4-legislacao.html" data-part-id="p4-legislacao"><span class="part-nav__num">IV</span><span>Área IV — Legislação e Regulamentação</span></a></li><li><a href="p5-meteorologia.html" data-part-id="p5-meteorologia"><span class="part-nav__num">V</span><span>Área V — Meteorologia e Oceanografia</span></a></li><li><a href="p6-comunicacoes.html" data-part-id="p6-comunicacoes"><span class="part-nav__num">VI</span><span>Área VI — Comunicações</span></a></li><li><a href="p7-conhecimentos-gerais.html" data-part-id="p7-conhecimentos-gerais"><span class="part-nav__num">VII</span><span>Área VII — Conhecimentos Gerais</span></a></li><li><a href="p1-manobrabilidade-resistencia.html" data-part-id="p1-manobrabilidade-resistencia"><span class="part-nav__num">I.1</span><span>Área I — Manobrabilidade do Navio: Resistência</span></a></li><li><a href="p1-manobrabilidade-propulsao.html" data-part-id="p1-manobrabilidade-propulsao"><span class="part-nav__num">I.2</span><span>Área I — Manobrabilidade do Navio: Propulsão</span></a></li><li><a href="p1-manobrabilidade-lemes.html" data-part-id="p1-manobrabilidade-lemes"><span class="part-nav__num">I.3</span><span>Área I — Manobrabilidade do Navio: Superfícies de Controle</span></a></li><li><a href="p1-manobrabilidade-controlabilidade.html" data-part-id="p1-manobrabilidade-controlabilidade"><span class="part-nav__num">I.4</span><span>Área I — Manobrabilidade do Navio: Controlabilidade</span></a></li><li><a href="p1-manobrabilidade-ambiente.html" data-part-id="p1-manobrabilidade-ambiente"><span class="part-nav__num">I.5</span><span>Área I — Manobrabilidade do Navio: Ambiente e Interações</span></a></li></ul></div>
+        <div class="sidebar__progress">
+          <p><span>Seu progresso</span> <strong><span data-progress-total="28">00</span>/28</strong></p>
+          <div class="bar"><div class="bar__fill"></div></div>
+        </div>
+      </aside>
+      <div class="scrim"></div>
+    <main class="main" id="conteudo">
+      <div class="content">
+        <nav class="breadcrumb" aria-label="Trilha de navegação">
+          <a href="../index.html">Apostila</a>
+          <span aria-hidden="true">/</span>
+          <span>Regulamentação e Segurança</span>
+          <span aria-hidden="true">/</span>
+          <span>Capítulo 12</span>
+        </nav>
+
+        <header class="part-hero">
+          <span class="part-hero__num" aria-hidden="true">12</span>
+          <span class="part-hero__kicker">NORMAM 01 · Estabilidade</span>
+          <h1>Borda-Livre e Estabilidade</h1>
+          <p class="part-hero__subtitle">NORMAM 01, borda-livre, estabilidade intacta, critérios, prova de estabilidade, avaria e alagamento.</p>
+          <div class="hero-tags"><span>borda-livre</span><span>estabilidade</span><span>GM</span><span>critérios</span><span>prova de estabilidade</span><span>avaria</span></div>
+          <div class="part-hero__meta">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5v-16Z"/><path d="M4 18.5A2.5 2.5 0 0 1 6.5 16H20"/></svg> pp. 283–296 da fonte</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 1.8"/></svg> ~19 min de leitura</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h7l9 9-7 7-9-9V4Z"/><circle cx="8.2" cy="8.2" r="1.3"/></svg> Regulamentação e Segurança</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></svg> <a href="../../resumo%20curso%20h.pdf#page=283" target="_blank" rel="noopener">abrir PDF original</a></span>
+          </div>
+        </header>
+        
+      <nav class="toc-card" aria-label="Neste capítulo">
+        <div>
+          <h2>Neste capítulo</h2>
+          <p>12 seções · leitura estimada de 19 min</p>
+        </div>
+        <ol><li><a href="#borda-livre-e-estabilidade-por-que-o-casco-pode-e-deve-flutuar">Borda-livre e estabilidade: por que o casco “pode” e “deve” flutuar</a></li><li><a href="#aplicacao-da-norma-e-definicoes-fundamentais">Aplicação da norma e definições fundamentais</a></li><li><a href="#marcas-de-borda-livre-e-disco-de-plimsoll">Marcas de borda-livre e disco de Plimsoll</a></li><li><a href="#requisitos-tecnicos-para-embarcacoes-nao-solas-e-determinacao-da-bl">Requisitos técnicos para embarcações não SOLAS e determinação da BL</a></li><li><a href="#curvas-de-estabilidade-e-efeito-de-superficie-livre">Curvas de estabilidade e efeito de superfície livre</a></li><li><a href="#condicoes-de-carregamento-por-tipo-de-embarcacao">Condições de carregamento por tipo de embarcação</a></li><li><a href="#criterios-de-estabilidade-intacta">Critérios de estabilidade intacta</a></li><li><a href="#prova-de-inclinacao-inclining-test-preparacao-e-execucao">Prova de inclinação (inclining test): preparação e execução</a></li><li><a href="#compartimentagem-anteparas-estanques-e-controle-de-alagamento">Compartimentagem, anteparas estanques e controle de alagamento</a></li><li><a href="#precaucoes-contra-emborcamento-e-erros-comuns">Precauções contra emborcamento e erros comuns</a></li><li><a href="#pontos-chave-para-levar-ao-passadico">Pontos-chave para levar ao passadiço</a></li><li><a href="#perguntas-para-fechar-o-capitulo">Perguntas para fechar o capítulo</a></li></ol>
+      </nav>
+
+        <article class="chapter-body">
+<section class="section" id="abertura-borda-livre">
+  <p class="section-kicker">Abertura</p>
+  <h2 id="borda-livre-e-estabilidade-por-que-o-casco-pode-e-deve-flutuar">Borda-livre e estabilidade: por que o casco “pode” e “deve” flutuar</h2>
+  <p class="lead">Borda-livre (<em>freeboard</em>) e estabilidade intacta são duas faces da mesma decisão de segurança: quanta reserva de flutuabilidade o navio mantém acima d’água e quanta capacidade ele tem de se endireitar quando inclina. A fonte desta síntese é a NORMAM 01/DPC (Capítulo 7, pp. 283–296), organizada para estudo.</p>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Aviso</span>
+    <p>Normas, procedimentos, valores e formulários podem ter sido alterados após a edição de referência. Este capítulo é <strong>síntese de estudo</strong> baseada no material indicado, não substitui a norma vigente nem documentos oficiais.</p>
+  </div>
+
+  <div class="grid-3">
+    <div class="card card--accent">
+      <span class="card__num">01</span>
+      <h3 id="limite-de-carregamento">Limite de carregamento</h3>
+      <p>Relacionar marcas, linha de convés e disco de Plimsoll ao calado máximo seguro.</p>
+    </div>
+    <div class="card card--teal">
+      <span class="card__num">02</span>
+      <h3 id="capacidade-de-endireitar">Capacidade de endireitar</h3>
+      <p>Interpretar curva de estabilidade estática (GZ), critérios numéricos e efeitos que degradam a estabilidade.</p>
+    </div>
+    <div class="card">
+      <span class="card__num">03</span>
+      <h3 id="integridade-e-prova">Integridade e prova</h3>
+      <p>Compreender compartimentagem, estanqueidade, prova de inclinação e cuidados operacionais.</p>
+    </div>
+  </div>
+  <p class="source-line">pp. 283–296</p>
+</section>
+
+<section class="section" id="aplicacao-definicoes">
+  <p class="section-kicker">Escopo e vocabulário</p>
+  <h2 id="aplicacao-da-norma-e-definicoes-fundamentais">Aplicação da norma e definições fundamentais</h2>
+  <p>A NORMAM 01/DPC aplica-se, em geral, às embarcações brasileiras destinadas à navegação em mar aberto, exceto as de esporte/recreio e as da Marinha do Brasil. Navegação em mar aberto é aquela realizada em águas consideradas desabrigadas. Serviços prestados pela Autoridade Marítima (vistorias, análises, pareceres, perícias etc.) podem gerar despesas a serem indenizadas na solicitação, com isenções previstas para navios do Estado brasileiro. <span class="src">p. 283</span></p>
+
+  <div class="def">
+    <span class="def__term">Borda-livre (BL / <em>freeboard</em>)</span>
+    <p>Reserva vertical entre a água e o convés de borda-livre, materializada por marcas no costado. Determina o calado máximo admissível para a condição e área consideradas, assegurando flutuabilidade, reserva de estabilidade e proteção contra embarque de água.</p>
+  </div>
+  <div class="def">
+    <span class="def__term">Estanque ao tempo (<em>weathertight</em>) e estanque à água (<em>watertight</em>)</span>
+    <p>Condições de vedação verificadas por ensaios distintos (por exemplo, fechamento com a mão e jato/borrifo, conforme o caso), sem vazamentos. A distinção é crucial para aberturas, portas, tampas e dispositivos de ventilação. <span class="src">p. 283</span></p>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Aplicação das regras do Capítulo 7 (síntese da fonte)</caption>
+      <thead>
+        <tr><th>Tema</th><th>Aplicação principal (conforme fonte)</th><th>Observações / isenções citadas</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Atribuição de BL</strong></td><td>Embarcações que solicitem emissão de Certificado Nacional ou Internacional de BL após fev/97; já construídas ou com modificações de vulto que exijam reavaliação após mai/97; ou anteriores por solicitação.</td><td>Isenções citadas: comp. de regra (L) &lt; 20 m; AB &lt; 50; esporte/recreio e guerra. Possibilidade de isenção pela DPC para novos dispositivos, a critério. <span class="src">p. 283</span></td>
+        </tr>
+        <tr><td><strong>Estabilidade intacta</strong></td><td>Regras de verificação aplicáveis a embarcações de mar aberto construídas após jun/98.</td><td>Condições, cálculos e critérios detalhados na Seção VI. <span class="src">p. 283</span></td>
+        </tr>
+        <tr><td><strong>Compartimentagem</strong></td><td>Embarcações de passageiros de AB &gt; 50 construídas após jun/98 (anteriores: atender na 1ª Vistoria de Renovação); AB &gt; 50 reclassificadas como passageiro; passageiros com alterações de vulto, a critério da DPC.</td><td>Anteparas, aberturas e acessos conforme Seção VIII. <span class="src">p. 283, 293</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Outras definições operacionais preservadas na fonte incluem: comprimento total (extremos de proa e popa, sem mastro de proa de veleiros), passageiro, embarcação de passageiros (mais de 12 passageiros), embarcação de carga, barcaça (não tripulada, não propulsada, boca/calado &gt; 6, boca/pontal &gt; 3) e ângulo de alagamento (submersão de aberturas que não podem ser fechadas/tornadas estanques ao tempo, excluídas pequenas aberturas sem alagamento progressivo). <span class="src">p. 283</span></p>
+  <p class="source-line">pp. 283–284</p>
+</section>
+
+<section class="section" id="marcas-plimsoll">
+  <p class="section-kicker">Marcação no costado</p>
+  <h2 id="marcas-de-borda-livre-e-disco-de-plimsoll">Marcas de borda-livre e disco de Plimsoll</h2>
+  <p>As marcas transformam o cálculo de borda-livre em referência visível no costado. Para embarcações “não SOLAS”, a NORMAM 01 descreve dimensões, posições e condições de visibilidade das marcas. Embarcações SOLAS seguem a Convenção Internacional de Linhas de Carga (CILC) e seus requisitos de cálculo, vistorias e marcação. <span class="src">p. 283–285</span></p>
+
+  <figure class="figure">
+    <svg viewBox="0 0 640 300" role="img" aria-labelledby="plimsoll-title plimsoll-desc">
+      <title id="plimsoll-title">Esquema simplificado das marcas de borda-livre</title>
+      <desc id="plimsoll-desc">Representação esquemática do costado com linha de convés, disco de Plimsoll cruzado por linha horizontal, marca da autoridade e marca de água doce, indicando posições relativas descritas na fonte.</desc>
+      <rect x="40" y="40" width="560" height="220" rx="8" fill="var(--surface-2)" stroke="var(--line-strong)" stroke-width="1.5"/>
+      <path d="M40 120 H600" class="diagram-line" stroke-dasharray="6 4"/>
+      <text x="55" y="110" class="diagram-label">nível d’água (referência)</text>
+      <!-- Deck line -->
+      <rect x="120" y="70" width="300" height="12" fill="var(--navy-2)"/>
+      <text x="430" y="80" class="diagram-label diagram-label--strong">Linha de Convés 300×25 mm</text>
+      <line x1="270" y1="76" x2="270" y2="160" class="diagram-accent" stroke-width="2"/>
+      <text x="282" y="140" class="diagram-label">distância = BL atribuída</text>
+      <!-- Plimsoll disk -->
+      <circle cx="270" cy="190" r="34" fill="none" stroke="var(--gold)" stroke-width="10"/>
+      <line x1="200" y1="190" x2="340" y2="190" class="diagram-gold" stroke-width="10"/>
+      <text x="360" y="195" class="diagram-label diagram-label--strong">Disco de Plimsoll (ø ext. 180 mm)</text>
+      <!-- Authority marks -->
+      <text x="210" y="170" class="diagram-label diagram-label--strong" font-size="22">C</text>
+      <text x="318" y="170" class="diagram-label diagram-label--strong" font-size="22">P</text>
+      <text x="360" y="165" class="diagram-label">Marcas da autoridade (ex.: C P)</text>
+      <!-- Fresh water mark -->
+      <line x1="450" y1="150" x2="450" y2="230" class="diagram-accent" stroke-width="4"/>
+      <line x1="430" y1="150" x2="470" y2="150" class="diagram-accent" stroke-width="4"/>
+      <line x1="430" y1="230" x2="470" y2="230" class="diagram-accent" stroke-width="4"/>
+      <text x="480" y="195" class="diagram-label">Marca de Água Doce (AD)</text>
+    </svg>
+    <figcaption><b>Figura 1.</b> Esquema didático das marcas descritas para embarcações não SOLAS: linha de convés, disco de Plimsoll com linha horizontal passando pelo centro, letras da autoridade e marca de água doce. Dimensões e posições conforme fonte. <span class="src">p. 285</span></figcaption>
+  </figure>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Marcas e detalhes principais (NORMAM 01, embarcações não SOLAS)</caption>
+      <thead>
+        <tr><th>Marca</th><th>Descrição / dimensões citadas</th><th>Posição / observações</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Linha de Convés</strong></td><td>300 × 25 mm (12" × 1").</td><td>Ambos os bordos, meia-nau; aresta superior na interseção do prolongamento da face superior do convés de BL com a face externa do costado (ajustes previstos para bordas arredondadas ou convés descontínuo). <span class="src">p. 285</span></td>
+        </tr>
+        <tr><td><strong>Marca de Linha de Carga (Disco de Plimsoll)</strong></td><td>Anel de 180 mm (diâm. externo) e 25 mm de largura, cruzado por linha horizontal de 300 × 25 mm, cuja face superior passa pelo centro.</td><td>Centro à meia-nau, a uma distância vertical abaixo da aresta superior da Linha de Convés igual à BL atribuída. Para BL &lt; 120 mm, marcar apenas a parte inferior do anel (conforme fonte). <span class="src">p. 285</span></td>
+        </tr>
+        <tr><td><strong>Autoridade responsável</strong></td><td>Letras C e P (35 × 25 mm) quando atribuída por CP/CF/DL/GEVI; letras da entidade quando por Sociedade Classificadora ou Entidade Especializada.</td><td>À esquerda e à direita da marca de linha de carga, acima da linha horizontal. <span class="src">p. 285</span></td>
+        </tr>
+        <tr><td><strong>Marca de Água Doce</strong></td><td>Duas linhas horizontais (300 mm) e uma vertical (650 mm à vante do centro do disco, unindo as horizontais).</td><td>Distância vertical entre horizontais = correção para navegação em água doce. <span class="src">p. 285</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Na prática</span>
+    <p>Marcas devem ser permanentes (soldadas ou buriladas em aço), pintadas em cores contrastantes (branco/amarelo em fundo escuro; preto em fundo claro) e facilmente visíveis. Qualquer arranjo especial para visibilidade depende de critério da autoridade competente. <span class="src">p. 285</span></p>
+  </div>
+  <p class="source-line">p. 285</p>
+</section>
+
+<section class="section" id="requisitos-bl">
+  <p class="section-kicker">Proteção de aberturas</p>
+  <h2 id="requisitos-tecnicos-para-embarcacoes-nao-solas-e-determinacao-da-bl">Requisitos técnicos para embarcações não SOLAS e determinação da BL</h2>
+  <p>Antes de falar em número de milímetros de borda-livre, a norma exige que o casco e as superestruturas mantenham estanqueidade compatível. A fonte lista requisitos para portas externas, aberturas no convés de borda-livre, aberturas no costado, saídas d’água, suspiros, dispositivos de ventilação/exaustão, descargas e proteção da tripulação. <span class="src">p. 284</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Exemplos de requisitos citados (valores conforme fonte)</caption>
+      <thead>
+        <tr><th>Item</th><th>Exigência citada</th><th>Referência</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Portas externas de acesso</td><td>Soleira de 380 mm de altura mínima.</td><td><span class="src">p. 284</span></td></tr>
+        <tr><td>Escotilhões no CBL</td><td>Braçola mínima de 380 mm (150 mm em outros conveses) e tampa com atracadores permanentes.</td><td><span class="src">p. 284</span></td></tr>
+        <tr><td>Escotilhas</td><td>Braçola mínima de 600 mm (150 mm em outros conveses), com ressalvas de critério da autoridade.</td><td><span class="src">p. 284</span></td></tr>
+        <tr><td>Aberturas no costado</td><td>Aresta inferior mínima a 500 mm acima da linha d’água carregada, em qualquer trim, com tampas <em>watertight</em> ou vigias/olhos de boi conforme requisitos.</td><td><span class="src">p. 284</span></td></tr>
+        <tr><td>Suspiros externos acima do CBL</td><td>Fechamento <em>weathertight</em>; no CBL, distância entre ponto inferior do pescoço e convés ≥ 750 mm (450 mm em outros conveses), com isenções para certos tanques conforme fonte.</td><td><span class="src">p. 284</span></td></tr>
+        <tr><td>Proteção da tripulação</td><td>Balaustradas ou bordas falsas &gt; 1 metro nas partes expostas; abertura inferior &lt; 230 mm; demais vãos &lt; 380 mm; passagem desobstruída de proa a popa com ao menos 80 cm (não sobre tampas de escotilhas).</td><td><span class="src">p. 284</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="altura-minima-de-proa-e-calculo-da-bl-nao-solas">Altura mínima de proa e cálculo da BL (não SOLAS)</h3>
+  <p>A altura mínima de proa (Hp) não deve ser inferior ao valor obtido por fórmulas em função do comprimento total, medida na perpendicular de vante a partir da linha d’água de projeto até o convés exposto definido (CBL ou convés de castelo de proa fechado e <em>weathertight</em>, conforme condições). A BL mínima é a distância vertical, medida na meia-nau, entre a face superior do trincaniz do CBL e uma linha de flutuação paralela à linha d’água de projeto que intercepta a PP de vante no ponto correspondente à Hp. <span class="src">p. 285</span></p>
+
+  <div class="formula">
+    <span class="formula__expr">ΔD = (D − BL) / 48 &nbsp; (mm)</span>
+    <span class="formula__where"><b>ΔD</b> correção para navegação em água doce; <b>D</b> pontal para BL (mm); <b>BL</b> borda-livre mínima (mm). A fonte indica ainda aproximação: ΔD ≈ calado máx / 48. <span class="src">p. 285</span></span>
+  </div>
+
+  <ul class="checklist">
+    <li>Corrigir posição da linha de convés quando a marca não puder ficar na posição regular.</li>
+    <li>Valor mínimo da BL: 100 mm (exceto em função da correção de posição da linha de convés).</li>
+    <li>Verificar resistência estrutural e estabilidade intacta no calado correspondente à BL mínima; aumentar BL se exceder calado máximo do projeto ou se necessário para posição de aberturas no costado.</li>
+  </ul>
+
+  <div class="callout callout--info">
+    <span class="callout__label">Certificação</span>
+    <p>Embarcações SOLAS podem ter Certificado Internacional de BL (CIBL) conforme CILC, emitido por Sociedade Classificadora, com validade máxima de 5 anos. Embarcações não SOLAS sujeitas à atribuição podem ter Certificado Nacional de BL, também com validade máxima de 5 anos, com procedimentos de cálculo, vistoria, inspeção anual e perda/renovação conforme Seções IV e V. <span class="src">p. 286</span></p>
+  </div>
+  <p class="source-line">pp. 284–286</p>
+</section>
+
+<section class="section" id="curvas-superficie-livre">
+  <p class="section-kicker">Estabilidade intacta</p>
+  <h2 id="curvas-de-estabilidade-e-efeito-de-superficie-livre">Curvas de estabilidade e efeito de superfície livre</h2>
+  <p>As curvas hidrostáticas e as curvas cruzadas de estabilidade são normalmente elaboradas para flutuação paralela; quando trim de projeto, formas ou arranjo afetarem significativamente os braços de endireitamento, a variação de trim deve ser considerada. Os cálculos consideram o volume até a face superior do revestimento do convés (em navios de madeira, superfície externa do casco). Superestruturas e estruturas acima do CBL consideradas no cálculo devem ser especificadas, informando até que ângulo de inclinação contribuem. <span class="src">p. 287</span></p>
+
+  <figure class="figure">
+    <svg viewBox="0 0 700 320" role="img" aria-labelledby="gz-title gz-desc">
+      <title id="gz-title">Curva de estabilidade estática GZ esquemática</title>
+      <desc id="gz-desc">Gráfico esquemático com eixo horizontal de ângulo de inclinação de zero a sessenta graus e eixo vertical do braço de endireitamento GZ em metros, mostrando curva ascendente até máximo e depois decrescente, com marcações de áreas e ângulos citados nos critérios.</desc>
+      <defs>
+        <marker id="arrow-gz" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--line-strong)"/>
+        </marker>
+      </defs>
+      <line x1="70" y1="260" x2="650" y2="260" class="diagram-line" marker-end="url(#arrow-gz)"/>
+      <line x1="70" y1="260" x2="70" y2="30" class="diagram-line" marker-end="url(#arrow-gz)"/>
+      <text x="640" y="285" class="diagram-label">θ (graus)</text>
+      <text x="20" y="40" class="diagram-label">GZ (m)</text>
+      <path d="M70 260 C 140 240, 200 150, 320 90 C 420 45, 480 70, 560 170 C 590 210, 610 235, 630 255" fill="none" class="diagram-accent" stroke-width="3"/>
+      <line x1="70" y1="260" x2="630" y2="255" stroke="none" fill="none"/>
+      <path d="M70 260 C 140 240, 200 150, 320 90 C 420 45, 480 70, 560 170 C 590 210, 610 235, 630 255 L 630 260 Z" fill="var(--teal-soft)" opacity="0.5"/>
+      <line x1="250" y1="260" x2="250" y2="135" class="diagram-gold" stroke-dasharray="4 4"/>
+      <text x="252" y="275" class="diagram-label">30°</text>
+      <line x1="370" y1="260" x2="370" y2="80" class="diagram-gold" stroke-dasharray="4 4"/>
+      <text x="372" y="275" class="diagram-label">40°</text>
+      <text x="330" y="60" class="diagram-label diagram-label--strong">GZ máx (&gt; 25°)</text>
+      <text x="200" y="220" class="diagram-label">área 0°–30° ≥ 0,055 m·rad</text>
+      <text x="380" y="210" class="diagram-label">área 30°–40° ≥ 0,030 m·rad</text>
+    </svg>
+    <figcaption><b>Figura 2.</b> Curva de estabilidade estática (GZ) esquemática, ilustrando braços de endireitamento, áreas sob a curva e ângulos de referência usados nos critérios da fonte. Valores e condições exatos dependem do tipo de embarcação. <span class="src">p. 289</span></figcaption>
+  </figure>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Ângulo de alagamento</span>
+    <p>Quando a embarcação puder naufragar por alagamento através de qualquer abertura, a curva de estabilidade estática deve ser interrompida no ângulo de alagamento, considerando-se perda completa da estabilidade. Superestruturas que não atendam requisitos de superestrutura fechada podem ser consideradas até o ângulo em que suas aberturas submergem. <span class="src">p. 287</span></p>
+  </div>
+
+  <h3 id="efeito-de-superficie-livre-free-surface-effect">Efeito de superfície livre (<em>free surface effect</em>)</h3>
+  <p>Para todas as condições de carregamento, a altura metacêntrica inicial e as curvas de estabilidade estática devem ser corrigidas pelo efeito de superfície livre dos tanques. Consideram-se tanques singelos ou combinações que possam simultaneamente ter superfícies livres; na determinação, usam-se tanques com maior Momento de Superfície Livre (MSL) a 30° de inclinação quando com 50% da capacidade total. <span class="src">p. 287</span></p>
+  <p>Tanques que não precisam ser computados no MSL, conforme a fonte: completamente cheios (incluindo os cheios exceto margem de expansão), vazios (desconsiderando resíduos não aspiráveis) e tanques pequenos cujo MSL em qualquer inclinação seja &lt; 1% do deslocamento mínimo da embarcação (toneladas). Programas autorizados pela DPC que equilibram o líquido e fornecem posição exata do CG em cada inclinação podem substituir o procedimento simplificado. <span class="src">p. 287</span></p>
+  <p class="source-line">p. 287</p>
+</section>
+
+<section class="section" id="condicoes-carregamento">
+  <p class="section-kicker">Cenários de análise</p>
+  <h2 id="condicoes-de-carregamento-por-tipo-de-embarcacao">Condições de carregamento por tipo de embarcação</h2>
+  <p>A avaliação deve cobrir as condições que o proprietário pretende operar e, adicionalmente, condições-padrão por tipo de serviço. Na carga total de partida, supõe-se carregamento até a marca de BL de verão (CIBL), marca de BL (CNBL) ou calado máximo permissível (isentas). Carga homogênea é assumida salvo inconsistência com o serviço; lastro de água, quando necessário, deve ser especificado. <span class="src">p. 288</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Condições mínimas de carregamento citadas na fonte</caption>
+      <thead>
+        <tr><th>Tipo</th><th>Condições (síntese)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Passageiros</strong></td><td>1) Carga total de partida, gêneros/combustível completos, máx. passageiros e bagagens; 2) idem sem passageiros; 3) regresso com 10% gêneros/combustível, máx. passageiros e bagagens; 4) idem sem passageiros; 5) sem carga, gêneros/óleo completos, máx. passageiros e bagagens; 6) sem carga, 10% gêneros/óleo, máx. passageiros e bagagens. Peso por passageiro 75 kg (CG a 1 m acima do convés em pé/redes ou 0,3 m acima do assento); bagagem 25 kg/passageiro (reduzível com justificativa). <span class="src">p. 288</span></td>
+        </tr>
+        <tr><td><strong>Carga</strong></td><td>1) Partida carga total homogênea, gêneros/combustível completos; 2) chegada carga total, 10% gêneros/combustível; 3) partida sem carga, completos; 4) chegada sem carga, 10%. Em navios de carga seca com tanques de carga líquida, avaliar tanques cheios e vazios na condição de carga total. <span class="src">p. 288</span></td>
+        </tr>
+        <tr><td><strong>Rebocadores/Empurradores</strong></td><td>1) Gêneros e combustível completos; 2) 10% de gêneros e combustível. <span class="src">p. 288</span></td>
+        </tr>
+        <tr><td><strong>Pesca</strong></td><td>1) Partida para zonas de pesca, gêneros/óleo completos; 2) partida da zona de pesca, captura total e 35% gêneros/óleo; 3) retorno ao porto, captura total e 10%; 4) retorno com 20% da captura e 10%; 5) condição de calado máximo permissível. Incluir carga de convés se pretendida, margem para redes molhadas; água de lastro só em tanques específicos. <span class="src">p. 288</span></td>
+        </tr>
+        <tr><td><strong>Carga no convés</strong></td><td>Adicionar condições de carga total com porões e convés carregados (partida/chegada, com/sem passageiros conforme aplicável), carga no convés conforme capítulo citado na fonte. <span class="src">p. 288</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--exam">
+    <span class="callout__label">Atenção ao passageiro</span>
+    <p>Passageiros sem bagagem devem ser considerados na combinação mais desfavorável para o momento emborcador (todos num bordo e/ou posição vertical crítica). Se condição intermediária (lotação menor) for mais severa, ela deve ser analisada e pode limitar a lotação máxima. <span class="src">p. 288</span></p>
+  </div>
+  <p class="source-line">p. 288</p>
+</section>
+
+<section class="section" id="criterios-estabilidade">
+  <p class="section-kicker">Limites numéricos</p>
+  <h2 id="criterios-de-estabilidade-intacta">Critérios de estabilidade intacta</h2>
+  <p>Os critérios variam conforme o tipo de embarcação. A fonte apresenta conjuntos para passageiros/carga, critério alternativo, barcaças, pesca, rebocadores/empurradores e o critério ambiental (combinação vento/balanço). <span class="src">p. 289–290</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Critérios para embarcações de passageiros ou de carga (resumo da fonte)</caption>
+      <thead>
+        <tr><th>Item</th><th>Critério citado</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Área sob a curva de estabilidade estática entre 0°–30° &gt; 0,055 m·rad.</td></tr>
+        <tr><td>2</td><td>Área entre 0°–40° (ou θf, se θf &lt; 40°) &gt; 0,090 m·rad (θf = ângulo de alagamento).</td></tr>
+        <tr><td>3</td><td>Área entre 30°–40° (ou θf, se θf &lt; 40°) &gt; 0,030 m·rad.</td></tr>
+        <tr><td>4</td><td>Braço de endireitamento com 30° &gt; 0,20 m.</td></tr>
+        <tr><td>5</td><td>Braço de endireitamento máximo deve ocorrer num ângulo &gt; 25°.</td></tr>
+        <tr><td>6</td><td>Altura metacêntrica inicial GM<sub>0</sub> &gt; 0,15 m.</td></tr>
+        <tr><td>7</td><td>Ângulo de inclinação por todos os passageiros num bordo &lt; 10° (embarcações de passageiros).</td></tr>
+        <tr><td>8</td><td>Ângulo de inclinação causado por guinadas &lt; 10° (embarcações de passageiros).</td></tr>
+        <tr><td>9</td><td>Passageiros ou carga com comprimento de regra L &gt; 24 m: atender adicionalmente ao Critério Ambiental.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="grid-2">
+    <div class="card card--teal">
+      <h3 id="pesca-e-rebocadores-destaques">Pesca e rebocadores (destaques)</h3>
+      <ul>
+        <li><strong>Pesca:</strong> itens 1–5 semelhantes a passageiros/carga; GM<sub>0</sub> &gt; 0,35 m; L &gt; 45 m exige Critério Ambiental. <span class="src">p. 289</span></li>
+        <li><strong>Rebocadores/Empurradores:</strong> área 0°–40°/θf/máximo (o menor) &gt; 0,090 m·rad; área 30°–40° (ou θf) &gt; 0,030 m·rad; GZ máx &gt; 25°; ângulo de GZ nulo (≠ 0°) &gt; 60°; θf &gt; 38°; GM<sub>0</sub> &gt; GM<sub>r</sub>; critério específico de área entre curva de endireitamento e braço de emborcamento devido ao reboque (para rebocadores). <span class="src">p. 289</span></li>
+      </ul>
+    </div>
+    <div class="card card--accent">
+      <h3 id="barcacas-e-criterio-alternativo">Barcaças e critério alternativo</h3>
+      <ul>
+        <li><strong>Barcaças:</strong> área sob a curva de 0° até o ângulo do GZ máximo &gt; 0,080 m·rad; GM<sub>0</sub> &gt; GM<sub>r</sub>; ângulo de equilíbrio por passageiros num bordo &lt; 10° quando aplicável. <span class="src">p. 289</span></li>
+        <li><strong>Critério alternativo (pass/carga):</strong> admite GZ máximo ocorrendo em ângulo &gt; 15° com requisitos de área proporcionais conforme faixa do ângulo de máximo, mantendo outros itens aplicáveis. <span class="src">p. 289</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="callout callout--info">
+    <span class="callout__label">Critério Ambiental (vento e balanço)</span>
+    <p>A fonte descreve procedimento com braço de emborcamento devido ao vento constante (l<sub>w1</sub>), inclinação por ondas até ângulo θ<sub>1</sub>, lufada (l<sub>w2</sub>) e verificação de que a área “b” seja maior que a área “a”. Limites citados: θ<sub>0</sub> &lt; 16° ou 80% do ângulo de imersão do convés (o menor). Efeito de superfície livre deve ser considerado. <span class="src">p. 289</span></p>
+  </div>
+  <p class="source-line">p. 289–290</p>
+</section>
+
+<section class="section" id="prova-inclinacao">
+  <p class="section-kicker">Verificação experimental</p>
+  <h2 id="prova-de-inclinacao-inclining-test-preparacao-e-execucao">Prova de inclinação (<em>inclining test</em>): preparação e execução</h2>
+  <p>A prova de inclinação determina parâmetros de peso e centro de gravidade na condição leve, fundamentais para o folheto de estabilidade. A fonte estabelece condições de preparação, instrumentos, sequência e apresentação de cálculos. <span class="src">p. 291–292</span></p>
+
+  <ol class="steps">
+    <li><strong>Preparar a condição leve.</strong> Remover objetos que não façam parte do equipamento fixo; manter líquidos de caldeiras/equipamentos/tubulações em níveis normais; tanques preferencialmente vazios ou com controle rigoroso de nível e superfície livre. Itens móveis devem ser peados; trim recomendado &lt; 1% de Lpp quando se usam curvas hidrostáticas; banda inicial &lt; 0,5° aceitável se por assimetria de pesos. <span class="src">p. 291</span></li>
+    <li><strong>Escolher local e controlar interferências.</strong> Local abrigado, sem vento/corrente significativos; garantir livre oscilação (cabos brandos, pranchas recolhidas, conexões desligadas); limitar pessoas a bordo e posicioná-las na linha de centro salvo necessidade. <span class="src">p. 291</span></li>
+    <li><strong>Planejar pesos e medições.</strong> Estimar pesos inclinantes (fórmula citada na fonte com deslocamento, GM estimado e deslocamento transversal) visando ângulo de banda provocado recomendado 1° &lt; θ &lt; 3°; definir esquemas de localização de pêndulos/tubo em U, pesos e postos. <span class="src">p. 291</span></li>
+    <li><strong>Executar movimentos e leituras.</strong> Efetuar 8 movimentos (número pode ser reduzido a critério da DPC, conforme fonte); medir desvios/desníveis (média de pelo menos 10 oscilações consecutivas); plotar gráfico tangente do ângulo × momento inclinante durante a prova. <span class="src">p. 292</span></li>
+    <li><strong>Calcular e documentar.</strong> Determinar deslocamento e características hidrostáticas, GM na condição de prova, correções por superfície livre e variações, e posição do CG (KG/LCG), apresentando tabelas, gráfico e cálculos conforme anexos citados. <span class="src">p. 292, 295</span></li>
+  </ol>
+
+  <div class="compare">
+    <div class="pro">
+      <h4>Pêndulos</h4>
+      <ul>
+        <li>Mínimo de 2, afastados longitudinalmente.</li>
+        <li>Fio de aço flexível, peso suficiente (massa mínima 5 kg), cuba com óleo para amortecer.</li>
+        <li>Régua/cavaletes fixos para medir desvios. <span class="src">p. 291</span></li>
+      </ul>
+    </div>
+    <div class="con">
+      <h4>Tubo em U</h4>
+      <ul>
+        <li>Mínimo de 2, maior distância possível entre ramos verticais.</li>
+        <li>Tubos transparentes, rigidamente fixados, sem bolhas de ar.</li>
+        <li>Réguas para medir desníveis; prever para evitar transbordamento. <span class="src">p. 291</span></li>
+      </ul>
+    </div>
+  </div>
+  <p class="source-line">pp. 291–292</p>
+</section>
+
+<section class="section" id="compartimentagem-alagamento">
+  <p class="section-kicker">Integridade após avaria</p>
+  <h2 id="compartimentagem-anteparas-estanques-e-controle-de-alagamento">Compartimentagem, anteparas estanques e controle de alagamento</h2>
+  <p>A compartimentagem limita a progressão da água em caso de avaria. A Seção VIII da fonte trata de anteparas estanques em cascos metálicos, anteparas retardadoras de alagamento (ARA) em cascos não metálicos, aberturas e acessos. <span class="src">p. 293</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Anteparas e posicionamento (síntese da fonte, cascos metálicos)</caption>
+      <thead>
+        <tr><th>Elemento</th><th>Requisito citado</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Antepara de colisão de vante</strong></td><td>Distância ≥ 5% de L ou 10 m (menor valor) a partir da interseção da roda de proa com a linha de flutuação de L; não instalada a distância superior a 13% de L (barcaça com L &lt; 90 m) ou 8% de L (demais), com condições para aceitação de distâncias maiores. <span class="src">p. 293</span></td>
+        </tr>
+        <tr><td><strong>Antepara de colisão de ré</strong></td><td>Embarcações propulsadas: limitar tubo telescópico em espaço(s) estanque(s) de volume moderado. Barcaças simétricas: posicionamento análogo ao de vante; demais barcaças: pode coincidir com antepara de ré dos espaços de carga. <span class="src">p. 293</span></td>
+        </tr>
+        <tr><td><strong>Anteparas da praça de máquinas</strong></td><td>Máquinas ao centro: duas anteparas estanques (à vante e à ré). Máquinas à ré: uma antepara estanque à vante. <span class="src">p. 293</span></td>
+        </tr>
+        <tr><td><strong>Espaços de carga/passageiros</strong></td><td>Anteparas transversais estanques adicionais conforme tabela da norma; distância entre anteparas &lt; 30 metros. <span class="src">p. 293</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--danger">
+    <span class="callout__label">Aberturas e acessos</span>
+    <p>Anteparas estanques devem se estender até o convés de BL e manter estanqueidade em passagens de tubulações/cabos. Não é permitido instalar válvulas fora de sistemas de tubulações nem materiais sensíveis ao calor em sistemas que atravessam anteparas estanques (cascos metálicos). Anteparas de colisão abaixo do convés principal, em geral, não admitem portas/registros, salvo exceções estritas citadas na fonte. Acessos em anteparas estanques são excepcionais e sujeitos a condições (porta de aço estanque operável pelos dois lados, indicador, aviso), não aplicáveis às anteparas de colisão. <span class="src">p. 293</span></p>
+  </div>
+
+  <p>Em cascos não metálicos, as ARAs retardam o alagamento; espaços abaixo do convés superior destinados a carga, passageiros ou máquinas devem ser separados por ARAs, e nenhum compartimento abaixo do convés superior pode ter comprimento &gt; 40% de L. Acessos nesses espaços não devem ser por aberturas nas anteparas. <span class="src">p. 293</span></p>
+
+  <div class="example">
+    <h3 id="caso-pratico-apos-toque-ou-colisao" class="example__title"><span>Caso prático</span> Após toque ou colisão</h3>
+    <p>Em uma situação de avaria com entrada de água, a prioridade operacional é preservar a estanqueidade remanescente: fechar dispositivos estanques/ao tempo previstos, verificar acessos autorizados, controlar superfície livre em compartimentos afetados e reavaliar estabilidade com base nas condições reais de carregamento. A fonte enfatiza que atender critérios mínimos não elimina a responsabilidade do comando em adotar prudência e boas práticas de marinharia. <span class="src">p. 290</span></p>
+  </div>
+  <p class="source-line">p. 293</p>
+</section>
+
+<section class="section" id="precaucoes-operacionais">
+  <p class="section-kicker">Na prática</p>
+  <h2 id="precaucoes-contra-emborcamento-e-erros-comuns">Precauções contra emborcamento e erros comuns</h2>
+  <p>O atendimento aos critérios de estabilidade não garante imunidade contra emborcamentos. O comandante deve agir com prudência, considerar estação, meteorologia e zona de navegação, adotar velocidade e rumo apropriados e manter condições de bordo compatíveis com o folheto de estabilidade. <span class="src">p. 290</span></p>
+
+  <ul class="checklist">
+    <li>Peiar cargas e equipamentos pesados para minimizar deslocamentos com balanço/arfagem.</li>
+    <li>Reduzir número de tanques parcialmente cheios (efeito adverso de superfície livre).</li>
+    <li>Fechar aberturas, tampas, portas e dispositivos estanques em tempo adverso; manter suspiros de tanques de combustível fechados em mau tempo quando aplicável.</li>
+    <li>Evitar piloto automático em clima adverso quando impedir respostas rápidas de rumo/velocidade.</li>
+    <li>Reduzir velocidade se houver grandes inclinações transversais, saída do hélice d’água, embarque de água no convés ou pancadas de proa severas (<em>slamming</em>).</li>
+    <li>Atenção especial a mar de popa ou alheta; situação perigosa citada quando comprimento da onda ≈ 1–1,5 × L.</li>
+  </ul>
+
+  <div class="callout callout--danger">
+    <span class="callout__label">Erros comuns / limites</span>
+    <p>Confiar apenas no GM como “número único”, ignorar superfície livre, operar com aberturas não estanques, subestimar agrupamento de passageiros num bordo, ou manter excesso de GM sem avaliar acelerações e esforços em navio, equipamentos, tripulação e carga. A fonte recomenda evitar valores excessivos de altura metacêntrica. <span class="src">p. 290</span></p>
+  </div>
+  <p class="source-line">p. 290</p>
+</section>
+
+<section class="section" id="sintese-bl-estab">
+  <p class="section-kicker">Síntese</p>
+  <h2 id="pontos-chave-para-levar-ao-passadico">Pontos-chave para levar ao passadiço</h2>
+
+  <div class="keyfacts">
+    <div class="keyfact"><b>300×25</b><span>dimensões (mm) da linha de convés citadas</span></div>
+    <div class="keyfact"><b>180 mm</b><span>diâmetro externo do disco de Plimsoll</span></div>
+    <div class="keyfact"><b>0,055</b><span>m·rad: área 0°–30° (pass/carga)</span></div>
+    <div class="keyfact"><b>0,15 m</b><span>GM<sub>0</sub> mínimo (pass/carga)</span></div>
+    <div class="keyfact"><b>8</b><span>movimentos típicos na prova de inclinação</span></div>
+  </div>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Síntese para levar</span>
+    <p>Borda-livre define o limite de imersão; estabilidade intacta define a margem de recuperação. Ambos dependem de estanqueidade, carregamento correto, controle de superfície livre e compartimentagem íntegra. Em dúvida, prevalecem os dados do folheto de estabilidade, dos certificados e da norma vigente. <span class="src">p. 283–296</span></p>
+  </div>
+  <p class="source-line">pp. 283–296</p>
+</section>
+
+<section class="section" id="revisao-bl-estab">
+  <p class="section-kicker">Revisão</p>
+  <h2 id="perguntas-para-fechar-o-capitulo">Perguntas para fechar o capítulo</h2>
+  <div class="quiz">
+    <details>
+      <summary>1. Qual a diferença prática entre estanque ao tempo (<em>weathertight</em>) e estanque à água (<em>watertight</em>)?</summary>
+      <div class="quiz__answer"><p>Ambos se referem à vedação sem vazamentos, mas verificados por ensaios distintos conforme a função da abertura ou dispositivo. A fonte destaca a importância dessa distinção para portas, tampas, suspiros e ventilação. <span class="src">p. 283–284</span></p></div>
+    </details>
+    <details>
+      <summary>2. Como se posiciona o disco de Plimsoll em relação à linha de convés em embarcações não SOLAS?</summary>
+      <div class="quiz__answer"><p>O centro do anel fica à meia-nau, a uma distância vertical abaixo da aresta superior da linha de convés igual à borda-livre atribuída; a linha horizontal do disco tem sua face superior passando pelo centro. <span class="src">p. 285</span></p></div>
+    </details>
+    <details>
+      <summary>3. Quais tanques podem ser desconsiderados no cálculo do momento de superfície livre, segundo a fonte?</summary>
+      <div class="quiz__answer"><p>Tanques completamente cheios (incluindo os cheios salvo margem de expansão), tanques vazios (desconsiderando resíduos não aspiráveis) e tanques pequenos cujo MSL em qualquer inclinação seja inferior a 1% do deslocamento mínimo da embarcação. <span class="src">p. 287</span></p></div>
+    </details>
+    <details>
+      <summary>4. Cite três critérios numéricos de estabilidade para embarcações de passageiros ou carga.</summary>
+      <div class="quiz__answer"><p>Exemplos da fonte: área 0°–30° &gt; 0,055 m·rad; área 0°–40° (ou θf) &gt; 0,090 m·rad; GZ a 30° &gt; 0,20 m; GZ máximo ocorrendo em ângulo &gt; 25°; GM<sub>0</sub> &gt; 0,15 m (além de critérios específicos para passageiros). <span class="src">p. 289</span></p></div>
+    </details>
+    <details>
+      <summary>5. Qual o objetivo de executar 8 movimentos e plotar o gráfico tangente × momento na prova de inclinação?</summary>
+      <div class="quiz__answer"><p>Obter leituras consistentes (com médias de oscilações) e verificar/corrigir distorções durante a prova, garantindo confiabilidade no cálculo da altura metacêntrica e do centro de gravidade na condição leve. <span class="src">p. 292</span></p></div>
+    </details>
+    <details>
+      <summary>6. Por que a antepara de colisão tem restrições severas quanto a aberturas?</summary>
+      <div class="quiz__answer"><p>Porque sua função é preservar um volume estanque essencial após impacto frontal; aberturas comprometem a compartimentagem. A fonte admite apenas exceções muito restritas abaixo do convés principal, vedando portas/registros em geral. <span class="src">p. 293</span></p></div>
+    </details>
+    <details>
+      <summary>7. Em mar de popa ou alheta, que situação é citada como perigosa na fonte e qual conduta é recomendada?</summary>
+      <div class="quiz__answer"><p>A fonte indica perigo quando o comprimento da onda é da ordem de 1 a 1,5 vezes o comprimento do navio (L), podendo favorecer perda de estabilidade; recomenda-se alterar velocidade e/ou rumo para evitar fenômenos perigosos. <span class="src">p. 290</span></p></div>
+    </details>
+  </div>
+</section>
+
+        </article>
+
+        <section class="chapter-end">
+          <p class="section-kicker">Fim do capítulo</p>
+          <h2>Borda-Livre e Estabilidade</h2>
+          <p>Conteúdo sintetizado de <strong>NORMAM 01/DPC · CILC</strong>, pp. 283–296 da fonte. Consulte o original para detalhes, figuras e redação normativa.</p>
+          <button class="btn btn--gold" type="button" data-complete="12-borda-livre-estabilidade" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7"/></svg><span>Marcar como concluído</span></button>
+        </section>
+
+        <nav class="chapter-nav" aria-label="Navegação entre capítulos">
+          <a class="prev" href="11-sinalizacao-nautica.html"><small>← Capítulo anterior</small><span>11 · Sinalização Náutica e IALA</span></a><a class="next" href="13-trafego-certificacao-praticagem.html"><small>Próximo capítulo →</small><span>13 · Tráfego, Certificação e Praticagem</span></a>
+        </nav>
+
+        <footer class="site-footer">
+          <p><strong>Apostila de Praticagem</strong> · material de estudo gerado a partir de <em>resumo curso h.pdf</em>.</p>
+          <p>Não substitui as publicações oficiais (PNA, NORMAM, RIPEAM, CIS, cartas e avisos). Confirme sempre os dados críticos na fonte vigente.</p>
+        </footer>
+      </div>
+    </main>
+  </div>
+  <script>
+(() => {
+  "use strict";
+
+  const STORAGE_KEY = "apostila-praticagem-progresso-v1";
+  const THEME_KEY = "apostila-praticagem-tema";
+  const doc = document;
+  const root = doc.documentElement;
+
+  /* ---------- tema ---------- */
+  function applyTheme(theme) {
+    root.setAttribute("data-theme", theme);
+    const btn = doc.querySelector("[data-theme-toggle]");
+    if (btn) {
+      const dark = theme === "dark";
+      btn.setAttribute("aria-label", dark ? "Ativar tema claro" : "Ativar tema escuro");
+      btn.setAttribute("title", dark ? "Tema claro" : "Tema escuro");
+      btn.innerHTML = dark
+        ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>'
+        : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.4 8.4 0 1 1 9.8 3.5a6.9 6.9 0 0 0 10.7 10.7Z"/></svg>';
+    }
+  }
+
+  function initTheme() {
+    const stored = localStorage.getItem(THEME_KEY);
+    const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    applyTheme(stored || (prefersDark ? "dark" : "light"));
+  }
+
+  function toggleTheme() {
+    const current = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    localStorage.setItem(THEME_KEY, current);
+    applyTheme(current);
+  }
+
+  /* ---------- progresso ---------- */
+  function getProgress() {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+    } catch {
+      return {};
+    }
+  }
+
+  function setDone(partId, done) {
+    const data = getProgress();
+    if (done) data[partId] = Date.now();
+    else delete data[partId];
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+    paintProgress(data);
+  }
+
+  function paintProgress(data = getProgress()) {
+    doc.querySelectorAll("[data-progress-total]").forEach((el) => {
+      const total = Number(el.getAttribute("data-progress-total"));
+      const count = Object.keys(data).filter((k) => data[k]).length;
+      el.textContent = String(count).padStart(2, "0");
+      const fill = el.closest(".sidebar__progress")?.querySelector(".bar__fill");
+      if (fill && total) fill.style.width = `${Math.min(100, (count / total) * 100)}%`;
+    });
+
+    doc.querySelectorAll(".part-nav a[data-part-id]").forEach((a) => {
+      const id = a.getAttribute("data-part-id");
+      const hasDot = a.querySelector(".part-nav__done");
+      if (data[id] && !hasDot) {
+        const dot = doc.createElement("i");
+        dot.className = "part-nav__done";
+        dot.setAttribute("aria-label", "capítulo concluído");
+        a.appendChild(dot);
+      } else if (!data[id] && hasDot) {
+        hasDot.remove();
+      }
+    });
+
+    doc.querySelectorAll(".part-card[data-part-id]").forEach((card) => {
+      card.classList.toggle("is-done", Boolean(data[card.getAttribute("data-part-id")]));
+    });
+
+    const stat = doc.querySelector("[data-index-progress]");
+    if (stat) {
+      const total = Number(stat.getAttribute("data-index-progress"));
+      const count = Object.keys(data).filter((k) => data[k]).length;
+      stat.textContent = total ? `${count}/${total}` : "0";
+    }
+  }
+
+  function initCompleteButton() {
+    const btn = doc.querySelector("[data-complete]");
+    if (!btn) return;
+    const partId = btn.getAttribute("data-complete");
+    const label = btn.querySelector("span");
+
+    const sync = () => {
+      const done = Boolean(getProgress()[partId]);
+      btn.classList.toggle("btn--done", done);
+      btn.classList.toggle("btn--gold", !done);
+      if (label) label.textContent = done ? "Capítulo concluído" : "Marcar como concluído";
+      btn.setAttribute("aria-pressed", String(done));
+    };
+
+    btn.addEventListener("click", () => {
+      const done = Boolean(getProgress()[partId]);
+      setDone(partId, !done);
+      sync();
+    });
+
+    sync();
+  }
+
+  /* ---------- barra de leitura ---------- */
+  function initReadingProgress() {
+    const bar = doc.querySelector(".read-progress");
+    if (!bar) return;
+    let ticking = false;
+    const update = () => {
+      const max = doc.documentElement.scrollHeight - window.innerHeight;
+      const pct = max > 0 ? (window.scrollY / max) * 100 : 0;
+      bar.style.width = `${Math.min(100, Math.max(0, pct))}%`;
+      ticking = false;
+    };
+    window.addEventListener("scroll", () => {
+      if (!ticking) {
+        window.requestAnimationFrame(update);
+        ticking = true;
+      }
+    }, { passive: true });
+    update();
+  }
+
+  /* ---------- sidebar mobile ---------- */
+  function initSidebar() {
+    const sidebar = doc.querySelector(".sidebar");
+    const toggle = doc.querySelector("[data-nav-toggle]");
+    if (!sidebar || !toggle) return;
+
+    let scrim = doc.querySelector(".scrim");
+    if (!scrim) {
+      scrim = doc.createElement("div");
+      scrim.className = "scrim";
+      doc.body.appendChild(scrim);
+    }
+
+    const close = () => {
+      sidebar.classList.remove("is-open");
+      scrim.classList.remove("is-visible");
+      toggle.setAttribute("aria-expanded", "false");
+    };
+    const open = () => {
+      sidebar.classList.add("is-open");
+      scrim.classList.add("is-visible");
+      toggle.setAttribute("aria-expanded", "true");
+    };
+
+    toggle.addEventListener("click", () => {
+      if (sidebar.classList.contains("is-open")) close();
+      else open();
+    });
+    scrim.addEventListener("click", close);
+    doc.addEventListener("keydown", (ev) => {
+      if (ev.key === "Escape") close();
+    });
+    sidebar.querySelectorAll("a").forEach((a) => a.addEventListener("click", close));
+  }
+
+  /* ---------- âncoras nos títulos ---------- */
+  function initAnchors() {
+    doc.querySelectorAll(".content h2[id], .content h3[id]").forEach((heading) => {
+      if (heading.querySelector(".anchor")) return;
+      const a = doc.createElement("a");
+      a.className = "anchor";
+      a.href = `#${heading.id}`;
+      a.textContent = "#";
+      a.setAttribute("aria-label", `Link para: ${heading.textContent.trim()}`);
+      heading.appendChild(a);
+    });
+  }
+
+  /* ---------- scrollspy do sumário ---------- */
+  function initScrollSpy() {
+    const links = [...doc.querySelectorAll(".toc-card a[href^='#']")];
+    if (!links.length || !("IntersectionObserver" in window)) return;
+    const byId = new Map(links.map((l) => [l.getAttribute("href").slice(1), l]));
+    const targets = [...byId.keys()].map((id) => doc.getElementById(id)).filter(Boolean);
+    if (!targets.length) return;
+
+    const setActive = (id) => {
+      links.forEach((l) => l.classList.remove("is-current"));
+      const link = byId.get(id);
+      if (link) link.classList.add("is-current");
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      const visible = entries
+        .filter((e) => e.isIntersecting)
+        .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+      if (visible[0]) setActive(visible[0].target.id);
+    }, { rootMargin: "-90px 0px -65% 0px", threshold: 0 });
+
+    targets.forEach((t) => observer.observe(t));
+  }
+
+  /* ---------- busca e filtros do índice ---------- */
+  function initIndex() {
+    const cards = [...doc.querySelectorAll(".part-card")];
+    const search = doc.querySelector("[data-search]");
+    const chips = [...doc.querySelectorAll(".filter-chip")];
+    const empty = doc.querySelector(".no-results");
+    if (!cards.length) return;
+
+    let module = "todos";
+    let term = "";
+
+    const apply = () => {
+      let shown = 0;
+      cards.forEach((card) => {
+        const text = (card.textContent + " " + (card.dataset.tags || "")).toLowerCase();
+        const matchesTerm = !term || text.includes(term);
+        const matchesModule = module === "todos" || card.dataset.module === module;
+        const show = matchesTerm && matchesModule;
+        card.style.display = show ? "" : "none";
+        if (show) shown += 1;
+      });
+      if (empty) empty.classList.toggle("is-visible", shown === 0);
+    };
+
+    if (search) {
+      search.addEventListener("input", () => {
+        term = search.value.trim().toLowerCase();
+        apply();
+      });
+    }
+
+    chips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        module = chip.getAttribute("data-filter") || "todos";
+        chips.forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
+        apply();
+      });
+    });
+
+    doc.addEventListener("keydown", (ev) => {
+      if (ev.key === "/" && search && doc.activeElement !== search) {
+        ev.preventDefault();
+        search.focus();
+      }
+    });
+  }
+
+  /* ---------- inicialização ---------- */
+  initTheme();
+  paintProgress();
+  initReadingProgress();
+  initSidebar();
+  initAnchors();
+  initScrollSpy();
+  initCompleteButton();
+  initIndex();
+
+  doc.querySelectorAll("[data-theme-toggle]").forEach((btn) => btn.addEventListener("click", toggleTheme));
+
+  const printBtn = doc.querySelector("[data-print]");
+  if (printBtn) printBtn.addEventListener("click", () => window.print());
+
+  doc.querySelectorAll("[data-year]").forEach((el) => {
+    el.textContent = String(new Date().getFullYear());
+  });
+})();
+
+  </script>
+</body>
+</html>

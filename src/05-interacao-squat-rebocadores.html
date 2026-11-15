@@ -1,0 +1,574 @@
+<section class="section" id="tres-fenomenos">
+  <p class="section-kicker">Abertura</p>
+  <h2>Três fenômenos que decidem a manobra</h2>
+  <p class="lead">O navio entra no canal com 12 kt, UKC de 10%, outro navio se aproximando na curva e dois rebocadores aguardando na boca do porto. O prático precisa prever, ao mesmo tempo, quanto o casco vai afundar, para onde o navio será atraído e quanto cada rebocador realmente conseguirá entregar. Squat, interaction (interação) e rebocadores não são assuntos separados: formam o mesmo problema de forças, pressões e margens.</p>
+  <p>Este capítulo reúne os três temas na ordem em que aparecem na faina. Primeiro, a interação entre cascos e com margens, bancos e bacias. Depois, o squat (afundamento dinâmico) e suas fórmulas práticas. Por fim, os tipos de rebocador, os métodos de assistência, a escolta e os limites de segurança que o passadiço precisa respeitar.</p>
+  <p class="source-line">pp. 118–179</p>
+
+  <div class="grid-3">
+    <div class="card card--accent">
+      <span class="card__num">01</span>
+      <h3>Explicar a interação</h3>
+      <p>Reconhecer as zonas de atração, repulsão e guinada em encontros, ultrapassagens, margens e bacias, e saber quando o efeito é amplificado por águas rasas.</p>
+    </div>
+    <div class="card card--teal">
+      <span class="card__num">02</span>
+      <h3>Estimar o squat</h3>
+      <p>Decidir se o navio está em águas abertas ou confinadas, calcular a largura de influência, aplicar os métodos de squat e interpretar os sinais de perda de UKC.</p>
+    </div>
+    <div class="card">
+      <span class="card__num">03</span>
+      <h3>Empregar o rebocador</h3>
+      <p>Escolher tipo, posição e método de assistência, compreender a escolta e identificar os riscos de girting, tripping, snap-back e cargas excessivas.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="interacao-fundamentos">
+  <p class="section-kicker">Fundamentos</p>
+  <h2>Interação: a física por trás da atração</h2>
+  <p>Um navio em equilíbrio mantém a posição porque as pressões hidrostáticas atuam de forma equilibrada no casco. Quando ele se move, somam-se as pressões dinâmicas, que geram os sistemas de ondas divergente e transversal. Se esse conjunto de pressões é alterado por outro casco, por uma margem ou pelo fundo, o state of balance (equilíbrio de forças) muda. O resultado pode ser aceleração, perda de velocidade, guinada, afundamento ou alteração de trim.</p>
+
+  <div class="def">
+    <span class="def__term">Interação (interaction)</span>
+    <p>Fenômeno hidrodinâmico que faz navios próximos apresentarem mudanças involuntárias de rumo e velocidade quando os campos de pressão ao redor de seus cascos se sobrepõem.</p>
+  </div>
+
+  <p>A intensidade não é aleatória. De forma geral, a interação varia com o quadrado da velocidade, com o inverso da distância entre os cascos e, aproximadamente, com o inverso da raiz quadrada da razão UKC/calado. Isso explica por que o mesmo encontro é benigno a 4 kt e crítico a 10 kt, e por que uma folga de poucos metros faz tanta diferença.</p>
+
+  <div class="formula formula--light">
+    <span class="formula__expr">Interação ∝ V² · (1 / distância) · (1 / √(UKC/T))</span>
+    <span class="formula__where">Relação qualitativa: <b>V</b> é a velocidade relativa; <b>UKC</b> é a folga sob a quilha; <b>T</b> é o calado. A fonte apresenta a tendência, não uma fórmula de projeto.</span>
+  </div>
+
+  <p>Em águas rasas, o fundo restringe o escoamento e modifica as pressões no casco. O navio passa a ter mais tendência ao squat, causa e sente interações mais fortes, e as ondas ficam mais escarpadas: o navio gasta mais energia para gerá-las e perde velocidade. Todos os efeitos de interação descritos adiante se amplificam nessa condição.</p>
+
+  <p>Uma margem age como um “espelho” do navio: o casco se comporta como se estivesse lado a lado com sua imagem. Em geral o navio é sugado para o banco, mas a onda de proa cresce e forma um pressure cushion (almofada de pressão) que empurra a proa para fora. Se a velocidade for alta, essa reação pode superar a sucção e o navio ser afastado do banco. O equilíbrio entre esses dois efeitos é o que torna o governo junto à margem tão delicado.</p>
+
+  <div class="callout callout--info">
+    <span class="callout__label">Para entender</span>
+    <p>Interação não é falha de governo. O navio pode estar com leme e máquina corretos e, ainda assim, guinar porque o campo de pressões mudou. O prático antecipa o efeito; não tenta corrigi-lo apenas com mais leme.</p>
+  </div>
+  <p class="source-line">pp. 118–119</p>
+</section>
+
+<section class="section" id="interacao-navio-navio">
+  <p class="section-kicker">Navio-navio</p>
+  <h2>Encontro, ultrapassagem e navio atracado</h2>
+  <p>No encontro head-on (de proas), a sequência de forças é previsível. No início, as proas tendem a se abrir, há um pequeno aumento de velocidade e os navios sentem uma leve repulsão bodily (de corpo inteiro). Durante a passagem, o bow-out (abertura da proa) se transforma em bow-in (fechamento da proa) e a repulsão diminui. Quase no fim, o bow-out retorna com intensidade muito maior, acompanhado de pequena redução de velocidade. Por último, ocorre um bow-in fraco com repulsão.</p>
+
+  <p>A vantagem do encontro head-on é que os navios têm pouco tempo para reagir às forças. Os efeitos dominantes costumam ser o primeiro bow-out, que é pequeno e controlável, e o segundo bow-out, mais forte, que pode fazer os navios guinarem para um shoal (banco raso). O segundo bow-out é o momento de maior atenção no passadiço.</p>
+
+  <p>Na ultrapassagem, o navio que alcança e o navio alcançado sentem inicialmente um fraco momento bow-in. O overtaking (ultrapassador) acelera e o overtaken (ultrapassado) perde velocidade. Como a interação tem tempo para atuar, os dois podem guinar um para cima do outro e colidir. Se não colidirem, ao se emparelharem sentem forte bow-out com atração mútua; em seguida são afastados e as popas podem se tocar.</p>
+
+  <p>Se nada disso ocorrer, o overtaking perde velocidade e o outro acelera por causa do aumento e da redução de resistência. A manobra fica difícil de completar e, em casos extremos, o overtaking pode ficar “trapped” (preso). A prevenção é passar a uma boa distância e reduzir a velocidade relativa. Quanto menor a velocidade relativa, maior a chance de contato; com velocidade relativa zero, como em replenishment at sea (reabastecimento no mar), é preciso conhecer os efeitos para escolher a posição mais benigna ao lado.</p>
+
+  <p>Um navio atracado também sente a passagem de outro. A mesma sequência de forças aparece, mas o sistema de amarração é mais fraco em surge (movimento longitudinal). O navio pode avançar e recuar no berço, e o movimento acoplado a balanço e rotação gera snatch loads (cargas de choque) em cabos frouxos ou mal cuidados, que podem romper. A velocidade de quem passa deve ser a menor possível, especialmente com UKC pequena, e a distância lateral deve ser a maior que a prática permitir.</p>
+
+  <p>Na interação rebocador-navio, o navio é muito maior e uma profundidade rasa para ele pode ser profunda para o rebocador. Por isso, o navio afeta muito o rebocador e o rebocador quase não afeta o navio. Perto da proa e da popa existem regiões a evitar, onde a força do leme do rebocador se soma à interação. Se o timoneiro não estiver atento, o rebocador pode guinar para debaixo da proa do navio.</p>
+
+  <figure class="figure">
+    <svg viewBox="0 0 640 300" role="img" aria-labelledby="fig-interacao-title fig-interacao-desc">
+      <title id="fig-interacao-title">Zonas de pressão em um encontro de proas</title>
+      <desc id="fig-interacao-desc">Dois navios em rumos opostos, com zonas de alta pressão nas proas, baixa pressão no través e setas indicando repulsão e sucção.</desc>
+      <defs>
+        <marker id="seta-interacao" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+        <marker id="seta-succao" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--teal)"/>
+        </marker>
+      </defs>
+      <path d="M45 120 L210 120 Q245 120 270 150 L210 180 L45 180 Q25 150 45 120 Z" fill="var(--surface-2)" stroke="var(--line-strong)" stroke-width="2"/>
+      <path d="M595 120 L430 120 Q395 120 370 150 L430 180 L595 180 Q615 150 595 120 Z" fill="var(--surface-2)" stroke="var(--line-strong)" stroke-width="2"/>
+      <line x1="320" y1="80" x2="320" y2="225" class="diagram-line" stroke-dasharray="6 6"/>
+      <ellipse cx="286" cy="150" rx="24" ry="42" fill="none" stroke="var(--gold)" stroke-width="2" stroke-dasharray="5 4"/>
+      <ellipse cx="354" cy="150" rx="24" ry="42" fill="none" stroke="var(--gold)" stroke-width="2" stroke-dasharray="5 4"/>
+      <ellipse cx="150" cy="150" rx="35" ry="34" fill="none" stroke="var(--teal)" stroke-width="2" stroke-dasharray="5 4"/>
+      <ellipse cx="490" cy="150" rx="35" ry="34" fill="none" stroke="var(--teal)" stroke-width="2" stroke-dasharray="5 4"/>
+      <path d="M300 150 L340 150" class="diagram-gold" marker-end="url(#seta-interacao)"/>
+      <path d="M340 165 L300 165" class="diagram-gold" marker-end="url(#seta-interacao)"/>
+      <path d="M182 205 L205 182" class="diagram-accent" marker-end="url(#seta-succao)"/>
+      <path d="M458 205 L435 182" class="diagram-accent" marker-end="url(#seta-succao)"/>
+      <text x="52" y="110" class="diagram-label">navio A</text>
+      <text x="520" y="110" class="diagram-label">navio B</text>
+      <text x="245" y="62" class="diagram-label diagram-label--strong">proa: alta pressão</text>
+      <text x="120" y="245" class="diagram-label">través: sucção</text>
+      <text x="420" y="245" class="diagram-label">través: sucção</text>
+      <text x="272" y="268" class="diagram-label">repulsão e guinada</text>
+    </svg>
+    <figcaption><b>Figura 1.</b> Esquema das zonas de pressão no encontro de proas. A alta pressão nas proas e a baixa pressão no través mudam de sentido ao longo da passagem; o segundo bow-out costuma ser o efeito mais forte. Fonte: pp. 118–119.</figcaption>
+  </figure>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Situações de interação navio-navio</caption>
+      <thead>
+        <tr><th>Situação</th><th>Sequência dominante</th><th>Risco principal</th><th>Resposta prática</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Head-on</strong></td><td>Bow-out inicial, bow-in na passagem e segundo bow-out mais forte.</td><td>Guinada para banco raso no segundo bow-out.</td><td>Manter rumo firme, antecipar o segundo bow-out e evitar correções bruscas.</td></tr>
+        <tr><td><strong>Ultrapassagem</strong></td><td>Bow-in fraco, atração e forte bow-out no emparelhamento.</td><td>Colisão de costados ou popas; efeito “trapped”.</td><td>Passar afastado e reduzir a velocidade relativa.</td></tr>
+        <tr><td><strong>Navio atracado</strong></td><td>Surge, sway e rotação transmitidos pelas amarras.</td><td>Snatch loads e ruptura de cabos.</td><td>Passar devagar, com grande distance-off e UKC monitorada.</td></tr>
+        <tr><td><strong>Rebocador-navio</strong></td><td>O navio domina o campo de pressões; o rebocador é atraído e guinado.</td><td>Rebocador sob a proa ou junto à popa.</td><td>Evitar as regiões de proa e popa; manter o timoneiro alerta.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>O primeiro bow-out é pequeno e até benéfico. O segundo é mais forte e pode surgir quando a manobra parece resolvida. Não relaxe o governo assim que as proas se cruzam.</p>
+  </div>
+  <p class="source-line">pp. 118–119</p>
+</section>
+
+<section class="section" id="margens-bacias-esteira">
+  <p class="section-kicker">Limites fixos</p>
+  <h2>Bancos, bacias e a esteira que ultrapassa</h2>
+  <p>O bank effect (efeito de margem) se manifesta como um bow-out moment combinado com sucção. Ele ocorre com margem vertical, alagada ou inclinada, e também quando o fundo sobe apenas de um lado do navio. Na prática, o navio tende a guinar para fora porque o bow cushion domina; para seguir paralelo ao banco, é preciso colocar leme para o banco.</p>
+
+  <p>Navegando exatamente na centerline (linha de centro) de um canal uniforme, os efeitos das duas margens se cancelam. Em fairways e rios, porém, as margens não são uniformes e não se pode assumir esse cancelamento. O banco pode atuar como um “dispositivo de controle” e fazer o navio encontrar o centro do rio, mas o navio provavelmente ultrapassa a centerline e encalha do outro lado. Na melhor das hipóteses, ele volta uma vez com auxílio do bank cushion e depois encalha novamente, pois o processo é divergente.</p>
+
+  <p>Em bacias fechadas, navios em manobra ou atracados geram efeitos semelhantes. Um navio que manobra sem assistência usa props e thrusters de forma combinada, colocando a água da bacia em movimento. O swinging (giro) do navio funciona como um remo e gera mais movimento e mudanças de pressão; navios atracados ou fundeados nas proximidades sentem essas variações e podem ranging (oscilar) ou surgir nas amarras.</p>
+
+  <p>Os rebocadores portuários modernos também atuam como bombas em espaços confinados. Em bacias muito estreitas, especialmente com cabos curtos, o fluxo induzido pelo wash reduz a pressão no bordo do rebocador e o navio pode se mover na direção dele, mesmo que a direção do empurro não sugira esse comportamento. Em águas mais rasas, o momento de giro medido em modelo pode até mudar de sinal. É um aviso para usar rebocadores potentes com cabos curtos em bacias fechadas com cautela.</p>
+
+  <p>A esteira também demora a perder velocidade. Quando o navio reduz abruptamente a velocidade em águas rasas e confinadas, a wake (esteira) pode ultrapassá-lo, empurrá-lo para vante e, em casos extremos, fazê-lo guinar de forma descontrolada. A redução deve ser gradual, assim como a manobra de giro.</p>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Dica de passadiço</span>
+    <p>Ao sair de um canal dragado estreito para uma área mais larga, espere a esteira se espalhar e o navio “performar” de forma diferente. A água arrastada precisa de espaço para se dissipar; não aumente potência antes de sentir o casco estabilizar.</p>
+  </div>
+  <p class="source-line">pp. 119–120</p>
+</section>
+
+<section class="section" id="squat-definicao">
+  <p class="section-kicker">Squat</p>
+  <h2>Squat: o afundamento que engana o calado</h2>
+  <div class="def">
+    <span class="def__term">Squat (afundamento dinâmico)</span>
+    <p>Soma algébrica do afundamento médio do corpo (mean bodily sinkage) com o efeito de trim (pela proa ou pela popa) que ocorre quando o navio se move, ou quando está atracado e exposto a uma maré vazante.</p>
+  </div>
+
+  <p>O squat pode ter duas origens: o movimento para vante do navio ou a condição de navio atracado em uma ebb tide (maré vazante) ao lado de um jetty. Em movimento, ocorre um afundamento médio acompanhado de leve trim. A soma algébrica dos dois é o squat.</p>
+
+  <p>Para um calado qualquer, squat não é a diferença entre as leituras de calado parado e em movimento. A fonte dá um exemplo: a leitura de calado na proa pode variar 2 m devido ao movimento para vante, enquanto a perda real de UKC é de apenas 0,4 m. Confundir as duas coisas leva a decisões erradas. Se o navio estiver atracado ao lado de um jetty em maré vazante, uma interpretação errada da leitura pode resultar em underloading (carregamento insuficiente).</p>
+
+  <p>Para navios pequenos ou lentos, o squat é de poucos centímetros e pode ser negligenciado. Com supertankers pesados, containers velozes e navios de passageiros, ele passou a ser decisivo: da ordem de 1,5 a 1,75 m para navios de grande DWT ou grande velocidade, o que é muito para quem trabalha com clearances (folgas) de 1,0 a 1,5 m.</p>
+
+  <p>Os principais fatores que afetam o squat são:</p>
+  <ul>
+    <li><strong>Velocidade para vante (Vk):</strong> é o fator mais importante, pois o squat varia com Vk².</li>
+    <li><strong>Coeficiente de bloco (CB):</strong> o squat varia diretamente com CB.</li>
+    <li><strong>Razão H/T:</strong> quando a profundidade H diminui em relação ao calado T, o squat aumenta. O trabalho da fonte mediu squat com H/T entre 1,1 e 1,4.</li>
+    <li><strong>Presença de bancos:</strong> quanto mais perto o banco estiver da lateral, maior o squat.</li>
+    <li><strong>Presença de outro navio:</strong> em passing ou crossing, o squat aumenta nos dois navios, em 50 a 100% quando estão pelo través.</li>
+  </ul>
+
+  <p>No caso de outro navio pelo través, o navio se move na direção do outro e surge um ângulo de heel (banda). A bilge do lado do banco se aproxima do fundo e pode danificar a bilge keel. Esse é o transverse squat, que também reduz a UKC.</p>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>Não use a variação da leitura de calado como se fosse perda de UKC. O squat é o afundamento efetivo do casco, não a diferença entre leituras estáticas e em movimento.</p>
+  </div>
+  <p class="source-line">pp. 120–121</p>
+</section>
+
+<section class="section" id="calculo-squat">
+  <p class="section-kicker">Cálculo</p>
+  <h2>Squat: águas rasas, largura de influência e métodos</h2>
+  <p>A primeira decisão prática é saber se o navio está em deep water (águas profundas) ou em águas rasas. A fonte usa o depth of influence (profundidade de influência) FD, comparado com a profundidade local H:</p>
+
+  <div class="formula">
+    <span class="formula__expr">FD = cte × T</span>
+    <span class="formula__where"><b>FD</b> profundidade de influência; <b>T</b> calado. A constante é 5,68 para um supertanker e 7,07 para um general cargo ship. Se <b>H &gt; FD</b>, o navio opera em águas profundas; se <b>H &lt; FD</b>, opera em águas rasas.</span>
+  </div>
+
+  <p>Em águas profundas, o squat e a resistência não mudam. Em águas rasas, a resistência aumenta, a velocidade e o RPM caem para uma potência constante, e o squat cresce à medida que H/T se aproxima de 1,0. Outros sinais de que o navio entrou em águas rasas são o aumento da formação de ondas para vante, a resposta sluggish (lenta) ao governo, vibração repentina por efeito de água entrainada e redução dos movimentos de roll, pitch e heave pelo amortecimento do fundo.</p>
+
+  <p>Para o cálculo, a fonte define o blockage factor (fator de bloqueio) S e o velocity-return factor S2:</p>
+
+  <div class="formula formula--light">
+    <span class="formula__expr">S = (b · T) / (B · H) &nbsp;&nbsp;&nbsp; S2 = S / (1 − S)</span>
+    <span class="formula__where"><b>b</b> boca do navio; <b>B</b> largura do canal; <b>T</b> calado; <b>H</b> profundidade. O fator S2 representa o retorno de velocidade causado pela restrição do canal.</span>
+  </div>
+
+  <p>A fonte apresenta cinco métodos para o squat máximo Jmáx. O método 1 é mais preciso e mais complexo; os demais são mais simples e erram para o safe side (lado seguro). O método 5 é a regra de bolso usada por práticos e erra ainda mais para o lado seguro.</p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Métodos de estimativa do squat máximo</caption>
+      <thead>
+        <tr><th>Método</th><th>Aplicação</th><th>Expressão</th><th>Observação</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>1</strong></td><td>Open water e canais confinados.</td><td>Jmáx ≈ [CB / (30 · S2<sup>2/3</sup>)] · Vk<sup>2,08</sup></td><td>Mais preciso; o OCR da fonte está truncado neste ponto e a expressão é uma reconstrução.</td></tr>
+        <tr><td><strong>2</strong></td><td>Somente open water.</td><td>Jmáx = CB · Vk² / 100</td><td>Simples; não considera a largura do canal.</td></tr>
+        <tr><td><strong>3</strong></td><td>Open water e canais confinados.</td><td>Jmáx = K · (CB · Vk² / 100), com K = 6S + 0,4</td><td>Corrige o método 2 pelo bloqueio S.</td></tr>
+        <tr><td><strong>4</strong></td><td>Canais confinados com 0,1 &lt; S &lt; 0,265.</td><td>Jmáx = 2 · (CB · Vk² / 100)</td><td>Aplicação restrita à faixa de bloqueio indicada.</td></tr>
+        <tr><td><strong>5</strong></td><td>Regra de bolso para open water.</td><td>Jmáx = Vk² / 100</td><td>Usada por práticos; conservadora e independente da largura do canal.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>As fórmulas foram elaboradas para H/T entre 1,10 e 1,40, ou seja, para águas rasas. Em open water conditions, sem bancos adjacentes, a fonte calcula uma largura artificial de influência, FB, que representa as margens do rio:</p>
+
+  <div class="formula formula--light">
+    <span class="formula__expr">FB = cte × B</span>
+    <span class="formula__where"><b>B</b> boca máxima do navio, medida na meia-nau ou muito próxima dela; a constante depende do tipo de navio. Para um supertanker, a fonte cita FB = 8,32 × B.</span>
+  </div>
+
+  <p>Se a largura real do canal for maior que FB, o navio opera em condições de open water e qualquer largura acima de FB produz o mesmo squat. Nesse caso, usa-se FB como largura do canal nas fórmulas. Se a largura real for menor que FB, a resistência aumenta, há perda de velocidade e RPM e o squat cresce.</p>
+
+  <p>O local do squat máximo depende do trim estático. Para navios on even keel (sem trim) parados, ao se moverem para vante:</p>
+  <ul>
+    <li>Se CB &gt; 0,7, o navio trima pela proa e Jmáx ocorre na proa.</li>
+    <li>Se CB &lt; 0,7, trima pela popa e Jmáx ocorre na popa.</li>
+    <li>Se CB = 0,7, não trima: o squat é apenas um afundamento médio e Jmáx ocorre em todo o navio.</li>
+  </ul>
+
+  <p>Se o navio já tem trim estático pela proa ou pela popa, o movimento provoca afundamento médio mais um leve trim na mesma direção. O trim existente aumenta, e Jmáx deve ser somado ao maior dos calados estáticos das extremidades.</p>
+
+  <p>No exemplo resolvido da fonte, o roteiro é sempre o mesmo: calcular FB e comparar com a largura fornecida do canal; se a largura do canal for maior, tratar como open water e usar os métodos 1, 2, 3 ou a regra de bolso; por fim, verificar o CB para dizer onde o squat máximo ocorrerá. A fonte conclui que, com o navio em even keel e CB &gt; 0,7, o squat máximo ocorre na proa.</p>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>A expressão do método 1 está truncada no OCR. Ela foi reconstruída para fins didáticos, mas não deve ser tratada como fórmula normativa sem conferência na fonte primária. Para decisão operacional, prefira os métodos conservadores e a regra de bolso.</p>
+  </div>
+  <p class="source-line">pp. 120–121</p>
+</section>
+
+<section class="section" id="squat-pratica">
+  <p class="section-kicker">Na prática</p>
+  <h2>Squat no rio: sinais antes do encalhe</h2>
+  <p>No lower river (trecho inferior do rio), os detalhes do navio são passados ao prático do navio e ele faz as contas. A fonte admite uma nominal allowance (margem nominal) de 8 a 10% sobre o calado. A direção do vento importa para o próximo período de rise and fall da maré: um tidal cut (corte de maré) pode fazer os 10% de clearance desaparecerem rapidamente. Um cálculo rápido é tudo o que se precisa para saber se vai dar para safar.</p>
+
+  <p>Transmissões do VTS avisam os outros navios de que o navio está a caminho e fornecem tide gauge readings (leituras de maré) continuamente. Às vezes, o conjunto de correntes atravessadas no berço torna a slack water berthing (atracação na estofa) essencial. O timing é decisivo: se a maré parar de subir antes da passagem por um canal estreito, o plano muda.</p>
+
+  <p>Os primeiros sinais de squat são perda de velocidade, curling wash (esteira curvada), perda generalizada de controle e o dipping da proa. As reações não podem ser generalizadas, mas a regra básica é ser suave. A fonte relata um navio que perdeu o controle por usar potência demais ao passar por uma área mais rasa; o prático reduziu potência e safou o navio.</p>
+
+  <p>Quando o calado é igual à profundidade, o eco-sounder é pouco útil: a navigable mud (lama navegável) é fina e os pulsos penetram até a lama mais dura, indicando uma provável profundidade operável. O prático tende a observar a wake do navio em busca de indícios de proximidade do fundo. Esse aviso costuma começar antes de a proa afundar e é melhor que os outros sinais: o navio “pull her water” (puxa água) antes de guinar ou afundar a proa.</p>
+
+  <p>No upper river (trecho superior), não há por que proceder com full speed se o navio vai ter que esperar pela água. Os canais podem silt up (assorear) até meio metro entre marés, e uma redução de profundidade pode surpreender. O cross-set pode ser alarmante, com 4 a 5 kt comuns, de modo que o track (trajetória sobre o fundo) não tem relação com a proa. Os sinais usuais de squat não aparecem da mesma forma, mas há um que vale em qualquer lugar: se o wash ultrapassar o navio, alguma coisa não vai bem.</p>
+
+  <p>Nessa ordem, o prático escuta e sente: o roar do wash (som grave), as engines começando a trabalhar com queda de velocidade, o navio começando a yaw about (guinar) e, por último, a proa afundando. O sintoma da proa ocorre pouco antes de tudo ir muito mal; nessa hora a potência já deve ter sido reduzida. Em certos lugares, o próprio prático assume o timão para sentir a proximidade do fundo antes de o timoneiro relatar que o navio não governa. Grounding normalmente ocorre por falha mecânica ou por informação incorreta do Master sobre o calado; brief pauses on the bottom (toques breves no fundo), porém, são frequentes.</p>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Dica de passadiço</span>
+    <p>Trate a esteira como seu primeiro sensor de UKC. Se o wash ultrapassa o navio, o squat já está presente. Reduza potência de forma gradual e observe a resposta antes de aumentar novamente.</p>
+  </div>
+  <p class="source-line">pp. 124–125</p>
+</section>
+
+<section class="section" id="voith-water-tractor">
+  <p class="section-kicker">Rebocadores</p>
+  <h2>Voith Water Tractor: a geometria que mudou o reboque</h2>
+  <p>O Voith Water Tractor (VWT) reúne características que explicam boa parte da doutrina moderna de reboque. As principais são:</p>
+  <ul>
+    <li><strong>Twin Voith Schneider props:</strong> dois conjuntos de pás verticais dispostos athwartships (através do navio), a não mais de 30% da proa.</li>
+    <li><strong>Nozzle ou guard plate:</strong> aumenta a tração e protege as pás contra impacto no fundo ou no casco de outros navios. A estrutura deve suportar grandes impactos sem danificar as pás nem comprometer a watertight integrity do casco.</li>
+    <li><strong>Fin estabilizador de ré:</strong> foi concebido para course stability, mas ganhou outras aplicações importantes.</li>
+    <li><strong>Towing gear:</strong> quase 100% composto por um winch, com o cabo passando por um towing bollard ou staple sobre o centro do fin.</li>
+    <li><strong>Wheelhouse:</strong> pequena e central, com all-round visibility, às vezes operada por uma pessoa em um central console.</li>
+  </ul>
+
+  <p>O towing point (TP) sobre o fin é uma posição de compromisso: para rebocar para vante de um navio, o TP ideal fica mais próximo do inboard end do skeg; para rebocar para ré, o ideal seria mais próximo do outboard end. Em escort services, um segundo TP pode ser colocado no bulwark sobre o outboard end do skeg para reduzir o esforço do timoneiro nas operações rotineiras.</p>
+
+  <p>Nos anos 1950, muitos rebocadores foram perdidos por girting e por serem overrun under a ship's bow (passados por cima sob a proa do navio). A solução da Voith foi colocar o prop avante e o TP a ré, evitando o equilíbrio instável dos rebocadores convencionais, que tinham prop a ré e TP a meia-nau. A diferença imediata é que o rebocador governa para dentro da curva, em vez de a popa girar para fora. Hoje, a free running speed é de cerca de 15 kt e o BP excede 70 t.</p>
+
+  <p>A geometria também viabiliza o indirect towing (reboque indireto). Com o TP sobre um skeg sob o afterbody, a resistência do casco e do skeg quando puxados pela água em ângulo oblíquo gera towline forces que excedem muito o BP nominal — e, ao contrário dos outros métodos, a força na towline aumenta com a velocidade. Nas operações de escolta, são as resistências do casco e do skeg que geram a força, enquanto os props apenas alinham o casco para obter o towline angle correto.</p>
+
+  <p>As forças elevadas exigem margens de segurança grandes. A fonte cita um tractor de 50 t de BP nominal com brake capacity de 150 t e towline de 180 t. Um tow winch moderno deve ter brake capacity de ao menos 3 vezes o BP, recuperação leve rápida (cerca de 90 m/min) e um drum que evite problemas de spooling. A tendência para harbour ops é BP de 40 a 55 t, com sistemas de reboque de alta performance.</p>
+
+  <div class="compare">
+    <div class="pro">
+      <h4>Pontos fortes</h4>
+      <ul>
+        <li>Tração praticamente igual para vante e para ré.</li>
+        <li>Grande capacidade de side thrust e de reboque indireto.</li>
+        <li>TP na extremidade mais eficaz em cada posição, sem precisar largar o cabo.</li>
+      </ul>
+    </div>
+    <div class="con">
+      <h4>Limitações</h4>
+      <ul>
+        <li>Calado maior e casco cheio, o que prejudica sea keeping em mar aberto.</li>
+        <li>Relação BP/potência menor que a de configurações com nozzle-Kort.</li>
+        <li>Forças muito acima do BP nominal exigem winch, cabo e pontos de reboque compatíveis.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="source-line">pp. 122–123</p>
+</section>
+
+<section class="section" id="tipos-rebocador">
+  <p class="section-kicker">Tipos</p>
+  <h2>Qual rebocador para cada posição</h2>
+  <p>Não há um sistema uniforme de classificação. A forma mais útil é classificar o rebocador pela posição do prop e do towing point. Isso separa dois grandes grupos: rebocadores com prop a ré e TP próximo à meia-nau, que são os convencionais single e twin screw; e rebocadores com prop avante ou à meia-nau e TP a ré, que são os tractors com props Voith e azimutais. Há ainda tipos intermediários que operam como convencionais ou como tractors, dependendo da posição usada.</p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Tipos de rebocador e emprego típico</caption>
+      <thead>
+        <tr><th>Tipo</th><th>Prop e TP</th><th>Melhor emprego</th><th>Limitação principal</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Convencional</strong></td><td>Prop fixo a ré, um ou mais eixos; TP a cerca de 0,45 LWL da popa.</td><td>Cabo na proa em velocidade; push-pull com pouca corrente.</td><td>BP a ré muito menor; perde eficácia empurrando acima de 3–4 kt.</td></tr>
+        <tr><td><strong>Combi-tug</strong></td><td>Convencional com bow thruster e TP adicional a ré.</td><td>Pode operar como convencional ou quase como tractor.</td><td>Thruster tem limitações de potência e de calado.</td></tr>
+        <tr><td><strong>VS tractor</strong></td><td>Dois conjuntos cicloidais avante; TP a ré, sobre o skeg.</td><td>Escolta, reboque indireto, popa e costado.</td><td>Calado maior; menor BP/potência; mar aberto limitado.</td></tr>
+        <tr><td><strong>Azimuth tractor</strong></td><td>Dois props azimutais avante; TP a ré.</td><td>Cabo na proa, manobra, costado; menor calado.</td><td>Menos eficaz que o VS no método indireto.</td></tr>
+        <tr><td><strong>Reverse tractor</strong></td><td>Props azimutais a ré; TP e guincho avante.</td><td>Cabo na popa e no costado; trabalha com a proa.</td><td>Navega de ré ao acompanhar navio; governo pior em alta velocidade.</td></tr>
+        <tr><td><strong>ASD</strong></td><td>Props azimutais a ré; guincho avante e guincho ou hook a ré.</td><td>Grande flexibilidade: convencional, reverse ou costado.</td><td>Tração a ré 5–10% menor; risco de girting como forward tug.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>O convencional simple-screw é o mais simples, mas a manobrabilidade e a segurança aumentam muito com dois ou três props. Acessórios como lemes de flanco, tubulão-Kort, Towmaster e bow thruster melhoram o governo e a tração avante, mas não alteram substancialmente o BP com máquinas a ré. O tubulão-Kort pode aumentar a tração em 15 a 25%, embora reduza a capacidade de governo e exija lemes mais eficientes.</p>
+
+  <p>Os tractors cicloidais têm tração quase igual avante e a ré, mudança rápida de sentido e grande calado. Os azimutais têm calado menor, skeg menor e custos menores, mas perdem eficiência no método indireto. Os reverse tractors e ASDs trabalham com a proa como extremidade de trabalho; o ASD pode escolher entre operar como convencional, com cabo no gato de ré, ou como reverse tractor. A tração a ré do reverse tractor é cerca de 10% menor que a avante; no ASD, a perda fica em 5 a 10%.</p>
+
+  <p>Para operações portuárias com velocidade máxima de 6 a 7 kt, a fonte propõe um ranking de adequabilidade. Como forward tug towing on a line: ASD, combi, convencional e tractor/reverse. Como stern tug: tractor, ASD e reverse, seguidos de combi e convencional. No costado: ASD, reverse e tractor, seguidos de combi e convencional. O ranking é genérico e muda com o desenho do casco, mas é um bom ponto de partida para a briefing.</p>
+
+  <p>Quando o requisito principal é segurança, tractors, reverse tractors e ASDs vencem os convencionais. Quando o requisito é eficiência como forward tug em velocidade, o convencional e o ASD levam vantagem. Não existe um rebocador melhor em tudo: existe o rebocador certo para a posição, a velocidade e o risco da manobra.</p>
+
+  <div class="callout callout--exam">
+    <span class="callout__label">Cai na prova</span>
+    <p>Guarde a lógica: TP a ré e prop avante favorecem o reboque indireto e a escolta; prop a ré e TP à meia-nau favorecem o cabo na proa em velocidade; ASD e reverse tractor favorecem a popa e o costado. O resto é consequência dessa geometria.</p>
+  </div>
+  <p class="source-line">pp. 126–134, 168–171</p>
+</section>
+
+<section class="section" id="metodos-assistencia">
+  <p class="section-kicker">Assistência</p>
+  <h2>Métodos e posições de rebocadores</h2>
+  <p>A eficácia da assistência depende menos do BP nominal do que da posição do rebocador, do comprimento do cabo e da velocidade do navio. A fonte distingue dois métodos principais: towing on a line (reboque com cabo) e operating at ship's side (operação no costado), frequentemente combinados. Em portos convencionais predomina o cabo; em terminais abertos, o push-pull (empurrar/puxar) ganha espaço.</p>
+
+  <p>Na posição forward (avante), um rebocador de propulsão convencional tem pouca eficácia até o navio estar quase parado; suas forças de governo são mínimas e as de frenagem quase nulas. O braço de alavanca em relação ao ponto de pivô é curto, e a força aplicável é limitada pela velocidade. O Voith tractor melhora a segurança e permite grandes ângulos de cabo sem perda de tração avante, mas não elimina a limitação do braço curto.</p>
+
+  <p>No shoulder (bochecha), empurrar pelo lado de dentro da curva funciona como um backspring (contramola) contra o movimento do navio. Empurrar pelo lado de fora pode inicialmente arrastar o navio para o lado errado, porque a resistência do rebocador induz um efeito de backspring. Um push no shoulder off the berth tem grande valor, mas flare e overhang podem obrigar o rebocador a atuar próximo ao ponto de pivô, reduzindo o momento de giro.</p>
+
+  <p>No quarter (alheta), quanto mais a ré melhor o braço de alavanca, mas o rebocador pode ser arrastado para a zona de baixa pressão ou se aproximar perigosamente do propulsor do navio. Muitas vezes é mais seguro atracar a meia-nau e depois mover a ré para a posição de reboque, ou ficar avante da linha de cabo até ser necessário.</p>
+
+  <p>A posição aft (ré), em line towing, é a mais eficaz para frenagem e governo quando o navio tem velocidade, desde que se usem rebocadores modernos capazes de trabalhar com segurança. No indirect towing, a resistência do casco e do skeg gera força na linha que aumenta com a velocidade e pode exceder o BP nominal. Nas operações de escolta, os propulsores alinham o casco; a força vem da hidrodinâmica do conjunto rebocador-cabo.</p>
+
+  <figure class="figure">
+    <svg viewBox="0 0 640 280" role="img" aria-labelledby="fig-tug-pos-title fig-tug-pos-desc">
+      <title id="fig-tug-pos-title">Posições de assistência de rebocadores</title>
+      <desc id="fig-tug-pos-desc">Navio visto de cima com rebocadores nas posições de proa, bochecha, alheta e popa, indicando forças típicas.</desc>
+      <defs>
+        <marker id="seta-tug" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+      </defs>
+      <path d="M210 110 L430 110 Q470 110 500 140 L430 170 L210 170 Q170 140 210 110 Z" fill="var(--surface-2)" stroke="var(--line-strong)" stroke-width="2"/>
+      <circle cx="355" cy="140" r="4" fill="var(--navy-3)"/>
+      <text x="360" y="132" class="diagram-label">PP</text>
+      <rect x="130" y="128" width="34" height="24" rx="4" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.5"/>
+      <text x="147" y="166" text-anchor="middle" class="diagram-label">proa</text>
+      <path d="M164 140 L195 140" class="diagram-gold" marker-end="url(#seta-tug)"/>
+      <rect x="235" y="56" width="34" height="24" rx="4" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.5"/>
+      <text x="252" y="48" text-anchor="middle" class="diagram-label">bochecha</text>
+      <path d="M252 80 L252 106" class="diagram-gold" marker-end="url(#seta-tug)"/>
+      <rect x="390" y="196" width="34" height="24" rx="4" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.5"/>
+      <text x="407" y="236" text-anchor="middle" class="diagram-label">alheta</text>
+      <path d="M407 196 L407 174" class="diagram-gold" marker-end="url(#seta-tug)"/>
+      <rect x="516" y="128" width="34" height="24" rx="4" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.5"/>
+      <text x="533" y="166" text-anchor="middle" class="diagram-label">popa</text>
+      <path d="M516 140 L485 140" class="diagram-gold" marker-end="url(#seta-tug)"/>
+      <text x="320" y="258" text-anchor="middle" class="diagram-label">Proa: pouco braço. Bochecha/alheta: push-pull. Popa: frenagem e governo em velocidade.</text>
+    </svg>
+    <figcaption><b>Figura 2.</b> Posições típicas de assistência e sentido das forças. A posição de popa ganha importância em velocidade e em escolta; a bochecha é valiosa no afastamento do berço. Fonte: pp. 122–123, 126–127.</figcaption>
+  </figure>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Na prática</span>
+    <p>Ao entrar em canal restrito, combine um rebocador de proa para correções de rumo com um de popa para frenagem e controle de velocidade. Mudar o método durante a manobra exige tempo, cabo e comunicação clara entre prático, comandante e mestres dos rebocadores.</p>
+  </div>
+  <p class="source-line">pp. 122–123, 126–127</p>
+</section>
+
+<section class="section" id="escolta">
+  <p class="section-kicker">Escolta</p>
+  <h2>Rebocadores de escolta: frear e governar em velocidade</h2>
+  <p>A escolta (escort) nasceu da necessidade de controlar navios-tanque e cargas perigosas em canais e aproximações, reduzindo o risco de colisão e encalhe após falhas técnicas ou humanas. O objetivo é aplicar forças de governo e frenagem para manter o navio flutuando em segurança ou limitar o impacto de um acidente até a chegada de assistência adicional.</p>
+
+  <p>Os rebocadores de escolta acompanham o navio tethered (amarrados) ou free sailing (livres). Harbour tugs podem escoltar em baixas velocidades e curtas distâncias; escort tugs dedicados operam a 10–12 kt, com velocidade livre típica de 12,5 a 15–16 kt. Em velocidade, as forças de governo são geradas principalmente no método indireto, no qual o casco e o skeg produzem sustentação e arrasto quando colocados oblíquos ao escoamento.</p>
+
+  <p>A terminologia da fonte inclui o direct arrest mode (frenagem direta), com reverse arrest e transverse arrest, e o dynamic arrest mode, com indirect e combination arrest. Em baixa velocidade, o reverse arrest pode produzir força de frenagem elevada; acima de cerca de 8 kt, o transverse arrest tende a ser mais eficiente sem sobrecarregar os motores. Para iniciar um giro, recomenda-se o indirect arrest; para se opor a um giro em velocidades baixas e altas, o combination arrest.</p>
+
+  <p>No método indireto, as forças de governo crescem com a velocidade e podem atingir valores próximos ou superiores ao BP. A posição do towing point e do centro de pressão lateral (CP) é crítica: quanto menor a distância horizontal entre TP e CP em relação ao braço da propulsão, menor o esforço lateral necessário e maior a força útil na linha. Tractors com skeg grande tendem a ser mais eficientes no indireto; ASDs e reverse tractors podem compensar com bulbo, box keel ou skeg avante para trazer o CP mais para frente.</p>
+
+  <figure class="figure">
+    <svg viewBox="0 0 640 260" role="img" aria-labelledby="fig-escort-title fig-escort-desc">
+      <title id="fig-escort-title">Reboque direto e indireto na escolta</title>
+      <desc id="fig-escort-title-2">Comparação esquemática entre reboque direto atrás do navio e reboque indireto com rebocador oblíquo ao escoamento.</desc>
+      <defs>
+        <marker id="seta-escort" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+      </defs>
+      <path d="M60 90 L260 90 Q290 90 310 120 L260 150 L60 150 Q40 120 60 90 Z" fill="var(--surface-2)" stroke="var(--line-strong)" stroke-width="2"/>
+      <rect x="330" y="108" width="40" height="24" rx="4" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.5"/>
+      <line x1="310" y1="120" x2="330" y2="120" class="diagram-line" stroke-width="2"/>
+      <path d="M370 120 L430 120" class="diagram-gold" marker-end="url(#seta-escort)"/>
+      <text x="215" y="60" text-anchor="middle" class="diagram-label diagram-label--strong">Direto: frenagem</text>
+      <text x="380" y="155" text-anchor="middle" class="diagram-label">cabo alinhado</text>
+
+      <path d="M60 210 L260 210 Q290 210 310 240 L60 240 Q40 225 60 210 Z" fill="var(--surface-2)" stroke="var(--line-strong)" stroke-width="2"/>
+      <g transform="translate(360,210) rotate(35)">
+        <rect x="-20" y="-12" width="40" height="24" rx="4" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.5"/>
+      </g>
+      <line x1="310" y1="225" x2="344" y2="218" class="diagram-line" stroke-width="2"/>
+      <path d="M372 232 L430 250" class="diagram-gold" marker-end="url(#seta-escort)"/>
+      <path d="M350 200 L330 185" class="diagram-accent" marker-end="url(#seta-tug)"/>
+      <text x="215" y="186" text-anchor="middle" class="diagram-label diagram-label--strong">Indireto: governo em velocidade</text>
+      <text x="470" y="198" class="diagram-label">lift + arrasto</text>
+    </svg>
+    <figcaption><b>Figura 3.</b> No modo direto, a força vem principalmente da tração do rebocador; no indireto, o casco oblíquo gera forças hidrodinâmicas que aumentam com a velocidade. Fonte: pp. 134–135, 160–164.</figcaption>
+  </figure>
+
+  <div class="callout callout--info">
+    <span class="callout__label">Para entender</span>
+    <p>Escolta não é apenas ter um rebocador atrás. O rebocador precisa de estabilidade, winch, cabo e pontos de reboque dimensionados para forças que podem ultrapassar o BP nominal, especialmente no método indireto e com mar agitado.</p>
+  </div>
+  <p class="source-line">pp. 160–164</p>
+</section>
+
+<section class="section" id="equipamentos-seguranca">
+  <p class="section-kicker">Equipamento e segurança</p>
+  <h2>Cabos, pontos de reboque e riscos críticos</h2>
+  <p>O sistema de reboque é tão forte quanto seu elo mais fraco. A fonte recomenda que o MBS (minimum breaking strength, carga mínima de ruptura) da towline seja cerca de 4 vezes o BP do rebocador em operações portuárias, considerando forças estáticas de até 2 × BP em ângulos íngremes e cargas dinâmicas adicionais. Em escolta, o MBS deve ser ao menos 2,2 a 3 vezes as máximas forças de governo e frenagem esperadas.</p>
+
+  <p>Cabos de aço têm limite elástico próximo de 2/3 da MBL e exigem atenção ao endurance limit. Cabos de fibra sintética absorvem melhor choques, mas variam muito em elasticidade e resistência à abrasão: nylon estica bastante e perde resistência quando molhado; polyester é mais estável; HMPE (Dyneema/Spectra) tem altíssima resistência e baixa elasticidade, exigindo stretchers para reduzir cargas dinâmicas. Towlines mistas combinam pennant, stretcher e cabo principal para equilibrar resistência, elasticidade e proteção.</p>
+
+  <p>O comprimento do cabo afeta tempo de reação, espaço de manobra e segurança. Cabos curtos reduzem o path width do navio e aceleram a resposta, mas aumentam o risco em velocidade, transmitem mais carga dinâmica e sofrem mais com o wash do propulsor do rebocador sobre o casco. Em operações de escolta, comprimentos de 60 a 150 m são citados, conforme a situação.</p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Riscos de segurança no reboque</caption>
+      <thead>
+        <tr><th>Risco</th><th>Como ocorre</th><th>Prevenção</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Girting</strong></td><td>Rebocador convencional é puxado para o través pela linha sob tensão, com grande momento emborcante.</td><td>Controlar velocidade, usar gob rope/radial hook, quick release confiável e comunicação constante.</td></tr>
+        <tr><td><strong>Tripping</strong></td><td>Tractor gira sobre a própria linha quando o ângulo de reboque fica excessivo.</td><td>Reduzir velocidade, ajustar posição e evitar ângulos críticos.</td></tr>
+        <tr><td><strong>Snap-back</strong></td><td>Ruptura súbita do cabo libera energia elástica em direção ao convés.</td><td>Manter áreas de snap-back livres, inspecionar cabos e respeitar MBS e fadiga.</td></tr>
+        <tr><td><strong>Interação</strong></td><td>Sucção e momentos junto à proa/popa do navio arrastam o rebocador.</td><td>Evitar aproximações em alta velocidade, coordenar máquinas e usar janelas seguras.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Quick release systems em hooks nem sempre funcionam sob alta carga ou grande ângulo; towing winches com liberação controlada da wheelhouse são preferíveis. Gob ropes, pontos de reboque adicionais e radial systems deslocam o TP para reduzir o momento emborcante e melhorar o governo. Em qualquer caso, o mestre do rebocador precisa de visibilidade, comunicação VHF clara e autoridade para largar o cabo quando a segurança exigir.</p>
+
+  <div class="callout callout--danger">
+    <span class="callout__label">Erro crítico</span>
+    <p>Nunca trate BP nominal como limite de força na linha. No método indireto, em ângulos íngremes ou com cargas dinâmicas, a tração pode superar o BP. Dimensione winch, freio, cabo e strong points para o pior caso plausível, não para o valor de placa.</p>
+  </div>
+  <p class="source-line">pp. 126–129, 150–159, 174–175</p>
+</section>
+
+<section class="section" id="capacidade-classificacao">
+  <p class="section-kicker">Capacidade e normas</p>
+  <h2>Bollard pull, limites operacionais e classificação</h2>
+  <p>O bollard pull (BP) requerido para uma manobra depende do porte, das condições ambientais, da configuração do berço e do método de assistência. A fonte apresenta fatores de segurança típicos de 20% nos cálculos de vento, corrente e ondas, e recomenda acréscimo adicional quando o rebocador opera com cabo curto no costado, onde a perda de eficiência pode ser grande.</p>
+
+  <p>Para forças de vento de través, a fórmula citada é Fw = 0,08 · V² · AL (kgf), com V em m/s e área lateral AL; para corrente, as expressões variam fortemente com a UKC, chegando a valores muito maiores em águas rasas. Para navios de grande deslocamento, uma estimativa prática apresentada é BP = 40 + (Δ · 60 / 100.000). Esses números são indicativos da fonte e devem ser usados com margem e conhecimento local, não como substituto de estudo específico.</p>
+
+  <p>Os limites operacionais também contam: nevoeiro, ondas e vagas restringem a passagem de cabo e a eficácia dos métodos. A fonte cita limites típicos de visibilidade de 0,5 milha para assistência portuária e 1 milha para escolta, e alturas de onda de cerca de 1,5–1,8 m para rebocadores convencionais, 2,0 m para não convencionais e até 4 m para escort tugs dedicados, dependendo do projeto.</p>
+
+  <p>Em termos normativos, a fonte menciona requisitos de estabilidade e critérios para escort vessels (como notações de sociedades classificadoras e ensaios em escala real para determinar steering pull) e referencia diretrizes da OCIMF sobre fittings e troca de informações entre navio, prático e rebocador. Também cita a NORMAM 08 e orientações correlatas sobre responsabilidade pela definição de dispositivos e quantidade de rebocadores. Normas e procedimentos podem ter sido atualizados; confirme sempre a edição vigente aplicável ao porto e à autoridade marítima.</p>
+
+  <ul class="checklist">
+    <li>Velocidade reduzida antes de encontros, margens, bacias e manobras com UKC pequena.</li>
+    <li>Profundidade, maré e largura de canal conferidas antes de estimar squat e interação.</li>
+    <li>Tipo e posição do rebocador compatíveis com a velocidade e o método previsto.</li>
+    <li>Cabo, winch, freio e strong points dimensionados para cargas acima do BP nominal.</li>
+    <li>Comunicação VHF clara: quem manda, quem repete e quem tem autoridade para largar.</li>
+    <li>Tripulação afastada das áreas de snap-back e atenta ao trânsito do cabo.</li>
+  </ul>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção normativa</span>
+    <p>A fonte menciona normas e diretrizes (NORMAM, OCIMF, regras de sociedades classificadoras), mas procedimentos e valores podem ter mudado. Use estas referências como contexto histórico e técnico, não como texto normativo vigente.</p>
+  </div>
+  <p class="source-line">pp. 137–139, 160–164, 175–179</p>
+</section>
+
+<section class="section" id="sintese">
+  <p class="section-kicker">Síntese</p>
+  <h2>O que levar para a manobra</h2>
+  <p>Interação, squat e rebocadores compartilham a mesma origem: o escoamento forçado por um casco em espaço restrito. Reduzir velocidade é a medida mais eficaz para todos os três problemas. Antecipar a sequência de pressões, estimar a perda de UKC e escolher o rebocador certo para a posição certa evita que a manobra dependa de correções tardias.</p>
+
+  <div class="keyfacts">
+    <div class="keyfact"><b>V²</b><span>interação e squat crescem com o quadrado da velocidade</span></div>
+    <div class="keyfact"><b>50–100%</b><span>aumento de squat com navios pelo través, segundo a fonte</span></div>
+    <div class="keyfact"><b>4× BP</b><span>ordem de grandeza para MBS de cabo em uso portuário</span></div>
+    <div class="keyfact"><b>8–12 kt</b><span>faixa típica de escolta para tugs dedicados</span></div>
+  </div>
+
+  <p>A síntese operacional é simples: velocidade baixa, margem lateral ampla, UKC confirmada e rebocador posicionado onde seu braço de alavanca e seu método funcionam. Se qualquer um desses elementos faltar, o plano precisa ser revisto antes de entrar no canal ou aproximar do berço.</p>
+  <p class="source-line">pp. 118–125, 160–164, 174–175</p>
+</section>
+
+<section class="section" id="revisao">
+  <p class="section-kicker">Revisão</p>
+  <h2>Perguntas para fixar</h2>
+  <div class="quiz">
+    <details>
+      <summary>Por que o segundo bow-out no encontro head-on exige mais atenção do que o primeiro?</summary>
+      <div class="quiz__answer"><p>Porque o primeiro bow-out é pequeno e controlável, enquanto o segundo é mais forte e pode guinar os navios para um banco raso quando a passagem parece concluída.</p></div>
+    </details>
+    <details>
+      <summary>O que diferencia squat de uma simples variação de leitura de calado em movimento?</summary>
+      <div class="quiz__answer"><p>O squat é o afundamento médio somado ao efeito de trim. A leitura de calado pode variar muito mais que a perda real de UKC, levando a erro se for interpretada literalmente.</p></div>
+    </details>
+    <details>
+      <summary>Quando o navio está em even keel e parado, onde ocorre o squat máximo segundo o CB?</summary>
+      <div class="quiz__answer"><p>Com CB &gt; 0,7, o squat máximo ocorre na proa; com CB &lt; 0,7, na popa; com CB = 0,7, há afundamento médio sem trim dominante.</p></div>
+    </details>
+    <details>
+      <summary>Por que a posição aft é a mais eficaz para frenagem e governo em velocidade?</summary>
+      <div class="quiz__answer"><p>Porque oferece maior braço de alavanca em relação ao ponto de pivô e, em rebocadores modernos, permite aplicar forças por cabo e pelo método indireto, cuja eficácia cresce com a velocidade.</p></div>
+    </details>
+    <details>
+      <summary>Qual a diferença essencial entre reboque direto e indireto na escolta?</summary>
+      <div class="quiz__answer"><p>No direto, a força vem principalmente da tração do rebocador alinhado ao cabo; no indireto, o casco oblíquo ao escoamento gera lift e arrasto que produzem grande força na linha, muitas vezes acima do BP nominal.</p></div>
+    </details>
+    <details>
+      <summary>Por que girting e tripping são perigosos para tipos diferentes de rebocador?</summary>
+      <div class="quiz__answer"><p>Girting ameaça principalmente rebocadores convencionais quando a linha os puxa para o través; tripping ocorre em tractors quando o ângulo de reboque faz o rebocador girar sobre a própria linha. Em ambos, a estabilidade pode ser comprometida rapidamente.</p></div>
+    </details>
+    <details>
+      <summary>Qual é a medida mais eficaz para reduzir simultaneamente interação e squat?</summary>
+      <div class="quiz__answer"><p>Reduzir a velocidade, pois ambos os fenômenos crescem aproximadamente com o quadrado da velocidade e seus efeitos se amplificam em águas rasas e espaços confinados.</p></div>
+    </details>
+  </div>
+  <p class="source-line">pp. 118–179</p>
+</section>
+
+<section class="section complemento-ref" id="complemento-bibliografico">
+  <p class="section-kicker">Complemento bibliográfico</p>
+  <h2>Leituras de referência disponíveis na pasta (Tug Use in Port)</h2>
+  <p>Complemento com base em <strong><em>Tug Use in Port</em> (3ª ed., Capt. Henk Hensen, The Nautical Institute)</strong>. A bibliografia do processo seletivo indica a <strong>4ª ed. (2021, cap. 1–7, 9)</strong>; a 3ª ed. disponível mantém fundamentos amplamente aplicáveis sobre tipos de rebocadores, assistência, segurança e interação, mas pode divergir em dados, exemplos e atualizações.</p>
+
+  <div class="grid-3">
+    <div class="card">
+      <h3>Tipos e modos de atuação</h3>
+      <p>Rebocadores convencionais, ASD, tratores (Voith/azimutais) e outras variantes diferem em ponto de aplicação de força, capacidade de <em>bollard pull</em> em vários rumos, risco de <em>girting/girding</em> e comportamento em velocidade. A escolha do modo (puxar/empurrar, proa/popa, <em>indirect</em>, escolta) deve considerar energia envolvida e estabilidade do conjunto.</p>
+    </div>
+    <div class="card card--teal">
+      <h3>Assistência e escolta</h3>
+      <p>Em operações de assistência e escolta, a capacidade efetiva depende de velocidade, ângulo do cabo, hidrodinâmica do rebocador e janela segura de esforço. Planejamento prévio (posição, comprimento de cabo, comando de soltura rápida, comunicação) é parte da segurança tanto quanto a potência nominal.</p>
+    </div>
+    <div class="card card--accent">
+      <h3>Interação e limites</h3>
+      <p>A interação navio-rebocador e navio-navio intensifica-se com velocidade e proximidade: forças transversais e guinadas podem surgir rapidamente. Procedimentos conservadores, briefings e respeito aos limites de equipamento reduzem risco de contato, capotamento ou ruptura de reboque.</p>
+    </div>
+  </div>
+
+  <div class="callout callout--gold">
+    <span class="callout__label">Para estudo dirigido</span>
+    <p>Ao revisar este capítulo, relacione cada manobra de rebocador com: (1) vetor de força pretendido no navio assistido, (2) ponto de aplicação/pivot, (3) risco dominante (girting, interação, perda de estabilidade, colisão) e (4) ação de abortagem combinada.</p>
+  </div>
+  <p class="source-line"><em>Tug Use in Port</em>, 3ª ed. (Hensen) — capítulos iniciais sobre projeto/tipos e emprego operacional (consulta em <code>apostila/fonte/refs/tug_ch1-2.txt</code> e seguintes).</p>
+</section>

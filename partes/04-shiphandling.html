@@ -1,0 +1,2303 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>04 · Shiphandling: Fundamentos e Manobras — Apostila de Praticagem</title>
+  <meta name="description" content="Forças que afetam o navio, atracação, rebocadores, canais, fundeio, desatracação e a relação prático–comandante.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a2238'/%3E%3Ccircle cx='32' cy='32' r='19' fill='none' stroke='%23d9ad58' stroke-width='2'/%3E%3Cpath d='M39 23l-5 11-11 5 5-11 11-5z' fill='%23d9ad58'/%3E%3C/svg%3E">
+  <style>
+/* ============================================================
+   APOSTILA DE PRATICAGEM — sistema visual
+   Tema navy/teal com papel marfim e acentos dourados.
+   ============================================================ */
+
+:root {
+  --bg: #f3efe5;
+  --bg-deep: #e9e2d2;
+  --surface: #fffdf7;
+  --surface-2: #f8f4e9;
+  --surface-3: #efe9da;
+  --ink: #14212e;
+  --ink-soft: #465866;
+  --ink-faint: #7a8794;
+  --navy: #0a2238;
+  --navy-2: #10344f;
+  --navy-3: #164866;
+  --teal: #0e6b76;
+  --teal-soft: #e0f1f1;
+  --gold: #b3872c;
+  --gold-soft: #f7edd8;
+  --red: #a53e2f;
+  --red-soft: #f9e8e4;
+  --green: #2f6b4f;
+  --green-soft: #e5f2ea;
+  --line: #d8d0bf;
+  --line-strong: #bfb49d;
+  --shadow-sm: 0 1px 2px rgba(20, 33, 46, .08);
+  --shadow-md: 0 10px 30px -12px rgba(10, 34, 56, .35);
+  --shadow-lg: 0 30px 70px -30px rgba(10, 34, 56, .45);
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --sidebar-w: 322px;
+  --content-w: 900px;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --font-body: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --ease: cubic-bezier(.2, .7, .3, 1);
+}
+
+[data-theme="dark"] {
+  --bg: #08131d;
+  --bg-deep: #060f17;
+  --surface: #0f1f2d;
+  --surface-2: #132737;
+  --surface-3: #193143;
+  --ink: #e9eff3;
+  --ink-soft: #b4c4d0;
+  --ink-faint: #8095a7;
+  --navy: #071727;
+  --navy-2: #0b2439;
+  --navy-3: #123b57;
+  --teal: #52b6c0;
+  --teal-soft: rgba(82, 182, 192, .14);
+  --gold: #d9ad58;
+  --gold-soft: rgba(217, 173, 88, .14);
+  --red: #e07c6d;
+  --red-soft: rgba(224, 124, 109, .14);
+  --green: #6fbf92;
+  --green-soft: rgba(111, 191, 146, .13);
+  --line: #24394b;
+  --line-strong: #385165;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, .35);
+  --shadow-md: 0 10px 30px -12px rgba(0, 0, 0, .65);
+  --shadow-lg: 0 30px 70px -30px rgba(0, 0, 0, .8);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 100%;
+  height: auto !important;
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.72;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow-wrap: break-word;
+}
+
+::selection { background: var(--gold-soft); color: var(--ink); }
+
+a { color: var(--teal); text-decoration-color: color-mix(in srgb, var(--teal) 35%, transparent); text-underline-offset: 3px; }
+a:hover { text-decoration-color: currentColor; }
+
+img, svg, video, canvas { max-width: 100%; height: auto; }
+
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 10px;
+  z-index: 999;
+  background: var(--surface);
+  color: var(--ink);
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+}
+.skip-link:focus { left: 10px; }
+
+/* ---------- barra de progresso de leitura ---------- */
+.read-progress {
+  position: fixed;
+  inset: 0 auto auto 0;
+  height: 3px;
+  width: 0;
+  z-index: 120;
+  pointer-events: none;
+  background: linear-gradient(90deg, var(--gold), var(--teal));
+  transition: width .1s linear;
+}
+
+/* ---------- topbar ---------- */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  height: 66px;
+  padding: 0 22px;
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  min-width: 0;
+  color: var(--ink);
+  text-decoration: none;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.02rem;
+  letter-spacing: .01em;
+  white-space: nowrap;
+}
+.brand__mark {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: var(--gold);
+  border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent);
+  background:
+    radial-gradient(circle at 50% 35%, color-mix(in srgb, var(--gold) 18%, transparent), transparent 65%),
+    var(--navy);
+  flex: 0 0 auto;
+}
+.brand__mark svg { width: 20px; height: 20px; }
+.brand small { display: block; font-family: var(--font-body); font-weight: 500; font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-faint); }
+
+.topbar__spacer { flex: 1; }
+
+.icon-btn {
+  display: inline-grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: background .2s, color .2s, border-color .2s, transform .2s;
+}
+.icon-btn:hover { background: var(--surface-2); color: var(--ink); border-color: var(--line-strong); }
+.icon-btn:active { transform: scale(.96); }
+.icon-btn svg { width: 19px; height: 19px; }
+
+.nav-toggle { display: inline-grid; }
+
+.topbar__label {
+  display: block;
+  font-size: .82rem;
+  color: var(--ink-faint);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 40vw;
+}
+
+/* ---------- layout com sidebar ---------- */
+.layout { display: block !important; min-width: 0; width: 100% !important; max-width: 100% !important; position: relative !important; height: auto !important; overflow: visible !important; margin: 0 !important; }
+.scrim { display: none !important; }
+.scrim.is-visible { display: block !important; position: fixed; inset: 66px 0 0; z-index: 90; background: rgba(4,14,22,.55); }
+
+.sidebar {
+  display: none !important;
+  position: fixed;
+  top: 66px;
+  left: 0;
+  bottom: 0;
+  z-index: 95;
+  width: min(340px, 88vw);
+  overflow-y: auto;
+  padding: 30px 24px 48px;
+  background: var(--surface);
+  border-right: 1px solid var(--line);
+  box-shadow: var(--shadow-lg);
+}
+.sidebar.is-open { display: block !important; }
+.sidebar::-webkit-scrollbar { width: 8px; }
+.sidebar::-webkit-scrollbar-thumb { background: var(--line-strong); border-radius: 8px; }
+
+.sidebar__eyebrow {
+  margin: 0 0 14px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.sidebar__group { margin-bottom: 24px; }
+.sidebar__group-title {
+  margin: 0 0 8px;
+  padding: 0 10px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.part-nav { list-style: none; margin: 0; padding: 0; }
+.part-nav a {
+  position: relative;
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr);
+  gap: 8px;
+  align-items: baseline;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-size: .86rem;
+  line-height: 1.35;
+  transition: background .15s, color .15s;
+}
+.part-nav a:hover { background: var(--surface-2); color: var(--ink); }
+.part-nav a.is-active {
+  background: var(--gold-soft);
+  color: var(--ink);
+  font-weight: 650;
+}
+.part-nav a.is-active::before {
+  content: "";
+  position: absolute;
+  left: -24px;
+  top: 8px;
+  bottom: 8px;
+  width: 3px;
+  border-radius: 3px;
+  background: var(--gold);
+}
+.part-nav__num {
+  font-family: var(--font-mono);
+  font-size: .72rem;
+  color: var(--ink-faint);
+  letter-spacing: .03em;
+}
+.part-nav a.is-active .part-nav__num { color: var(--gold); }
+.part-nav__done {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-left: 5px;
+  border-radius: 50%;
+  background: var(--green);
+  vertical-align: middle;
+}
+
+.sidebar__progress {
+  margin-top: 6px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-2);
+}
+.sidebar__progress p { margin: 0 0 10px; font-size: .78rem; color: var(--ink-soft); display: flex; justify-content: space-between; gap: 10px; }
+.sidebar__progress strong { color: var(--ink); }
+
+.bar {
+  height: 7px;
+  border-radius: 99px;
+  background: var(--surface-3);
+  overflow: hidden;
+}
+.bar__fill {
+  height: 100%;
+  width: 0;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--teal), var(--gold));
+  transition: width .5s var(--ease);
+}
+
+/* ---------- conteúdo ---------- */
+.main { display: block !important; position: relative !important; z-index: 1 !important; min-width: 0 !important; width: 100% !important; max-width: 100% !important; overflow: visible !important; min-height: auto !important; height: auto !important; margin: 0 !important; transform: none !important; }
+.content {
+  display: block !important;
+  position: relative !important;
+  z-index: 1 !important;
+  width: auto !important;
+  max-width: 940px !important;
+  margin: 0 auto !important;
+  padding: 40px 24px 80px !important;
+  min-width: 0 !important;
+  overflow: visible !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  height: auto !important;
+  box-sizing: border-box !important;
+  transform: none !important;
+  left: auto !important;
+  right: auto !important;
+}
+.chapter-body, .part-hero, .toc-card, .chapter-end, .breadcrumb, .site-footer {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  max-width: 100%;
+}
+.chapter-nav { display: grid !important; visibility: visible !important; }
+.chapter-body, .part-hero, .toc-card, .chapter-end, .chapter-nav,
+.section, .card, .callout, .def, .formula, .figure, .table-wrap, .example,
+.compare, .keyfacts, .chapter-map, .grid-2, .grid-3, .grid-4 { max-width: 100%; min-width: 0; }
+.chapter-nav a, .grid-2 > *, .grid-3 > *, .grid-4 > *, .compare > *, .keyfacts > * { min-width: 0; }
+pre, code { max-width: 100%; white-space: pre-wrap; overflow-wrap: anywhere; }
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 22px;
+  font-size: .78rem;
+  color: var(--ink-faint);
+}
+.breadcrumb a { color: var(--ink-faint); text-decoration: none; }
+.breadcrumb a:hover { color: var(--teal); }
+.breadcrumb span[aria-hidden] { opacity: .6; }
+
+/* ---------- hero do capítulo ---------- */
+.part-hero {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 42px;
+  padding: clamp(28px, 5vw, 52px);
+  border-radius: var(--radius-lg);
+  color: #f4f7f8;
+  background:
+    radial-gradient(900px 420px at 82% -20%, rgba(67, 158, 170, .42), transparent 60%),
+    radial-gradient(500px 380px at 0% 115%, rgba(179, 135, 44, .22), transparent 65%),
+    linear-gradient(135deg, #071a2b 0%, #0b2b44 55%, #0d3a50 100%);
+  box-shadow: var(--shadow-lg);
+  isolation: isolate;
+}
+.part-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: .28;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, .07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .07) 1px, transparent 1px);
+  background-size: 46px 46px;
+  mask-image: radial-gradient(circle at 75% 30%, #000 0%, transparent 72%);
+  -webkit-mask-image: radial-gradient(circle at 75% 30%, #000 0%, transparent 72%);
+}
+.part-hero::after {
+  content: "";
+  position: absolute;
+  right: -70px;
+  bottom: -90px;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, .13);
+  box-shadow: 0 0 0 42px rgba(255, 255, 255, .045), 0 0 0 86px rgba(255, 255, 255, .03);
+  z-index: -1;
+}
+.part-hero__num {
+  position: absolute;
+  right: clamp(18px, 4vw, 44px);
+  top: clamp(2px, 1vw, 10px);
+  font-family: var(--font-display);
+  font-size: clamp(6rem, 15vw, 11rem);
+  font-weight: 700;
+  line-height: 1;
+  color: rgba(255, 255, 255, .07);
+  letter-spacing: -.05em;
+  pointer-events: none;
+  user-select: none;
+}
+.part-hero__kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 16px;
+  padding: 5px 12px;
+  border: 1px solid rgba(255, 255, 255, .22);
+  border-radius: 99px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: #e7d9b4;
+  background: rgba(255, 255, 255, .05);
+}
+.part-hero__kicker::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #d9ad58;
+  box-shadow: 0 0 10px #d9ad58;
+}
+.part-hero h1 {
+  position: relative;
+  margin: 0 0 14px;
+  max-width: 16ch;
+  font-family: var(--font-display);
+  font-size: clamp(2.1rem, 4.4vw, 3.35rem);
+  font-weight: 700;
+  line-height: 1.06;
+  letter-spacing: -.02em;
+}
+.part-hero__subtitle {
+  margin: 0;
+  max-width: 62ch;
+  font-size: clamp(.98rem, 1.4vw, 1.12rem);
+  line-height: 1.6;
+  color: #c9d8df;
+}
+.part-hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-top: 26px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, .14);
+  font-size: .78rem;
+  color: #b9cbd4;
+}
+.part-hero__meta span { display: inline-flex; align-items: center; gap: 7px; }
+.part-hero__meta svg { width: 15px; height: 15px; opacity: .8; }
+.part-hero__meta a { color: #e7d9b4; }
+
+.hero-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 16px; }
+.hero-tags span {
+  padding: 4px 10px;
+  border-radius: 99px;
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  color: #dfe9ed;
+  background: rgba(255, 255, 255, .09);
+  border: 1px solid rgba(255, 255, 255, .12);
+}
+
+/* ---------- card "neste capítulo" ---------- */
+.toc-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+  gap: 26px;
+  margin-bottom: 42px;
+  padding: 24px 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.toc-card h2 {
+  margin: 0 0 4px;
+  padding: 0;
+  border: 0;
+  font-size: 1.02rem;
+  letter-spacing: .01em;
+}
+.toc-card h2::before, .toc-card h2::after { display: none; }
+.toc-card p { margin: 0; font-size: .83rem; color: var(--ink-faint); }
+.toc-card ol {
+  columns: 2;
+  column-gap: 28px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: toc;
+}
+.toc-card li {
+  break-inside: avoid;
+  margin-bottom: 7px;
+  font-size: .82rem;
+  line-height: 1.4;
+}
+.toc-card li a {
+  display: inline-flex;
+  gap: 8px;
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+.toc-card li a::before {
+  counter-increment: toc;
+  content: counter(toc, decimal-leading-zero);
+  font-family: var(--font-mono);
+  font-size: .68rem;
+  color: var(--gold);
+  padding-top: 2px;
+}
+.toc-card li a:hover { color: var(--teal); }
+.toc-card li a.is-current { color: var(--gold); font-weight: 700; }
+.toc-card li a.is-current::before { color: var(--teal); }
+
+/* ---------- tipografia do conteúdo ---------- */
+.section { margin: 0 0 46px; scroll-margin-top: 90px; }
+
+.section-kicker {
+  margin-bottom: 8px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.content h2 {
+  position: relative;
+  margin: 0 0 18px;
+  padding-bottom: 12px;
+  font-family: var(--font-display);
+  font-size: clamp(1.55rem, 2.6vw, 2.05rem);
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: -.015em;
+  color: var(--ink);
+}
+.content h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 52px;
+  height: 3px;
+  border-radius: 3px;
+  background: linear-gradient(90deg, var(--gold), color-mix(in srgb, var(--gold) 20%, transparent));
+}
+.content h3 {
+  margin: 32px 0 10px;
+  font-family: var(--font-display);
+  font-size: 1.28rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ink);
+}
+.content h4 {
+  margin: 24px 0 8px;
+  font-size: .92rem;
+  font-weight: 750;
+  letter-spacing: .02em;
+  color: var(--ink);
+}
+.content p { margin: 0 0 15px; }
+.content ul, .content ol { margin: 0 0 18px; padding-left: 1.35em; }
+.content li { margin-bottom: 7px; }
+.content li::marker { color: var(--gold); }
+.content strong { font-weight: 700; color: var(--ink); }
+.content em { font-style: italic; }
+.content small { font-size: .8rem; color: var(--ink-faint); }
+
+.anchor {
+  margin-left: 9px;
+  font-size: .72em;
+  color: var(--ink-faint);
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity .15s;
+}
+h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
+
+.lead {
+  font-size: 1.1rem;
+  line-height: 1.66;
+  color: var(--ink-soft);
+}
+.lead strong { color: var(--ink); }
+
+.src {
+  font-family: var(--font-mono);
+  font-size: .7em;
+  font-weight: 500;
+  color: var(--ink-faint);
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  padding: 1px 6px;
+  white-space: nowrap;
+}
+
+.source-line {
+  margin-top: -4px;
+  font-size: .74rem;
+  color: var(--ink-faint);
+  letter-spacing: .02em;
+}
+.source-line::before {
+  content: "Fonte ";
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+/* ---------- cartões e grades ---------- */
+.grid-2, .grid-3, .grid-4 {
+  display: grid;
+  gap: 16px;
+  margin: 22px 0 26px;
+}
+.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+.card {
+  padding: 20px 20px 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.card h3, .card h4 { margin: 0 0 6px; }
+.card h3 { font-size: 1.02rem; }
+.card p:last-child, .card ul:last-child { margin-bottom: 0; }
+.card__num {
+  display: inline-grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background: var(--gold-soft);
+  color: var(--gold);
+  font-family: var(--font-mono);
+  font-size: .74rem;
+  font-weight: 700;
+}
+.card--accent { border-top: 3px solid var(--gold); }
+.card--teal { border-top: 3px solid var(--teal); }
+
+/* ---------- callouts ---------- */
+.callout {
+  position: relative;
+  margin: 22px 0 26px;
+  padding: 18px 20px 16px 22px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--teal);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  background: var(--surface-2);
+}
+.callout > :last-child { margin-bottom: 0; }
+.callout__label {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: .66rem;
+  font-weight: 800;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+.callout p { margin-bottom: 10px; }
+.callout ul, .callout ol { margin-bottom: 0; }
+
+.callout--info { border-left-color: var(--teal); background: color-mix(in srgb, var(--teal-soft) 55%, var(--surface)); }
+.callout--info .callout__label { color: var(--teal); }
+.callout--tip { border-left-color: var(--green); background: color-mix(in srgb, var(--green-soft) 60%, var(--surface)); }
+.callout--tip .callout__label { color: var(--green); }
+.callout--warn { border-left-color: var(--gold); background: color-mix(in srgb, var(--gold-soft) 65%, var(--surface)); }
+.callout--warn .callout__label { color: var(--gold); }
+.callout--danger { border-left-color: var(--red); background: color-mix(in srgb, var(--red-soft) 65%, var(--surface)); }
+.callout--danger .callout__label { color: var(--red); }
+.callout--exam { border-left-color: var(--navy-3); background: color-mix(in srgb, var(--navy-3) 7%, var(--surface)); }
+.callout--exam .callout__label { color: var(--navy-3); }
+[data-theme="dark"] .callout--exam { background: color-mix(in srgb, var(--navy-3) 28%, var(--surface)); }
+
+.callout--mnemonic {
+  border: 1px dashed color-mix(in srgb, var(--gold) 55%, var(--line));
+  border-left: 4px dashed var(--gold);
+  background: var(--gold-soft);
+}
+.callout--mnemonic .callout__label { color: var(--gold); }
+
+/* ---------- definição ---------- */
+.def {
+  margin: 20px 0 24px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--gold-soft) 55%, transparent), transparent 70%),
+    var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.def__term {
+  display: block;
+  margin-bottom: 6px;
+  font-family: var(--font-display);
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.def__term::before {
+  content: "Definição";
+  display: inline-block;
+  margin-right: 9px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: var(--gold);
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: .58rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  vertical-align: 2px;
+}
+.def p { margin: 0; font-size: .95rem; }
+
+/* ---------- fórmulas ---------- */
+.formula {
+  margin: 20px 0 24px;
+  padding: 20px 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--navy);
+  color: #eef4f6;
+  text-align: center;
+  overflow-x: auto;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+.formula__expr {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: clamp(.95rem, 2vw, 1.15rem);
+  letter-spacing: .01em;
+  white-space: nowrap;
+}
+.formula__where {
+  display: block;
+  margin-top: 10px;
+  font-size: .78rem;
+  line-height: 1.6;
+  color: #aebfc8;
+  text-align: left;
+  white-space: normal;
+}
+.formula__where b { color: #e7d9b4; font-weight: 650; }
+.formula sub, .formula sup { font-size: .72em; }
+.formula--light {
+  background: var(--surface-2);
+  color: var(--ink);
+  border-left: 3px solid var(--teal);
+  text-align: left;
+}
+.formula--light .formula__where { color: var(--ink-soft); }
+.formula--light .formula__where b { color: var(--teal); }
+
+/* ---------- tabelas ---------- */
+.table-wrap {
+  margin: 22px 0 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.table-wrap table { width: 100%; border-collapse: collapse; font-size: .88rem; min-width: 100%; }
+.table-wrap caption {
+  padding: 13px 16px;
+  text-align: left;
+  font-size: .76rem;
+  font-weight: 600;
+  color: var(--ink-faint);
+  border-bottom: 1px solid var(--line);
+  background: var(--surface-2);
+}
+.table-wrap th {
+  padding: 11px 14px;
+  text-align: left;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--line-strong);
+  white-space: normal;
+}
+.table-wrap td {
+  padding: 11px 14px;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+  line-height: 1.5;
+}
+.table-wrap tr:last-child td { border-bottom: 0; }
+.table-wrap tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--surface-2) 45%, transparent); }
+.table-wrap td strong { color: var(--ink); }
+
+/* ---------- figuras / svg ---------- */
+.figure {
+  margin: 26px 0 30px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.figure { max-width: 100%; overflow: hidden; }
+.figure svg { display: block; width: 100%; max-width: 100%; height: auto; }
+.figure figcaption {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: .78rem;
+  line-height: 1.55;
+  color: var(--ink-faint);
+}
+.figure figcaption b { color: var(--ink-soft); }
+.figure--flush { padding: 0; overflow: hidden; }
+.figure--flush figcaption { padding: 12px 20px 14px; margin-top: 0; }
+
+.diagram-text { font-family: var(--font-body); }
+.diagram-line { stroke: var(--line-strong); stroke-width: 1.5; fill: none; }
+.diagram-accent { stroke: var(--teal); stroke-width: 2; fill: none; }
+.diagram-gold { stroke: var(--gold); stroke-width: 2; fill: none; }
+.diagram-label { font-family: var(--font-body); font-size: 11px; fill: var(--ink-soft); }
+.diagram-label--strong { font-weight: 700; fill: var(--ink); }
+
+/* ---------- exemplos / passos ---------- */
+.example {
+  margin: 24px 0 28px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+}
+.example__title {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  margin: 0 0 10px;
+  font-size: .95rem;
+  font-weight: 750;
+}
+.example__title span {
+  font-family: var(--font-mono);
+  font-size: .66rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+.steps { list-style: none; margin: 18px 0 4px; padding: 0; counter-reset: step; }
+.steps li {
+  position: relative;
+  margin: 0;
+  padding: 0 0 20px 46px;
+  counter-increment: step;
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--navy);
+  color: var(--gold);
+  font-family: var(--font-mono);
+  font-size: .76rem;
+  font-weight: 700;
+}
+.steps li::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: 34px;
+  bottom: 4px;
+  width: 1px;
+  background: var(--line);
+}
+.steps li:last-child { padding-bottom: 0; }
+.steps li:last-child::after { display: none; }
+.steps strong { display: block; margin-bottom: 2px; }
+
+/* ---------- checklist ---------- */
+.checklist { list-style: none; margin: 18px 0 22px; padding: 0; }
+.checklist li {
+  position: relative;
+  margin: 0;
+  padding: 9px 0 9px 34px;
+  border-bottom: 1px solid var(--line);
+  font-size: .94rem;
+}
+.checklist li:last-child { border-bottom: 0; }
+.checklist li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 14px;
+  width: 17px;
+  height: 17px;
+  border: 1.5px solid var(--gold);
+  border-radius: 4px;
+  background: var(--gold-soft);
+}
+.checklist li::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 18px;
+  width: 9px;
+  height: 5px;
+  border-left: 2px solid var(--green);
+  border-bottom: 2px solid var(--green);
+  transform: rotate(-45deg);
+}
+
+/* ---------- comparação prós/contras ---------- */
+.compare { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 22px 0 28px; }
+.compare > div {
+  padding: 18px 20px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
+.compare h4 { margin-top: 0; display: flex; align-items: center; gap: 8px; }
+.compare .pro { border-top: 3px solid var(--green); }
+.compare .con { border-top: 3px solid var(--red); }
+.compare ul { margin-bottom: 0; }
+.compare .pro h4 { color: var(--green); }
+.compare .con h4 { color: var(--red); }
+
+/* ---------- destaque numérico ---------- */
+.keyfacts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; margin: 24px 0 30px; }
+.keyfact {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  text-align: center;
+}
+.keyfact b {
+  display: block;
+  margin-bottom: 4px;
+  font-family: var(--font-display);
+  font-size: 1.55rem;
+  line-height: 1.1;
+  color: var(--teal);
+}
+.keyfact span { font-size: .74rem; line-height: 1.4; color: var(--ink-faint); }
+
+/* ---------- quiz ---------- */
+.quiz { margin: 22px 0 28px; }
+.quiz details {
+  margin-bottom: 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  overflow: hidden;
+}
+.quiz details[open] { box-shadow: var(--shadow-sm); border-color: var(--line-strong); }
+.quiz summary {
+  position: relative;
+  padding: 16px 48px 16px 20px;
+  cursor: pointer;
+  font-weight: 650;
+  font-size: .94rem;
+  line-height: 1.5;
+  list-style: none;
+  user-select: none;
+}
+.quiz summary::-webkit-details-marker { display: none; }
+.quiz summary::after {
+  content: "+";
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  color: var(--gold);
+  transition: transform .2s;
+}
+.quiz details[open] summary::after { content: "−"; }
+.quiz summary:hover { background: var(--surface-2); }
+.quiz__answer {
+  padding: 0 20px 18px;
+  border-top: 1px solid var(--line);
+  background: color-mix(in srgb, var(--surface-2) 55%, transparent);
+  font-size: .92rem;
+  color: var(--ink-soft);
+}
+.quiz__answer p:first-child { margin-top: 14px; }
+.quiz__answer p:last-child { margin-bottom: 0; }
+
+/* ---------- tags ---------- */
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 0; }
+.tags span {
+  padding: 3px 9px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  font-size: .68rem;
+  font-weight: 600;
+  color: var(--ink-faint);
+  background: var(--surface-2);
+}
+
+/* ---------- conclusão do capítulo ---------- */
+.chapter-end {
+  margin-top: 52px;
+  padding: 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--gold-soft) 55%, transparent), transparent 75%),
+    var(--surface);
+}
+.chapter-end h2 { margin-bottom: 10px; font-size: 1.35rem; }
+.chapter-end h2::after { display: none; }
+.chapter-end p { color: var(--ink-soft); }
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 11px 20px;
+  border: 1px solid var(--line-strong);
+  border-radius: 99px;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: .84rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform .18s var(--ease), box-shadow .18s, background .18s, border-color .18s;
+}
+.btn:hover { transform: translateY(-1px); box-shadow: var(--shadow-sm); border-color: var(--gold); }
+.btn--primary { background: var(--navy); color: #f4f7f8; border-color: var(--navy); }
+.btn--primary:hover { background: var(--navy-2); border-color: var(--navy-2); }
+.btn--gold { background: var(--gold); color: #fffdf7; border-color: var(--gold); }
+.btn--gold:hover { background: color-mix(in srgb, var(--gold) 85%, #000); }
+.btn--done { background: var(--green-soft); color: var(--green); border-color: color-mix(in srgb, var(--green) 40%, var(--line)); }
+.btn svg { width: 16px; height: 16px; }
+
+.chapter-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 34px;
+}
+.chapter-nav a {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color .18s, transform .18s, box-shadow .18s;
+}
+.chapter-nav a:hover { border-color: var(--gold); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.chapter-nav small { font-size: .66rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
+.chapter-nav span { font-family: var(--font-display); font-weight: 700; font-size: 1rem; line-height: 1.3; }
+.chapter-nav a.next { text-align: right; align-items: flex-end; }
+
+.site-footer {
+  margin-top: 54px;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+  font-size: .74rem;
+  color: var(--ink-faint);
+  line-height: 1.6;
+}
+.site-footer p { margin: 0 0 4px; }
+
+/* ============================================================
+   INDEX
+   ============================================================ */
+.index-hero {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(52px, 9vw, 110px) 24px clamp(48px, 7vw, 88px);
+  color: #f4f7f8;
+  background:
+    radial-gradient(900px 500px at 80% 0%, rgba(67, 158, 170, .38), transparent 60%),
+    radial-gradient(700px 500px at 5% 100%, rgba(179, 135, 44, .25), transparent 65%),
+    linear-gradient(150deg, #061522 0%, #0a2438 50%, #0d3a50 100%);
+  isolation: isolate;
+}
+.index-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: .3;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, .06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .06) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(circle at 60% 40%, #000, transparent 75%);
+  -webkit-mask-image: radial-gradient(circle at 60% 40%, #000, transparent 75%);
+}
+.index-hero::after {
+  content: "";
+  position: absolute;
+  right: -120px;
+  bottom: -160px;
+  width: 520px;
+  height: 520px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, .12);
+  box-shadow: 0 0 0 60px rgba(255, 255, 255, .035), 0 0 0 130px rgba(255, 255, 255, .02);
+  z-index: -1;
+}
+.index-hero__inner { width: min(100%, 1120px); margin: 0 auto; }
+.index-hero__kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 6px 14px;
+  border: 1px solid rgba(255, 255, 255, .22);
+  border-radius: 99px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: #e7d9b4;
+  background: rgba(255, 255, 255, .05);
+}
+.index-hero__kicker::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #d9ad58;
+  box-shadow: 0 0 12px #d9ad58;
+}
+.index-hero h1 {
+  max-width: 16ch;
+  margin: 0 0 20px;
+  font-family: var(--font-display);
+  font-size: clamp(2.6rem, 6.2vw, 5rem);
+  font-weight: 700;
+  line-height: .98;
+  letter-spacing: -.035em;
+}
+.index-hero h1 em { font-style: italic; color: #e7d9b4; }
+.index-hero__lead {
+  max-width: 62ch;
+  margin: 0 0 30px;
+  font-size: clamp(1rem, 1.7vw, 1.18rem);
+  line-height: 1.65;
+  color: #c9d8df;
+}
+.index-hero__actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.index-hero .btn--ghost {
+  background: transparent;
+  color: #e9eff2;
+  border-color: rgba(255, 255, 255, .32);
+}
+.index-hero .btn--ghost:hover { background: rgba(255, 255, 255, .08); border-color: #d9ad58; }
+.index-hero__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 46px;
+  margin-top: 44px;
+  padding-top: 26px;
+  border-top: 1px solid rgba(255, 255, 255, .15);
+}
+.index-hero__stats div { display: flex; flex-direction: column; gap: 2px; }
+.index-hero__stats b { font-family: var(--font-display); font-size: 1.7rem; line-height: 1; color: #e7d9b4; }
+.index-hero__stats span { font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: #9fb4bf; }
+
+.index-main { width: min(100% - 48px, 1120px); margin: 0 auto; padding: 50px 0 90px; }
+
+.index-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.index-toolbar h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  letter-spacing: -.01em;
+}
+.search {
+  position: relative;
+  flex: 0 1 320px;
+}
+.search input {
+  width: 100%;
+  padding: 11px 16px 11px 42px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: .88rem;
+  box-shadow: var(--shadow-sm);
+}
+.search input::placeholder { color: var(--ink-faint); }
+.search svg {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 17px;
+  height: 17px;
+  color: var(--ink-faint);
+  pointer-events: none;
+}
+
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 30px; }
+.filter-chip {
+  padding: 7px 14px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  background: var(--surface);
+  color: var(--ink-soft);
+  font-family: var(--font-body);
+  font-size: .76rem;
+  font-weight: 650;
+  cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.filter-chip:hover { border-color: var(--gold); color: var(--ink); }
+.filter-chip[aria-pressed="true"] {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: #f4f7f8;
+}
+
+.parts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 18px; }
+
+.part-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px 22px 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  color: var(--ink);
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform .2s var(--ease), box-shadow .2s, border-color .2s;
+}
+.part-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--teal), var(--gold));
+  opacity: 0;
+  transition: opacity .2s;
+}
+.part-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: var(--line-strong); }
+.part-card:hover::before { opacity: 1; }
+.part-card__top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.part-card__num {
+  font-family: var(--font-mono);
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  color: var(--gold);
+}
+.part-card__module {
+  font-size: .62rem;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.part-card h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.28rem;
+  line-height: 1.2;
+  letter-spacing: -.01em;
+}
+.part-card p { margin: 0; font-size: .84rem; line-height: 1.55; color: var(--ink-soft); }
+.part-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: .7rem;
+  color: var(--ink-faint);
+}
+.part-card__meta span { display: inline-flex; align-items: center; gap: 5px; }
+.part-card__meta svg { width: 13px; height: 13px; }
+.part-card.is-done { border-color: color-mix(in srgb, var(--green) 40%, var(--line)); }
+.part-card.is-done .part-card__num { color: var(--green); }
+.done-badge {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  display: none;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 99px;
+  background: var(--green-soft);
+  color: var(--green);
+  font-size: .6rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.part-card.is-done .done-badge { display: inline-flex; }
+
+.no-results {
+  display: none;
+  padding: 40px;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-md);
+  text-align: center;
+  color: var(--ink-faint);
+}
+.no-results.is-visible { display: block; }
+
+.index-note {
+  margin-top: 42px;
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-2);
+  font-size: .82rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+.index-note strong { color: var(--ink); }
+.index-note p { margin: 0 0 8px; }
+.index-note p:last-child { margin: 0; }
+
+/* ---------- animação de entrada ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal { animation: rise .6s var(--ease) both; }
+  .reveal:nth-child(2) { animation-delay: .04s; }
+  .reveal:nth-child(3) { animation-delay: .08s; }
+  .reveal:nth-child(4) { animation-delay: .12s; }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+/* ---------- responsivo ---------- */
+@media (max-width: 1120px) {
+  :root { --sidebar-w: 280px; }
+  .toc-card { grid-template-columns: 1fr; gap: 16px; }
+}
+
+@media (max-width: 1024px) {
+  .content { width: min(100% - 36px, var(--content-w)); padding-top: 26px; }
+  .grid-3, .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 640px) {
+  body { font-size: 16px; }
+  .content { width: calc(100% - 28px); }
+  .part-hero { border-radius: var(--radius-md); padding: 26px 22px; }
+  .part-hero h1 { font-size: clamp(1.85rem, 8vw, 2.5rem); }
+  .part-hero__num { font-size: 7rem; right: 8px; }
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .compare { grid-template-columns: 1fr; }
+  .chapter-nav { grid-template-columns: 1fr; }
+  .chapter-nav a.next { text-align: left; align-items: flex-start; }
+  .toc-card ol { columns: 1; }
+  .index-main { width: calc(100% - 32px); }
+  .index-toolbar { align-items: stretch; }
+  .search { flex-basis: 100%; }
+  .parts-grid { grid-template-columns: 1fr; }
+  .topbar { padding: 0 14px; gap: 8px; }
+  .brand span { display: none; }
+  .brand small { display: none; }
+  .table-wrap table { min-width: 520px; }
+  .table-wrap th { white-space: nowrap; }
+}
+
+/* ---------- impressão ---------- */
+@media print {
+  :root { --bg: #fff; --surface: #fff; --surface-2: #f6f4ef; --ink: #111; --ink-soft: #333; --ink-faint: #666; --line: #ccc; }
+  body { font-size: 11.5pt; background: #fff; }
+  .topbar, .sidebar, .scrim, .read-progress, .chapter-nav, .chapter-end .btn, .hero-tags, .index-toolbar, .filters, .index-hero__actions { display: none !important; }
+  .layout { display: block; }
+  .content { width: 100%; max-width: none; padding: 0; }
+  .part-hero { color: #111; background: #fff !important; border: 1px solid #ccc; box-shadow: none; padding: 24px; }
+  .part-hero::before, .part-hero::after, .part-hero__num { display: none; }
+  .part-hero h1 { color: #111; }
+  .part-hero__subtitle, .part-hero__meta { color: #333; }
+  .part-hero__meta { border-top-color: #ccc; }
+  .part-hero__kicker { color: #555; border-color: #ccc; background: none; }
+  .part-hero__meta a { color: #333; }
+  .section { break-inside: auto; }
+  .callout, .def, .figure, .example, .quiz details, .table-wrap { break-inside: avoid; }
+  .quiz details { border: 1px solid #ccc; }
+  .quiz__answer { display: block; }
+  .quiz summary::after { display: none; }
+  a { color: inherit; text-decoration: none; }
+  .anchor { display: none; }
+  .source-line, .src { color: #555; }
+}
+
+  </style>
+  <script>
+  (() => {
+    try {
+      const stored = localStorage.getItem("apostila-praticagem-tema");
+      const dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.setAttribute("data-theme", stored || (dark ? "dark" : "light"));
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body class="part-page" data-part="04-shiphandling">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="read-progress" aria-hidden="true"></div>
+  
+  
+    <header class="topbar">
+      <button class="icon-btn nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="sumario" aria-label="Abrir sumário"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <a class="brand" href="../index.html">
+        <span class="brand__mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.2"/><path d="M12 3.8v2M12 18.2v2M3.8 12h2M18.2 12h2"/><path d="M14.9 9.1l-1.6 4.2-4.2 1.6 1.6-4.2 4.2-1.6Z"/></svg></span>
+        <span>Apostila de Praticagem<small>Estudos para o prático</small></span>
+      </a>
+      <div class="topbar__spacer"></div>
+      <span class="topbar__label">Capítulo 04 de 28</span>
+      <button class="icon-btn" type="button" data-print title="Imprimir / salvar em PDF" aria-label="Imprimir ou salvar em PDF"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 8V3h10v5"/><rect x="4" y="8" width="16" height="9" rx="2"/><path d="M7 14h10v7H7z"/></svg></button>
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Alternar tema"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg></button>
+    </header>
+  <div class="layout">
+    
+      <aside class="sidebar" id="sumario">
+        <p class="sidebar__eyebrow">Sumário da apostila</p>
+        <div class="sidebar__group"><p class="sidebar__group-title">Fundamentos de Arquitetura Naval</p><ul class="part-nav"><li><a href="01-resistencia.html" data-part-id="01-resistencia"><span class="part-nav__num">01</span><span>Resistência ao Avanço</span></a></li><li><a href="02-propulsao.html" data-part-id="02-propulsao"><span class="part-nav__num">02</span><span>Propulsão</span></a></li><li><a href="03-governo-manobrabilidade.html" data-part-id="03-governo-manobrabilidade"><span class="part-nav__num">03</span><span>Governo e Manobrabilidade</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Manobra e Rebocadores</p><ul class="part-nav"><li><a href="04-shiphandling.html" class="is-active" aria-current="page" data-part-id="04-shiphandling"><span class="part-nav__num">04</span><span>Shiphandling: Fundamentos e Manobras</span></a></li><li><a href="05-interacao-squat-rebocadores.html" data-part-id="05-interacao-squat-rebocadores"><span class="part-nav__num">05</span><span>Interação, Squat e Rebocadores</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Navegação e Arte Naval</p><ul class="part-nav"><li><a href="06-radar.html" data-part-id="06-radar"><span class="part-nav__num">06</span><span>Radar e Navegação Radar</span></a></li><li><a href="07-arte-naval.html" data-part-id="07-arte-naval"><span class="part-nav__num">07</span><span>Arte Naval</span></a></li><li><a href="08-btm-cis.html" data-part-id="08-btm-cis"><span class="part-nav__num">08</span><span>Bridge Team Management e CIS</span></a></li><li><a href="09-ripeam.html" data-part-id="09-ripeam"><span class="part-nav__num">09</span><span>RIPEAM / COLREGS</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Regulamentação e Segurança</p><ul class="part-nav"><li><a href="10-legislacao-tribunal.html" data-part-id="10-legislacao-tribunal"><span class="part-nav__num">10</span><span>Legislação e Tribunal Marítimo</span></a></li><li><a href="11-sinalizacao-nautica.html" data-part-id="11-sinalizacao-nautica"><span class="part-nav__num">11</span><span>Sinalização Náutica e IALA</span></a></li><li><a href="12-borda-livre-estabilidade.html" data-part-id="12-borda-livre-estabilidade"><span class="part-nav__num">12</span><span>Borda-Livre e Estabilidade</span></a></li><li><a href="13-trafego-certificacao-praticagem.html" data-part-id="13-trafego-certificacao-praticagem"><span class="part-nav__num">13</span><span>Tráfego, Certificação e Praticagem</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Operações e Meteorologia</p><ul class="part-nav"><li><a href="14-cerimonial-sar.html" data-part-id="14-cerimonial-sar"><span class="part-nav__num">14</span><span>Cerimonial, Roteiro e SAR</span></a></li><li><a href="15-meteorologia.html" data-part-id="15-meteorologia"><span class="part-nav__num">15</span><span>Meteorologia e Marés</span></a></li><li><a href="16-auxilios-gmdss.html" data-part-id="16-auxilios-gmdss"><span class="part-nav__num">16</span><span>Auxílios Eletrônicos e GMDSS</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Programa NORMAM-311 (Anexos 2-A/2-B)</p><ul class="part-nav"><li><a href="p1-manobrabilidade.html" data-part-id="p1-manobrabilidade"><span class="part-nav__num">I</span><span>Área I — Manobrabilidade do Navio</span></a></li><li><a href="p2-arte-naval.html" data-part-id="p2-arte-naval"><span class="part-nav__num">II</span><span>Área II — Arte Naval</span></a></li><li><a href="p3-navegacao-restrita.html" data-part-id="p3-navegacao-restrita"><span class="part-nav__num">III</span><span>Área III — Navegação em Águas Restritas</span></a></li><li><a href="p4-legislacao.html" data-part-id="p4-legislacao"><span class="part-nav__num">IV</span><span>Área IV — Legislação e Regulamentação</span></a></li><li><a href="p5-meteorologia.html" data-part-id="p5-meteorologia"><span class="part-nav__num">V</span><span>Área V — Meteorologia e Oceanografia</span></a></li><li><a href="p6-comunicacoes.html" data-part-id="p6-comunicacoes"><span class="part-nav__num">VI</span><span>Área VI — Comunicações</span></a></li><li><a href="p7-conhecimentos-gerais.html" data-part-id="p7-conhecimentos-gerais"><span class="part-nav__num">VII</span><span>Área VII — Conhecimentos Gerais</span></a></li><li><a href="p1-manobrabilidade-resistencia.html" data-part-id="p1-manobrabilidade-resistencia"><span class="part-nav__num">I.1</span><span>Área I — Manobrabilidade do Navio: Resistência</span></a></li><li><a href="p1-manobrabilidade-propulsao.html" data-part-id="p1-manobrabilidade-propulsao"><span class="part-nav__num">I.2</span><span>Área I — Manobrabilidade do Navio: Propulsão</span></a></li><li><a href="p1-manobrabilidade-lemes.html" data-part-id="p1-manobrabilidade-lemes"><span class="part-nav__num">I.3</span><span>Área I — Manobrabilidade do Navio: Superfícies de Controle</span></a></li><li><a href="p1-manobrabilidade-controlabilidade.html" data-part-id="p1-manobrabilidade-controlabilidade"><span class="part-nav__num">I.4</span><span>Área I — Manobrabilidade do Navio: Controlabilidade</span></a></li><li><a href="p1-manobrabilidade-ambiente.html" data-part-id="p1-manobrabilidade-ambiente"><span class="part-nav__num">I.5</span><span>Área I — Manobrabilidade do Navio: Ambiente e Interações</span></a></li></ul></div>
+        <div class="sidebar__progress">
+          <p><span>Seu progresso</span> <strong><span data-progress-total="28">00</span>/28</strong></p>
+          <div class="bar"><div class="bar__fill"></div></div>
+        </div>
+      </aside>
+      <div class="scrim"></div>
+    <main class="main" id="conteudo">
+      <div class="content">
+        <nav class="breadcrumb" aria-label="Trilha de navegação">
+          <a href="../index.html">Apostila</a>
+          <span aria-hidden="true">/</span>
+          <span>Manobra e Rebocadores</span>
+          <span aria-hidden="true">/</span>
+          <span>Capítulo 04</span>
+        </nav>
+
+        <header class="part-hero">
+          <span class="part-hero__num" aria-hidden="true">04</span>
+          <span class="part-hero__kicker">Naval Shiphandling</span>
+          <h1>Shiphandling: Fundamentos e Manobras</h1>
+          <p class="part-hero__subtitle">Forças que afetam o navio, atracação, rebocadores, canais, fundeio, desatracação e a relação prático–comandante.</p>
+          <div class="hero-tags"><span>manobra</span><span>atracação</span><span>rebocador</span><span>fundeio</span><span>canal</span><span>Williamson</span><span>BRM</span></div>
+          <div class="part-hero__meta">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5v-16Z"/><path d="M4 18.5A2.5 2.5 0 0 1 6.5 16H20"/></svg> pp. 63–117 da fonte</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 1.8"/></svg> ~20 min de leitura</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h7l9 9-7 7-9-9V4Z"/><circle cx="8.2" cy="8.2" r="1.3"/></svg> Manobra e Rebocadores</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></svg> <a href="../../resumo%20curso%20h.pdf#page=63" target="_blank" rel="noopener">abrir PDF original</a></span>
+          </div>
+        </header>
+        
+      <nav class="toc-card" aria-label="Neste capítulo">
+        <div>
+          <h2>Neste capítulo</h2>
+          <p>13 seções · leitura estimada de 20 min</p>
+        </div>
+        <ol><li><a href="#o-navio-obedece-a-forcas-nao-a-intencoes">O navio obedece a forças, não a intenções</a></li><li><a href="#forcas-que-afetam-o-navio-e-ponto-de-giro">Forças que afetam o navio e ponto de giro</a></li><li><a href="#helice-forca-lateral-leme-e-comandos">Hélice, força lateral, leme e comandos</a></li><li><a href="#atracacao-cabos-e-defensas">Atracação, cabos e defensas</a></li><li><a href="#desatracacao-e-partida-do-cais">Desatracação e partida do cais</a></li><li><a href="#fundeio-e-amarracao">Fundeio e amarração</a></li><li><a href="#aguas-restritas-squat-encontro-e-ultrapassagem">Águas restritas, squat, encontro e ultrapassagem</a></li><li><a href="#emprego-de-rebocadores-na-chegada-e-partida">Emprego de rebocadores na chegada e partida</a></li><li><a href="#manobra-de-williamson-para-retorno-ao-ponto">Manobra de Williamson para retorno ao ponto</a></li><li><a href="#relacao-pratico-comandante-e-brm">Relação prático-comandante e BRM</a></li><li><a href="#checklist-operacional-e-pontos-chave">Checklist operacional e pontos-chave</a></li><li><a href="#perguntas-para-fechar-o-capitulo">Perguntas para fechar o capítulo</a></li><li><a href="#leituras-de-referencia-disponiveis-na-pasta-crenshaw">Leituras de referência disponíveis na pasta (Crenshaw)</a></li></ol>
+      </nav>
+
+        <article class="chapter-body">
+<section class="section" id="abertura">
+  <p class="section-kicker">Abertura</p>
+  <h2 id="o-navio-obedece-a-forcas-nao-a-intencoes">O navio obedece a forças, não a intenções</h2>
+  <p class="lead">Uma ordem de leme ou de máquina não move o navio magicamente: ela cria forças que interagem com o casco, a água, o vento, o fundo e as amarras. Conduzir o navio (<em>shiphandling</em>) é antecipar esse resultado e manter margem para corrigir ou abortar a manobra.</p>
+  <p>No passadiço, a diferença entre uma atracação tranquila e uma avaria costuma estar no planejamento prévio: conhecer como hélice, leme e corrente atuam, posicionar o ponto de giro (<em>pivot point</em>), preparar cabos, defensas, ferros e rebocadores, e coordenar a equipe. Este capítulo sintetiza os fundamentos operacionais de manobra, do navio solto ao navio amarrado. <span class="src">p. 63, 68–69, 78</span></p>
+
+  <div class="grid-3">
+    <div class="card card--accent">
+      <span class="card__num">01</span>
+      <h3 id="entender-as-forcas">Entender as forças</h3>
+      <p>Relacionar hélice, leme, vento, corrente, banco e águas rasas ao movimento da proa e da popa.</p>
+    </div>
+    <div class="card card--teal">
+      <span class="card__num">02</span>
+      <h3 id="executar-a-manobra">Executar a manobra</h3>
+      <p>Aplicar comandos, cabos, ferros e rebocadores em atracação, desatracação, fundeio e amarração.</p>
+    </div>
+    <div class="card">
+      <span class="card__num">03</span>
+      <h3 id="decidir-com-seguranca">Decidir com segurança</h3>
+      <p>Operar em águas restritas com briefing, comunicação clara e critério para parar ou recomeçar.</p>
+    </div>
+  </div>
+  <p class="source-line">pp. 63–69, 74–78, 89–93</p>
+</section>
+
+<section class="section" id="forcas-pivot">
+  <p class="section-kicker">Fundamentos</p>
+  <h2 id="forcas-que-afetam-o-navio-e-ponto-de-giro">Forças que afetam o navio e ponto de giro</h2>
+  <p>Quando a água escoa ao redor do casco e dos apêndices, a velocidade local muda e a pressão estática varia: onde a velocidade aumenta, a pressão cai (princípio de Bernoulli). Essa diferença de pressão gera sustentação em hidrofólios como leme, quilha e o próprio casco, além de efeitos de sucção entre navios e entre navio e margem. A pressão dinâmica cresce com o quadrado da velocidade: dobrar a velocidade quadruplica a força. <span class="src">p. 63</span></p>
+
+  <div class="def">
+    <span class="def__term">Pivot point (ponto de giro)</span>
+    <p>Ponto em torno do qual o navio gira durante a manobra. Com o navio parado e força aplicada na popa, ele tende a ficar a cerca de <strong>30% do comprimento a partir da proa</strong>; com seguimento avante, desloca-se para <strong>15–20% a ré da proa</strong>. O navio gira sobre esse ponto, mas o ponto não se desloca lateralmente: manobrar é escolher onde ele deve atuar na água. <span class="src">p. 67</span></p>
+  </div>
+
+  <div class="grid-2">
+    <div class="card">
+      <h3 id="vento-wind">Vento (wind)</h3>
+      <p>A força do vento é proporcional ao quadrado da velocidade relativa, à área exposta e à forma da superestrutura. Em regra prática, a água é cerca de 900 vezes mais densa que o ar, de modo que um vento de 30 kt pode produzir efeito comparável ao de uma corrente de 1 kt. Com seguimento avante o navio tende a aproar o vento; com seguimento à ré, a apopar; parado ou com pouco seguimento, tende a oferecer o costado. <span class="src">p. 63, 66, 81</span></p>
+    </div>
+    <div class="card">
+      <h3 id="corrente-current">Corrente (current)</h3>
+      <p>A corrente atua sobre o casco submerso com grande intensidade por causa da densidade da água. Sem outras forças, ela transporta o navio sem fazê-lo guinar; a guinada aparece quando há interação com objetos fixos, variação do escoamento ou uso de máquina/leme. Em águas restritas, avalie sempre a corrente de fundo, não apenas o que se vê na superfície. <span class="src">p. 66, 82</span></p>
+    </div>
+  </div>
+
+  <figure class="figure">
+    <svg viewBox="0 0 720 320" role="img" aria-labelledby="fig-pivot-title fig-pivot-desc">
+      <title id="fig-pivot-title">Ponto de giro e forças de manobra</title>
+      <desc id="fig-pivot-desc">Diagrama de um navio visto de cima com indicação do ponto de giro à vante, força do leme na popa, momento de guinada e deslocamento lateral resultante.</desc>
+      <defs>
+        <marker id="arrow-ph" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+        <marker id="arrow-ph2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--teal)"/>
+        </marker>
+      </defs>
+      <rect x="20" y="20" width="680" height="280" rx="12" fill="var(--surface-2)" stroke="var(--line)"/>
+      <path d="M120 165 Q150 130 220 120 L520 120 Q585 125 620 160 Q585 195 520 200 L220 200 Q150 190 120 165 Z" fill="var(--navy-2)" stroke="var(--navy-3)" stroke-width="2"/>
+      <line x1="590" y1="160" x2="635" y2="185" stroke="var(--gold)" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="220" cy="160" r="7" fill="var(--teal)"/>
+      <text x="220" y="142" text-anchor="middle" class="diagram-label diagram-label--strong">pivot point</text>
+      <text x="220" y="240" text-anchor="middle" class="diagram-label">~15–20% a ré da proa (com seguimento)</text>
+      <path d="M635 185 L635 245" class="diagram-gold" marker-end="url(#arrow-ph)"/>
+      <text x="648" y="220" class="diagram-label diagram-label--strong">força do leme</text>
+      <path d="M360 110 A70 70 0 0 1 430 150" fill="none" stroke="var(--teal)" stroke-width="2.5" marker-end="url(#arrow-ph2)"/>
+      <text x="410" y="98" class="diagram-label">momento de guinada</text>
+      <path d="M360 60 L360 95" class="diagram-line" stroke-dasharray="4 4"/>
+      <path d="M360 35 L360 15" class="diagram-accent" marker-end="url(#arrow-ph2)"/>
+      <text x="360" y="12" text-anchor="middle" class="diagram-label">deslocamento lateral resultante</text>
+      <text x="80" y="165" class="diagram-label">proa</text>
+      <text x="640" y="150" class="diagram-label">popa</text>
+    </svg>
+    <figcaption><b>Figura 1.</b> Com seguimento avante, o leme gera força na popa e o navio gira em torno do pivot point avançado. O casco inclinado em relação ao fluxo passa a produzir grande força lateral, útil para iniciar e sustentar a curva. <span class="src">p. 63, 67</span></figcaption>
+  </figure>
+
+  <div class="callout callout--info">
+    <span class="callout__label">Para entender</span>
+    <p>O leme, as quilhas e o próprio casco comportam-se como hidrofólios: quando inclinados ao fluxo, produzem força lateral e momento. A força do leme depende de área, ângulo e pressão dinâmica; por isso, sem fluxo suficiente sobre o leme, a capacidade de governo cai rapidamente. <span class="src">p. 63, 66</span></p>
+  </div>
+  <p class="source-line">pp. 63, 66–67, 81</p>
+</section>
+
+<section class="section" id="helice-leme">
+  <p class="section-kicker">Controles</p>
+  <h2 id="helice-forca-lateral-leme-e-comandos">Hélice, força lateral, leme e comandos</h2>
+  <p>O hélice (<em>propeller</em>) produz tração ao acelerar uma massa de água para ré; o fluxo acelerado sobre o leme aumenta sua eficiência quando o navio tem pouco seguimento. A força resultante em cada pá decompõe-se em tração e componente tangencial, mas em um hélice isolado e simétrico as componentes laterais se cancelam. No navio real, a esteira (<em>wake</em>) assimétrica, a inclinação do eixo e a proximidade da superfície criam força lateral líquida. <span class="src">p. 63–65</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Efeitos típicos da hélice (referência de navio de um eixo com hélice de passo fixo)</caption>
+      <thead>
+        <tr><th>Condição</th><th>Efeito típico na popa</th><th>Observação operacional</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Avante com seguimento</td><td>Força lateral pequena; pode haver tendência para bombordo em muitos navios</td><td>Efeitos da esteira, inclinação e descarga helicoidal podem se combinar ou se opor. <span class="src">p. 64</span></td></tr>
+        <tr><td>Arrancada avante (parado)</td><td>Tendência da popa para boreste em hélice dextrógira</td><td>Com pouco imersão relativa e forte sucção, o efeito de superfície pode predominar. <span class="src">p. 64</span></td></tr>
+        <tr><td>Atrás</td><td>Forte tendência da popa para bombordo em hélice dextrógira</td><td>A descarga incide no casco com pouca água perturbada à ré; o leme só ganha eficiência após ganhar seguimento à ré. <span class="src">p. 64</span></td></tr>
+        <tr><td>Dois hélices</td><td>Forças laterais mais previsíveis pelo sentido de rotação</td><td>Com máquinas em oposição, soma-se o binário pelo afastamento dos eixos; navios com dois lemes aproveitam melhor a descarga. <span class="src">p. 65–67</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>A direção e a intensidade da força lateral variam com o tipo de navio, calado, imersão da hélice, forma da popa e velocidade. Use o comportamento descrito como ponto de partida, mas confirme nas provas de manobra (<em>trials</em>) e na experiência específica da embarcação. <span class="src">p. 64–65, 78–79</span></p>
+  </div>
+
+  <h3 id="resposta-ao-leme-e-perda-de-governo">Resposta ao leme e perda de governo</h3>
+  <ul class="checklist">
+    <li>A razão de giro depende do ângulo de leme, normalmente limitado a cerca de 35°, e do fluxo sobre ele. <span class="src">p. 66</span></li>
+    <li>Sem seguimento suficiente (<em>steerageway</em>), mesmo leme todo a um bordo pode não vencer vento, corrente e outras forças. <span class="src">p. 66, 69</span></li>
+    <li>Com máquina atrás em navio de um eixo, a sucção à ré do hélice afeta pouco o leme; é preciso ganhar seguimento à ré para recuperar governo. <span class="src">p. 64, 69</span></li>
+    <li>Navios com dois hélices podem criar forças laterais e binários úteis mesmo a baixa velocidade, usando máquinas em sentidos opostos. <span class="src">p. 66–67</span></li>
+  </ul>
+
+  <h3 id="comandos-claros-de-maquina-e-leme">Comandos claros de máquina e leme</h3>
+  <p>Em manobras, clareza vale mais que brevidade ambígua. Use a sequência consagrada de ordem de leme e máquina, confirme a execução e observe a resposta do navio antes de encadear nova ordem. O telégrafo fornece degraus padronizados de regime; o tacômetro permite ajustes finos quando todos os postos envolvidos acompanham a indicação. Em sistemas com passo controlável ou propulsão direcional, padronize comandos e modos para evitar confusão entre passadiço e praça de máquinas. <span class="src">p. 67, 84</span></p>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Na prática</span>
+    <p>Ao duvidar do efeito obtido, observe a água na região da popa e do leme: aceleração e turbulência revelam direção e intensidade da força aplicada melhor do que supor a resposta teórica. <span class="src">p. 67</span></p>
+  </div>
+  <p class="source-line">pp. 63–67, 69, 84</p>
+</section>
+
+<section class="section" id="atracacao">
+  <p class="section-kicker">Junto ao cais</p>
+  <h2 id="atracacao-cabos-e-defensas">Atracação, cabos e defensas</h2>
+  <p>A aproximação segura é controlada, com ângulo pequeno, velocidade mínima de governo e plano de aborto. Aproximar paralelo cedo demais remove a capacidade de abrir a popa e de sair de ré se algo falhar. Uma técnica clássica é aproximar com cerca de 10° a 20°, parar paralelo ao cais a uma distância confortável, passar os cabos e só então aproximar o costado. <span class="src">p. 68, 91–92</span></p>
+
+  <div class="def">
+    <span class="def__term">Cabos de amarração (mooring lines)</span>
+    <p>Linhas que prendem o navio à estrutura fixa. De forma geral: <strong>lança (headline)</strong> limita movimento avante; <strong>espringue de vante (forward spring)</strong> limita movimento à ré; <strong>espringue de ré (after spring)</strong> limita movimento avante; <strong>través (breast line)</strong> segura o navio junto ao cais; e <strong>lateral de ré (stern line)</strong> limita movimento avante da popa. A combinação correta evita tanto o deslocamento longitudinal quanto o afastamento. <span class="src">p. 68–69, 93</span></p>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Efeitos do vento e da corrente na aproximação ao cais</caption>
+      <thead>
+        <tr><th>Condição</th><th>Risco principal</th><th>Conduta recomendada pela fonte</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Vento ou corrente jogando para fora do cais</td><td>Perder contato e não conseguir passar cabos</td><td>Aproximar com mais decisão e ter cabos prontos rapidamente; em casos extremos pode-se usar ferro para segurar a proa enquanto se traz a popa. <span class="src">p. 68</span></td></tr>
+        <tr><td>Vento ou corrente jogando para o cais</td><td>Encostar antes da hora e gerar contato violento</td><td>Aproximar mais aberto e paralelo, com velocidade muito baixa, usando máquina, rebocador ou ferro para controlar o movimento lateral. <span class="src">p. 68, 92</span></td></tr>
+        <tr><td>Corrente atravessada</td><td>Deriva lateral e guinada inesperada</td><td>Compensar o abatimento antes de entrar na área mais restrita e ajustar ângulo e potência com antecedência. <span class="src">p. 91</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Uso de defensas (fenders)</span>
+    <p>Defensas protegem casco e estrutura de contato, mas não corrigem erro de aproximação. Posicione-as antes da manobra, verifique pontos de maior pressão (meia-nau, boreste, arredondamentos) e evite usá-las como desculpa para chegar com energia excessiva. <span class="src">p. 68–69, 91</span></p>
+  </div>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Erro comum</span>
+    <p>Atracar com proa encostada e popa aberta, tentando “puxar” a popa com cabo sem controlar o movimento do navio. A força no cabo pode crescer perigosamente e o navio pode girar de forma indesejada. Priorize controle com máquina, leme e, se necessário, rebocador ou ferro. <span class="src">p. 68, 92</span></p>
+  </div>
+  <p class="source-line">pp. 68–69, 91–93</p>
+</section>
+
+<section class="section" id="desatracacao">
+  <p class="section-kicker">Saída controlada</p>
+  <h2 id="desatracacao-e-partida-do-cais">Desatracação e partida do cais</h2>
+  <p>Desatracar costuma ser mais delicado que atracar: o espaço é limitado, o navio pode estar “colado” ao cais por sucção e, ao dar seguimento à ré, o governo pode ser ineficiente. A regra básica é abrir a popa com segurança antes de ganhar seguimento, mantendo a proa controlada por cabo ou por força lateral. <span class="src">p. 68–69</span></p>
+
+  <ol class="steps">
+    <li><strong>Preparar a saída.</strong> Defina o bordo de saída, confira defensas, cabos que ficarão por último, meio de comunicação com a equipe de proa/popa e condições de vento e corrente.</li>
+    <li><strong>Aliviar e controlar.</strong> Solte os cabos na sequência planejada, mantendo um cabo estratégico (geralmente um espringue) para controlar posição e abrir a extremidade desejada.</li>
+    <li><strong>Abrir e afastar.</strong> Use máquina e leme para abrir popa ou proa conforme o caso; só recolha o último cabo quando o movimento estiver sob controle.</li>
+    <li><strong>Ganhar governo.</strong> Afaste-se o suficiente antes de guinar, especialmente em saídas à ré, para evitar contato da proa com o cais ou com outra embarcação. <span class="src">p. 68–69, 73</span></li>
+  </ol>
+
+  <div class="compare">
+    <div class="pro">
+      <h4>Saída avante</h4>
+      <ul>
+        <li>Melhor resposta ao leme com fluxo da hélice.</li>
+        <li>Facilita ganhar rumo e seguir no canal.</li>
+        <li>Exige espaço para abrir a proa ou “molar” com espringue/corrente. <span class="src">p. 69</span></li>
+      </ul>
+    </div>
+    <div class="con">
+      <h4>Saída à ré</h4>
+      <ul>
+        <li>Permite abrir a popa antes em muitos cais.</li>
+        <li>Governo inicial pobre em navios de um eixo.</li>
+        <li>Exige atenção à tendência da popa e à proa que pode “chupar” para o cais. <span class="src">p. 68–69</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="callout callout--danger">
+    <span class="callout__label">Ponto crítico</span>
+    <p>Ao sair de ré de um cais ou de um navio atracado, a água que preenche o espaço deixado pelo casco pode puxar a proa em direção ao obstáculo. Mantenha vigilância na proa, controle a velocidade e esteja pronto para corrigir com máquina, leme ou cabo. <span class="src">p. 69</span></p>
+  </div>
+  <p class="source-line">pp. 68–69, 73, 93</p>
+</section>
+
+<section class="section" id="fundeio-amarracao">
+  <p class="section-kicker">Ferro e bóia</p>
+  <h2 id="fundeio-e-amarracao">Fundeio e amarração</h2>
+  <p>O ferro é ao mesmo tempo instrumento de fundeio, freio de emergência e auxiliar de manobra. Ele precisa se enterrar com tração horizontal e constante; por isso, filame (<em>scope</em>) adequado e velocidade baixa são essenciais. A amarra em catenária absorve puxões e mantém o esforço próximo do horizontal junto ao fundo. <span class="src">p. 69–71</span></p>
+
+  <h3 id="boas-praticas-de-fundeio">Boas práticas de fundeio</h3>
+  <ul class="checklist">
+    <li>Evite largar o ferro com seguimento avante: a amarra pode enrodilhar e o casco/sonar podem ser expostos a risco.</li>
+    <li>Aproxime, pare e caia à ré sobre o ponto, largando o ferro quando a proa passar pela marca planejada.</li>
+    <li>Filme amarra progressivamente e confirme que o ferro unhou antes de confiar a posição a ele.</li>
+    <li>Aumente o filame com piora de tempo, maré ou vagas para evitar esforços verticais e arrancadas. <span class="src">p. 69–71</span></li>
+  </ul>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Modos de amarração com ferro e bóia (síntese operacional)</caption>
+      <thead>
+        <tr><th>Método</th><th>Quando usar</th><th>Pontos de atenção</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Trolley method (bóia)</strong></td><td>Aproximação controlada à bóia com cabo guia e corrente</td><td>Preparar amarra e cabo, aproximar devagar contra vento/corrente e evitar que o navio avance sobre a bóia. <span class="src">p. 71</span></td></tr>
+        <tr><td><strong>Two anchors / two buoys</strong></td><td>Restringir raio de giro ou manter posição em espaço limitado</td><td>Planejar ordem de largada/amarração, cruzamento e tensão das pernas; controlar guinada durante o ajuste. <span class="src">p. 71–72</span></td></tr>
+        <tr><td><strong>Flying moor / ordinary moor</strong></td><td>Fundeio com dois ferros conforme vento, corrente e espaço</td><td>Escolher sequência e direção em relação ao esforço dominante; ajustar comprimentos para centralizar o navio. <span class="src">p. 72</span></td></tr>
+        <tr><td><strong>Hammerlock moor</strong></td><td>Tempo severo, com necessidade de reduzir guinada</td><td>Amarras cruzadas reduzem balanço da proa, mas exigem cuidado com ordem de suspensão e atrito no casco. <span class="src">p. 72</span></td></tr>
+        <tr><td><strong>Mediterranean moor (Med moor)</strong></td><td>Operar popa ao cais em porto abrigado</td><td>Requer bom controle de dois ferros à vante e aproximação de ré; não deixar folga perigosa nas amarras. <span class="src">p. 72</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="example">
+    <h3 id="caso-pratico-ferro-como-freio-de-emergencia" class="example__title"><span>Caso prático</span> Ferro como freio de emergência</h3>
+    <p>Em área restrita, com risco de pane de governo ou máquina, manter um ferro pronto para largar pode evitar deriva para banco, cais ou outra embarcação. O valor do ferro não está apenas em “ficar fundeado”, mas em ganhar tempo e limitar o deslocamento enquanto se recupera o controle. <span class="src">p. 70</span></p>
+  </div>
+  <p class="source-line">pp. 69–73</p>
+</section>
+
+<section class="section" id="aguas-restritas">
+  <p class="section-kicker">Canais e margens</p>
+  <h2 id="aguas-restritas-squat-encontro-e-ultrapassagem">Águas restritas, squat, encontro e ultrapassagem</h2>
+  <p>Em água rasa e canal estreito, o escoamento sob e ao redor do casco fica confinado: a velocidade da água aumenta, a pressão cai e o navio afunda (<em>sinkage</em>) e muda de trim. A combinação desses efeitos é o <em>squat</em> (afundamento dinâmico). Além do risco de toque no fundo, aumentam a resistência, a vibração e a dificuldade de governo. <span class="src">p. 75, 87–88</span></p>
+
+  <div class="grid-2">
+    <div class="card card--accent">
+      <h3 id="squat-e-velocidade">Squat e velocidade</h3>
+      <p>O squat cresce rapidamente com a velocidade e com o grau de confinamento (relação calado/profundidade e largura do canal). A resposta operacional mais eficaz é reduzir velocidade cedo, especialmente em áreas de pequena folga sob a quilha (<em>UKC</em>). <span class="src">p. 75, 87–88</span></p>
+    </div>
+    <div class="card card--teal">
+      <h3 id="efeito-de-margem-bank-effect">Efeito de margem (bank effect)</h3>
+      <p>Perto de uma margem, o fluxo assimétrico pode sugar a popa para o banco (<em>bank suction</em>) e empurrar a proa para fora (<em>bank cushion</em>), ou combinar ambos, levando o navio a atravessar o canal se a correção for tardia. <span class="src">p. 75, 82</span></p>
+    </div>
+  </div>
+
+  <figure class="figure">
+    <svg viewBox="0 0 720 300" role="img" aria-labelledby="fig-squat-title fig-squat-desc">
+      <title id="fig-squat-title">Squat e interação com a margem em canal</title>
+      <desc id="fig-squat-desc">Vista em corte de um canal com navio acelerado, mostrando afundamento e sucção da popa em direção à margem próxima, com fluxo mais rápido no espaço estreito.</desc>
+      <defs>
+        <marker id="arrow-sq" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+      </defs>
+      <rect x="20" y="20" width="680" height="260" rx="12" fill="var(--surface-2)" stroke="var(--line)"/>
+      <path d="M40 190 L680 190 L680 250 L40 250 Z" fill="#d9c7a0" opacity="0.35"/>
+      <path d="M60 90 L660 90" class="diagram-accent" stroke-dasharray="6 5"/>
+      <text x="610" y="82" class="diagram-label">nível inicial</text>
+      <path d="M140 120 Q170 100 260 95 L470 95 Q540 100 575 130 L595 150 L150 150 Z" fill="var(--navy-2)" stroke="var(--navy-3)" stroke-width="2"/>
+      <path d="M150 150 L595 150 L605 165 L135 165 Z" fill="var(--teal)" opacity="0.18"/>
+      <text x="365" y="180" text-anchor="middle" class="diagram-label">sinkage / squat</text>
+      <path d="M520 145 L520 210" class="diagram-gold" marker-end="url(#arrow-sq)"/>
+      <text x="535" y="205" class="diagram-label">sucção na popa</text>
+      <path d="M240 165 L240 190 L120 190" class="diagram-line"/>
+      <text x="85" y="205" class="diagram-label">fluxo acelerado</text>
+      <path d="M90 210 L40 210 L40 120" stroke="var(--line-strong)" stroke-width="3" fill="none"/>
+      <text x="48" y="112" class="diagram-label">margem</text>
+      <path d="M620 110 L690 110" class="diagram-accent" marker-end="url(#arrow-sq)"/>
+      <text x="655" y="102" text-anchor="middle" class="diagram-label">avanço</text>
+    </svg>
+    <figcaption><b>Figura 2.</b> Em canal raso e estreito, o confinamento acelera o fluxo sob o casco e reduz a folga sob a quilha. A assimetria lateral pode gerar sucção de popa para a margem e perda de controle se a velocidade for excessiva. <span class="src">p. 75, 82, 87–88</span></figcaption>
+  </figure>
+
+  <h3 id="encontro-ultrapassagem-e-set">Encontro, ultrapassagem e <em>set</em></h3>
+  <p>Ao cruzar com outro navio em canal, as ondas de pressão e as zonas de sucção fazem os cascos se atraírem e repelirem em fases diferentes. A manobra exige reduzir velocidade, manter-se no próprio lado com margem e antecipar o momento em que a popa do outro influenciará sua proa. Na ultrapassagem, o navio ultrapassado deve cooperar reduzindo ao mínimo seguro, pois sofre maior perturbação. <span class="src">p. 86</span></p>
+  <p>O <em>set</em> (deriva lateral causada por vento ou corrente) deve ser avaliado continuamente por alinhamentos, bóias, marcas de terra e instrumentos. Em canal, pequenos ângulos de correção aplicados cedo são preferíveis a grandes correções tardias. <span class="src">p. 74, 86</span></p>
+
+  <div class="callout callout--danger">
+    <span class="callout__label">Margem de segurança</span>
+    <p>Em águas rasas, reserve potência e tempo de reação: evite navegar no limite de velocidade, monitore a profundidade sob a quilha e não trate fórmulas de squat como valor exato para todas as situações. Condições locais, aceleração e encontro de navios alteram o resultado. <span class="src">p. 87–88</span></p>
+  </div>
+  <p class="source-line">pp. 74–75, 82, 86–88</p>
+</section>
+
+<section class="section" id="rebocadores">
+  <p class="section-kicker">Apoio externo</p>
+  <h2 id="emprego-de-rebocadores-na-chegada-e-partida">Emprego de rebocadores na chegada e partida</h2>
+  <p>Rebocadores (<em>tugs</em>) ampliam o controle de posição e de guinada, especialmente a baixa velocidade, com vento forte ou em espaços confinados. O rebocador pode empurrar, puxar, trabalhar em cabo (<em>hawser</em>) ou, em alguns arranjos, atuar amarrado junto ao costado; sua eficácia depende de posição, comprimento de cabo, ângulo de tração e coordenação com a máquina do navio. <span class="src">p. 89–91</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Funções típicas dos rebocadores</caption>
+      <thead>
+        <tr><th>Posição / modo</th><th>Emprego principal</th><th>Cuidado essencial</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Proa (empurrando ou puxando)</td><td>Controlar deriva da proa e iniciar/segurar guinada</td><td>Comunicação clara de direção e intensidade; evitar ordens contraditórias. <span class="src">p. 89–90</span></td></tr>
+        <tr><td>Popa</td><td>Controlar aproximação da popa e auxiliar saída/entrada</td><td>Coordenar com cabo de popa e com efeito da hélice do navio. <span class="src">p. 89–90</span></td></tr>
+        <tr><td>No cabo à vante (towing)</td><td>Ajudar a reduzir velocidade, manter rumo ou conduzir navio sem governo</td><td>Controlar comprimento e ângulo do cabo; risco de prender ou perder eficiência com manobras bruscas. <span class="src">p. 90</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--info">
+    <span class="callout__label">Partida e chegada</span>
+    <p>Planeje o uso do rebocador antes da manobra: ponto de pega, sequência de ordens, idioma dos comandos e critério para largar. Rebocador é recurso de controle, não substituto para plano de aproximação, velocidade adequada e equipe atenta. <span class="src">p. 89, 91–92</span></p>
+  </div>
+  <p class="source-line">pp. 89–92</p>
+</section>
+
+<section class="section" id="williamson">
+  <p class="section-kicker">Emergência</p>
+  <h2 id="manobra-de-williamson-para-retorno-ao-ponto">Manobra de Williamson para retorno ao ponto</h2>
+  <p>A manobra de Williamson (<em>Williamson turn</em>) é usada, classicamente, para retornar à posição aproximada em que uma pessoa caiu na água, especialmente à noite ou com visibilidade reduzida. A lógica é afastar-se do rastro imediato, inverter o rumo de forma controlada e retornar pela linha oposta, facilitando a navegação de volta ao ponto. <span class="src">p. 114</span></p>
+
+  <figure class="figure">
+    <svg viewBox="0 0 720 320" role="img" aria-labelledby="fig-will-title fig-will-desc">
+      <title id="fig-will-title">Geometria esquemática da manobra de Williamson</title>
+      <desc id="fig-will-desc">Traçado em forma de laço: navio em rumo original, guinada de cerca de 60 graus, contra-guinada para rumo recíproco e retorno à linha próxima do ponto inicial.</desc>
+      <defs>
+        <marker id="arrow-w" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+      </defs>
+      <rect x="20" y="20" width="680" height="280" rx="12" fill="var(--surface-2)" stroke="var(--line)"/>
+      <path d="M120 250 L120 120" class="diagram-line" stroke-dasharray="6 5"/>
+      <text x="132" y="115" class="diagram-label">rumo inicial</text>
+      <circle cx="120" cy="240" r="6" fill="var(--danger, #b33)"/>
+      <text x="135" y="244" class="diagram-label diagram-label--strong">MOB</text>
+      <path d="M120 250 L120 170 Q125 120 175 95 Q230 70 265 110 Q300 150 260 195 Q210 250 140 245" fill="none" stroke="var(--teal)" stroke-width="4" marker-end="url(#arrow-w)"/>
+      <path d="M120 170 L200 135" class="diagram-gold" marker-end="url(#arrow-w)"/>
+      <text x="210" y="130" class="diagram-label">1) guinar ~60°</text>
+      <text x="300" y="120" class="diagram-label">2) contra-guinar</text>
+      <text x="230" y="270" class="diagram-label">3) estabilizar no rumo recíproco e retornar</text>
+    </svg>
+    <figcaption><b>Figura 3.</b> Esquema simplificado da manobra de Williamson: após o alarme, guina-se cerca de 60° do rumo original e depois inverte-se a guinada até estabilizar no rumo oposto, retornando pela vizinhança do ponto. Ajustes dependem do navio e das condições. <span class="src">p. 114</span></figcaption>
+  </figure>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Não é receita única</span>
+    <p>O ângulo inicial e o momento de inverter a guinada variam com velocidade, raio de giro, vento e mar. A manobra deve ser treinada e adaptada às características do navio; em condições favoráveis e com visual imediato, outras ações de resgate podem ser mais rápidas. <span class="src">p. 114</span></p>
+  </div>
+  <p class="source-line">p. 114</p>
+</section>
+
+<section class="section" id="pratico-brm">
+  <p class="section-kicker">Fator humano</p>
+  <h2 id="relacao-pratico-comandante-e-brm">Relação prático-comandante e BRM</h2>
+  <p>A presença do prático (<em>pilot</em>) não transfere a responsabilidade do comandante pelo navio. O prático contribui com conhecimento local do canal, berços, correntes e práticas portuárias; o comandante e a equipe de bordo conhecem as características de manobra, limitações e condição do navio. A condução segura depende da integração dessas competências. <span class="src">p. 76, 81</span></p>
+
+  <div class="def">
+    <span class="def__term">BRM (Bridge Resource Management)</span>
+    <p>Gestão dos recursos do passadiço: pessoas, informações, equipamentos e tempo. Inclui planejamento, divisão clara de funções, comunicação fechada, monitoramento cruzado e disposição para questionar e intervir quando o plano deixar de ser seguro.</p>
+  </div>
+
+  <ol class="steps">
+    <li><strong>Troca de informações (master–pilot exchange).</strong> Antes da manobra, alinhar plano de passagem/atracação, calado, bordo de encoste, uso de rebocadores e ferros, limitações de máquina/governo, contingências e sinais de aborto. <span class="src">p. 81</span></li>
+    <li><strong>Briefing da equipe.</strong> Confirmar postos, frases padronizadas, quem acompanha posição no radar/ECDIS e quem monitora profundidade, velocidade e distância.</li>
+    <li><strong>Execução monitorada.</strong> Um conduz, outro confere; discrepâncias entre ordem, execução e resposta do navio devem ser verbalizadas imediatamente.</li>
+    <li><strong>Replanejamento.</strong> Se vento, corrente, tráfego ou falha técnica alterarem a margem de segurança, pare, reposicione ou adie. <span class="src">p. 76, 81</span></li>
+  </ol>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Linguagem de passadiço</span>
+    <p>Prefira ordens curtas, específicas e confirmadas (ordem–repetição–ação–reporte). Em manobra com prático, torne explícito quem tem a condução (<em>con</em>) em cada momento para evitar silêncio ambíguo. <span class="src">p. 76</span></p>
+  </div>
+  <p class="source-line">pp. 76, 81</p>
+</section>
+
+<section class="section" id="sintese">
+  <p class="section-kicker">Síntese</p>
+  <h2 id="checklist-operacional-e-pontos-chave">Checklist operacional e pontos-chave</h2>
+
+  <div class="keyfacts">
+    <div class="keyfact"><b>30:1</b><span>relação prática entre efeito de vento e corrente (ordem de grandeza)</span></div>
+    <div class="keyfact"><b>35°</b><span>limite típico de ângulo de leme em navios convencionais</span></div>
+    <div class="keyfact"><b>~30% / 15–20%</b><span>posição aproximada do pivot point parado / com seguimento avante</span></div>
+    <div class="keyfact"><b>V²</b><span>crescimento das forças hidrodinâmicas e aerodinâmicas com a velocidade</span></div>
+  </div>
+
+  <ul class="checklist">
+    <li>Plano de manobra definido: aproximação, abortar, contingência, cabos, defensas, ferros e rebocadores.</li>
+    <li>Condições avaliadas: vento relativo, corrente, maré, profundidade/UKC, tráfego e espaço de giro.</li>
+    <li>Hélice e leme compreendidos para o navio específico (força lateral, resposta à ré, efeito de passo/propulsão).</li>
+    <li>Comunicação testada entre passadiço, proa, popa, praça de máquinas e rebocadores.</li>
+    <li>Em águas rasas/canais: velocidade controlada para limitar squat e efeitos de margem.</li>
+    <li>Fundeio/amarração: filame, sequência e tensão conferidos; equipe protegida na área de cabos e amarras.</li>
+    <li>Troca prático-comandante realizada, com funções de BRM claras durante toda a manobra. <span class="src">p. 63–93</span></li>
+  </ul>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Síntese para levar</span>
+    <p>Manobra segura é energia controlada: reduza velocidade cedo, use as forças disponíveis a seu favor e nunca execute um passo que elimine sua opção de parar ou recomeçar. <span class="src">p. 68, 75, 87</span></p>
+  </div>
+  <p class="source-line">pp. 63–76, 87–93</p>
+</section>
+
+<section class="section" id="revisao">
+  <p class="section-kicker">Revisão</p>
+  <h2 id="perguntas-para-fechar-o-capitulo">Perguntas para fechar o capítulo</h2>
+  <div class="quiz">
+    <details>
+      <summary>1. Por que a posição do pivot point muda quando o navio ganha seguimento avante?</summary>
+      <div class="quiz__answer"><p>Com seguimento, a resistência hidrodinâmica distribui-se ao longo do casco e o centro efetivo de rotação desloca-se para vante (cerca de 15–20% a ré da proa). Isso altera a alavanca das forças de leme e das forças laterais aplicadas na popa. <span class="src">p. 67</span></p></div>
+    </details>
+    <details>
+      <summary>2. Em um navio de um eixo com hélice dextrógira, qual é a tendência típica ao dar máquina atrás partindo do parado e por quê?</summary>
+      <div class="quiz__answer"><p>A tendência típica é da popa cair para bombordo, devido à descarga helicoidal e ao fluxo atuando assimetricamente no casco, com pouca eficiência do leme até que se ganhe seguimento à ré. O comportamento exato depende do navio e deve ser confirmado na prática. <span class="src">p. 64</span></p></div>
+    </details>
+    <details>
+      <summary>3. Por que aproximar do cais com um pequeno ângulo costuma ser mais seguro do que chegar totalmente paralelo desde longe?</summary>
+      <div class="quiz__answer"><p>O ângulo preserva espaço para controlar a popa e permite abortar a manobra dando seguimento à ré. Ao parar paralelo a uma distância segura, passa-se cabos e aproxima-se o costado de forma controlada. <span class="src">p. 68, 91–92</span></p></div>
+    </details>
+    <details>
+      <summary>4. Qual é a função da catenária da amarra no fundeio?</summary>
+      <div class="quiz__answer"><p>A catenária mantém a tração junto ao ferro mais horizontal, ajuda o ferro a permanecer enterrado e absorve puxões causados por vagas e guinadas, reduzindo o risco de garrar. <span class="src">p. 70–71</span></p></div>
+    </details>
+    <details>
+      <summary>5. O que é squat e qual é a medida operacional mais direta para reduzi-lo em canal raso?</summary>
+      <div class="quiz__answer"><p>Squat é o afundamento dinâmico e a alteração de trim causados pela aceleração do escoamento e queda de pressão em águas confinadas. A medida mais direta é reduzir a velocidade, aumentando a folga sob a quilha e a margem de controle. <span class="src">p. 75, 87–88</span></p></div>
+    </details>
+    <details>
+      <summary>6. O que caracteriza os efeitos de <em>bank suction</em> e <em>bank cushion</em> ao navegar próximo a uma margem?</summary>
+      <div class="quiz__answer"><p>O escoamento assimétrico pode reduzir a pressão na popa do lado da margem, sugando-a para o banco (<em>bank suction</em>), e elevar a pressão na proa, empurrando-a para fora (<em>bank cushion</em>). A combinação pode levar o navio a atravessar o canal se não houver correção oportuna. <span class="src">p. 75, 82</span></p></div>
+    </details>
+    <details>
+      <summary>7. Qual é o objetivo da manobra de Williamson?</summary>
+      <div class="quiz__answer"><p>Retornar à vizinhança do ponto em que ocorreu homem ao mar (<em>man overboard</em>), especialmente com visibilidade reduzida, por meio de uma guinada inicial, contra-guinada e regresso no rumo recíproco. O ângulo e a execução devem ser adaptados ao navio. <span class="src">p. 114</span></p></div>
+    </details>
+    <details>
+      <summary>8. Na relação prático-comandante, o que a troca de informações deve deixar claro antes da manobra?</summary>
+      <div class="quiz__answer"><p>Plano de manobra, limitações do navio, uso de rebocadores e ferros, condições ambientais, contingências, critério de aborto e quem está com a condução. O prático traz conhecimento local, mas a responsabilidade do comandante permanece, exigindo BRM efetivo. <span class="src">p. 76, 81</span></p></div>
+    </details>
+  </div>
+</section>
+<section class="section complemento-ref" id="complemento-bibliografico">
+  <p class="section-kicker">Complemento bibliográfico</p>
+  <h2 id="leituras-de-referencia-disponiveis-na-pasta-crenshaw">Leituras de referência disponíveis na pasta (Crenshaw)</h2>
+  <p>Complemento com base em <strong>Russell S. Crenshaw — <em>Naval Shiphandling</em> (U.S. Naval Institute, 1960)</strong>, capítulos sobre forças, manobras junto ao cais, fundeio, amarração e águas restritas. A bibliografia do processo seletivo cita a <strong>4ª ed. (1975)</strong>, cap. 2 — esta é uma edição anterior; os princípios de forças e efeitos hidrodinâmicos são úteis, mas detalhes e exemplos podem diferir.</p>
+
+  <div class="grid-2">
+    <div class="card card--accent">
+      <h3 id="forcas-controlaveis-e-ambientais">Forças controláveis e ambientais</h3>
+      <p>Crenshaw enfatiza separar o que o navio comanda (máquina, leme, cabos, ferro) do que impõe condições (vento e corrente), aproveitando estes últimos quando favoráveis. A corrente age sobre o casco imerso com grande eficácia; o vento atua sobre a obra morta com efeito proporcional ao quadrado da velocidade relativa e à área exposta.</p>
+    </div>
+    <div class="card card--teal">
+      <h3 id="corrente-de-helice-succao-e-pressao">Corrente de hélice, sucção e pressão</h3>
+      <p>O jato do hélice e os fluxos induzidos criam forças laterais e variações de pressão úteis (ou perigosas) em baixa velocidade: aproximar-se/sair de cais, trabalhar com molas e controlar a popa exigem antecipar para onde a água está sendo acelerada e onde se formam zonas de baixa pressão.</p>
+    </div>
+  </div>
+
+  <div class="def">
+    <span class="def__term">Águas restritas e efeito de margem/canal</span>
+    <p>Em canal estreito e raso, o navio “sente” o fundo e as margens: aceleração do fluxo sob e ao lado do casco reduz pressão, favorece <em>squat</em>, sucção de margem (<em>bank suction</em>) e almofada de proa (<em>bank cushion</em>). A resposta prática clássica é margem de velocidade, posição no canal e correções suaves e antecipadas, evitando ciclos de leme/máquina de grande amplitude.</p>
+  </div>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Nota de edição</span>
+    <p>Use esta referência para consolidar intuição física e vocabulário de manobra; para requisitos normativos, procedimentos de praticagem local e dados específicos de navios modernos, prevalecem fontes atualizadas e a prática do porto.</p>
+  </div>
+  <p class="source-line">Crenshaw (1960), Cap. II (Forces Affecting the Ship), Cap. V–VII (Alongside/Anchoring/Mooring) e Cap. XI (Restricted Waters) — consulta em <code>apostila/fonte/refs/crenshaw_*.txt</code>.</p>
+</section>
+
+        </article>
+
+        <section class="chapter-end">
+          <p class="section-kicker">Fim do capítulo</p>
+          <h2>Shiphandling: Fundamentos e Manobras</h2>
+          <p>Conteúdo sintetizado de <strong>Naval Shiphandling e handbooks de manobra portuária</strong>, pp. 63–117 da fonte. Consulte o original para detalhes, figuras e redação normativa.</p>
+          <button class="btn btn--gold" type="button" data-complete="04-shiphandling" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7"/></svg><span>Marcar como concluído</span></button>
+        </section>
+
+        <nav class="chapter-nav" aria-label="Navegação entre capítulos">
+          <a class="prev" href="03-governo-manobrabilidade.html"><small>← Capítulo anterior</small><span>03 · Governo e Manobrabilidade</span></a><a class="next" href="05-interacao-squat-rebocadores.html"><small>Próximo capítulo →</small><span>05 · Interação, Squat e Rebocadores</span></a>
+        </nav>
+
+        <footer class="site-footer">
+          <p><strong>Apostila de Praticagem</strong> · material de estudo gerado a partir de <em>resumo curso h.pdf</em>.</p>
+          <p>Não substitui as publicações oficiais (PNA, NORMAM, RIPEAM, CIS, cartas e avisos). Confirme sempre os dados críticos na fonte vigente.</p>
+        </footer>
+      </div>
+    </main>
+  </div>
+  <script>
+(() => {
+  "use strict";
+
+  const STORAGE_KEY = "apostila-praticagem-progresso-v1";
+  const THEME_KEY = "apostila-praticagem-tema";
+  const doc = document;
+  const root = doc.documentElement;
+
+  /* ---------- tema ---------- */
+  function applyTheme(theme) {
+    root.setAttribute("data-theme", theme);
+    const btn = doc.querySelector("[data-theme-toggle]");
+    if (btn) {
+      const dark = theme === "dark";
+      btn.setAttribute("aria-label", dark ? "Ativar tema claro" : "Ativar tema escuro");
+      btn.setAttribute("title", dark ? "Tema claro" : "Tema escuro");
+      btn.innerHTML = dark
+        ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>'
+        : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.4 8.4 0 1 1 9.8 3.5a6.9 6.9 0 0 0 10.7 10.7Z"/></svg>';
+    }
+  }
+
+  function initTheme() {
+    const stored = localStorage.getItem(THEME_KEY);
+    const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    applyTheme(stored || (prefersDark ? "dark" : "light"));
+  }
+
+  function toggleTheme() {
+    const current = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    localStorage.setItem(THEME_KEY, current);
+    applyTheme(current);
+  }
+
+  /* ---------- progresso ---------- */
+  function getProgress() {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+    } catch {
+      return {};
+    }
+  }
+
+  function setDone(partId, done) {
+    const data = getProgress();
+    if (done) data[partId] = Date.now();
+    else delete data[partId];
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+    paintProgress(data);
+  }
+
+  function paintProgress(data = getProgress()) {
+    doc.querySelectorAll("[data-progress-total]").forEach((el) => {
+      const total = Number(el.getAttribute("data-progress-total"));
+      const count = Object.keys(data).filter((k) => data[k]).length;
+      el.textContent = String(count).padStart(2, "0");
+      const fill = el.closest(".sidebar__progress")?.querySelector(".bar__fill");
+      if (fill && total) fill.style.width = `${Math.min(100, (count / total) * 100)}%`;
+    });
+
+    doc.querySelectorAll(".part-nav a[data-part-id]").forEach((a) => {
+      const id = a.getAttribute("data-part-id");
+      const hasDot = a.querySelector(".part-nav__done");
+      if (data[id] && !hasDot) {
+        const dot = doc.createElement("i");
+        dot.className = "part-nav__done";
+        dot.setAttribute("aria-label", "capítulo concluído");
+        a.appendChild(dot);
+      } else if (!data[id] && hasDot) {
+        hasDot.remove();
+      }
+    });
+
+    doc.querySelectorAll(".part-card[data-part-id]").forEach((card) => {
+      card.classList.toggle("is-done", Boolean(data[card.getAttribute("data-part-id")]));
+    });
+
+    const stat = doc.querySelector("[data-index-progress]");
+    if (stat) {
+      const total = Number(stat.getAttribute("data-index-progress"));
+      const count = Object.keys(data).filter((k) => data[k]).length;
+      stat.textContent = total ? `${count}/${total}` : "0";
+    }
+  }
+
+  function initCompleteButton() {
+    const btn = doc.querySelector("[data-complete]");
+    if (!btn) return;
+    const partId = btn.getAttribute("data-complete");
+    const label = btn.querySelector("span");
+
+    const sync = () => {
+      const done = Boolean(getProgress()[partId]);
+      btn.classList.toggle("btn--done", done);
+      btn.classList.toggle("btn--gold", !done);
+      if (label) label.textContent = done ? "Capítulo concluído" : "Marcar como concluído";
+      btn.setAttribute("aria-pressed", String(done));
+    };
+
+    btn.addEventListener("click", () => {
+      const done = Boolean(getProgress()[partId]);
+      setDone(partId, !done);
+      sync();
+    });
+
+    sync();
+  }
+
+  /* ---------- barra de leitura ---------- */
+  function initReadingProgress() {
+    const bar = doc.querySelector(".read-progress");
+    if (!bar) return;
+    let ticking = false;
+    const update = () => {
+      const max = doc.documentElement.scrollHeight - window.innerHeight;
+      const pct = max > 0 ? (window.scrollY / max) * 100 : 0;
+      bar.style.width = `${Math.min(100, Math.max(0, pct))}%`;
+      ticking = false;
+    };
+    window.addEventListener("scroll", () => {
+      if (!ticking) {
+        window.requestAnimationFrame(update);
+        ticking = true;
+      }
+    }, { passive: true });
+    update();
+  }
+
+  /* ---------- sidebar mobile ---------- */
+  function initSidebar() {
+    const sidebar = doc.querySelector(".sidebar");
+    const toggle = doc.querySelector("[data-nav-toggle]");
+    if (!sidebar || !toggle) return;
+
+    let scrim = doc.querySelector(".scrim");
+    if (!scrim) {
+      scrim = doc.createElement("div");
+      scrim.className = "scrim";
+      doc.body.appendChild(scrim);
+    }
+
+    const close = () => {
+      sidebar.classList.remove("is-open");
+      scrim.classList.remove("is-visible");
+      toggle.setAttribute("aria-expanded", "false");
+    };
+    const open = () => {
+      sidebar.classList.add("is-open");
+      scrim.classList.add("is-visible");
+      toggle.setAttribute("aria-expanded", "true");
+    };
+
+    toggle.addEventListener("click", () => {
+      if (sidebar.classList.contains("is-open")) close();
+      else open();
+    });
+    scrim.addEventListener("click", close);
+    doc.addEventListener("keydown", (ev) => {
+      if (ev.key === "Escape") close();
+    });
+    sidebar.querySelectorAll("a").forEach((a) => a.addEventListener("click", close));
+  }
+
+  /* ---------- âncoras nos títulos ---------- */
+  function initAnchors() {
+    doc.querySelectorAll(".content h2[id], .content h3[id]").forEach((heading) => {
+      if (heading.querySelector(".anchor")) return;
+      const a = doc.createElement("a");
+      a.className = "anchor";
+      a.href = `#${heading.id}`;
+      a.textContent = "#";
+      a.setAttribute("aria-label", `Link para: ${heading.textContent.trim()}`);
+      heading.appendChild(a);
+    });
+  }
+
+  /* ---------- scrollspy do sumário ---------- */
+  function initScrollSpy() {
+    const links = [...doc.querySelectorAll(".toc-card a[href^='#']")];
+    if (!links.length || !("IntersectionObserver" in window)) return;
+    const byId = new Map(links.map((l) => [l.getAttribute("href").slice(1), l]));
+    const targets = [...byId.keys()].map((id) => doc.getElementById(id)).filter(Boolean);
+    if (!targets.length) return;
+
+    const setActive = (id) => {
+      links.forEach((l) => l.classList.remove("is-current"));
+      const link = byId.get(id);
+      if (link) link.classList.add("is-current");
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      const visible = entries
+        .filter((e) => e.isIntersecting)
+        .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+      if (visible[0]) setActive(visible[0].target.id);
+    }, { rootMargin: "-90px 0px -65% 0px", threshold: 0 });
+
+    targets.forEach((t) => observer.observe(t));
+  }
+
+  /* ---------- busca e filtros do índice ---------- */
+  function initIndex() {
+    const cards = [...doc.querySelectorAll(".part-card")];
+    const search = doc.querySelector("[data-search]");
+    const chips = [...doc.querySelectorAll(".filter-chip")];
+    const empty = doc.querySelector(".no-results");
+    if (!cards.length) return;
+
+    let module = "todos";
+    let term = "";
+
+    const apply = () => {
+      let shown = 0;
+      cards.forEach((card) => {
+        const text = (card.textContent + " " + (card.dataset.tags || "")).toLowerCase();
+        const matchesTerm = !term || text.includes(term);
+        const matchesModule = module === "todos" || card.dataset.module === module;
+        const show = matchesTerm && matchesModule;
+        card.style.display = show ? "" : "none";
+        if (show) shown += 1;
+      });
+      if (empty) empty.classList.toggle("is-visible", shown === 0);
+    };
+
+    if (search) {
+      search.addEventListener("input", () => {
+        term = search.value.trim().toLowerCase();
+        apply();
+      });
+    }
+
+    chips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        module = chip.getAttribute("data-filter") || "todos";
+        chips.forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
+        apply();
+      });
+    });
+
+    doc.addEventListener("keydown", (ev) => {
+      if (ev.key === "/" && search && doc.activeElement !== search) {
+        ev.preventDefault();
+        search.focus();
+      }
+    });
+  }
+
+  /* ---------- inicialização ---------- */
+  initTheme();
+  paintProgress();
+  initReadingProgress();
+  initSidebar();
+  initAnchors();
+  initScrollSpy();
+  initCompleteButton();
+  initIndex();
+
+  doc.querySelectorAll("[data-theme-toggle]").forEach((btn) => btn.addEventListener("click", toggleTheme));
+
+  const printBtn = doc.querySelector("[data-print]");
+  if (printBtn) printBtn.addEventListener("click", () => window.print());
+
+  doc.querySelectorAll("[data-year]").forEach((el) => {
+    el.textContent = String(new Date().getFullYear());
+  });
+})();
+
+  </script>
+</body>
+</html>

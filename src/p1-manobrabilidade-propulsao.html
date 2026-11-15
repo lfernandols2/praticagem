@@ -1,0 +1,209 @@
+<section class="section" id="i2-propulsao">
+  <p class="section-kicker">Tópico 2 · Área I</p>
+  <h2>2. Propulsão do Navio e Propulsores</h2>
+  <p class="lead">Propulsão é a cadeia que transforma a potência da máquina em tração útil para vencer a resistência do casco. Este tópico organiza o vocabulário mínimo do Anexo 2-A: definição, teoria da ação do hélice, interação casco-propulsor, geometria, cavitação, tipos de propulsores e propulsor parcialmente submerso.</p>
+
+  <h3>2.1. Definição de propulsão</h3>
+  <div class="def">
+    <span class="def__term">Propulsão</span>
+    <p>Operação de gerar força de reação sobre a água: o propulsor acelera um volume de água para ré e recebe, em troca, a tração (<em>thrust</em>). A cadeia envolve a máquina (<em>prime mover</em>), a linha de eixo, o propulsor e a água.</p>
+  </div>
+  <p>Da história constam jatos, rodas de pás e hélices; o hélice venceu nos navios oceânicos porque não depende do calado, fica abrigado na popa e gira rápido sem perder eficiência. <span class="src">p. 18</span></p>
+
+  <h3>2.2. Teoria da propulsão</h3>
+  <p>A <strong>teoria do momento</strong> (<em>momentum theory</em>) idealiza o hélice como um disco atuador (<em>actuator disk</em>) com aceleração uniforme, escoamento sem atrito e inflow ilimitado: metade do acréscimo final de velocidade é adquirida antes do disco (a = b/2, válido só na teoria), o que dá η<sub>i</sub> = 1/(1 + a). Carga elevada (C<sub>T</sub> = T/½ρA<sub>0</sub>V²<sub>A</sub>) reduz a eficiência ideal; maior área de disco a favorece. Com a rotação impressa ao fluido, a eficiência do elemento de pá cai para (1 − a′)/(1 + a). <span class="src">pp. 20–21</span></p>
+  <p>A <strong>teoria do elemento de pá</strong> trata cada faixa radial como um perfil e integra ao longo do raio: a carga se concentra na região externa, com máximo perto de r ≈ 0,7R. A <strong>teoria da circulação</strong> (Lanchester, aplicada por Prandtl e Betz) liga as forças à circulação Γ (Kutta-Joukowski, L = ρΓV<sub>0</sub>) e explica os vórtices de ponta e a folha de vórtices. Mover muita água com pouca aceleração rende mais que acelerar um jato pequeno — daí a meta de Betz, mesma velocidade de entrada para todos os elementos. <span class="src">pp. 21–23</span></p>
+
+  <h3>2.3. Interação entre o casco e o propulsor</h3>
+  <p>Atrás do casco o fluxo não é uniforme: a água da popa já se move para vante (esteira, <em>wake</em>) e a velocidade de avanço V<sub>A</sub> é menor que V, medida pela fração w = (V − V<sub>A</sub>)/V (Taylor). A esteira sem hélice é a <strong>nominal</strong>; a percebida pelo hélice operando é a <strong>efetiva</strong>, 3 a 4 pontos menor. <span class="src">p. 24</span></p>
+  <p>Ao gerar tração, o hélice reduz a pressão na popa e aumenta a resistência — a dedução de tração t = (T − R<sub>T</sub>)/T. A combinação dos efeitos é a eficiência do casco η<sub>H</sub> = (1 − t)/(1 − w), que pode exceder 1; o torque atrás do casco difere do de águas abertas (η<sub>R</sub> = Q<sub>0</sub>/Q entre 0,95 e 1,1). O escorregamento real, S<sub>R</sub> = 1 − V<sub>A</sub>/(P·n), é o indicador físico correto; o aparente, S<sub>A</sub> = 1 − V/(P·n), embute o efeito da esteira. <span class="src">p. 26</span></p>
+
+  <h3>2.4. Geometria da hélice</h3>
+  <div class="def">
+    <span class="def__term">Passo</span>
+    <p>O passo (<em>pitch</em>, P) é o avanço teórico por revolução; a face da pode ser parte de uma superfície helicoidal verdadeira ou de uma superfície de passo (<em>pitch surface</em>). O ângulo de passo obedece tan φ = P/(2πr); o pitch a 0,7R é o médio representativo. <span class="src">pp. 27–28</span></p>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <caption>Parâmetros geométricos usuais</caption>
+      <thead>
+        <tr><th>Parâmetro</th><th>Descrição e relevância</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>P/D</strong></td><td>Razão de passo: de 0,6 (rebocadores) a 2,0 ou mais (velozes). <span class="src">p. 28</span></td></tr>
+        <tr><td><strong>Razões de área</strong></td><td>A<sub>E</sub>/A<sub>0</sub>, A<sub>D</sub>/A<sub>0</sub>, A<sub>P</sub>/A<sub>0</sub>; a desenvolvida vai de 0,35 a 1,0 ou mais — área maior retarda a cavitação, ao custo de atrito. <span class="src">pp. 27–28</span></td></tr>
+        <tr><td><strong>Rake e skew</strong></td><td>Inclinação longitudinal (folga com o casco) e deslocamento angular das seções (entrada suave na esteira). <span class="src">p. 28</span></td></tr>
+        <tr><td><strong>Número de pás</strong></td><td>3–4 pás são mais eficientes; 5 ou mais reduzem a tração por pá e elevam a frequência de excitação. <span class="src">p. 28</span></td></tr>
+        <tr><td><strong>Cubo e material</strong></td><td>Hub de 0,15–0,25·D; espessura fina para eficiência, espessa para atrasar cavitação; predominância de bronzes. <span class="src">p. 28</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>2.5. Cavitação</h3>
+  <p>A cavitação ocorre em hélices muito carregados quando a pressão local no dorso da pá cai até a pressão de vapor: o fluido se rompe e formam-se cavidades que colapsam aguas abaixo, manifestando-se por ruído, vibração e erosão antes mesmo de impedir a velocidade desejada. <span class="src">p. 30</span></p>
+  <div class="formula">
+    <span class="formula__expr">σ = (p<sub>0</sub> − p<sub>v</sub>) / (½ρV²<sub>R</sub>)</span>
+    <span class="formula__where"><b>p<sub>0</sub></b> pressão estática; <b>p<sub>v</sub></b> pressão de vapor; <b>V<sub>R</sub></b> velocidade relativa na seção. <span class="src">p. 30</span></span>
+  </div>
+  <p>As formas em hélices são fixas ou de vórtice: em lâmina (<em>sheet</em>, bordo de ataque), em bolhas (<em>bubble</em>, meia-corda), em nuvem (<em>cloud</em>) e de vórtice de ponta ou de cubo. Consequências: perda de tração (<em>thrust breakdown</em>), erosão e pressões flutuantes no casco. O mar tem ar dissolvido e núcleos que antecipam o fenômeno: avalie com margem, pois a esteira não uniforme varia o ângulo de ataque a cada rotação. <span class="src">pp. 30–32</span></p>
+
+  <h3>2.6. Tipos de propulsores</h3>
+  <p>Além do hélice de passo fixo, há dispositivos escolhidos por manobrabilidade, calado, carga ou velocidade; a tabela do Tópico 6.6 os consolida. <span class="src">pp. 18, 33–38</span></p>
+  <div class="grid-3">
+    <div class="card card--accent">
+      <span class="card__num">01</span>
+      <h3>Hélices e dutos</h3>
+      <p>Passo fixo e passo controlável (CPP, pistões no cubo); hélice em bocal (<em>nozzle</em>), que em rebocadores pode elevar a tração em até 40%.</p>
+    </div>
+    <div class="card card--teal">
+      <span class="card__num">02</span>
+      <h3>Jatos e jatos-bomba</h3>
+      <p>A <em>waterjet</em> descarrega água a ré (η = 2V/(V<sub>j</sub> + V)); o <em>pump-jet</em> encerra o rotor em duto com estatores.</p>
+    </div>
+    <div class="card">
+      <span class="card__num">03</span>
+      <h3>Eixos verticais e especiais</h3>
+      <p>Voith-Schneider e Kirsten-Boeing (empuxo em qualquer direção); tandem, contrarrotantes, supercavitantes e rodas de pás <em>feathering</em>.</p>
+    </div>
+  </div>
+
+  <h3>2.7. A ação de um propulsor parcialmente submerso</h3>
+  <p>O hélice parcialmente submerso (<em>surface piercing</em>) opera com pás que atravessam a superfície livre, em embarcações de alta velocidade. Pode ficar bem atrás do navio (eixos e suportes curtos, menor arrasto, diâmetro maior); as cavidades arejadas colapsam com menos violência, reduzindo a erosão e permitindo menores razões de área de pá; e perto de 40 nós é possível obter eficiência em águas abertas de cerca de 60%. <span class="src">p. 37</span></p>
+  <div class="compare">
+    <div class="pro">
+      <h4>Vantagens</h4>
+      <ul>
+        <li>Menor arrasto de eixos e braquetes; diâmetro maior possível.</li>
+        <li>Menos erosão (cavidades com ar) e menor área de pá.</li>
+      </ul>
+    </div>
+    <div class="con">
+      <h4>Limitações</h4>
+      <ul>
+        <li>A carga na pá varia de ~zero no topo ao máximo na base: cuidado com fadiga.</li>
+        <li>Em baixa velocidade o torque pode exceder o de projeto (<em>over-torque</em>) — escolher P/D que mantenha o torque razoável.</li>
+      </ul>
+    </div>
+  </div>
+  <p>Nos ensaios em modelo, a pressão sobre a superfície da água deve ser escalada para atender às características de cavitação. <span class="src">p. 37</span></p>
+</section>
+
+<section class="section" id="i6-propulsao">
+  <p class="section-kicker">Tópico 6 · Área II</p>
+  <h2>6. Propulsão do Navio e Propulsores</h2>
+  <p class="lead">O mesmo núcleo de propulsão com o enfoque avançado do Anexo 2-B: parâmetros do hélice, teoria detalhada, cavitação com critérios, abordagem experimental, pressões induzidas com vibrações e ruídos, tipos de propulsores e a interação casco-propulsor em seus coeficientes e potências.</p>
+
+  <h3>6.1. Definições, Parâmetros e Geometria do Propulsor tipo Hélice</h3>
+  <p>Cada máquina é avaliada de uma forma: potência indicada P<sub>I</sub> nos cilindros (P<sub>I</sub> = p<sub>m</sub>·L·A·n), de freio P<sub>B</sub> no acoplamento (2πQn), no eixo P<sub>S</sub> por torsímetro, entregue P<sub>D</sub> após as perdas dos mancais, de tração P<sub>T</sub> = T·V<sub>A</sub> e efetiva P<sub>E</sub> = R·V. <span class="src">p. 19</span></p>
+  <div class="formula">
+    <span class="formula__expr">η<sub>propulsiva</sub> = η<sub>D</sub>·η<sub>S</sub> = P<sub>E</sub>/P<sub>S</sub>, com η<sub>D</sub> = P<sub>E</sub>/P<sub>D</sub> e η<sub>S</sub> = P<sub>D</sub>/P<sub>S</sub></span>
+    <span class="formula__where"><b>η<sub>D</sub></b>, o coeficiente quase-propulsivo, é a medida mais significativa da combinação casco-hélice; <b>η<sub>S</sub></b> incorpora as perdas de transmissão (~2% máquina a ré, ~3% a meia nau). <span class="src">p. 19</span></span>
+  </div>
+  <p>Pela lei de semelhança, com o mesmo avanço relativo J = V<sub>A</sub>/(nD) (mesmo escorregamento), hélices semelhantes têm curvas de coeficientes de tração e torque aplicáveis ao navio; a eficiência do hélice isolado é η<sub>O</sub> = T·V<sub>A</sub>/(2πnQ<sub>0</sub>). A geometria usa as razões adimensionais do Tópico 2.4. <span class="src">pp. 21–22, 26–28</span></p>
+
+  <h3>6.2. Teoria da propulsão</h3>
+  <p>O princípio do momento parte das leis de Newton: o impulso da força é igual à variação da quantidade de movimento; em rotação, o impulso de torque Q·dt iguala a variação do momento angular. As teorias antigas seguiam duas linhas — momento (limite de eficiência, sem indicar a forma) e elemento de pá (capta a forma, mas dava eficiência ideal unitária); a conciliação veio com a circulação de Lanchester, aplicada por Betz e Prandtl. <span class="src">pp. 20, 23</span></p>
+  <p>No elemento de pá, os coeficientes C<sub>L</sub> e C<sub>D</sub> regem cada seção, com máximo L/D em pequeno ângulo de ataque; os fatores de entrada axial e rotacional (a, a′) reduzem o ângulo de incidência efetivo, que fica em 3°–6° num hélice eficiente. A circulação explica o efeito Magnus, os vórtices de ponta e a folha helicoidal a ré da pá; a velocidade induzida no plano do disco vale metade da induzida bem a ré. <span class="src">pp. 21–23</span></p>
+
+  <h3>6.3. Cavitação</h3>
+  <p>Mecanismo: no ponto de estagnação do bordo de ataque a pressão sobe de ½ρV²<sub>0</sub>; no dorso a velocidade cresce e a pressão cai (Bernoulli). Quando a queda atinge (p<sub>0</sub> − p<sub>v</sub>), o fluido rompe-se. Para uma seção a raio r com eixo imerso a profundidade h, o número de cavitação local é σ<sub>L</sub> = (p<sub>A</sub> + ρgh − ρgr − p<sub>v</sub>)/(½ρV²<sub>R</sub>), com V²<sub>R</sub> = V²<sub>A</sub> + (2πnr)²: a cavitação transitória aparece primeiro na parte superior do disco. A semelhança entre hélices cavitantes exige mesmo σ e mesmo J; Froude e Reynolds são incompatíveis, e prefere-se Reynolds, reduzindo a pressão ambiente em escala. <span class="src">pp. 30–32</span></p>
+  <p>Efeitos: <strong>desempenho</strong> — queda de tração e torque, exigindo mais potência e RPM; <strong>erosão</strong> — ondas de choque ou jato reentrante no colapso das bolhas, inclusive dobramento dos bordos de fuga; <strong>vibração e ruído</strong> — amplificação das pressões flutuantes e ruído de alta frequência (crítico em navios de guerra, por autorruido de sonar). Como critérios de prevenção usam-se o diagrama de Burrill (τ<sub>C</sub> contra σ a 0,7R, com a linha de 5% de cavitação no dorso como critério prático) e a fórmula de Keller para a razão de área — com cautela, pois não refletem a esteira nem a geometria. <span class="src">pp. 32–33</span></p>
+
+  <h3>6.4. Abordagem experimental</h3>
+  <p>Os ensaios de hélice isolado (<em>open water</em>) correm no tanque de rebocamento, à velocidade de avanço de Froude e no mesmo J do navio; como Reynolds não se iguala, faz-se o modelo o maior possível. Em condição autopropulsada, a esteira efetiva é deduzida por identidade de tração (preferida em modelos: a tração se mede melhor) ou de torque (necessária em navios, sem medidor de tração). A esteira é levantada por tubos de Pitot ou rodas de pás, com análise de Fourier da não uniformidade. <span class="src">pp. 24–25</span></p>
+  <p>A cavitação exige pressão controlada: circuito vertical com a seção de ensaio no topo e bomba embaixo; ressorbedor para restituir o ar dissolvido; núcleos artificiais em algumas instalações. Aproximações do navio: ensaio com σ 15–25% menor, simulação da inclinação do eixo (até 15°) e parte do aftbody à vante do hélice. Tanque pressurizado (MARIN) combina cavitação e propulsão; os dados saem em curvas de T e Q por σ e no diagrama de Newton (σ × J). <span class="src">pp. 31–32</span></p>
+  <div class="callout callout--warn">
+    <span class="callout__label">Lacuna de fonte</span>
+    <p>O detalhamento completo dos procedimentos experimentais (tolerâncias, correlação modelo-navio) está nas seções não incluídas do PNA Vol. II — a pasta traz apenas parte do capítulo.</p>
+  </div>
+
+  <h3>6.5. Pressões induzidas pelo propulsor e a indução de vibrações e ruídos</h3>
+  <p>Pás girando em esteira não uniforme geram forças e binários periódicos, transmitidos pela água e pelos mancais — uma das principais fontes de vibração do casco. As forças não estacionárias e a cavitação induzem também pressões flutuantes no afterbody, problema que pode ser mais severo que as forças no eixo. Em modelos de popa cheia com 4 pás, o primeiro harmônico da flutuação de torque chega a ~6,5% do torque médio e o de tração a ~10%; com 5 pás, ~1,5% e ~2%; com cavitação, a amplitude das pressões pode multiplicar por até dez. <span class="src">pp. 25, 32</span></p>
+  <div class="callout callout--warn">
+    <span class="callout__label">Lacuna de fonte</span>
+    <p>A resposta estrutural do casco (frequências de passagem de pá, amplitudes admissíveis) é tratada em capítulo do PNA não disponível na pasta. Prevenção se faz no projeto inicial: stern lines, clearances, skew, rake e número de pás. <span class="src">p. 25</span></p>
+  </div>
+
+  <h3>6.6. Tipos de propulsores</h3>
+  <div class="table-wrap">
+    <table>
+      <caption>Dispositivos de propulsão e nichos de aplicação</caption>
+      <thead>
+        <tr><th>Dispositivo</th><th>Característica</th><th>Uso / observação</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Em bocal</strong> (<em>nozzle</em>)</td><td>Direciona o jato do hélice carregado.</td><td>Rebocadores: até +40% de tração; em rápidos, o arrasto anula a vantagem. <span class="src">p. 18</span></td></tr>
+        <tr><td><strong>Passo controlável</strong> (CPP)</td><td>Pás giram no cubo; máquina sem reversão.</td><td>Rebocadores, arrasteiros, turbinas a gás. <span class="src">p. 35</span></td></tr>
+        <tr><td><strong>Waterjet e pump-jet</strong></td><td>Bomba descarrega água a ré; o pump-jet usa duto com pás de guia.</td><td>Manobra como leme móvel, sem arrasto de apêndices; o duto retarda cavitação e ruído. <span class="src">pp. 33–34</span></td></tr>
+        <tr><td><strong>Rodas de pás</strong></td><td>Pás fixas ou <em>feathering</em>.</td><td>Águas rasas e protegidas; eficiência próxima à do hélice quando o calado limita o diâmetro. <span class="src">p. 34</span></td></tr>
+        <tr><td><strong>Eixo vertical</strong> (Voith-Schneider, Kirsten-Boeing)</td><td>Excentricidade governa empuxo.</td><td>Manobra e posicionamento; ~30–40% menos eficiente que o convencional. <span class="src">p. 34</span></td></tr>
+        <tr><td><strong>Tandem / contrarrotantes</strong></td><td>Carga dividida; contrarrotantes recuperam a rotação do jato.</td><td>Diâmetro restrito; contrarrotante exigiu ~7% menos potência no estudo comparado. <span class="src">p. 35</span></td></tr>
+        <tr><td><strong>Supercavitante</strong></td><td>Cavidade cobre todo o dorso; seções em cunha.</td><td>40–80 nós; sem erosão de dorso; exige σ muito baixo e alta RPM. <span class="src">pp. 35–36</span></td></tr>
+        <tr><td><strong>Overlapping</strong></td><td>Discos parcialmente sobrepostos.</td><td>5–8% vs. single-screw; 16% em um 425.000 dwt. <span class="src">p. 37</span></td></tr>
+        <tr><td><strong>Economia de energia</strong></td><td>Vane wheel, reaction fin, duto integrado.</td><td>~9–12%, ~7–8% (lastro) e ~5%, respectivamente. <span class="src">p. 38</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>6.7. Interação entre o Casco e o Propulsor</h3>
+  <p>Em águas abertas o hélice avança em fluxo uniforme; atrás do casco, velocidades e pressões modificam-se em ambos os sentidos. Os cinco itens abaixo decompõem essa interação nos coeficientes oficiais. <span class="src">p. 24</span></p>
+
+  <h4>6.7.1. Resistência adicional presenciada pelo casco</h4>
+  <p>No casco rebocado, a área de alta pressão da popa dá uma componente para vante que reduz a resistência. No casco autopropulsado, a sucção do hélice reduz essa pressão e a componente, aumentando a resistência: é o <em>augment of resistance</em>, T − R<sub>T</sub>, expresso pela fração a = (T − R<sub>T</sub>)/R<sub>T</sub>. Ao interpretar valores publicados, lembre que o t medido depende também do leme e dos apêndices dos modelos. <span class="src">p. 26</span></p>
+
+  <h4>6.7.2. Dedução da força propulsiva e coeficiente de esteira</h4>
+  <p>De T tons de tração, apenas R<sub>T</sub> vencem a resistência: a dedução de tração é t = (T − R<sub>T</sub>)/T, com R<sub>T</sub> = (1 − t)·T. O coeficiente de esteira é w = (V − V<sub>A</sub>)/V em Taylor, com V<sub>A</sub> = V(1 − w); em Froude, w<sub>F</sub> = (V − V<sub>A</sub>)/V<sub>A</sub>, com w = w<sub>F</sub>/(1 + w<sub>F</sub>). <span class="src">p. 26</span></p>
+
+  <h4>6.7.3. Esteira potencial, friccional e onda de esteira</h4>
+  <p>Três causas formam a esteira: (a) <strong>friccional</strong> — o arrasto do casco arrasta uma corrente que cresce rumo à popa; (b) <strong>potencial</strong> — o fluxo que fecha na popa aumenta a pressão nessa região, dando componente positiva; (c) <strong>onda de esteira</strong> — a velocidade orbital é para vante nos cristas e para ré nos cavados, dando componente positiva ou negativa conforme o que estiver na região do hélice. A soma quase sempre é positiva; em embarcações muito rápidas (destróieres) pode ser nula ou negativa: a ~34 nós o comprimento de onda do sistema é de ~200 m, o hélice fica num cavado, a esteira potencial é pequena no casco fino e parte do disco grande fica fora da esteira friccional. <span class="src">p. 24</span></p>
+
+  <h4>6.7.4. Coeficiente de eficiência do casco</h4>
+  <p>A razão entre o trabalho sobre o navio (P<sub>E</sub> = R<sub>T</sub>·V) e o do hélice (P<sub>T</sub> = T·V<sub>A</sub>) é a eficiência do casco: η<sub>H</sub> = (1 − t)/(1 − w) em Taylor, ou (1 + w<sub>F</sub>)(1 − t) em Froude; pode exceder 1 quando a esteira compensa a dedução de tração. <span class="src">p. 26</span></p>
+
+  <h4>6.7.5. Os vários tipos de potência e suas relações</h4>
+  <p>A cadeia completa: P<sub>I</sub>/P<sub>B</sub> (máquina) → P<sub>S</sub> (eixo) → P<sub>D</sub> (hélice) → P<sub>T</sub> = T·V<sub>A</sub> (tração) → P<sub>E</sub> = R·V (útil). As eficiências encadeiam as perdas: η<sub>S</sub> = P<sub>D</sub>/P<sub>S</sub>, η<sub>D</sub> = η<sub>H</sub>·η<sub>R</sub>·η<sub>O</sub> e a propulsiva global η<sub>D</sub>·η<sub>S</sub> = P<sub>E</sub>/P<sub>S</sub>; a decomposição separa efeitos do casco, do hélice e da linha de eixo. <span class="src">pp. 19, 26</span></p>
+
+  <figure class="figure">
+    <svg viewBox="0 0 720 300" role="img" aria-labelledby="fig-pot-chain-title fig-pot-chain-desc">
+      <title id="fig-pot-chain-title">Cadeia de potências e eficiências da propulsão</title>
+      <desc id="fig-pot-chain-desc">Fluxo da esquerda para a direita: potência indicada ou de freio no motor, potência no eixo, potência entregue ao hélice, potência de tração e potência efetiva; entre os blocos, as eficiências de transmissão, do hélice atrás do casco, do casco e a quase-propulsiva.</desc>
+      <defs>
+        <marker id="arrow-pot" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+      </defs>
+      <rect x="20" y="110" width="120" height="60" rx="8" fill="var(--surface-2)" stroke="var(--line-strong)"/>
+      <text x="80" y="135" text-anchor="middle" class="diagram-label diagram-label--strong">P<tspan baseline-shift="sub" font-size="7">I</tspan> / P<tspan baseline-shift="sub" font-size="7">B</tspan></text>
+      <text x="80" y="153" text-anchor="middle" class="diagram-label">máquina</text>
+      <path d="M140 140 L170 140" class="diagram-gold" marker-end="url(#arrow-pot)"/>
+      <rect x="170" y="110" width="110" height="60" rx="8" fill="var(--surface-2)" stroke="var(--line-strong)"/>
+      <text x="225" y="135" text-anchor="middle" class="diagram-label diagram-label--strong">P<tspan baseline-shift="sub" font-size="7">S</tspan></text>
+      <text x="225" y="153" text-anchor="middle" class="diagram-label">eixo</text>
+      <path d="M280 140 L310 140" class="diagram-gold" marker-end="url(#arrow-pot)"/>
+      <text x="295" y="126" text-anchor="middle" class="diagram-label">η<tspan baseline-shift="sub" font-size="7">S</tspan></text>
+      <rect x="310" y="110" width="110" height="60" rx="8" fill="var(--teal-soft)" stroke="var(--teal)"/>
+      <text x="365" y="135" text-anchor="middle" class="diagram-label diagram-label--strong">P<tspan baseline-shift="sub" font-size="7">D</tspan></text>
+      <text x="365" y="153" text-anchor="middle" class="diagram-label">hélice</text>
+      <path d="M420 140 L450 140" class="diagram-gold" marker-end="url(#arrow-pot)"/>
+      <text x="435" y="126" text-anchor="middle" class="diagram-label">η<tspan baseline-shift="sub" font-size="7">B</tspan></text>
+      <rect x="450" y="110" width="110" height="60" rx="8" fill="var(--gold-soft)" stroke="var(--gold)"/>
+      <text x="505" y="135" text-anchor="middle" class="diagram-label diagram-label--strong">P<tspan baseline-shift="sub" font-size="7">T</tspan> = T·V<tspan baseline-shift="sub" font-size="7">A</tspan></text>
+      <text x="505" y="153" text-anchor="middle" class="diagram-label">tração</text>
+      <path d="M560 140 L590 140" class="diagram-gold" marker-end="url(#arrow-pot)"/>
+      <text x="575" y="126" text-anchor="middle" class="diagram-label">η<tspan baseline-shift="sub" font-size="7">H</tspan></text>
+      <rect x="590" y="110" width="110" height="60" rx="8" fill="var(--navy)" stroke="var(--navy-3)"/>
+      <text x="645" y="135" text-anchor="middle" class="diagram-label diagram-label--strong" fill="#eef4f6">P<tspan baseline-shift="sub" font-size="7">E</tspan> = R·V</text>
+      <text x="645" y="153" text-anchor="middle" class="diagram-label" fill="#b9cbd4">útil</text>
+      <path d="M310 200 L560 200" class="diagram-line" stroke-dasharray="4 4"/>
+      <text x="435" y="222" text-anchor="middle" class="diagram-label">η<tspan baseline-shift="sub" font-size="7">D</tspan> = P<tspan baseline-shift="sub" font-size="7">E</tspan>/P<tspan baseline-shift="sub" font-size="7">D</tspan> = η<tspan baseline-shift="sub" font-size="7">H</tspan>·η<tspan baseline-shift="sub" font-size="7">R</tspan>·η<tspan baseline-shift="sub" font-size="7">O</tspan></text>
+      <text x="360" y="262" text-anchor="middle" class="diagram-label">Cada etapa tem perdas; a eficiência global depende do conjunto máquina-eixo-hélice-casco.</text>
+    </svg>
+    <figcaption><b>Figura 1.</b> Cadeia de potências: η<sub>B</sub> (hélice atrás do casco) relaciona-se a η<sub>O</sub> pela eficiência rotativa relativa η<sub>R</sub>. <span class="src">pp. 19, 26</span></figcaption>
+  </figure>
+
+  <div class="callout callout--exam">
+    <span class="callout__label">Cai na prova</span>
+    <p>Decore o encadeamento: η<sub>D</sub> = η<sub>H</sub>·η<sub>R</sub>·η<sub>O</sub>; η<sub>H</sub> = (1−t)/(1−w); propulsiva total = η<sub>D</sub>·η<sub>S</sub> = P<sub>E</sub>/P<sub>S</sub>. E distinga esteira nominal (sem hélice) de efetiva (com hélice operando). <span class="src">pp. 19, 24, 26</span></p>
+  </div>
+  <p class="source-line">Bibliografia do bloco: LEWIS, E. V. (ed.). <em>Principles of Naval Architecture</em>, 3ª ed., Vol. II, Cap. VI — <em>Propulsion</em>, seções 1, 2, 4, 6, 7 e 10 (disponível na pasta em versão de 1988); base adicional: resumo curso h.pdf, pp. 18–38.</p>
+</section>

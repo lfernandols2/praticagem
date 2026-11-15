@@ -1,0 +1,525 @@
+<section class="section" id="por-que-importa">
+  <p class="section-kicker">Abertura</p>
+  <h2>Por que a resistência importa no passadiço</h2>
+  <p class="lead">Resistência é a força que precisa ser vencida para o navio avançar. Ela não é uma força única: é a soma de fenômenos com leis físicas diferentes — atrito, pressão, ondas, vórtices e ar. Entender essa decomposição é o que permite prever potência, comparar modelos com navios reais e reconhecer quando o casco, a velocidade ou a profundidade estão cobrando um preço inesperado.</p>
+  <p>O projeto de um casco ótimo em águas calmas não é necessariamente ótimo em mar agitado. O capítulo trata do desempenho em águas calmas, que é a base do ensaio contratual: o navio deve atingir determinada velocidade com determinada potência em boas condições de tempo. Os efeitos do estado do mar entram depois, por meio de uma <strong>margem de potência de serviço</strong> (<em>service power margin</em>), definida a partir de dados acumulados de navios semelhantes em rotas semelhantes. <span class="src">p. 1</span></p>
+
+  <div class="grid-3">
+    <div class="card card--accent">
+      <span class="card__num">01</span>
+      <h3>Separar para entender</h3>
+      <p>Distinguir os componentes da resistência e saber qual deles domina em cada faixa de velocidade e condição de carregamento.</p>
+    </div>
+    <div class="card card--teal">
+      <span class="card__num">02</span>
+      <h3>Escalar com critério</h3>
+      <p>Explicar por que a semelhança de Froude e a de Reynolds não podem ser satisfeitas ao mesmo tempo e como o método de Froude contorna isso.</p>
+    </div>
+    <div class="card">
+      <span class="card__num">03</span>
+      <h3>Reconhecer os efeitos</h3>
+      <p>Identificar o impacto de águas rasas, trim, banda, deriva, vento e apêndices na resistência e na potência requerida.</p>
+    </div>
+  </div>
+  <p class="source-line">p. 1</p>
+</section>
+
+<section class="section" id="anatomia-da-resistencia">
+  <p class="section-kicker">Vocabulário mínimo</p>
+  <h2 id="componentes-resistencia">Anatomia da resistência</h2>
+
+  <div class="def">
+    <span class="def__term">Resistência total em águas calmas (R<sub>T</sub>)</span>
+    <p>Força necessária para rebocar o navio em águas calmas a uma dada velocidade. A resistência do casco nu (<em>bare-hull resistance</em>) é a mesma grandeza sem apêndices. A potência necessária para vencer essa força é a <strong>potência efetiva</strong>: <em>P<sub>E</sub> = R<sub>T</sub> · V</em>. <span class="src">p. 1</span></p>
+  </div>
+
+  <p>Para organizar o problema, a resistência total costuma ser decomposta em quatro componentes principais:</p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Os quatro componentes principais da resistência em águas calmas</caption>
+      <thead>
+        <tr><th>Componente</th><th>Origem física</th><th>Onde costuma pesar</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Resistência de atrito (R<sub>F</sub>)</strong></td><td>Movimento do casco através de um fluido viscoso; tensões tangenciais na camada-limite.</td><td>Componente dominante em navios lentos; grande parte da resistência em qualquer navio.</td></tr>
+        <tr><td><strong>Resistência de formação de ondas (R<sub>W</sub>)</strong></td><td>Pressões normais associadas ao sistema de ondas gerado pelo casco na superfície livre.</td><td>Cresce fortemente com a velocidade; depende de Froude e das formas das extremidades.</td></tr>
+        <tr><td><strong>Resistência de vórtices (R<sub>E</sub>)</strong></td><td>Energia carregada por vórtices desprendidos do casco ou de apêndices; separação em popas pouco afiladas.</td><td>Apêndices, popas cheias, mudanças abruptas de forma.</td></tr>
+        <tr><td><strong>Resistência do ar (R<sub>AA</sub>)</strong></td><td>Arrasto da obra morta e da superestrutura contra o vento relativo.</td><td>Navios com grande área exposta e ventos de proa ou de través.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>A <strong>resistência residual</strong> (<em>residuary resistance</em>, R<sub>R</sub>) é a soma da formação de ondas com os vórtices: R<sub>R</sub> = R<sub>W</sub> + R<sub>E</sub>. Já a <strong>resistência viscosa</strong> reúne o atrito e a parcela de pressão de origem viscosa. Essa divisão não é apenas acadêmica: ela é a base dos métodos de extrapolação de modelo para navio. <span class="src">p. 1–2</span></p>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">A armadilha do número único</span>
+    <p>Não existe “o coeficiente de resistência do navio” válido para todas as velocidades. O coeficiente adimensional C<sub>T</sub> = R<sub>T</sub>/(½ρSV²) varia com Froude e Reynolds, e a curva apresenta colinas e vales. Um valor isolado só faz sentido se vier acompanhado da velocidade, do calado e da condição de casco correspondentes.</p>
+  </div>
+
+  <figure class="figure">
+    <svg viewBox="0 0 720 330" role="img" aria-labelledby="fig-resist-tree-title fig-resist-tree-desc">
+      <title id="fig-resist-tree-title">Decomposição da resistência total</title>
+      <desc id="fig-resist-tree-desc">Diagrama em árvore: a resistência total em águas calmas se divide em resistência do ar, resistência de atrito, resistência de formação de ondas e resistência de vórtices. A resistência residual é a soma de ondas e vórtices; a viscosa inclui atrito e pressão de forma.</desc>
+      <defs>
+        <marker id="arrow-res" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--line-strong)"/>
+        </marker>
+      </defs>
+      <rect x="235" y="18" width="250" height="52" rx="10" fill="var(--navy)" stroke="var(--navy-3)"/>
+      <text x="360" y="40" text-anchor="middle" class="diagram-label diagram-label--strong" fill="#eef4f6">Resistência total R<tspan baseline-shift="sub" font-size="8">T</tspan></text>
+      <text x="360" y="57" text-anchor="middle" class="diagram-label" fill="#b9cbd4">águas calmas, casco com apêndices</text>
+      <path d="M360 70 V95 H90 V118" class="diagram-line" marker-end="url(#arrow-res)"/>
+      <path d="M360 95 H270 V118" class="diagram-line" marker-end="url(#arrow-res)"/>
+      <path d="M360 95 H450 V118" class="diagram-line" marker-end="url(#arrow-res)"/>
+      <path d="M360 95 H630 V118" class="diagram-line" marker-end="url(#arrow-res)"/>
+      <rect x="20" y="122" width="140" height="46" rx="8" fill="var(--surface-2)" stroke="var(--line-strong)"/>
+      <text x="90" y="141" text-anchor="middle" class="diagram-label diagram-label--strong">Ar R<tspan baseline-shift="sub" font-size="7">AA</tspan></text>
+      <text x="90" y="157" text-anchor="middle" class="diagram-label">obra morta + vento</text>
+      <rect x="200" y="122" width="140" height="46" rx="8" fill="var(--surface-2)" stroke="var(--line-strong)"/>
+      <text x="270" y="141" text-anchor="middle" class="diagram-label diagram-label--strong">Atrito R<tspan baseline-shift="sub" font-size="7">F</tspan></text>
+      <text x="270" y="157" text-anchor="middle" class="diagram-label">camada-limite</text>
+      <rect x="380" y="122" width="140" height="46" rx="8" fill="var(--surface-2)" stroke="var(--line-strong)"/>
+      <text x="450" y="141" text-anchor="middle" class="diagram-label diagram-label--strong">Ondas R<tspan baseline-shift="sub" font-size="7">W</tspan></text>
+      <text x="450" y="157" text-anchor="middle" class="diagram-label">pressões na superfície livre</text>
+      <rect x="560" y="122" width="140" height="46" rx="8" fill="var(--surface-2)" stroke="var(--line-strong)"/>
+      <text x="630" y="141" text-anchor="middle" class="diagram-label diagram-label--strong">Vórtices R<tspan baseline-shift="sub" font-size="7">E</tspan></text>
+      <text x="630" y="157" text-anchor="middle" class="diagram-label">separação e apêndices</text>
+      <rect x="200" y="205" width="140" height="44" rx="8" fill="var(--gold-soft)" stroke="var(--gold)" stroke-dasharray="5 4"/>
+      <text x="270" y="224" text-anchor="middle" class="diagram-label diagram-label--strong">+ pressão de forma</text>
+      <text x="270" y="239" text-anchor="middle" class="diagram-label">origem viscosa</text>
+      <path d="M270 168 V205" class="diagram-accent" marker-end="url(#arrow-res)"/>
+      <path d="M380 190 H700 V190" class="diagram-gold" stroke-dasharray="4 4"/>
+      <path d="M450 168 V190 M630 168 V190" class="diagram-gold" stroke-dasharray="4 4"/>
+      <rect x="430" y="205" width="270" height="44" rx="8" fill="var(--teal-soft)" stroke="var(--teal)"/>
+      <text x="565" y="224" text-anchor="middle" class="diagram-label diagram-label--strong">Residual R<tspan baseline-shift="sub" font-size="7">R</tspan> = R<tspan baseline-shift="sub" font-size="7">W</tspan> + R<tspan baseline-shift="sub" font-size="7">E</tspan></text>
+      <text x="565" y="239" text-anchor="middle" class="diagram-label">escala por Froude</text>
+      <text x="360" y="300" text-anchor="middle" class="diagram-label">A divisão permite aplicar leis de escala diferentes a cada família de fenômenos.</text>
+    </svg>
+    <figcaption><b>Figura 1.</b> Decomposição usada para organizar o problema. A resistência viscosa combina atrito e pressão de forma; a residual combina ondas e vórtices. As parcelas não são independentes — há interação entre elas —, mas a separação é uma ferramenta prática de previsão. <span class="src">p. 1–2</span></figcaption>
+  </figure>
+  <p class="source-line">p. 1–2</p>
+</section>
+
+<section class="section" id="semelhanca">
+  <p class="section-kicker">Análise dimensional</p>
+  <h2>Froude, Reynolds e o problema de escalar</h2>
+
+  <p>Toda equação que expressa uma relação física deve ser dimensionalmente homogênea. Em mecânica, as grandezas básicas são massa (M), comprimento (L) e tempo (T); força, densidade, pressão e velocidade derivam delas. A escolha correta das variáveis que influenciam o fenômeno é a parte mais importante da análise. <span class="src">p. 2</span></p>
+
+  <p>Para a resistência, o coeficiente adimensional pode ser escrito como função de três grupos:</p>
+
+  <div class="formula">
+    <span class="formula__expr">C<sub>T</sub> = R<sub>T</sub> / (½ ρ S V²) = f (ρVL/μ ; gL/V² ; p/ρV²)</span>
+    <span class="formula__where"><b>ρ</b> massa específica; <b>V</b> velocidade; <b>L</b> comprimento; <b>S</b> área molhada; <b>μ</b> viscosidade dinâmica; <b>g</b> gravidade; <b>p</b> pressão. O primeiro grupo é o Reynolds; o segundo se relaciona com o Froude; o terceiro trata da pressão total. <span class="src">p. 2</span></span>
+  </div>
+
+  <p>Dois corpos geometricamente semelhantes, de tamanhos diferentes, terão padrões de fluxo semelhantes se todos esses parâmetros forem iguais. O problema é que as condições de semelhança para atrito e para ondas não podem ser satisfeitas no mesmo ensaio.</p>
+
+  <div class="grid-2">
+    <div class="card card--teal">
+      <h3>Semelhança de Froude</h3>
+      <p>Governa a formação de ondas. Exige o mesmo número de Froude:</p>
+      <div class="formula formula--light">
+        <span class="formula__expr">Fn = V / √(gL)</span>
+        <span class="formula__where">Também escrito como V/√(gL). Em unidades práticas, Fn ≈ 0,298 · V(kt)/√L(pés).</span>
+      </div>
+      <p>Em velocidades correspondentes, vale a <strong>lei de comparação de Froude</strong>: a resistência residual varia com o cubo da escala linear. Se λ = L<sub>navio</sub>/L<sub>modelo</sub>, então R<sub>R,navio</sub>/R<sub>R,modelo</sub> = λ³ e V<sub>navio</sub>/V<sub>modelo</sub> = √λ.</p>
+    </div>
+    <div class="card card--accent">
+      <h3>Semelhança de Reynolds</h3>
+      <p>Governa o atrito. Exige o mesmo número de Reynolds:</p>
+      <div class="formula formula--light">
+        <span class="formula__expr">Rn = ρVL/μ = VL/ν</span>
+        <span class="formula__where"><b>ν = μ/ρ</b> é a viscosidade cinemática. O coeficiente de atrito C<sub>F</sub> = f(Rn).</span>
+      </div>
+      <p>Para um modelo pequeno, manter o mesmo Reynolds exigiria velocidades altíssimas — no exemplo clássico, um modelo em escala 1:25 de um navio de 25 kt precisaria navegar a cerca de 625 kt. Não existe fluido com viscosidade baixa o suficiente para isso em um tanque comum. <span class="src">p. 2–3</span></p>
+    </div>
+  </div>
+
+  <div class="callout callout--exam">
+    <span class="callout__label">Cai na prova</span>
+    <p><strong>Froude e Reynolds não são compatíveis em um único ensaio.</strong> Froude reconheceu isso e propôs separar a resistência em duas parcelas: uma residual, escalada pela lei de comparação, e uma de atrito, calculada por coeficientes apropriados. É essa separação que torna o ensaio de modelo uma ferramenta prática.</p>
+  </div>
+
+  <h3>Como o método de Froude extrapola do modelo para o navio</h3>
+  <ol class="steps">
+    <li><strong>Escala geométrica.</strong> O modelo é construído na razão linear λ = L<sub>S</sub>/L<sub>M</sub> e ensaiado em velocidades correspondentes, com V<sub>S</sub>/√L<sub>S</sub> = V<sub>M</sub>/√L<sub>M</sub>.</li>
+    <li><strong>Medir a resistência total do modelo.</strong> Obtém-se R<sub>TM</sub> no ensaio de reboque.</li>
+    <li><strong>Calcular o atrito do modelo.</strong> R<sub>FM</sub> é estimada como a de uma placa plana lisa de mesma área e comprimento, em fluxo turbulento.</li>
+    <li><strong>Isolar a residual do modelo.</strong> R<sub>RM</sub> = R<sub>TM</sub> − R<sub>FM</sub>.</li>
+    <li><strong>Escalar a residual.</strong> R<sub>RS</sub> = R<sub>RM</sub> · λ³, na velocidade correspondente V<sub>S</sub> = V<sub>M</sub> · √λ.</li>
+    <li><strong>Calcular o atrito do navio.</strong> R<sub>FS</sub> é obtida com um coeficiente de fricção apropriado ao comprimento do navio.</li>
+    <li><strong>Somar.</strong> A resistência total do casco liso é R<sub>TS</sub> = R<sub>FS</sub> + R<sub>RS</sub>; depois se acrescentam apêndices, rugosidade e correlação.</li>
+  </ol>
+
+  <div class="table-wrap">
+    <table>
+      <caption>O que cada critério controla e por que não coexistem</caption>
+      <thead>
+        <tr><th>Critério</th><th>Fenômeno governado</th><th>Exigência</th><th>Consequência para o modelo</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Froude (Fn)</strong></td><td>Formação de ondas, padrão de superfície livre.</td><td>V/√(gL) igual.</td><td>Modelo pequeno navega muito mais devagar que o navio.</td></tr>
+        <tr><td><strong>Reynolds (Rn)</strong></td><td>Atrito e camada-limite.</td><td>VL/ν igual.</td><td>Modelo pequeno precisaria navegar muito mais rápido — inviável.</td></tr>
+        <tr><td><strong>Pressão (p/ρV²)</strong></td><td>Pressões locais, cavitação.</td><td>Mesma pressão relativa.</td><td>Modelos tendem a não reproduzir cavitação do navio; exige túnel especiais.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="source-line">p. 2–3</p>
+</section>
+
+<section class="section" id="atrito">
+  <p class="section-kicker">A maior parcela</p>
+  <h2>Resistência de atrito</h2>
+
+  <p>A resistência de atrito é o maior componente individual da resistência total. Em navios lentos, pode responder por <strong>80 a 85%</strong> da resistência; em navios rápidos, ainda por cerca de <strong>50%</strong>. Qualquer rugosidade superficial aumenta essa parcela, e corrosão e incrustação agravam o efeito. A natureza da superfície não altera apenas o arrasto: também modifica a esteira e a eficiência da propulsão. <span class="src">p. 3</span></p>
+
+  <p>Froude demonstrou experimentalmente que a resistência de atrito depende do tipo de superfície, da velocidade, do comprimento e da área molhada. Para uma mesma velocidade, a resistência específica por unidade de área é menor em uma placa longa do que em uma curta, porque a água na parte de ré já adquiriu movimento para vante e o gradiente relativo diminui. <span class="src">p. 3</span></p>
+
+  <h3>Laminar, turbulento e a transição</h3>
+  <p>Os experimentos de Reynolds com filamento de corante em tubos mostraram dois regimes. Em baixos valores de VD/ν, o fluxo é laminar, em camadas que deslizam umas sobre as outras, com resistência menor. Acima de um valor crítico, o fluxo se rompe, mistura-se transversalmente e passa a turbulento, com resistência maior. Para tubos, a transição clássica ocorre em torno de VD/ν ≈ 2000. <span class="src">p. 4</span></p>
+
+  <p>No caso de placas planas, o coeficiente de atrito C<sub>F</sub> é função de Rn. As formulações clássicas são:</p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Formulações de atrito em placa plana</caption>
+      <thead>
+        <tr><th>Formulação</th><th>Expressão</th><th>Regime / uso</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Blasius</strong></td><td>C<sub>F</sub> = 1,327 · Rn<sup>−1/2</sup></td><td>Camada-limite laminar; Rn até cerca de 4,5×10<sup>5</sup>.</td></tr>
+        <tr><td><strong>Prandtl–von Karman</strong></td><td>C<sub>F</sub> = 0,072 · Rn<sup>−1/5</sup></td><td>Placa plana com fluxo turbulento.</td></tr>
+        <tr><td><strong>Schoenherr</strong></td><td>0,242/√C<sub>F</sub> = log<sub>10</sub>(Rn · C<sub>F</sub>)</td><td>Linha média adotada pela ATTC em 1947; base histórica dos ensaios.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>A transição não ocorre ao mesmo tempo em toda a placa: começa quando o Reynolds local atinge um valor crítico e o ponto de transição se move para vante à medida que a velocidade aumenta. Por isso, quanto maior a velocidade, maior a fração da placa em regime turbulento. Em escala de navio, os Reynolds são pelo menos cerca de 100 vezes maiores que os das maiores placas ensaiadas; na prática, só resultados de fluxo plenamente turbulento podem ser extrapolados. <span class="src">p. 4</span></p>
+
+  <div class="callout callout--info">
+    <span class="callout__label">Linhas de correlação</span>
+    <p>A linha de Schoenherr foi adotada como “linha média” e ficou conhecida como <strong>linha ATTC de 1947</strong>. Para navios novos e limpos, a ATTC acrescentou uma tolerância de <strong>+0,0004</strong> ao coeficiente. Com o tempo, essa parcela passou a ser tratada como <strong>tolerância de correlação modelo-navio (C<sub>A</sub>)</strong>, não como uma propriedade pura da rugosidade. A ITTC desenvolveu depois uma “linha de correlação” própria, que não deve ser confundida com uma linha de atrito de superfície. <span class="src">p. 5</span></p>
+  </div>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Dica de passadiço</span>
+    <p>Em linguagem de operação: casco sujo custa potência. A diferença entre um casco recém-pintado e um casco incrustado aparece diretamente na velocidade para uma dada RPM — e é uma das razões pelas quais o desempenho do navio deve ser acompanhado ao longo do tempo, não apenas no ensaio de entrega.</p>
+  </div>
+  <p class="source-line">p. 3–5</p>
+</section>
+
+<section class="section" id="form-factor">
+  <p class="section-kicker">Do plano ao casco</p>
+  <h2>Resistência viscosa tridimensional e o fator de forma</h2>
+
+  <p>A placa plana é bidimensional; o casco é tridimensional. A passagem de um modelo para o outro introduz o <strong>arrasto de forma</strong>, ligado à curvatura e à distribuição de pressões. Hughes propôs dividir o coeficiente de resistência total do modelo em duas partes: viscosa (C<sub>VM</sub>) e de formação de ondas (C<sub>WM</sub>). <span class="src">p. 5</span></p>
+
+  <p>Em baixos Froude, a formação de ondas é desprezível e a curva de C<sub>TM</sub> corre aproximadamente paralela à linha de atrito bidimensional. O ponto a partir do qual isso é assumido é o <strong>run-in point</strong>, associado a um Reynolds R<sub>N0</sub>. A resistência viscosa é então escrita com um <strong>fator de forma (1+k)</strong>:</p>
+
+  <div class="formula">
+    <span class="formula__expr">C<sub>VM</sub> = (1 + k) · C<sub>F0</sub>(Rn)</span>
+    <span class="formula__where"><b>C<sub>F0</sub></b> é o coeficiente de uma placa plana equivalente; <b>(1+k)</b> é o fator de forma, obtido pela razão entre C<sub>TM</sub> e C<sub>F0</sub> no run-in point. O fator não varia com Rn. <span class="src">p. 5</span></span>
+  </div>
+
+  <p>A curva (1+k)·C<sub>F0</sub> funciona como <em>extrapolator</em>: a curva do navio é traçada acima dela nos Reynolds apropriados. A diferença em relação ao método de Froude é sutil, mas importante: Froude transfere toda a resistência residual do modelo para o navio sem alteração; o método do fator de forma reduz também a parcela viscosa embutida na residual. O resultado são previsões de resistência mais baixas para o navio e, portanto, maior necessidade de uma tolerância de correlação positiva. <span class="src">p. 5</span></p>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Limite do método</span>
+    <p>O fator de forma melhora a correlação modelo-navio, mas não há um método universalmente satisfatório para derivá-lo. A influência da forma sobre os componentes da resistência viscosa ainda não permite conclusões totalmente claras. Em outras palavras: o número existe, mas sua obtenção carrega incerteza. <span class="src">p. 5</span></p>
+  </div>
+  <p class="source-line">p. 5</p>
+</section>
+
+<section class="section" id="ondas">
+  <p class="section-kicker">O custo de perturbar a superfície</p>
+  <h2>Resistência de formação de ondas</h2>
+
+  <p>A resistência de formação de ondas é a força líquida no sentido longitudinal devida às pressões do fluido que atuam perpendicularmente ao casco — assim como o atrito é o resultado de forças tangenciais. Próximo à superfície livre, a variação de pressão gera ondas, que alteram a distribuição de pressão sobre o casco. A energia gasta para vencer essa resistência é igual à energia necessária para manter o sistema de ondas. <span class="src">p. 6</span></p>
+
+  <div class="def">
+    <span class="def__term">Sistema de ondas de Kelvin</span>
+    <p>Um ponto de pressão viajando em linha reta gera um padrão composto por ondas transversais atrás do ponto e ondas divergentes irradiando dele. Todo o padrão fica contido entre duas retas que fazem <strong>19°28′</strong> com a linha de movimento. As cristas transversais encurvam-se para fora e encontram as divergentes nas <strong>cúspides</strong>, os pontos mais altos do sistema. <span class="src">p. 6</span></p>
+  </div>
+
+  <figure class="figure">
+    <svg viewBox="0 0 720 400" role="img" aria-labelledby="fig-kelvin-title fig-kelvin-desc">
+      <title id="fig-kelvin-title">Padrão de ondas de Kelvin visto de cima</title>
+      <desc id="fig-kelvin-desc">Navio visto de cima deslocando-se para a direita. Duas linhas divergentes partem da proa formando cerca de 19 graus e 28 minutos com a linha de movimento. Entre elas, arcos transversais se formam atrás do navio, encontram as divergentes em cúspides e perdem altura para a ré.</desc>
+      <defs>
+        <marker id="arrow-kelvin" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+      </defs>
+      <line x1="40" y1="200" x2="700" y2="200" class="diagram-line" stroke-dasharray="6 5"/>
+      <text x="690" y="192" text-anchor="end" class="diagram-label">linha de movimento</text>
+      <path d="M70 190 Q90 200 130 200 L165 200 Q195 200 210 185 L225 172 L205 228 L160 228 Q105 228 70 212 Z" fill="var(--navy-2)" stroke="var(--navy-3)" stroke-width="1.5"/>
+      <path d="M225 200 L660 40" class="diagram-gold"/>
+      <path d="M225 200 L660 360" class="diagram-gold"/>
+      <path d="M245 200 L665 78" class="diagram-gold" opacity=".35"/>
+      <path d="M245 200 L665 322" class="diagram-gold" opacity=".35"/>
+      <path d="M300 200 Q315 148 345 122" class="diagram-accent"/>
+      <path d="M300 200 Q315 252 345 278" class="diagram-accent"/>
+      <path d="M380 200 Q393 153 420 132" class="diagram-accent"/>
+      <path d="M380 200 Q393 247 420 268" class="diagram-accent"/>
+      <path d="M465 200 Q476 162 498 145" class="diagram-accent"/>
+      <path d="M465 200 Q476 238 498 255" class="diagram-accent"/>
+      <path d="M550 200 Q558 170 575 157" class="diagram-accent" opacity=".7"/>
+      <path d="M550 200 Q558 230 575 243" class="diagram-accent" opacity=".7"/>
+      <circle cx="300" cy="200" r="3.2" fill="var(--gold)"/>
+      <circle cx="380" cy="200" r="3.2" fill="var(--gold)"/>
+      <circle cx="465" cy="200" r="3.2" fill="var(--gold)"/>
+      <circle cx="550" cy="200" r="3.2" fill="var(--gold)"/>
+      <path d="M270 250 L330 312" class="diagram-line" stroke-dasharray="3 4"/>
+      <text x="336" y="322" class="diagram-label">cúspides</text>
+      <text x="445" y="112" class="diagram-label diagram-label--strong">ondas divergentes</text>
+      <text x="360" y="235" class="diagram-label">ondas transversais</text>
+      <text x="250" y="90" class="diagram-label">19°28′</text>
+      <path d="M245 200 L330 108" class="diagram-line" stroke-dasharray="2 4"/>
+      <path d="M330 108 L330 200" class="diagram-line" stroke-dasharray="2 4"/>
+      <path d="M330 200 L382 200" class="diagram-line" stroke-dasharray="2 4"/>
+      <text x="610" y="380" text-anchor="end" class="diagram-label">sentido do avanço →</text>
+    </svg>
+    <figcaption><b>Figura 2.</b> Padrão esquemático de Kelvin. As ondas transversais acompanham o navio; as divergentes abrem-se em “V”. Perto da proa, as divergentes são as mais visíveis; à ré, tornam-se progressivamente dominantes. A altura das cristas diminui ao longo da esteira. <span class="src">p. 6</span></figcaption>
+  </figure>
+
+  <p>As ondas transversais movem-se com o navio e têm comprimento próximo ao de uma onda livre viajando naquela velocidade: <strong>L<sub>W</sub> ≈ 2πV²/g</strong>. As divergentes têm velocidade menor ao longo da normal às cristas, porque sua componente na direção do movimento precisa acompanhar o navio. <span class="src">p. 6</span></p>
+
+  <h3>Colinas e vales: a interferência entre sistemas</h3>
+  <p>À medida que a velocidade aumenta, o padrão de ondas muda de comprimento e a posição relativa de cristas e cavados se altera. Em certas velocidades, os sistemas se reforçam — ondas mais altas, resistência maior; em outras, cristas e cavados se cancelam — ondas menores, resistência menor. Essas oscilações produzem as <strong>colinas (humps)</strong> e os <strong>vales (hollows)</strong> da curva de resistência. <span class="src">p. 6</span></p>
+
+  <div class="callout callout--exam">
+    <span class="callout__label">Cai na prova</span>
+    <p>As colinas e vales aparecem na curva do <strong>coeficiente</strong> C<sub>T</sub>; a resistência absoluta continua crescendo com a velocidade. O coeficiente pode até subir com V⁶ ou mais perto de Fn ≈ 0,45. É essa dependência do Froude que explica a estreita relação entre velocidade econômica e comprimento do navio. <span class="src">p. 6</span></p>
+  </div>
+
+  <p>A teoria de Michell calcula a resistência de ondas a partir do potencial de velocidades e da integração das pressões, válida para casco delgado, fluido não viscoso, ondas pequenas e sem afundamento ou trim. Havelock usou fontes e sorvedouros para representar o casco e calcular o padrão de ondas a jusante; Inui combinou teoria e experimentos e mostrou que, para navios de deslocamento com Fn entre 0,1 e 0,35, a geometria das extremidades é o fator mais importante. O resultado prático mais conhecido é o <strong>bulbo de proa</strong>, que pode reduzir a resistência de ondas em certas faixas de velocidade. <span class="src">p. 7–8</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Froude e os máximos e mínimos de resistência de ondas em um casco tipo cunha (Wigley)</caption>
+      <thead>
+        <tr><th>Condição</th><th>Valores de Fn associados</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Mínimos de C<sub>W</sub> (vales)</td><td>≈ 0,187 · 0,231 · 0,345</td></tr>
+        <tr><td>Máximos de C<sub>W</sub> (colinas)</td><td>≈ 0,173 · 0,205 · 0,269 · 0,476</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Esses valores são específicos da geometria estudada e servem para mostrar o mecanismo, não como regra universal. Em formas mais “ship-shape”, os sistemas de ondas deixam de estar amarrados a pontos fixos, mas o padrão geral — uma perturbação simétrica mais quatro sistemas de ondas — permanece. Até Fn ≈ 0,4, o sistema transversal explica a posição das colinas e vales; acima disso, o divergente ganha importância. <span class="src">p. 8</span></p>
+  <p class="source-line">p. 6–9</p>
+</section>
+
+<section class="section" id="outros-componentes">
+  <p class="section-kicker">O resto da conta</p>
+  <h2>Vórtices, separação, quebra de ondas, ar e apêndices</h2>
+
+  <h3>Resistência de vórtices e separação</h3>
+  <p>A camada-limite turbulenta já é, em si, cheia de vórtices; o termo <strong>resistência de vórtices</strong> costuma designar a parcela causada por mudanças abruptas de forma, apêndices e projeções, excluindo o atrito tangencial. Se a curvatura perto da popa é muito abrupta, se o raio do bojo é pequeno, se as seções de ré são muito em “U” ou se há descontinuidades, o fluxo pode não acompanhar o casco e separar. O ponto de separação marca o início de uma faixa de água vortilhonada entre o casco e o fluxo externo; a energia cinética gasta para produzir esses vórtices é a <strong>resistência de separação</strong>. <span class="src">p. 10</span></p>
+
+  <p>O <strong>arrasto de forma</strong> (<em>form drag</em>) é a diferença entre a resistência total medida e a de uma placa plana equivalente. Ele cresce quando a razão de esbeltez L/D diminui: quanto mais “cheio” ou atarracado o casco, maior a alteração da camada-limite e das pressões. Para corpos completamente submersos, existe uma razão L/D ótima, tipicamente entre 5 e 7, que equilibra a redução do arrasto de forma com o aumento da área molhada. <span class="src">p. 10</span></p>
+
+  <h3>Quebra de ondas</h3>
+  <p>Em formas pouco afiladas, o fluxo à vante da proa torna-se irregular e a onda de proa quebra. A quebra ocorre quando a aceleração centrífuga das linhas de corrente na superfície livre supera um valor crítico. O critério de estabilidade de Taylor estabelece que, para evitar a quebra, o raio de curvatura R (em metros) deve ser maior que <strong>V²/50</strong>, com V em m/s. Na prática, isso se traduz em não ter a tangente à curva de áreas das seções de vante demasiado íngreme. <span class="src">p. 11</span></p>
+
+  <h3>Resistência do ar e do vento</h3>
+  <p>Em ar calmo, a resistência do ar depende da velocidade do navio, da área e da forma da obra morta. Com vento, depende da intensidade e da direção relativa. O vento verdadeiro independe do navio; o vento relativo é a soma vetorial do vento verdadeiro com a velocidade do navio. A maior parte da resistência aerodinâmica vem da formação de vórtices e varia aproximadamente com V²; o Reynolds tem papel secundário. <span class="src">p. 11</span></p>
+
+  <p>Ensaios clássicos de Taylor e Hughes indicam que a resistência de proa de navios convencionais pode ser estimada por uma placa plana equivalente de largura igual à boca e altura igual a B/2. Para vento de través, a área efetiva se aproxima da área longitudinal projetada; para vento de proa, usa-se a área transversal projetada, somando a superestrutura e cerca de 30% da área do casco principal. A força máxima na direção do movimento tende a ocorrer com vento relativo a cerca de <strong>30° da proa</strong>, porque a área exposta cresce mais rápido do que o cosseno do ângulo cai. <span class="src">p. 11–12</span></p>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Efeito de esteira e gradiente de vento</span>
+    <p>Ensaios com vento uniforme superestimam a força em navios baixos, porque no mar o vento tem gradiente vertical. Aplicar resultados de túnel com vento uniforme a um navio em ar calmo pode subestimar a resistência em 25 a 40%. Em contrapartida, um vento forte de través induz deriva (<em>leeway</em>), que adiciona uma componente hidrodinâmica de resistência e pode alterar a esteira e a eficiência propulsiva. <span class="src">p. 12</span></p>
+  </div>
+
+  <h3>Resistência adicional em ondas e apêndices</h3>
+  <p>Ondas de proa aumentam a resistência por dois caminhos: a difração do casco em movimento sobre as ondas encontradas e os efeitos indiretos de <em>pitching</em> e <em>heaving</em>. Em mares de través ou de popa, o rolamento e a guinada também cobram potência, e o uso de leme para corrigir o rumo adiciona resistência. <span class="src">p. 12</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Apêndices: ordem de grandeza do impacto</caption>
+      <thead>
+        <tr><th>Apêndice</th><th>Efeito típico</th><th>Observação</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Quilhas de balanço (bilge keels)</strong></td><td>Adicionam 1 a 3% de área molhada; o arrasto extra pode ficar pouco acima disso se forem alinhadas ao fluxo.</td><td>O arrasto de interferência diminui quando o ângulo entre a quilha e o casco aumenta.</td></tr>
+        <tr><td><strong>Bossings e eixos</strong></td><td>Aumento de 1 a 5% na área molhada; aumento de 5 a 9% na resistência de atrito do casco.</td><td>Depende do diâmetro do hélice e da fineza da popa; arranjos incomuns podem chegar a 16–18%.</td></tr>
+        <tr><td><strong>Lemes e superfícies de controle</strong></td><td>Dependem da posição em relação à esteira do hélice e do ângulo de ataque.</td><td>Dentro da esteira do propulsor, a velocidade local é maior; fora, é menor.</td></tr>
+        <tr><td><strong>Skegs</strong></td><td>Arrasto de atrito calculado pela área lateral e pela velocidade média local.</td><td>Exige conhecer a camada-limite no local.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Apêndices são pequenos, mas seus Reynolds são baixos, e os efeitos de escala são grandes. O método de Froude puro tende a errar porque não se consegue fluxo plenamente turbulento nos apêndices em escala de modelo. Por isso, recomenda-se ensaiá-los separadamente, com escalas de Reynolds próprias. Desalinhamentos, cavitação, ventilação e interação com o hélice podem fazer o arrasto real divergir bastante das fórmulas. <span class="src">p. 12–14</span></p>
+
+  <h3>Efeito do trim</h3>
+  <p>Em baixas velocidades, o navio afunda ligeiramente e pode trimar pela proa; perto de Fn ≈ 0,3, a proa começa a levantar e a popa afunda mais. Trim adicional pela popa, em um navio típico, aumenta a resistência em baixas velocidades — a popa fica virtualmente mais cheia, elevando o arrasto de forma e separação — e a reduz em altas velocidades, quando a entrada mais fina compensa. Em lastro, a resistência por unidade de deslocamento aumenta, mas a resistência total e a potência caem; o navio tende a alcançar maior velocidade para a mesma potência. <span class="src">p. 14</span></p>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Regra de projeto</span>
+    <p>Grandes mudanças de trim ou afundamento do centro de gravidade são <strong>sintomas</strong> de alta resistência, não a causa. Elas podem, porém, indicar que vale a pena alterar o trim em repouso movendo o centro de gravidade longitudinalmente — desde que o ganho seja confirmado, pois em navios de grande deslocamento a redução costuma ser pequena. <span class="src">p. 14</span></p>
+  </div>
+  <p class="source-line">p. 10–14</p>
+</section>
+
+<section class="section" id="aguas-rasas">
+  <p class="section-kicker">Quando o fundo aparece</p>
+  <h2>Efeitos de águas rasas</h2>
+
+  <p>A resistência é muito sensível à profundidade. Em água rasa, a água que passa sob o casco precisa acelerar mais do que em água profunda; pela conservação de energia, a pressão cai, o navio afunda e o trim aumenta. Se houver também restrição lateral, os efeitos são ainda maiores. O afundamento e o trim podem impor um limite físico à velocidade máxima antes de tocar o fundo. <span class="src">p. 15</span></p>
+
+  <h3>O padrão de ondas muda</h3>
+  <p>Para um ponto de pressão viajando na superfície, a velocidade das ondas em água rasa depende da profundidade: em águas profundas, V<sub>c</sub>² ≈ gL<sub>W</sub>/2π; em águas rasas, V<sub>c</sub>² ≈ gh. O padrão muda de forma crítica quando a velocidade do navio se aproxima de √(gh):</p>
+  <ul>
+    <li><strong>Abaixo da velocidade crítica (subcrítico):</strong> há ondas transversais e divergentes, como em água profunda; o ângulo do padrão aumenta à medida que a velocidade se aproxima de √(gh).</li>
+    <li><strong>Na velocidade crítica:</strong> a perturbação viaja junto com o ponto de pressão e toda a energia se concentra em uma única crista transversal — a <strong>onda de translação</strong>.</li>
+    <li><strong>Acima da velocidade crítica (supercrítico):</strong> restam apenas ondas divergentes; as linhas externas são as próprias cristas de vante e as internas tornam-se côncavas em relação ao avanço.</li>
+  </ul>
+  <p>Quase todos os navios operam na zona subcrítica, com exceção de destroyers e embarcações rápidas. Como a velocidade das ondas diminui com a profundidade, um navio em água rasa precisa navegar mais devagar para manter o mesmo padrão de ondas; as colinas e vales da curva de resistência ocorrem em velocidades mais baixas. <span class="src">p. 15</span></p>
+
+  <div class="formula">
+    <span class="formula__expr">V<sub>crítica</sub> ≈ 6,0 √h &nbsp;&nbsp;·&nbsp;&nbsp; V<sub>de alerta</sub> ≈ 4,17 √h</span>
+    <span class="formula__where"><b>V</b> em nós; <b>h</b> profundidade em metros. A primeira expressão corresponde à onda de translação; a segunda indica a velocidade a partir da qual o aumento de potência em água rasa começa a ser notado. A relação entre elas é de aproximadamente 68%. <span class="src">p. 16</span></span>
+  </div>
+
+  <p>O método de Schlichting estima a perda de velocidade em água rasa sem restrição lateral: para uma velocidade de referência em água profunda, calcula-se o comprimento de onda gerado, busca-se a velocidade em água rasa que produz o mesmo comprimento de onda e corrige-se o atrito; depois se desconta uma perda adicional devida ao escoamento acelerado ao redor do casco, função de √A<sub>x</sub>/h, onde A<sub>x</sub> é a área máxima da seção transversal. Com restrição lateral, Landweber propôs substituir a profundidade pelo <strong>raio hidráulico</strong> do canal, R<sub>H</sub> = (b·h − A<sub>x</sub>)/(b + 2h + p), e usar √A<sub>x</sub>/R<sub>H</sub>. <span class="src">p. 15–16</span></p>
+
+  <div class="callout callout--danger">
+    <span class="callout__label">Exemplo da fonte</span>
+    <p>Em ensaios com quatro modelos, quando a razão profundidade/calado era 1,1, a potência requerida (<em>P<sub>D</sub></em>) aumentou <strong>100%</strong> para Fn = 0,089 — uma velocidade muito baixa, mas que mostra a magnitude do efeito. O calado de vante e de ré aumentou com a redução da profundidade e com o aumento da velocidade, e a proa afundou mais que a popa nos casos estudados. <span class="src">p. 16</span></p>
+  </div>
+
+  <p>Para ensaios de milha medida (<em>measured mile</em>), é importante escolher um trecho com profundidade suficiente para que os efeitos de água rasa sejam desprezíveis; caso contrário, os resultados devem ser corrigidos. Ensaios em tanques de largura limitada tendem a exagerar o aumento de resistência em água rasa, e a carga do propulsor também muda — daí a recomendação de ensaios de autopropulsão com fundo sólido. <span class="src">p. 16</span></p>
+  <p class="source-line">p. 15–16</p>
+</section>
+
+<section class="section" id="banda-deriva">
+  <p class="section-kicker">Nem sempre o navio vai em frente</p>
+  <h2>Resistência por deriva e banda</h2>
+
+  <p>Um ângulo fixo de guinada — a <strong>deriva</strong> (<em>leeway</em>) — ou de banda aumenta a resistência. O efeito é mais evidente em veleiros, mas os mecanismos valem para qualquer casco que navegue com um pequeno ângulo de ataque lateral.</p>
+
+  <p>A deriva surge quando o navio precisa contrabalançar uma força lateral aerodinâmica com uma força hidrodinâmica oposta, ou quando assimetrias de casco e apêndices exigem um pequeno ângulo de leme. Em veleiros, a deriva típica fica entre 3° e 6°; quilhas que não geram sustentação suficiente exigem ângulos maiores. Para derivas abaixo de 5°, o aumento de resistência é quase todo <strong>arrasto induzido</strong>, gerado pela sustentação do casco e da quilha. <span class="src">p. 17</span></p>
+
+  <div class="formula">
+    <span class="formula__expr">C<sub>Di</sub> = C<sub>L</sub>² / (π · AR) &nbsp;&nbsp;·&nbsp;&nbsp; R<sub>i</sub> = ½ ρ V² A · C<sub>L</sub>²/(π · AR)</span>
+    <span class="formula__where"><b>C<sub>L</sub></b> coeficiente de sustentação; <b>AR</b> razão de aspecto (span/corda ou profundidade/comprimento); <b>A</b> área lateral do casco ou quilha. Quanto menor a razão de aspecto, maior o arrasto induzido. <span class="src">p. 17</span></span>
+  </div>
+
+  <p>Distribuições elípticas de sustentação minimizam o arrasto induzido. Razões de afilamento entre 0,3 e 0,4 aproximam a distribuição da elíptica; formas muito afiladas ou quase retangulares aumentam o arrasto induzido. Planformas elípticas ou arredondadas reduzem o arrasto, mas também a sustentação total, porque seu <em>span</em> efetivo é menor; por isso, planformas retangulares podem ter melhor relação L/D. O enflechamento (<em>sweep</em>) concentra carga nas pontas e exige maior afilamento para uma distribuição próxima da elíptica; em contrapartida, o enflechamento tende a reduzir a resistência de ondas. Acima de 5° de deriva, o fluxo pode separar no lado de barlavento, e o arrasto cresce bastante. <span class="src">p. 17</span></p>
+
+  <p>A banda torna o casco imerso assimétrico: o lado de sotavento fica consideravelmente mais cheio, o que aumenta a resistência de ondas e, em muitos casos, também a viscosa, seja pela área molhada adicional, seja pela camada-limite mais desfavorável. Em veleiros com proa alongada e popa com <em>overhang</em>, parte do aumento é compensada pelo aumento do comprimento efetivo de geração de ondas. A fonte cita medições em que, entre 6 e 9 kt, o aumento de resistência com o ângulo de banda foi irrisório justamente por esse efeito. <span class="src">p. 17</span></p>
+  <p class="source-line">p. 17</p>
+</section>
+
+<section class="section" id="sintese">
+  <p class="section-kicker">Síntese</p>
+  <h2>O que levar deste capítulo</h2>
+
+  <div class="keyfacts">
+    <div class="keyfact"><b>80–85%</b><span>parcela do atrito na resistência total de navios lentos</span></div>
+    <div class="keyfact"><b>50%</b><span>parcela aproximada do atrito em navios rápidos</span></div>
+    <div class="keyfact"><b>19°28′</b><span>ângulo do padrão de ondas de Kelvin em relação à linha de movimento</span></div>
+    <div class="keyfact"><b>Fn 0,45</b><span>região em que a resistência de ondas cresce muito e a curva de coeficiente atinge o último pico importante</span></div>
+    <div class="keyfact"><b>λ³</b><span>fator de escala da resistência residual na lei de Froude</span></div>
+    <div class="keyfact"><b>6,0√h</b><span>velocidade crítica em água rasa (nós, com h em metros)</span></div>
+  </div>
+
+  <div class="callout callout--mnemonic">
+    <span class="callout__label">Mnemônico</span>
+    <p><strong>F-A-W-E</strong> — <strong>F</strong>ricção, <strong>A</strong>r, <strong>W</strong>aves (ondas), <strong>E</strong>ddies (vórtices). São as quatro famílias da resistência em águas calmas. Se você sabe qual delas domina, sabe qual lei de escala usar e onde procurar o problema.</p>
+  </div>
+
+  <ul class="checklist">
+    <li>Sei distinguir resistência total, casco nu, resistência residual e potência efetiva.</li>
+    <li>Consigo explicar por que Froude e Reynolds não podem ser satisfeitos ao mesmo tempo.</li>
+    <li>Sei aplicar a lei de comparação de Froude e identificar quando o fator de forma é usado.</li>
+    <li>Reconheço a diferença entre colina e vale na curva de coeficiente e sei que a resistência absoluta continua crescendo.</li>
+    <li>Consigo estimar a velocidade crítica em água rasa e explicar o risco de afundamento e trim.</li>
+    <li>Sei que vento, apêndices, trim, banda e deriva alteram a resistência e a potência requerida.</li>
+  </ul>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Na prática</span>
+    <p>Antes de comparar dois navios ou duas condições de carregamento, iguale o que precisa ser igual: velocidade, calado, trim, profundidade, vento, condição de casco e área molhada. Sem isso, a diferença de potência que você observa pode não ser resistência — pode ser apenas uma variável de contorno.</p>
+  </div>
+</section>
+
+<section class="section" id="revisao">
+  <p class="section-kicker">Revisão</p>
+  <h2>Perguntas para fechar o capítulo</h2>
+
+  <div class="quiz">
+    <details>
+      <summary>1. Por que a resistência não pode ser representada por um único coeficiente constante?</summary>
+      <div class="quiz__answer"><p>Porque os componentes obedecem a leis diferentes. A formação de ondas depende do número de Froude, o atrito depende do Reynolds, e a resistência do ar depende da área exposta e do vento relativo. O coeficiente C<sub>T</sub> varia com a velocidade e com a condição do casco; um valor isolado só tem significado se acompanhado dessas condições. <span class="src">p. 1–5</span></p></div>
+    </details>
+    <details>
+      <summary>2. Explique a lei de comparação de Froude e dê um exemplo de escala.</summary>
+      <div class="quiz__answer"><p>Para navio e modelo geometricamente semelhantes em velocidades correspondentes (mesmo Fn), a resistência residual varia com o cubo da razão linear e a velocidade varia com a raiz quadrada dessa razão. Se λ = 25, o modelo navega a 1/5 da velocidade do navio e a resistência residual do navio é 25³ = 15.625 vezes a do modelo. <span class="src">p. 2–3</span></p></div>
+    </details>
+    <details>
+      <summary>3. Qual é a diferença entre o método de Froude e o método do fator de forma?</summary>
+      <div class="quiz__answer"><p>Froude transfere toda a resistência residual do modelo para o navio e calcula o atrito separadamente. O método do fator de forma decompõe a resistência viscosa em (1+k)·C<sub>F0</sub> e reduz também a parcela viscosa embutida na residual. Isso tende a produzir previsões mais baixas para o navio e exige uma tolerância de correlação maior. <span class="src">p. 5</span></p></div>
+    </details>
+    <details>
+      <summary>4. O que são colinas e vales na curva de resistência de ondas?</summary>
+      <div class="quiz__answer"><p>São oscilações do coeficiente de resistência causadas pela interferência entre os sistemas de ondas gerados pela proa, pelos ombros e pela popa. Em certas velocidades as cristas se reforçam (colina, maior resistência); em outras, cristas e cavados se cancelam (vale, menor resistência). A resistência absoluta, porém, continua aumentando com a velocidade. <span class="src">p. 6–8</span></p></div>
+    </details>
+    <details>
+      <summary>5. Como a profundidade altera a resistência e o padrão de ondas?</summary>
+      <div class="quiz__answer"><p>Em água rasa, o escoamento sob o casco acelera mais, a pressão cai e o navio afunda e trima. O padrão de ondas muda: ondas transversais e divergentes em regime subcrítico, uma onda de translação na velocidade crítica (V ≈ 6,0√h, em nós, com h em metros) e apenas ondas divergentes no regime supercrítico. A resistência e a potência aumentam, especialmente perto da velocidade crítica. <span class="src">p. 15–16</span></p></div>
+    </details>
+    <details>
+      <summary>6. Por que a resistência de apêndices é difícil de extrapolar de modelo para navio?</summary>
+      <div class="quiz__answer"><p>Porque os apêndices são pequenos e operam em Reynolds baixos, nos quais a camada-limite pode não ser plenamente turbulenta. O método de Froude puro não reproduz essa transição, e há ainda efeitos de desalinhamento, cavitação, ventilação e interação com o hélice. Por isso, recomenda-se ensaiá-los separadamente, com escalas de Reynolds apropriadas. <span class="src">p. 12–14</span></p></div>
+    </details>
+    <details>
+      <summary>7. O que é arrasto induzido por deriva e como a razão de aspecto influencia?</summary>
+      <div class="quiz__answer"><p>É a resistência gerada pela sustentação lateral necessária para manter o navio em um ângulo de deriva. Para uma distribuição elíptica, C<sub>Di</sub> = C<sub>L</sub>²/(π·AR). Quanto menor a razão de aspecto, maior o arrasto induzido; por isso quilhas e lemes muito curtos ou muito afilados podem pagar mais resistência. <span class="src">p. 17</span></p></div>
+    </details>
+    <details>
+      <summary>8. Como o trim e o lastro afetam a resistência?</summary>
+      <div class="quiz__answer"><p>Em um navio típico, trim pela popa aumenta a resistência em baixas velocidades (popa mais cheia, maior arrasto de forma e separação) e reduz em altas velocidades (entrada mais fina, menos formação de ondas). Em lastro, a resistência por unidade de deslocamento aumenta, mas a resistência total e a potência caem; o navio tende a alcançar maior velocidade para a mesma potência. <span class="src">p. 14</span></p></div>
+    </details>
+  </div>
+</section>
+
+<section class="section complemento-ref" id="complemento-bibliografico">
+  <p class="section-kicker">Complemento bibliográfico</p>
+  <h2>Leituras de referência disponíveis na pasta (PNA Vol. II)</h2>
+  <p>Esta seção acrescenta conceitos clássicos de resistência com base em <strong>Lewis, E. V. (ed.) — <em>Principles of Naval Architecture</em>, Vol. II: Resistance, Propulsion and Vibration (2nd rev., SNAME, 1988)</strong>, Cap. V (edição/revisão disponível na pasta; a bibliografia do processo seletivo indica a 3ª ed. 1988–89 — conferir divergências de paginação e atualização).</p>
+
+  <div class="grid-2">
+    <div class="def">
+      <span class="def__term">Decomposição física da resistência (Lewis)</span>
+      <p>A força total pode ser vista como soma de componentes de atrito (tensões tangenciais na camada-limite), de formação de ondas e de vórtices/pressões de forma (efeitos viscosos e de separação), além da resistência do ar da obra morta. Em termos de extrapolação, a parcela dependente do número de Froude é tratada como <strong>resistência residual</strong> (ondas + forma/vórtices), enquanto o atrito é tratado por leis de placa plana corrigidas para o casco.</p>
+    </div>
+    <div class="def">
+      <span class="def__term">Lei de comparação de Froude</span>
+      <p>Modelos geometricamente semelhantes, ensaiados à mesma <strong>velocidade correspondente</strong> (mesmo número de Froude, <em>Fn = V/√(gL)</em>), apresentam resistência residual proporcional ao deslocamento (escala cúbica). Como não é possível igualar simultaneamente Froude e Reynolds, o método prático consiste em medir a resistência total do modelo, estimar e subtrair o atrito do modelo e recompor a resistência do navio somando o atrito do navio na escala correta — com correlação/allowances.</p>
+    </div>
+  </div>
+
+  <div class="callout callout--teal">
+    <span class="callout__label">Implicação para o prático</span>
+    <p>Variações de calado, trim, sujidade de casco e confinamento alteram de modo diferente as parcelas de atrito e residual: ganhos de velocidade “no papel” podem ser consumidos por aumento de onda e sucção em águas rasas. Use curvas de potência como referência em condições semelhantes às do ensaio, não como valor absoluto em qualquer cenário.</p>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Resumo de componentes e dependências (síntese de estudo, Lewis Vol. II)</caption>
+      <thead><tr><th>Componente</th><th>Principal dependência</th><th>Observação prática</th></tr></thead>
+      <tbody>
+        <tr><td>Atrito (friccional)</td><td>Reynolds, rugosidade, área molhada</td><td>Domina em baixas/médias velocidades; sensível a incrustação.</td></tr>
+        <tr><td>Ondas (wave-making)</td><td>Froude, formas de proa/popa, comprimento de onda</td><td>Cresce rápido em altas velocidades; gera “ombros” e vales de resistência.</td></tr>
+        <tr><td>Forma/vórtices (viscosa de pressão)</td><td>Separação, apêndices, fullness</td><td>Associada a esteira e perdas locais; piora com formas abruptas.</td></tr>
+        <tr><td>Ar</td><td>Área/forma acima d’água, vento relativo</td><td>Relevante em navios de grande obra morta e vento forte.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="source-line">Lewis, PNA Vol. II (1988), Cap. V — Resistance, seções introdutórias e de componentes/extrapolação (consulta em <code>apostila/fonte/refs/lewis_resistance_part1.txt</code>).</p>
+</section>

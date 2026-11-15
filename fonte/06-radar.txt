@@ -1,0 +1,483 @@
+FONTE: resumo curso h.pdf | CAPITULO 06 - radar | paginas 180-186 | OCR ABBYY
+OBS: texto OCR ruidoso, mistura ingles/portugues. Interprete com cautela; nao invente.
+
+
+===== PAGINA 180 =====
+
+NAVEGAÇÃO RADAR 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+Tipos de modulação: radar de onda contínua, radar Doppler e radar de pulsos. 
+Radar de navegação: é de freq muito elevada, de pulsos de duração muito curta, feixe bem estreito no plano horiz (Io- 2o) e 
+mais largo no vertical (10° - 30°), e antena parabólica (gira sentido horário'). 
+O intervalo entre pulsos é bem maior que um pulso, e determina o alcance máximo do radar. 
+Radares usam UHF, SHF e EHF. / 
+Bandas: 
+S: 10 cm 
+- nav costeira e de alto mar 
+X: 3 cm 
+- aterragem e nav em águas restritas 
+Componentes: circuitos de tempo geram a FRI na qual o Modulador gera pulsos de disparo para o Transmissor e pulsos de 
+sincronização para o Indicador. / O Transmissor gera pulsos de energia em RF de alta potência. / A Chave T/R (Duplexer) 
+controla os ciclos de TX e RX. / O Receptor amplifica os ecos, os reproduz como pulsos de vídeo e manda para o Indicador. 
+Freq da emissão (da portadora): 
+- Quanto mais alta: menor é o comp. de onda, menor é a antena, menor o alcance, o feixe é mais direcional (imagem mais 
+detalhada), e é mais afetado por meteoro. 
+- Klynstron e a Magnetron geram energia de RF em freqs extremamente altas. 
+- No receptor, não são usados amplificadores de RF, pois é difícil amplificar os ecos de RF. A freq. do eco é batida 
+(heterodinada) com a de um Oscilador (em um misturador de cristal), para produzir a "FI", que é suficientemente baixa para 
+ser amplificada (no Receptor) em vários estágios de amplificação. 
+FRI ou PRR: quanto mais baixa, maior é o alcance máximo teórico. / Mas o alcance máx depende da potência em rei à FRI. 
+- Na realidade, o que determina a FRI mais baixa que se pode usar é a veloc de rotação e a persistência requerida. 
+Largura de Pulso (em microseg) ou Comp de Pulso (em dist): 
+- Quanto menor a LP, menor é a dist mínima na qual um alvo pode ser detectado (dist min = LP / 2). 
+- Pulsos curtos: melhor definição, maior precisão em distância e maior poder de discriminação em distância. 
+- Pulsos longos: maior alcance (mais energia em cada pulso). / Alguns radares mudam a LP ao mudar a escala de distância. 
+- Poder de discriminação em dist (= LP / 2): é a menor dist entre 2 alvos (mesma marc) para que tenham imagens distintas. 
+Veloc de rotação da antena: normalmente é < 60 RPM. 
+- Se a veloc dobra, o núm de pulsos emitidos quando a antena gira a abertura do feixe cai pela metade (a detecção diminui). 
+- FRI alta: a antena pode girar mais rápido, e o eco se renovará rapidamente (não precisa que a tela seja de alta persistência). 
+- Antenas estacionadas (ou "phased arrays"): o feixe gira eletronicamente. 
+Largura do Feixe: é l°-2° no plano horiz e 15°-30° no vertical. 
+- É medida entre pontos onde a intensidade do campo é 71% do seu valor máx (ou entre pontos de meia potência). 
+- Quanto > a antena e quanto < o X, mais estreito é o feixe. 
+- Diagrama polar horizontal (fig 14.2): observa-se um lóbulo principal e vários secundários (devido limitações da antena). 
+- Poder de discriminação em marcação = abertura horiz do feixe (expresso angularmente). / Em medidas lineares, depende 
+da distância (ao dobrar a dist, a medida linear tb dobra). 
+1) REFRAÇAO - O HORIZONTE RADAR: 
+> Horizonte-Geográfico: 
+D = 2.VH 
+(D em milhas e H em metros, assumindo-se que a potência é suficiente) 
+> Horizonte-Radar: 
+Dr = 2,21.VH 
+(diferença de 10% é pq as ondas sofrem refração, curva para baixo). 
+> Distância de detecção radar de um objeto de altura conhecida: somar o resultado da nossa antena com o resultado do alvo. 
+> Super-Refração (fíg 14.5): tempo calmo e sem turbulência, com camada de ar quente e seco sobre camada fria e úmida. 
+- Comum nos trópicos (brisa terral quente sobre correntes oceânicas frias). 
+> Sub-Refração (fig 14.6): camada de ar frio e úmido sobre camada estreita de ar quente e seco. 
+- Comum em regiões polares (massas frias sobre correntes oceânicas quentes). 
+- Tb afeta o alcance mínimo (dificulta detectar alvos baixos a curta distância). 
+> Propagação em dutos: são casos extremos de super-refração (não é comum no Brasil). 
+- A energia irradiada num ângulo próximo da horizontal (Io ou menos) refrata para baixo, reflete no mar, refrata de volta... 
+- Detecta até 1400 NM. / Mas o aumento do ale nem sempre é desejável, pois pode-se confundir ecos normais com os do duto. 
+- A perda de energia nas ondas que escapam do duto é grande, ficando difícil detectar alvos acima do duto. 
+- O duto pode reduzir o alcance do radar: 1) se a antena está abaixo do duto, é difícil detectar alvos acima dele (fig 14-9); e 
+2) se o duto é tão baixo que a antena ficar acima dele, peqs alvos de superfície abaixo do duto podem não ser detectados. 
+2) EFEITO DA SUPERFÍCIE DO MAR - REFLEXÕES MÚLTIPLAS: 
+> As frentes de ondas que atingem um ponto X são ondas diretas e ondas refletidas (no mar). 
+- Se alcançam o alvo em fase, o sinal fica reforçado. Se defasadas, o eco enfraquece ou desvanece. 
+> Diagrama de irradiação vertical (fig 14.11): as linhas que limitam os lóbulos unem os pontos de igual intensidade. 
+> Zonas de Desvanecimento: são áreas entre os lóbulos onde os campos se anulam. São afetadas por: 
+- Altura da antena: quanto mais baixa, maior é a zona de desvanecimento. 
+- Freqüência: quanto maior, o lóbulo inferior fica mais tangente ao mar (menos ondas indiretas e menos desvanecimento). 
+3) DIFRAÇÃO: é o encurvamento da trajetória da onda ao incidir sobre um obstáculo (o feixe ilumina atrás do alvo). 
+> É maior nas freqüências mais baixas. / Não altera muito o alcance. 
+4) ATENUAÇÃO: é o efeito combinado da dispersão e da absorção da energia durante a propagação. 
+> Ela reduz a intensidade do sinal/eco. / É maior nas freqüências mais altas. 
+
+
+===== PAGINA 181 =====
+
+fffmMlIflmiMI.m 
+I \&SBsmmwtm:Mmsimimmmm 
+5) APRESENTAÇÃO DA IMAGEM: 
+> Apresentação em mov relativo: o navio fica no centro da varredura, que coincide com o centro da tela. 
+> Apresentação estabilizada: norte para cima. A linha de fé (ou marca de proa) se movimenta, e os alvos ficam fixos. 
+> Apresentação não-estabilizada (fig 14.13): a linha de fé fica no 000°. 
+> Cursor de marcação ou bearing cursor: é um cursor mecânico ou linha radial de luz. 
+> Range strobe ou VRM (Variable Range Marker): se move ao longo da linha radial de luz ou da varredura. 
+> Núm da escala de distância = raio da tela. / Selecionar sempre a menor escala possível. 
+6) CONTROLES OPERACIONAIS: 
+> Brilliance / Video Control: deixe o traço da varredura apenas visível. 
+> Gain Control: deixe a tela um pouco salpicada (o radar estará mais sensível, e os objetos serão detectados a maior distância). 
+- Pouco ganho: o alcance diminui, os ecos fracos somem, e o poder de discriminação em distância aumenta. 
+- Muito ganho: reduz o contraste entre os ecos e o fundo da tela. 
+- Reduzir temporariamente o ganho para: 1) obter alvos bem definidos entre outros mais fracos; e 2) clarear a apresentação 
+em regiões congestionadas; e 3) distinguir o eco de um navio dentro da borrasca de chuva/neve. 
+- Aumente levemente o ganho: para detectar alvos além da chuva/neve. 
+> STC / Anti-Clutter Sea: reduza o retorno do mar até que este apareça como pequenos pontos. 
+- E um controle de ganho auxiliar anti-mancha do mar, que diminui o ganho dos ecos mais próximos (no máx até 4-5 
+milhas), sem alterar os ecos mais distantes (efeito nulo além de 8 milhas). 
+- Nunca o deixe em posição fixa: aumente-o na medida em que o mar agita. 
+- Eleve temporariamente o STC para distinguir um navio dentro da borrasca. 
+> FTC / Anti-Clutter Rain: diminui os ecos de chuva, granizo ou neve. / Tem efeito sobre toda a PPI. 
+- Reduz a sensibilidade do receptor (encurta os ecos na tela e reduz a sua intensidade). 
+- Melhora a definição da imagem em águas confinadas, pois prove melhor discriminação em distância, melhor capacidade 
+de alcance mínimo, e elimina interferências causadas por RACON. 
+> Pulso longo: para detecção a longa distância. / Pulso curto: para curtos e médios alcances. 
+> Controle de Sintonia: sintoniza a w Klystron, mantendo o tx sintonizado com o rx. 
+- Ajustar freqüentemente até cerca de 30 min depois que ligar o radar; e verificar freqüentemente. 
+- Se não houver ecos para ajustar: desligue o STC, escolha uma escala pequena (clutter chegando ao limite da tela) e gire o 
+botão até que o clutter seja máximo. / Radares com AFC não possuem sintonia manual. 
+> Linha de Fé Luminosa / Heading Marker / Heading Flash: ajuste para que fique apenas visível (para não mascarar alvos). 
+- Facilita muito a navegação de praticagem, indicando o bordo em que estão os alvos pela proa. 
+7) FATORES QUE AFETAM A INTERPRETAÇÃO DA IMAGEM: 
+> Poder de discriminação em marcação (valor angular = largura do feixe): efeitos: 1) a abertura angular do feixe alarga os 
+alvos; e 2) dois alvos na mesma dist podem aparecer como um só pip (pedras e embs próximos à costa podem resultar numa 
+falsa linha da costa - fig 14.18). 
+> Poder de discriminação em distância = metade da largura do pulso: É afetado pela LP e pela freqüência. 
+> Áreas de sombra-radar: alvo grande obscurece alvo menor atrás, ou a curvatura da terra obstrui alvos além do horizonte-radar. 
+> Setores de sombra-radar (arcos ou setores cegos): obstáculos metálicos do próprio navio reduzem a intensidade do campo. 
+- Diagrama de cobertura horizontal: mostra a distância de detecção nas várias marcações relativas. 
+> Ecos múltiplos (fig 14.22): causados pela reflexão múltipla entre um alvo próximo (normalmente um navio pelo través) e o 
+nosso navio. / Há ecos duplos, triplos... / A dist para o eco duplo = 2 x dist para o alvo real. 
+- Pode-se usá-los para a calibrar o radar (a dist do I o para o 2° eco é a dist correta). 
+> Eco falso (ou eco indireto): 1) Eco indireto: a energia reflete no próprio navio e detecta um alvo em outra marcação (a dist é 
+correta, a marcação não); ou 2) a energia reflete de um alvo para outro alvo (eco falso na mesma marcação do Io alvo). 
+> Ecos laterais: causados pelos lóbulos laterais, que são fracos (afeta apenas alvos próximos). / Aparece como um arco de 
+círculo ou até um círculo completo. / Diminua o ganho ou aumente o "anti-clutter sea". / Se não interfere na navega, é 
+melhor deixá-los (para não sumir os ecos pequenos de alvos perigosos). 
+8) ALVOS: 
+> Fig 14.27: a largura do feixe (condicionando o poder de disc, em marc) e o comprimento dos pulsos (condicionando o poder 
+de disc, em dist) distorcem na imagem dos acidentes terrestres, resultando falsas linhas de costa. 
+> A topografia e as condições de reflexão da energia tb contribuem para essa distorção. / Quanto mais vertical for a sup refletora, 
+mais ela refle. / Superfícies côncavas focalizam o feixe de volta. / A sup do mar, que é boa refletora, só retornará se tiver vagas. 
+> Massas terrestres são facilmente reconhecíveis. O problema é a id de acidentes (reentrâncias, saliências) que possam ser usados. 
+a) Restingas e praias baixas: eco fraco (feixe resvala). / A arrebentação (peq persistência) pode indicar a linha da costa ou praia. 
+b) Dunas de areia: se ficam ao fundo de praia baixa e se cobertas por vegetação, o eco é forte (cuidado para não considerá-la linha 
+da costa). / Podem produzir ecos fortes (diedro refletor formado pelas superfícies vertical da duna e horizontal da praia). 
+c) Pântanos e mangues: com árvores, os ecos são fortes. / Se próximos da costa e sob influência da maré, produzirão ecos fracos. 
+d) Lagoas e lagos: se atrás de restingas ou praias baixas, ajudam na id de pontos da costa. / Lagos a poucas milhas da costa são id 
+como regiões que não produzem ecos em meio à área apresentada. / Quando a dist ao navio for grande, a restinga não aparecerá. 
+e) Formações escarpadas: se ocorrerem ao longo de toda a linha da costa, o eco será forte e uniforme, dificultando a determinação 
+da posição (abaixe o ganho e use as descontinuidades (rios/enseadas) da linha da costa para identificar pontos notáveis). 
+
+
+===== PAGINA 182 =====
+
+f) Montanhas: cume escarpado gera ecos fortes. Devido à sombra-radar, não haverá eco das regiões baixas atrás da montanha. 
+g) Linha da costa reta: é difícil determinar posição (a distorção pela largura do feixe só é peq onde o feixe incide perpendicular). 
+h) Linhas interrompidas por baías e reentrâncias: são facilmente identificáveis (mas id com cuidado antes das medições). 
+i) Praias encurvadas: determinar a posição é mais simples (mas a distorção só será mínima onde o feixe incidir perpend à costa). 
+j) Ilhas e rochedos: se pequenos e isolados, geram ecos nítidos e pequenos. 
+- Ilhas baixas: geram ecos fracos. Mas se tiverem palmeiras ou vegetação elevada, os ecos são fortes (diedro refletor). 
+- Linha de recifes ou cadeia de ilhas próximas: se o feixe for perpendicular, a largura do feixe pode juntar os ecos. 
+- Arrebentação quebrando sobre um recife: produz uma linha de ecos variáveis e interrompidos. 
+k) Linhas de costa falsas: ecos interligados são produzidos por: 1) arrebentações fortes em recifes; ou 2) vários rochedos, ilhas 
+pequenas ou embs próximos à costa. / Tb geradas por penhascos ou dunas ao fundo de uma praia baixa. 
+1) Faróis, torres, chaminés, etc: a resposta é fraca, pois normalmente são: 1) de pedra e cimento; 2) troncônicos ou cilíndricos. 
+- Mas se a costa for baixa o farol for alto, o seu eco pode ressaltar. / Podem ter RACON, refletores-radar ou RTE. 
+m) Pontes: geram ecos fortes. 
+n) Piers e molhes: geram sinais nítidos a pequenas distâncias. 
+o) Edifícios: são bons refletores. Embora as fachadas se comportem como superfícies especulares, as paredes que formam âng reto 
+entre si constróem com o solo um triedro tri-retângulo. / Cidades aparecem a mais de 25 NM (até mesmo antes da linha da costa). 
+p) Navios: os ecos são mais fortes quando o ângulo do alvo = 090° ou 270°. 
+- Embs de madeira ou fibra: resposta fraca. / Navios de aço: ecos fortes. 
+- Distâncias normais de detecção por radares de navegação: 
+* traineiras - 6-9 NM 
+* peqs de madeira - 0,5-4 NM 
+* navios - 6-20 NM 
+q) Bóias: para a navega, usá-las com muita precaução, mas nunca para determinar posição (pois garram). 
+- Dão ecos fracos (que podem ser encobertos até pelo menor retorno do mar) e pouco firmes (por causa do jogo). 
+- Forma abaulada é pior (e cônica é pior ainda). / Para melhorar a resposta, usam-se refletores-radar, RACON ou RTE. 
+- Distâncias normais de detecção: Bóias peqs: 0,5-1 NM / Bóias maiores: 2-4 NM / Com refletor-radar: 6-8 NM 
+r) Arrebentações: parecem uma linha de costa. / Caract ppal para identificá-la: desvanecimento (baixa persistência). 
+9) FENÔMENOS METEOROLÓGICOS: 
+a) Nuvens: reduza ganho que os ecos somem. 
+- Sem chuva: dificilmente são detectadas. / Nuvens de chuva: ecos grandes, variáveis, limites mal definidos, e na veloc do W. 
+- Cb e grandes formações: geram ecos muito fortes, às vezes até com contornos bem definidos (como uma ilha). 
+b) Chuva: mancha sem contornos definidos, que aumenta luminosidade do indicador (banda X é mais influenciada que a S). 
+- Chuvas fortes: mascaram ecos de terra, e podem mascarar totalmente alvos dentro ou além dela. / Chuviscos: afetam pouco. 
+- Alvo dentro da chuva: 1) reduzir o ganho; ou 2) aumentar o ganho do FTC. 
+- Nós dentro da chuva: o alcance-radar diminui. Atue continuamente no ganho e no FTC. / Dentro de um aguaceiro e com mar 
+agitado, o clutter da chuva se soma ao retorno do mar, podendo cegar completamente o radar (reduza a veloc!). 
+c) Tempestades tropicais: furacões, tufões e ciclones: geram ecos bem definidos. 
+d) Granizo: seu clutter é menos prejudicial que o da chuva. / Atue nos controles como se estivesse chovendo. 
+- Se a sua taxa de precipitação for a mesma da chuva (pedras grandes, o que é raro), o aspecto tb será o mesmo. 
+e) Cerração: nevoeiros não aparecem na tela, mas diminuem o alcance-radar. / Às vezes, banda X pode detectar bancos pesados. 
+- Neblina: visib > 1 km. / Nevoeiro: visib < 1 km. / Mas a bordo, ambos são chamados cerração (leve, moderada ou cerrada). 
+f) Smog (névoa seca): não influencia o radar, mas tb reduz levemente o alcance pela absorção de energia. 
+g) Vento: sua influência está relacionada com o estado do mar (o clutter do mar é maior a barlavento). 
+h) Gelo: a intensidade do eco é fraca, mas a distância de detecção dos icebergs e bergbits normalmente permite manobrar. 
+i) Flocos de gelo (ice floes) e growlers: formados pelo congelamento da água salgada, são baixos e muito difíceis de detectar. 
+j) Neve: quase não é notada. Mas: 1) os flocos absorvem energia e o alcance diminui; e 2) a cobertura de neve deforma os alvos. 
+Obs: qq forma de precipitação ou de partículas em suspensão afeta mais os radares de 3 cm que os de 10 cm. 
+10) AUXÍLIOS À NAVEGAÇÃO RADAR: são classificados como ativos e passivos. 
+a) Refletor-radar: auxílio passivo retro-refletivo que retorna a energia em limites amplos de incidência, instalados nos auxílios 
+(bóias, faróis, balisas) e em embs de fibra e madeira (IMO recomenda que todas as embs de AB < 100 ton tenham refletor). 
+- Retro-reflexão: superfícies planas em ângulos retos formam diedros refletores e triedros tri-retângulo refletores. 
+- Alcances com/sem refletor: 
+* bóia comum: 1,5/3,5 NM 
+* pesqueiro: 2,0/6,0 NM 
+* bóia cilíndrica: 3,5/7,0 NM 
+b) RACON (ou "radar transponder beacon"): auxílio ativo instalado em bóias, faróis, barcas-farol que possuem agilidade de 
+freq e dualidade de banda (S e X). / Quando excitados, retornam um sinal morse omnidirecional que aparece radialmente (mede-
+se a dist na parte interna do Io traço ou ponto), permitindo obter identificação positiva e marc/dist precisos. 
+- Aplicações: 
+1) Alinhamento: usa 2 RACONs (ou um RACON e um refletor); 
+2) Vãos navegáveis de pontes: B e T; 
+3) Novos perigos (D); 4) Estruturas ao largo: plataformas, etc. 
+5) Aterragem, linha de costa inconspícua... 
+c) RAMARK: transmissão a intervalos (+ usado) ou contínua, sem necessidade de excitação. 
+- Aparece como uma linha radial (cheia, tracejada, pontilhada, ou traços e pontos). 
+- Desvantagens: 1) não indica distância; 2) seu sinal forte pode gerar ecos falsos (atenuar com STC). 
+d) RTE (Radar Target Enhancer): reforçador ativo que amplifica e retransmite os pulsos recebidos, sem codificação, usado em 
+auxílios à navega e em pequenas embs. 
+(é um refletor-radar vitaminado) 
+
+
+===== PAGINA 183 =====
+
+11) PRECISÃO DAS DISTÂNCIAS E MARCAÇÕES RADAR: 
+a) Distâncias-radar: embora mais precisas que as marcações, as distâncias são afetadas pelos seguintes erros: 
+> Do eq: - retardo do receptor. 
+- distorção da imagem: na borda da tela, a curvatura da PPI distorce a imagem, e os alvos parecem maiores. 
+- erros de calibragem: vrf periodicamente a calibragem do estrobo (comparando-o com os círculos de dist), e a 
+calibragem do radar (ok se a diferença entre as dists do radar e da carta for até 1,5% do alcance da escala usada). 
+> Do operador: 
+- falsa interpretação da linha da costa. 
+- não usar a escala mais curta. 
+- tangência imperfeita do estrobo de dist (tangenciar a borda interna do eco - fig 14.35). 
+> Devido às caracts de reflexão do alvo (ex: árvores atrás de praias baixas). 
+> Devido às condições atmosféricas. 
+> Obs: a precisão de um radar calibrado é de 100 jds até o horizonte-radar, decrescendo até o limite do alcance. 
+b) Marcações-radar: são menos precisas que as distâncias (a precisão é de 2o a 3o). 
+> Erro da largura do feixe: é de +- metade da sua abertura angular (fig 14.36 - o eco aparece na marcação M). / Reduzindo o 
+ganho, o erro diminui (eliminam-se os ecos da periferia do feixe). / O poder de reflexão do alvo e a dist ao mesmo tb influem. 
+> Desalinhamento da linha de fé. 
+> Dificuldade de ajustar a antena com precisão > Io, e folga no seu motor de conteira. 
+> Erro da giro: considere o desvio da giro. 
+> Erros do operador: paralaxe e má centragem do cursor mecânico. / Use o cursor eletrônico. / Use a escala de dist mais 
+curta possível. / Ecos pequenos: bisectá-los com o cursor. / Ecos grandes: determinar um ponto conspícuo e bem definido para 
+passar o cursor. / Diminua o ganho. 
+12) USO DE RADAR NA NAVEGAÇÃO COSTEIRA E EM ÁGUAS RESTRITAS: 
+> Tratar sempre as marcações-radar com cuidado. / Métodos de obter uma posição (em ordem de precisão): 
+Dist-radar e marc-visual. / 
+Dist-radar e dist-radar. 
+/ Dist-radar e marc-radar. / Marc-radar e marc-radar. 
+> Ao usar LDPs-radar (mesmo que em combinação com LDPs visuais), use ao menos 3 LDP para definir uma posição. 
+> Há 4 métodos para obter posição só com o radar: 
+a) Três ou mais dists-radar: é o + preciso. / O âng de corte determina a precisão (figs 14.37 e 14.38 mostram pontos precisos). 
+> Use pequenos objetos (ilhotas, pedras isoladas), pois orlas baixas não aparecem com precisão. 
+> Tome as dists com um min intervalo de tempo (marque os pontos, anote as dists com cera, e depois informe ao plotador). 
+> Marque Io o ponto de vante, depois o de ré, e depois o central. / Se o arco exceder a abertura do compasso, use um cintei. 
+b) Cruzamento de marcações-radar: se tiver que usá-las como último recurso, use apenas objetos peqs e distintos. 
+> Contudo, as marcações são úteis para identificar alvos conspícuos no radar. 
+c) Marcação e distância-radar de um mesmo ponto: apenas 2 LDP podem gerar erros (cuidado!). / Escolha um objeto peq e bem 
+definido. / É rápido, usa apenas 1 ponto, e as 2 LDPs proporcionam um ângulo ótimo de cruzamento (90°). 
+d) Marcações tangentes com dist min: a marcação tang produz mais erros que a central, mas se o objeto for grande, não dá para 
+usar a central. Portanto, verifique-as com uma dist min de terra (fig 14.42). 
+> A largura do feixe aumenta a linha da costa: às tangentes obtidas, aplicar uma correção = metade da largura do feixe. 
+Para antenas de sentido horário, some esse valor à marcação tang da esquerda, e subtraia-o da direita (fig 14.41). 
+> A linha de costa do radar não corresponde à real: comum quando a costa é baixa ou está além do horizonte, mas dá para 
+corrigir se estudarmos a carta (dá para determinar a parte da terra que o radar irá detectar). 
+13) ATERRAGEM COM O RADAR: pode-se esperar grandes erros, pois: 1) as linhas de costa são mais baixas que as terras do 
+interior; e 2) por causa da curvatura da terra. / Logo, use outros auxílios-rádio para obter uma posição, e ppalmente o ecobat. 
+14) DISTÂNCIA-RADAR COMO LDP DE SEGURANÇA: 
+> Serve para: 1) com baixa visibilidade: diminuir a distância que se contorna uma costa. 
+2) com boa visib: assinalar perigos ao largo de uma costa onde os pontos notáveis de navega visual são escassos. 
+> Trace na carta arcos de distância de segurança em pontos selecionados. Daí, estabeleça uma linha de segurança (tang a esses 
+arcos), e trace a derrota por fora. / Daí, use as distâncias-radar para se manter por fora da linha de segurança, (fig 14.44) 
+> E fundamental assegurar que a linha da costa fornecerá bons alvos nas dists necessárias, e que a imagem será realmente da linha 
+da costa (e não de alvos mais elevados do interior). / Não reduza o ganho para que não seja apresentada uma linha de costa falsa. 
+> Esse método é análogo ao uso de ângulos verticais e horizontais de perigo na navega visual. 
+15) FUNDEIO DE PRECISÃO COM O RADAR: tb pode usar os conceitos de PI. 
+> Na carta (14.46), trace um círculo de segurança em torno do ponto (raio = filame + L). / Trace o círculo de largar o ferro 
+(raio = dist antena-escovém), e a partir deste, trace círculos de distância (cada 100 jds até 1000 jd, depois a 1200,1500 e 
+2000 jd). / Trace a derrota de aproximação, tendo um ponto conspícuo ao radar pela proa, se possível aproando o W/corr 
+(conside o avanço e afastamento). / Determine as dists de referência para o fundeio: uma pela proa e outra pelo través. 
+> Na medida em que os círculos de distância forem atingidos, informar ao Comte para que ele esteja parado sobre o ponto de 
+fundeio (antena sobre o círculo de largar o ferro). 
+> Depois, use o radar para saber se está garrando. 
+> Mesmo com boa visibilidade, o radar ainda é útil para fundear quando forem escassos os pontos notáveis para a navega visual, 
+ou quando outros navios estiverem fundeados nas proximidades (usa-se o radar para manter uma dist segura desses navios). 
+
+
+===== PAGINA 184 =====
+
+16) NAVEGAÇÃO PARALELA INDEXADA: 
+> Prove info em tempo real do afastamento da derrota planejada, bem como da aproximação de perigos. 
+> Trace retas paralelas ao rumo do navio, na carta e no radar. / Construa escalas graduadas para cada escala da repetidora. 
+> Use a escala mais curta (máx 6 milhas), pulso curto e faixa estreita (narrow bandwidht). 
+> Ganho, brilho e controles supressores (FTC e STC): use-os para eliminar os retornos da chuva/mar/ecos falsos, mas com 
+cuidado para não eliminar os ecos de bóias, balizas e peqs contatos. / Brilho e ganho devem ser constantemente ajustados, 
+pois a dist às superfícies refletoras e as condições meteoro variam constantemente. 
+> Verifique a linearidade da repetidora: 1) com um compasso, comparando a dist entre os anéis de distância em cada escala; ou 
+2) usando as paralelas indexadas da própria repetidora. (14.48) 
+- Mesmo sem linearidade, podem ser obtidas distâncias e marcações precisas (os erros estarão nas medidas tomadas entre 
+dois pontos na PPI, e não nas medidas radiais). 
+> Controles de centragem: ajuste-os para não dar erros de marcações. / Verifique a marca de proa (SHM) comparando com 
+uma repetidora da giro sem erro. / E verifique a orientação da apresentação comparando marcações radar e visual. 
+> Determine os erros de dist da repetidora para cada escala (ainda atracado), e anote-os com cera na periferia do PPI. / As 
+dists informadas já devem incorporar essas correções. 
+> Se a repetidora não permitir descentrar o cursor de distância, construa escalas graduadas em milhas para cada escala (e com 
+uma milha subdividida em décimos de milhas ou jardas) para poder determinar dists entre pontos com um compasso. 
+> Determinação do erro de distância (fig 14.51): tome as dists para 2 pontos quando o navio passar pelo seu alinhamento. 
+A soma das duas dists-radar comparada com a dist da carta é o dobro do erro. 
+- Ele varia freqüentemente devido a variações de voltagem ou de temp do equipamento. 
+a) Na carta: 
+> Retas //s indexadas são linhas contínuas, retas de segurança são tracejadas, e curvas de guinada são pontilhadas. 
+> Use o menor número possível de mudanças de rumo (pois a cada rumo tem que traçar novas Pis na repetidora). 
+> Escolha cada pernada considerando a escala que será usada. Escalas pequenas são mais precisas, mas os pontos passam 
+rápido, exigindo que novas Pis sejam traçadas. 
+> Usar Pis em ambos lados da derrota dá segurança na id de pontos e indica erros de dist na repetidora e de falta de linearidade. 
+> Estabeleça os pontos onde se mudará de Pis. 
+b) Retas de segurança: indicam o quanto o navio poderá se afastar da derrota. 
+> Na carta, traçar conjuntos completos de retas de segurança (com suas distâncias às Pis e à derrota). 
+> Na PPI, traçar só as de importância imediata. / Mas se o navio se afastar da derrota, trace prontamente um conjunto completo. 
+> Fig 14.50: 
+- ilha A (PI a 0,7 mlhas por BB): profs seguras até 0,2 milhas a BB. 
+- 5M e 4M (são dists para o destino no través de pontos notáveis). 
+c) Mudanças de rumo: plotar a posição para início de guinada, considerando o avanço e o afastamento. 
+d) Traçado no PPI: trace as próximas Pis tão logo as que estejam em uso possam ser apagadas. 
+> Trace-as o mais leve possível (lápis Omnichrome azul, vermelho e amarelo são melhores que cera). 
+> Cada reta deve ser abreviadamente identificada (e com a indicação da escala). / Anote as profs mínimas com destaque. 
+> Prepare croquis de partes notáveis da derrota (fig 14.53). 
+> Esquemas de traçado da PPI, quando feitos no planejamento, tb ajudam a evitar erros durante a travessia. 
+e) Identificação de ecos-radar: use a marc e dist em rei a outro eco de ponto de terra já identificado. E melhor que usar a 
+posição do navio, que poderá não ser precisa naquele momento. 
+f) Mantenha um fluxo de infos para o Comte, informando regularmente: 1) pos com rei à derrota (o bordo, o quanto, e se está 
+retornando); 2) detalhes dos auxílios à navega ou pontos notáveis esperados; 3) limitações de manobra (ex: "águas safas até 500 jds 
+a BE e 800 jds a BB, na próxima milha e meia "); e 4) resultados das verificações dos erros de alinhamento e dist do radar. 
+> Exceto em emergs, as sugestões para a próxima mudança de rumo devem ser tx com o motivo. Ex: "2 min para o ponto de 
+guinada, BE 120°, segundo o plano para contornar o quebramar". 
+g) Posições-radar: nas repetidoras com strobe de distância sobre a varredura, marque os pontos com lápis no instante do "marque", 
+e depois faça as medições (minimiza o erro do mov e possibilita confirmar, caso a plotagem não indique uma boa precisão). 
+h) Mudanças de rumo: reporte se a área está safa para guinar; sugira a guinada; escute as ordens ao timoneiro; observe a rate de 
+guinada; sugira correções de rumo quando "a caminho"; e informe sobre alvos, bóias, etc. 
+i) Fundeio de precisão com navegação PI: escolha pontos-radar conspícuos para traçar as Pis; escolha um rumo final que tenha 
+um ponto conspícuo pela proa; e use retas de segurança (se necessário). / Ex da fig 15.54: 
+> Na carta: trace o ramo final (290°) sobre o ponto de fundeio (a 1 milha da ilha); depois trace a // com relação à extremidade 
+do pier, e determine a distância dessa PI à derrota. 
+> Na repetidora: alinhe o cursor de paralelas na direção da derrota. / Daí, usando as linhas paralelas do cursor como guia, trace a 
+PI na distância determinada (a partir do centro da PPI). / A ponta do pier deve ser mantida nessa linha. 
+- Na linha central do cursor de paralelas (que está no 290°), faça uma marca a 1 milha do centro da PPI (ponto de fundeio), e 
+depois marque o ponto de largada do ferro (LG) na dist antena-escovém a partir do ponto de fundeio. 
+- Faça outra marca nessa linha a 1 milha além do ponto LG, e subdivida essa milha (acd fig). 
+- Largue o ferro com o navio parado quando a marca LG atingir o pip da ilha (ou seja, navio a 1 milha da ilha). 
+
+
+===== PAGINA 185 =====
+
+^ ^ a a ^ a s a s g ^ ^ 
+USO DO RADAR PARA EVITAR COLISÃO 
+1) MOVIMENTO RELATIVO: 
+> A imagem radar é uma apresentação em movimento relativo, seja ela estabilizada ou não. 
+> Figs 14.56 e 14.57: mostram traçados denominados plotagem relativa, que determinam a DMR dos alvos. / Para se determinar 
+a VMR, temos que considerar a distância relativa percorrida no intervalo de tempo. 
+> A apresentação em movimento verdadeiro não é indicada para evitar colisão (mas é usada para outros fins). 
+2) MÉTODO DO MOVIMENTO RELATIVO (divide-se em 2 partes): 
+a) Diagrama das posições relativas: 
+> Fig 14.59-A: é a plotagem geográfica (ou verdadeira) dos movs absolutos de 2 navios (o navio de referência R é o nosso). 
+> Fig 14.59-B: é o diagrama das posições relativas do navio manobrador M com relação a R, que nos permite obter: 
+- DMR: é, por assim dizer, o "rumo" do mov relativo. 
+- Distância relativa: é medida entre as sucessivas posições relativas (medida na mesma escala da plotagem). 
+- VMR: é a distância relativa percorrida na unidade de tempo. 
+- PMA: a marc/dist do PMA são obtidos do diagrama das posições relativas (já a hora requer cálculos). 
+b) Diagrama de velocidades: 
+> A DMR e a VMR relacionam-se com os rumos e velocs dos 2 navios (R e M) pela construção do triângulo das velocidades 
+(ou diagrama de velocidades, ou diagrama vetorial). 
+> Fig 14.62: t é a origem, e t-r e t-m são os vetores das velocs verdadeiras de R e M, respec. O vetor r-m representa a DMR e 
+VMR (de M em rei a R). / Conhecendo o vetor de R (t-r) e o vetor do mov relativo (r-m), obtemos o vetor verdadeiro do alvo. 
+Obs: a escala de velocs usada no diagrama de velocs independe da escala de distância usada no digrama das posições relativas. 
+3) ROSA DE MANOBRA: 
+> Usada para a construção dos diagramas de veloc e de posições relativas. 
+> Use sempre a maior escala possível (1:1 > 5:1!)./Para colision avoidance, as escalas de 1:1 e2:l são convenientes. 
+> Na esquerda, há um diagrama de 3 linhas para calcular veloc/tempo/dist (alinhar 2 variáveis para obter a 3a). 
+- Como a escala de tempo é logarítmica (a razão entre 2 leituras quaisquer é cte, desde que sejam ctes as dists entre elas), 
+pode-se resolver os problemas usando apenas essa escala de tempo. / Ex: "Que dist um navio a 15 ktpercorre em 90 min?" 
+Abra o compasso entre 15 e 60 min. Mantendo-se a abertura, coloque uma ponta sobre 90 min, e leia 22,5 min na outra ponta! 
+> Simbologia: t = origem; r = navio de referência; m = navio manobrador; Mi/M2/M3 = posições relativas do manobrador. 
+> Medir todas as dists na mesma escala, e todas as velocs também (a escala de veloc pode ser diferente da escala de dist). 
+Coloque um V e um d para assinalar a respectiva escala. 
+> Assinalar com letras correspondentes todos os pontos, no momento em que forem plotados. 
+> O vetor do mov relativo é sempre de r para m. / O nosso navio é sempre no centro. / Vetores de velocs verdadeiras 
+originam-se sempre no centro. / Marcação cte + dist diminuindo = rumo de colisão. 
+> Na plotagem relativa e construção dos diagramas, o bizú é tomar intervalos de 3 ou 6 minutos entre as posições de M, pois: 
+- Regra dos 3 min: 
+veloc (kt) = dist em 3' (jd) /100 
+- Regra dos 6 min: 
+veloc (kt) = dist em 6' (milha) x 10 
+IPC !!!!!!! 
+4) RESOLUÇÃO DE PROBLEMAS DE MOVIMENTO RELATIVO: 
+> Construiremos, na rosa de manobras, diagramas de posições relativas e de velocidades com base nas infos do radar. 
+> Exercícios do livro: 
+2) Estudar. 
+3) Inclui a distância, marcação e hora que o alvo vai cortar a nossa proa. / Vide fig 14.65. 
+4) Os erros nas medidas fazem com que, na prática, não seja possível traçar uma reta sobre todas as posições do contato. 
+- Portanto, determina-se a DMR traçando-se uma reta de forma que os pontos fiquem distribuídos para ambos os lados. 
+- Vide fig 14.66, e note o ponto de corte da proa. 
+6) Estudar. 
+7) t-w é o vento real ou verdadeiro. 
+9,10 e 11) Estudar. 
+5) PLOTAGEM RADAR EM TEMPO REAL: 
+> Se houver muitos contatos e a situação exigir uma avaliação rápida para saber se é necessário manobrar, faça a solução gráfica 
+diretamente no plotador de reflexão instalado sobre a repetidora. Esse método é chamado plotagem radar em tempo real. 
+> Com a tela cheia, a primeira preocupação é verificar as marcações dos alvos que se aproximam com risco de colisão. 
+> Para determinar se há risco de colisão, é fundamental que a apresentação seja estabilizada. 
+> Havendo necessidade de manobrar, determine qual das 4 manobras básicas, ou qual combinação delas (guinar BB/BE e | / | 
+veloc), irá aumentar mais efetivamente a distância de passagem. 
+
+
+===== PAGINA 186 =====
+
+a) Fig 14.74: 
+> Mostra A, B, C, D e E nos instantes t = 0 e t = 6 seg (e seus movimentos relativos). / Nossa veloc = 20 kt, rumo = 000°. / A 
+apresentação é estabilizada, na escala de 12 milhas, com 2 milhas entre os anéis de distância. 
+- C: tem o mesmo rumo e veloc que nós (não há mov relativo). Se guinarmos para BE pode pegar. Qualquer outra manobra safa. 
+- D: está no mesmo rumo e com uma veloc maior que a nossa. Para batermos nele, só se aumentarmos nossa veloc. 
+- A: está no rumo oposto ao nosso. O PMA é de cerca de 2 milhas, e a VMR é grande (40 kt). Aumentar ou diminuir a veloc é 
+ok, pois o PMA não altera, e guinar para BB também é ok. Guinar para BE é muito perigoso, sobretudo por causa da VMR alta. 
+- E: está parado, pois a DMR é oposta ao nosso rumo e a VMR é igual à nossa veloc. O PMA será de 2 milhas. Portanto, é 
+seguro aumentar ou diminuir a veloc, e guinar para BE. Uma guinada para BB requer cautela. 
+- B: está em rumo de colisão e a VMR é alta (30 kt), com o impacto ocorrendo em 16 min. Se reduzirmos a veloc ou pararmos 
+máquinas, B cruzará nossa proa com segurança (ao reduzir veloc, qualquer movimento relativo na PPI gira para vante, ou 
+seja, em direção à proa, não importando onde esteja). 
+IPC !!!!!!!!! 
+> Se reduzirmos a veloc, safaremos todos os contatos. / Depois que B cruzar nossa proa, aceleramos novamente. 
+> Mas se não pudermos reduzir veloc, resta-nos guinar para BE ou para BB. 
+- Qualquer guinada para BE só deve ser considerada depois que A passar pelo través. Essa guinada deve ser franca (de ao menos 
+60°) para não criarmos uma situação de risco com C. / Dessa forma, B passará safo por nosso BB. 
+- Se guinarmos para BB (cerca de 50°), B cruzará nossa popa (mas isso vai demorar, pois a VMR será reduzida). / O contato E 
+ainda complica, e a guinada deve ser tal que ele fique safo pelo nosso BE. 
+> Dessa forma, evitamos contatos múltiplos sem ter que determinar os seus rumos e velocs verdadeiros pela da Rosa de Manobras. 
+b) Fig 14.75: 
+> Dados: nossa veloc = 20 kt, rumo = 000°. / A apresentação é estabilizada, na escala de 12 milhas, com 2 milhas entre os 
+anéis de distância. / Vemos os alvos A, B e C nos instantes t = 0 e t = 6 min, plotados sobre a PPI, bem como as suas DMR. 
+> Problema: determinar as novas linhas de mov relativo se guinarmos para 065° em t = 6 min, para então verificarmos se o novo 
+rumo produzirá PMAs aceitáveis para todos os contatos. / Solução: 
+- Trace os vetores t-r e t-r' correspondentes aos rumos/velocs inicial e final do nosso navio. / Atenção: a grandeza de cada 
+vetor deve estar na escala de distância da apresentação radar, sendo igual à distância percorrida pelo nosso navio durante o 
+intervalo de tempo da plotagem relativa. Nesse caso, 6 min a 20 kt nos da uma dist percorrida de 2 NM (1 anel). 
+- Daí construímos uma linha tracejada de r para r'. 
+- Daí deslocamos a posição inicial (t = 0) dos contatos na mesma dir e dist que r- r'. Cada nova posição obtida é designada r'. 
+- A nova DMR de cada contato é obtida conectando-se a posição deslocada com a posição final do contato (em t = 6). 
+> Conclusão: com a nossa guinada, A (que estava em rumo de colisão) passará safo do nosso navio, assim como B e C. 
+c) Exercícios 1 a 3: vide livro. 
+6) SISTEMAS AUTOMÁTICOS DE RADAR ANTI-COLISÃO (ARPA): 
+> Os elementos do alvo são calculados logo que o mesmo é detectado pelo radar, independente da escala de distância da PPI (leva 
+uns 2 min para calcular, e os cálculos são atualizados a cada varredura). 
+> A aquisição e processamento são automáticos. / Todos os ecos relevantes (até cerca de 200) são examinados simultaneamente, 
+e os ecos mais próximos (até cerca de 40) são mostrados com os seus vetores. 
+> Fornecem alarme audiovisual para contatos com risco de colisão (baseado na distância do PMA selecionada, e independente 
+da escala de distância da PPI). / Também indicam os resultados de diversas manobras imaginadas. 
+> Há sistemas integrados que comandam o giro-piloto e/ou as máquinas, alterando o rumo e/ou veloc do navio. 
+> Mas como estão sujeitos a falhas, não dispensam uma avaliação contínua e vigilância visual permanente. 
+APRESENTAÇÃO EM MOVIMENTO VERDADEIRO 
+> É adequada para canais estreitos e longos e sem tráfego intenso, onde o importante é o reconhecimento das béias. 
+> Esses eqs vêm sendo + difundidos, seu uso em águas restritas vem sendo avaliado, e parecem oferecer melhores atrativos. 
+> Vantagem: alvos parados não se movem, o que facilita o reconhecimento de bóias e navios parados. 
+> Limitações: 
+- Alvos em rumo de colisão não são facilmente percebidos (exceto aqueles bem pela proa ou popa). 
+- Quando o navio alcança a extremidade da PPI, ele tem que ser reposicionado, daí ocorrem interrupções no controle e na 
+avaliação da apresentação. / Reposicione após estar numa pernada e com posição na carta (não deixe para o último instante) 
+- É mais difícil determinar a correção para compensar vento e corrente. 
+> Mantenha uma estreita ligação com o controlador de alvos de superfície, pois a navegação não poderá estar atenta a todo o 
+tráfego, e não disporá de tempo para determinar os PMA. 
+> Para evitar confusão, não use duas repetidoras (uma em mov relativo e outra em verdadeiro). 
+> Para usar a apresentação em mov verdadeiro, temos que ter prática em mov relativo! 
+SUMARIO DO CAPÍTULO 
+> Vantagens: é geralmente o único instrumento capaz de prover LDPs precisas em visib restrita ou no escuro. / É possível (mas 
+não recomendável) obter pos a partir de apenas um ponto. / Permite a obtenção rápida e precisa de posições. / Pode ser usado a 
+maiores distâncias da costa que a maioria dos outros métodos de navegação. 
+> Limitações: é menos preciso que marcações visuais, a interpretação da imagem não é fácil, o alcance mínimo é uma limitação 
+(a reverberação do mar dificulta a detecção de alvos próximos). / É um eletrônico sujeito a avarias e que depende de fonte. 
+> Para evitar colisão em baixa visib, manobre com bastante antecedência, pois não se sabe se o avistamento radar é recíproco. 

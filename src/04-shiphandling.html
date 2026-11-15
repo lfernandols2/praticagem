@@ -1,0 +1,471 @@
+<section class="section" id="abertura">
+  <p class="section-kicker">Abertura</p>
+  <h2>O navio obedece a forças, não a intenções</h2>
+  <p class="lead">Uma ordem de leme ou de máquina não move o navio magicamente: ela cria forças que interagem com o casco, a água, o vento, o fundo e as amarras. Conduzir o navio (<em>shiphandling</em>) é antecipar esse resultado e manter margem para corrigir ou abortar a manobra.</p>
+  <p>No passadiço, a diferença entre uma atracação tranquila e uma avaria costuma estar no planejamento prévio: conhecer como hélice, leme e corrente atuam, posicionar o ponto de giro (<em>pivot point</em>), preparar cabos, defensas, ferros e rebocadores, e coordenar a equipe. Este capítulo sintetiza os fundamentos operacionais de manobra, do navio solto ao navio amarrado. <span class="src">p. 63, 68–69, 78</span></p>
+
+  <div class="grid-3">
+    <div class="card card--accent">
+      <span class="card__num">01</span>
+      <h3>Entender as forças</h3>
+      <p>Relacionar hélice, leme, vento, corrente, banco e águas rasas ao movimento da proa e da popa.</p>
+    </div>
+    <div class="card card--teal">
+      <span class="card__num">02</span>
+      <h3>Executar a manobra</h3>
+      <p>Aplicar comandos, cabos, ferros e rebocadores em atracação, desatracação, fundeio e amarração.</p>
+    </div>
+    <div class="card">
+      <span class="card__num">03</span>
+      <h3>Decidir com segurança</h3>
+      <p>Operar em águas restritas com briefing, comunicação clara e critério para parar ou recomeçar.</p>
+    </div>
+  </div>
+  <p class="source-line">pp. 63–69, 74–78, 89–93</p>
+</section>
+
+<section class="section" id="forcas-pivot">
+  <p class="section-kicker">Fundamentos</p>
+  <h2>Forças que afetam o navio e ponto de giro</h2>
+  <p>Quando a água escoa ao redor do casco e dos apêndices, a velocidade local muda e a pressão estática varia: onde a velocidade aumenta, a pressão cai (princípio de Bernoulli). Essa diferença de pressão gera sustentação em hidrofólios como leme, quilha e o próprio casco, além de efeitos de sucção entre navios e entre navio e margem. A pressão dinâmica cresce com o quadrado da velocidade: dobrar a velocidade quadruplica a força. <span class="src">p. 63</span></p>
+
+  <div class="def">
+    <span class="def__term">Pivot point (ponto de giro)</span>
+    <p>Ponto em torno do qual o navio gira durante a manobra. Com o navio parado e força aplicada na popa, ele tende a ficar a cerca de <strong>30% do comprimento a partir da proa</strong>; com seguimento avante, desloca-se para <strong>15–20% a ré da proa</strong>. O navio gira sobre esse ponto, mas o ponto não se desloca lateralmente: manobrar é escolher onde ele deve atuar na água. <span class="src">p. 67</span></p>
+  </div>
+
+  <div class="grid-2">
+    <div class="card">
+      <h3>Vento (wind)</h3>
+      <p>A força do vento é proporcional ao quadrado da velocidade relativa, à área exposta e à forma da superestrutura. Em regra prática, a água é cerca de 900 vezes mais densa que o ar, de modo que um vento de 30 kt pode produzir efeito comparável ao de uma corrente de 1 kt. Com seguimento avante o navio tende a aproar o vento; com seguimento à ré, a apopar; parado ou com pouco seguimento, tende a oferecer o costado. <span class="src">p. 63, 66, 81</span></p>
+    </div>
+    <div class="card">
+      <h3>Corrente (current)</h3>
+      <p>A corrente atua sobre o casco submerso com grande intensidade por causa da densidade da água. Sem outras forças, ela transporta o navio sem fazê-lo guinar; a guinada aparece quando há interação com objetos fixos, variação do escoamento ou uso de máquina/leme. Em águas restritas, avalie sempre a corrente de fundo, não apenas o que se vê na superfície. <span class="src">p. 66, 82</span></p>
+    </div>
+  </div>
+
+  <figure class="figure">
+    <svg viewBox="0 0 720 320" role="img" aria-labelledby="fig-pivot-title fig-pivot-desc">
+      <title id="fig-pivot-title">Ponto de giro e forças de manobra</title>
+      <desc id="fig-pivot-desc">Diagrama de um navio visto de cima com indicação do ponto de giro à vante, força do leme na popa, momento de guinada e deslocamento lateral resultante.</desc>
+      <defs>
+        <marker id="arrow-ph" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+        <marker id="arrow-ph2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--teal)"/>
+        </marker>
+      </defs>
+      <rect x="20" y="20" width="680" height="280" rx="12" fill="var(--surface-2)" stroke="var(--line)"/>
+      <path d="M120 165 Q150 130 220 120 L520 120 Q585 125 620 160 Q585 195 520 200 L220 200 Q150 190 120 165 Z" fill="var(--navy-2)" stroke="var(--navy-3)" stroke-width="2"/>
+      <line x1="590" y1="160" x2="635" y2="185" stroke="var(--gold)" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="220" cy="160" r="7" fill="var(--teal)"/>
+      <text x="220" y="142" text-anchor="middle" class="diagram-label diagram-label--strong">pivot point</text>
+      <text x="220" y="240" text-anchor="middle" class="diagram-label">~15–20% a ré da proa (com seguimento)</text>
+      <path d="M635 185 L635 245" class="diagram-gold" marker-end="url(#arrow-ph)"/>
+      <text x="648" y="220" class="diagram-label diagram-label--strong">força do leme</text>
+      <path d="M360 110 A70 70 0 0 1 430 150" fill="none" stroke="var(--teal)" stroke-width="2.5" marker-end="url(#arrow-ph2)"/>
+      <text x="410" y="98" class="diagram-label">momento de guinada</text>
+      <path d="M360 60 L360 95" class="diagram-line" stroke-dasharray="4 4"/>
+      <path d="M360 35 L360 15" class="diagram-accent" marker-end="url(#arrow-ph2)"/>
+      <text x="360" y="12" text-anchor="middle" class="diagram-label">deslocamento lateral resultante</text>
+      <text x="80" y="165" class="diagram-label">proa</text>
+      <text x="640" y="150" class="diagram-label">popa</text>
+    </svg>
+    <figcaption><b>Figura 1.</b> Com seguimento avante, o leme gera força na popa e o navio gira em torno do pivot point avançado. O casco inclinado em relação ao fluxo passa a produzir grande força lateral, útil para iniciar e sustentar a curva. <span class="src">p. 63, 67</span></figcaption>
+  </figure>
+
+  <div class="callout callout--info">
+    <span class="callout__label">Para entender</span>
+    <p>O leme, as quilhas e o próprio casco comportam-se como hidrofólios: quando inclinados ao fluxo, produzem força lateral e momento. A força do leme depende de área, ângulo e pressão dinâmica; por isso, sem fluxo suficiente sobre o leme, a capacidade de governo cai rapidamente. <span class="src">p. 63, 66</span></p>
+  </div>
+  <p class="source-line">pp. 63, 66–67, 81</p>
+</section>
+
+<section class="section" id="helice-leme">
+  <p class="section-kicker">Controles</p>
+  <h2>Hélice, força lateral, leme e comandos</h2>
+  <p>O hélice (<em>propeller</em>) produz tração ao acelerar uma massa de água para ré; o fluxo acelerado sobre o leme aumenta sua eficiência quando o navio tem pouco seguimento. A força resultante em cada pá decompõe-se em tração e componente tangencial, mas em um hélice isolado e simétrico as componentes laterais se cancelam. No navio real, a esteira (<em>wake</em>) assimétrica, a inclinação do eixo e a proximidade da superfície criam força lateral líquida. <span class="src">p. 63–65</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Efeitos típicos da hélice (referência de navio de um eixo com hélice de passo fixo)</caption>
+      <thead>
+        <tr><th>Condição</th><th>Efeito típico na popa</th><th>Observação operacional</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Avante com seguimento</td><td>Força lateral pequena; pode haver tendência para bombordo em muitos navios</td><td>Efeitos da esteira, inclinação e descarga helicoidal podem se combinar ou se opor. <span class="src">p. 64</span></td></tr>
+        <tr><td>Arrancada avante (parado)</td><td>Tendência da popa para boreste em hélice dextrógira</td><td>Com pouco imersão relativa e forte sucção, o efeito de superfície pode predominar. <span class="src">p. 64</span></td></tr>
+        <tr><td>Atrás</td><td>Forte tendência da popa para bombordo em hélice dextrógira</td><td>A descarga incide no casco com pouca água perturbada à ré; o leme só ganha eficiência após ganhar seguimento à ré. <span class="src">p. 64</span></td></tr>
+        <tr><td>Dois hélices</td><td>Forças laterais mais previsíveis pelo sentido de rotação</td><td>Com máquinas em oposição, soma-se o binário pelo afastamento dos eixos; navios com dois lemes aproveitam melhor a descarga. <span class="src">p. 65–67</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>A direção e a intensidade da força lateral variam com o tipo de navio, calado, imersão da hélice, forma da popa e velocidade. Use o comportamento descrito como ponto de partida, mas confirme nas provas de manobra (<em>trials</em>) e na experiência específica da embarcação. <span class="src">p. 64–65, 78–79</span></p>
+  </div>
+
+  <h3>Resposta ao leme e perda de governo</h3>
+  <ul class="checklist">
+    <li>A razão de giro depende do ângulo de leme, normalmente limitado a cerca de 35°, e do fluxo sobre ele. <span class="src">p. 66</span></li>
+    <li>Sem seguimento suficiente (<em>steerageway</em>), mesmo leme todo a um bordo pode não vencer vento, corrente e outras forças. <span class="src">p. 66, 69</span></li>
+    <li>Com máquina atrás em navio de um eixo, a sucção à ré do hélice afeta pouco o leme; é preciso ganhar seguimento à ré para recuperar governo. <span class="src">p. 64, 69</span></li>
+    <li>Navios com dois hélices podem criar forças laterais e binários úteis mesmo a baixa velocidade, usando máquinas em sentidos opostos. <span class="src">p. 66–67</span></li>
+  </ul>
+
+  <h3>Comandos claros de máquina e leme</h3>
+  <p>Em manobras, clareza vale mais que brevidade ambígua. Use a sequência consagrada de ordem de leme e máquina, confirme a execução e observe a resposta do navio antes de encadear nova ordem. O telégrafo fornece degraus padronizados de regime; o tacômetro permite ajustes finos quando todos os postos envolvidos acompanham a indicação. Em sistemas com passo controlável ou propulsão direcional, padronize comandos e modos para evitar confusão entre passadiço e praça de máquinas. <span class="src">p. 67, 84</span></p>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Na prática</span>
+    <p>Ao duvidar do efeito obtido, observe a água na região da popa e do leme: aceleração e turbulência revelam direção e intensidade da força aplicada melhor do que supor a resposta teórica. <span class="src">p. 67</span></p>
+  </div>
+  <p class="source-line">pp. 63–67, 69, 84</p>
+</section>
+
+<section class="section" id="atracacao">
+  <p class="section-kicker">Junto ao cais</p>
+  <h2>Atracação, cabos e defensas</h2>
+  <p>A aproximação segura é controlada, com ângulo pequeno, velocidade mínima de governo e plano de aborto. Aproximar paralelo cedo demais remove a capacidade de abrir a popa e de sair de ré se algo falhar. Uma técnica clássica é aproximar com cerca de 10° a 20°, parar paralelo ao cais a uma distância confortável, passar os cabos e só então aproximar o costado. <span class="src">p. 68, 91–92</span></p>
+
+  <div class="def">
+    <span class="def__term">Cabos de amarração (mooring lines)</span>
+    <p>Linhas que prendem o navio à estrutura fixa. De forma geral: <strong>lança (headline)</strong> limita movimento avante; <strong>espringue de vante (forward spring)</strong> limita movimento à ré; <strong>espringue de ré (after spring)</strong> limita movimento avante; <strong>través (breast line)</strong> segura o navio junto ao cais; e <strong>lateral de ré (stern line)</strong> limita movimento avante da popa. A combinação correta evita tanto o deslocamento longitudinal quanto o afastamento. <span class="src">p. 68–69, 93</span></p>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Efeitos do vento e da corrente na aproximação ao cais</caption>
+      <thead>
+        <tr><th>Condição</th><th>Risco principal</th><th>Conduta recomendada pela fonte</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Vento ou corrente jogando para fora do cais</td><td>Perder contato e não conseguir passar cabos</td><td>Aproximar com mais decisão e ter cabos prontos rapidamente; em casos extremos pode-se usar ferro para segurar a proa enquanto se traz a popa. <span class="src">p. 68</span></td></tr>
+        <tr><td>Vento ou corrente jogando para o cais</td><td>Encostar antes da hora e gerar contato violento</td><td>Aproximar mais aberto e paralelo, com velocidade muito baixa, usando máquina, rebocador ou ferro para controlar o movimento lateral. <span class="src">p. 68, 92</span></td></tr>
+        <tr><td>Corrente atravessada</td><td>Deriva lateral e guinada inesperada</td><td>Compensar o abatimento antes de entrar na área mais restrita e ajustar ângulo e potência com antecedência. <span class="src">p. 91</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Uso de defensas (fenders)</span>
+    <p>Defensas protegem casco e estrutura de contato, mas não corrigem erro de aproximação. Posicione-as antes da manobra, verifique pontos de maior pressão (meia-nau, boreste, arredondamentos) e evite usá-las como desculpa para chegar com energia excessiva. <span class="src">p. 68–69, 91</span></p>
+  </div>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Erro comum</span>
+    <p>Atracar com proa encostada e popa aberta, tentando “puxar” a popa com cabo sem controlar o movimento do navio. A força no cabo pode crescer perigosamente e o navio pode girar de forma indesejada. Priorize controle com máquina, leme e, se necessário, rebocador ou ferro. <span class="src">p. 68, 92</span></p>
+  </div>
+  <p class="source-line">pp. 68–69, 91–93</p>
+</section>
+
+<section class="section" id="desatracacao">
+  <p class="section-kicker">Saída controlada</p>
+  <h2>Desatracação e partida do cais</h2>
+  <p>Desatracar costuma ser mais delicado que atracar: o espaço é limitado, o navio pode estar “colado” ao cais por sucção e, ao dar seguimento à ré, o governo pode ser ineficiente. A regra básica é abrir a popa com segurança antes de ganhar seguimento, mantendo a proa controlada por cabo ou por força lateral. <span class="src">p. 68–69</span></p>
+
+  <ol class="steps">
+    <li><strong>Preparar a saída.</strong> Defina o bordo de saída, confira defensas, cabos que ficarão por último, meio de comunicação com a equipe de proa/popa e condições de vento e corrente.</li>
+    <li><strong>Aliviar e controlar.</strong> Solte os cabos na sequência planejada, mantendo um cabo estratégico (geralmente um espringue) para controlar posição e abrir a extremidade desejada.</li>
+    <li><strong>Abrir e afastar.</strong> Use máquina e leme para abrir popa ou proa conforme o caso; só recolha o último cabo quando o movimento estiver sob controle.</li>
+    <li><strong>Ganhar governo.</strong> Afaste-se o suficiente antes de guinar, especialmente em saídas à ré, para evitar contato da proa com o cais ou com outra embarcação. <span class="src">p. 68–69, 73</span></li>
+  </ol>
+
+  <div class="compare">
+    <div class="pro">
+      <h4>Saída avante</h4>
+      <ul>
+        <li>Melhor resposta ao leme com fluxo da hélice.</li>
+        <li>Facilita ganhar rumo e seguir no canal.</li>
+        <li>Exige espaço para abrir a proa ou “molar” com espringue/corrente. <span class="src">p. 69</span></li>
+      </ul>
+    </div>
+    <div class="con">
+      <h4>Saída à ré</h4>
+      <ul>
+        <li>Permite abrir a popa antes em muitos cais.</li>
+        <li>Governo inicial pobre em navios de um eixo.</li>
+        <li>Exige atenção à tendência da popa e à proa que pode “chupar” para o cais. <span class="src">p. 68–69</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="callout callout--danger">
+    <span class="callout__label">Ponto crítico</span>
+    <p>Ao sair de ré de um cais ou de um navio atracado, a água que preenche o espaço deixado pelo casco pode puxar a proa em direção ao obstáculo. Mantenha vigilância na proa, controle a velocidade e esteja pronto para corrigir com máquina, leme ou cabo. <span class="src">p. 69</span></p>
+  </div>
+  <p class="source-line">pp. 68–69, 73, 93</p>
+</section>
+
+<section class="section" id="fundeio-amarracao">
+  <p class="section-kicker">Ferro e bóia</p>
+  <h2>Fundeio e amarração</h2>
+  <p>O ferro é ao mesmo tempo instrumento de fundeio, freio de emergência e auxiliar de manobra. Ele precisa se enterrar com tração horizontal e constante; por isso, filame (<em>scope</em>) adequado e velocidade baixa são essenciais. A amarra em catenária absorve puxões e mantém o esforço próximo do horizontal junto ao fundo. <span class="src">p. 69–71</span></p>
+
+  <h3>Boas práticas de fundeio</h3>
+  <ul class="checklist">
+    <li>Evite largar o ferro com seguimento avante: a amarra pode enrodilhar e o casco/sonar podem ser expostos a risco.</li>
+    <li>Aproxime, pare e caia à ré sobre o ponto, largando o ferro quando a proa passar pela marca planejada.</li>
+    <li>Filme amarra progressivamente e confirme que o ferro unhou antes de confiar a posição a ele.</li>
+    <li>Aumente o filame com piora de tempo, maré ou vagas para evitar esforços verticais e arrancadas. <span class="src">p. 69–71</span></li>
+  </ul>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Modos de amarração com ferro e bóia (síntese operacional)</caption>
+      <thead>
+        <tr><th>Método</th><th>Quando usar</th><th>Pontos de atenção</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Trolley method (bóia)</strong></td><td>Aproximação controlada à bóia com cabo guia e corrente</td><td>Preparar amarra e cabo, aproximar devagar contra vento/corrente e evitar que o navio avance sobre a bóia. <span class="src">p. 71</span></td></tr>
+        <tr><td><strong>Two anchors / two buoys</strong></td><td>Restringir raio de giro ou manter posição em espaço limitado</td><td>Planejar ordem de largada/amarração, cruzamento e tensão das pernas; controlar guinada durante o ajuste. <span class="src">p. 71–72</span></td></tr>
+        <tr><td><strong>Flying moor / ordinary moor</strong></td><td>Fundeio com dois ferros conforme vento, corrente e espaço</td><td>Escolher sequência e direção em relação ao esforço dominante; ajustar comprimentos para centralizar o navio. <span class="src">p. 72</span></td></tr>
+        <tr><td><strong>Hammerlock moor</strong></td><td>Tempo severo, com necessidade de reduzir guinada</td><td>Amarras cruzadas reduzem balanço da proa, mas exigem cuidado com ordem de suspensão e atrito no casco. <span class="src">p. 72</span></td></tr>
+        <tr><td><strong>Mediterranean moor (Med moor)</strong></td><td>Operar popa ao cais em porto abrigado</td><td>Requer bom controle de dois ferros à vante e aproximação de ré; não deixar folga perigosa nas amarras. <span class="src">p. 72</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="example">
+    <h3 class="example__title"><span>Caso prático</span> Ferro como freio de emergência</h3>
+    <p>Em área restrita, com risco de pane de governo ou máquina, manter um ferro pronto para largar pode evitar deriva para banco, cais ou outra embarcação. O valor do ferro não está apenas em “ficar fundeado”, mas em ganhar tempo e limitar o deslocamento enquanto se recupera o controle. <span class="src">p. 70</span></p>
+  </div>
+  <p class="source-line">pp. 69–73</p>
+</section>
+
+<section class="section" id="aguas-restritas">
+  <p class="section-kicker">Canais e margens</p>
+  <h2>Águas restritas, squat, encontro e ultrapassagem</h2>
+  <p>Em água rasa e canal estreito, o escoamento sob e ao redor do casco fica confinado: a velocidade da água aumenta, a pressão cai e o navio afunda (<em>sinkage</em>) e muda de trim. A combinação desses efeitos é o <em>squat</em> (afundamento dinâmico). Além do risco de toque no fundo, aumentam a resistência, a vibração e a dificuldade de governo. <span class="src">p. 75, 87–88</span></p>
+
+  <div class="grid-2">
+    <div class="card card--accent">
+      <h3>Squat e velocidade</h3>
+      <p>O squat cresce rapidamente com a velocidade e com o grau de confinamento (relação calado/profundidade e largura do canal). A resposta operacional mais eficaz é reduzir velocidade cedo, especialmente em áreas de pequena folga sob a quilha (<em>UKC</em>). <span class="src">p. 75, 87–88</span></p>
+    </div>
+    <div class="card card--teal">
+      <h3>Efeito de margem (bank effect)</h3>
+      <p>Perto de uma margem, o fluxo assimétrico pode sugar a popa para o banco (<em>bank suction</em>) e empurrar a proa para fora (<em>bank cushion</em>), ou combinar ambos, levando o navio a atravessar o canal se a correção for tardia. <span class="src">p. 75, 82</span></p>
+    </div>
+  </div>
+
+  <figure class="figure">
+    <svg viewBox="0 0 720 300" role="img" aria-labelledby="fig-squat-title fig-squat-desc">
+      <title id="fig-squat-title">Squat e interação com a margem em canal</title>
+      <desc id="fig-squat-desc">Vista em corte de um canal com navio acelerado, mostrando afundamento e sucção da popa em direção à margem próxima, com fluxo mais rápido no espaço estreito.</desc>
+      <defs>
+        <marker id="arrow-sq" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+      </defs>
+      <rect x="20" y="20" width="680" height="260" rx="12" fill="var(--surface-2)" stroke="var(--line)"/>
+      <path d="M40 190 L680 190 L680 250 L40 250 Z" fill="#d9c7a0" opacity="0.35"/>
+      <path d="M60 90 L660 90" class="diagram-accent" stroke-dasharray="6 5"/>
+      <text x="610" y="82" class="diagram-label">nível inicial</text>
+      <path d="M140 120 Q170 100 260 95 L470 95 Q540 100 575 130 L595 150 L150 150 Z" fill="var(--navy-2)" stroke="var(--navy-3)" stroke-width="2"/>
+      <path d="M150 150 L595 150 L605 165 L135 165 Z" fill="var(--teal)" opacity="0.18"/>
+      <text x="365" y="180" text-anchor="middle" class="diagram-label">sinkage / squat</text>
+      <path d="M520 145 L520 210" class="diagram-gold" marker-end="url(#arrow-sq)"/>
+      <text x="535" y="205" class="diagram-label">sucção na popa</text>
+      <path d="M240 165 L240 190 L120 190" class="diagram-line"/>
+      <text x="85" y="205" class="diagram-label">fluxo acelerado</text>
+      <path d="M90 210 L40 210 L40 120" stroke="var(--line-strong)" stroke-width="3" fill="none"/>
+      <text x="48" y="112" class="diagram-label">margem</text>
+      <path d="M620 110 L690 110" class="diagram-accent" marker-end="url(#arrow-sq)"/>
+      <text x="655" y="102" text-anchor="middle" class="diagram-label">avanço</text>
+    </svg>
+    <figcaption><b>Figura 2.</b> Em canal raso e estreito, o confinamento acelera o fluxo sob o casco e reduz a folga sob a quilha. A assimetria lateral pode gerar sucção de popa para a margem e perda de controle se a velocidade for excessiva. <span class="src">p. 75, 82, 87–88</span></figcaption>
+  </figure>
+
+  <h3>Encontro, ultrapassagem e <em>set</em></h3>
+  <p>Ao cruzar com outro navio em canal, as ondas de pressão e as zonas de sucção fazem os cascos se atraírem e repelirem em fases diferentes. A manobra exige reduzir velocidade, manter-se no próprio lado com margem e antecipar o momento em que a popa do outro influenciará sua proa. Na ultrapassagem, o navio ultrapassado deve cooperar reduzindo ao mínimo seguro, pois sofre maior perturbação. <span class="src">p. 86</span></p>
+  <p>O <em>set</em> (deriva lateral causada por vento ou corrente) deve ser avaliado continuamente por alinhamentos, bóias, marcas de terra e instrumentos. Em canal, pequenos ângulos de correção aplicados cedo são preferíveis a grandes correções tardias. <span class="src">p. 74, 86</span></p>
+
+  <div class="callout callout--danger">
+    <span class="callout__label">Margem de segurança</span>
+    <p>Em águas rasas, reserve potência e tempo de reação: evite navegar no limite de velocidade, monitore a profundidade sob a quilha e não trate fórmulas de squat como valor exato para todas as situações. Condições locais, aceleração e encontro de navios alteram o resultado. <span class="src">p. 87–88</span></p>
+  </div>
+  <p class="source-line">pp. 74–75, 82, 86–88</p>
+</section>
+
+<section class="section" id="rebocadores">
+  <p class="section-kicker">Apoio externo</p>
+  <h2>Emprego de rebocadores na chegada e partida</h2>
+  <p>Rebocadores (<em>tugs</em>) ampliam o controle de posição e de guinada, especialmente a baixa velocidade, com vento forte ou em espaços confinados. O rebocador pode empurrar, puxar, trabalhar em cabo (<em>hawser</em>) ou, em alguns arranjos, atuar amarrado junto ao costado; sua eficácia depende de posição, comprimento de cabo, ângulo de tração e coordenação com a máquina do navio. <span class="src">p. 89–91</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Funções típicas dos rebocadores</caption>
+      <thead>
+        <tr><th>Posição / modo</th><th>Emprego principal</th><th>Cuidado essencial</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Proa (empurrando ou puxando)</td><td>Controlar deriva da proa e iniciar/segurar guinada</td><td>Comunicação clara de direção e intensidade; evitar ordens contraditórias. <span class="src">p. 89–90</span></td></tr>
+        <tr><td>Popa</td><td>Controlar aproximação da popa e auxiliar saída/entrada</td><td>Coordenar com cabo de popa e com efeito da hélice do navio. <span class="src">p. 89–90</span></td></tr>
+        <tr><td>No cabo à vante (towing)</td><td>Ajudar a reduzir velocidade, manter rumo ou conduzir navio sem governo</td><td>Controlar comprimento e ângulo do cabo; risco de prender ou perder eficiência com manobras bruscas. <span class="src">p. 90</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--info">
+    <span class="callout__label">Partida e chegada</span>
+    <p>Planeje o uso do rebocador antes da manobra: ponto de pega, sequência de ordens, idioma dos comandos e critério para largar. Rebocador é recurso de controle, não substituto para plano de aproximação, velocidade adequada e equipe atenta. <span class="src">p. 89, 91–92</span></p>
+  </div>
+  <p class="source-line">pp. 89–92</p>
+</section>
+
+<section class="section" id="williamson">
+  <p class="section-kicker">Emergência</p>
+  <h2>Manobra de Williamson para retorno ao ponto</h2>
+  <p>A manobra de Williamson (<em>Williamson turn</em>) é usada, classicamente, para retornar à posição aproximada em que uma pessoa caiu na água, especialmente à noite ou com visibilidade reduzida. A lógica é afastar-se do rastro imediato, inverter o rumo de forma controlada e retornar pela linha oposta, facilitando a navegação de volta ao ponto. <span class="src">p. 114</span></p>
+
+  <figure class="figure">
+    <svg viewBox="0 0 720 320" role="img" aria-labelledby="fig-will-title fig-will-desc">
+      <title id="fig-will-title">Geometria esquemática da manobra de Williamson</title>
+      <desc id="fig-will-desc">Traçado em forma de laço: navio em rumo original, guinada de cerca de 60 graus, contra-guinada para rumo recíproco e retorno à linha próxima do ponto inicial.</desc>
+      <defs>
+        <marker id="arrow-w" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+      </defs>
+      <rect x="20" y="20" width="680" height="280" rx="12" fill="var(--surface-2)" stroke="var(--line)"/>
+      <path d="M120 250 L120 120" class="diagram-line" stroke-dasharray="6 5"/>
+      <text x="132" y="115" class="diagram-label">rumo inicial</text>
+      <circle cx="120" cy="240" r="6" fill="var(--danger, #b33)"/>
+      <text x="135" y="244" class="diagram-label diagram-label--strong">MOB</text>
+      <path d="M120 250 L120 170 Q125 120 175 95 Q230 70 265 110 Q300 150 260 195 Q210 250 140 245" fill="none" stroke="var(--teal)" stroke-width="4" marker-end="url(#arrow-w)"/>
+      <path d="M120 170 L200 135" class="diagram-gold" marker-end="url(#arrow-w)"/>
+      <text x="210" y="130" class="diagram-label">1) guinar ~60°</text>
+      <text x="300" y="120" class="diagram-label">2) contra-guinar</text>
+      <text x="230" y="270" class="diagram-label">3) estabilizar no rumo recíproco e retornar</text>
+    </svg>
+    <figcaption><b>Figura 3.</b> Esquema simplificado da manobra de Williamson: após o alarme, guina-se cerca de 60° do rumo original e depois inverte-se a guinada até estabilizar no rumo oposto, retornando pela vizinhança do ponto. Ajustes dependem do navio e das condições. <span class="src">p. 114</span></figcaption>
+  </figure>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Não é receita única</span>
+    <p>O ângulo inicial e o momento de inverter a guinada variam com velocidade, raio de giro, vento e mar. A manobra deve ser treinada e adaptada às características do navio; em condições favoráveis e com visual imediato, outras ações de resgate podem ser mais rápidas. <span class="src">p. 114</span></p>
+  </div>
+  <p class="source-line">p. 114</p>
+</section>
+
+<section class="section" id="pratico-brm">
+  <p class="section-kicker">Fator humano</p>
+  <h2>Relação prático-comandante e BRM</h2>
+  <p>A presença do prático (<em>pilot</em>) não transfere a responsabilidade do comandante pelo navio. O prático contribui com conhecimento local do canal, berços, correntes e práticas portuárias; o comandante e a equipe de bordo conhecem as características de manobra, limitações e condição do navio. A condução segura depende da integração dessas competências. <span class="src">p. 76, 81</span></p>
+
+  <div class="def">
+    <span class="def__term">BRM (Bridge Resource Management)</span>
+    <p>Gestão dos recursos do passadiço: pessoas, informações, equipamentos e tempo. Inclui planejamento, divisão clara de funções, comunicação fechada, monitoramento cruzado e disposição para questionar e intervir quando o plano deixar de ser seguro.</p>
+  </div>
+
+  <ol class="steps">
+    <li><strong>Troca de informações (master–pilot exchange).</strong> Antes da manobra, alinhar plano de passagem/atracação, calado, bordo de encoste, uso de rebocadores e ferros, limitações de máquina/governo, contingências e sinais de aborto. <span class="src">p. 81</span></li>
+    <li><strong>Briefing da equipe.</strong> Confirmar postos, frases padronizadas, quem acompanha posição no radar/ECDIS e quem monitora profundidade, velocidade e distância.</li>
+    <li><strong>Execução monitorada.</strong> Um conduz, outro confere; discrepâncias entre ordem, execução e resposta do navio devem ser verbalizadas imediatamente.</li>
+    <li><strong>Replanejamento.</strong> Se vento, corrente, tráfego ou falha técnica alterarem a margem de segurança, pare, reposicione ou adie. <span class="src">p. 76, 81</span></li>
+  </ol>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Linguagem de passadiço</span>
+    <p>Prefira ordens curtas, específicas e confirmadas (ordem–repetição–ação–reporte). Em manobra com prático, torne explícito quem tem a condução (<em>con</em>) em cada momento para evitar silêncio ambíguo. <span class="src">p. 76</span></p>
+  </div>
+  <p class="source-line">pp. 76, 81</p>
+</section>
+
+<section class="section" id="sintese">
+  <p class="section-kicker">Síntese</p>
+  <h2>Checklist operacional e pontos-chave</h2>
+
+  <div class="keyfacts">
+    <div class="keyfact"><b>30:1</b><span>relação prática entre efeito de vento e corrente (ordem de grandeza)</span></div>
+    <div class="keyfact"><b>35°</b><span>limite típico de ângulo de leme em navios convencionais</span></div>
+    <div class="keyfact"><b>~30% / 15–20%</b><span>posição aproximada do pivot point parado / com seguimento avante</span></div>
+    <div class="keyfact"><b>V²</b><span>crescimento das forças hidrodinâmicas e aerodinâmicas com a velocidade</span></div>
+  </div>
+
+  <ul class="checklist">
+    <li>Plano de manobra definido: aproximação, abortar, contingência, cabos, defensas, ferros e rebocadores.</li>
+    <li>Condições avaliadas: vento relativo, corrente, maré, profundidade/UKC, tráfego e espaço de giro.</li>
+    <li>Hélice e leme compreendidos para o navio específico (força lateral, resposta à ré, efeito de passo/propulsão).</li>
+    <li>Comunicação testada entre passadiço, proa, popa, praça de máquinas e rebocadores.</li>
+    <li>Em águas rasas/canais: velocidade controlada para limitar squat e efeitos de margem.</li>
+    <li>Fundeio/amarração: filame, sequência e tensão conferidos; equipe protegida na área de cabos e amarras.</li>
+    <li>Troca prático-comandante realizada, com funções de BRM claras durante toda a manobra. <span class="src">p. 63–93</span></li>
+  </ul>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Síntese para levar</span>
+    <p>Manobra segura é energia controlada: reduza velocidade cedo, use as forças disponíveis a seu favor e nunca execute um passo que elimine sua opção de parar ou recomeçar. <span class="src">p. 68, 75, 87</span></p>
+  </div>
+  <p class="source-line">pp. 63–76, 87–93</p>
+</section>
+
+<section class="section" id="revisao">
+  <p class="section-kicker">Revisão</p>
+  <h2>Perguntas para fechar o capítulo</h2>
+  <div class="quiz">
+    <details>
+      <summary>1. Por que a posição do pivot point muda quando o navio ganha seguimento avante?</summary>
+      <div class="quiz__answer"><p>Com seguimento, a resistência hidrodinâmica distribui-se ao longo do casco e o centro efetivo de rotação desloca-se para vante (cerca de 15–20% a ré da proa). Isso altera a alavanca das forças de leme e das forças laterais aplicadas na popa. <span class="src">p. 67</span></p></div>
+    </details>
+    <details>
+      <summary>2. Em um navio de um eixo com hélice dextrógira, qual é a tendência típica ao dar máquina atrás partindo do parado e por quê?</summary>
+      <div class="quiz__answer"><p>A tendência típica é da popa cair para bombordo, devido à descarga helicoidal e ao fluxo atuando assimetricamente no casco, com pouca eficiência do leme até que se ganhe seguimento à ré. O comportamento exato depende do navio e deve ser confirmado na prática. <span class="src">p. 64</span></p></div>
+    </details>
+    <details>
+      <summary>3. Por que aproximar do cais com um pequeno ângulo costuma ser mais seguro do que chegar totalmente paralelo desde longe?</summary>
+      <div class="quiz__answer"><p>O ângulo preserva espaço para controlar a popa e permite abortar a manobra dando seguimento à ré. Ao parar paralelo a uma distância segura, passa-se cabos e aproxima-se o costado de forma controlada. <span class="src">p. 68, 91–92</span></p></div>
+    </details>
+    <details>
+      <summary>4. Qual é a função da catenária da amarra no fundeio?</summary>
+      <div class="quiz__answer"><p>A catenária mantém a tração junto ao ferro mais horizontal, ajuda o ferro a permanecer enterrado e absorve puxões causados por vagas e guinadas, reduzindo o risco de garrar. <span class="src">p. 70–71</span></p></div>
+    </details>
+    <details>
+      <summary>5. O que é squat e qual é a medida operacional mais direta para reduzi-lo em canal raso?</summary>
+      <div class="quiz__answer"><p>Squat é o afundamento dinâmico e a alteração de trim causados pela aceleração do escoamento e queda de pressão em águas confinadas. A medida mais direta é reduzir a velocidade, aumentando a folga sob a quilha e a margem de controle. <span class="src">p. 75, 87–88</span></p></div>
+    </details>
+    <details>
+      <summary>6. O que caracteriza os efeitos de <em>bank suction</em> e <em>bank cushion</em> ao navegar próximo a uma margem?</summary>
+      <div class="quiz__answer"><p>O escoamento assimétrico pode reduzir a pressão na popa do lado da margem, sugando-a para o banco (<em>bank suction</em>), e elevar a pressão na proa, empurrando-a para fora (<em>bank cushion</em>). A combinação pode levar o navio a atravessar o canal se não houver correção oportuna. <span class="src">p. 75, 82</span></p></div>
+    </details>
+    <details>
+      <summary>7. Qual é o objetivo da manobra de Williamson?</summary>
+      <div class="quiz__answer"><p>Retornar à vizinhança do ponto em que ocorreu homem ao mar (<em>man overboard</em>), especialmente com visibilidade reduzida, por meio de uma guinada inicial, contra-guinada e regresso no rumo recíproco. O ângulo e a execução devem ser adaptados ao navio. <span class="src">p. 114</span></p></div>
+    </details>
+    <details>
+      <summary>8. Na relação prático-comandante, o que a troca de informações deve deixar claro antes da manobra?</summary>
+      <div class="quiz__answer"><p>Plano de manobra, limitações do navio, uso de rebocadores e ferros, condições ambientais, contingências, critério de aborto e quem está com a condução. O prático traz conhecimento local, mas a responsabilidade do comandante permanece, exigindo BRM efetivo. <span class="src">p. 76, 81</span></p></div>
+    </details>
+  </div>
+</section>
+<section class="section complemento-ref" id="complemento-bibliografico">
+  <p class="section-kicker">Complemento bibliográfico</p>
+  <h2>Leituras de referência disponíveis na pasta (Crenshaw)</h2>
+  <p>Complemento com base em <strong>Russell S. Crenshaw — <em>Naval Shiphandling</em> (U.S. Naval Institute, 1960)</strong>, capítulos sobre forças, manobras junto ao cais, fundeio, amarração e águas restritas. A bibliografia do processo seletivo cita a <strong>4ª ed. (1975)</strong>, cap. 2 — esta é uma edição anterior; os princípios de forças e efeitos hidrodinâmicos são úteis, mas detalhes e exemplos podem diferir.</p>
+
+  <div class="grid-2">
+    <div class="card card--accent">
+      <h3>Forças controláveis e ambientais</h3>
+      <p>Crenshaw enfatiza separar o que o navio comanda (máquina, leme, cabos, ferro) do que impõe condições (vento e corrente), aproveitando estes últimos quando favoráveis. A corrente age sobre o casco imerso com grande eficácia; o vento atua sobre a obra morta com efeito proporcional ao quadrado da velocidade relativa e à área exposta.</p>
+    </div>
+    <div class="card card--teal">
+      <h3>Corrente de hélice, sucção e pressão</h3>
+      <p>O jato do hélice e os fluxos induzidos criam forças laterais e variações de pressão úteis (ou perigosas) em baixa velocidade: aproximar-se/sair de cais, trabalhar com molas e controlar a popa exigem antecipar para onde a água está sendo acelerada e onde se formam zonas de baixa pressão.</p>
+    </div>
+  </div>
+
+  <div class="def">
+    <span class="def__term">Águas restritas e efeito de margem/canal</span>
+    <p>Em canal estreito e raso, o navio “sente” o fundo e as margens: aceleração do fluxo sob e ao lado do casco reduz pressão, favorece <em>squat</em>, sucção de margem (<em>bank suction</em>) e almofada de proa (<em>bank cushion</em>). A resposta prática clássica é margem de velocidade, posição no canal e correções suaves e antecipadas, evitando ciclos de leme/máquina de grande amplitude.</p>
+  </div>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Nota de edição</span>
+    <p>Use esta referência para consolidar intuição física e vocabulário de manobra; para requisitos normativos, procedimentos de praticagem local e dados específicos de navios modernos, prevalecem fontes atualizadas e a prática do porto.</p>
+  </div>
+  <p class="source-line">Crenshaw (1960), Cap. II (Forces Affecting the Ship), Cap. V–VII (Alongside/Anchoring/Mooring) e Cap. XI (Restricted Waters) — consulta em <code>apostila/fonte/refs/crenshaw_*.txt</code>.</p>
+</section>

@@ -1,0 +1,780 @@
+FONTE: resumo curso h.pdf | CAPITULO 11 - sinalizacao-nautica | paginas 270-282 | OCR ABBYY
+OBS: texto OCR ruidoso, mistura ingles/portugues. Interprete com cautela; nao invente.
+
+
+===== PAGINA 270 =====
+
+^ ^ ^ 
+NORMAM 17 / DHN - SINALIZAGAO NÁUTICA 
+CAPÍTULO 1 
+> AgAM com atribuições em atividades de auxílio à navegação: são os CP/DL/AG, os encarregados dos SSN, o diretor do 
+CMMR, o diretor do CHM e os Comtes de navios da MB. 
+> Representante da AM (RAM) para a seg do tráfego aquaviário: é o DHN e os Comtes de DN. 
+> Adm do Porto: é a Adm do Porto Organizado (APO), dos terminais de uso público ou privativo, responsáveis por auxílios à 
+navegação. 
+> Portos nacionais: são as áreas marítimas/lacustres/fluviais compreendidas pelas instalações e infra-estrutura de proteção e 
+acesso aquaviário, sob a responsabilidade da Adm do Porto, dentro e fora do Porto Organizado. 
+> Entidades extra-MB: são as Administrações dos Portos e as Administrações dos estaleiros, clubes, marinhas, entidades 
+desportivas náuticas, das empresas públicas ou privadas e das PFs que operem e mantenham AuxNav. 
+> Canal de navegação: é uma passagem entre obstáculos/restrições. Se conduzir a um porto ou terminal, chama-se canal de 
+acesso. 
+>• Bacia de evolução: área do porto com dimensões/prof adequados para a manobra/giro de navios. 
+> AJB: águas interiores, Mar Territorial e ZEE. 
+> Ler nas págs 1-2 e 1-3: Avs aos Navegantes, Avisos-Rádio Náuticos, estab/alt/cnl de um Auxílio, e Autorização Provisória 
+(validade até 180 dias). 
+AuxNav = Auxílios à Navegação 
+1) ATRIBUIÇÕES (bem resumido): 
+a) DHN: 
+> Supervisiona a ope, autoriza a impl/alt/cnl em caráter permanente de AuxNav e estabelece as diretrizes pertinentes. 
+- Fiscaliza a ope, por meio do AgAM, dos AuxNav sob responsabilidade de entidade extra-MB. 
+- Supervisiona a elaboração de does náuticos e divulgação das infos de interesse da segurança da navegação. 
+b) CHM: 
+> Divulga as alts dos AuxNav, por meio dos Avs-Rádio Náuticos e Avs aos Navegantes. 
+- Elabora e mantém atualizados os does náuticos pertinentes. 
+- Emite pareceres sobre propostas de estab/alt/cnl de AuxNav, podendo emitir autorização provisória. 
+c) CAMR: 
+> Supervisiona as atividades relacionadas com AuxNav nas AJB. 
+- Planejar/coord/controlar as atividades da SN cuja responsabilidade de manutenção seja da MB. 
+- Orientar/coord o planejamento e execução das atividades de SN sob responsabilidade de entidade extra-MB. 
+- Emitir pareceres técnicos sobre propostas de estab/alt/cnl de AuxNav. 
+- Celebrar Atos e Acordos Administrativos afetos a AuxNav com entidades extra-MB. 
+- Confeccionar "Gabaritos para as Altitudes Máximas das Edificações" próximos a faróis e faroletes. 
+- Compila infos sobre alts em AuxNav de todo o Brasil, e calcula e divulga o IE dos sinais e balizamentos a que pertencem. 
+- Opera e mantém os AuxNav da MB no Rio, e contribui com a CP para fiscalizar o estab/manut/ope do balizamento dos canais 
+e bacias do porto do Rio de Janeiro. 
+- Cumprir o cap 5 para informar ao CHM as alts dos SsNs/AuxNav da sua área de responsabilidade. 
+d) CP/DL/AGs: 
+> Compete, mediante supervisão funcional do CAMR e assistência técnica do SSN: 
+- Operar e manter os SsNs da MB. 
+- Fiscalizar o estab/manut/ope do balizamento dos canais/bacias a cargo da Adm do Porto (ou por ela contratadas a terceiros). 
+- Efetuar as gestões necessárias para autorizar a impl/alt/cnl de sinais ou balizamentos, solicitados por entidades extra-MB. 
+- Emitir aut provisória e emergencial para o estab/alt de AuxNav quando julgar necessário para aumentar a segurança. 
+- Propor ao DN a recomendação de cautela, o estabelecimento de restrições operacionais ou a interdição de canais/bacias 
+quando a degradação da qualidade vier a comprometer a segurança. 
+- Cumprir o cap 5 para informar ao CHM as alts dos SsNs/AuxNav da sua área. 
+e) SSNs: 
+> Compete, sob a supervisão técnica do CAMR, executar as seguintes tarefas na suas áreas de responsabilidade: 
+- Operar/manter os AuxNav sob responsabilidade direta. 
+- Contribuir para a orientação e coord do planejamento/controle/execução das atividades de AuxNav de entidades extra-MB. 
+- Contribuir com a CP/DL/AG na fiscalização do estab/manut/ope do balizamento dos canais/bacias dos portos de suas sedes. 
+- Emitir pareceres, quando solicitado, sobre proposta para estab/alt/cnl de SsNs/AuxNav. 
+- Estabelecer ou alterar, provisoriamente, os AuxNav sob sua responsabilidade direta. 
+- Cumprir o cap 5 para informar ao CHM as alts dos SsNs/AuxNav da sua área de responsabilidade. 
+
+
+===== PAGINA 271 =====
+
+f) Entidades extra-MB: 
+> Compete, sob fiscalização do CP/DL/AG, manter/operar/controlar os AuxNav sob sua responsabilidade, bem como informar ao 
+CP/DL/AG e ao CHM qq alt observada. 
+- Esses SsNs não podem sofrer qq alt sem a prévia aprovação. / Os custos dessas atividades são seus. 
+> Às entidades responsáveis por plataformas sobre vias navegáveis, pontes, piers, cais, molhes, trapiches, dolfins, terminais e 
+eclusas, compete instalar/operar/manter a SN necessária à sua demarcação. 
+> A terceirização de svçs para a execução dessas tarefas não exime a entidade de suas responsabilidades e obrigações sobre a SN. 
+g) Comandos do DN: 
+> Compete recomendar cautela, estabelecer restrições operacionais ou interditar canais e bacias, quando a degradação da 
+qualidade do balizamento vier a comprometer a segurança. 
+2) FISCALIZAÇÃO DOS AUXÍLIOS À NAVEGAÇÃO SOB RESPONSABILIDADE DE ENTD3ADES EXTRA-MB: 
+> É executada pelo AgAM, CAMR ou SSNs, da seguinte forma: 
+- Por meio de inspeções periódicas. 
+- Pela comunicação das irregularidades encontradas à Adm do Porto e ao CHM. 
+- Pelo acompanhamento e verificação das correções efetuadas. 
+3) RECOMENDAÇÕES PARA O CP/DL/AG NO CASO DE DEGRADAÇÃO DA QUALIDADE DO BALIZAMENTO 
+DE ENTIDADE EXTRA-MB: 
+> Se a degradação (medida pelo índice de Eficácia) implicar em riscos para a SegNav/SVHM/PrevPol, o CP/DL/AG poderá 
+propor ao DN: a recomendação de cautela, o estabelecimento de restrições operacionais ou a interdição de canais e bacias, 
+informando à DHN/CAMR/CHM a medida adotada para divulgação em Avs aos Navegantes. 
+> Para tal, a sistemática é: 
+- Dia D (fechamento do Mapa Mensal do IE): se o índice se encontrar abaixo de 95% sem motivo justificável (dragagem, 
+rodízio de bóias ou manut de sinais fixos previamente informados, ou condições meteoro adversas), o CAMR enviará msg 
+ao DN (info DHN/CP/DL/AG/SSN), informando-o da irregularidade. 
+- Dia D + 5: o CP/DL/AG poderá advertir a entidade quanto aos riscos à SegNav/SVHM/Pol e às possíveis sanções. 
+- Dia D + 25: o CP/DL/AG poderá propor ao DN a recomendação de cautela ou estab de restrições operacionais ou 
+interdição do canal/bacia. 
+- Dia D + 30: se, na data do fechamento do Mapa do mês seguinte, o limite de 95% não tiver sido restabelecido, o CAMR 
+enviará msg ao DN (info DHN/CP/DL/AG/SSN) e passará a acompanhar diariamente as alts daquele balizamento. 
+- Então o DN poderá (solicitando ao CHM a divulgação em Avs-Rádio): 
+* recomendar cautela. 
+* estabelecer restrição operacional (ex: só ope diurna). 
+* determinar a interdição dos canais/bacia. 
+Obs: o DN poderá sustar essas medidas tão logo notificado pela entidade da normalização do balizamento (info CHM). 
+4) PROTEÇÃO DE FARÓIS, FAROLETES E DEMAIS SINAIS NÁUTICOS: 
+> Lei 6.421/77: nenhuma edificação/obra/arborização que possa interferir/prejudicar o uso de qq sinal náutico poderá ser 
+iniciada sem o prévio consentimento da MB. 
+> Constatando que o crescimento urbano da área possa vir a comprometer a visualização de um sinal náutico, o CP/DL/AG 
+deve solicitar ao CAMR a confecção de um "Gabarito para as Alturas Máximas das Edificações na Orla" em relação 
+àquele sinal. 
+> Regra geral para a elaboração do Gabarito: manter ao menos o terço superior das estruturas dos faróis e faroletes isentas de 
+obstruções físicas, de forma a mantê-las visíveis a partir da isobática de 5 m. 
+,':".-. 
+5) RESPONSABILIDADES DO NAVEGANTE: 
+> As bóias e demais sinais flutuantes podem derivar. Portanto, é necessário que o navegante tenha a sua posição determinada por 
+outros meios, e utilize as infos prestadas pelos sinais flutuantes apenas como auxílio. 
+> Informar imediatamente ao CP/DL/AG qq irregularidade nos AuxNav. 
+
+
+===== PAGINA 272 =====
+
+^^^P'/^^i^.^^^^^^S&^J^ 
+CAPÍTULO 2 - DEFINIÇÕES E CONCEITOS BÁSICOS SOBRE AUXS À NAVEGAÇÃO 
+CONCEITOS PRINCIPAIS 
+> Auxílios à navegação: são todos os recursos visuais/sonoros/radioelétricos externos à embarcação para aumentar a SegNav. 
+> Sinal náutico: é o auxílio visual à navegação, construído pelo homem e externo à emb, estabelecido para transmitir informações 
+que facilitem o posicionamento. 
+- Os sinais náuticos luminosos não usam luz fixa. Mas pode-se usar luz fixa em um balizamento como auxílio à navegação em 
+luzes de alinhamento do tipo "luz de setor", ou em luzes de extremidades de cais/molhes/trapiches. 
+> Sinalização náutica: conjunto de sinais náuticos visuais. 
+> Balizamento: conjunto de balizas, bóias, barca-faróis, objetos naturais ou artificiais, faróis e faroletes que concorrem para a 
+segurança da navegação numa área perfeitamente definida, como canais de acesso e bacias de evolução. 
+> Direção convencional do balizamento: é a direção assumida por quem vem do mar. 
+- É usada para estabelecer os sinais que compõem os balizamentos (exceto os faróis e as luzes de alinhamento). 
+- Nos lagos não associados a rios, é o sentido N-S. 
+- Nos rios não associados a uma baía/enseada/estuário, é da foz para a nascente. 
+> Identificação dos sinais náuticos: 
+De dia: 
+- Fixos: 
+pela forma, cor e marca de tope da estrutura. 
+- Flutuantes: 
+pela forma, cor, marca de tope e numeração na estrutura (se houver). 
+De noite: 
+- Fixos ou 
+flutuantes: 
+pela caract luminosa. 
+TIPOS DE SINAIS NÁUTICOS 
+> Alinhamento: são 2 sinais fixos, cegos ou luminosos (luzes de mesma cor), com ou sem placas de visibilidade. 
+- Definem um eixo de um canal, um rumo a ser seguido ou uma referência para manobra. 
+- O farol/farolete/baliza anterior/posterior é aquele mais perto/afastado do navegante. 
+- O alinhamento tb pode ser obtido por uma "luz de setor", que materializa o alinhamento por meio de um único sinal. 
+> Baliza (Bz): sinal visual fixo, cego e com marca de tope; com ou sem refletor-radar; constituído por uma haste; estabelecido 
+em águas rasas, sobre pedras/bancos/recifes ou fixados em terra. 
+- Em rios/lagos/lagoas, as Bz são normalmente fixadas em terra e possuem painel de sinalização. 
+> Baliza articulada (BzA): sinal cego e com marca de tope; com ou sem refletor-radar; constituído de uma haste que se articula 
+à poita por um sistema "Cardan" (ou similar); com corpo de flutuação submerso; estabelecido em águas rasas. 
+> Bóia: corpo flutuante com ou sem marca de tope: com ou sem eq luminoso/sonoro/radioelétrico. 
+- Indicam: 1) o rumo a ser seguido; 2) os limites de um canal, seu início/fim, ou sua bifurcação; 3) um perigo; 4) águas seguras; 
+5) zonas de separação de tráfego ou outra caract especial mencionada em doe náuticos; 6) existência ou rotas de cabos/tubos; e 
+7) delimitam bacias de evolução e áreas especiais (despejo de dragagem, exs militares). 
+> Bóia articulada (BA): sinal luminoso, com ou sem marca de tope: constituído por estrutura tubular longa; com um corpo de 
+flutuação submerso e uma plataforma superior (para os eqs de sinalização); fundeada por poita e a esta ligada por articulação 
+Cardan ou similar. 
+>• Bóia luminosa (BL): seu corpo flutuante possui um contrapeso para equilíbrio. Possui uma estrutura vertical em forma de 
+treliça (chamada "mangrulho") que serve para sustentar a luz, o refletor-radar, marca de tope ou qq outro eq eletrônico. 
+> Bóia cega (BC): é identificada por seu formato, cor e marca de tope (se for o caso). 
+> Barca-farol (BF): plataforma constituída de uma torre encimada por eq luminoso de alcance > 10 milhas. / Normalmente 
+possuem formato hidrodinâmico; com ou sem propulsão; guarnecidas ou não; com ou sem eqs eletrônicos de aux. à navegação. 
+- No Brasil, exibem "BF + 1 ou 2 letras/algs" pintados em seu corpo ou torre. 
+> Farol (FAR): estrutura fixa de forma e cores distintas, dotado de luz com alcance luminoso noturno > 10 NM. 
+- Os guarnecidos são indicados por G após os seus nomes na Lista de Faróis. Nas cartas isso não figura. Entretanto, em cartas 
+mais antigas, pode-se encontrar SG ao lado de faróis importantes e não guarnecidos. 
+> Farolete (FTE): estrutura fixa de forma e cores distintas, com ou sem marca de tope, dotado de luz com alcance luminoso 
+noturno < 10 milhas. 
+AUXÍLIOS RADIO-ELÉTRICOS À NAVEGAÇÃO 
+> Radiofarol (RF): estação emissora de um sinal-rádio característico para orientação por radiogoniômetro. 
+> Respondedor-radar ou RACON: instalado em sinal fixo ou flutuante ou ponto conspícuo que se deseja assinalar. 
+- Aparece na tela como uma letra em Morse, e indicam a marc/dist do sinal ou ponto conspícuo. 
+> ATON AIS: transceptor VHF que transmite infos como: nome e tipo do sinal náutico, num de ordem, pos e condição 
+operacional. Trata-se de uma aplicação específica do AIS como auxílio à navegação. 
+ACESSÓRIOS DOS SINAIS NÁUTICOS 
+> Marca de tope: 1 ou 2 figuras (cilindro, cone, esfera ou X) para identificação diurna. 
+> Painel de sinalização: placa com forma/dimensão/cores definidas, complementada ou não por simbologia gráfica, usada na 
+sinalização náutica complementar de rios/lagos/lagoas ou construções sobre vias navegáveis. 
+> Placa de visibilidade: tem forma/dimensão/cores definidas, instalada nos sinais fixos para aumentar sua conspicuidade. 
+> Poita: usada por sinais flutuantes. / As bóias são a ela ligadas por uma amarra, e as balizas e bóias articuladas por um 
+sistema Cardan ou similar. 
+> Refletor-radar: artefato metálico para aumentar a detecção radar. 
+
+
+===== PAGINA 273 =====
+
+m:m 
+8gSgaRaS^B88888S8SJS8ag8888Saaa8BgtiatMMMAÍ 
+LUZES E SUAS CARACTERÍSTICAS 
+> Luz direcional: exibe, com um mesmo ritmo e num setor bem estreito, uma cor definida para indicar uma direção. 
+Pode ser flanqueada por setores de cores ou intensidades diferentes. 
+> Luz de setor: exibe diferentes setores do horizonte, com um mesmo ritmo e cores diferentes. / Substitui um alinhamento. /Pode
+usar luz fixa. 
+> Luzes de alinhamento: de mesma cor, instaladas em faróis/faroletes de alinhamento. 
+Servem para definir o eixo de um canal, um rumo a ser seguido ou uma referência para manobra. 
+> Características de uma luz: é dada pela combinação entre o ritmo e a cor com que ela é exibida. 
+- Luz fixa: é contínua e uniforme, não sendo aplicável a sinais náuticos (AISM) (exceto em alinhamentos tipo "luz de setor" e em
+extremidades de cais/pier) 
+- Luz rítmica: intermitente e com periodicidade regular. 
+> Período: tempo entre 2 ciclos sucessivos. 
+> Fase: cada um dos sucessivos aspectos de luz ou de sua ausência (obscuridade), num mesmo período. 
+> Fase detalhada: é a descrição, em termos de tempo, da duração de cada uma das fases que constituem um período. 
+> Lampejo (Lp): intervalo de luz em relação a um intervalo maior de obscuridade, num mesmo período. 
+> Eclipse: intervalo de obscuridade entre 2 lampejos sucessivos, num mesmo período. 
+> Ocultação: intervalo de obscuridade mais curto que o intervalo de luz, num mesmo período. 
+> Isofase: intervalo em que a luz e a obscuridade têm igual duração, num mesmo período. 
+Obs: tipos e caracts de luzes (Lp, LpL, Oc, Iso, R, MR, UR, Mo, FLp, Alt...): estudar pelo resumo da Lista de Faróis. 
+ALCANCES 
+> Alcance geográfico: é a maior distância que se pode avistar um sinal, considerando-se: 
+- sua altitude local. 
+- a altura dos olhos sobre o nível do mar. 
+- a curvatura da terra. 
+- a refração atmosférica. 
+O alcance geográfico de um sinal nos does náuticos deve ser calculado com o olho a 5 m d'agua. 
+> Alcance visual: é a maior distância em que um sinal pode ser visto e identificado, durante o dia, considerando-se: 
+- suas dimensões (altura e largura). 
+- sua cor. 
+- o contraste com o ambiente. 
+- a transparência atmosférica. 
+> Alcance luminoso: é a maior distância na qual uma luz pode ser avistada em fç de: 
+- sua intensidade luminosa. 
+- o T ou V. 
+- o limite de iluminamento do olho, que tb é fç da interferência da luz de fundo 
+> Alcance nominal: é o alcance de uma luz de intensidade conhecida numa atmosfera homogênea de V = 10 milhas (T = 0,74). 
+> Estabelecimento do alcance luminoso de um sinal: é definido após estudo isolado das áreas onde será estabelecido. 
+No Brasil, o T adotado para o cálculo do alcance luminoso é de 0,85. 
+Para os sinais flutuantes, adotam-se: 
+- 5 milhas para os de mar aberto. 
+- 2 milhas para os de águas restritas e hidrovias interiores. 
+ÍNDICE DE EFICÁCIA DE UM BALIZAMENTO OU SINAL NÁUTICO 
+> Também chamado de "disponibilidade", é uma figura de mérito usada como parâmetro para a avaliação da qualidade dos svçs 
+de manutenção dos balizamentos. / É a probabilidade de um sinal estar operando em qq intervalo de tempo escolhido. 
+> É calculado dividindo-se o tempo em que operou corretamente pelo tempo total que deveria ter operado. 
+> Segundo a IALA, há 4 categorias: 
+- Categoria 1: 
+faróis guarnecidos e luzes de alinhamento (99,8%). 
+- Categoria 2: 
+sinais fixos em geral, auxílios radioelétricos e bóias de grande porte (99%). 
+- Categoria 3: 
+bóias luminosas em geral (97%). 
+- Categoria 4: 
+eficácia mínima aceitável (95%). 
+> Para efeitos de avaliação e controle de um balizamento, o índice adotado no Brasil é 95%. 
+> Fatores que reduzem o IE: 
+1) Posicionamento irregular. 
+2) Caract luminosa irregular. 
+3) Alcance luminoso em desacordo com os does náuticos. 
+4) Reconhecimento diurno prejudicado por má conservação ou falta de algum componente da estrutura. 
+> Ler item 0249, nas págs 2-17 a 2-19. 
+
+
+===== PAGINA 274 =====
+
+'^{mma^sssimmw^sm 
+CAPITULO 3 - SISTEMAS DE BALIZAMENTO ADOTADOS NO BRASIL 
+SISTEMA DE BALIZAMENTO MARÍTIMO - REGIÃO B DA IALA 
+> Os sinais são caracterizados de acordo com as regras gerais de identificação já definidas: - de noite: cor e ritmo da luz. 
+- de dia: cor, forma e marca de tope. 
+> As normas deste sistema se aplicam a todos os sinais fixos e flutuantes (exceto faróis, faroletes, barcas-faróis, superbóias, 
+bóias gigantes, luzes de setor e luzes e sinais de alinhamento). 
+> Em águas interiores, esse sistema pode ser complementado por outros sists de aux. à navega, desde que autorizados pela DHN. 
+> O sistema de balizamento possui 5 tipos básicos de sinais, que podem ser usados em conjunto ou isolados. São eles: 
+1) SINAIS LATERAIS: 
+y Definem as margens de um canal ou via navegável recomendada, segundo a direção convencional do balizamento. 
+a) Sinal lateral de BB (deixado por BB): 
+- Características: estrutura verde (obrigatório"), numeração par na cor branca (opcional), luz verde (opcional) com qq ritmo 
+(exceto os de canal preferencial). / Mais: 
+- Fixos: marca de tope cilíndrica (obrigatório). 
+- Flutuantes: marca de tope cilíndrica (opcional") e formato cilíndrico (obrigatório). 
+b) Sinal lateral de BE (deixado por BE): 
+- Características: estrutura encarnada (obrigatório), numeração ímpar na cor branca (opcional), luz encarnada (opcional) 
+com qq ritmo (exceto os de canal preferencial). / Mais: 
+- Fixos: marca de tope cônica (obrigatório"). 
+- Flutuantes: marca de tope cônica (opcional) e formato cônico (obrigatório). 
+Obs: Os sinais laterais fixos de BB e BE, dependendo do ambiente que os envolve, podem ter sua cor alternada com faixas 
+horizontais brancas, ou serem totalmente brancos. 
+c) Sinal lateral de canal preferencial a BB ou "BE modificado" (deixado por BE): 
+- Características: estrutura encarnada com uma larga faixa horizontal verde (obrigatório), numeração ímpar na cor branca 
+(opcional), e luz encarnada (opcional) com ritmo Lp(2+1)E (T < 16 seg; o eclipse após o Lp simples deve ser >3xo eclipse 
+após o grupo de 2 Lps). I Mais: 
+- Fixos: marca de tope cônica (obrigatório). 
+- Flutuantes: marca de tope cônica (opcional) e formato cônico (obrigatório). 
+d) Sinal lateral de canal preferencial a BE ou "BB modificado" (deixado por BB): 
+- Características: estrutura verde com uma larga faixa horizontal encarnada (obrigatório), numeração par na cor branca 
+(opcional), e luz verde (opcional) com ritmo Lp(2+l)V (T < 16 seg; o eclipse após o Lp simples deve ser >3xo eclipse após 
+o grupo de 2 Lps). I Mais: 
+- Fixos: marca de tope cilíndrica (obrigatório). 
+- Flutuantes: marca de tope cilíndrica (opcional) e formato cilíndrico (obrigatório). 
+2) SINAIS CARDINAIS: 
+> Os quadrantes são limitados pelas marcações verdadeiras NW/NE/SE/SW, tomadas a partir do ponto de referência (ponto a ser 
+defendido ou indicado pelo sinal) e sobre o qual se deseja chamar a atenção. 
+> São usados para: 1) indicar que águas mais profundas estão no quadrante que tem o nome do sinal; 2) indicar o lado 
+seguro para passar um perigo; ou 3) chamar a atenção sobre uma peculiaridade de um canal, tal como uma curva, junção, 
+bifurcação, ou o extremo de um baixio. 
+> Características: obrigatoriamente possuem 2 cones como marca de tope. / Obrigatoriamente são pintados de amarelo e preto. 
+A forma é pilar ou charuto. /Podem ser cegos ou luminosos (a luz é sempre branca, R ou MR). 
+-N: RouMR / E: R(3)10s ou MR(3)5s / S: R(6) + LpL.15s ou MR(6) + LpL.lOs / W: R(9)15s ou MR(9)10s 
+- Obs: sinal Sul: 
+- o eclipse antes do LpL deve ter a mesma duração que os eclipses entre as luzes R ou MR. 
+- o LpL não deve durar mais que o eclipse seguinte. 
+3) SINAL DE PERIGO ISOLADO: 
+> Ficam nas proximidades ou sobre um perigo isolado de tamanho limitado (que tenha águas seguras em toda a sua volta). 
+> Caracts: obrigatoriamente possuem 2 esferas pretas como marca de tope. / Obrigatoriamente são pretos, com uma ou mais 
+faixas horizontais largas encarnadas. / Podem ser cegos ou luminosos. / A luz é sempre branca: Lp(2)B.Ss ou Lp(2)B.10s, 
+sendo que: 
+- quando T = 5 seg, a duração de 1 lampejo + o eclipse de dentro do grupo deve ser de 1 -1,5 seg. 
+- quando T = 10 seg, a duração de 1 lampejo + o eclipse de dentro do grupo deve ser de 2-3 seg. 
+
+
+===== PAGINA 275 =====
+
+4) SINAL DE ÁGUAS SEGURAS: 
+> Usados como sinais de linha de centro, sinais de meio de canal, ou para indicar um ponto de aterragem ou um ponto de espera. 
+> Características: formato de bóia cilíndrica (??), esférica, pilar ou charuto. / Pintado com faixas verticais encarnadas e 
+brancas (obrigatório'). / A marca de tope é uma esfera encarnada (opcional). / Podem ser cegos ou luminosos. / A luz é 
+sempre branca, com qualquer dos seguintes ritmos: Isofásico, Ocultação, LpL.lOs ou "A" (. _). 
+5) SINAL ESPECIAL: 
+> Seu propósito ppal não é auxiliar a navega, mas assinalar uma área ou config especial mencionada em does náuticos, such as: 
+- Sinais dos ODAS. 
+- Sinais de separação de tráfego (quando a sinalização convencional de canal possa causar confusão). 
+- Sinais para delimitar áreas de: despejo, exercícios militares, recreação, dragagens, varreduras, segurança, etc. 
+- Sinais indicadores de cabo/tubulação submarina. 
+- Sinais para delimitação de extremidade de construções sobre a água. 
+> Estrutura amarela ("obrigatório"). 
+> Formato opcional, mas sem conflitar com outros sinais próximos. 
+> Marca de tope em forma de X (opcional"). 
+> Cegos ou luminosos. Se luminosos, a luz é amarela, com os seguintes ritmos: 
+- Grupo de ocultação: 
+> Oc (...) 
+- Lampejo simples (exeto LpL 10s): 
+> Lp 
+- Grupo de lampejos com 4, 5 ou excepcionalmente 6 lampejos: 
+> Lp(4), Lp(5) ou Lp(6) 
+- Grupo de lampejo composto: 
+> Lp(..+..) 
+- Letra Morse (exceto A e U): 
+> Mo 
+Obs: Lp(5) A 20s é só para bóias do ODAS. 
+6) SINAL PARA NOVOS PERIGOS: 
+> Tem por finalidade indicar qualquer obstrução recentemente descoberta e ainda não indicada em does náuticos, ou que ainda 
+não tenha sido suficientemente divulgada. / Essas obstruções incluem: bancos de areia, rochas, cascos soçobrados, etc. 
+> O novo perigo deve ser sinalizado por iniciativa do responsável pelo balizamento local, que deve informar o CHM e o AgAM. 
+> O balizamento de novos perigos é feito de acordo com essas normas! 
+> Qualquer sinal luminoso usado com esse fim deve ter ritmo R ou MR, seja ele cardinal ou lateral. 
+> Pode ser sinalizado por RACON "D" (_..) em Morse, mostrando o comp de 1 milha. 
+^ Se o perigo oferecer risco especialmente grave à navegação (do anexo C), ao menos um dos sinais usados deverá ser duplicado.
+Este deve ser idêntico ao seu par, e poderá ser retirado quando se julgar que o novo perigo já teve sua existência bem divulgada. 
+SINALIZAÇÃO NÁUTICA COMPLEMENTAR 
+> A sinalização complementar é autorizada nas águas interiores e nas AJB, desde que autorizada pela DHN. 
+> Serve para: 1) atender a situações específicas do balizamento fluvial e Iacustre; e 2) indicar obras sobre as águas 
+(cais, piers, molhes, enrocamentos, marinas, terminais, dolfins, plataformas, trapiches, outras estruturas). 
+1) BALIZAMENTO FLUVIAL E LACUSTRE (estudar anexo D e descrições dos sinais daspags 3.8 e 3.9): 
+> Eles recomendam ações a serem empreendidas, disciplinam o tráfego e fornecem outras infos de interesse (como pontos 
+naturais, obstruções, distâncias em Km, proibições e facilidades). 
+> São balizas instaladas nas margens, com painéis de sinalização exibindo infos na forma de símbolos gráficos (recobertos 
+com material reflexivo). 
+> O sinal complementar instalado numa margem deve ser obedecido até o próximo sinal complementar de margem. 
+> A cor básica de fundo tem a finalidade de oferecer o melhor contraste com o símbolo gráfico da informação relevante. As 
+combinações previstas são: 
+- Painel laranja OU encarnado + símbolo preto, (só usado para sinalização diurna, quando se necessita de contraste com a vegetação) 
+- Painel branco + símbolo verde OU encarnado, (tb usado para sinalização noturna, pois quando iluminados, permitem identificar a margem) 
+- Painel preto + símbolo amarelo OU branco, (essa é a opção que tem uso regulamentado) 
+Obs: vide dimensões de letras e símbolos na pag 3-8. As dimensões devem permitir a identificação a uma dist em que seja possível empreender a ação indicada.
+> Na Hidrovia Paraguai-Paraná, essa sinalização não se aplica a jusante da Barragem de Itaipu (regras no anexo E). 
+2) SINALIZAÇÃO DE CAIS, PIERS, MOLHES, ENROCAMENTOS, MARINAS, TERMINAIS, DOLFINS, TRAPICHES: 
+> Cais, piers, marinas, terminais, dolfins e trapiches: são construções para servir à acostagem ou atracação. 
+^ 
+Enrocamentos e molhes: são construções para a proteção de embarcações. 
+> De noite, as extremidades e quinas dessas obras sobre as águas: 
+- Caso estejam associadas a uma dir convencional e delimitem a margem de um canal definido, podem ter um sinal lateral. 
+- Caso não estejam associadas a uma dir convencional, devem ter luzes fixas amarelas com alcance min de 2 NM. 
+-Como complemento, essas obras devem ser iluminadas por luzes fixas, de modo a mostrarem toda a sua extensão. 
+
+
+===== PAGINA 276 =====
+
+3) PLATAFORMAS DE PERFURAÇÃO E EXPLOTAÇÃO SUBMARINA, TEMPORÁRIAS OU PERMANENTES: 
+> Id visual: a estrutura deve exibir, em todas as faces, painéis retangulares retroreflexivos amarelos com algs ou letras pretas 
+de 1 m, de forma a serem avistados em qq direção. Esses painéis devem ser iluminados de noite. 
+> Sinalização noturna da estrutura: 
+a) luzes rítmicas brancas, ao menos uma visível de qq direção, de 6-30 m da MHWS, intensidade min 1400 candeias, 
+operadas em sincronismo, formando um "U" (.._), com T < 30 seg, visível desde as proximidades até o máx alcance luminoso. 
+b) uma luz fixa encarnada no tope da torre, com alcance luminoso > 10 milhas. 
+y Sinalização sonora: a estrutura deve ter um ou mais sinais sonoros, audíveis de qq dir. 
+4) PLATAFORMAS ESTABELECIDAS TEMPORARIAMENTE: devem possuir RACON "D" (_..)-
+5) GRUPO DE PLATAFORMAS: para a delimitação do perímetro de um grupo de plataformas, para a indicação de canais de 
+navegação entre elas, ou quando da construção ou remoção de plataformas, serão usados os sinais IALA B. 
+6) OBSTRUÇÕES SUBMARINAS (dutos/cabos elétricos, cabeças de poço, áreas de despejo, etc): quando forem consideradas 
+perigos à navegação, devem ser sinalizadas com os Sinais Especiais da IALA B. 
+7) SINALIZAÇÃO DE PONTES: 
+> E um conjunto de normas suplementares ao sistema IALA B para garantir a segurança de pontes e embarcações. 
+> Melhor ponto de passagem: será determinado pelo interessado é submetido à aprovação do CP/DL/AG, considerando os 
+seguintes fatores: 
+- o "retângulo de navegação" e o canal de navegação sob o vão. 
+- a prof sob a ponte. 
+- a proteção dos pilares e outras obstruções. 
+- a necessidade de tráfego em mão única ou dupla. 
+Obs: retângulo de navegação é o espaço resultante da conjugação do vão livre horizontal com o vão livre vertical. 
+a) Sinalização visual diurna - caso seja necessária (anexo F): 
+> Se for possível passar em toda a largura do vão, os sinais devem ser colocados nos pilares. / Se a navega só for possível em 
+parte da largura do vão, os sinais devem ser posicionados de forma a indicar os limites do canal navegável (por meio de 
+faroletes ou bóias com as cores dos sinais laterais). 
+> Os sinais são: 
+a BE, um painel exibindo um triângulo encarnado sólido para cima 
+a BB, um painel exibindo um quadrado verde sólido. 
+> O melhor ponto de passagem também pode ser indicado por um painel circular com faixas verticais brancas e encarnadas 
+(indicativo de águas seguras). 
+> Se houver mais de um canal navegável, o procedimento deve ser usado para cada canal. 
+> Outros vãos livres que não estejam balizados pelos painéis de Sinal Lateral (como os usados por embs miúdas) podem ser 
+balizados por painéis de Sinal Especial (X amarelo) sobre fundo preto. 
+> Os painéis coloridos devem ser montados sobre um fundo branco. 
+> Os vãos livres não navegáveis não recebem quaisquer painéis ou sinais. 
+b) Sinalização visual noturna (anexo F): 
+> Se for possível passar em toda a largura do vão, as luzes rítmicas de canal navegável (verde ou encarnada) devem ser 
+colocadas nos pilares. / Se a navega só for possível em parte da largura do vão, as luzes devem ficar em bóias/ faroletes, 
+indicando os limites do canal. 
+> As luzes devem ter alcance min de 2 NM, devem ser visíveis de todas as direções importantes e não devem ser obstruídas 
+por partes da estrutura da ponte. 
+> O melhor ponto de passagem deve ser indicado por uma luz branca de Águas Seguras sob o vão. 
+> Se houver mais de um canal navegável, o procedimento deve ser usado para cada canal. 
+> Outros vão livres que não forem balizados por luzes verdes/encarnadas de Sinal Lateral (como os usados por embs miúdas), 
+podem ser sinalizados por luzes amarelas de Sinal Especial. 
+> Em áreas de navegação exclusiva de embs de peq e médio porte, como alternativa para as luzes, pode-se usar as marcas 
+diurnas iluminadas. / Materiais retroreflexivos de cores apropriadas poderão ser usados para o reconhecimento noturno dos 
+painéis de sinalização diurna. 
+>• A iluminação dos pilares com refletores poderá, em alguns casos, fornecer uma indicação satisfatória, e o AgAM deve avaliar 
+essa possibilidade por meio de consulta aos navegantes da região. Essa avaliação será um subsídio para a DHN aprovar ou não. 
+> Os vãos livres não navegáveis não terão sinalização náutica noturna. Os pilares desses vãos podem ficar sem iluminação, ou 
+podem ser usadas luzes fixas brancas ou refletores para indicar a sua existência. 
+d) Refletores radar: embora as pontes sejam facilmente reconhecíveis no radar, os pilares ou limites dos canais não o são. 
+> Portanto, usam-se refletores-radar nos dolfins, em bóias ou postes fixados à estrutura da ponte. 
+> Para que os refletores sejam claramente distinguidos na tela, a dist ponte-refletor deve ser > 20 m. 
+e) RACON: pode-se usar um RACON de curto alcance para indicar o melhor ponto de passagem. 
+> Se for usar 2 RACONs para indicar os limites de um vão navegável, os códigos recomendados são: 
+• B(_...)aBB. 
+• T ( _ ) 
+a BE. 
+
+
+===== PAGINA 277 =====
+
+BALIZAMENTOS DE USO RESTRITO, 
+ESTABELECIDOS, MANTIDOS E OPERADOS POR ENTIDADES EXTRA-MB 
+> São aqueles que destinam-se a orientar o navegante habitual das vias de determinada região (conhecedor das peculiaridades 
+ambientais das vias), que as utiliza com um propósito perfeitamente definido. / São os balizamentos destinados a atender a 
+colônias de pesca, entidades de esporte e lazer, PFs e PJs e Prefeituras Municipais; em áreas hidrografadas ou não. 
+> A CP pode autorizar esse tipo de balizamento. / A autorização só será concedida caso nessas áreas não exista o tráfego de 
+embs de médio e grande porte. 
+> Os sinais empregados devem obedecer às marcas de tope e às cores dos sinais e das luzes do IALA B, com as seguintes 
+diferenças: 1) o formato das bóias e balizas; 2) o uso ou não de luzes rítmicas; 3) os alcances; e 4) os materiais. 
+> Esses balizamentos não são avaliados pelo "IE", mas estão sujeitos a avaliação periódica pelo AgAM. Se nessas inspeções for 
+constatada a inobservância das condições do projeto, o AgAM compelirá o responsável a sanar as discrepâncias, sob pena de 
+aplicação das penalidades da LESTA. 
+> Esses balizamentos não serão, a priori, representados em documentos náuticos. Mas nas Cartas. Atlas ou Croquis de 
+Navegação constará uma "Nota de Precaução", informando a sua existência, dizendo que as alts não serão divulgadas em Avs 
+aos Navegantes, e recomendando o seu uso apenas com perfeito conhecimento do local. 
+BALIZAMENTOS PARA A DEMARCAÇÃO DE PERÍMETRO DE SEGURANÇA, 
+NAS PROXIMIDADES DE USINAS HIDROELÉTRICAS 
+> São balizamentos cegos ou luminosos, estabelecidos nos lagos formados por hidroelétricas, visando delimitar os locais 
+próximos aos vertedouros (restritos à navegação). / É obrigatória a demarcação dos perímetros de segurança nas proximidades 
+dos vertedouros. 
+> Nas proximidades dos vertedouros, é recomendado o uso de cordões de bóias, unidas por cabo resistente, indicando a área a ser 
+evitada. / As bóias não são padronizadas, mas devem ser amarelas e de dimensões adequadas para a visualização; podendo 
+ainda ser luminosas (com caracts de sinais especiais). 
+> A distância do cordão ao vertedouro deve considerar a veloc da correnteza. 
+> Esses balizamentos não são avaliados pelo "IE", mas estão sujeitos a Inspeções Navais periódicas pelo AgAM, CAMR e/ou 
+SSN. / Se nessas inspeções for constatada a inobservância das condições do projeto, o AgAM compelirá o responsável a sanar 
+as discrepâncias, sob pena de aplicação das penalidades da LESTA. 
+> Esses balizamentos serão, a priori, representados nas Cartas. Atlas o Croquis de Navegação que os abranja. Nesses documentos 
+constará uma "Nota de Precaução" informando a sua existência, descrevendo os sinais (bóias ou balizas cegas/luminosas, 
+etc...), dizendo que as alts não serão divulgadas em Avs aos Navegantes, e que a ultrapassagem do alinhamento formado por 
+esses sinais representa risco de vida. 
+
+
+===== PAGINA 278 =====
+
+maaesgwiaaaigiMpi»» 
+CAPITULO 4 
+(Fazer uma leitura dinâmica na fonte, iluminando o que achar importante) 
+CAPITULO 5 
+COMUNICAÇÃO DE ALTERAÇÃO EM AUXÍLIOS À NAVEGAÇÃO 
+> As alterações devem ser informadas para que se divulgue em Avs-Rádio e Avs aos Navegantes. As fontes dessas 
+informações são: CP/DL/AG, SSN, CAMR, navios da MB, entidades extra-MB responsáveis por AuxNav, e os navegantes. 
+> 
+Ler os tipos de alts nos sinais (págs 5-1 a 5-4). Ler o Anexo L. Iluminar o que julgar importante. 
+> Ao informarem as alterações observadas ao CHM ou CP/DL/AG, os navegantes e entidades devem, preferencialmente, 
+observar o modelo do Anexo A. 
+> A msg usada pelos CP/DL/AG, SSN, CAMR e navios da MB para informar alterações em AuxNav terá 4 ou 2 partes 
+(conforme o informante seja ou não o responsável pelo AuxNav), a saber: 
+1) Trecho, carta de > escala, balizamento, nome e NRORD (da Lista de Faróis ou de Sinais Cegos). 
+2) Tipo de alteração: apagado, luz não confiável, à deriva, inoperante ou fora do ar (para radiofaróis, RACONe DGPS), retirada temporariamente 
+(para bóias e barcas-faróis, em vtd de manut - informar o período estimado), reposicionada (informar datum, latãong e motivo - só quando a mudança de 
+posfor intencional), substituída por bóia cega ou luminosa (informar a caract), restabelecido (é o retorno à normalidade), etc... 
+3) Informação da previsão de restabelecimento em dias: apenas se o informante for o responsável pelo estabelecimento 
+do sinal. / Se houver dificuldade que impossibilite o pronto restabelecimento, fazer constar essa dificuldade. 
+4) Causa da alteração: se não souber, suprimir essa parte da msg (e informar a causa na msg de restabelecimento). 
+> Ler no livro o modelo de msg de restabelecimento/reconstrução do sinal 
+> Recomenda-se aos CP/DL/AG adotar as seguintes medidas da Instrução Técnica do CAMR "Inibição dos Atos de 
+Vandalismo": 
+a) incluir o tema nas palestras sobre SegNav; 
+b) durante as Inspeções Navais, verificar a existência de material de sinalização nas embs; 
+c) registrar as ocorrências na polícia; e 
+d) divulgar na mídia local a importância da SN da área para a vida humana. 
+e) distribuir cartazes nas comunidades, colônias, iates, etc, abordando os riscos do vandalismo para a SegNav/VHM/Pol. 
+CAPITULO 6 
+DISPOSIÇÕES GERAIS 
+Para a manutenção e controle do balizamento, observar os seguintes procedimentos: 
+a) Manter acervo atualizado de docs e pubs náuticas. 
+b) Manter atualizadas as Fichas-Histórico dos Sinais (anexo I). 
+c) Manter um programa de trabalho: 
+- Sinais flutuantes: pintura cada 6 meses, inspeção do eq de fundeio cada 6 meses, rodízio e tratamento dos sinais cada 
+ano, substituição do eq de fundeio cada 2 anos. 
+- Sinais fixos de alvenaria: recuperação e pintura cada 2 anos. 
+- Sinais fixos de metal: recuperação e pintura cada 1 ano. 
+- Rotinas de inspeção diurna e noturna no min guinzenais: para vrf os aspectos que degradem a qualidade do balizamento. 
+9 
+
+
+===== PAGINA 279 =====
+
+LISTA DE FARÓIS - DHN 
+Essa pub contém as seguintes partes, além das resumidas abaixo: 
+- A lista dos faróis propriamente dita, organizada de N a S. 
+- Continuação dessa Lista para diversos outros países. 
+- Lista de Radiofaróis (RC) e Radiofaróis aeronáuticos (Aero RC). 
+- Correspondência dos números de ordem Nacional e Internacional. 
+- Fotografias dos faróis e faroletes, de N a S. 
+1) ORGANIZAÇÃO: Vide uma pág qualquer da Lista. As infos das colunas são: 
+^ Número de Ordem Nacional: 4 algs, podendo ter 1 ou 2 casas decimais, designado pelo CHM, segundo a pos geográfica. 
+> Número Internacional (da Lista de Faróis Britânica): 1 letra maiúscula mais 4 algs, podendo ter 1 ou 2 casas decimais. 
+> Local: são mencionados apenas quando constituem áreas restritas e bem definidas, como portos, canais e estreitos. 
+> Nome: 
+Negrito - 
+faróis e barcas-faróis de alcance > 15 milhas. 
+Redondo - 
+faróis e barcas-faróis de alcance < 15 milhas, e faroletes, luzes de obstáculos aéreos e luzes 
+Itálico - 
+bóias. 
+particulares. 
+> Carta: é a de maior escala de onde está o sinal. 
+> Classificação: os faróis guarnecidos recebem a letra "G". 
+> Posição: o datum é o mesmo da carta. 
+> Característica da luz, período, fase detalhada e intensidade luminosa (em candeias). 
+> Altitude: em metros, em relação ao MSL. 
+> Alcances: 
+Luminoso: em milhas, calculado pela fórmula de Allard, considerando-se um período noturno, vista desarmada, sem 
+interferências de luzes de fundo, coef de transparência atmosférica T = 0,85, correspondente a uma visibilidade 
+meteorológica de 18,4 milhas. 
+Obs: alguns sinais que sofrem interferências de luzes de fundo têm as suas intensidades (informadas na coluna 4) maiores 
+que as necessárias para dar os alcances luminosos informados na coluna 6, visando garanti-los. 
+Geográfico: em milhas, considerando-se olhos desarmados a 5 metros do nível do mar. 
+Obs: os alcances informados são tirados de tabelas teóricas, aproximados ao valor inteiro inferior mais próximo. 
+> Descrição e altura: descreve a estrutura (tipo, forma, material cor, etc) e a altura da luz. 
+> Observações: prove infos oportunas (se é particular, etc), além de informar a existência de refletor radar, RACON, 
+radiofarol, estação de sinais, setor de visibilidade, interferência de luzes de fundo, etc. 
+2) CORREÇÃO E ATUALIZAÇÃO: 
+^ As correções e atualizações são publicadas na parte IV do Folheto Quinzenal. Elas devem ser feitas a tinta ou por colagem. 
+3) DEFINIÇÕES: 
+3.1) Termos gerais: 
+> Característica: combinação entre ritmo e cor. 
+> Período: tempo entre 2 ciclos de iguais características. 
+> Fase: cada um dos sucessivos aspectos de luz e obscuridade num mesmo período. 
+> Fase detalhada: descrição temporal da duração de cada uma das diversas fases de um período. 
+> Emissão luminosa ou luz:... 
+> Lampejo: intervalo de luz em relação a outro de obscuridade de maior duração. 
+> Eclipse: intervalo de obscuridade entre dois lampejos sucessivos. 
+> Ocultação: intervalo de obscuridade mais curto que o de luz. 
+> Isofase: a luz e a obscuridade têm igual duração. 
+3.2) Limites de setores: 
+> Limites de setores de luz, arco de visibilidade, luz de alinhamento e luz de direção: são dados por marcações 
+verdadeiras tomadas ao largo (do mar para o sinal), no sentido horário, (fig pág XTV) 
+
+
+===== PAGINA 280 =====
+
+3.3) Características das luzes - descrições e ilustrações (vide págs XV a XIX): 
+FIXA: contínua e uniforme (não usada em sinais náuticos): 
+F. B. 
+(Apenas usadas para "alinhamentos tipo luz de 
+setor" epara luzes de extremidades de cais/pier) 
+RÍTIMCA: luz intermitente e com periodicidade regular: 
+1- Ocultação: a duração da soma das fases é maior que duração total dos eclipses (que têm igual duração). 
+a) Ocultação simples: 
+Oc. E. 
+b) Grupo de ocultação: 
+Oc(2) B. 
+c) Grupo de ocultação composto: Oc(2+l) B. 
+2- Isofásica: luz e obscuridade iguais: 
+Iso. A. 
+3- Lampejo: a luz tem igual duração e é menor que o eclipse. 
+a) Lampejo simples: freq < 50 
+Lp. B. 
+b) Lampejo longo: emissão > 2 seg 
+LpL. V. 
+c) Grupo de lampejos: 
+Lp(3) B. 
+d) Grupo de lampejos composto: 
+Lp(3+1) E. 
+4- Rápida: as emissões têm freq > 50 e < 80 vezes/min. 
+a) Luz rápida contínua: 
+R. B. 
+b) Grupo de luz rápida: 
+R(3) B. 
+c) Grupo de luz rápida (6 x) 
++ lampejo longo (exclusivo 
+para indicar sinal cardinal Sul): R(6) B. + LpL. B. 
+5- Muito rápida: as emissões têm freq > 80 e < 160 vezes/min. 
+a) Luz muito rápida contínua: 
+MR. B. 
+b) Grupo de luz muito rápida: 
+MR(3) B. 
+c) Grupo de luz muito rápida 
+(6 x) + lampejo longo (exclusivo 
+para indicar sinal cardinal Sul): MR(6) B. + LpL. B. 
+6- Ultra rápida: as emissões têm freq > 160 e < 300 vezes/min. 
+a) Luz ultra-rápida contínua: 
+UR. B. 
+b) Luz ultra-rápida interrompida: URIn. B. 
+7- Em código Morse: as emissões têm durações diferentes e, combinadas 
+com eclipses, formam uma letra Morse: 
+Mo(U) B. 
+8- Fixa e de lampejo: a luz do lampejo tem maior intensidade: 
+FLp. B. 
+a) Fixa e de grupo de lampejos: 
+FLp(2) B. 
+9- Alternada: exibe diferentes cores altemadamente. As cores devem ser igualmente visíveis. Recomenda-se usá-las com 
+cautela. 
+a) Alternada contínua: muda de cor continua e regularmente: 
+Alt.BEV. 
+b) Lampejo alternado: lampejos se repetem regular e altemadamente 
+com 2 cores, numa freq < 50 vezes/min: 
+Lp.Alt.BE. 
+c) Grupo de lampejos alternados: o grupo de lampejos em cores diferentes 
+se repete regular e altemadamente: 
+Lp(2) AILB.V. ou Lp.Alt.BBEE 
+d) Gmpo de lampejos compostos alternados: os grupos sucessivos de 
+lampejos tem um número diferente lampejos e cores diferentes: 
+Lp(2+l)Alt.BV. 
+e) Ocultação alternada: o eclipse se repete regularmente, e as luzes se 
+apresentam com cores alternadas: 
+Oc.Alt.BV. 
+f) Fixa alternada e de lampejo: luz fixa que se combina com lampejos de 
+maior intensidade e cor diferente: 
+F.B.Alt.Lp.E. 
+g) Fixa alternada e de gmpo de lampejos: luz fixa que se combina com 
+outra de gmpo de lampejos de maior intensidade e cor diferente: 
+F.B.Alt.Lp(2)V. 
+
+
+===== PAGINA 281 =====
+
+§££223 
+3.4) TERMOS DESCRITIVOS: 
+> Aerofarol (Aero): de grande intensidade e elevação. Pode ser a primeira a ser avistada. 
+> Farol aeromarítimo: luz marítima cujo feixe é deflexionado de 10°-15° acima do horizonte, para uso de anvs. 
+> Luzes de obstrução: sinalizam obstruções para anvs (geralmente encarnadas). 
+> Altura de uma luz: do topo da estrutura da luz ao chão. 
+> Elevação da luz: do plano focai da luz ao MSL (ou datum indicado). 
+> Farol guarnecido (G, 24 h) x desguarnecido (é automático). 
+> Intensidade luminosa: em candeias. 
+> Resplendor: é o brilho difuso, devido à dispersão atmosférica, observado de uma altura abaixo do horizonte ou 
+escondida por um obstáculo. 
+> Luz de detecção de cerração: há vários tipos, instalada para detecção automática de cerração. Algumas são visíveis apenas 
+num arco estreito, outras exibem um lampejo branco-azulado possante de cerca de 1 seg, outras podem alcançar a parte 
+de trás e da frente. 
+> Luz de cerração: luz exibida somente em visibilidade reduzida. 
+> Luz diurna: exibida 24 h, sem mudança de características. De dia, a intensidade pode ser aumentada. 
+> Luz ocasional: só funciona quando necessário. 
+> Luz principal: é a maior de duas ou mais luzes no mesmo suporte ou em suportes vizinhos. 
+> Luz suplementar (auxiliar): colocada sobre ou próxima do suporte da luz principal. Têm uso especial na navegação. 
+> Luz onidirecional: que exibe uma mesma característica em todo o seu entorno. 
+> Luz direcional: exibe uma cor definida, num mesmo ritmo e num setor bem estreito, para indicar uma direção. 
+- Pode ser flanqueada por setores de cores ou intensidades diferentes. 
+> Luz de setor: exibe diferentes setores do horizonte, com mesmo ritmo e cores diferentes. 
+> Luzes de alinhamento: 2 luzes associadas de mesma cor, instaladas em faróis/faroletes de alinhamento. 
+- Servem para definir o eixo de um canal, um rumo a ser seguido ou uma referência para manobra. 
+> Luzes em linha: luzes associadas formando uma linha marcando os limites de áreas, alinhamentos de cabos, alinhamentos 
+para fundeio, etc. Não marcam direção a ser seguida! 
+3.5) ALCANCES: 
+a) Alcance luminoso: é função de: - intensidade luminosa. 
+- coef. de transparência atmosférica (T) ou visibilidade meteorológica local (V). 
+- limite de luminância do olho do observador, em fç da interferência da luz de fundo. 
+> Visibilidade meteorológica (V, em milhas): é a maior dist na qual um objeto negro de dimensões adequadas pode ser 
+visto e reconhecido de dia, contra o céu no horizonte, ou de noite, desde que a iluminação do ambiente esteja no mesmo 
+nível que a normal diurna. 
+> Transparência atmosférica (T): a luz sofre absorção natural do meio, mesmo que puro. Ao atravessar uma atmosfera real, 
+a energia sofre outras perdas devido à sua reflexão em gotículas d'agua em suspensão. 
+- T = 0,85 significa que, ao percorrer 1 milha, o raio tem sua intensidade luminosa reduzida para 85% (absorção de 15%). 
+-Há uma relação entre VeT: T = (0,05)1/v. 
+> Diagrama de alcance luminoso (pág XXIII): possibilita determinar a distância em que uma luz pode ser avistada à noite. 
+- Entre embaixo com a intensidade luminosa em candeias (da Lista), suba até interceptar a curva de visib meteorológica (ou de 
+transparência atmosférica), e leia nos lados o alcance luminoso em milhas. 
+- Os números circundados indicam faixas de transparência atmosférica (ex: faixa 8 significa um T de 80% a 90%). 
+- A curva em destaque (T = 0,85 ou V = 18,4 milhas) serve como padrão para o cálculo do alcance luminoso dos sinais 
+da costa brasileira. 
+- Ao usar o diagrama, considere que: 
+1) os alcances são aproximados; 
+2) T pode variar entre o observador e a luz; 
+3) a iluminação de fundo pode reduzir muito o alcance; 
+4) o jogo do navio ou do sinal flutuante pode reduzir a dist de detecção. 
+b) Alcance nominal: 
+> É o alcance de uma luz de intensidade conhecida numa atmosfera homogênea de V = 10 milhas (T = 0,74). 
+c) Alcance geográfico (D): 
+> E a maior distância que se pode avistar um sinal, considerando-se: - sua altitude local. 
+- a altura dos olhos sobre o nível do mar. 
+- a curvatura da terra. 
+- a refração atmosférica. 
+> A linha de visada é, no máximo, o comprimento da tangente à superfície esférica do mar. É desse ponto que as distâncias 
+tabulares são calculadas. / Mas por causa da refração dos raios, o alcance geográfico está sujeito a variações para menos 
+ou para mais (miragem). 
+> Tabela de alcance geográfico: 
+- Entre com a altura do olho sobre o nível do mar e com a elevação do objeto sobre o MSL (altitude), tudo em metros. 
+- Leia o alcance em milhas. 
+- A lei é: D (milhas) = 1,927 (VH + Vh) (metros) 
+Obs: para ondas radar: D (milhas) = 2,21. VH (m) 
+> Segundo a IALA, o alcance geográfico de um sinal nos documentos náuticos deve ser calculado com o olho a 5 m d'agua. 
+
+
+===== PAGINA 282 =====
+
+4) SISTEMA DE BALIZAMENTO MARÍTIMO DA AISM (IALA): 
+4.1) Antecedentes históricos: 
+> Um acordo em Genebra (1936) adotava encarnado a BB, enquanto que nas Américas e Pacífico se adotava encarnado a BE. 
+> Em 1976, havia mais de 30 sistemas de balizamento. Muitos adotavam o sistema lateral (os sinais indicando os bordos de 
+uma rota), outros o sistema cardinal (posicionamento dos sinais em relação aos 4 quadrantes, bastante útil em mar aberto). 
+> A AISM (Associação Internacional de Sinalização Marítima) criou 2 sistemas, a saber: 
+- Sistema "A" (encarnado a BB - ao entrar): finalizado e aprovado em 1976. Incluía sinais cardinais e laterais. 
+- Sistema "B" (encarnado a BE - ao entrar): suas regras foram concluídas em 1980. 
+> Mas como ambos os sistemas eram parecidos, a IALA combinou-os num único conjunto de regras, conhecido como 
+"Sistema de Balizamento Marítimo da AISM". Em 1980, ela convocou uma conferência com a IMO e IHO (50 países), 
+onde cada país escolheu um dos sistemas, sobre uma base regional. 
+> O Brasil (DHN) optou pelo sistema "B" (vide mapa), que tb foi adotado em torno das Américas e no SE Asiático. 
+4.2) Região "B" do Sistema de Balizamento Marítimo da IALA: 
+> Suas normas se aplicam a todos os sinais fixos e flutuantes (*) que sirvam para indicar: 
+- os limites laterais de canais. 
+- perigos naturais ou outras obstruções (como cascos soçobrados). 
+- outras áreas ou peculiaridades importantes para o navegante. 
+- novos perigos. 
+(*) exceto: faróis, faroletes. barcas-faróis. superbóias. bóias gigantes, luzes e sinais de alinhamento, e luzes de setor. 
+> O sistema "B" possui 5 tipos de sinais, que podem ser usados de forma combinada (vide págs 31 a 35): 
+1) Sinais Laterais: associados a uma "direção convencional do balizamento", geralmente usados em canais bem definidos. 
+Eles indicam BB e BE da rota a ser seguida. 
+Onde um canal se bifurca, pode-se usar um sinal lateral modificado para indicar a via preferencial. 
+2) Sinais Cardinais: associados ao uso da agulha de navegação. Indicam o setor onde se encontram águas navegáveis. 
+3) Sinais de Perigo Isolado: indicam perigos isolados de tamanho limitado. São cercados por águas navegáveis. 
+4) Sinais de Águas Seguras: em torno deles, as águas são navegáveis (tais como sinais de aterragem ou de meio de canal). 
+5) Sinais Especiais: o seu objetivo não é orientar a navegação, e sim indicar uma área ou peculiaridade mencionada em 
+documentos náuticos. 
+5) PRECAUÇÕES A SEREM OBSERVADAS PELOS NAVEGANTES: 
+> No frio ou quando há mudanças rápidas no tempo, podem se formar gelo/geada/umidade nas lentes das lanternas. Isso reduz 
+muito a visibilidade, ou faz com que luzes coloridas pareçam brancas. 
+> Luzes em grandes elevações têm mais chances de serem obscurecidas por nuvens. 
+> A distância observador-luz não pode ser estimada por seu brilho aparente. 
+> Cerração, nevoeiro, poeira, fumaça e precipitação reduzem muito a distância em que as luzes são avistadas. 
+> Limites de setores das luzes: na maioria dos faróis, podem não ser confiáveis. Eles normalmente não são bem definidos, e a 
+mudança da luz para um setor obscuro (ou mudança de uma cor para outra) ocorre gradativamente, às vezes alguns graus acima. 
+> Distinção entre as cores: não é confiável, pois as condições de propagação da atmosfera e o desempenho do olho podem 
+reduzir drasticamente a possibilidade de discriminação das cores. 
+- De noite, é difícil distinguir uma luz branca de uma amarela, ou uma luz azul vista sozinha (exceto a curta distância). 
+- De dia, as cores vistas contra o sol perdem a sua distinção; tintas encarnadas luminosas tendem a parecer alaranjadas. 
+- Certas condições atmosféricas podem fazer com que uma luz branca adquira cor avermelhada. 
+> Quando uma luz é obstruída pela curvatura da terra, a MARCAÇÃO na qual ela bóia ou some variará com a dist e a altura do 
+olho. 
+> Luzes com fases de diferentes intensidades luminosas podem mudar suas características aparentes em distâncias diferentes, pois 
+algumas fases podem não ser visíveis. 
+> A visão de uma luz pode ser afetada por um fundo fortemente iluminado. 
+> Aerofaróis: têm grande potência, seus feixes são elevados e, portanto, podem ser vistos a distâncias bem maiores do que as 
+luzes para navegação. / Mas cuidado! Eles podem ser cartografados aproximadamente, podem ser exibidos apenas por períodos 
+curtos, estão sujeitos a apagar repentinamente, e podem ser alterados antes que se possa publicar em Avs aos Navegantes. 
+> Bóias luminosas: não são confiáveis quanto ao posicionamento e ao funcionamento. 
+> Barcas-faróis: podem ser retiradas para reparo sem aviso nem substituição. 
+> Luzes que exibem um lampejo muito curto: podem não ser visíveis no alcance suposto, se o lampejo for de comprimento 
+normal (??). / Quando vistas próximo do alcance máximo em más condições atmosféricas, a duração de uma luz desse tipo pode 
+parecer reduzida. 
+6) COLABORAÇÃO DO NAVEGANTE: 
+> A DHN solicita que os usuários informem as irregularidades, omissões ou inexatidões ao CHN (via fax, email ou correios) ou à 
+GP/DL/AG mais próxima. 
+7) ABREVIATURAS USADAS NA LISTA DE FARÓIS: vide Lista. 

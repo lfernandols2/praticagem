@@ -1,0 +1,1430 @@
+FONTE: resumo curso h.pdf | CAPITULO 16 - auxilios-gmdss | paginas 351-373 | OCR ABBYY
+OBS: texto OCR ruidoso, mistura ingles/portugues. Interprete com cautela; nao invente.
+
+
+===== PAGINA 351 =====
+
+LISTA DE ATTXftIOS-RADIO - DHN 
+^ Cada capítulo trata de um tipo de serviço-rádio de auxílio à navegação marítima na costa do Brasil. 
+> A hora usada é a HMG, a menos que se diga "Hora Legal", (o Roteiro é o oposto) 
+> Colaboração do navegante: enviar infos urgentes, via RENEC ou PWZ-33, para "NAVEMAR - Rio de Janeiro" (é o 
+endereço telegráfico da DHN). / Pode-se enviar outras infos pela "Folha de Informações" destacada do Folheto Quinzenal. 
+1) CORREÇÃO E ATUALIZAÇÃO: 
+> Avisos-Rádio: divulgam alterações temporárias dos auxílios-rádio (normalmente canceladas por outro Aviso-Rádio). 
+> Folheto quinzenal: publicam: 1) Avisos-Rádio em vigor; 2) Correções permanentes ou atualizações importantes; 
+3) Folhas com grandes correções para substituição ou inserção; e 4) LPE, se houver. 
+2) NUMERAÇÃO DAS ESTAÇÕES (a b C d): 
+(Obs: 6 é RACOM, que segue a numeração da Lista de Faróis/Sinais Cegos) 
+a) Natureza dos svçs: 2 (radiofaróis) 
+3 (sinais horários) 
+4 (boletins meteor, e Avs de mau tempo) 
+5 (Avs aos Navs) 
+7 (tráfego de perigo e segurança) 
+8 (tráfego comercial). 
+b) Área geográfica: 
+0/1 (Costa N - Oiapoque ao Cabo Calcanhar) 
+2/3/4 (Costa L - Cabo Calcanhar ao Cabo Frio) 
+5/6/7 (Costa Sul - Cabo Frio ao Chuí) 
+8 (rios da bacia Amazônica e Paraguai) 
+9 (outros países). 
+c e d) Número seqüencial dentro da sua área: obedece a posição (de N a S, e de L para O). 
+> Uma estação que presta vários serviços tem vários números identificadores, diferindo apenas no algarismo do milhar. 
+2 - RADIOGONIOMETRIA 
+1) INTRODUÇÃO: os sinais tx pelas estações são radiotelegráficos. 
+> Há 2 processos para se obter marcação: - o navio tx os sinais, e uma estação radiogonio fornece a marcação ao navio; e 
+- o navio recebe os sinais tx por um radiofarol e determina a sua marcação. 
+2) RADIOGONIÔMETRO: 
+> Quando o plano de uma antena de quadro está alinhado com a dir. da fonte, a intensidade é máxima (mas é mais prático 
+identificar a dir de intensidade min, por isso o ponteiro fica perpend ao plano da antena). / Para determinar o sentido, uma 
+antena unifilar é eletricamente conectada a um dos braços da antena de quadro (no braço da dir da estação, o sinal aumenta). 
+> Há eqs em que tudo é manual, sendo a marcação obtida por audio. Noutros, sintoniza-se a estação e o aparelho fornece a 
+marcação visualmente. / Rotina: 
+a) todas as outras antenas instaladas como na calibragem do radiogonio e desligadas, repetidora da giro sincronizada. 
+c) sintonize a estação, gire o volante até ter sinal mínimo, gire a antena 90° e determine o sentido pela chave da antena unifilar. 
+e) marcação giroscópica + desvio da agulha = marcação radiogonio. 
+f) marcação radiogonio + desvio do radiogonio = marcação verdadeira. 
+g) converter a marcação verdadeira para marcação de Mercator (vide tabela no Ap II-l da LAR). 
+3) CAUSAS DOS DESVIOS DA ONDA RADIOELÉTRICA: 
+> Refração terrestre: ocorre quando a onda forma um âng agudo com a linha da costa, ou quando atravessa em terra uma 
+dist > que seu comprimento. / A refração aumenta com a diminuição do âng e com o aumento da freq. / Não tomar 
+marcações com âng < 20° com a linha da costa, ou de estações muito aterradas. 
+> Efeito noturno: ocorre devido à variação da altura da ionosfera entre 1 hora antes do pôr e depois do nascer do sol. Não 
+tomar marcações nesses horários, a menos que a distância seja < 30 milhas. 
+> Perturbações meteorológicas: alteram a condutividade da atmosfera. / Pouca influência. 
+> Campo eletromag. do navio: causa o desvio do radiogonio. que varia com a marc relativa da estação transmissora, calado 
+e freq. A redução desse desvio é a compensação (só por especialistas). A determinação dos desvios residuais é a calibragem. 
+4) CALIBRAGEM: 
+> Realizada pela trip: após reparos no aparelho, alteração da massa metálica em rei à antena ou da rede elétrica, e anualmente. 
+> Navio a 3-5 milhas da estação: tomar marcações visuais e radiogonio de 5o em 5o graus, e nas marcações relativas de 
+045°, 135°, 225° e 315°, mantendo rumo cte durante as medições. / Drg = Mrl - Mrg. 
+> Construir uma tábua ou curva de desvios para cada marcação relativa, e ao menos para plena carga, meia carga e leve. 
+> Os desvios têm natureza quadrantal (máximos pelas bochechas/alhetas, e nulos pela proa/popa/través). Se os valores 
+divergirem dessa lei, repetir a calibragem. / Só use a tábua dentro de +- 200 KHz da freq de calibragem. 
+> Outro método: fundear e girar uma estação tx móvel a +- 1000 metros em torno do navio. Não há este svç no Brasil. 
+5) CORREÇÕES DA MARCAÇÃO RADIOGONIOMÉTRICA: 
+> Mrg correta = Mrg observada + Drg. (a Mrg observada já deve estar corrigida do desvio da giro) 
+- Para tirar o Drg da curva de desvios, a marcação relativa do momento da observação é fundamental. 
+> M Mercator = Mrg correta + correção. / Essa correção (= valor da semi-convergência dos meridianos), é fç da latitude 
+média e da diferença de longitude entre tx e rx. (vide tabela no Ap II-l da LAR) 
+- Sinal da correção: - marcações da estação feitas de bordo, no HS: 
+"+" com o navio a E da estação,"-" a W. 
+- marcações do navio feitas em terra, ou no HN: 
+é o contrário. 
+- com navio e estação em hemisférios distintos: 
+o erro é desprezível. 
+
+
+===== PAGINA 352 =====
+
+*T 
+6) DETERMINAÇÃO E PRECISÃO DA POSIÇÃO DO NAVIO: 
+> Traçar 2 retas com um âng = erro provável (usar 2° para cada lado - fig 2-1). 
+> Com mais de uma estação (fig 2-2): a área em preto contém todas as posições com erro < 2° em rei às 3 marcações. Como é 
+possível que uma das marcações tenha erro > 2°, a área tracejada também indica posições prováveis. 
+> 2 marcações de uma mesma estação: conhecida a dist navegada, o quadrilátero da fig 2-3 contém as posições possíveis. 
+7) ESTAÇÕES RADIOGONIOMÉTRICAS: 
+> Informam a dir de sinais radiotelegráficos que recebem. As dir informadas já são corrigidas dos desvios da onda rádio, e têm 
+erro < 2o para dists até 50 milhas (exceto a diferença ortodrômia-loxodrômia). / No Brasil, não há tais estações. 
+> Faina do navio: 1) chame a estação e transmita QTE ou QTF; 2) aguarde o pronto (indicativo da est. + "K"); 3) tx o 
+indicativo de chamada do navio na freq de marcação tirada de uma "Lista de Estações" durante +- 1 min; 4) a estação 
+transmitirá (hhmm + QTE + xxx°), ou pedirá que continue transmitindo seu indicativo; 5) repetir a marcação informada, e 
+aguardar a confirmação; 6) a confirmação é dada pelo sinal de fim de trabalho ( . . - . - ) , que deve ser repetido pelo navio. 
+8) RADIOFARÓIS: há 3 tipos: 
+- Direcionais: transmitem num setor de 10°-15°, para dar um rumo de governo definitivo. Usados mais para aeronaves. 
+- Rotativos: feixe direcional com mov rotativo uniforme. 
+- Circulares: onidirecionais. / É o mais comum. / Todos no Brasil são assim. 
+> No Brasil: todos funcionam continuamente, todos são circulares, o alcance é de 200 ou 300 milhas, muitos têm DGPS e 
+transmitem um sinal Morse de 2 letras a cada 7,5 segs. 
+> Os desta Lista são assim agrupados: 1) marítimos no Brasil: 2) marítimos e aéreos, nas áreas cobertas pelas cartas da DHN em 
+outros países. / Há tb um apêndice com as estações AM que podem ser usadas para aterragem. 
+> Cartas náuticas: 1) entre 1:50.000 e 1:150.000 (cartasparticulares): mostram o símbolo da Carta 12.000, freq, prefixo (Morse de
+2 letras) e horário de funcionamento. 
+2) demais cartas: mostram apenas o símbolo. 
+9) RADIOFAROL AERONÁUTICO (AERO RC): PRECAUÇÃO: só os de uso provável pelo navegante são relacionados aqui 
+e nas cartas náuticas, o que não significa que sejam confiáveis. / Não é possível prever a extensão do efeito terrestre. / As alterações 
+e cancelamentos podem não ser publicadas nos Avs aos Navegantes antes da ocorrência. 
+3 - SINAIS HORÁRIOS 
+1) SERVIÇO DA HORA: os sinais horários são irradiados por tx automática de um observatório. Sua confiança é 100%. 
+> No Brasil, há 4 estações, todas no Rio. O svç é supervisionado pelo "Serviço da Hora" do Observatório Nacional. 
+2) HORA LEGAL E OFICIAL DO BRASIL: a hora-legal no Brasil é assim distribuída: 
+> Io fuso (Green -2h): Noronha e Trindade. 
+2o fuso (Green -3h): todo o litoral e os estados inteiros (?), menos MT/MS/AM. 
+3o fuso (Green -4h): o resto. 
+4o fuso (Green -5h): Acre mais uma área. 
+3) ESCALAS DE TEMPO: 
+> Tempo Universal (TU ou TUl): tempo solar médio do Io meridiano, obtido por observações astronômicas. 
+> Tempo ou Hora Média de Greenwich (HMG): equivalente ao TUl. / Como a HMG e a TUl correspondem à pos angular da 
+terra em torno do seu eixo de rotação, elas são usadas para a navega astronômica (é o argumento do tempo nos Almanaques 
+Náuticos e em todas as publicações de Marinha). 
+> Tempo Atômico Internacional (TAI): determinado por comparações de relógios atômicos em todo o mundo. / O TAI não 
+altera com as variações de veloc de rotação da terra. Por isso ele proporciona a mais precisa e uniforme medida de tempo. 
+> Tempo Universal Coordenado (TUC): concilia uma precisa medição de intervalo de tempo com as necessidades dos 
+navegantes e geodesistas (que precisam do tempo relacionado com a rotação da terra). / É a escala usada para a disseminação 
+de freqs padrão e de sinais horários. / O TUC tem a mesma marcha que o TAI, mas difere deste de um número inteiro de 
+segundos, devido aos ajustes periódicos introduzidos para aproximá-lo do TUl. 
+> DTU1: é a diferença prevista entre o TUC e o TUl. / É uma correção a ser aplicada ao sinal do TUC irradiado, para se obter 
+uma melhor aproximação ao TUl (TUl = TUC + DTU1). 
+4) AJUSTES NO TUC (para mantê-lo em conformidade com a rotação irregular da terra): 
+> Para que o TUC e o TUl não divirjam de mais de 0,9 seg, o Bffl (Bureau Internacional da Hora) estabeleceu ajustes periódicos 
+no TUC de +-1 seg, feitos no último seg de um mês de TUC. / As estações que tx sinais horários já introduzem esses ajustes. 
+> Ainda, as ppais emissoras de sinais horários e frequências-padrão transmitem, dentro de seus sinais horários, valores do DTU1 
+em forma de código, com a correção positiva ou negativa a ser aplicada ao TUC, para se obter o TUl. 
+> O COR (Comitê Consultivo Internacional de Rádio) estabeleceu um código para a transmissão do DTU1 (fig da pag 3-4). 
+- Há outros sistemas que usam Morse para tx o DTU1. O russo inclui até um dTUl (mais preciso), para somar ao DTU1. 
+
+
+===== PAGINA 353 =====
+
+^B 
+6 - RESPQNDEDQR-RADAR (RACON) 
+> É considerado um auxílio à navegação específico (seja instalado em outro auxílio à navegação ou em uma estrutura isolada). 
+> São geralmente instalados em faróis, balizas, torres ou pontos conspícuos bem assinalados na carta. 
+> Usado nos casos de: 1) má condição meteorológica freqüente; 2) perigo fora do alcance visual dos pontos característicos da 
+costa; 3) pontos de inflexão nos canais; 4) perigos temporários e novos perigos; 4) estruturas ao largo e ao longo de vias.... 
+> Podem operar em 1 ou em 2 bandas. / Os X (3 cm) respondem de 9,3-9,5GHz; os S (10 cm) respondem de 2,92-3,lGHz. 
+> O transmissor deve ser sintonizado de forma que o sinal de resposta apareça na tela ao menos uma vez em cada 2 minutos. 
+> Alcances: no Brasil, vão de 12-25 milhas. / Fontes de interferência podem afetar a imagem (mas é raro, pois trata-se de uma 
+retransmissão). 
+> Resposta na tela: uma letra Morse, seguida ou não de uma linha longa. / "D" é exclusivo para novos perigos. / As letras 
+preferivelmente começam com um traço. 
+> Erro na distância: causado pelo atraso na resposta (a distância real é sempre menor); nunca é maior que 100 metros (os do 
+Brasil têm erro de 60 metros). / Marcação: é muito precisa. 
+1) TIPOS DE RACON E TEMPO DE REPOUSO: 
+> Os do Brasil são todos de sintonia ágil e onidirecionais, e respondem imediatamente a cada estímulo, (desde que fora do Tempo d
+Repouso) 
+y Tempo de repouso: serve para não obscurecer alvos, e tb para identificar um RACON que esteja no limite do seu alcance 
+(com o código não visível na escala da tela). / Os períodos dos aparelhos brasileiros são: "18 seg ativo +12 seg de repouso" 
+ou "30 seg ativo + 30 seg de repouso". / Pode-se cronometrar o tempo pela contagem das varreduras (tipicamente de 3 seg). 
+> Esta Lista não apresenta os períodos de cada RACON (devido ao intercâmbio de equipamentos para manutenção). 
+> Os números dos RACONs desta Lista correspondem aos números dos sinais em que estão instalados (da Lista de Faróis). 
+> No Brasil, todos eles são instalados em faróis, faroletes OU barcas-faróis. (exceto o da ponte Rio-Niterói, que não tem nem número) 
+> Precaução: podem aparecer na tela sinais espúrios a dists bem maiores que o alcance previsto, independente da escala de 
+distância. O "flash" falso pode aparecer em qq posição ou marcação. Portanto, verifique que esteja no alcance daquele 
+RACON que estiver usando. 
+9 — G P S 
+(a nova LAR contém mais informações) 
+> 24 sats (sendo 3 reservas) / 6 planos orbitais / +- 12 horas por órbita / Cada sat adianta-se 4 min/dia. 
+> Cobertura global por praticamente 24 horas/dia. 
+> 5 estações de controle executam 3 funções. Uma delas é a Estação Mestra de Controle, que recebe e processa dados de 
+acompanhamento das outras estações, manobra um sat de volta à sua órbita, e pode colocar um sat-reserva na pos de um ativo. 
+1) ESTRUTURA DO SINAL GPS: 
+> Cada sat transmite 2 freqs portadoras: LI (1,5 GHz) e L2 (1,2 GHz), que são moduladas por vários sinais. 
+> Para posicionamento direto, há 2 sinais digitais Pseudo-aleatórios (PRN = pseudo-ramdom noise): 
+- Código C/A (Coarse Acquisition Code): baixa exatidão. 
+LI é modulada com os 2 códigos (C/A e P). 
+- Código P (Precision Code): maior exatidão. 
+L2 é modulada só com o P (ou Y). 
+- E ainda, o Código Y, semelhante ao P, só que secreto (OTAN). 
+> Além dos sinais de posicionamento, as portadoras carregam uma massa de dados modulada em baixa freq para informar ao 
+usuário sobre o estado de funcionamento de cada sat e a sua pos orbital. / Todos esses dados são decodificados pelo receptor. 
+2) MÉTODOS BÁSICOS DE POSICIONAMENTO: 
+a) Pseudo-range measurement (medida de dist indireta): o rx gera uma réplica do código do sat a que está sintonizado. Para 
+alinhar os dois códigos, ele introduz um atraso no seu sinal, e esse deslocamento no tempo é convertido em dist entre o rx e o sat. 
+- Precisão: 30 cm (P) e 3 m (C/A). 
+b) Carrier beat phase measurement (medida da diferença de fase da portadora): é a medida de diferença de fase que 
+permanece quando o sinal de freq variável do sat (devido ao Doppler) é comparado com o sinal de freq constante do rx. / Como não 
+dá para determinar quantos ciclos existem entre o sat e o rx, existe uma ambigüidade, e só dá para conhecer a dist após um intervalo 
+de observações (logo, não serve para posicionamento em tempo real). 
+- Precisão: até 2 mm! 
+3) EFEMÉRD3ES: são os dados orbitais que permitem prever onde estará o sat. 
+> Várias perturbações causam desvios orbitais. Como o GPS funciona com base na medida da distância rx-sat, a posição do sat é 
+fundamental. 
+> Estação Mestra: processa e controla a tx de dados orbitais pelos sats através de dados colhidos pelas várias estações monitoras 
+(que detectam os erros e realizam previsões), e carrega cada sat com dados estimados suficientes para 26 horas. 
+
+
+===== PAGINA 354 =====
+
+•"«s^MiMêl^ 
+4) FILTRO KALMAN: é uma técnica matemática para obter a melhor estimativa da posição atual, em tempo real. 
+> As estações monitoras o utilizam como parte do processamento dos erros orbitais, e muitos receptores tb usam essa técnica. 
+> Aplicações estáticas: usa só 4 variáveis. Baixas velocs: 8 variáveis são suficientes. Altas velocs: filtro de 11 variáveis 
+5) POSICIONAMENTO: 
+> Posicionamento 2D: o rx deve processar pseudo-distâncias de no min 3 sats. / Posicionamento 3D: são necessários 4 sats. 
+- Pos 2D: o usuário tem que informar ao rx a elevação da antena acima do nível médio de referência. Isso influi na precisão. 
+- Alguns rx permitem selecionar posicionamento 2D ou 3D. / Outros rx escolhem o modo automaticamente (é preferível). 
+> Operando com correções diferenciais: o modo de seleção automática 2D/3D é preferível. 
+> Datum horizontal WGS-84: é o datum usado para converter as medições de pseudo-distância em posição geográfica. 
+- Para plotar a lat/long, os usuários devem converter a pos obtida para o datum da carta (se diferente do WGS-84). 
+- Cartas cujo datum horizontal ainda é Córrego Alegre: se a conversão já não estiver incorporada na memória do rx, ela 
+deve ser introduzida no aparelho (e se este não o permitir, ela deve ser calculada com as correções informadas na carta). 
+6) FONTES DE ERROS: 
+a) Erros devido aos sats: 1) variação nas freqs dos relógios atômicos; 2) desvios das órbitas previstas (erros de efemérides); 3) 
+falhas internas (enquanto não são corrigidas, o sat é marcado como unhealthy, e os rx automaticamente o descartam). 
+O tempo entre a detecção e correção de uma falha interna é o ppal fator que pode introduzir erros. 
+b) Erros devido aos rx: variação nas freqs dos relógios a cristal, ruído interno, interferência entre canais de rx e efeito multipath. 
+c) Erros devido ao meio: 
+> Atraso de propagação na ionosfera: é máx ao meio-dia, quando o sat está no horizonte, ou quando a atividade de manchas 
+solares é máxima (o erro pode chegar a 150 m). / É min de noite ou quando o sat está no zênite (o erro pode ser < 5 m). 
+- Os rx que trabalham com as duas portadoras podem detectá-lo e até eliminá-lo. / A correção diferencial tb pode eliminá-lo. 
+> Atraso de propagação na troposfera: é a refração na atmosfera neutra (não-ionizada). 
+- É influenciado por 2 termos: componente seca e componente úmida 
+- Seus efeitos são desprezíveis se a precisão requerida não for centimétrica, ou se houver correção diferencial. 
+> Multipath: causado pela reflexão múltipla dos sinais nas vizinhanças da antena (fantasmas da TV). IA maioria das antenas 
+rejeita sinais de planos horizs inferiores ao seu (evite estruturas metálicas próximas, no mesmo plano ou acima da antena). 
+d) Erros propositais: causados pela Disponibilidade Seletiva (SA), que são erros introduzidos pelo Depto de Defesa dos EUA. 
+> Eliminados por correção diferencial (mas há dúvidas disso). / Desde 2000, a SA saiu do sinal GPS, o que melhorou a precisão. 
+e) Diluição de precisão (DOP): é uma medição da "força" da configuração geométrica dos sats. 
+> Sats amontoados encima do rx dão um DOP elevado. / Melhor config com 4 sats: 1 no zênite e 3 no horiz (separados de 120°). 
+> Não é um erro propriamente dito, mas um multiplicador de erros. / Ex: se o usuário experimenta um desvio-padrão (raio 
+do círculo de incerteza) c0 = 30 m e o seu DOP =3, então o novo desvio padrão será c = o0.DOP = 90 m. 
+> Praticamente todos os rx GPS informam o DOP que está afetando seus cálculos. 
+7) CORREÇÃO DIFERENCIAL (DGPS): 
+a) Padrão de comunicações - Sistema RTCM SC-104: 
+> Um Comitê Especial da RTCM estabeleceu várias msgs padronizadas de correção GPS (todas compatíveis). 
+> Os rx modernos extraem várias infos dessas msgs, e o usuário deve conhecê-las para delas tirar proveito. 
+^ As mais importantes são: 
+(outras msgs foram canceladas, outras são experimentais, e várias são de uso reservado) 
+Tipo 1 - É a ppal msg de correção. / Fornece a correção de pseudo-dist no código C/A para todos os sats avistados. 
+Tipo 2 - Contém a diferença das correções de pseudo-distância. 
+Tipo 3 - Contém as coordenadas X/Y/Z da estação de referência (referenciadas ao datum WGS-84). 
+Tipo 6 - É a msg de sincronismo (inútil para correção). 
+Tipo 16 - Transmite uma curta msg (impressa ou na tela) identificando a estação de referência, ou alguma msg útil ao usuário. 
+> Taxa de transmissão das mensagens na rede DGPS brasileira: - Cada 15 msg tipo 1 
+> 
+1 msg tipo 2. 
+- Cada 30 msg tipo 1 
+> 
+1 msg tipos 3,6 e 16. 
+> Confiabilidade das correções diferenciais: o sinal GPS (base para o DGPS) pode ser interrompido ou alterado sem prévia 
+comunicação. E ainda, o alcance e a validade das correções podem ser afetados por vários fatores, alguns descritos a seguir, 
+outros ainda desconhecidos. Por isso, jamais confie cegamente nas correções. 
+> Emprego do DGPS após a retirada da SA: quando os EUA desativaram a SA, a AIALA recomendou a manutenção das redes 
+DGPS "afim de capacitar o sistema a atender os requisitos de navegação onde a manobra é limitada", pois a IMO diz que 
+"deve ser oferecida informação deposição com erro < 10 m, comprobab de 95%, por um sistema de radio-navegação usado 
+para assistir à navegação em tais águas". I Por isso, o Brasil mantém o DGPS operando na faixa de 200-300 KHz. 
+b) Fontes de erros que o DGPS pode eliminar: 
+> São elas: erros das efemérides, dos relógios dos sats, das propagações ionosférica e troposférica, e da SA. 
+> Para os usuários em movimento, a veloc de tx das correções é um fator importante na exatidão do processo. Essa limitação é 
+aceitável para navios, mas é impensável para outros casos. 
+
+
+===== PAGINA 355 =====
+
+Bmaamm 
+c) Fontes de erros que o DGPS não pode eliminar: 
+Distância do rx para a estação de referência: 
+> Os ppais problemas decorrem das diferentes configurações de sats dos 2 receptores envolvidos. 
+- Ex: ambos os receptores podem estar programados com uma "máscara" que só aceite sats com mais de 10° de elevação. Então, 
+devido à dist, o rx do usuário pode estar usando um sat que a estação de referência não está enxergando, sem nenhuma correção. 
+- Isso é mais provável de ocorrer próximo ao alcance nominal dos radiofaróis (cerca de 200 milhas). Todavia, alguns rx 
+informam a lista de sats para os quais a estação de referência está enviando correções, daí o usuário pode selecionar os sats que 
+deseja usar. /Portanto, deve-se avaliar bem os dados, ppalmente quando próximo ao limite de alcance. 
+> Devido ao mesmo fato, uma tempestade entre o usuário e os sats pode constituir uma fonte de erros que não está sendo 
+percebida pela estação de referência. 
+> A degradação das correções com o afastamento entre receptores é um fator importante. Sobre a estação de referência, a 
+precisão é > 3 m em 68% dos casos, e de 9 m em 99% dos casos (o = 3). 
+DOP: 
+> Como muitas fontes de erros foram eliminadas ou minimizadas, o efeito de um DOP desfavorável também é reduzido. 
+Falhas nos sats: 
+> Tendem a ser corrigidas pela Estação Mestra, mas há um atraso entre o instante da falha e sua detecção por uma estação de 
+controle. Se a estação de referência não for capaz de detectar as discrepâncias nos dados do sat ruim, ela não os corrigirá. 
+Falhas na estação de referência: 
+^ 
+Hoje, as estações de referência são novas e boas, e informam ao usuário a "saúde" com rei ao seu funcionamento interno. 
+^ 
+Entretanto, há estudos para estabelecer um "monitoramento de integridade" que envie msgs quanto à qualidade das correções. 
+8) REDE DE ESTAÇÕES DE REFERÊNCIA DGPS: 
+> Usa as portadoras de alguns dos radiofaróis marítimos já existentes no Brasil (é grátis). 
+> Os ppais usuários são os navios, sendo possível o emprego por veículos terrestres (com limitações). 
+> O uso aeronáutico é recomendado com restrições, pois a taxa de atualização das correções pode ser lenta para este fim. 
+> Há uma relação com as estações de referência da MB nesta Lista. Elas são vinculadas à Rede Brasileira de Monitoramento 
+Contínuo, do IBGE. 
+9) RECEPTOR DE CORREÇÕES DIFERENCIAIS: 
+> Navegador GPS: vrf se ele aceita correções diferenciais automáticas no padrão RTCM SC-104, Versão 1.0 a 2.1 (os antigos só 
+permitem inserir correções manualmente). Caso aceite, ele deve ter um conector interface serial RS-232 ou RS-422 (comm de 
+dados no padrão NMEA-0183). / De alguma forma, o GPS informa ao usuário que está trabalhando com correções diferenciais. 
+> Receptor de correções diferenciais: compre um que receba na freq do radiofarol (283,5 a 325 KHz) e que demodule a 
+informação digital (enviando-a para o navegador via interface). 
+- Tb chamado "receptor ou demodulador MSK", devido à sua técnica de demodulação, chamada "Minimum Shift Keying". 
+- Ele tem o mesmo preço e tamanho que um navegador GPS, e parece um modem. Costuma ter poucas indicações no painel. 
+- Para que se controle a qualidade da recepção, o demodulador MSK tem uma saída para conectar a um PC, que oferece infos 
+como: nível de sinal, taxa de erro de transmissão, tempo desde a última msg de correção, etc (fundamental para que o usuário 
+decida sobre a confiabilidade da correção diferencial). / Mas pode ser que essas infos saiam na tela do próprio navegador. 
+- Antenas loop (magnéticas): são mais imunes a ruídos (bom para grandes embs metálicas que acumulam muita eletr. estática). 
+- Antenas whip (elétricas): têm maior sensibilidade de recepção (bom para embs de peq porte e não metálicas). 
+^ 
+Navegador e receptor MSK integrados: operam com uma única antena, ou com duas antenas separadas. 
+Obs: os RACOMsão instalados nos faróis, e os DGPS são instalados nos radio-farôis (e usam a sua portadora). 
+OBSERVAÇÕES SOBRE O ESTUDO DA LISTA DE AUX-RÁDIO (LAR): 
+- Cap 4 - Serviços Radiometeorológicos: 
+Estudar pelo arquivo compilado da LAR e MPN (Valgas Lobo). 
+- Cap 5 - Avisos-Rádio: 
+Estudar pelo Folheto Quinzenal mais recente e pelo Cap 5 da LAR. 
+Não foi feito resumo do Cap 5 da nova LAR (12a edição). Portanto, estudar este capítulo direto na publicação. 
+- Cap 7 - Comunicações de Perigo e Segurança: 
+Estudar pelo arquivo compilado de GMDSS (AN + MPN + EROG). 
+O resumo do Cap 7 da LAR refere-se à LAR antiga, não mais em vigor. Não foi feito resumo do Cap 7 da nova LAR (12a 
+edição). Portanto, estudar este capítulo também pela publicação. 
+- Cap 8 - Apoio Costeiro: 
+Estudar pelo arquivo "Apoio Costeiro". 
+-Cap 9-GPS: 
+O resumo do Cap 9 da LAR refere-se à LAR antiga, não mais em vigor. Não foi feito resumo do Cap 9 da nova LAR (12a 
+edição). Portanto, estudar este capítulo também pela publicação. 
+
+
+===== PAGINA 356 =====
+
+Igfsssss 
+PERGUNTAS - AVISOS AOS NAVEGANTES 
+(RESPONDER CONSULTANDO O FOLHETO MAIS RECENTE) 
+1- De que tratam as seções de 1 a 8 do Folheto quinzenal? 
+2- Quais são os propósitos ppal e secundário do Folheto? 
+3- Quais são os Avisos-rádio divulgados na Seção II, e como eles são divulgados? 
+4- Que tipos de Avisos são publicados no 1° e 13° Folhetos {e como)? 
+5- Que tipos de Avs-rádio não constam do Folheto? Como se pode obtê-los? 
+6- Quais são os Avisos divulgados na Seção III, e como eles são divulgados? 
+7- Como é feita a divulgação dos APE? Qual é a seção que os publica? 
+8- O que vêm no extrato em inglês do Folheto? Quais as seções, e qual é o conteúdo? 
+9- O que são as MSI? 
+10- Qual é o propósito dos Avs-rádio? Qual é o seu método de divulgação ppal? Como é a sua classificação, em fç do tipo de 
+navegação e dist da costa? 
+11- Como são classificados todos os Avisos em fç da região? Quais são as letras indicativas? Quais são os limites geográficos 
+das 3 regiões ppais? 
+12- Qual é o propósito dos Avs T/P/Perm? Especifique o propósito de cada tipo, e diga como e onde devem ser feitas as 
+correções. 
+13- Qual é o propósito dos APE? 
+14- Como é feita a numeração dos Avs-rádio? 
+15- Como é feita a numeração dos Avs T/P/Perm e APE? 
+16- Onde podem ser obtidos os Folhetos? 
+17- Que outras hidrovias possuem Folhetos so para elas? Qual é a periodicidade de seus Folhetos? 
+18- Como é a sistemática para divulgação dos Avs-rádio Náuticos NAVAREA e Costeiros? 
+19- Qual é a particularidade na divulgação dos Avs-rádio Náuticos Locais? 
+20- Onde pode ser obtida a rela completa de todos os Avs-rádio e SAR em vigor? Com que freq essa rela é atualizada? 
+21- O que deve ser feito com o receptor Inmarsat-C? 
+22- O que é divulgado nas quartas-feiras? 
+23- Como se faz para obter qualquer Av-rádio ou SAR fora dos horários de divulgação? 
+24- Quando ocorre o cancelamento de um Aviso Temporário? 
+25- É obrigatório o uso de cartas e pubs da DHN nas AJB? 
+26- Quais seções do Folheto devem ser acompanhadas para manter atualizadas as cartas náuticas? E para as pubs? 
+27- Como pode ser obtida uma rela das cartas náuticas da DHN com as correções já divulgadas por Avs aos Navegantes? 
+28- Como deve ser feita a inserção de notas e quadros nas cartas (em que posição colocá-los)? 
+29- Quais marcações devem ser tomadas ao largo, no sentido horário (4)? Os horários se referem à hora local ou HM6? A que 
+nivel são referidas as profs e altitudes? O que se deve evitar em áreas onde há canalizações e cabos submarinos? 
+30- Como são divulgadas as posições das plataformas fixas, móveis e dos navios-sonda? 
+31- Como devem ser informadas as irregularidades que possam afetar a SegNav? E as omissões ou inexatidões das cartas e 
+pubs? 
+32- Quais são as formas de se obter Avs-rádio e SAR (estações, freqs, canais, horários, a pedido, produtos, etc)? (estudara 
+tabela) 
+33- Quantas NAVAREAS existem? E quantas METAREAS? 
+
+
+===== PAGINA 357 =====
+
+!3^^^w 
+•"•'•'rr'-
+V j J V L L / J J 
+(compilado do Arte Naval, Valgas Lobo e EROG) 
+1) INTRODUÇÃO: 
+a) Sistema ainda em vigor: 
+> O sistema em vigor antes de l/fev/1992 foi regulamentado pela SOLAS-74. 
+> O sistema se baseia na prescrição de que: 1) certos tipos de navios mantenham escuta permanente nas "freqs interns de socorro", 
+acd regulamento da UIT; 2) os navios devem estar equipados para tx nessas freqs com um alcance min de 100-150 milhas. 
+- Assim, o sist é feito para permitir comms N-N, embora estações costeiras tb tenham que manter escuta nas freqs de socorro. 
+> Consiste de 2 subsistemas operados manualmente: 
+- radiotelegrafia (Morse) em 500 KHz: obrigatório para navios de carga de AB > 1600 ton e todos os de pass. 
+- radiotelefonia em 2.182 KHz e 156,8 MHz: obrigatório para navios de carga de AB > 300 ton e todos os de pass. 
+y Desvantagens: as comms apresentam deficiência além de 190 milhas e, por não serem automáticas, navios se perdem sem que 
+qq chamada ou msg de socorro seja recebida. 
+> Obs: o Comte de qq navio, ao receber um sinal de perigo, deve proceder a toda veloc em sua dir, avisando-o que está a caminho. 
+b) Histórico: 
+> 1974: foi adotada a SOLAS. 
+> 1979: criada a INMARSAT (pela UIT e IMCO, que virou a IMO). / Criado o COSPAS-SARSAT, formado por um consórcio 
+entre EUA, França, Canadá e Rússia. 
+> 1979: adota-se a Convenção SAR ("Convenção de Hamburgo"), cuja finalidade era estabelecer um plano mundial de SAR 
+marítimo, visando obter cooperação e ajuda mútua em casos de perigo no mar. Essa Conferência tb convidou a IMO a elaborar 
+um Sistema Marítimo Global de Socorro e Segurança, com a inclusão de disposições sobre telecomms, capaz de receber 
+automaticamente os pedidos de socorro dos navios, e entregar aos mesmos subsídios para aumentar a segurança da navegação. 
+> 1988: numa Conferência da SOLAS, foi aprovada a introdução do GMDSS na Convenção. O GMDSS entrou em operação em 
+1992, e deveria estar totalmente implementado pelos países da IMO até l/fev/99. 
+- O GMDSS foi estruturado a partir de sistemas de busca por satélite desenvolvidos pela URSS (COSPAS) e EUA (SARSAT). 
+- As instruções em vigor ainda mantêm os recursos centenários para se solicitar auxílio. 
+2) CONCEITO BÁSICO DO GMDSS (EROG - anexo IV): 
+> As autoridades SAR de terra e as embs próximas ao sinistro são rapidamente alertadas, e podem participar de uma ope SAR 
+coordenada, com um min de atraso. / O sistema, adicionalmente, possibilita comms de urgência e segurança marítima (MSI). 
+> Os equipamentos requeridos pelos navios são determinados, a princípio, pela sua área de operação (EROG - Anexo V). 
+> O sistema divide os oceanos em 4 Áreas Marítimas de Operação: 
+- Al: dentro da cobertura radiotelefônica de ao menos uma estação costeira em VHF em que esteja permanentemente 
+disponível um alerta DSC. / Alcance de 20-30 milhas da costa. 
+- A2: dentro da cobertura radiotelefônica de ao menos uma estação costeira em MF em que esteja permanentemente 
+disponível um alerta DSC. / Alcance de +- 100 milhas da costa. / Exclui a área Al. 
+- A3: dentro da cobertura de um satélite geoestacionário INMARSAT (entre 70° N e S). / Exclui as áreas 1 e 2. 
+111 
+- A4: as áreas remanescentes no mar. 
+> 9 facilidades do GMDSS: 
+1) tx de alertas de socorro N-T por ao menos 2 vias independentes, cada qual usando um canal de radiocomms diferente; 
+2) rx de alertas de socorro T-N; 
+3) tx e rx de alertas de socorro N-N; 
+4) tx e rx de comms N-T-N para a coordenação de operações SAR; 
+5) tx e rx de comms N-N na cena de ação; 
+6) tx e rx de sinais N-N para localização de balsas e navios em perigo; 
+7) tx e rx de MSI; 
+8) tx e rx de radiocomms N-T-N de caráter geral; 
+9) tx e rx de comms ponte a ponte. 
+> 5 serviços do GMDSS: 
+1) radiocomms e avisos de incidente SAR pelo INMARSAT; 
+2) avisos de incidente SAR pelo COSPAS-SARSAT; 
+3) SMM em HF; 4) SMM em MF; e 5) SMM em VHF. 
+> Outros sistemas de satélites, como os "Satélites Ambientais de Operação Geoestacionária" (GOES), complementam o 
+COSPAS-SARSAT através de repetidoras de 406 MHz. 
+
+
+===== PAGINA 358 =====
+
+K^SOSSSSS^H 
+3) FUNÇÕES DE COMUNICAÇÃO DO GMDSS: 
+a) Alerta de socorro: 
+> É a informação de um incidente para um RCC ou um navio nas imediações. / Quando um alerta é recebido por um RCC, 
+normalmente via uma CES/INMARSART, ele irá retransmiti-lo às unidades SAR e a todos os navios nas imediações. 
+> Pode ser executado nas 3 direções (N-T7N-N/T-N), em todas as áreas marítimas. A função de alerta é baseada nos meios 
+terrestre e por satélite. 
+> Um alerta de socorro é normalmente iniciado manualmente, e todos eles são certificados manualmente. Ele é inicialmente 
+tx na direção N-T. Quando é tx por DSC em MF, HF ou VHF, os navios dentro do alcance DSC tb são alertados. 
+> A re-tx de um alerta de um RCC para os navios nas imediações é feita por comms satélite ou terrestre. Mas, para evitar que 
+todos os navios sejam alertados, uma "chamada de área" é transmitida só para os navios nas imediações. / Ao receber uma tx 
+de alerta, os navios são requisitados a estabelecer comms com o RCC solicitante para possibilitar uma ação coordenada. 
+b) Comunicações coordenadas SAR: 
+> Incluem as comms entre os RCC e qq comandante na cena de ação ou coordenador da busca de superfície na área. 
+> O tráfego pode ser conduzido por satélite ou meios terrestres, usando radiotelefonia e/ou radioteleimpressão. 
+c) Comunicações na cena de ação: 
+> A unidade que coordena o SAR na cena de ação deve selecionar ou designar as freqs (normalmente VHF e MF). 
+> As comms entre o navio em perigo e as unidades SAR na cena são feitas por radiotelefonia e/ou radioteleimpressão. 
+> As ANVs SAR normalmente podem usar 3023,4125 e 5680 KHz, além de 2182 KHz e 156,8 MHz (canal 16). 
+d) Localização: 
+> É a indicação da posição do navio/ANV/balsas/pessoas em perigo. 
+> Essa função é executada pelo SART (transponder radar de 9 GHz), que fornece 12 pontos padrão na PPI do interrogador. 
+e) Promulgação de MSI: 
+> As MSI englobam: Avs aos Navegantes, avisos e previsões meteorológicas, e outras infos urgentes e atualizadas. 
+> NAVTEX: por radioteleimpressão em banda estreita (NBDP em 518 KHz). 
+> SafetyNET: radiodifusão via INMARSAT por meio de EGC, para quem está fora da cobertura NAVTEX. 
+f) Radiocomunicações gerais: 
+> São comms entre navios e as redes de terra, referentes ao gerenciamento e operação do navio, conduzidas em canais 
+apropriados, inclusive aqueles usados para correspondência pública. 
+g) Comms ponte a ponte: 
+> São comms de segurança inter-navios, normalmente em VHF (ex: ship-tug). 
+4) SISTEMAS DE COMUNICAÇÕES NO GMDSS: 
+a) Comms por satélite: 
+> INMARSAT: usa 4 sats geoestacionáríos e opera as SES entre 1,5 e 1,6 GHz (banda L), provendo-as com recursos de alerta 
+de socorro e capacidade de comms por radioteleimpressão e radiotelefonia. 
+- As EPIRBs de 1,6 GHz tb geram alerta de socorro. 
+- O SafetyNET é o principal meio para prover MSI para as áreas não cobertas pelo NAVTEX. 
+> COSPAS-SARSAT: usa 6 sats de órbita polar, usa EPIRB satélite em 406 MHz, e prove um dos ppais recursos de alerta de 
+socorro e determinação da posição e identidade da emb em perigo. 
+b) Comms terrestres: 
+> O DSC é a base para alerta de socorro e comms de segurança. Depois de um alerta DSC, as comms de segurança e socorro 
+podem ser conduzidas por radiotelefonia e/ou radioteleimpressão. 
+c) Serviço a longa distância: o HF possibilita este svç nas direções N-T-N. 
+> Nas áreas cobertas pelo INMARSAT, o HF é uma alternativa às comms por satélite. Fora dessas áreas, ele constitui a única 
+capacidade de comm a longa distância. 
+d) Serviço a média distância: a MF possibilita este svç nas direções N-T-N e N-N. 
+> 2187,5 KHz: 
+alertas de socorro e chamadas de segurança por DSC. 
+> 2182 KHz: 
+tráfego de socorro e segurança por radiotelefonia. 
+> 2174,5 KHz: 
+tráfego de socorro e segurança por radioteleimpressão. 
+e) Serviço a curta distância: 
+> 156,525 MHz (canal 70): alertas de socorro e chamadas de segurança com DSC. 
+> 156,8 MHz (canal 16): 
+tráfego de socorro e segurança por radiotelefonia, inclusive comms de coordenação SAR e na cena 
+de ação. 
+Obs: Não há serviço de curta distância em VHF para radioteleimpressão. 
+
+
+===== PAGINA 359 =====
+
+5) SISTEMA INMARSAT: 
+> OCC (Centro de Controle de Operações - UK): é o responsável pelo ganho dos sinais, tarifação, monitoramento e 
+posicionamento dos satélites e pelo comissionamento das SES. 
+> Os 3 componentes ppais do sistema são: os sats, as CES e as SES. 
+A) Segmento espacial (EROG - anexo VI): 
+> São 4 sats geoestacionários a +- 36.000km do equador, cobrindo as seguintes regiões oceânicas de 70° N a 70° S: 
+IOR, POR, AOR-W e AOR-E (X = 15,S°W). 
+> As comms Sat-N são feitas entre 1530 e 1545 MHz (1544 - 1545 
+é só para comms de socorro e avisos de perigo). 
+> As comms N-Sat são feitas entre 1625,5 e 1646,5 MHz (1645,5- 1646,5 é só para comms de socorro e avisos de perigo). 
+> As comms CES-SAT-CES são realizadas na faixa de 4 - 6 Ghz. 
+B) CES: 
+> Interligam as redes de telecomms terrestres e por satélites. / No Brasil, a única CES é da Embratel, em Tanguá. 
+> Uma parabólica é usada para tx sinais para o sat em 6 G e rx sinais do sat em 4 G. 
+> A mesma antena ou outra parabólica é usada para tx em 1,6 G e rx em 1,5 G na rede de controle de sinais que passam na CES 
+entre os usuários e o satélite (e vice-versa). / Navios tx em 1,6 Gerxem 
+1,5 G. 
+> Em cada região oceânica, uma CES é designada para atuar como NCS, cujas funções são: 1) designar os canais de comunicação 
+em demanda para as CES e SES naquela região; e 2) monitorar os sinais tx por aquelas estações. 
+(vide EROG - tab 3.5) 
+C) SES: abrange os equipamentos INMARSAT-A, B e C, a saber: 
+INMARSAT-A: 
+> Dispõe de recursos telex e telefônicos, podendo ser associado a computadores ou sistemas de imagens. 
+> Os mais modernos permitem adicionar periféricos como: fax, dados e televisão de baixa varredura. 
+> Permite tx automaticamente uma msg de socorro contendo: id e pos do navio, hora do pedido e natureza do socorro. 
+> Podem preparar msgs telex que podem ser editadas e armazenas para futura transmissão. 
+> Pesa +-100 kg e custa +- U$40.000,00. / Possui plataforma estabilizada. 
+> O equipamento possui 7 dígitos de identificação. / Ex: 1550472: 
+1 - equipamento; 550 - país; 472 - id do navio, por tipo de comm (ex: 472 para radiotelef e radioteleimp, ou 473 para fax) 
+INMARSAT-B: é um complemento digital do A (que vai substituí-lo). Proporciona os mesmos serviços de comms que o A. 
+INMARSAT-C: 
+> Não operam em radiotelefonia. / Permitem apenas comms por radioteleimp duplex (navio tx em 1,6 G, e rx em 1,5 G). 
+> Podem acessar as redes internacionais de telex e teletex. email e camputador de dados. 
+> Podem transmitir msgs automáticas de socorro (idêntico ao A). 
+> Pesam +- 8 Kg, e custam +- U$12.000,00. / Antena onidirecional (sem estabilização). 
+> Possui 9 dígitos de identificação: (1) id do equipamento + (3) país + (5) id do navio. / Ex: 4 710 02810. 
+RECEPTOR EGC (Enhanced Group Calling): 
+> Permite que as msgs sejam enviadas a grupos de navios específicos (de uma dada bandeira ou área geográfica). 
+> É exigido no GMDSS para os navios que navegam fora da cobertura do NAVTEX. 
+> Quando acoplado aos INMARSAT-A/B/C: permite a recepção do MSI pelo SafetyNET, de forma contínua e automática; e 
+ainda recebem msgs comerciais pelo serviço INMARSAT FLEETNET. 
+> Quando operam independentes (com sua própria antena): podem substituir o receptor NAVTEX, pois possuem as mesmas 
+caracts de operação. 
+
+
+===== PAGINA 360 =====
+
+6) SERVIÇOS INMARSAT: 
+a) Alerta de socorro N-T: 
+> O INMARSAT prioriza o acesso aos canais de satélite em situações de emerg. Cada SES é capaz de iniciar uma msg de 
+"solicitação" com prioridade de socorro (prioridade 3). / Qualquer msg com essa prioridade é automaticamente reconhecida 
+pela CES, e um canal de satélite é designado para aquela SES (mesmo que todos estejam ocupados). O processamento dessas 
+chamadas é 100% automático, mas o pessoal da CES é notificado da recepção através de alarmes audiovisuais, que só podem 
+ser desarmados manualmente. 
+> Para assegurar o correto tratamento das solicitações de prioridade de socorro, as NCS automaticamente monitoram o 
+processamento de tais chamadas por todas as CES da sua região. / Caso ocorra qq anormalidade no processamento, a NCS 
+agirá para estabelecer a conexão ponto-a-ponto. / Se a chamada de socorro for direcionada, a NCS da região a aceitará. 
+> A CES que recebe a msg de socorro a transmite automaticamente e com prioridade para o RCC apropriado. 
+> Para iniciar uma msg de socorro: o operador da SES usa um botão de socorro, possibilitando uma conexão automática, direta 
+e assegurada para uma autoridade de busca. / O operador não tem que discar o número telefônico ou do telex do RCC. 
+- Mas os navios podem acessar qualquer RCC de sua escolha, discando o número internacional do telefone/telex do RCC. 
+> A msg de socorro é enviada num formato padronizado, constando da identificação do navio, sua posição (o eq INMARSAT é 
+ligado a um GPS), da hora e natureza do socorro. 
+b) Alerta de socorro T-N (para navios sem EGC): 
+> Para grupos de navios com eqs INMARSAT sem capacidade de rx o SafetyNET, o alerta de socorro pode ser assim executado: 
+- Chamadas para todos os navios de uma região oceânica: não é muito eficiente. 
+- Chamadas em área geográfica: as SES de navios navegando numa determinada NAVAREA (cada uma tem um código de 2 
+dígitos) são automaticamente reconhecidas e acessadas (mas os navios tem que inserir o código correto). 
+- Chamadas em grupo para navios selecionados: um grupo predeterminado de navios recebe o alerta. / E usado, por ex, para 
+alertar unidades SAR. / Este serviço é proporcionado por um número de CES no modo operador-assistido. 
+c) Alerta de socorro T-N pelo SafetyNET: 
+> Se o INMARSAT estiver conectado ao receptor EGC, ele recebe msgs através do SafetyNET, inclusive alertas de socorro N-T. 
+> Quando o eq recebe uma msg de socorro, ele soa um alarme (desarmado manualmente). 
+d) Comunicações coordenadas de busca e salvamento: 
+> Para controlar e coordenar o SAR, os RCC necessitam ter comms com o navio em perigo e com as unidades participantes. Os 
+métodos e modos de comm (terrestre, satélite, telefone, telex) a serem usados dependem dos eqs disponíveis em cada unidade. 
+> Uma msg de socorro pode ser recebida por um RCC muito distante do sinistro. Neste caso, a pronta re-tx da msg para o RCC 
+apropriado é essencial. Por isso, uma interligação segura dos RCC é muito importante para o GMDSS. / Alguns RCC têm eqs 
+INMARSAT típicos das CES, o que os torna independentes de linhas ou redes públicas comutadas. 
+e) Comunicações SAR na cena de ação: 
+> São as comms entre navio sinistrado e unidades assistentes; ou entre as unidades SAR e o comandante da cena de ação ou CSS 
+(Comte da Busca de Superfície). 
+> Normalmente, são comms de curta distância, e feitas nas freqs de socorro e segurança em VHF ou MF do GMDSS. 
+> Navios com INMARSAT podem usar comms por satélite como complemento para o seu VHF e MF. 
+f) Promulgação de MSI: é realizada com o SafetyNET. 
+> Acoplando-se o eq EGC ao eq INMARSAT-A/B/C, pode-se receber as radiodifusões SafetyNET. 
+g) Radiocomunicações gerais: 
+> O INMARSAT fornece aos navios os mesmos tipos e qualidades das modernas comms disponíveis em terra. 
+> As radiocomms permitem ao dono do navio consultar e obter infos sobre qq assunto, de natureza comercial ou de segurança. 
+> Periféricos das SES: teleimpressoras, unidades mostradoras de video (VDU), telefones, fax e equipamentos de dados. 
+h) EPIRBs satélite da banda L (1,6 G): 
+> Podem ser usadas nas áreas Al, A2 e A3 como um recurso alternativo às EPIRBs satélite do COSPAS-SARSAT (406 MHz). 
+> A EPIRB transmite um sinal de socorro na freq de 1,6 GHz. / O sat o retransmite para uma CES dotada de RPU. / A CES 
+decodifica o sinal e o retransmite para um RCC. 
+> As CES com RPU são conhecidas como "CES INMARSAT-E". / Em cada região oceânica, existe apenas 1 ou 2 CES desse 
+tipo, capazes de processar e decodificar o sinal EPIRB 1,6 GHz. 
+> O sinal das EPIRBs contém a id da estação, pos e infos adicionais para a busca. / A tx é repetida num ciclo pré-selecionado. 
+> Caracts da EPIRB de 1,6 GHz: 
+- Antena de polarização circular 
+- Ativação manual ou automática. / Deve ser lançada entre 70° N e S. 
+- Transmite 20 alertas simultâneos em 10 min (1 transmissão) 
+- Número de transmissões: 4 / Tempo total de transmissão: 40 min. 
+
+
+===== PAGINA 361 =====
+
+7) SISTEMA COSPAS-SARSAT (fig 17-1): 
+> Serve para localizar balizas de socorro que transmitam em 121,5,243,0 ou 406 MHz. / Não permite o tráfego de comms! 
+> A SOLAS-74 obriga todos os navios a ela sujeitos a possuir uma EPIRB de 406 MHz do COSPAS-SARSAT; a não ser 
+que, alternativamente, o navio possua uma EPIRB satélite de 1,6 GHz. 
+a) Conceito do sistema: 
+> 4 sats (eram 6) usam o efeito Doppler para localizar as balizas. 
+> A órbita é quase polar e relativamente baixa (1000 km para os 2 COSPAS e 850 km para os 2 SARSAT). / Vantagens desse 
+tipo de órbita: baixa pot de subida, grande mudança Doppler, apenas 100 min entre passagens sucessivas e cobertura global. 
+> Há 3 tipos de balizas: - ELT: 
+em aeronaves sinais analógicos em 121,5. 
+- EPIRB: em navios 
+sinais digitais em 406 ou analógicos em 121,5. 
+- PLB: 
+terrestre 
+sinais analógicos em 243,0. 
+- Balizas de 406 MHz: são mais sofisticadas, e incluem códigos identificadores nas msgs. 
+> Localização Doppler: prove 2 posições para a baliza: uma verdadeira e a sua imagem espelhada. 
+- Essa ambigüidade é resolvida por cálculos que consideram a rotação da terra. 
+- Baliza de 406 MHz: a solução verdadeira é determinada com uma só passagem do sat. 
+- Baliza de 121,5 MHz: a ambigüidade é resolvida na 2a passagem, se a primeira for sem sucesso. 
+- Por isso a IMO selecionou as EPIRBS de 406 MHz para emprego no GMDSS. 
+> Os sats transmitem os sinais para uma LUT (Local User Terminal), que os processa para localizar a baliza. / Daí o alerta é 
+retransmitido, via um MCC, para um RCC nacional, ou para uma autoridade SAR apropriada. / Vide anexo VIII. 
+b) Modos de cobertura (são 2): 
+> Modo em tempo real 121,5 MHz: uma LUT e a EPIRB deverão estar no mesmo footprint do sat (cerca de 2500 km de raio). 
+O sat retransmite diretamente para a LUT o sinal recebido da baliza. 
+- Por não haver muitas LUTs, a cobertura em tempo real é improvável de ser obtida. / Por isso, as EPIRBS de 121,5 MHz, os 
+ELT e os PLB funcionam mais para "homing" dos veículos SAR. / As de 121,5 e 243 ainda dão muito alarme falso. 
+> Modo em tempo real 406 MHz: o sat recebe as infos da baliza (incluindo dados digitais de id, pos, etc), rotula essas infos no 
+tempo, as formata com dados digitais e as transmite em tempo real para qq LUT no campo de visada. 
+- Os dados ficam armazenados na memória do sat para futura transmissão no modo de cobertura global. 
+> Modo de cobertura global 406 MHz: armazena os dados no satélite para futura transmissão para as LUTs. 
+c) Segmento espacial: 
+> Instrumentação SAR a bordo dos sats: 
+- Em tempo real: receptor/processador de dados, memória e conexão de descida em 406 MHz, e repetidor em 121,5 MHz. 
+- Cobertura global: transmissor em 406 MHz de dados armazenados. 
+d) LUT (Local User Terminal): 
+> Recebe e decodifica o sinal da baliza para identificá-la. / Em seguida, envia os dados para o MCC apropriado. 
+> Há 2 tipos de LUT: as que processam ambas as freqs, e as que só processam 406 MHz. 
+e) MCC (Mission Control Center): 
+> Coletam, armazenam e classificam os dados das LUTs. / Enviam as msgs de alerta para os outros MCC. 
+> Analisam a ambigüidade da posição do alerta, e informam o RCC responsável pela área SAR. 
+> Cada país opera ao menos uma LUT. 
+> A FAB mantém um MCC em Brasília, 2 LUT (em Brasília e Recife), e uma 3a prevista para Manaus (fig 17-2). 
+Obs: os dados das EPIRB de 121,5 são apenas para localização, e os das EPIRBS de 406 são para localização e identificação. 
+f) EPIRB satélite 121,5 MHz: 
+> Essas EPIRBs são usadas por anvs e navios. / Elas permitem que as unidades SAR se orientem na sua direção, e podem ser 
+monitoradas por aeronaves que as sobrevoam. / Os ELT (121,5 MHz) e os PLB (234,0 MHz) são +- a mesma coisa. 
+g) EPIRB satélite 406 MHz: 
+> Desenhadas para detecção satélite e localização Doppler. / Cobertura global. 
+> Melhor precisão na localização: 2 NM ou 100 metros (quando acoplada a um GPS). 
+> Resolução de ambigüidade (o sistema seleciona a localização "verdadeira" melhor que a "espelhada"). 
+> Identificação única de cada baliza e inclusão da informação de socorro (uma msg digitalizada informa o país de origem, a 
+identificação do navio/anv e natureza do socorro). 
+> A maior parte das balizas opera nas duas freqs, embora 121,5 MHz não seja obrigatório (a transmissão em 121,5 nas 
+balizas de 2 freqs tem a fç de orientar as unidades SAR, e permitir que uma anv que a sobrevoe monitore o seu sinal). 
+- Como os SART de 9 GHz (previstos para substituir as EPIRB 121,5 MHz a partir de 1995) possuem um alcance limitado de 
+cerca de 5 milhas, já se considera exigir que todas as EPIRBS marítimas operem em ambas as freqs. 
+> Ppais caracts: ativadas manual ou automaticamente; transmitem pulsos de 0,5 seg a cada 50 segs; a bateria dura 48 h a 
+-20°C elOOh a +20°C; suportam ventos de até 100 kt; e possuem luz estroboscópica branca de 52 lamp/min. 
+
+
+===== PAGINA 362 =====
+
+8) DSC: 
+(nada a ver com satélites) 
+> Fora das áreas servidas pelo INMARSAT, os transceptores MF/HF/VHF são os únicos meios de comm N-T-N. Para melhorar o 
+desempenho desses transceptores, anexa-se a eles um eq digital (o DSC). Isso evita o uso de voz (impede o congestionamento 
+do canal), e ainda permite chamadas para grupos, ou para navios em uma determinada área. 
+> A DSC é usada para tx e re-tx alertas de socorro, tx recibos de msgs, outras chamadas de urgência e segurança, bem como 
+msgs de rotina (correspondência pública) N-T-N e N-N. 
+> No caso de msgs de alerta, depois do alerta inicial e do seu reconhecimento, as comms subsequentes devem ser feitas por 
+radiotelefonia ou radiotelex. 
+> Freqs importantes: 
+- Para socorro, urgência e segurança (Simplex): 
+- Para tráfego de socorro: (não é DSC!) 
+> 
+Para correspondência pública: 
+VHF: 
+MF: 
+HF: 
+VHF: 
+MF: 
+HF: 
+VHF: 
+MF/HF: 
+156,525 MHz (canal 70) 
+2187,5 KHz 
+8414,5 KHz+ 4 freqs 
+156,8 MHz (canal 16) 
+2182 KHz 
+2174,5 KHz 
+4125 + 5 freqs 
+4177,5 + 5 freqs 
+(DSC) 
+(DSC) 
+(DSC) 
+(radiotelefonia) 
+(radiotelefonia) 
+(radiotelex) 
+(radiotelefonia) 
+(radiotelex) 
+156,525 MHz (canal 70; Simplex) 
+(DSC) 
+até 128 pares de freqs (Duplex) 
+(DSC) 
+Receptor DSC de bordo: mantém escuta permanente nas freqs de socorro em MF (2187,5), VHF (canal 70) e HF (no min 
+em 8414,5, mas normalmente há varredura automática). / Ao receber uma chamada, o eq treca a freq e a exibe no mostrador. 
+- Assim como o EGC, o DSC tem um display e uma impressora para o recebimento das msgs. As chamadas são impressas em 
+inglês. / Para certas categorias de chamadas, há alarmes audio e/ou visual, que só podem ser desarmados manualmente. 
+> Receptores de estações costeiras: monitoram todas as 7 freqs de socorro. / É recomendável que essas estações sejam capazes 
+de receber mais de uma chamada de socorro simultaneamente, nas diferentes freqs (logo, não devem usar receptores de 
+varredura automática). / Em HF, elas devem escolher uma das 4 freqs (8414,5 não!) para retransmitirem alertas. 
+> Tentativas de chamada de socorro: para aumentar a probabil. de que uma chamada de socorro (ou sua re-tx) seja recebida. 
+- Em MF e HF, há 2 tipos possíveis de tentativas de chamada de socorro: 1) tentativa de chamada numa freq (5 chamadas 
+consecutivas numa mesma freq); ou 2) tentativa de chamada multifrequência (6 chamadas consecutivas em qq das 6 freqs). 
+- Em VHF, só é usada uma tentativa de chamada no canal 70. 
+> Chamadas de socorro em VHF e MF/HF podem ser transmitidas simultaneamente. 
+> Conteúdo da chamada DSC: end do(s) destinatário(s), id da estação transmissora, e diversos campos de informações. 
+- Os endereços possuem 9 dígitos. Os 3 primeiros indicam o país. 
+a) Chamadas de socorro (Alerta): 
+> São recebidas por navios ou estações costeiras que estejam dentro do alcance da radiofreqüência usada. 
+> A identidade do tx pode ser inserida pelo operador (caso este não o faça, ela será inserida automaticamente). Tb são incluídas 
+outras infos, tais como: a natureza do acidente e, se houver interface com o GPS, a posição e HMG. 
+> Quando o tempo não permitir ao operador inserir qualquer informação, a palavra "default" será incluída automaticamente. 
+b) Recibo de socorro: 
+> É transmitido manualmente pelas estações costeiras, na mesma freq em que a chamada de socorro foi recebida. 
+- Em MF/HF: transmitir o recibo com um retardo de 1-2,75 min. / Em VHF: transmitir o recibo ASAP. 
+> Se outro navio perceber que nenhuma estação costeira deu o recibo, ele poderá fazê-lo por radiotelefonia. na mesma faixa em 
+que a chamada foi recebida pelo DSC. / Ex: ao receber uma chamada DSC em 2187,5 KHz, dê o recibo por fonia em 2182 KHz. 
+c) Retransmissão de socorro: 
+> É feita na forma de tentativa de chamada, multi-frequência ou numa única freqüência, nas seguintes situações: 
+- Por uma estação costeira: para alertar os navios na área do incidente. Será endereçada: para todos os navios, para um 
+grupo selecionado de navios, ou para um navio específico. 
+- Por uma estação de navio: para uma estação costeira, caso tenha recebido uma chamada de socorro DSC numa freq de 
+HF e não tenha recebido o recibo de uma estação costeira dentro de 3 min. 
+> Ao receber uma re-tx endereçada aos navios numa dada área geográfica, se o mostrador/impressor e o alarme do DSC não forem 
+ativados, significa que as suas coordenadas (inseridas manualmente ou por interface) estão fora da área geográfica endereçada. 
+d) Repetições de chamadas de socorro pelo DSC: 
+> Se o navio em perigo não recebeu o recibo, ele deve repetir a tentativa de chamada após um retardo de 3,5-4,5 min da 
+chamada inicial (isso pode ser feito automaticamente pelo eq de bordo). 
+
+
+===== PAGINA 363 =====
+
+e) Equipamentos DSC embarcados: 
+> Unidade de controle DSC: ligada a eqs rádio VHF ou MF/HF adequados, proporciona um sistema-rádio completo para 
+operação no sistema DSC. Consiste de um modem, um codificador/decodificador e urna CPU. / Possui um alarme, que soa 
+quando uma msg de socorro DSC é recebida. 
+- Possui um registrador interno que permite armazenar núms de id das estações costeiras com as quais o navio normalmente 
+opera, bem como núms telefônicos de assinantes em terra. Isso permite que o operador use formas abreviadas ao compor msgs. 
+> As informações das msgs são decodificadas e exibidas no painel do mostrador.e podem ser armazenadas numa memória 
+interna. 
+> Ao receber outras msgs que não sejam chamadas de socorro, urgência ou segurança, a unidade de controle transmite o 
+recibo automaticamente. 
+> O botão "distress" do painel de controle inicia a tx de uma chamada de socorro. A unidade de controle permite a inclusão de 
+informação adicional na msg de socorro referente à situação de perigo. 
+> Após iniciada, a chamada de socorro é automaticamente repetida +- a cada 4 min, até que outra estação acuse o 
+recebimento, ou até que seja interrompida manualmente. 
+> Controles do painel frontal: permitem compor diferentes tipos de msgs DSC. / No caso do VHF, para msgs endereçadas a uma 
+estação costeira específica, o operador pode incluir na msg o num telefônico de um assinante em terra. 
+9) TRANSPONDER RADAR DE BUSCA E SALVAMENTO (SART): 
+> É o ppal recurso do GMDSS para localizar navios em perigo e suas embs de sobrevivência. / Sua condução é obrigatória. 
+> Conceito: pode ser ativado de forma manual ou automática (quando na água), ficando em standby. 
+- Ao ser interrogado em 9 GHz, ele fornece 12 pontos padrão na tela para fora da pos do SART, na sua marcação. 
+- Ao se aproximar, a linha de 12 pontos tende a se expandir em arcos concêntricos, que a cerca de 1 milha viram círculos. 
+- Para um radar de navio cuja altura da antena seja de 15 m, o alcance é de ao menos 5 milhas. 
+- Para um radar de aeronave de 10 KW a 3.000 ft, o alcance é de +- 40 milhas. 
+> Caracts: possui recursos para evitar ativação inadvertida e recursos para indicar a correta operação e para alertar aos 
+sobreviventes que um radar os detectou; resiste a 10 m de água e à exposição prolongada ao sol; é impermeável; é todo amarelo 
+ou laranja; fica em standby por 96 hs e responde por 8 hs; sua antena deve ser instalada a pelo menos 1 metro da água; 
+opera mesmo com vagas grandes. 
+10) SISTEMA DE INFORMAÇÃO DE SEGURANÇA MARÍTIMA (MSI): 
+> MSI: são os Avs aos Navegantes, os avisos e previsões meteorológicos, as msgs de alerta SAR e outras msgs urgentes 
+relacionadas à SegNav. 
+> Sistemas de radiodifusão de MSI no GMDSS: 
+- Manual: radiotelegrafia em HF (está sendo substituído durante a implantação do GMDSS). 
+- Automáticos: NAVTEX e SafetyNET (ambos usam a divisão em 16 NAVAREAS para a promulgação dos Avisos). 
+a) Serviço Mundial de Avs aos Navegantes (WWNWS): 
+> Foi estabelecido pela IMO e IHO para coordenar a tx de Avs aos Navegantes dentro das NAVAREAS. / No GMDSS, o 
+WWNWS foi incluído nos sistemas para a promulgação das MSI. 
+> Os serviços coordenados internacionalmente abrangem somente os avisos de longa distância (NAVAREA) e os costeiros 
+(NAVTEX). / O idioma obrigatório é o inglês, mas permite-se um segundo idioma. 
+> Os Avs aos Navegantes devem referir-se somente a uma área. / São difundidos enquanto permanecem em vigor, ou até que a 
+informação se torne disponível por outros meios. / Só devem ser cancelados pelo coordenador que os iniciou. 
+> Os Avisos, em cada um dos 3 tipos, são numerados anual e consecutivamente, a partir de 0001 (se chegar a 9999, volta a 0001). 
+> Avisos em NAVAREA: infos sobre deficiências dos aux à navegação e outras infos que possam requerer mudanças de derrotas. 
+- Devem estar disponíveis nos portos para os navios que os demandarem (de preferência na forma impressa). 
+- São tx em inglês, mas tb podem ser tx em outra língua oficial da ONU, a critério do Coordenador. 
+- O Coordenador da NAVAREA é a autoridade que coordena, coleta e emite (por radiodifusão e impressão) os Avs aos Navs 
+e os Boletins de Avisos em NAVAREA (= lista dos avisos em NAVAREA em vigor). 
+> Avisos Costeiros: infos necessárias à segurança da navegação numa determinada região, principalmente para navios vindos de 
+mar aberto que acessam um canal balizado ou área de espera de Prático. 
+- Devem incluir, no mínimo, os tipos de infos exigidas para os avisos em NAVAREA. 
+- São tx em inglês, podendo, adicionalmente, usar o idioma nacional. 
+- Região servida pelo NAVTEX: este deve prover os Avs aos Navs de toda a área de svç de radiodifusão aprovada pela IMO. 
+- Região não servida pelo NAVTEX: é desejável que todos os Avisos relevantes para as águas costeiras (até 250 milhas da 
+costa) sejam incluídos na transmissão do SafetyNET. 
+- O Coordenador Nacional é a autoridade que coordena, coleta e emite os Avisos Costeiros e Boletins de Avisos Costeiros. 
+> Avisos Locais: suplementam os Avs Costeiros com detalhes sobre as águas interiores (incluindo os limites do porto) que não 
+sejam de interesse de quem não vai demandar aquele porto. / São tx apenas na língua nacional. 
+
+
+===== PAGINA 364 =====
+
+b) NAVTEX (é só no sentido T-N): 
+(EROG - anexos XIIe XIII) 
+> Transmite as MSI em inglês, em 518 KHx, por NBDP, até 400 milhas da costa (nas áreas Al e A2), com potência e horários 
+estabelecidos pela IMO (para evitar interferência mútua entre as estações NAVTEX). 
+> A IMO deixa a critério dos países a adoção de serviços NAVTEX a nível nacional em 490 ou 4209,5 KHz. 
+> Os Coordenadores NAVTEX controlam as msgs transmitidas por cada estação, de acordo com as informações contidas em 
+cada msg e a cobertura geográfica requerida. 
+> Desde ago/93, todos os navios que navegam em áreas servidas pelo NAVTEX são obrigados a ter um receptor NAVTEX. 
+> Recomenda-se sintonizar o receptor ao menos 8 horas antes de suspender (para receber todas as infos de segurança). 
+> Um dispositivo seletivo de bloqueio de msgs do receptor permite só receber msgs de seu interesse, o que não impede a rx de 
+msgs relativas à segurança (Avs aos Navs, Boletins Meteorológicos e infos sobre SAR). 
+> Avs em NAVAREA e Costeiros: devem ser incluídos nas msgs NAVTEX (Avs Locais não!). 
+> Prioridade das msgs NAVTEX: 
+- Vital: para radiodifusão imediata. 
+- Importante: para radiodifusão no próximo tempo disponível quando a freq não estiver sendo usada. 
+- Rotina: para radiodifusão no próximo horário da tabela de transmissão. 
+* As vitais e importantes devem ser repetidas, no mínimo, na próxima transmissão programada. 
+c) INMARSAT SafetyNET (é só no sentido T-N): 
+> Sistema EGC SafetyNET: desenvolvido pelo INMARSAT para prover um serviço automatizado e global, capaz de endereçar 
+msgs para um grupo pré-determinado de navios ou para todos os navios, em áreas geográficas variáveis ou nas NAVAREAS. 
+- As tx devem cobrir a NAVAREA e toda a extensão limítrofe que possa percorrer um navio rápido em 24 horas (+- 700 NM). 
+- O Brasil é o coordenador na NAVAREA V. A estação terrena da Embratel em Tanguá transmite dados fornecidos pela DHN. 
+> A difusão é feita pelo INMARSAT (via um EGC acoplado), mas o HF continua a ser usado. / A recepção é grátis. 
+> Reúne as necessidades de radiodifusão dos 3 tipos de Avs aos Navs, dos Avisos e Previsões meteorológicas e dos Alertas de 
+Socorro T-N para qq região dentro da cobertura satélite do INMARSAT. 
+> Msgs SafetyNET: são processadas em qq lugar do mundo, e são tx para a região oceânica apropriada via uma CES (a CES 
+recebe as msgs, manda para a NCS daquela região oceânica, que manda para o satélite, que manda para os navios). 
+- As CES transmitem essas msgs de acordo com a sua categoria: socorro, urgência, segurança e rotina. 
+- Ao receber msgs de socorro e de urgência, alarmes visuais e sonoros são ativados (devem ser desarmados manualmente). 
+> O receptor EGC é exigido, no GMDSS, para navios que navegam longe da costa, fora da cobertura do NAVTEX. 
+- Mas ele tb pode prover um serviço automatizado em águas costeiras onde não haja NAVTEX disponível, ou onde a densidade 
+da navegação seja muito baixa para justificar a implantação deste serviço. 
+- O receptor EGC acoplado ao eq FNMARSAT-C recebe as msgs usando a sua antena omnidirecional. 
+- O receptor EGC acoplado com a sua própria antena tb funciona como um receptor NAVTEX, podendo substituí-lo. 
+11) MMSI - MARITIME MOBILE SERVICE IDENTITY NUMBER: 
+> O núm de identificação MMSI é usado em EPIRBS e em eqs DSC (são 9 dígitos, 3 para o país e 6 para a id do usuário). 
+12) SERVIÇO DE BUSCA E SALVAMENTO NO BRASIL: 
+> A estrutura segue a Convenção SAR (de Hamburgo) de 1979, da IMO. A organização SAR prevê um MRCC (Maritime RCC), 
+ao qual se subordinam RSC (Rescue Sub-Centers). 
+> O Brasil é responsável de prover serviços SAR numa área delimitada no Atlântico Sul. Essa área foi dividida em sub-regiões, 
+onde os DN (Distritos Navais) são responsáveis por coordenar as operações SAR. 
+> Svç de Busca e Salv Marítimo = OMs da MB + estações da RENEC (do Min. das Comms, compondo o Sist de Alerta). 
+- Daí a distinção entre Svç de Busca e Salv da Marinha (SALVAMAR Brasil), e o Svç de Busca e Salv Marítimo (que 
+incorpora o Sistema de Alerta). 
+> Autoridades envolvidas numa Operação SAR: 
+- Coordenador de Busca e Salvamento: responsável pela coordenação e, quando apropriado, pela direção das operações. 
+- Coordenador de Missão SAR: designado pelo Coord, de Busca e Salvamento para coordenar uma missão específica. 
+- Comandante-na-Cena: Oficial que controla as operações e comms SAR na cena de ação. 
+> Incidente SAR: qq situação anormal relacionada à segurança de uma emb/anv que requeira notificação e alerta de recursos SAR. 
+> Fases que podem ser atribuídas a um incidente SAR: 
+a) INCERFA: há dúvidas quanto à segurança por falta de infos sobre a pos ou progressão, ou por se ter conhecimento de 
+possíveis dificuldades. 
+b) ALERFA: há apreensão quanto à segurança por falta contínua de infos sobre pos ou progressão, ou por haver recebido infos 
+definitivas de que dificuldades graves são inevitáveis. 
+c) DESTREFA: é necessário ajuda imediata em vista da falta contínua de infos sobre pos ou progressão, ou por que se tenha 
+recebido infos definitivas de que há ameaça de perigo grave ou iminente. 
+Obs: 
+1) Sinal de alarme radiotelegráfico: 12 traços de 4 segs, separados de 1 seg. 
+2) Sinal de alarme radiotelefônico: 2 tons alternados (2.200 e 1.300 KHz), com duração de 30-60 segs. 
+3) Sinais de EPIRBs: semelhante ao alarme radiotelefônico, ou uma série de tons singelos de 1.300 KHz. 
+
+
+===== PAGINA 365 =====
+
+« B g ^ g g g C ^ ^ 
+METEOROLOGIA PARA NAVEGNTES 
+CAP VH - GMDSS 
+> Vide fig 7-3 e tabelas 7-1 a 7-4. 
+>• É obrigatório para as embs de carga > 300 tons de arqueação, e para as embs de passageiros. 
+> Usa 2 novos meios de comms: os satélites e o DSC. 
+> Usa sistemas automáticos para a tx e rx de Avisos e Boletins Meteorológicos, Avs aos Navegantes e msgs de perigo e socorro. 
+> Prevê o atendimento de 9 requisitos ou facilidades: 
+1) tx de alertas de socorro N-T por, no mínimo, 2 meios de comms independentes. 
+2) rx de alertas de socorro T-N. 
+3) tx e rx de alertas de socorro N-N. 
+4) tx e rx de comms SAR. 
+5) tx e rx de comms na cena de ação. 
+6) tx e rx de MSI. 
+7) tx e rx de radiocomms gerais N-T-N. 
+8) tx e rx de comms passadiço-passadiço. 
+9) tx e rx de sinais para localização de navios e suas balsas (SART). 
+> A recepção de MSI pode ser feita por Navtex, SafetyNet, radiotelex e radiotelefonia. 
+> No GMDSS, dependendo da área, são obrigatórios o Navtex (518,490 e 4209,5 KHz) e o SafetyNet (Inmarsat-A com 
+EGC e Inmarsat-C). / Os eqs das embs dependem da área em que operam: 
+Áreas de cobertura (fig 7-4): 
+Al - coberta por uma estação costeira de VHF/DSC (+- 35 milhas). 
+A2 - coberta por uma estação costeira de MF/DSC (+- 150 milhas). Exclui a Al. 
+A3 - no alcance do INMARSAT (70° N a S). Exclui Al e A2. 
+A4 - fora das outras áreas 
+Obs: os serviços de longa distância e costeiros têm coordenação internacional, e os locais têm coordenação local. 
+Obs: o idioma obrigatório das transmissões no SafetyNet e no NAVTEX é o inglês, mas um 2° idioma é permitido. 
+> O GMDSS prove 5 serviços: - Svç de radiocomms e aviso de incidente SAR pelo INMARSAT. 
+- Svçs de aviso de incidente SAR pelo COSPAS-SARSAT. 
+-SMMemVHF. 
+-SMMemMF. 
+-SMMemHF. 
+> Radiotelex é uma opção mais econômica (??). mas a radiotelefonia não é uma opção prevista pelo GMDSS/MSI. 
+> Obs: nas embs que não possuem telegrafistas, as msgs SHIP são transmitidas por radiotelefonia (VHF/MF/HF), sem custos. 
+- Mas se usarmos Radiotelex ou INMARSAT para transmiti-las, haverá custos para o transmissor. 
+- Já a rx automática de msgs meteorológicas é sempre grátis. 
+Subsistemas do GMDSS: INMARSAT, COSPAS-SARSAT, Svç Mundial de Avs aos Navegantes e comms terrestres 
+e outras facilidades. 
+1) INMARSAT (Sist Internacional de Comms Marítimas por Satélite): 
+-1530-1544 MHz é usado para comms Sat-N. 
+(1544-1545 é exclusivo para comms de socorro e Avs de perigo) 
+-1626,5-1645,5 
+é usado para comms N-Sat. 
+(1645,5-1646,5 (banda L) é exclusivo para comms de socorro e Avs de perigo) 
+> Os satélites não calculam a pos da embarcação, que deve ser transmitida pelas SES ou inseridas nos EPIRBs. 
+Os EPIRBs emitem na banda L (1,6 GHz), e os mais recentes possuem GPS, que insere automaticamente a posição. 
+> Tipos de receptores INMARSAT: A, B, C, E e M. 
+- C: atualmente já incorpora o software do EGC, atende às necessidades do GMDSS, é o mais usado, custa 4 x menos que o A; 
+mas só recebe Avisos e Boletins Meteorológicos. 
+- A: além dos Avisos e Boletins Meteoro, recebe cartas sinóticas de pressão e imagens de satélites meteorológicos via internet. 
+2) COSPAS-SARSAT: usa 9 satélites de órbita polar. 
+(pelo EROG, são 4 sats) 
+
+
+===== PAGINA 366 =====
+
+?>?!§;•-
+• • 
+•' •".: 
+> 
+> 
+> 
+> 
+> 
+3) SERVIÇO MUNDIAL DE AVISOS AOS NAVEGANTES: 
+>. Os oceanos foram divididos em áreas de responsabilidade de divulgação de infos de segurança da navegação (NAVAREAS). 
+Serviço SafetyNet: 
+(vide exemplo de msg no anexo) 
+Embora também atenda às áreas Al e A2, sua finalidade é atender à área A3 (onde as embs de longo curso são 
+obrigatoriamente equipadas com o INMARSAT). 
+Permite receber infos de segurança da navegação e SAR, e permite ao navegante selecionar a classe de msgs de seu interesse. 
+Programe o receptor EGC SafetyNet para a MET AREA/NAV AREA V, selecionando o satélite do Atlântico Leste (AOR-E), 
+para o qual a CES de Tanguá dissemina as informações. 
+A SES precisa estar logada no satélite com o eq INMARSAT A/B/C acoplado ao EGC. 
+Pelo SafetyNet, a DHN transmite as seguintes MSI para a NAVAREA V: Avs aos Navegantes, Meteoromannha, Avs de Mau 
+Tempo e de SAR. / A programação é a seguinte: 
+- Avs aos Navegantes: 
+0030 e 1230 Z 
+- Meteoromarinha: 
+0730 e 1930 Z 
+Serviço NAVTEX: 
+(vide tabelas 7-1 a 7-4 e exemplo de msg no anexo) 
+> Sua finalidade é atender às áreas Al e A2. 
+> Tal como o SafetyNet, permite a rx automática de msgs de segurança marítima. 
+> Trabalha em NBDP - radiotelex. 
+> O mundo todo usa 518 KHz. / O Brasil foi autorizado a transmitir em 4209,5, e com isso pôde reduzir o número de estações 
+terrenas para 4. 
+> As msgs iniciam com ZCZC + _/_/ 
+(estação tx + tipo de msg, acd tab 7-1 + núm seqüencial), (vide anexo XIII do EROG) 
+Tipos de msgs: 
+A = *Nav warnings 
+B = *Met Warnings 
+* msgs que não podem ser rejeitadas pelo receptor 
+C = Ice reports 
+D = *SAR information 
+E = Forecast (meteorol) 
+F = Pilot services 
+4) COMUNICAÇÕES TERRESTRES E OUTRAS FACILIDADES: 
+^ 
+HF: fora da área servida pelo INMARSAT, essa é a única possibilidade de comms de longo alcance. 
+- Ao escolher a banda para MSI e socorro (4, 6, 8,12 ou 16 MHz), consulte o mapa MUF (Maximum Usable Frequency), pois 
+as caracts de propagação variam com a pos geográfica, a hora do dia e a freq. 
+> MF/HF: é a alternativa para as embs que não possuem SES do INMARSAT. 
+> MF: usa a banda de 2 MHz para msgs de segurança da navegação e socorro. 
+- Chamada SAR em DSC: 
+usa-se 2187,5 KHz. 
+- Chamada e tráfego em radiotelefonia: 
+usa-se 2182 KHz. 
+- Chamada e tráfego em radiotelex (NBDP): 
+usa-se 2174,5 KHz. 
+Obs: as freqs 518,490 e 4209,5 KHz estão reservadas para o svç NAVTEX. 
+> VHF: as freqs usadas para chamadas são: 
+- por DSC: 
+156,525 (canal 70). 
+- por radiotelefonia: 
+156,8 
+(canal 16). 
+> A partir de 1/02/99, foram extintas as comms Morse em 500 KHz no GMDSS. 
+> O GMDSS recomenda (pelo EROG é obrigatório) o uso do SART (banda X - 9 GHz) para embs salva-vidas. Eles devem ser 
+mantidos no passadiço, sendo transportados para a balsa por ocasião do abandono do navio. 
+PERSPECTIVAS: 
+> Pode-se conectar à internet e acessar os sites de previsões (AnB-Ap7) por computadores de bordo ligados à rede telefônica 
+(por celular ou pela telefonia do INMARSAT-A). 
+> Pode-se acessar a home page do Serviço Meteorológico Marinho da DHN para obter boletins meteorológicos, Avs de Mau 
+Tempo, cartas sinóticas de pressão, etc. 
+
+
+===== PAGINA 367 =====
+
+mmmmmmmm 
+LESTA DE AUXlLIOS-RÁDIO - CAP 7 - COMUNICAÇÕES DE PERIGO E SEGURANÇA 
+> As comms de perigo e segurança incluem as chamadas e msgs de perigo, urgência e segurança. 
+> Convenção de Alto Mar - 1958: Todo estado deve obrigar o Comte dos navios, sempre que ele possa fazê-lo sem grave perigo 
+para o navio/trip/pass: 1) a prestar assistência a qq pessoa encontrada no mar, em perigo de perder-se; e 2) a se dirigir com toda 
+veloc em socorro de pessoas em perigo iminente, na medida em que se possa razoavelmente contar com esta ação de sua parte. 
+> SOLAS-74: O Comte de um navio que receba uma msg indicando que um navio/anv/rafts encontra-se em perigo é obrigado a 
+dirigir-se com toda veloc em socorro das pessoas, informando-as, se possível, do que está fazendo. Em caso de impossibilidade, 
+ou se considerar não razoável ou desnecessário socorrer, deve lançar no livro de bordo a razão pela qual deixou de socorrer. 
+> As ppais estações que fazem escuta nas freqs de perigo estão no Anexo VH-4. / Todas as estações da RENEC recebem sinais 
+de perigo em suas freqs de operação. 
+APÊNDICE VII-1 - EXTRATOS DA PARTE B DO MANUAL DO SMM. DA UIT 
+COMUNICAÇÕES DE PERIGO E SEGURANÇA 
+> Nenhum dispositivo aqui deve impedir que uma estação móvel use qq meio para chamar a atenção e obter auxílio, ou que qq 
+estação engajada em SAR use qq meio para ajudar uma estação móvel em perigo. / Estações móveis do SMM/SMA podem ser 
+comunicar, por motivos de segurança, com estações do SMA/SMM. 
+> Em caso de perigo/urg/seg, as transmissões por radiotelegrafia não devem exceder 16 palavras/min, e as tx por radiotelefonia 
+devem ser feitas devagar e distintamente. / As abreviaturas, sinais, código de números e alfabeto fonético dos apêndices 
+seguintes devem ser usados quando aplicáveis. Onde houver dificuldades lingüísticas, recomenda-se o uso do CIS. 
+> Qq anv obrigada a comunicar-se com estações do SMM por motivos de per/urg/seg, deve ser capaz de tx e rx preferencialmente 
+em 500 KHz, 2182 KHz, 4125 KHz e 156,8 MHz. 
+ARTIGO 38 - FREQÜÊNCIAS DE PERIGO E SEGURANÇA: 
+1) DISPONIBILIDADE DE FREQS: 
+Freqs internacionais de perigo: 
+> 500 KHz: usada para solicitar auxílio por telegrafia Morse. / Serve para: chamada e tráfego de perigo; sinal e msg de 
+urgência; e sinal e msgs curtas de segurança (o tráfego é numa freq de trabalho após a chamada inicial em 500 KHz). 
+> 2182 KHz: usada por embs/anvs/rafts em radiotelefonia, e por EPIRBs. / É para chamada e tráfego de perigo; sinal e msg de 
+urgência; e sinal de segurança (as msgs de segurança devem ser tx numa freq de trabalho após a chamada inicial em 2182). 
+Se uma msg de perigo nessa freq não for reconhecida, o sinal de alarme em radiotelefonia (se possível seguido da chamada e 
+msg de perigo) pode ser novamente transmitido em 4125 ou 6215,5 KHz. 
+> 156,8 MHz: para perigo, segurança e chamada por fonia para as estações do SMM. / Serve para: sinal, chamada e tráfego 
+de perigo; sinal e tráfego de urgência; e sinal de segurança (o tráfego é numa freq de trabalho após a chamada em 156,8). 
+> 4125 e 6215,5 KHz: suplementam 2182 KHz para tráfego de perigo e segurança. 
+> 8257 KHz: para tráfego de perigo e segurança por radiotelefonia. 
+> 156,650 MHz: usada para comms N-N relacionadas com a segurança da navegação. 
+Freqs para uso com radioteletipo (NAVTEX): 
+> 518 KHz: só para tx por estações costeiras de avisos meteorológicos e de navegação e infos urgentes. 
+> 2174,5 KHz: só para tráfego de socorro e salvamento. 
+> 4177,5,6268 e 8357,5 KHz: só para tráfego de perigo e segurança. 
+> 156,825 MHz: só para tráfego de perigo e segurança. 
+Freqs para uso com DSC: 
+> 490 KHz: só para perigo e segurança nas chamadas T-N. 
+> 2187,5: só para chamadas de socorro e segurança. Tb pode ser usada por EPIRBs usando DSC. 
+> 4188 e 8375 KHz: só para chamada de perigo e segurança (?? no EROG é 8414,5 ??) 
+> 6282 KHz: só para tráfego de perigo e segurança. 
+> 156,525 MHz: só para chamadas de perigo e segurança. 
+Freqs para uso de anvs: 
+> 121,5 e 123,1 MHz: são aeronáuticas para perigo e urgência (123,1 é reserva de 121,5). / Tb podem ser usadas por EPIRBs. 
+Estações do SMM só podem falar em 121,5 para perigo e urgência; e em 123,1 para operações SAR. 
+> 3023 e 5680 KHz: são aeronáuticas. Podem ser usadas por estações móveis engajadas em SAR. 
+> 156,3 Mhz: para comms entre navios e anvs em operações SAR. 
+> 243 MHz: em branco... 
+> Aeronaves em perigo: quando fizerem chamadas de perigo para estações do SMM, devem usar 500,2182 ou 156,8 MHz. 
+Estações de embarcações salva-vidas: 
+> 8364 KHz: para uso de estações de embs salva-vidas. 
+> Se o eq for capaz de operar em qq freq, ele deve poder rx e tx em 500,2182 e 8364,121,5 e 156,8; e deve poder tx em 243,0. 
+> Se tiver eq DSC capaz de operar nas respectivas faixas, deve poder transmitir em 2187,5,8375 e 156,525. 
+Freqs T-Espaço-T: 
+> Banda de 406-406,1 MHz: só para EPIRBs T-E.. 
+> Banda de 1,544-1,545 GHz: só para perigo e segurança E-T (re-tx sinais de EPIRBs e tx para estações móveis). 
+> Banda de 1,6455-1,6465 GHz: só para perigo e segurança T-E. 
+
+
+===== PAGINA 368 =====
+
+2) PROTEÇÃO DAS FREQS DE PERIGO E SEGURANÇA: 
+> É proibida qq emissão capaz de causar interferência às comms de perigo/alarme/urgência/segurança nas freqs internacionais de 
+perigo (500, 2182 e 156,8), ou nas freqs de chamada de perigo e segurança (490,2187,5, 4125, 6215,5,... e 156,525). 
+> Antes de transmitir numa freq de socorro e segurança, fazer escuta para assegurar que não haja tx de socorro sendo efetuada. 
+> Testes de tx nas freqs da Seção I: devem ser feitos pouquíssimas vezes, e com antenas artificiais ou de pot reduzida. 
+Não são permitidas tx de sinais completos de alarme para testes em qq freq (exceção: são permitidos testes de eqs 
+radiotelefônicos que só podem operar em 2182, quando uma antena artificial deverá ser usada). 
+> Teste do gerador de sinal de alarme em radiotelefonia: deve ser feito por monitor de ouvido, sem operar o transmissor (que 
+deve ser verificado isoladamente). / Testá-lo com uma antena artificial, e numa freq diferente de 2182 (exceto se o aparelho só 
+puder tx em 2182). / Antes e depois dos testes, avisar na freq de teste que os sinais foram para teste (incluir a id da estação). 
+> 500 KHz / 2182 KHz /156,8 MHz /121,5,123,1 e 243,0 MHz: são proibidas todas as emissões em faixas próximas destas 
+freqs, exceto as transmissões autorizadas nas freqs da Seção I. 
+Para facilitar a recepção de chamadas de perigo, outras tx nessas freqs devem ser reduzidas ao mínimo, sem exceder 1 min. 
+3) ESCUTA NAS FREQS DE PERIGO: 
+> 500 KHz: 
+- Estações que normalmente mantêm escuta na banda de 500: durante as horas de serviço, escutar em 500 KHz por 3 min, 
+nos minutos 15 e 45 de cada hora (com fones de ouvido ou alto-falantes). / Nesse período, as tx devem cessar entre 485 e 515 
+KHz (fora dessa faixa, as tx podem continuar, desde que se assegure a escuta em 500). 
+- Estações do SMM abertas ao público (inclusive de navio) e usando freqs na banda de 500: durante suas horas de svç, 
+devem manter escuta em 500 KHz. / Pode abandonar apenas quando falando em outra freq (nesse caso, pode-se manter escuta 
+em 500 por meio de um operador com fones de ouvido ou alto-falantes, ou por um receptor automático de alarme). / Estações 
+de navio tb podem abandonar a escuta, por ordem do Comte, para efetuar manutenção para evitar iminente mau funcionamento 
+de eqs de radiocomm usados para segurança, eqs de radionavegação ou outro eq eletrônico de navegação. / Se tiver um rx 
+automático de alarme, este deve estar funcionando ao abandonar a escuta. 
+> 2182 KHz: 
+- Todas as estações do SMM, normalmente mantendo escuta nessa banda: devem, se possível, durante suas horas de 
+trabalho, escutar em 2182 por 3 min, nos min 00 e 30 de cada hora. Nesse período, todas as tx nessa banda devem cessar. 
+- Estações de navio: devem manter a maior escuta possível em 2182 para receber os sinais de: alarme radiotelefônico, aviso ao 
+navegante, perigo/urgência/segurança. 
+> 4125 e 6215,5 KHz: estações costeiras abertas ao público e que constituem uma parte essencial da cobertura da área para fins de 
+perigo podem, durante suas horas de serviço, manter escuta em 4125 e/ou 6215,5, como conveniente. 
+> 156,8 MHz: 
+- Estações de navio: devem, onde possível, manter escuta em 156,8 quando dentro de área de serviço de uma estação costeira 
+que opere o SSM nessa banda. / As que possuem apenas um eq VHF devem manter escuta em 156,8 quando no mar. 
+- Estações de navio em comms com uma estação de porto: podem, em caso excepcional e sujeito à autorização da 
+administração, manter escuta apenas na freq do porto, uma vez que o porto mantenha a escuta em 156,8. 
+- Estações de navio em comms com uma estação costeira em serviço de movimentação de navio: sujeito à autorização das 
+administrações, podem escutar apenas na freq de movimento de navio, desde que a estação costeira mantenha a escuta em 156,8. 
+ARTIGO 39 - COMUNICAÇÕES DE PERIGO: 
+(Obs: a palavra perigado é invenção minha, para simplificar) 
+1) PROCEDIMENTOS: 
+Sinal de Perigo: em radiotelegrafia é SOS. / Em radiotelefonia é MAYDAY. / Significa perigo grave e iminente, sol aux imediato. 
+(é diferente de "sinal de alarme ") 
+Chamada de Perigo: 
+Radiotelegrafia: 
+"SOS (3x) + DE + sinal de chamada do perigado (3x) ". 
+Radiotelefonia: 
+"MA YD A Y (3x) + THIS IS (ou DE, com dificuldades de idioma) + sinal de chamada do perigado (3x) ". 
+Mensagem de perigo: 
+"SOS ou MAYDAY + nome ou outra id do perigado + posição + natureza do perigo + auxílio desejado + info para o salvamento". 
+> Radiotelegrafia: 
+Sinal de alarme + chamada de perigo + 2' + chamada de perigo + msg de perigo + 2 traços de 10-15 seg 
++ sinal de chamada do perigado" 
+As 2 primeiras etapas podem ser omitidas se o tempo for vital, ou quando se considera que o sinal de alarme é desnecessário. 
+As 2 últimas etapas são para permitir que as estações radiogonio determinem a pos, e podem ser repetidas a intervalos freqüentes
+> Radiotelefonia: 
+"Sinal de alarme (sempre que possível) + chamada de perigo + msg de perigo" 
+Depois disso, o perigado pode ser solicitado a transmitir sinais adequados seguidos por seu sinal de chamada ou outra id, para 
+permitir que estações radiogonio determinem sua posição. 
+
+
+===== PAGINA 369 =====
+
+> A chamada de perigo não deve ser endereçada a uma estação em particular. / Ela têm prioridade sobre todas as outras. 
+Quem ouvir deve interromper qq transmissão que possa interferir no tráfego, e continuar a escuta na freq. 
+> Não deve ser dado aviso de recepção antes que seja emitida a msg que acompanha a chamada de perigo. 
+> Como regra geral, assinalar a pos em lat/long. / Quando possível, forneça a marc/dist (em milhas) de uma ref geográfica. 
+> A chamada e msg de perigo devem ser repetidas de tempo em tempo, especialmente nos respectivos períodos de silêncio, até que 
+seja recebida uma resposta (dê um tempo para que todos liguem seus transmissores). / O sinal de alarme tb pode ser repetido. 
+> Quando o perigado não receber resposta, a msg pode ser repetida em qq outra freq disponível. 
+> Imediatamente antes do pouso forçado ou abandono do navio, o eq rádio deve ser ligado para emissão contínua, se necessário. 
+> As chamadas e msgs de perigo devem ser emitidas apenas por ordem do Comte ou responsável pela estação. 
+2) AVISO DE RECEPÇÃO DE UMA MSG DE PERIGO: 
+> 
+Radiotelegrafia: 
+"SOS + sinal de chamada do perigado (3x) + DE + sinal de chamada ou outra id (3x) + RRR + SOS" 
+> Radiotelefonia: 
+"MA YD A Y + sinal de chamada ou outra id do perigado (3x) + THIS IS ou DE + sinal de chamada ou outra id (3x) + 
+RECEIVED ou RRR + MA YD A Y". 
+> Quem acusa rcb deve tx (sem atrapalhar as comms de quem estiver mais perto): "nome +pos + veloc + tempop/chegar" 
+> Se a pos. do perigado parecer duvidosa, deve-se tx, se possível: 
+"QTE + marcação verdadeira do perigado" 
+> As estações que estiverem nas proximidades devem dar aviso de recepção imediatamente. Mas em áreas onde são possíveis 
+comms confiáveis com uma estação costeira, os navios devem retardar o recibo para que esta acuse. 
+> As estações que não estejam nas proximidades devem dar um curto intervalo antes de acusar rcb (para permitir que os que estão 
+mais perto o façam). / Se o perigado estiver muito distante, não precisa acs rcb (basta re-tx). 
+3) TRÁFEGO DE PERIGO: 
+> O tráfego de perigo é de responsabilidade do perigado, mas este pode delegar o controle do tráfego de perigo para outra estação. 
+> O sinal de perigo (SOS/MAYDAY) deve ser enviado antes da chamada e no início do preâmbulo de qq radiotelegrama. 
+> Qualquer estação que tome conhecimento do tráfego de perigo e não possa ajudar, deve: 1) acompanhar o tráfego até que fique 
+evidente que o auxílio está sendo prestado; 2) não transmitir na freq do tráfego até receber uma msg dizendo que o trabalho 
+normal pode ser restabelecido. / Enquanto acompanha o tráfego de perigo e quando este estiver totalmente estabelecido, ela 
+pode dar prosseguimento ao seu svç normal, sem atrapalhar. 
+> Desde que não interfiram com o tráfego de perigo, as msgs de urgência e segurança podem ser anunciadas durante um intervalo 
+do tráfego de perigo, preferivelmente por estações costeiras. / Nesse caso, indicar a freq de trabalho para a tx da msg; e o 
+PANPAN/XXX ou SECURITE/TTT devem ser enviados apenas uma vez. 
+> Estação em perigo ou estação controladora do tráfego de perigo: podem impor silêncio a todas as estações que interfiram 
+com o tráfego, endereçando essa ordem para todas as estações (CQ) ou para uma estação apenas. Para tal: 
+-Radiotelegrafia: "QRT + SOS" 
+- Radiotelefonia: "SEELONCE + MAYDAY" 
+> Estação próxima ao perigado: tb pode impor silêncio. Para isso: 
+- Radiotelegrafia: "QRT + DISTRESS + sinal de chamada próprio" 
+- Radiotelefonia: "SEELONCE + DISTRESS + sinal de chamada próprio " 
+> Quando o perigado considerar que o silêncio não mais se justifica, deve informar o controlador a quem delegou o tráfego. 
+> Quando não for mais necessário o silêncio completo numa freq ainda usada para o tráfego de perigo, a estação controladora 
+deve tx uma msg a todos (CQ) dizendo que o trabalho restrito pode ser restabelecido: 
+Radiotelegrafia: 
+"SOS + CQ (3x) + DE + sinal de chamada + hora do envio + nome e sinal de chamada do perigado + QUZ" 
+Radiotelefonia: 
+"MA YD A Y+Hello all Stations ouCQ (3x) + THIS ISouDE + sinal de chamada ou outra id + hora do envio + nome e sinal 
+de chamada do perigado + PRUDONCE" 
+> Quando o tráfego de perigo for encerrado numa freq, a estação que o controlou deve tx uma msg endereçada a todos (CQ) 
+dizendo que o trabalho normal pode ser restabelecido: 
+Radiotelegrafia: 
+"SOS + CQ (3x) + DE + sinal de chamada + hora do envio + nome e sinal de chamada do ex-perigado + QUM" 
+Radiotelefonia: 
+"MA YD A Y+Hello all Stations ou CQ (3x) + THIS IS ou DE + sinal de chamada ou outra id + hora do envio + nome e sinal 
+de chamada do ex-perigado + SEELONCE 
+FEENEE" 
+
+
+===== PAGINA 370 =====
+
+4) TRANSMISSÃO DE UMA MENSAGEM DE PERIGO POR ESTAÇÃO FORA DE PERIGO: 
+> Quando uma estação souber que outra estação está em perigo, deve transmitir uma msg de perigo se: 
+1) o perigado não estiver em condições de fazê-lo. 
+2) o Comte considerar que é necessário auxílio adicional 
+3) apesar de não poder auxiliar, ouvir uma msg de perigo cujo recebimento não foi acusado por ninguém. Nesse caso, notificar 
+as autoridades que possam auxiliar. 
+> Essa tx deve ser feita em ao menos uma das freqs internac. de perigo (500,2182,156,8), ou qq outra freq que possa ser usada. 
+> Um navio não deve acs rcb de uma msg de perigo retransmitida por uma estação costeira até que o seu Comte confirme 
+que seu navio está em condições de prestar auxílio. 
+> 
+Radiotelegrafia: 
+"Sinal de alarme (quando possível) + 2' (quando necessário) + DDD SOS SOS SOS DDD + DE + sinal de chamada (3x) " 
++ msg propriamente dita 
+> Radiotelefonia: 
+"Sinal de alarme (quando possível) + MA YD A Y RELA Y (3x) + THIS IS ou DE + sinal de chamada ou outra id (3x) " 
++ msg propriamente dita 
+ARTIGO 40 - TRANSMISSÕES DE URGÊNCIA E SEGURANÇA E TRANSPORTES MÉDICOS: 
+1) SINAL E MSG DE URGÊNCIA: 
+> Sinal de urgência: 
+Radiotelegrafia = XXX (3x) 
+(transmitido antes da chamada) 
+Radiotelefonia = PAN PAN (3x) 
+(idem) 
+- Indica que a estação tem uma msg muito urgente a transmitir referente à segurança de um navio/anv/pessoa. 
+- Só pode ser tx com autorização do Comte. / Tem prioridade sobre todas as outras comms, exceto as de perigo. 
+- Deve ser tx em ao menos uma das freqs internacionais de perigo (500,2182,156,8), ou das freqs reservas (4125, 6215,5), ou 
+em 121,5/243, ou em qq outra freq que possa ser usada em situação de perigo. 
+> Msg de urgência: 
+- Deve ser tx numa freq de trabalho só nos seguintes casos (indicar isso no final da chamada): 1) msg longa; 2) chamada 
+médica; 3) no caso de repetição de uma msg em áreas de tráfego intenso. 
+- Podem ser endereçadas a todas as estações, ou a uma estação específica. 
+- Como regra geral, devem ser formadas em linguagem clara. 
+> Ao ouvir um sinal de urgência, continuar na escuta por ao menos 3 min. Se nenhuma msg de urgência for ouvida, avisar 
+uma estação terrestre e reassumir o trabalho normal. 
+- Mas caso a msg de urgência não seja endereçada a todas as estações (CQ), as estações que estiverem se comunicando em freqs 
+diferentes daquela do sinal e msg de urgência podem continuar seu trabalho normal. 
+> Quando o sinal de urgência tiver sido emitido antes de uma msg para todos (CQ), a estação que o transmitiu deve cancelá-lo tão 
+logo a ação não seja mais necessária (esse cancelamento deve ser enviado a todos). 
+2) SINAL E MSG DE SEGURANÇA: 
+> Sinal de segurança: Radiotelegrafia = TTT (3x) 
+(transmitido antes da chamada) 
+Radiotelefonia = SECURITÉ (3x) 
+(idem) 
+- Indica que a estação vai transmitir uma msg importante contendo aviso relativo à navegação ou meteorologia. 
+> O sinal e a chamada devem ser tx em ao menos uma das freqs internacionais de perigo (500,2182,156,8), ou em qq outra freq 
+que possa ser usada em situação de perigo. 
+> A msg de segurança deve ser enviada numa freq de trabalho, que deve ser indicada no final da chamada. 
+> As msgs de segurança são geralmente endereçadas a todas as estações, mas podem ser endereçadas a uma estação só. 
+> O sinal e msg de segurança devem ser transmitidos logo após o término do primeiro período de silêncio. / Quando o 
+sinal/msg de segurança tiver que ser tx imediatamente (avs meteoro, ciclones ou gelo/casco soçobrado perigosos), eles 
+devem ser repetidos após o término do 1° período de silêncio. 
+> As estações que ouvirem o sinal de segurança devem ficar na escuta da msg até certificarem-se de que não lhes diz respeito. 
+3) TRANSPORTES MÉDICOS: 
+> Convenção de Genebra: esse termo se aplica a qq meio de transporte utilizado exclusivamente para transporte médico e sob o 
+controle de uma autoridade, quando estes meios de transporte socorrerem ferido/doente/náufrago. 
+> Identificação e estabelecimento da comm: use as mesmas freqs de urgência. Depois, passe para uma freq de trabalho. 
+> Sempre que possível, o sinal de urgência deve se aplicar aos transportes médicos. 
+> Anúncio e identificação dos transportes médicos protegidos pela Convenção: 
+Sinal de urgência + YYY (radiotelegrafia) ou MAYDEECAL (radiotelefonia). 
+> Mensagem: "sinal de chamada ou outro meio de id de transporte médico + posição + núm e tipos de transportes médicos + 
+rota prevista + tempo estimado de viagem e ETDs/ETAs, se possível + qq outra info (altitude, freqs guarnecidas, idioma...) " 
+> A identificação e localização de transportes médicos no mar podem ser feitas por respondedores-radar padronizados. 
+> O uso de radiocomms para anúncio e identificação de transportes médicos é opcional. 
+
+
+===== PAGINA 371 =====
+
+•mmmmesm. 
+ARTIGO 41 - SINAIS DE ALARME E AVISO: 
+1) SINAIS DE EPIRBs: 
+> É para facilitar a localização dos sobreviventes numa operação SAR. / Eles indicam que uma ou mais pessoas estão em perigo 
+(podendo não estar mais a bordo), e que facilidades de recepção podem não estar disponíveis. 
+> Estações que recebam esses sinais sem que esteja em curso tráfego de perigo e urgência devem tx uma msg de perigo. 
+> 2182 KHz consiste de: 
+1) emissão modulada por um som de 1300 Hz, com período de emissão igual ao de silêncio (1-1,2 seg); ou 
+2) sinal de alarme radiotelefônico seguido de: B (Morse) e/ou sinal de chamada do navio a que pertence (transmitido por uma 
+portadora modulada por um som de 1300 ou 2200 Hz). 
+> Esses ciclos de comutação podem ser interrompidos por transmissões faladas. 
+2) SINAIS DE ALARME RADIOTELEGRÁFICO E RADIOTELEFÔNICO: 
+> Radiotelegráfico: 12 traços emitidos em 1 min (traços de 4 segs separados de 1 seg, tx manual ou automaticamente). 
+> Radiotelefônico: 2 sons audio fortemente senoidais alternados (duração de 0,25 seg cada). Um deles deve ser de 1300 Hz. 
+Quando gerado por meios automáticos, emitir por 30-60 seg. / Quando gerado por outros meios, emitir por +- 1 min. 
+Quando tx por uma estação costeira, esse sinal pode ser seguido por um som isolado de 1300 Hz, por 10 seg. 
+> O seu propósito é: 
+1) radiotelegrafia: ativar dispositivos automáticos quando fora do período de escuta da freq de perigo. 
+2) radiotelefonia: chamar a atenção do operador, ou ativar dispositivo automático ou alto-falante para rx a msg que se segue. 
+> Só devem ser usados para anunciar: 
+1) que uma chamada ou msg de perigo será transmitida. 
+2) a tx de um aviso urgente de ciclone por estações costeiras, o qual deve ser precedido pelo sinal de segurança. 
+3) que alguém se perdeu no mar (mas só quando o aux de outros navios for necessário e não puder ser solicitado pelo sinal de 
+urgência isolado). Neste caso, o sinal de alarme não deve ser repetido por outras estações. Usar o sinal de urgência antes da msg. 
+Obs: nos casos 1 e 2, um intervalo de 2 min deve separar, se possível, o fim do sinal de alarme radiotelegráfico e o aviso/msg. 
+3) CHAMADA GERAL DE NAVIOS SELETrVA (DSC): é destinada apenas para alarme. 
+4) SINAL DE AVISO AO NAVEGANTE: 
+> Som fortemente senoidal de 2200 KHz, interrompido de forma que a duração do som e do intervalo seja de 0,15 seg. 
+> Deve ser tx por estações costeiras por 15 seg, antes de aviso importante em radiotelegrafia em MF. 
+y Serve para chamar atenção do operador (usando um alto-falante) ou ativar um dispositivo automático de ativação de alto-
+falante, para recebimento da msg que se segue. 
+ARTIGO 42 - SERVIÇOS ESPECIAIS RELATIVOS À SEGURANÇA: 
+1) MENSAGENS METEOROLÓGICAS: 
+> Compreendem: - as msgs endereçadas aos serviços meteorológicos de previsão; e 
+- as msgs desses serviços endereçadas a navios, proteção de anvs e ao público em geral. 
+y As infos nessas msgs podem ser: observações efetuadas em horas determinadas, avisos de fenômenos perigosos, previsões e 
+avisos, e infos sobre a situação meteorológica em geral. 
+> As observações meteorológicas transmitidas de/para estações móveis devem ser redigidas num código met. internacional. 
+> Msgs meteoro destinadas a todas as estações: devem ser enviadas em horários definidos e, tanto quanto possível, nas horas 
+em que possam ser recebidas por estações com apenas um operador. / Durante sua tx, todas as estações cujas transmissões 
+possam interferir com a recepção dessas msgs devem manter silêncio. 
+> Msgs de aviso meteorológico: devem ser tx sem demora, e depois repetidas no final do Io período de silêncio e no próximo 
+período de irradiação programada. Elas devem ser precedidas pelo sinal de segurança, e transmitidas das freqs apropriadas. 
+y Msgs de navios contendo infos sobre ciclones: devem ser tx, o mais rápido possível, para outros navios nas proximidades e 
+para as autoridades do 1° ponto da costa que se possa contatar (precedidas pelo sinal de segurança). 
+y Todos os navios devem (para seu próprio uso) manter escuta das msgs meteoro enviadas por outros navios, mesmo aquelas 
+endereçadas a um svç meteorológico. 
+y Navios que transitem suas observações a um svç meteorológico: não são obrigados a repeti-las para outros navios. Contudo, 
+é autorizada a troca de infos sobre o tempo entre navios, mediante pedido. 
+2) AVISOS AOS NAVEGANTES: 
+> A 4a e 5a setas do item anterior tb se aplicam aos Avisos aos Navegantes. 
+> Msgs contendo infos sobre gelo, cascos soçobrados ou outro perigo iminente para a navega devem ser tx ASAP a outros 
+navios nas proximidades e às autoridades do Io ponto da costa que se possa contatar (precedê-las pelo sinal de segurança). 
+3) INFORMAÇÃO MÉDICA: 
+> Os navios que precisarem de infos médicas podem obtê-las através de qq uma das estações terrestres relacionadas como 
+dispondo deste serviço na "Lista de Estações de Radiodeterminação e Serviço Especial". 
+y Os telegramas e chamadas radiotelefônicas relativos a infos médicas podem ser precedidos pelo sinal de urgência. 
+4) SIST DE RADIOTELETIPO PARA TX DE AVS AOS NAVEGANTES E METEOROLÓGICOS E INFOS URGENTES (NAVTEX): 
+> Em complemento aos métodos existentes, estações costeiras selecionadas devem transmitir avisos de navegação e 
+meteorológicos e infos urgentes para os navios pelo sistema automático de radioteletipo, em 518 KHz. 
+
+
+===== PAGINA 372 =====
+
+g5e^rfy5if*n<?fy>y 
+1 
+ARTIGO 61 - ORDEM DE PRIORD3ADE DE COMUNICAÇÕES NO SMM E NO SSATMM: 
+> Exceto quando impraticável em um sistema inteiramente automático, a ordem de prioridade das comms (radio-telex /telegrama 
+/telefone) deve ser: 
+1 - Chamadas, msgs e tráfego de perigo. 
+2 - Comms precedidas do sinal de urgência. 
+3 - Comms precedidas do sinal de segurança. 
+4 - Comms sobre radiogoniometria. 
+5 - Comms sobre navegação e segurança da movimentação de ANV engajada em SAR. 
+6 - Comms sobre navegação, movimentação e necessidades de navios/anvs, e msgs de observação para um svç meteoro. 
+7 - ETATPRIORITENATIONS - telegramas relativos à aplicação da Carta das Nações Unidas. 
+8 - ETATPRIORITE - telegramas governamentais com prioridade, e chamadas governamentais para as quais tenha sido 
+solicitada prioridade. 
+APÊNDICE 14 - ABREVIATURAS E SINAIS DIVERSOS USADOS EM RADIOCOMMS NO SMM 
+Código Q: 
+> As de QOA a QUZ são reservadas ao SMM. 
+> Para usar as abreviaturas no sentido afirmativo ou negativo, transmitir após a abreviatura: "C" ou "NO". 
+> As abreviaturas seguidas de "?" (telegrafia) ou de "RQ" (fonia) constituem uma pergunta. 
+> É facultativo o preenchimento dos espaços em branco entre parênteses com informações adicionais ou complementares (nomes, 
+números, etc). / A ordem mostrada no texto deve ser seguida. 
+> O tempo usado deve ser o TUC. / Um asterisco significa que a abreviatura tem o mesmo significado no CIS. 
+Abreviaturas e sinais diversos: 
+> BQ 
+- resposta a um RQ. 
+> BT 
+- separa diferentes partes de uma tx. 
+> CFM 
+- confirme, confirmo. 
+> CQ 
+- chamada a todas as estações. 
+> DF 
+- sua marcação às xxvy horas era zzz° com erro de www°. 
+> INTERCO 
+- o grupo que se segue é do CIS. 
+> NX 
+- aviso aos navegantes. 
+> PSE 
+-please 
+> REF 
+- refere-se a... 
+> RQ 
+- indicação de uma solicitação. 
+> SIG 
+- assinatura. 
+> TU 
+- thank you. 
+> WD 
+- palavra ou grupo. 
+> WX 
+- info sobre o tempo. 
+> YZ 
+- as palavras a seguir estão em linguagem clara. 
+> E ainda, como no CIS: AA, AB, WA, WB, AR, AS, CS, K, OK 
+Código Morse: 
+> 
+Um traço são 3 pontos. / O espaço entre sinais eqüivale a 1 ponto. 
+O espaço entre duas letras eqüivale a 3 pontos. / O espaço entre duas palavras eqüivale a 7 pontos. 
+
+
+===== PAGINA 373 =====
+
+WWIMMTIIP 
+CAP 8 DA LAR - APOIO COSTEIRO 
+1) REDES DE APOIO COSTEIRO: 
+> Na costa do Brasil, há várias redes de estações-rádio, públicas e privadas, que prestam serviços de radiocomms ao navegante. 
+> Esse capítulo trata da RENEC e da Rede Nacional de Apoio ao Iatismo (estações dos Iates Clubes). 
+Obs: a RENAPE (Rede Nacional de Pesca) ou foi extinta, ou não figura mais na LAR. 
+2) RENEC: 
+a) Presta serviços de: 
+> Radiocomm comercial pública T-N-T: tráfego cobrado que permite os seguintes serviços de telefonia e radiotelex: 
+- Para usuários cadastrados no SMM: 
+1) telefonemas T-N-T, para qq lugar do mundo. 
+2) envio de telegramas T-N-T. 
+Obs: o envio de telegramas T-N requer que o navio tenha um terminal radiotelex. 
+- Para usuários não cadastrados no SMM: 1) telefonemas N-T a cobrar. 
+2) telefonemas T-N, com pagto no tel de origem. 
+3) telegrama T-N, com pagto no tel de origem. 
+> Apoio à SegNav e à SVHM (gratuito): em colaboração com a MB, pelo Centro de Operações do SMM (Guaratiba - RJ). 
+- Serviços: 1) rx de sinais e chamadas de perigo e segurança, pelos canais 16 e 4125 KHz. 
+2) tx de boletins meteorológicos, previsões do tempo (Meteoromarínha), e Avs-rádio náuticos, em VHF e HF. 
+b) São 40 estações no litoral e Rios Amazonas e Pará, operadas de forma centralizada pelo COSMM: 
+> 1 estação principal: no RJ (PPR), telecomanda todas as demais. / Comms em radiotelex e telefonia com todos os oceanos. 
+> 3 estações regionais: em Belém (PPL), Olinda (PPL) e Rio Grande (PPJ). / Comms em telefonia com embs até +- 600 milhas. 
+> 2 estações locais: em Manaus (PPM) e Itajaí (PPC). / Comms em telefonia com embs até +- 200 milhas. 
+> 34 estações locais restritas: ampliam as comms em telefonia com embs até 40 milhas. 
+Obs: algumas estações operam com mais de uma antena em locais diversos. 
+c) Caracts de operação: 
+> As escutas são efetuadas, normalmente, em: 
+- Radiotelefonia em VHF: 
+- Radiotelefonia em HF: 
+canal 16. 
+4125/4125;...+ 3 pares. 
+> Elas possuem outros canais de trabalho em VHF e HF. A "/" é interligação duplex (navio tx na da direita e rx na da esquerda). 
+3) REDE COSTEIRA DE APOIO AO IATISMO: 
+>• As estações dos Iates Clubes mantêm escuta em: 
+1) HF-SSB: 4 freqs, podendo incluir 4125 KHz (Socorro e Emergência no Atlântico Sul); e/ou 
+2) VHF-FM: 7 canais, podendo incluir o 16 e o 70. 
+Chamada e Socorro (nem todas escutam) 
+DSC 
+operações portuárias 
+iatismo 
+embs de pequeno porte 
+> Seu prefixo é "PY + 1 letra + 2 números". / Ex: prefixo "PYG-21", chamada usual "GOLF 21". 
+> O horário de trabalho é, normalmente, do nascer ao por do sol. 
+> O Iate Clube do Rio de Janeiro mantém escuta permanente em 2182 e 4125 KHz. 
+> Os Comtes dos iates devem, antes da viagem, acertar os detalhes do apoio às comms que os Clubes e Marinas podem prestar. 
+canal 16 
+canal 70 
+canal 12 e 14 
+canal 68 
+canal 69 e 71 

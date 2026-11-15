@@ -1,0 +1,629 @@
+FONTE: resumo curso h.pdf | CAPITULO 09 - ripeam | paginas 243-254 | OCR ABBYY
+OBS: texto OCR ruidoso, mistura ingles/portugues. Interprete com cautela; nao invente.
+
+
+===== PAGINA 243 =====
+
+RIPEAM - COLREGS 
+PART A-GENERAL 
+RULE 1 - APLICATION: 
+a) Se aplicam a todas as embs: 
+- em mar aberto; e 
+- em todas as águas a este ligadas, navegáveis por navios de alto-mar. 
+b) Nada aqui vai prejudicar o cumprimento de regras especiais baixadas por autoridade competente sobre águas interiores 
+conectadas ao alto-mar e navegáveis por seagoing vessels. / Tais regras especiais devem concordar o máximo possível com estas 
+regras. 
+c) Nada aqui vai interferir com a operação de regras especiais dos governos sobre: 
+- luzes adicionais de posição {station) ou sinalização, marcas {shapes) ou sinais de apito para navios de guerra ou comboios: ou 
+- luzes adicionais de posição {station) ou sinalização ou marcas {shapes) para embs de pesca engajadas na pesca em flotilha. 
+Tais luzes/marcas/sinais adicionais devem ser, tanto quanto possível, tais que não sejam confundidas com as destas regras. 
+d) Quando um governo determinar que uma embarcação especial não possa cumprir com as regras (no que refere a 
+núm/pos/alcance/arco-de-visib de luzes ou marcas, e pos/caracts de eqs de sinalização sonora), tal embarcação deverá obedecer a 
+outras disposições que o governo tiver determinado como o mais próximo possível a estas regras para aquela embarcação. 
+RULE 2 - RESPONSABILITY: 
+a) Nada aqui eximirá qq embarcação ou seu Master/owner/crew das conseqüências de negligência no cumprimento: 1) dessas 
+regras: e 2) de quaisquer precauções requeridas pela prática marinheira ou circunstâncias especiais. 
+b) In construing (ao interpretar) and complying with these rules, deve-se considerar os perigos à navegação e de abalroamento e 
+outras circunstâncias especiais, incluindo as limitações das embs envolvidas, que possam tornar necessário desviar dessas regras pra 
+evitar perigo imediato. 
+RULE 3 - GENERAL DEFINITIONS: 
+a) Embarcação = qq tipo de water craft, non-displacement craft (sem calado), WIG (anv de vôo rasante) e seaplanes, capazes de 
+serem usados para transporte sobre a água. 
+b) Power-driven vessel (emb. de prop mecânica) = movidas a máquinas/motores. 
+c) Embarcação a vela = que está velejando (sem usar a máquina, if fitted). 
+d) Vessel engaged in fishing = qq embarcação pescando com redes, linhas, redes de arrasto (line trawls) ou qq outro eq. de pesca 
+que restrinja a sua manobrabilidade. / Não inclui pesca de corrico (trolling lines) ou com outro eq. que não restrinja a 
+manobrabilidade! 
+e) Hidroavião = qq anv desenhada para manobrar na água. 
+f) Emb sem governo (not under command) = embarcação que, por qq circusntância excepcional, está incapacitada de manobrar 
+por estas regras, e, portanto, de se manter safa de outra embarcação. 
+g) Emb com capacidade de manobra restrita (restricted in her ability to manoeuvre) = embarcação que, pela natureza do seu 
+trabalho, está incapacitada de manobrar por estas regras e, portanto, de se manter safa de outra embarcação. 
+Isso inclui, mas não se limita, aos casos de embarcações engajadas em: 
+- Lançamento/recolhimento de anv, remoção de minas, reabastecimento ou tx de pessoas/provisões/cargas enquanto em 
+movimento. 
+- Colocação/manut/retirada de sinais de navegação/cabos/tubulações, dragagem {dredging), levantamentos hidro/oceanográficos e 
+trabalhos submarinos. 
+- Operação de reboque que restrinja severamente a capacidade do rebocador e seu reboque de desviarem do seu rumo. 
+h) Emb restrita devido a seu calado (constrained by her draught) = embarcação de prop mecânica que, devido ao seu calado em 
+relação à prof e à largura da água navegável, está muito restrita quanto à capacidade de desviar do seu rumo. 
+i) Em movimento (undeway) = não está fundeado, amarrado à costa ou encalhado, (inclui navios parados sob máquinas!). 
+j) Length e breadth = comp roda a roda (length overall) e largura máxima. 
+k) Embs no visual (in sight) = quando uma avista a outra a olho. 
+I) Visibilidade restrita = qq condição na qual a visibilidade é prejudicada por fog (nevoeiro), mist (névoa), falling snow (nevada), 
+haeavy rainstorms, sandstorms e outros. 
+m) Wing-In-Ground craft (WIG, ou nave de vôo rasante) = nave multimodal que, em seu ppal modo de operação, voa próximo 
+da superfície utilizando a surface-effect action (efeito solo). 
+
+
+===== PAGINA 244 =====
+
+SHWSSfrWJ*-^"" 
+PART B - STEERING AND SAILING RULES (regras de governo e navegação) 
+SECTION 1 - CONDUCT OF VESSELS IN ANY CONDITION OF VISIBILITY 
+RULE 4 - APPLICATION: essas regras se aplicam em qq condição de visibilidade. 
+RULE 5 - LOOK-OUT: todas as embarcações deverão manter, permanentemente, vigilância visual e auditiva, e por todos os 
+meios disponíveis apropriados às condições e circunstâncias, de forma a obter total apreciação da situação e do risco de colisão. 
+RULE 6 - SAFE SPEED: todas as embarcações deverão, permanentemente, proceder numa veloc segura, de forma a poder 
+manobrar para evitar colisão e poder ser parada numa distância apropriada às condições e circunstâncias. / Ao se determinar a 
+veloc de segurança, os seguintes fatores devem ser considerados: 
+a) Por todas as embarcações: 1) a visibilidade; 2) a densidade do tráfego (incluindo pesqueiros); 3) a manobrabilidade (com 
+ênfase na stopping distance e turning ability nas condições predominantes); 4) de noite, a presença de background light (como 
+luzes da costa ou back scatter of her own lights); 5) o W/mar/corrente e a proximidade de perigos à navegação; e 6) o calado em 
+relação à profundidade. 
+b) Adicionalmente, por navios com radar: 1) as características, eficiência e limitações do radar; 2) restrições devido à escala 
+de distância usada; 3) o efeito na detecção do estado do mar, da met. e de outras fontes de interferência; 4) a possibilidade de 
+que embarcações pequenas, gelo e objetos pequenos não sejam detectados numa distância adequada; 5) o número, localização e 
+movimento dos contatos; e 6) a determinação mais exata da visibilidade possível de se obter quando se usa o radar para 
+determinar distâncias de embarcações/objetos próximos. 
+RULE 7 - RISK OF COLISION: 
+a) Cada embarcação deverá usar todos os meios disponíveis, apropriados às condições e circunstâncias, para determinar se 
+existe risco de colisão. Se houver dúvidas, such risk shall be deemed to exist. 
+b) Se operativo, o radar deverá ser usado de forma apropriada, inclusive efetuando-se: 1) varreduras de longa distância para 
+obter alarme antecipado de risco de colisão; e 2) plotagem radar ou observação sistemática equivalente dos objetos detectados. 
+c) Não se devem fazer suposições com base em "scanty information" (insufucientes), especialmente com base em informações 
+radar de baixa confiabilidade {scanty). 
+d) Ao se determinar se existe risco de colisão, também deve-se considerar o seguinte: 1) assumir que existe o risco se a 
+marcação de uma embarcação que se aproxima não mudar de forma considerável; e 2) tal risco poderá existir mesmo quando 
+for observada uma mudança apreciável da marcação, especialmente ao se aproximar de um navio muito grande, ou um reboque, 
+ou quando se aproxima de uma embarcação muito próxima. 
+RULE 8 - ACTION TO AVOID COLISION: 
+a) Qualquer ação para evitar colisão deve ser feita de acordo com as regras desta parte e, se as circunstâncias o permitirem, 
+deve ser positiva, feita com ampla antecedência e observando a boa marinharia. 
+b) Qualquer alteração de rumo/veloc para evitar colisão deve, se possível, ser grande o suficiente para que seja evidente a 
+outro vessel que observe pelo radar ou visualmente. / Evitar pequenas alterações sucessivas de rumo/veloc. 
+c) Se houver espaço suficiente, apenas uma alt de rumo pode ser a ação mais eficaz para se evitar "close-quarters situations" 
+desde que ela seja feita a tempo, seja substancial e não resulte noutra situação de proximidade excessiva. 
+d) A manobra feita para evitar colisão deve ser tal que resulte numa passagem a distância segura. / A sua eficácia deve ser 
+checada até que o outro vessel tenha passado e esteja safo. 
+e) Caso necessário para evitar colisão ou para dar mais tempo de avaliar a situação, uma embarcação deve "slacken her speed" 
+or "take all way off' by stopping or reversing her propulsion. 
+f-I) Uma emb que, por essas regras, seja obrigada a não interferir com a passagem ou passagem segura de outra embarcação 
+deverá, quando as circunstâncias o exigirem, manobrar com bastante antecedência de modo a deixar espaço suficiente para a 
+passagem segura da outra embarcação. 
+f-II) Uma emb obrigada a não impedir a passagem ou passagem segura de outra emb não estará dispensada desta obrigação se, 
+ao aproximar-se da outra emb, houver risco de colisão; e deverá, ao manobrar, respeitar integralmente as regras desta parte. 
+Mil) Uma emb cuja passagem não deva ser impedida continua 100% obrigada a cumprir as regras desta parte quando duas 
+embs se aproximarem envolvendo risco de colisão. 
+
+
+===== PAGINA 245 =====
+
+mmMsms^^m 
+RULE 9 - NARROW CHANNELS: 
+a) Uma emb navegando num canal estreito ou via de acesso (fairway) deve se manter tão próxima quanto seguro e prático do seu 
+limite externo de BE. 
+b) Embs de menos de 20 m ou a vela não devem interferir na passagem de uma emb que só possa navegar dentro de um canal 
+estreito ou fairway. 
+c) Uma emb engajada na pesca não deve interferir na passagem de qualquer outra emb que navegue num canal estreito ou 
+fairway. 
+d) Uma emb não deverá cruzar um canal estreito ou fairway se for interferir com a passagem de uma emb que só possa navegar 
+com segurança nesse canal estreito/fairway. / Esta poderá usar o sinal sonoro da regra 34 se tiver dúvidas quanto às intenções da 
+emb que cruza (min 5x1, suplementado por 5 lampejos curtos e rápidos). 
+e-I) Quando uma ultrapassagem num canal estreito ou fairway só for possível se o alcançado manobrar, o overtaking deve 
+indicar sua intenção pelo sinal sonoro da regra 34 (J3 + J3 + J7J\T). 
+- Se de acordo, o overtaken deve responder com o sinal sonoro da regra 34 (J3 + J1 + J3 + X) e manobrar para permitir a passagem. 
+- Se estiver em dúvida, pode emitir os sinais sonoros da regra 34 (min 5 x 1 , suplementado por 5 lampejos curtos e rápidos). 
+e-II) Esta regra não dispensa a emb que alcança da sua obrigação pela regra 13. 
+f) Uma emb que se aproxima de uma curva ou área de um canal estreito ou fairway onde outras embs possam estar ocultas deve 
+navegar com atenção e cuidado redobrados, e deve soar o sinal da regra 34 (J3). 
+g) Todas as embs devem evitar fundear num canal estreito, se as circunstâncias o permitirem. 
+RULE 10 - TRAFFIC SEPARATION SCHEMES: 
+a) Essa regra se aplica aos esquemas de separação de tráfego adotados pela Organização, e não dispensa quaisquer embs das 
+suas obrigações perante quaisquer outras regras. 
+b) Uma embarcação utilizando um Esquema deverá: 
+- Seguir na via de tráfego apropriada (traffic lane) e na direção geral do fluxo para aquela lane. 
+- Manter-se tão longe quanto prático de uma linha (Une) ou zona (zone) de separação de tráfego. 
+- Normalmente, entrar e sair de uma via de tráfego (lane) em suas extremidades. Mas ao entrar ou sair por um dos lados, 
+deverá fazê-lo com o menor ângulo possível com relação à direção do fluxo. 
+c) Uma embarcação deverá, tanto quanto prático, evitar cruzar vias de tráfego. Mas se obrigada a isso, deve fazê-lo o mais 
+perpendicular possível à direção do fluxo. 
+d-I) Uma emb não deverá usar uma "Zona de Tráfego Costeiro" (inshore traffic zone) quando puder usar a via de tráfego 
+apropriada dentro do Esquema adjacente. / Não obstante, embs de menos de 20 m, a vela ou engajadas na pesca podem usar 
+a Inshore Traffic Zone. 
+d-II) Apesar do dito em d-I, uma emb poderá usar uma zona de tráfego costeiro: 1) quando demandar ou sair de um porto, 
+instalação/estrutura offshore, pilot station, ou qq outro lugar dentro da Zona de Tráfego Costeiro: ou 2) para evitar perigo imediato. 
+e) Uma emb que não esteja entrando, cruzando ou saindo de uma traffic lane normalmente não deverá entrar numa zona de 
+separação ou cruzar uma linha de separação, exceto: - em casos de emergência, para evitar um perigo imediato; 
+- para engajar na pesca dentro da zona de separação. 
+f) Uma emb navegando próximo das extremidades de um Esquema deve fazê-lo com cuidado redobrado. 
+g) Uma emb deve, tanto quanto prático, evitar fundear num Esquema ou próximo das suas extremidades. 
+h) Uma emb que não estiver usando um Esquema deve evitá-lo com uma margem tão grande quanto prático. 
+i) Uma emb engajada na pesca não deve interferir na passagem de qualquer emb seguindo uma via de tráfego. 
+j) Uma emb de menos de 20 m ou a vela não deve interferir com a passagem de uma emb de propulsão mecânica seguindo 
+uma via de tráfego. 
+k e 1) Uma emb com capacidade de manobra restrita, quando engajada em: 
+- operação para a manutenção da SegNav dentro de um Esquema; ou 
+- operação de lançamento/reparo/recolhimento de cabo submarino dentro de um Esquema, 
+está dispensada do cumprimento desta regra na medida necessária para esta operação. 
+
+
+===== PAGINA 246 =====
+
+sssssssmzmm
+SECTION II - CONDUCT OF VESSELS IN SIGHT OF ONE ANOTHER 
+RULE 11 - APPLICATION: essas regras se aplicam a embarcações no visual uma da outra. 
+RULE 12 - SAILING VESSELS: 
+a) Quando duas embs a vela se aproximam com risco de colisão, uma delas deverá manobrar, como a seguir: 
+I) quando cada uma tiver o W num bordo diferente, a que tem o W por BB deve manobrar. 
+II) quando ambas tiverem o W no mesmo bordo, a que está a barlavento deve manobrar. 
+III) quando uma emb com o W a BB avistar a outra a barla e não puder determinar com segurança de que bordo ela recebe o W, 
+ela deverá manobrar. 
+b) O bordo de barlavento é aquele oposto ao qual se encontra amurada: 1) a vela grande (main sail); ou 2) a maior vela latina 
+(fore-and-aft sail), no caso de embs armadas com velas redondas (square-rigged, de um bordo a outro). 
+RULE 13 - OVERTAKING: 
+a) A despeito do dito nas regras das Seções I e II desta Parte, toda emb ultrapassando deve manter-se fora do caminho da outra. 
+b) Uma emb é considerada alcançando (overtaking) quando vem de uma direção de mais de 22,5° AR do través da outra 
+(ou seja, quando de noite, só aviste a luz de alcançado). 
+c) Se estiver em dúvidas se está alcançando ou não, considerar que está, e manobrar de acordo. 
+d) Qualquer alteração subsequente de marcação entre as embs não fará da emb que alcança uma emb que cruza o caminho da 
+outra (crossing vessel), nem a dispensará de se manter safa da outra, until she is finally past and clear. 
+RULE 14 - HEAD-ON SITUATION: 
+a) Quando dois power-driven vessels se aproximarem em rumos diretamente ou quase diretamente opostos, de forma que haja 
+risco de colisão, ambos devem guinar para BE, de forma que a passagem se dê por BB. 
+b) Deve-se considerar que tal situação exista quando uma emb avistar a outra na proa ou próximo da proa, e: 
+- de noite, avistar as luzes de mastro alinhadas (ou quase alinhadas) e/ou avistar as luzes de ambos os bordos; 
+- de dia, observar o aspecto correspondente da outra emb. 
+c) Se houver dúvida quanto à existência de tal situação, considerar que ela existe, e manobrar de acordo. 
+RULE 15 - CROSSING SITUATION: quando duas embs de propulsão mecânica navegarem em rumos que se cruzam (are 
+crossing) e houver risco de colisão, a que avista por BE deverá se manter fora do caminho da outra e, caso as circunstâncias 
+permitam, evitará cruzar sua proa. 
+RULE 16 - ACTION BY GIVE-AWAY VESSEL: toda emb obrigada a manter-se fora do caminho da outra deverá, tanto 
+quanto possível, manobrar antecipada e substancialmente para se manter bem safa da outra. 
+RULE 17 - ACTION BY STAND-ON VESSEL: 
+a-I) Quando uma emb for obrigada a manobrar, a outra deverá manter o rumo e veloc. 
+a-II) Entretanto, a emb que tem preferência poderá manobrar para evitar colisão tão logo lhe pareça que a emb obrigada a 
+manobrar não está manobrando de acordo com essas regras. 
+b) Quando, por qualquer motivo, a emb que deve manter rumo/veloc se encontrar tão próxima que uma colisão não possa ser 
+evitada unicamente pela manobra da outra, ela deverá manobrar da melhor maneira para evitar colisão. 
+c) Um power-driven vessel que, numa situação de rumos cruzados, manobre de acordo com a-II para evitar colisão com outro 
+power-driven vessel, não deverá, se as circunstâncias permitirem, guinar para BB para uma emb que esteja a seu BB. 
+d) Essa regra não dispensa o give-away vessel da sua obrigação de manobrar. 
+REGRA 18 - RESPONSD3ILITIES BETWEEN VESSELS: exceto quando disposto em contrário pelas regras 9, 10 e 13 
+(canais estreitos, Esquemas e ultrapassagens): 
+a) Uma emb de propulsão mecânica em movimento deve se manter safa de embs: 
+Sem governo / com capacidade de manobra restrita / engajada na pesca / a vela. 
+b) Uma emb a vela em movimento deve se manter safa de embs: 
+Sem governo / com capacidade de manobra restrita / engajada na pesca. 
+c) Uma emb engajada na pesca em movimento deve, tanto quanto possível, se manter safa de embs: 
+Sem governo / com capacidade de manobra restrita. 
+d-I) Qualquer emb que não seja sem governo ou com capacidade de manobra restrita deverá evitar, se as circunstâncias 
+permitirem, interferir com a passagem de uma emb restrita devido ao seu calado, exibindo os sinais da regra 28 (3 luzes 
+vermelhas circulares verticais ou um cilindro). 
+d-II) Uma emb restrita devido ao seu calado deverá considerar a sua condição especial e navegar com cuidado redobrado. 
+e) De modo geral, hidroaviões na água devem permanecer bem safos de todas as embs. Entretanto, em circunstâncias onde haja 
+risco de colisão, deverão cumprir com as regras desta Parte. 
+f-I) Uma nave de vôo rasante (WIG) decolando, amerrissando ou voando próximo da superfície deve manter-se bem safa de 
+todas as outras embs. 
+f-II) Uma nave de vôo rasante (WIG) operando na superfície da água deve cumprir com as regras desta Parte como se fosse um 
+power-driven vessel. 
+
+
+===== PAGINA 247 =====
+
+SECTION III - CONDUCT OF VESSELS IN RESTRICTED VISD3DLITY 
+RULE 19 - CONDUCT OF VESSELS IN RESTRICTED VISD3ILITY: 
+a) Esta regra se aplica a embs fora do visual uma da outra quando navegando dentro ou próximo de uma área de visibilidade 
+restrita. 
+b) As embs devem proceder numa veloc segura, adaptada às circunstâncias e à condição de visibilidade restrita reinantes. As de 
+propulsão mecânica devem ter as máqs prontas para manobrar imediatamente. 
+c) As embs devem considerar as circunstâncias e a condição de visibilidade restrita reinantes ao cumprir com as regras da 
+Seção I desta Parte. 
+d) Uma emb que detectar a outra apenas pelo radar deve determinar se está se desenvolvendo uma close quarters situation e/ou 
+se existe risco de colisão. / Caso afirmativo, deverá manobrar com antecedência. E se essa manobra consistir de uma mudança 
+de rumo, deve-se evitar, tanto quanto possível: 
+I) Ginar para BB para uma emb AV do través, exceto se esta for alcançada numa ultrapassagem. 
+II) Guinar na direção de uma emb no través ou AR do través. 
+e) Exceto quando houver sido determinado que não exista risco de colisão, toda emb: 
+- que ouvir um sinal de cerracão por ante-a-vate do través, ou 
+- que não possa evitar uma situação de dose quarters com uma emb por ante-a-vante do través, 
+deverá: - reduzir a veloc ao mínimo que lhe permita manter o rumo. 
+- caso necessário, cortar todo o segmento. 
+- em todos os casos, navegar com extrema cautela até que passe o risco de colisão. 
+
+
+===== PAGINA 248 =====
+
+«mtmiimiMUUMJu 
+PART C - LIGHTS AND SHAPES 
+RULE 20 - APPLICATION: 
+a) Estas regras se aplicam em todas as condições meteorológicas. 
+b) As regras sobre luzes se aplicam do pôr ao nascer do sol. Neste período, nenhuma outra luz deve ser exibida, exceto as que 
+não possam ser confundidas com as destas regras ou que não prejudiquem a sua visibilidade ou características distintivas ou que 
+não interfiram na manutenção de uma vigilância apropriada. 
+c) As luzes destas regras, se instaladas, também: 
+- devem ser exibidas em visibilidade restrita (mesmo de dia); e 
+- podem ser exibidas em quaisquer circunstâncias julgadas necessárias. 
+d) As regras sobre marcas {shapes) se aplicam ao período diurno. 
+e) As luzes e marcas desta regra devem obedecer ao Anexo I. 
+RULE 21 - DEFINITIONS: 
+a) Luz de mastro (masthead light) = branca contínua {unbroken), na centerline, setor de 225° (AV de 22,5° do través). 
+b) Luzes de bordos (side lights) = contínuas, verde a BE, encarnada a BB, setor de 112,5° a partir da proa. / Nas embs de 
+menos de 20 m, as sidelights podem ser combinadas numa lanterna na centerline. 
+c) Luz de alcançado (sternlight) = branca, contínua, tão perto da popa quanto possível, arco de 135° (67,5° para cada bordo). 
+d) Luz de reboque (towing light) = amarela, mesmas caracts da luz de alcançado {e acima desta). 
+e) Luz circular (all-round light) = contínua (unbroken) num arco de 360°. 
+f) Luz intermitente (flashing light) = lampejos em intervalos regulares, de freq > 120 flashes/min. 
+RULE 22 - VISIBILITY OF LIGHTS: as luzes devem ter a intensidade especificada na Section 8 do Anexo I, de forma que 
+sejam visíveis nos seguintes alcances mínimos: 
+a) Embs > 50 m: 
+- Mastehead: 6 milhas. 
+- Luzes de bordo, alcançado, de reboque e luzes circulares branca/verde/vermelha/amarela: 3 milhas. 
+b) Embs > 12 m e < 50 m: 
+- Mastehead: 5 milhas. / Mas se L < 20 m: 3 milhas. 
+- Luzes de bordo, alcançado, de reboque e luzes circulares branca/verde/vermelha/amarela: 2 milhas. 
+c) Embs < 12 m: 
+- Luz de mastro, de alcançado, de reboque e luzes circulares branca/verde/vermelha/amarela: 2 milhas. 
+- Luzes de bordo: 1 milha. 
+d) Objetos ou embs inconspícuos e parcialmente submersos, quando rebocados: 
+- Luz circular branca: 3 milhas. 
+RULE 23 - POWER DRIVEN VESSELS UNDERWAY: 
+a) Embs de propulsão mecânica em movimento devem exibir: 
+- Uma masthead light AV, sidelights e uma stern light. 
+- Uma segunda luz de mastro mais alta e AR que a de vante (embs < 50 m não são obrigadas, mas podem exibi-la). 
+b) Uma emb de colchão de ar {air-cushion vessel), quando operando sem calado, deve exibir (além das luzes de a): 
+- Uma luz circular intermitente amarela. 
+c) Um WIG craft, apenas quando decolando, amerrissando ou voando rasante. deve exibir (além das luzes de a): 
+- Uma luz circular intermitente encarnada de alta intensidade. 
+d-I) Embs de propulsão mecânica < 12 m podem exibir (ao invés das luzes de a): 
+- Luzes de bordo e uma luz circular branca. 
+d-H) Embs de propulsão mecânica < 7 m e cuja veloc máx não exceda 7 kt podem exibir (ao invés das luzes de a): 
+- Uma luz circular branca. 
+- E devem, se praticável, também exibir sidelights. 
+d-III) A luz de mastro ou luz circular branca de uma emb de prop mecânica < 12 m pode ser deslocada da centerline caso a sua 
+adaptação neste eixo não seja praticável, desde que as luzes de bordo sejam combinadas numa lanterna que deve se localizar na 
+linha de centro ou o mais próximo possível da mesma linha longitudinal da luz de mastro ou circular branca. 
+
+
+===== PAGINA 249 =====
+
+RULE 24 - TOWING AND PUSHING: 
+a) Quando rebocando, uma emb de prop mecânica deve exibir: 
+- Comp. do reboque (de popa a popa) < 200 m: ao invés da luz de mastro de vante ou de ré, 2 luzes de mastro em linha vertical. 
+- Comp. do reboque (de popa a popa) > 200 m: ao invés da luz de mastro de vante ou de ré, 3 luzes de mastro em linha vertical, 
++ um losango (diamondshape) onde melhor possa ser visto. 
+- Luzes de bordo, de alcançado, e luz de reboque (em linha vertical e acima da luz de alcançado). 
+b) Quando as embs empurradora e empurrada estão rigidamente ligadas (formando uma unidade integrada), elas são consideradas 
+como apenas uma emb de prop mecânica, e devem exibir as luzes da regra 23. 
+c) Uma emb de prop mecânica "pushing ahead" ou rebocando a contrabordo, exceto no caso de uma unidade integrada (composite 
+unit), deve exibir: 
+- Ao invés da luz de mastro de vante ou de ré, 2 luzes de mastro em linha vertical. 
+- Luzes de bordo e de alcançado, (sem luz de reboque!!) 
+d) As embs enquadradas em a ou c também devem cumprir a regra 23-a-II (2a luz de mastro se L > 50 m). 
+e) Uma emb ou objeto sendo rebocado (exceto os do parágrafo g) deve exibir: 
+- Comp. do reboque > 200 m: um losango (diamond shape) onde melhor possa ser visto. 
+- Luzes de bordo e de alcançado, (sem luz de mastro!!) 
+f) Provided that any number of vessels being towed alongside or pushed in a group shall be lighted as one vessel: 
+- Uma emb empurrada AV que não seja parte da unidade integrada deve exibir, no extremo de vante, as luzes de bordo. 
+- Uma emb rebocada a contrabordo deve exibir uma luz de alcançado e, no extremo de vante. as luzes de bordo. 
+g) Uma emb ou objeto parcialmente submerso difícil de ser avistado, ou uma combinação de tais embs/objetos sendo rebocados, 
+deve exibir: 
+- Boca < 25 m: uma luz circular branca sobre ou próxima à extremidade de vante, e outra sobre ou próxima à extremidade de ré. 
+(os "dracones" estão dispensados de exibir a luz de vante). 
+- Boca > 25 m: duas luzes circulares brancas adicionais, nas bordas ou em suas proximidades. 
+- L > 100 m: luzes circulares brancas adicionais entre as acima, de forma que a dist entre as luzes não exceda 100 m. 
+- Um losango sobre ou próximo à extremidade de ré da última emb/objeto rebocado. 
+- Se o comp do reboque for > 200 m, um losango adicional o mais AV possível, onde melhor possa ser visto. 
+h) Quando, por uma razão justificada, for impraticável a uma emb/objeto sendo rebocado exibir as luzes/marcas de e ou g, devem 
+ser tomadas todas as medidas possíveis para iluminar a emb/objeto rebocado, ou ao menos indicar a sua presença. 
+i) Quando, por uma razão justificada, for impraticável a uma emb que normalmente não efetua reboque exibir as luzes de a ou c, tal 
+emb não será obrigada a exibir essas luzes ao rebocar uma emb em perigo ou necessitando assistência. / Deve-se tomar todas as 
+medidas possíveis para indicar, cnf aut pela regra 36, o tipo de ligação entre as embs, em particular iluminando-se o cabo de reboque. 
+RULE 25 - SAILING VESSELS UNDERWAY AND VESSELS UNDER OARS: 
+a) Uma emb a vela em movimento deve exibir: luzes de bordo e luz de alcançado. 
+b) Se < 20 m, pode exibir essas luzes numa lanterna combinada no ou próximo do tope do mastro, onde melhor possa ser vista. 
+c) Além das luzes de a, pode exibir no ou próximo do tope do mastro, onde melhor possam ser vistas, 2 luzes circulares em linha 
+vertical (a de baixo verde e a de cima encarnada). Mas essas luzes não poderão ser exibidas junto com a lanterna combinada de b. 
+d-I) Se < 7 m, deve, se possível, exibir as luzes de a ou b. / Mas caso não o faça, deve ter pronta uma lanterna elétrica (el. torch) 
+ou a óleo acesa (lighted lantern) de luz branca, que deve ser exibida a tempo para evitar colisão. 
+d-II) Uma emb a remo pode exibir as luzes prescritas para embs a vela. / Mas caso não o faca, deve ter pronta uma lanterna ei. ou 
+a óleo acesa (de luz branca), que deve ser exibida a tempo para evitar colisão. 
+e) Uma emb navegando a vela, quando também usando prop mecânica, deve exibir AV. onde melhor possa ser visto, um cone 
+emborcado. 
+RULE 26 - FISHING VESSELS: 
+a) Embs engajadas na pesca, seja em movimento ou fundeadas, devem exibir apenas as luzes e marcas desta regra. 
+b) Uma embarcação engajada na pesca de arrasto (trawling), entenda-se "que arrasta uma dredge net (= rede) ou outro 
+dispositivo de pesca", deverá exibir: 
+I) Duas luzes circulares na vertical (a de cima verde, a de baixo branca); ou dois cones na vertical, unidos pelo vértice. 
+(Não existe mais o cesto para as < 20 m) 
+n) Uma luz de mastro mais alta e AR da luz circular verde. / Embs < 50 m não são obrigadas a exibir essa luz de mastro, 
+mas podem fazê-lo. 
+III) Quando com segmento, tb exibirão luzes de bordo e alcançado. 
+c) Uma emb engajada na pesca que não de arrasto deve exibir: 
+I) Duas luzes circulares na vertical (a de cima encarnada, a de baixo branca); ou dois cones na vertical unidos pelo vértice. 
+(Não existe mais o cesto para as < 20 m) 
+n) Quando o eq. de pesca (outlying gear) se estender a mais de 150 m na horizontal (a partir da emb), uma luz circular 
+branca ou um cone para cima na direção do aparelho. 
+III) Quando com segmento, tb exibirão luzes de bordo e alcançado. 
+d) Os sinais adicionais do Anexo II se aplicam a embs engajadas na pesca nas proximidades de outras embs engajadas na pesca. 
+e) Pesqueiros não engajados não devem exibir as luzes/marcas desta regra, mas apenas as prescritas para o seu comprimento. 
+
+
+===== PAGINA 250 =====
+
+RULE 27 - VESSELS NOT UNDER COMMAND OR RESTRICTED IN THEIR ABILITY TO MANOEUVRE: 
+a) Embs sem governo devem exibir: 
+I) Duas luzes circulares encarnadas na vertical, onde melhor possam ser vistas. 
+II) Duas esferas (ou marcas semelhantes) na vertical, onde melhor possam ser vistas. 
+HI) Quando com segmento, tb exibirão luzes de bordo e alcançado (sem luz de mastro!!) 
+b) Embs com capacidade de manobra restrita (exceto as engajadas em remoção de minas), devem exibir: 
+I) Três luzes circulares na vertical (encarnada + branca + encarnada), onde melhor possam ser vistas. 
+II) Três marcas na vertical (bola + losango + bola), onde melhor possam ser vistas. 
+III) Quando com segmento, tb exibirão luz(es) de mastro, de bordo e alcançado. 
+IV) Quando fundeadas, além das luzes/marcas de I/II, exibirão também as luz(es)/marcas da regra 30. 
+c) Uma emb de prop mecânica engajada em operação de reboque que esteja severamente restrita na capacidade de alterar o 
+rumo do dispositivo deve exibir, além das luzes/marcas da regra 24(a), as luzes/marcas da regra 27(b-I/II). 
+d) Embs engajadas em operações submarinas ou de dragagem {dredging), quando com capacidade de manobra restrita, devem 
+exibir as luzes/marcas de b-I/II/HI e, quando houver uma obstrução, devem adicionalmente exibir: 
+I) Duas luzes circulares encarnadas ou duas esferas (na vertical) para indicar o bordo da obstrução. 
+ID Duas luzes circulares verdes ou dois losangos (na vertical) para indicar o bordo pelo qual outras embs podem passar. 
+III) Quando fundeadas, as luzes/marcas deste parágrafo, ao invés das prescritas na regra 30 (embs fundeadas/encalhadas). 
+e) Quando o porte de uma emb engajada em operação de mergulho tornar impraticável a exibição de todas as luzes/marcas de 
+(d), esta deverá exibir: 
+I) Três luzes circulares na vertical (encarnada + branca + encarnada), onde melhor possam ser vistas. 
+II) Uma réplica da bandeira "A" do CIS, numa altura min de 1 m. Measures should be taken to ensure it's all-round visibility. 
+f) Uma emb removendo minas deve exibir: 
+I) As luzes da regra 23 para power-driven vessels, ou as luzes/marcas da regra 30 (embs fundeadas), conforme o caso. 
+II) Três luzes circulares verdes, ou três esferas. / Uma dessas luzes/marcas deve ser exibida próximo ao tope do mastro de 
+vante, e as outras duas exibidas uma em cada lais da verga do mesmo mastro {one at each end of the fore yard). I Essas 
+luzes/marcas indicam que é perigoso se aproximar a menos de 1000 m. 
+g) Embs < 12 metros, exceto as engajadas em ops. de mergulho, não são obrigadas a exibir as luzes/marcas desta regra. 
+h) Os sinais desta regra não indicam que uma emb esteja em perigo ou necessitando de assistência. 
+RULE 28 - VESSELS CONSTRAINED BY THEIR DRAUGH: além das luzes prescritas para power-driven vessels da 
+regra 23, podem exibir três luzes circulares encarnadas na vertical ou um cilindro, onde melhor possam ser vistos. 
+RULE 29 - PILOT VESSELS: 
+a) Quando engajados, devem exibir: 
+I) Duas luzes circulares na vertical (a de cima branca, a de baixo encarnada), no ou próximo ao tope do mastro. 
+II) Adicionalmente quando em movimento, luzes de bordo e alcançado. 
+III) Quando fundeadas, além das luzes de (D, as luz(es)/marca da regra 30. 
+b) Quando não engajadas em pilotage duties, devem exibir as luzes/marcas prescritas para uma emb do seu comprimento. 
+RULE 30 - ANCHORED VESSELS AND VESSELS AGROUND: 
+a) Embs fundeadas devem exibir, onde melhor possam ser vistos: 
+I) A vante, uma luz circular branca ou esfera. 
+II) Na ou próximo da popa, e mais baixo que a luz da proa, outra luz circular branca. 
+b) Embs < 50 metros podem exibir uma luz circular branca onde melhor possa ser vista, ao invés das luzes prescritas em (a). 
+c) Uma emb fundeada pode, e uma emb > 100 m deve, usar as luzes de fainas ou equivalentes para iluminar os conveses. 
+d) Uma emb encalhada deve exibir as luzes de (a) ou (b) e, adicionalmente, onde melhor possam ser vistas: 
+I) Duas luzes circulares encarnadas na vertical. 
+ID Três esferas na vertical. 
+e) Embs < 7 m não são obrigadas a exibir as luzes/marca de (a) ou (b) quando fundeadas fora de/ou das proximidades de um 
+canal estreito!, fairway, anchorage ou where other vessels normaly navigate. 
+f) Embs < 12 m encalhadas não são obrigadas a exibir as luzes/marcas de (d-I/II). 
+RULE 31 - SEAPLANES: quando for impraticável para um hidroavião ou WIG exibir as luzes/marcas com as caracts ou nas 
+posições prescritas nas regras desta Parte, eles deverão exibir luzes/marcas "as closely similar in characteristics and position as 
+possible". 
+
+
+===== PAGINA 251 =====
+
+ssgggs 
+PART D - SOUND AND LIGHT SIGNALS 
+RULE 32 - DEFINITIONS: 
+a) Apito (whistle) = qq dispositivo de sinalização sonora capaz de produzir os sons curtos e longos prescritos, e que atenda às 
+especificações do Anexo III. 
+b) Apito curto (short blast) = cerca de 1 seg. 
+c) Apito longo (prolonged blast) = 4-6 segs. 
+RULE 33 - EQUIPAMENT FOR SOUND SIGNALS: 
+a) As embs devem ter: 
+- > 12 m: 
+- apito. 
+- > 20 m: 
+- apito + sino (bell). 
+- > 100 m: 
+- apito + sino + gongo (gong), cujo som não possa ser confundido com o do sino. 
+O sino/gongo/apito devem cumprir com as especificações do Anexo III. 
+O sino ou o gongo (ou ambos) podem ser substituídos por outros eqs de mesmas caracts sonoras, desde que seja possível o 
+acionamento manual dos sinais prescritos. 
+b) Embs < 12 m não precisam ter os equipamentos de (a); mas se não os tiverem, devem possuir algum outro meio de produzir 
+um sinal sonoro eficaz. 
+RULE 34 - MANOEUVRING AND WARNING SIGNALS: 
+a) Quando embs estão no visual, um power-driven vessel manobrando cnf autorizado ou requerido por essas regras deve indicar 
+tal manobra por meio dos seguintes sinais de apito: 
+-1 curto: 
+- estou guinando para BE. 
+- 2 curtos: 
+- estou guinando para BB. 
+- 3 curtos: 
+- estou dando AR com a máq. 
+b) Qualquer emb pode suplementar os sinais de apito de (a) por sinais luminosos repetidos apropriadamente enquanto se 
+executa a manobra (1,2 ou 3 flashes). IA duração de cada flash e o intervalo entre flashes é +-1 seg, e o intervalo entre sinais 
+sucessivos não deve ser inferior a 10 seg. / A luz usada (if fitted) deve ser uma luz circular branca visível a no min 5 milhas, e 
+deve atender às provisões do Anexo III. 
+c) Quando no visual uma da outra em um canal estreito ou via de acesso (fairway): 
+I) Uma emb que quer ultrapassar deve, de acordo com a regra 9-e, indicar sua intenção por (J3 + J3 + J7JV). 
+D) A que será ultrapassada, ao agir de acordo com a regra 9-e, deve indicar a sua concordância por (J3 + X + J3 + í). 
+d) Quando embs no visual se aproximam e uma delas: 1) não entende as intenções/ações da outra, ou 2) está em dúvida se a 
+manobra da outra será suficiente para evitar colisão: ela deve indicar sua dúvida por ao menos 5 apitos curtos e rápidos 
+(podendo suplementar com ao menos 5 flashes curtos e rápidos). 
+e) Se uma emb se aproxima de uma curva ou de uma área de um channel ou fairway onde outras embs podem estar ocultas 
+devido a obstáculos, ela deve soar um apito longo. / Este sinal deve ser respondido com outro longo por qualquer approaching 
+vessel that may be "within hearing" around the bend or behind the intervening obstruction. 
+f) Se uma emb tiver dois apitos distanciados de mais de 100 m. deverá usar apenas um deles para emitir sinais de manobra e 
+advertência. 
+
+
+===== PAGINA 252 =====
+
+iffSgSSSSS 
+RULE 35 - SOUND SIGNALS IN RESTRICTED VISIBHJTY: dentro ou próximo a uma área de visibilidade restrita, de 
+dia ou de noite, os sinais desta regra devem ser usados como a seguir: 
+a) Power-driven vessel making way through the water (= com segmento): deve soar 1 apito longo em intervalos não maiores 
+que 2 min. 
+b) Power-driven vessel underway (= sob máquinas) but stopped and making no way through the water (= sem segmento): 
+deve soar 2 longos sucessivos (separados por aprox 2 segs), a intervalos não maiores que 2 min. 
+c) Embs sem governo, com capacidade de manobra restrita, restrita devido ao calado, a vela, engajada na pesca e 
+rebocando/empurrando: devem soar, ao invés de (a) ou (b), 1 longo + 2 curtos, a intervalos não maiores que 2 min. 
+d) Emb engajada na pesca quando fundeada e emb com capacidade de manobra restrita quando trabalhando fundeada: devem, 
+ao invés dos sinais de (g), soar os sinais de (c). 
+e) Emb rebocada (ou a última do reboque, se guarnecida): deve soar 1 longo + 3 curtos, a intervalos não maiores que 2 min. / Se 
+possível, soar este sinal logo depois do sinal do rebocador. 
+f) Embs empurradora e empurrada ligadas rigidamente numa "composite unit": são consideradas como um power-driven vessel, 
+e devem soar como em (a) ou (b). 
+g) Emb fundeada < 100 m: deve soar rapidamente o sino por +- 5 segs, a intervalos não maiores que 1 min. 
+Emb fundeada > 100 m: deve soar o sino AV e, logo depois, o gongo AR, por +- 5 segs, a intervalos não maiores que 1 min. 
+- Além disso, uma emb fundeada pode soar 1 curto + 1 longo + 1 curto para indicar sua posição e advertir uma emb que se 
+aproxima quanto à possibilidade de colisão. 
+h) Emb encalhada: deve soar o sino/sino+gongo (conforme em (g)), e ainda emitir 3 strokes distintos e separados 
+imediatamente antes e após a tocada rápida de sino. / Pode, adicionalmente, emitir um sinal de apito apropriado (g). 
+i) Emb > 12 e < 20 m: não é obrigada a soar o sino como em (g) e (h). Mas se não o fizer, deverá emitir algum outro sinal 
+sonoro eficiente a intervalos não maiores que 2 min. 
+j) Emb < 12 m: não é obrigada a emitir nenhum dos sinais supracitados. Mas se não o fizer, deverá emitir algum outro sinal 
+sonoro eficiente a intervalos não maiores que 2 min. 
+k) Emb de praticagem engajada: além dos sinais de (a), (b) ou (g), podem emitir um sinal de identificação composto por 4 curtos. 
+RULE 36 - SIGNALS TO ATTRACT ATTENTION: 
+Se for preciso chamar a atenção de outra emb, qualquer emb pode: 
+- Produzir sinais luminosos ou sonoros que não possam ser confundidos com quaisquer sinais destas regras; ou 
+- Direcionar o beam da sua searchlight na direção do perigo, in such a way as not to embarrass any vessel. 
+Quaisquer luzes para chamar a atenção não devem poder ser confundidas com nenhum auxílio à navegação. 
+Para chamar atenção, deve-se evitar usar luzes intermitentes ou rotativas (revolving lights) de grande intensidade, tais como 
+strobe lights. 
+RULE 37 - DISTRESS SIGNALS: quando uma emb estiver em perigo e necessitar de auxílio, deverá usar ou exibir os sinais 
+do Anexo IV. 
+PART E - EXEMPTIONS (isenções) 
+RULE 38 - EXEMPTIONS: 
+Desde que cumpram com o PJPEAM de 1960, as embarcações cuja quilha foi batida antes da data de entrada em vigor deste 
+Regulamento serão isentadas de cumpri-lo até um certo um prazo 
+Isenção permanente do reposicionamento das luzes resultante da conversão do sistema britânico para o sistema métrico e 
+do arredondamento das medidas 
+Quase todas as outras isenções são temporárias, e variam de 4 a 9 anos 
+10 
+
+
+===== PAGINA 253 =====
+
+ANNEX II - ADDITONAL SIGNALS FOR FISfflNG VESSELS FISHING IN CLOSE PROXIMITY 
+- As luzes aqui mencionadas, se exibidas de acordo com a regra 26(d), devem ser colocadas onde melhor possam ser vistas. 
+- Elas devem ficar: 1) separadas de ao menos 0,9 m; e 2) em nível mais baixo que as luzes de 26(b/I) e 26(c/I). 
+- Essas luzes devem ser circulares e visíveis a pelo menos 1 milha, mas a uma dist menor do que as luzes prescritas nessas 
+Regras para embs de pesca. 
+1 - SIGNALS FOR TRAWLERS (emb. de pesca de arrasto): 
+a) Embs > 20 m engajadas em trawling, estejam usando aparelho demersal ou pelágico, devem exibir: 
+I) Quando lançando (shooting) suas redes: duas luzes brancas na vertical. 
+II) Quando recolhendo (hauling) suas redes:uma luz branca sobre uma encarnada, na vertical. 
+III) Quando a rede estiver presa numa obstrução: duas luzes encarnadas na vertical. 
+b) Cada emb > 20 m engajada em pares de pesca de arrasto deve exibir: 
+I) A noite, um farol (searchlight) dirigido para vante e na direção da outra emb do par. 
+II) Quando lançando/recolhendo suas redes ou comas redes presas, as luzes de 2(a). 
+c) Embs < 20 m engajadas na pesca de arrasto (com demersal oupelagic gear) ou engajadas com outra formando um par de 
+pesca de arrasto, podem exibir as luzes de (a) ou (b). 
+2 - SIGNALS FOR PURSE SEINERS (pesca com rede de cerco): 
+Embs engajadas na pesca com rede de cerco (purse seine gear) podem exibir 2 luzes amarelas na vertical, mas apenas quando 
+estiverem tolhidas (hampered) por seu aparelho de pesca. 
+Essas luzes devem relampejar alternadamente a cada segundo e com períodos iguais de lampejo ou ocultação. 
+ANNEX IV - DISTRESS SIGNALS 
+1 - Os seguintes sinais, usados ou exibidos em conjunto ou separadamente, indicam perigo (distress) e necessidade de auxílio: 
+a) Tiro de canhão (guri) ou sinal explosivo, em intervalos de +-1 min. 
+b) Toque contínuo de qq fog-signalling apparatus. 
+c) Foguetes ou granadas (rockets or shells) lançando estrelas vermelhas, um de cada vez, a intervalos curtos. 
+d) Sinal emitido por radiotelegrafia ou qq outro método de sinalização constituído pelo grupo Morse SOS (...—...)• 
+e) Sinal emitido por radiotelefonia constituído por "Mayday" falado. 
+f) Sinal de perigo do CIS indicado por N.C. (= / am in distress and require immediate assistance). 
+g) Bandeira quadrada com uma esfera (ou qq coisa parecida) acima ou abaixo. 
+h) Chamas a bordo, as from a burning tar (alcatrãó) or oil barrel. 
+i) Foguete luminoso com paraquedas (rocket parachute flare) ou uma tocha manual (handflare) exibindo luz vermelha. 
+j) Fumaça alaranjada. 
+k) Movimentos lentos de braço para cima e para baixo, com os braços esticados para o lado. 
+1) O sinal de alarme radiotelegráfico (12 traços de 4 seg, a intervalo de l seg) 
+m) O sinal de alarme radiotelefônico (2 tons audio alternados em 2200 e 1300 Hz, com duração de 30 seg a 1 min) 
+n) Sinais transmitidos por EPIRB. (o sinal de "m " acima; ou uma série de tons singelos em 1300 Hz) 
+o) Sinais aprovados transmitidos por sistemas de radiocomms, incluindo "survival craft radar transponders". (SARI) 
+2 - É proibido o uso/exibição de quaisquer dos sinais anteriores (ou de outros que com eles possam ser confundidos), exceto 
+quando com o propósito de indicar perigo e necessidade de auxílio. 
+3 - Chama-se atenção para as seções pertinentes do CIS, para o "Manual Internacional Marítimo e Aeronáutico de Busca e 
+Salvamento - IAMSAR", e para os seguintes sinais: 
+a) Um pedaço de lona (canvas) laranja com: 
+- um círculo e um quadrado pretos; ou 
+- outros símbolos apropriados (para identificação aérea). 
+b) Um corante de água (dye marker). 
+ANNEX I - POSITIONING AND TECHNICAL DETAILS OF LIGHTS AND SHAPES 
+1- Altura acima do casco = acima do convés corrido mais elevado, medido verticalmente na posição da luz. 
+2 - Posicionamento e espaçamento vertical: 
+- Para um power-driven > 20 m: 1) a luz de mastro de vante ou a única luz de mastro deve ficar no min a 6 m acima do casco 
+(sempre mais alta que a boca, mas não precisa ser mais alta que 12 m); e 2) a luz de mastro de ré deve ficar ao menos 4,5 m 
+mais alta que a de vante. / A separação vertical das masthead lights deve ser tal que, em condições normais de trim, visto a 
+1000 m da proa no nível do mar, a luz de ré seja vista acima e separada da de vante. 
+- As 2 ou 3 masthead lights previstas para um rebocador devem ficar na mesma pos da luz de mastro de vante ou de ré; desde 
+que, se ficar no mastro de ré, a masthead light mais baixa fique ao menos 4,5 m mais alta que a masthead de vante. 
+- A(s) luz(es) de mastro da regra 23(a) devem ficar acima e livres de todas as demais luzes e obstruções. 
+- As luzes de bordos de power-driven vessels devem ficar numa altura acima do casco não maior que % da altura da luz de 
+mastro de vante. E não devem ficar tão baixo que possam ser confundidas com as luzes de convés. 
+- Quando as regras prescrevem 2 ou 3 luzes em linha vertical, elas devem ser igualmente espaçadas, e: 
+se L > 20 m: o espaçamento min é 2 m, e a luz inferior fica a no min 4 m acima do casco (except where a towing light is req). 
+se L < 20 m: o espaçamento min é 1 m, e a luz inferior fica a no min 2 m acima da borda (gunwale) (except where a towing 
+light is req). 
+- A luz de fundeio de vante fica ao menos 4,5 m mais alta que a de ré; e nos navios > 50 m, ela fica ao menos 6 m acima do casco. 
+11 
+
+
+===== PAGINA 254 =====
+
+3 - Posicionamento e espaçamento horizontal: 
+- Quando houver 2 luzes de mastro, a dist entre elas deve ser > L/2, mas não precisa ser > 100 m. A luz do mastro de vante deve 
+ficar no máx a L/4 da roda de proa. 
+- Power driven > 20m com apenas uma luz de mastro, esta deve ficar AV da MN. Para embs < 20m, ela deve ficar as far fwd as 
+possible. 
+- Power-driven > 20 m, as luzes de bordos não devem ficar AV da luz de mastro de vante, e devem ficar no ou próximas dos bordos.
+4 - As luzes de bordos (exceto lanternas combinadas com um só filamento vertical) devem ser dotadas de anteparas (screens) no 
+lado interno pintadas de preto fosco (matt black). 
+5 - Marcas: 
+- São pretas. / A dist vertical min entre marcas é 1,5 m. 
+- Dimensões mínimass: cone (0,6 m de base, altura min = à base); cilindro (0,6 m de diâmetro, altura min = 2 x diâmetro); esfera 
+(diâmetro min = 0,6 m). / Para embs < 20 m, os tamanhos e espaçamentos podem ser reduzidos, condizendo com o porte da emb. 
+6 - Deve-se limitar a intensidade máxima das luzes de navegação para evitar reflexos excessivos. Mas para isso, não deverá ser 
+usado um controle variável de intensidade luminosa. 
+7 - Setores horizontais: 
+- Luzes de bordos: devem exibir a intensidade mínima requerida na direção de vante, e tem que zerar até 1-3° além do setor. 
+- Outras luzes (incluindo o limite de ré das luzes de bordo): a intensidade tem que ser de 100% até 5o dentro do limite do setor, no 
+mínimo 50% no limite, e zero até 5° fora do limite do setor. 
+- Luzes circulares: não podem ser obstruídas por mastros/estruturas em mais de 6o (exceto as de fundeio). Se não der para cumprir 
+isso, pode-se usar 2 luzes, de forma que pareçam uma só a 1 milha. 
+8 - Setores verticais: a intensidade min requerida deve ser mantida em 100% em +- 5o, e em pelo menos 60% em +- 7,5°. Para 
+veleiros a regra é diferente. 
+9- Luz de manobra (menoeuvring light): 
+- Deve ficar no mesmo plano longitudinal das luzes de mastro e, onde praticável, ao menos 2 m acima da luz de mastro de vante 
+(desde que não fique menos de 2 m acima ou abaixo da luz de mastro de ré). / Quando houver apenas uma luz de mastro, a luz de 
+manobra (if fitted) deve ficar onde melhor possa ser vista, distanciada verticalmente no min 2 m da luz de mastro. 
+10 - A construção e instalação das luzes e marcas devem satisfazer ao Governo da bandeira do navio. 
+ANNEX III - TECHNICAL DETAILS OF SOUND SIGNAL APPLIANCES 
+Apitos: 
+1 - A freq fundamental situa-se entre 70 e 700 Hz (embs grandes usam faixas no limite de baixo, e vice-versa). 
+- O "range of audibility" do sinal de um apito deve ser determinado pelas freqs acima, que podem incluir a freq fundamental 
+e/ou uma ou mais freqs mais altas (dentro de certos limites), que produzam os níveis de pressão sonora especificados. 
+- Os níveis mínimos de pressão sonora são especificados a 1 m na dir da intensidade máxima. 
+2 - Propriedades direcionais: o alcance sonoro em qualquer direção deve ser ao menos 50% do alcance no eixo para vante. 
+3 - Posicionamento: 
+- Se a emb tiver apenas um apito direcional, este deve ser instalado com a sua intensidade máxima para vante. 
+- Um apito deve ficar tão alto quanto possível, visando reduzir interferências por obstruções e não incomodar os tripulantes. 
+- O nível de pressão do apito nos postos de escuta de uma embarcação não deve ser maior que 110 dB. Se possível, deve ser 
+menor que 100 dB. 
+4 - Se houver apitos distanciados de mais de 100 m, deve haver um arranjo para que eles não sejam soados simultaneamente. 
+5 - Sistema combinado de apitos: é usado quando obstruções reduzem muito o nível sonoro. 
+- Para os propósitos destas Regras, o sistema deve ser considerado como um apito singelo. 
+- Os apitos devem ficar a menos de 100 m um do outro, e deve haver um arranjo para que sejam soados simultaneamente. 
+- A freq de qq dos apitos deve diferir da dos outros em ao menos 10 Hz. 
+Sino ou gongo: 
+- Devem produzir um nível de pressão sonora de ao menos 110 dB a 1 metro. 
+- Para o sino, recomenda-se um badalo acionado mecanicamente, mas este deve poder ser operado manualmente. A massa do 
+badalo não deve ser menor que 3% da massa do sino. 
+Obs: a construção e instalação dos aparelhos de sinalização sonora devem satisfazer ao Governo da bandeira do navio. 
+12 

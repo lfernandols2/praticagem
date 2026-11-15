@@ -1,0 +1,2346 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>16 · Auxílios Eletrônicos e GMDSS — Apostila de Praticagem</title>
+  <meta name="description" content="Lista de Auxílios-Rádio, posicionamento, DGPS e Kalman, avisos aos navegantes, GMDSS, EPIRB, DSC e apoio costeiro.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a2238'/%3E%3Ccircle cx='32' cy='32' r='19' fill='none' stroke='%23d9ad58' stroke-width='2'/%3E%3Cpath d='M39 23l-5 11-11 5 5-11 11-5z' fill='%23d9ad58'/%3E%3C/svg%3E">
+  <style>
+/* ============================================================
+   APOSTILA DE PRATICAGEM — sistema visual
+   Tema navy/teal com papel marfim e acentos dourados.
+   ============================================================ */
+
+:root {
+  --bg: #f3efe5;
+  --bg-deep: #e9e2d2;
+  --surface: #fffdf7;
+  --surface-2: #f8f4e9;
+  --surface-3: #efe9da;
+  --ink: #14212e;
+  --ink-soft: #465866;
+  --ink-faint: #7a8794;
+  --navy: #0a2238;
+  --navy-2: #10344f;
+  --navy-3: #164866;
+  --teal: #0e6b76;
+  --teal-soft: #e0f1f1;
+  --gold: #b3872c;
+  --gold-soft: #f7edd8;
+  --red: #a53e2f;
+  --red-soft: #f9e8e4;
+  --green: #2f6b4f;
+  --green-soft: #e5f2ea;
+  --line: #d8d0bf;
+  --line-strong: #bfb49d;
+  --shadow-sm: 0 1px 2px rgba(20, 33, 46, .08);
+  --shadow-md: 0 10px 30px -12px rgba(10, 34, 56, .35);
+  --shadow-lg: 0 30px 70px -30px rgba(10, 34, 56, .45);
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --sidebar-w: 322px;
+  --content-w: 900px;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --font-body: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --ease: cubic-bezier(.2, .7, .3, 1);
+}
+
+[data-theme="dark"] {
+  --bg: #08131d;
+  --bg-deep: #060f17;
+  --surface: #0f1f2d;
+  --surface-2: #132737;
+  --surface-3: #193143;
+  --ink: #e9eff3;
+  --ink-soft: #b4c4d0;
+  --ink-faint: #8095a7;
+  --navy: #071727;
+  --navy-2: #0b2439;
+  --navy-3: #123b57;
+  --teal: #52b6c0;
+  --teal-soft: rgba(82, 182, 192, .14);
+  --gold: #d9ad58;
+  --gold-soft: rgba(217, 173, 88, .14);
+  --red: #e07c6d;
+  --red-soft: rgba(224, 124, 109, .14);
+  --green: #6fbf92;
+  --green-soft: rgba(111, 191, 146, .13);
+  --line: #24394b;
+  --line-strong: #385165;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, .35);
+  --shadow-md: 0 10px 30px -12px rgba(0, 0, 0, .65);
+  --shadow-lg: 0 30px 70px -30px rgba(0, 0, 0, .8);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 100%;
+  height: auto !important;
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.72;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow-wrap: break-word;
+}
+
+::selection { background: var(--gold-soft); color: var(--ink); }
+
+a { color: var(--teal); text-decoration-color: color-mix(in srgb, var(--teal) 35%, transparent); text-underline-offset: 3px; }
+a:hover { text-decoration-color: currentColor; }
+
+img, svg, video, canvas { max-width: 100%; height: auto; }
+
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 10px;
+  z-index: 999;
+  background: var(--surface);
+  color: var(--ink);
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+}
+.skip-link:focus { left: 10px; }
+
+/* ---------- barra de progresso de leitura ---------- */
+.read-progress {
+  position: fixed;
+  inset: 0 auto auto 0;
+  height: 3px;
+  width: 0;
+  z-index: 120;
+  pointer-events: none;
+  background: linear-gradient(90deg, var(--gold), var(--teal));
+  transition: width .1s linear;
+}
+
+/* ---------- topbar ---------- */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  height: 66px;
+  padding: 0 22px;
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  min-width: 0;
+  color: var(--ink);
+  text-decoration: none;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.02rem;
+  letter-spacing: .01em;
+  white-space: nowrap;
+}
+.brand__mark {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: var(--gold);
+  border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent);
+  background:
+    radial-gradient(circle at 50% 35%, color-mix(in srgb, var(--gold) 18%, transparent), transparent 65%),
+    var(--navy);
+  flex: 0 0 auto;
+}
+.brand__mark svg { width: 20px; height: 20px; }
+.brand small { display: block; font-family: var(--font-body); font-weight: 500; font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-faint); }
+
+.topbar__spacer { flex: 1; }
+
+.icon-btn {
+  display: inline-grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: background .2s, color .2s, border-color .2s, transform .2s;
+}
+.icon-btn:hover { background: var(--surface-2); color: var(--ink); border-color: var(--line-strong); }
+.icon-btn:active { transform: scale(.96); }
+.icon-btn svg { width: 19px; height: 19px; }
+
+.nav-toggle { display: inline-grid; }
+
+.topbar__label {
+  display: block;
+  font-size: .82rem;
+  color: var(--ink-faint);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 40vw;
+}
+
+/* ---------- layout com sidebar ---------- */
+.layout { display: block !important; min-width: 0; width: 100% !important; max-width: 100% !important; position: relative !important; height: auto !important; overflow: visible !important; margin: 0 !important; }
+.scrim { display: none !important; }
+.scrim.is-visible { display: block !important; position: fixed; inset: 66px 0 0; z-index: 90; background: rgba(4,14,22,.55); }
+
+.sidebar {
+  display: none !important;
+  position: fixed;
+  top: 66px;
+  left: 0;
+  bottom: 0;
+  z-index: 95;
+  width: min(340px, 88vw);
+  overflow-y: auto;
+  padding: 30px 24px 48px;
+  background: var(--surface);
+  border-right: 1px solid var(--line);
+  box-shadow: var(--shadow-lg);
+}
+.sidebar.is-open { display: block !important; }
+.sidebar::-webkit-scrollbar { width: 8px; }
+.sidebar::-webkit-scrollbar-thumb { background: var(--line-strong); border-radius: 8px; }
+
+.sidebar__eyebrow {
+  margin: 0 0 14px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.sidebar__group { margin-bottom: 24px; }
+.sidebar__group-title {
+  margin: 0 0 8px;
+  padding: 0 10px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.part-nav { list-style: none; margin: 0; padding: 0; }
+.part-nav a {
+  position: relative;
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr);
+  gap: 8px;
+  align-items: baseline;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-size: .86rem;
+  line-height: 1.35;
+  transition: background .15s, color .15s;
+}
+.part-nav a:hover { background: var(--surface-2); color: var(--ink); }
+.part-nav a.is-active {
+  background: var(--gold-soft);
+  color: var(--ink);
+  font-weight: 650;
+}
+.part-nav a.is-active::before {
+  content: "";
+  position: absolute;
+  left: -24px;
+  top: 8px;
+  bottom: 8px;
+  width: 3px;
+  border-radius: 3px;
+  background: var(--gold);
+}
+.part-nav__num {
+  font-family: var(--font-mono);
+  font-size: .72rem;
+  color: var(--ink-faint);
+  letter-spacing: .03em;
+}
+.part-nav a.is-active .part-nav__num { color: var(--gold); }
+.part-nav__done {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-left: 5px;
+  border-radius: 50%;
+  background: var(--green);
+  vertical-align: middle;
+}
+
+.sidebar__progress {
+  margin-top: 6px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-2);
+}
+.sidebar__progress p { margin: 0 0 10px; font-size: .78rem; color: var(--ink-soft); display: flex; justify-content: space-between; gap: 10px; }
+.sidebar__progress strong { color: var(--ink); }
+
+.bar {
+  height: 7px;
+  border-radius: 99px;
+  background: var(--surface-3);
+  overflow: hidden;
+}
+.bar__fill {
+  height: 100%;
+  width: 0;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--teal), var(--gold));
+  transition: width .5s var(--ease);
+}
+
+/* ---------- conteúdo ---------- */
+.main { display: block !important; position: relative !important; z-index: 1 !important; min-width: 0 !important; width: 100% !important; max-width: 100% !important; overflow: visible !important; min-height: auto !important; height: auto !important; margin: 0 !important; transform: none !important; }
+.content {
+  display: block !important;
+  position: relative !important;
+  z-index: 1 !important;
+  width: auto !important;
+  max-width: 940px !important;
+  margin: 0 auto !important;
+  padding: 40px 24px 80px !important;
+  min-width: 0 !important;
+  overflow: visible !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  height: auto !important;
+  box-sizing: border-box !important;
+  transform: none !important;
+  left: auto !important;
+  right: auto !important;
+}
+.chapter-body, .part-hero, .toc-card, .chapter-end, .breadcrumb, .site-footer {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  max-width: 100%;
+}
+.chapter-nav { display: grid !important; visibility: visible !important; }
+.chapter-body, .part-hero, .toc-card, .chapter-end, .chapter-nav,
+.section, .card, .callout, .def, .formula, .figure, .table-wrap, .example,
+.compare, .keyfacts, .chapter-map, .grid-2, .grid-3, .grid-4 { max-width: 100%; min-width: 0; }
+.chapter-nav a, .grid-2 > *, .grid-3 > *, .grid-4 > *, .compare > *, .keyfacts > * { min-width: 0; }
+pre, code { max-width: 100%; white-space: pre-wrap; overflow-wrap: anywhere; }
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 22px;
+  font-size: .78rem;
+  color: var(--ink-faint);
+}
+.breadcrumb a { color: var(--ink-faint); text-decoration: none; }
+.breadcrumb a:hover { color: var(--teal); }
+.breadcrumb span[aria-hidden] { opacity: .6; }
+
+/* ---------- hero do capítulo ---------- */
+.part-hero {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 42px;
+  padding: clamp(28px, 5vw, 52px);
+  border-radius: var(--radius-lg);
+  color: #f4f7f8;
+  background:
+    radial-gradient(900px 420px at 82% -20%, rgba(67, 158, 170, .42), transparent 60%),
+    radial-gradient(500px 380px at 0% 115%, rgba(179, 135, 44, .22), transparent 65%),
+    linear-gradient(135deg, #071a2b 0%, #0b2b44 55%, #0d3a50 100%);
+  box-shadow: var(--shadow-lg);
+  isolation: isolate;
+}
+.part-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: .28;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, .07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .07) 1px, transparent 1px);
+  background-size: 46px 46px;
+  mask-image: radial-gradient(circle at 75% 30%, #000 0%, transparent 72%);
+  -webkit-mask-image: radial-gradient(circle at 75% 30%, #000 0%, transparent 72%);
+}
+.part-hero::after {
+  content: "";
+  position: absolute;
+  right: -70px;
+  bottom: -90px;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, .13);
+  box-shadow: 0 0 0 42px rgba(255, 255, 255, .045), 0 0 0 86px rgba(255, 255, 255, .03);
+  z-index: -1;
+}
+.part-hero__num {
+  position: absolute;
+  right: clamp(18px, 4vw, 44px);
+  top: clamp(2px, 1vw, 10px);
+  font-family: var(--font-display);
+  font-size: clamp(6rem, 15vw, 11rem);
+  font-weight: 700;
+  line-height: 1;
+  color: rgba(255, 255, 255, .07);
+  letter-spacing: -.05em;
+  pointer-events: none;
+  user-select: none;
+}
+.part-hero__kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 16px;
+  padding: 5px 12px;
+  border: 1px solid rgba(255, 255, 255, .22);
+  border-radius: 99px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: #e7d9b4;
+  background: rgba(255, 255, 255, .05);
+}
+.part-hero__kicker::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #d9ad58;
+  box-shadow: 0 0 10px #d9ad58;
+}
+.part-hero h1 {
+  position: relative;
+  margin: 0 0 14px;
+  max-width: 16ch;
+  font-family: var(--font-display);
+  font-size: clamp(2.1rem, 4.4vw, 3.35rem);
+  font-weight: 700;
+  line-height: 1.06;
+  letter-spacing: -.02em;
+}
+.part-hero__subtitle {
+  margin: 0;
+  max-width: 62ch;
+  font-size: clamp(.98rem, 1.4vw, 1.12rem);
+  line-height: 1.6;
+  color: #c9d8df;
+}
+.part-hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-top: 26px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, .14);
+  font-size: .78rem;
+  color: #b9cbd4;
+}
+.part-hero__meta span { display: inline-flex; align-items: center; gap: 7px; }
+.part-hero__meta svg { width: 15px; height: 15px; opacity: .8; }
+.part-hero__meta a { color: #e7d9b4; }
+
+.hero-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 16px; }
+.hero-tags span {
+  padding: 4px 10px;
+  border-radius: 99px;
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  color: #dfe9ed;
+  background: rgba(255, 255, 255, .09);
+  border: 1px solid rgba(255, 255, 255, .12);
+}
+
+/* ---------- card "neste capítulo" ---------- */
+.toc-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+  gap: 26px;
+  margin-bottom: 42px;
+  padding: 24px 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.toc-card h2 {
+  margin: 0 0 4px;
+  padding: 0;
+  border: 0;
+  font-size: 1.02rem;
+  letter-spacing: .01em;
+}
+.toc-card h2::before, .toc-card h2::after { display: none; }
+.toc-card p { margin: 0; font-size: .83rem; color: var(--ink-faint); }
+.toc-card ol {
+  columns: 2;
+  column-gap: 28px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: toc;
+}
+.toc-card li {
+  break-inside: avoid;
+  margin-bottom: 7px;
+  font-size: .82rem;
+  line-height: 1.4;
+}
+.toc-card li a {
+  display: inline-flex;
+  gap: 8px;
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+.toc-card li a::before {
+  counter-increment: toc;
+  content: counter(toc, decimal-leading-zero);
+  font-family: var(--font-mono);
+  font-size: .68rem;
+  color: var(--gold);
+  padding-top: 2px;
+}
+.toc-card li a:hover { color: var(--teal); }
+.toc-card li a.is-current { color: var(--gold); font-weight: 700; }
+.toc-card li a.is-current::before { color: var(--teal); }
+
+/* ---------- tipografia do conteúdo ---------- */
+.section { margin: 0 0 46px; scroll-margin-top: 90px; }
+
+.section-kicker {
+  margin-bottom: 8px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.content h2 {
+  position: relative;
+  margin: 0 0 18px;
+  padding-bottom: 12px;
+  font-family: var(--font-display);
+  font-size: clamp(1.55rem, 2.6vw, 2.05rem);
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: -.015em;
+  color: var(--ink);
+}
+.content h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 52px;
+  height: 3px;
+  border-radius: 3px;
+  background: linear-gradient(90deg, var(--gold), color-mix(in srgb, var(--gold) 20%, transparent));
+}
+.content h3 {
+  margin: 32px 0 10px;
+  font-family: var(--font-display);
+  font-size: 1.28rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ink);
+}
+.content h4 {
+  margin: 24px 0 8px;
+  font-size: .92rem;
+  font-weight: 750;
+  letter-spacing: .02em;
+  color: var(--ink);
+}
+.content p { margin: 0 0 15px; }
+.content ul, .content ol { margin: 0 0 18px; padding-left: 1.35em; }
+.content li { margin-bottom: 7px; }
+.content li::marker { color: var(--gold); }
+.content strong { font-weight: 700; color: var(--ink); }
+.content em { font-style: italic; }
+.content small { font-size: .8rem; color: var(--ink-faint); }
+
+.anchor {
+  margin-left: 9px;
+  font-size: .72em;
+  color: var(--ink-faint);
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity .15s;
+}
+h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
+
+.lead {
+  font-size: 1.1rem;
+  line-height: 1.66;
+  color: var(--ink-soft);
+}
+.lead strong { color: var(--ink); }
+
+.src {
+  font-family: var(--font-mono);
+  font-size: .7em;
+  font-weight: 500;
+  color: var(--ink-faint);
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  padding: 1px 6px;
+  white-space: nowrap;
+}
+
+.source-line {
+  margin-top: -4px;
+  font-size: .74rem;
+  color: var(--ink-faint);
+  letter-spacing: .02em;
+}
+.source-line::before {
+  content: "Fonte ";
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+/* ---------- cartões e grades ---------- */
+.grid-2, .grid-3, .grid-4 {
+  display: grid;
+  gap: 16px;
+  margin: 22px 0 26px;
+}
+.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+.card {
+  padding: 20px 20px 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.card h3, .card h4 { margin: 0 0 6px; }
+.card h3 { font-size: 1.02rem; }
+.card p:last-child, .card ul:last-child { margin-bottom: 0; }
+.card__num {
+  display: inline-grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background: var(--gold-soft);
+  color: var(--gold);
+  font-family: var(--font-mono);
+  font-size: .74rem;
+  font-weight: 700;
+}
+.card--accent { border-top: 3px solid var(--gold); }
+.card--teal { border-top: 3px solid var(--teal); }
+
+/* ---------- callouts ---------- */
+.callout {
+  position: relative;
+  margin: 22px 0 26px;
+  padding: 18px 20px 16px 22px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--teal);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  background: var(--surface-2);
+}
+.callout > :last-child { margin-bottom: 0; }
+.callout__label {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: .66rem;
+  font-weight: 800;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+.callout p { margin-bottom: 10px; }
+.callout ul, .callout ol { margin-bottom: 0; }
+
+.callout--info { border-left-color: var(--teal); background: color-mix(in srgb, var(--teal-soft) 55%, var(--surface)); }
+.callout--info .callout__label { color: var(--teal); }
+.callout--tip { border-left-color: var(--green); background: color-mix(in srgb, var(--green-soft) 60%, var(--surface)); }
+.callout--tip .callout__label { color: var(--green); }
+.callout--warn { border-left-color: var(--gold); background: color-mix(in srgb, var(--gold-soft) 65%, var(--surface)); }
+.callout--warn .callout__label { color: var(--gold); }
+.callout--danger { border-left-color: var(--red); background: color-mix(in srgb, var(--red-soft) 65%, var(--surface)); }
+.callout--danger .callout__label { color: var(--red); }
+.callout--exam { border-left-color: var(--navy-3); background: color-mix(in srgb, var(--navy-3) 7%, var(--surface)); }
+.callout--exam .callout__label { color: var(--navy-3); }
+[data-theme="dark"] .callout--exam { background: color-mix(in srgb, var(--navy-3) 28%, var(--surface)); }
+
+.callout--mnemonic {
+  border: 1px dashed color-mix(in srgb, var(--gold) 55%, var(--line));
+  border-left: 4px dashed var(--gold);
+  background: var(--gold-soft);
+}
+.callout--mnemonic .callout__label { color: var(--gold); }
+
+/* ---------- definição ---------- */
+.def {
+  margin: 20px 0 24px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--gold-soft) 55%, transparent), transparent 70%),
+    var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.def__term {
+  display: block;
+  margin-bottom: 6px;
+  font-family: var(--font-display);
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.def__term::before {
+  content: "Definição";
+  display: inline-block;
+  margin-right: 9px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: var(--gold);
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: .58rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  vertical-align: 2px;
+}
+.def p { margin: 0; font-size: .95rem; }
+
+/* ---------- fórmulas ---------- */
+.formula {
+  margin: 20px 0 24px;
+  padding: 20px 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--navy);
+  color: #eef4f6;
+  text-align: center;
+  overflow-x: auto;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+.formula__expr {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: clamp(.95rem, 2vw, 1.15rem);
+  letter-spacing: .01em;
+  white-space: nowrap;
+}
+.formula__where {
+  display: block;
+  margin-top: 10px;
+  font-size: .78rem;
+  line-height: 1.6;
+  color: #aebfc8;
+  text-align: left;
+  white-space: normal;
+}
+.formula__where b { color: #e7d9b4; font-weight: 650; }
+.formula sub, .formula sup { font-size: .72em; }
+.formula--light {
+  background: var(--surface-2);
+  color: var(--ink);
+  border-left: 3px solid var(--teal);
+  text-align: left;
+}
+.formula--light .formula__where { color: var(--ink-soft); }
+.formula--light .formula__where b { color: var(--teal); }
+
+/* ---------- tabelas ---------- */
+.table-wrap {
+  margin: 22px 0 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.table-wrap table { width: 100%; border-collapse: collapse; font-size: .88rem; min-width: 100%; }
+.table-wrap caption {
+  padding: 13px 16px;
+  text-align: left;
+  font-size: .76rem;
+  font-weight: 600;
+  color: var(--ink-faint);
+  border-bottom: 1px solid var(--line);
+  background: var(--surface-2);
+}
+.table-wrap th {
+  padding: 11px 14px;
+  text-align: left;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--line-strong);
+  white-space: normal;
+}
+.table-wrap td {
+  padding: 11px 14px;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+  line-height: 1.5;
+}
+.table-wrap tr:last-child td { border-bottom: 0; }
+.table-wrap tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--surface-2) 45%, transparent); }
+.table-wrap td strong { color: var(--ink); }
+
+/* ---------- figuras / svg ---------- */
+.figure {
+  margin: 26px 0 30px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.figure { max-width: 100%; overflow: hidden; }
+.figure svg { display: block; width: 100%; max-width: 100%; height: auto; }
+.figure figcaption {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: .78rem;
+  line-height: 1.55;
+  color: var(--ink-faint);
+}
+.figure figcaption b { color: var(--ink-soft); }
+.figure--flush { padding: 0; overflow: hidden; }
+.figure--flush figcaption { padding: 12px 20px 14px; margin-top: 0; }
+
+.diagram-text { font-family: var(--font-body); }
+.diagram-line { stroke: var(--line-strong); stroke-width: 1.5; fill: none; }
+.diagram-accent { stroke: var(--teal); stroke-width: 2; fill: none; }
+.diagram-gold { stroke: var(--gold); stroke-width: 2; fill: none; }
+.diagram-label { font-family: var(--font-body); font-size: 11px; fill: var(--ink-soft); }
+.diagram-label--strong { font-weight: 700; fill: var(--ink); }
+
+/* ---------- exemplos / passos ---------- */
+.example {
+  margin: 24px 0 28px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+}
+.example__title {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  margin: 0 0 10px;
+  font-size: .95rem;
+  font-weight: 750;
+}
+.example__title span {
+  font-family: var(--font-mono);
+  font-size: .66rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+.steps { list-style: none; margin: 18px 0 4px; padding: 0; counter-reset: step; }
+.steps li {
+  position: relative;
+  margin: 0;
+  padding: 0 0 20px 46px;
+  counter-increment: step;
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--navy);
+  color: var(--gold);
+  font-family: var(--font-mono);
+  font-size: .76rem;
+  font-weight: 700;
+}
+.steps li::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: 34px;
+  bottom: 4px;
+  width: 1px;
+  background: var(--line);
+}
+.steps li:last-child { padding-bottom: 0; }
+.steps li:last-child::after { display: none; }
+.steps strong { display: block; margin-bottom: 2px; }
+
+/* ---------- checklist ---------- */
+.checklist { list-style: none; margin: 18px 0 22px; padding: 0; }
+.checklist li {
+  position: relative;
+  margin: 0;
+  padding: 9px 0 9px 34px;
+  border-bottom: 1px solid var(--line);
+  font-size: .94rem;
+}
+.checklist li:last-child { border-bottom: 0; }
+.checklist li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 14px;
+  width: 17px;
+  height: 17px;
+  border: 1.5px solid var(--gold);
+  border-radius: 4px;
+  background: var(--gold-soft);
+}
+.checklist li::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 18px;
+  width: 9px;
+  height: 5px;
+  border-left: 2px solid var(--green);
+  border-bottom: 2px solid var(--green);
+  transform: rotate(-45deg);
+}
+
+/* ---------- comparação prós/contras ---------- */
+.compare { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 22px 0 28px; }
+.compare > div {
+  padding: 18px 20px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
+.compare h4 { margin-top: 0; display: flex; align-items: center; gap: 8px; }
+.compare .pro { border-top: 3px solid var(--green); }
+.compare .con { border-top: 3px solid var(--red); }
+.compare ul { margin-bottom: 0; }
+.compare .pro h4 { color: var(--green); }
+.compare .con h4 { color: var(--red); }
+
+/* ---------- destaque numérico ---------- */
+.keyfacts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; margin: 24px 0 30px; }
+.keyfact {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  text-align: center;
+}
+.keyfact b {
+  display: block;
+  margin-bottom: 4px;
+  font-family: var(--font-display);
+  font-size: 1.55rem;
+  line-height: 1.1;
+  color: var(--teal);
+}
+.keyfact span { font-size: .74rem; line-height: 1.4; color: var(--ink-faint); }
+
+/* ---------- quiz ---------- */
+.quiz { margin: 22px 0 28px; }
+.quiz details {
+  margin-bottom: 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  overflow: hidden;
+}
+.quiz details[open] { box-shadow: var(--shadow-sm); border-color: var(--line-strong); }
+.quiz summary {
+  position: relative;
+  padding: 16px 48px 16px 20px;
+  cursor: pointer;
+  font-weight: 650;
+  font-size: .94rem;
+  line-height: 1.5;
+  list-style: none;
+  user-select: none;
+}
+.quiz summary::-webkit-details-marker { display: none; }
+.quiz summary::after {
+  content: "+";
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  color: var(--gold);
+  transition: transform .2s;
+}
+.quiz details[open] summary::after { content: "−"; }
+.quiz summary:hover { background: var(--surface-2); }
+.quiz__answer {
+  padding: 0 20px 18px;
+  border-top: 1px solid var(--line);
+  background: color-mix(in srgb, var(--surface-2) 55%, transparent);
+  font-size: .92rem;
+  color: var(--ink-soft);
+}
+.quiz__answer p:first-child { margin-top: 14px; }
+.quiz__answer p:last-child { margin-bottom: 0; }
+
+/* ---------- tags ---------- */
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 0; }
+.tags span {
+  padding: 3px 9px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  font-size: .68rem;
+  font-weight: 600;
+  color: var(--ink-faint);
+  background: var(--surface-2);
+}
+
+/* ---------- conclusão do capítulo ---------- */
+.chapter-end {
+  margin-top: 52px;
+  padding: 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--gold-soft) 55%, transparent), transparent 75%),
+    var(--surface);
+}
+.chapter-end h2 { margin-bottom: 10px; font-size: 1.35rem; }
+.chapter-end h2::after { display: none; }
+.chapter-end p { color: var(--ink-soft); }
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 11px 20px;
+  border: 1px solid var(--line-strong);
+  border-radius: 99px;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: .84rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform .18s var(--ease), box-shadow .18s, background .18s, border-color .18s;
+}
+.btn:hover { transform: translateY(-1px); box-shadow: var(--shadow-sm); border-color: var(--gold); }
+.btn--primary { background: var(--navy); color: #f4f7f8; border-color: var(--navy); }
+.btn--primary:hover { background: var(--navy-2); border-color: var(--navy-2); }
+.btn--gold { background: var(--gold); color: #fffdf7; border-color: var(--gold); }
+.btn--gold:hover { background: color-mix(in srgb, var(--gold) 85%, #000); }
+.btn--done { background: var(--green-soft); color: var(--green); border-color: color-mix(in srgb, var(--green) 40%, var(--line)); }
+.btn svg { width: 16px; height: 16px; }
+
+.chapter-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 34px;
+}
+.chapter-nav a {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color .18s, transform .18s, box-shadow .18s;
+}
+.chapter-nav a:hover { border-color: var(--gold); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.chapter-nav small { font-size: .66rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
+.chapter-nav span { font-family: var(--font-display); font-weight: 700; font-size: 1rem; line-height: 1.3; }
+.chapter-nav a.next { text-align: right; align-items: flex-end; }
+
+.site-footer {
+  margin-top: 54px;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+  font-size: .74rem;
+  color: var(--ink-faint);
+  line-height: 1.6;
+}
+.site-footer p { margin: 0 0 4px; }
+
+/* ============================================================
+   INDEX
+   ============================================================ */
+.index-hero {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(52px, 9vw, 110px) 24px clamp(48px, 7vw, 88px);
+  color: #f4f7f8;
+  background:
+    radial-gradient(900px 500px at 80% 0%, rgba(67, 158, 170, .38), transparent 60%),
+    radial-gradient(700px 500px at 5% 100%, rgba(179, 135, 44, .25), transparent 65%),
+    linear-gradient(150deg, #061522 0%, #0a2438 50%, #0d3a50 100%);
+  isolation: isolate;
+}
+.index-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: .3;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, .06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .06) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(circle at 60% 40%, #000, transparent 75%);
+  -webkit-mask-image: radial-gradient(circle at 60% 40%, #000, transparent 75%);
+}
+.index-hero::after {
+  content: "";
+  position: absolute;
+  right: -120px;
+  bottom: -160px;
+  width: 520px;
+  height: 520px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, .12);
+  box-shadow: 0 0 0 60px rgba(255, 255, 255, .035), 0 0 0 130px rgba(255, 255, 255, .02);
+  z-index: -1;
+}
+.index-hero__inner { width: min(100%, 1120px); margin: 0 auto; }
+.index-hero__kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 6px 14px;
+  border: 1px solid rgba(255, 255, 255, .22);
+  border-radius: 99px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: #e7d9b4;
+  background: rgba(255, 255, 255, .05);
+}
+.index-hero__kicker::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #d9ad58;
+  box-shadow: 0 0 12px #d9ad58;
+}
+.index-hero h1 {
+  max-width: 16ch;
+  margin: 0 0 20px;
+  font-family: var(--font-display);
+  font-size: clamp(2.6rem, 6.2vw, 5rem);
+  font-weight: 700;
+  line-height: .98;
+  letter-spacing: -.035em;
+}
+.index-hero h1 em { font-style: italic; color: #e7d9b4; }
+.index-hero__lead {
+  max-width: 62ch;
+  margin: 0 0 30px;
+  font-size: clamp(1rem, 1.7vw, 1.18rem);
+  line-height: 1.65;
+  color: #c9d8df;
+}
+.index-hero__actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.index-hero .btn--ghost {
+  background: transparent;
+  color: #e9eff2;
+  border-color: rgba(255, 255, 255, .32);
+}
+.index-hero .btn--ghost:hover { background: rgba(255, 255, 255, .08); border-color: #d9ad58; }
+.index-hero__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 46px;
+  margin-top: 44px;
+  padding-top: 26px;
+  border-top: 1px solid rgba(255, 255, 255, .15);
+}
+.index-hero__stats div { display: flex; flex-direction: column; gap: 2px; }
+.index-hero__stats b { font-family: var(--font-display); font-size: 1.7rem; line-height: 1; color: #e7d9b4; }
+.index-hero__stats span { font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: #9fb4bf; }
+
+.index-main { width: min(100% - 48px, 1120px); margin: 0 auto; padding: 50px 0 90px; }
+
+.index-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.index-toolbar h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  letter-spacing: -.01em;
+}
+.search {
+  position: relative;
+  flex: 0 1 320px;
+}
+.search input {
+  width: 100%;
+  padding: 11px 16px 11px 42px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: .88rem;
+  box-shadow: var(--shadow-sm);
+}
+.search input::placeholder { color: var(--ink-faint); }
+.search svg {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 17px;
+  height: 17px;
+  color: var(--ink-faint);
+  pointer-events: none;
+}
+
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 30px; }
+.filter-chip {
+  padding: 7px 14px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  background: var(--surface);
+  color: var(--ink-soft);
+  font-family: var(--font-body);
+  font-size: .76rem;
+  font-weight: 650;
+  cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.filter-chip:hover { border-color: var(--gold); color: var(--ink); }
+.filter-chip[aria-pressed="true"] {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: #f4f7f8;
+}
+
+.parts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 18px; }
+
+.part-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px 22px 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  color: var(--ink);
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform .2s var(--ease), box-shadow .2s, border-color .2s;
+}
+.part-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--teal), var(--gold));
+  opacity: 0;
+  transition: opacity .2s;
+}
+.part-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: var(--line-strong); }
+.part-card:hover::before { opacity: 1; }
+.part-card__top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.part-card__num {
+  font-family: var(--font-mono);
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  color: var(--gold);
+}
+.part-card__module {
+  font-size: .62rem;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.part-card h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.28rem;
+  line-height: 1.2;
+  letter-spacing: -.01em;
+}
+.part-card p { margin: 0; font-size: .84rem; line-height: 1.55; color: var(--ink-soft); }
+.part-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: .7rem;
+  color: var(--ink-faint);
+}
+.part-card__meta span { display: inline-flex; align-items: center; gap: 5px; }
+.part-card__meta svg { width: 13px; height: 13px; }
+.part-card.is-done { border-color: color-mix(in srgb, var(--green) 40%, var(--line)); }
+.part-card.is-done .part-card__num { color: var(--green); }
+.done-badge {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  display: none;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 99px;
+  background: var(--green-soft);
+  color: var(--green);
+  font-size: .6rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.part-card.is-done .done-badge { display: inline-flex; }
+
+.no-results {
+  display: none;
+  padding: 40px;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-md);
+  text-align: center;
+  color: var(--ink-faint);
+}
+.no-results.is-visible { display: block; }
+
+.index-note {
+  margin-top: 42px;
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-2);
+  font-size: .82rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+.index-note strong { color: var(--ink); }
+.index-note p { margin: 0 0 8px; }
+.index-note p:last-child { margin: 0; }
+
+/* ---------- animação de entrada ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal { animation: rise .6s var(--ease) both; }
+  .reveal:nth-child(2) { animation-delay: .04s; }
+  .reveal:nth-child(3) { animation-delay: .08s; }
+  .reveal:nth-child(4) { animation-delay: .12s; }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+/* ---------- responsivo ---------- */
+@media (max-width: 1120px) {
+  :root { --sidebar-w: 280px; }
+  .toc-card { grid-template-columns: 1fr; gap: 16px; }
+}
+
+@media (max-width: 1024px) {
+  .content { width: min(100% - 36px, var(--content-w)); padding-top: 26px; }
+  .grid-3, .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 640px) {
+  body { font-size: 16px; }
+  .content { width: calc(100% - 28px); }
+  .part-hero { border-radius: var(--radius-md); padding: 26px 22px; }
+  .part-hero h1 { font-size: clamp(1.85rem, 8vw, 2.5rem); }
+  .part-hero__num { font-size: 7rem; right: 8px; }
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .compare { grid-template-columns: 1fr; }
+  .chapter-nav { grid-template-columns: 1fr; }
+  .chapter-nav a.next { text-align: left; align-items: flex-start; }
+  .toc-card ol { columns: 1; }
+  .index-main { width: calc(100% - 32px); }
+  .index-toolbar { align-items: stretch; }
+  .search { flex-basis: 100%; }
+  .parts-grid { grid-template-columns: 1fr; }
+  .topbar { padding: 0 14px; gap: 8px; }
+  .brand span { display: none; }
+  .brand small { display: none; }
+  .table-wrap table { min-width: 520px; }
+  .table-wrap th { white-space: nowrap; }
+}
+
+/* ---------- impressão ---------- */
+@media print {
+  :root { --bg: #fff; --surface: #fff; --surface-2: #f6f4ef; --ink: #111; --ink-soft: #333; --ink-faint: #666; --line: #ccc; }
+  body { font-size: 11.5pt; background: #fff; }
+  .topbar, .sidebar, .scrim, .read-progress, .chapter-nav, .chapter-end .btn, .hero-tags, .index-toolbar, .filters, .index-hero__actions { display: none !important; }
+  .layout { display: block; }
+  .content { width: 100%; max-width: none; padding: 0; }
+  .part-hero { color: #111; background: #fff !important; border: 1px solid #ccc; box-shadow: none; padding: 24px; }
+  .part-hero::before, .part-hero::after, .part-hero__num { display: none; }
+  .part-hero h1 { color: #111; }
+  .part-hero__subtitle, .part-hero__meta { color: #333; }
+  .part-hero__meta { border-top-color: #ccc; }
+  .part-hero__kicker { color: #555; border-color: #ccc; background: none; }
+  .part-hero__meta a { color: #333; }
+  .section { break-inside: auto; }
+  .callout, .def, .figure, .example, .quiz details, .table-wrap { break-inside: avoid; }
+  .quiz details { border: 1px solid #ccc; }
+  .quiz__answer { display: block; }
+  .quiz summary::after { display: none; }
+  a { color: inherit; text-decoration: none; }
+  .anchor { display: none; }
+  .source-line, .src { color: #555; }
+}
+
+  </style>
+  <script>
+  (() => {
+    try {
+      const stored = localStorage.getItem("apostila-praticagem-tema");
+      const dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.setAttribute("data-theme", stored || (dark ? "dark" : "light"));
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body class="part-page" data-part="16-auxilios-gmdss">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="read-progress" aria-hidden="true"></div>
+  
+  
+    <header class="topbar">
+      <button class="icon-btn nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="sumario" aria-label="Abrir sumário"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <a class="brand" href="../index.html">
+        <span class="brand__mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.2"/><path d="M12 3.8v2M12 18.2v2M3.8 12h2M18.2 12h2"/><path d="M14.9 9.1l-1.6 4.2-4.2 1.6 1.6-4.2 4.2-1.6Z"/></svg></span>
+        <span>Apostila de Praticagem<small>Estudos para o prático</small></span>
+      </a>
+      <div class="topbar__spacer"></div>
+      <span class="topbar__label">Capítulo 16 de 28</span>
+      <button class="icon-btn" type="button" data-print title="Imprimir / salvar em PDF" aria-label="Imprimir ou salvar em PDF"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 8V3h10v5"/><rect x="4" y="8" width="16" height="9" rx="2"/><path d="M7 14h10v7H7z"/></svg></button>
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Alternar tema"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg></button>
+    </header>
+  <div class="layout">
+    
+      <aside class="sidebar" id="sumario">
+        <p class="sidebar__eyebrow">Sumário da apostila</p>
+        <div class="sidebar__group"><p class="sidebar__group-title">Fundamentos de Arquitetura Naval</p><ul class="part-nav"><li><a href="01-resistencia.html" data-part-id="01-resistencia"><span class="part-nav__num">01</span><span>Resistência ao Avanço</span></a></li><li><a href="02-propulsao.html" data-part-id="02-propulsao"><span class="part-nav__num">02</span><span>Propulsão</span></a></li><li><a href="03-governo-manobrabilidade.html" data-part-id="03-governo-manobrabilidade"><span class="part-nav__num">03</span><span>Governo e Manobrabilidade</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Manobra e Rebocadores</p><ul class="part-nav"><li><a href="04-shiphandling.html" data-part-id="04-shiphandling"><span class="part-nav__num">04</span><span>Shiphandling: Fundamentos e Manobras</span></a></li><li><a href="05-interacao-squat-rebocadores.html" data-part-id="05-interacao-squat-rebocadores"><span class="part-nav__num">05</span><span>Interação, Squat e Rebocadores</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Navegação e Arte Naval</p><ul class="part-nav"><li><a href="06-radar.html" data-part-id="06-radar"><span class="part-nav__num">06</span><span>Radar e Navegação Radar</span></a></li><li><a href="07-arte-naval.html" data-part-id="07-arte-naval"><span class="part-nav__num">07</span><span>Arte Naval</span></a></li><li><a href="08-btm-cis.html" data-part-id="08-btm-cis"><span class="part-nav__num">08</span><span>Bridge Team Management e CIS</span></a></li><li><a href="09-ripeam.html" data-part-id="09-ripeam"><span class="part-nav__num">09</span><span>RIPEAM / COLREGS</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Regulamentação e Segurança</p><ul class="part-nav"><li><a href="10-legislacao-tribunal.html" data-part-id="10-legislacao-tribunal"><span class="part-nav__num">10</span><span>Legislação e Tribunal Marítimo</span></a></li><li><a href="11-sinalizacao-nautica.html" data-part-id="11-sinalizacao-nautica"><span class="part-nav__num">11</span><span>Sinalização Náutica e IALA</span></a></li><li><a href="12-borda-livre-estabilidade.html" data-part-id="12-borda-livre-estabilidade"><span class="part-nav__num">12</span><span>Borda-Livre e Estabilidade</span></a></li><li><a href="13-trafego-certificacao-praticagem.html" data-part-id="13-trafego-certificacao-praticagem"><span class="part-nav__num">13</span><span>Tráfego, Certificação e Praticagem</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Operações e Meteorologia</p><ul class="part-nav"><li><a href="14-cerimonial-sar.html" data-part-id="14-cerimonial-sar"><span class="part-nav__num">14</span><span>Cerimonial, Roteiro e SAR</span></a></li><li><a href="15-meteorologia.html" data-part-id="15-meteorologia"><span class="part-nav__num">15</span><span>Meteorologia e Marés</span></a></li><li><a href="16-auxilios-gmdss.html" class="is-active" aria-current="page" data-part-id="16-auxilios-gmdss"><span class="part-nav__num">16</span><span>Auxílios Eletrônicos e GMDSS</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Programa NORMAM-311 (Anexos 2-A/2-B)</p><ul class="part-nav"><li><a href="p1-manobrabilidade.html" data-part-id="p1-manobrabilidade"><span class="part-nav__num">I</span><span>Área I — Manobrabilidade do Navio</span></a></li><li><a href="p2-arte-naval.html" data-part-id="p2-arte-naval"><span class="part-nav__num">II</span><span>Área II — Arte Naval</span></a></li><li><a href="p3-navegacao-restrita.html" data-part-id="p3-navegacao-restrita"><span class="part-nav__num">III</span><span>Área III — Navegação em Águas Restritas</span></a></li><li><a href="p4-legislacao.html" data-part-id="p4-legislacao"><span class="part-nav__num">IV</span><span>Área IV — Legislação e Regulamentação</span></a></li><li><a href="p5-meteorologia.html" data-part-id="p5-meteorologia"><span class="part-nav__num">V</span><span>Área V — Meteorologia e Oceanografia</span></a></li><li><a href="p6-comunicacoes.html" data-part-id="p6-comunicacoes"><span class="part-nav__num">VI</span><span>Área VI — Comunicações</span></a></li><li><a href="p7-conhecimentos-gerais.html" data-part-id="p7-conhecimentos-gerais"><span class="part-nav__num">VII</span><span>Área VII — Conhecimentos Gerais</span></a></li><li><a href="p1-manobrabilidade-resistencia.html" data-part-id="p1-manobrabilidade-resistencia"><span class="part-nav__num">I.1</span><span>Área I — Manobrabilidade do Navio: Resistência</span></a></li><li><a href="p1-manobrabilidade-propulsao.html" data-part-id="p1-manobrabilidade-propulsao"><span class="part-nav__num">I.2</span><span>Área I — Manobrabilidade do Navio: Propulsão</span></a></li><li><a href="p1-manobrabilidade-lemes.html" data-part-id="p1-manobrabilidade-lemes"><span class="part-nav__num">I.3</span><span>Área I — Manobrabilidade do Navio: Superfícies de Controle</span></a></li><li><a href="p1-manobrabilidade-controlabilidade.html" data-part-id="p1-manobrabilidade-controlabilidade"><span class="part-nav__num">I.4</span><span>Área I — Manobrabilidade do Navio: Controlabilidade</span></a></li><li><a href="p1-manobrabilidade-ambiente.html" data-part-id="p1-manobrabilidade-ambiente"><span class="part-nav__num">I.5</span><span>Área I — Manobrabilidade do Navio: Ambiente e Interações</span></a></li></ul></div>
+        <div class="sidebar__progress">
+          <p><span>Seu progresso</span> <strong><span data-progress-total="28">00</span>/28</strong></p>
+          <div class="bar"><div class="bar__fill"></div></div>
+        </div>
+      </aside>
+      <div class="scrim"></div>
+    <main class="main" id="conteudo">
+      <div class="content">
+        <nav class="breadcrumb" aria-label="Trilha de navegação">
+          <a href="../index.html">Apostila</a>
+          <span aria-hidden="true">/</span>
+          <span>Operações e Meteorologia</span>
+          <span aria-hidden="true">/</span>
+          <span>Capítulo 16</span>
+        </nav>
+
+        <header class="part-hero">
+          <span class="part-hero__num" aria-hidden="true">16</span>
+          <span class="part-hero__kicker">Auxílios-Rádio · GMDSS</span>
+          <h1>Auxílios Eletrônicos e GMDSS</h1>
+          <p class="part-hero__subtitle">Lista de Auxílios-Rádio, posicionamento, DGPS e Kalman, avisos aos navegantes, GMDSS, EPIRB, DSC e apoio costeiro.</p>
+          <div class="hero-tags"><span>GMDSS</span><span>DGPS</span><span>RACON</span><span>avisos</span><span>EPIRB</span><span>DSC</span><span>Inmarsat</span></div>
+          <div class="part-hero__meta">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5v-16Z"/><path d="M4 18.5A2.5 2.5 0 0 1 6.5 16H20"/></svg> pp. 351–373 da fonte</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 1.8"/></svg> ~25 min de leitura</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h7l9 9-7 7-9-9V4Z"/><circle cx="8.2" cy="8.2" r="1.3"/></svg> Operações e Meteorologia</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></svg> <a href="../../resumo%20curso%20h.pdf#page=351" target="_blank" rel="noopener">abrir PDF original</a></span>
+          </div>
+        </header>
+        
+      <nav class="toc-card" aria-label="Neste capítulo">
+        <div>
+          <h2>Neste capítulo</h2>
+          <p>13 seções · leitura estimada de 25 min</p>
+        </div>
+        <ol><li><a href="#por-que-auxilios-radio-e-o-gmdss-importam-na-praticagem">Por que auxílios-rádio e o GMDSS importam na praticagem</a></li><li><a href="#lista-de-auxilios-radio-da-dhn-organizacao-correcao-e-numeracao">Lista de Auxílios-Rádio da DHN: organização, correção e numeração</a></li><li><a href="#radiogoniometria-e-radiofarois-principios-desvios-e-precisao">Radiogoniometria e radiofaróis: princípios, desvios e precisão</a></li><li><a href="#servico-da-hora-escalas-de-tempo-e-racon">Serviço da hora, escalas de tempo e RACON</a></li><li><a href="#gps-estrutura-metodos-efemerides-e-fontes-de-erro">GPS: estrutura, métodos, efemérides e fontes de erro</a></li><li><a href="#dgps-mensagens-limites-e-rede-de-referencia">DGPS: mensagens, limites e rede de referência</a></li><li><a href="#avisos-aos-navegantes-e-msi-folheto-navarea-e-difusao">Avisos aos Navegantes e MSI: Folheto, NAVAREA e difusão</a></li><li><a href="#gmdss-conceito-areas-maritimas-funcoes-e-servicos">GMDSS: conceito, áreas marítimas, funções e serviços</a></li><li><a href="#sistemas-do-gmdss-inmarsat-cospas-sarsat-dsc-sart-e-mmsi">Sistemas do GMDSS: INMARSAT, COSPAS-SARSAT, DSC, SART e MMSI</a></li><li><a href="#sinais-chamadas-e-procedimentos-de-perigo-urgencia-e-seguranca">Sinais, chamadas e procedimentos de perigo, urgência e segurança</a></li><li><a href="#sar-no-brasil-e-redes-de-apoio-costeiro">SAR no Brasil e redes de apoio costeiro</a></li><li><a href="#o-que-levar-para-a-pratica-e-para-a-revisao">O que levar para a prática e para a revisão</a></li><li><a href="#perguntas-para-fechar-o-capitulo">Perguntas para fechar o capítulo</a></li></ol>
+      </nav>
+
+        <article class="chapter-body">
+<section class="section" id="abertura">
+  <p class="section-kicker">Abertura</p>
+  <h2 id="por-que-auxilios-radio-e-o-gmdss-importam-na-praticagem">Por que auxílios-rádio e o GMDSS importam na praticagem</h2>
+  <p class="lead">A segurança da navegação depende de saber onde buscar informação confiável, como confirmar a posição com meios rádio, como receber alertas e como acionar socorro sem ambiguidade. A Lista de Auxílios-Rádio, os avisos aos navegantes e o Sistema Mundial de Socorro e Segurança Marítima (<em>GMDSS — Global Maritime Distress and Safety System</em>) formam, juntos, a malha de informação e comunicação que sustenta a decisão no passadiço.</p>
+  <p>Este capítulo sintetiza o conteúdo da fonte sobre publicações e serviços da DHN, radiogoniometria e radiofaróis, serviço da hora, RACON, GPS/DGPS, avisos, conceito e componentes do GMDSS, sinais e procedimentos de socorro, urgência e segurança, além de SAR e apoio costeiro no Brasil. Por ser síntese de estudo e a fonte apresentar trechos de OCR ruidosos, normas, frequências operacionais e procedimentos podem ter evoluído; em caso de operação real, prevalecem as publicações e instruções em vigor. <span class="src">pp. 351, 356–373</span></p>
+
+  <div class="grid-3">
+    <div class="card card--accent">
+      <span class="card__num">01</span>
+      <h3 id="consultar-a-fonte-certa">Consultar a fonte certa</h3>
+      <p>Entender a organização, atualização e numeração da Lista de Auxílios-Rádio e o papel dos avisos para manter cartas e publicações corrigidas.</p>
+    </div>
+    <div class="card card--teal">
+      <span class="card__num">02</span>
+      <h3 id="usar-meios-com-criterio">Usar meios com critério</h3>
+      <p>Reconhecer princípios, limites e erros de radiogoniometria, radiofaróis, RACON, GPS e DGPS antes de confiar em uma marcação ou posição.</p>
+    </div>
+    <div class="card">
+      <span class="card__num">03</span>
+      <h3 id="comunicar-e-acionar-socorro">Comunicar e acionar socorro</h3>
+      <p>Relacionar áreas A1–A4, sistemas do GMDSS, MSI e procedimentos de perigo, urgência e segurança à rotina e à emergência no mar.</p>
+    </div>
+  </div>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>O material-fonte é transcrição com OCR ruidoso e mistura português/inglês. Onde a leitura é ambígua, o texto indica a limitação; não se completam números, frequências ou artigos normativos por inferência. <span class="src">pp. 351–373</span></p>
+  </div>
+  <p class="source-line">pp. 351–373</p>
+</section>
+
+<section class="section" id="lista-auxilios-radio">
+  <p class="section-kicker">Publicação-base</p>
+  <h2 id="lista-de-auxilios-radio-da-dhn-organizacao-correcao-e-numeracao">Lista de Auxílios-Rádio da DHN: organização, correção e numeração</h2>
+  <p>Cada capítulo da Lista de Auxílios-Rádio trata de um tipo de serviço-rádio de auxílio à navegação marítima na costa do Brasil. A hora usada é a HMG, salvo indicação de “Hora Legal” (o Roteiro adota convenção oposta, segundo a fonte). Informações urgentes podem ser enviadas via RENEC ou PWZ-33 para “NAVEMAR – Rio de Janeiro” (endereço telegráfico da DHN); outras informações podem seguir pela “Folha de Informações” destacada do Folheto Quinzenal. <span class="src">p. 351</span></p>
+
+  <h3 id="correcao-e-atualizacao">Correção e atualização</h3>
+  <div class="table-wrap">
+    <table>
+      <caption>Mecanismos de correção e atualização citados na fonte</caption>
+      <thead>
+        <tr><th>Meio</th><th>Conteúdo</th><th>Observação</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Avisos-Rádio</strong></td><td>Divulgam alterações temporárias dos auxílios-rádio.</td><td>Normalmente canceladas por outro Aviso-Rádio.</td></tr>
+        <tr><td><strong>Folheto Quinzenal</strong></td><td>Publica: (1) Avisos-Rádio em vigor; (2) correções permanentes ou atualizações importantes; (3) folhas com grandes correções para substituição ou inserção; e (4) LPE, se houver.</td><td>É o instrumento periódico de consolidação das alterações.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="numeracao-das-estacoes-a-b-c-d">Numeração das estações (a b c d)</h3>
+  <p>A fonte descreve a lógica de numeração (observando que 6 é RACON, que segue a numeração da Lista de Faróis/Sinais Cegos): <span class="src">p. 351</span></p>
+  <ul>
+    <li><strong>a) Natureza dos serviços:</strong> 2 (radiofaróis), 3 (sinais horários), 4 (boletins meteorológicos e avisos de mau tempo), 5 (avisos aos navegantes), 7 (tráfego de perigo e segurança), 8 (tráfego comercial).</li>
+    <li><strong>b) Área geográfica:</strong> 0/1 (Costa N – Oiapoque ao Cabo Calcanhar), 2/3/4 (Costa L – Cabo Calcanhar ao Cabo Frio), 5/6/7 (Costa Sul – Cabo Frio ao Chuí), 8 (rios da bacia Amazônica e Paraguai), 9 (outros países).</li>
+    <li><strong>c e d) Número sequencial:</strong> dentro da área, obedecendo à posição (de N a S e de L para O).</li>
+  </ul>
+  <p>Uma estação que presta vários serviços tem vários números identificadores, diferindo apenas no algarismo do milhar. <span class="src">p. 351</span></p>
+
+  <div class="callout callout--exam">
+    <span class="callout__label">Cai na prova</span>
+    <p>Relacionar o algarismo do milhar ao tipo de serviço e o dígito de área à faixa da costa brasileira ajuda a interpretar rapidamente entradas da Lista de Auxílios-Rádio e a reconhecer que a mesma estação pode aparecer com identificadores distintos.</p>
+  </div>
+  <p class="source-line">p. 351</p>
+</section>
+
+<section class="section" id="radiogoniometria-radiofarois">
+  <p class="section-kicker">Posicionamento por rádio</p>
+  <h2 id="radiogoniometria-e-radiofarois-principios-desvios-e-precisao">Radiogoniometria e radiofaróis: princípios, desvios e precisão</h2>
+  <p>Os sinais transmitidos pelas estações são radiotelegráficos. Há dois processos para obter marcação: o navio transmite sinais e uma estação radiogoniométrica fornece a marcação ao navio; ou o navio recebe sinais transmitidos por um radiofarol e determina a sua marcação. <span class="src">p. 351</span></p>
+
+  <div class="grid-2">
+    <div class="card">
+      <h3 id="radiogoniometro-direction-finder">Radiogoniômetro (<em>direction finder</em>)</h3>
+      <p>Quando o plano de uma antena de quadro está alinhado com a direção da fonte, a intensidade é máxima; na prática, é mais fácil identificar a direção de intensidade mínima, razão pela qual o ponteiro fica perpendicular ao plano da antena. Para determinar o sentido, uma antena unifilar é conectada eletricamente a um dos braços da antena de quadro. <span class="src">p. 351</span></p>
+      <p>Rotina resumida pela fonte: manter antenas como na calibragem e desligadas, com repetidora da giro sincronizada; sintonizar, buscar mínimo, girar 90° e determinar sentido; somar marcação giroscópica e desvio da agulha para obter marcação radiogoniométrica; somar desvio do radiogoniômetro para obter marcação verdadeira; e converter para marcação de Mercator (tabela no Ap. II-1 da LAR). <span class="src">p. 351</span></p>
+    </div>
+    <div class="card card--teal">
+      <h3 id="causas-de-desvio-da-onda-e-do-aparelho">Causas de desvio da onda e do aparelho</h3>
+      <ul>
+        <li><strong>Refração terrestre:</strong> quando a onda forma ângulo agudo com a linha da costa ou atravessa em terra distância maior que seu comprimento; aumenta com a diminuição do ângulo e com o aumento da frequência. Evitar marcações com ângulo &lt; 20° com a costa ou de estações muito aterradas. <span class="src">p. 351</span></li>
+        <li><strong>Efeito noturno:</strong> variação da altura da ionosfera entre 1 h antes do pôr e depois do nascer do sol; evitar marcações nesses horários, salvo distância &lt; 30 milhas. <span class="src">p. 351</span></li>
+        <li><strong>Perturbações meteorológicas:</strong> alteram a condutividade da atmosfera, com pouca influência. <span class="src">p. 351</span></li>
+        <li><strong>Campo eletromagnético do navio:</strong> causa desvio do radiogoniômetro, variável com marcação relativa, calado e frequência; reduzido por compensação e quantificado por calibragem. <span class="src">p. 351</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <h3 id="calibragem-e-correcoes">Calibragem e correções</h3>
+  <p>A calibragem deve ser realizada pela tripulação após reparos, alteração de massa metálica em relação à antena ou da rede elétrica, e anualmente. Método citado: navio a 3–5 milhas da estação, tomar marcações visuais e radiogoniométricas de 5° em 5° e nas marcações relativas de 045°, 135°, 225° e 315°, mantendo rumo constante; calcular <em>Drg = Mrl − Mrg</em> e construir tábua ou curva de desvios para plena carga, meia carga e leve. Os desvios têm natureza quadrantal (máximos pelas bochechas/alhetas e nulos pela proa/popa/través); divergências exigem repetir a calibragem. A tábua só deve ser usada dentro de ±200 kHz da frequência de calibragem. <span class="src">pp. 351–352</span></p>
+
+  <div class="formula">
+    <span class="formula__expr">Mr<sub>g</sub> correta = Mr<sub>g</sub> observada + D<sub>rg</sub></span>
+    <span class="formula__where"><b>Mr<sub>g</sub> observada</b> já deve estar corrigida do desvio da giro. <b>M Mercator</b> = Mr<sub>g</sub> correta + correção (semiconvergência dos meridianos), função da latitude média e da diferença de longitude entre transmissor e receptor (Ap. II-1 da LAR). Sinal típico citado: para marcações da estação feitas de bordo no HS, “+” com navio a E da estação e “−” a W; para marcações do navio feitas em terra ou no HN, o contrário; em hemisférios distintos, erro desprezível. <span class="src">p. 352</span></span>
+  </div>
+
+  <h3 id="precisao-estacoes-radiogoniometricas-e-radiofarois">Precisão, estações radiogoniométricas e radiofaróis</h3>
+  <p>Para determinar posição, traçam-se retas com ângulo igual ao erro provável (a fonte sugere 2° para cada lado). Com mais de uma estação, a área de interseção indica posições prováveis, considerando que alguma marcação pode ter erro maior que 2°. Com duas marcações de uma mesma estação e distância navegada conhecida, obtém-se um quadrilátero de posições possíveis. <span class="src">p. 352</span></p>
+  <p>Estações radiogoniométricas informam a direção de sinais radiotelegráficos recebidos, com direções já corrigidas dos desvios da onda e erro &lt; 2° para distâncias até 50 milhas (exceto diferença ortodromia-loxodromia). A fonte registra que, no Brasil, não há tais estações, mas descreve a faina típica de chamada (QTE/QTF, transmissão do indicativo por cerca de 1 min, resposta hhmm + QTE + xxx° e confirmação). <span class="src">p. 352</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Radiofaróis segundo a fonte</caption>
+      <thead>
+        <tr><th>Tipo</th><th>Característica</th><th>Uso/observação</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Direcionais</strong></td><td>Transmitem num setor de 10°–15°.</td><td>Para rumo de governo definitivo; mais usados em aeronaves.</td></tr>
+        <tr><td><strong>Rotativos</strong></td><td>Feixe direcional com movimento rotativo uniforme.</td><td>Citado como tipo existente.</td></tr>
+        <tr><td><strong>Circulares</strong></td><td>Onidirecionais.</td><td>Mais comum; todos no Brasil são assim. Funcionam continuamente, alcance de 200 ou 300 milhas, muitos com DGPS e transmissão de sinal Morse de 2 letras a cada 7,5 s. <span class="src">p. 352</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>Radiofaróis aeronáuticos (<em>AERO RC</em>) relacionados na Lista/cartas podem não ser confiáveis para o navegante: não é possível prever a extensão do efeito terrestre e alterações/cancelamentos podem não ser publicados previamente nos avisos. <span class="src">p. 352</span></p>
+  </div>
+  <p class="source-line">pp. 351–352</p>
+</section>
+
+<section class="section" id="hora-racon">
+  <p class="section-kicker">Tempo e resposta radar</p>
+  <h2 id="servico-da-hora-escalas-de-tempo-e-racon">Serviço da hora, escalas de tempo e RACON</h2>
+
+  <h3 id="servico-da-hora-e-escalas">Serviço da hora e escalas</h3>
+  <p>No Brasil, há 4 estações de sinais horários, todas no Rio, com serviço supervisionado pelo Serviço da Hora do Observatório Nacional. A hora legal é distribuída em fusos (Green −2 h a −5 h), conforme descrição da fonte. <span class="src">p. 352</span></p>
+  <div class="table-wrap">
+    <table>
+      <caption>Escalas de tempo citadas</caption>
+      <thead>
+        <tr><th>Escala</th><th>Definição/uso na fonte</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>TU/TU1</strong> (Tempo Universal)</td><td>Tempo solar médio do 1º meridiano, obtido por observações astronômicas.</td></tr>
+        <tr><td><strong>HMG</strong> (Hora Média de Greenwich)</td><td>Equivalente ao TU1; relacionada à posição angular da Terra, usada em navegação astronômica e como argumento de tempo em almanaques e publicações náuticas.</td></tr>
+        <tr><td><strong>TAI</strong> (Tempo Atômico Internacional)</td><td>Comparação de relógios atômicos; medida precisa e uniforme, não alterada pela rotação irregular da Terra.</td></tr>
+        <tr><td><strong>TUC</strong> (Tempo Universal Coordenado)</td><td>Mesma marcha do TAI, diferindo por número inteiro de segundos; escala usada para disseminação de frequências padrão e sinais horários.</td></tr>
+        <tr><td><strong>DTU1</strong></td><td>Diferença prevista entre TUC e TU1; correção aplicada ao TUC para melhor aproximação ao TU1 (TU1 = TUC + DTU1).</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Ajustes de ±1 s no TUC podem ser feitos para mantê-lo conforme a rotação irregular da Terra, sem divergir mais de 0,9 s do TU1; estações de sinais horários já introduzem esses ajustes e podem transmitir DTU1 em código. <span class="src">p. 352</span></p>
+
+  <h3 id="racon-radar-responder-beacon">RACON (<em>radar responder beacon</em>)</h3>
+  <p>O RACON é auxílio à navegação específico, instalado em faróis, balizas, torres ou pontos conspícuos. É útil em má visibilidade frequente, perigos fora do alcance visual, pontos de inflexão em canais, perigos temporários/novos e estruturas ao largo ou em vias navegáveis. Pode operar em uma ou duas bandas: X (3 cm, resposta em 9,3–9,5 GHz) e S (10 cm, 2,92–3,1 GHz). Alcances no Brasil: 12–25 milhas. <span class="src">p. 353</span></p>
+  <p>A resposta na tela é uma letra Morse, seguida ou não de linha longa; “D” é exclusivo para novos perigos. Erro na distância decorre do atraso na resposta (distância real sempre menor), nunca maior que 100 m (no Brasil, 60 m segundo a fonte); a marcação é muito precisa. Os RACONs brasileiros são de sintonia ágil e onidirecionais, com períodos típicos de “18 s ativo + 12 s de repouso” ou “30 s ativo + 30 s de repouso”. <span class="src">p. 353</span></p>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>Podem aparecer sinais espúrios a distâncias bem maiores que o alcance previsto, em qualquer posição ou marcação. Verifique sempre se o contato está dentro do alcance do RACON utilizado. <span class="src">p. 353</span></p>
+  </div>
+  <p class="source-line">pp. 352–353</p>
+</section>
+
+<section class="section" id="gps">
+  <p class="section-kicker">Satélites de posicionamento</p>
+  <h2 id="gps-estrutura-metodos-efemerides-e-fontes-de-erro">GPS: estrutura, métodos, efemérides e fontes de erro</h2>
+  <p>O GPS emprega 24 satélites (sendo 3 reservas), 6 planos orbitais e cerca de 12 horas por órbita, com cobertura global praticamente 24 h/dia. Estações de controle acompanham, processam dados e podem manobrar satélites; a Estação Mestra de Controle recebe dados das demais e carrega informações orbitais. <span class="src">p. 353</span></p>
+
+  <div class="grid-2">
+    <div class="card">
+      <h3 id="sinal-e-metodos">Sinal e métodos</h3>
+      <p>Cada satélite transmite duas portadoras: L1 (1,5 GHz) e L2 (1,2 GHz), moduladas por códigos e dados. Para posicionamento, a fonte cita sinais PRN (<em>pseudo-random noise</em>): código C/A (<em>Coarse Acquisition</em>, menor exatidão, em L1) e código P (<em>Precision</em>, maior exatidão, em L1 e L2), além do código Y (secreto/OTAN). <span class="src">p. 353</span></p>
+      <ul>
+        <li><strong>Pseudodistância (<em>pseudo-range</em>):</strong> mede atraso entre código do satélite e réplica do receptor; precisão citada de 30 cm (P) e 3 m (C/A).</li>
+        <li><strong>Fase da portadora (<em>carrier beat phase</em>):</strong> compara fase com efeito Doppler; alta precisão (até 2 mm) mas ambiguidade de ciclos, não servindo para posicionamento em tempo real sem observações. <span class="src">p. 353</span></li>
+      </ul>
+    </div>
+    <div class="card card--teal">
+      <h3 id="efemerides-e-filtro-de-kalman">Efemérides e filtro de Kalman</h3>
+      <p>Efemérides são dados orbitais que permitem prever a posição do satélite; desvios orbitais afetam diretamente a posição calculada, pois o GPS se baseia na distância receptor-satélite. A Estação Mestra processa e controla a transmissão desses dados, carregando cada satélite com estimativas suficientes para 26 horas. <span class="src">p. 353</span></p>
+      <p>O filtro de Kalman é técnica matemática para obter a melhor estimativa da posição em tempo real, usada pelas estações monitoras e por muitos receptores. A fonte indica 4 variáveis em aplicações estáticas, 8 em baixas velocidades e 11 em altas velocidades. <span class="src">p. 354</span></p>
+    </div>
+  </div>
+
+  <h3 id="posicionamento-e-datum">Posicionamento e datum</h3>
+  <p>Posicionamento 2D requer pseudodistâncias de no mínimo 3 satélites (com elevação da antena informada) e 3D requer 4 satélites. Em DGPS, a seleção automática 2D/3D é preferível segundo a fonte. O datum horizontal de referência é o WGS-84; para plotar em carta com datum diferente (ex.: Córrego Alegre), é necessária conversão conforme dados da carta ou do receptor. <span class="src">p. 354</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Principais fontes de erro do GPS (fonte)</caption>
+      <thead>
+        <tr><th>Origem</th><th>Exemplos</th><th>Mitigação/observação</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Satélites</strong></td><td>Variação de relógios, erros de efemérides, falhas internas (<em>unhealthy</em>).</td><td>Receptores descartam satélites marcados como defeituosos; atraso entre detecção e correção pode introduzir erro. <span class="src">p. 354</span></td></tr>
+        <tr><td><strong>Receptor</strong></td><td>Relógio a cristal, ruído interno, interferência entre canais, <em>multipath</em>.</td><td>Instalação adequada da antena reduz reflexões. <span class="src">p. 354</span></td></tr>
+        <tr><td><strong>Meio</strong></td><td>Atraso ionosférico (até ~150 m em condições desfavoráveis, &lt; 5 m à noite/zênite), troposférico e <em>multipath</em>.</td><td>Receptores bi-frequência e DGPS podem reduzir ionosfera; troposfera é pouco relevante sem exigência centimétrica. <span class="src">p. 354</span></td></tr>
+        <tr><td><strong>SA e DOP</strong></td><td>Disponibilidade Seletiva (SA) introduzia erros propositais; DOP multiplica erros pela geometria.</td><td>SA retirada do sinal em 2000 (fonte); DOP elevado indica geometria desfavorável (ex.: desvio-padrão 30 m e DOP 3 → 90 m). <span class="src">p. 354</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <figure class="figure">
+    <svg viewBox="0 0 720 280" role="img" aria-labelledby="fig-gps-title fig-gps-desc">
+      <title id="fig-gps-title">Posicionamento GPS e influência da geometria</title>
+      <desc id="fig-gps-desc">Esquema com navio no centro recebendo sinais de quatro satélites em posições diferentes. Três satélites bem espaçados e um no alto representam boa geometria e baixo DOP; um grupo de satélites agrupados ao lado representa geometria ruim e alto DOP.</desc>
+      <defs>
+        <marker id="arrow-gps" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--line-strong)"/>
+        </marker>
+      </defs>
+      <rect x="20" y="20" width="330" height="240" rx="10" fill="var(--surface-2)" stroke="var(--line)"/>
+      <rect x="370" y="20" width="330" height="240" rx="10" fill="var(--surface-2)" stroke="var(--line)"/>
+      <text x="185" y="48" text-anchor="middle" class="diagram-label diagram-label--strong">Boa geometria (DOP menor)</text>
+      <text x="535" y="48" text-anchor="middle" class="diagram-label diagram-label--strong">Geometria ruim (DOP maior)</text>
+
+      <circle cx="185" cy="185" r="10" fill="var(--navy)"/>
+      <text x="185" y="210" text-anchor="middle" class="diagram-label">receptor</text>
+      <circle cx="70" cy="90" r="8" fill="var(--teal)"/>
+      <circle cx="185" cy="60" r="8" fill="var(--teal)"/>
+      <circle cx="300" cy="95" r="8" fill="var(--teal)"/>
+      <circle cx="250" cy="130" r="8" fill="var(--teal)"/>
+      <path d="M78 95 L175 178" class="diagram-line" marker-end="url(#arrow-gps)"/>
+      <path d="M185 68 L185 175" class="diagram-line" marker-end="url(#arrow-gps)"/>
+      <path d="M292 100 L195 178" class="diagram-line" marker-end="url(#arrow-gps)"/>
+      <path d="M243 135 L193 178" class="diagram-accent" marker-end="url(#arrow-gps)"/>
+      <text x="185" y="235" text-anchor="middle" class="diagram-label">satélites espaçados reduzem incerteza</text>
+
+      <circle cx="535" cy="185" r="10" fill="var(--navy)"/>
+      <text x="535" y="210" text-anchor="middle" class="diagram-label">receptor</text>
+      <circle cx="470" cy="80" r="8" fill="var(--gold)"/>
+      <circle cx="500" cy="70" r="8" fill="var(--gold)"/>
+      <circle cx="530" cy="85" r="8" fill="var(--gold)"/>
+      <circle cx="560" cy="75" r="8" fill="var(--gold)"/>
+      <path d="M475 88 L525 178" class="diagram-line" marker-end="url(#arrow-gps)"/>
+      <path d="M503 78 L530 176" class="diagram-line" marker-end="url(#arrow-gps)"/>
+      <path d="M530 93 L535 175" class="diagram-line" marker-end="url(#arrow-gps)"/>
+      <path d="M557 83 L542 176" class="diagram-line" marker-end="url(#arrow-gps)"/>
+      <text x="535" y="235" text-anchor="middle" class="diagram-label">satélites agrupados aumentam DOP</text>
+    </svg>
+    <figcaption><b>Figura 1.</b> O DOP (<em>Dilution of Precision</em>) expressa a “força” da geometria dos satélites e atua como multiplicador dos erros de medição. Configuração favorável: satélites bem distribuídos; desfavorável: agrupados. <span class="src">p. 354</span></figcaption>
+  </figure>
+  <p class="source-line">pp. 353–354</p>
+</section>
+
+<section class="section" id="dgps">
+  <p class="section-kicker">Correções diferenciais</p>
+  <h2 id="dgps-mensagens-limites-e-rede-de-referencia">DGPS: mensagens, limites e rede de referência</h2>
+  <p>O DGPS aplica correções diferenciais a partir de estações de referência. A fonte cita o padrão de comunicações RTCM SC-104, com mensagens padronizadas, entre elas: Tipo 1 (correção de pseudodistância C/A), Tipo 2 (diferença das correções), Tipo 3 (coordenadas X/Y/Z da estação, WGS-84), Tipo 6 (sincronismo) e Tipo 16 (mensagem curta de identificação/utilidade). A taxa de transmissão na rede brasileira é indicada como 1 mensagem Tipo 2 a cada 15 Tipo 1 e 1 mensagem Tipos 3, 6 e 16 a cada 30 Tipo 1. <span class="src">p. 354</span></p>
+
+  <div class="compare">
+    <div class="pro">
+      <h4>O que o DGPS pode reduzir/eliminar</h4>
+      <ul>
+        <li>Erros de efemérides e de relógios dos satélites.</li>
+        <li>Atrasos de propagação ionosférica e troposférica (em grande parte).</li>
+        <li>Efeitos da SA, segundo a fonte (com ressalvas). <span class="src">p. 354</span></li>
+      </ul>
+    </div>
+    <div class="con">
+      <h4>O que o DGPS não elimina</h4>
+      <ul>
+        <li>Erros decorrentes de distância/configuração diferente de satélites entre usuário e referência, tempestades no caminho e degradação com afastamento.</li>
+        <li>Efeito de DOP desfavorável (reduzido, mas não eliminado).</li>
+        <li>Falhas não detectadas em satélites ou na estação de referência. <span class="src">pp. 354–355</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <p>Sobre a estação de referência, a precisão citada é &gt; 3 m em 68% dos casos e 9 m em 99% dos casos (σ = 3). Próximo ao limite de alcance (cerca de 200 milhas), diferenças de satélites visíveis e máscaras de elevação podem impedir correções para algum satélite usado pelo receptor do navio. A rede brasileira usa portadoras de radiofaróis marítimos na faixa de 200–300 kHz; o uso aeronáutico é recomendado com restrições pela taxa de atualização. <span class="src">pp. 354–355</span></p>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Na prática</span>
+    <p>Para correções automáticas, o navegador GPS deve aceitar o padrão RTCM SC-104 e possuir interface serial; o demodulador MSK recebe na frequência do radiofarol e envia dados ao navegador. Antenas <em>loop</em> são mais imunes a ruídos em embarcações metálicas; <em>whip</em> têm maior sensibilidade em embarcações pequenas/não metálicas. Jamais confiar cegamente nas correções: avaliar qualidade do sinal e satélites corrigidos. <span class="src">p. 355</span></p>
+  </div>
+  <p class="source-line">pp. 354–355</p>
+</section>
+
+<section class="section" id="avisos-aos-navegantes">
+  <p class="section-kicker">Informação de segurança</p>
+  <h2 id="avisos-aos-navegantes-e-msi-folheto-navarea-e-difusao">Avisos aos Navegantes e MSI: Folheto, NAVAREA e difusão</h2>
+  <p>O Folheto Quinzenal consolida Avisos-Rádio em vigor, correções permanentes ou atualizações importantes, folhas de substituição/inserção e, se houver, LPE. Avisos-Rádio divulgam alterações temporárias de auxílios-rádio. A fonte relaciona ainda perguntas de estudo sobre seções do Folheto, propósitos, tipos de avisos (temporários, preliminares, permanentes), APE, extrato em inglês, formas de obtenção e sistemática de divulgação náutica NAVAREA e costeira. <span class="src">pp. 351, 356</span></p>
+
+  <h3 id="msi-no-contexto-do-gmdss-e-wwnws">MSI no contexto do GMDSS e WWNWS</h3>
+  <p>As Informações de Segurança Marítima (<em>MSI — Maritime Safety Information</em>) englobam avisos aos navegantes, avisos e previsões meteorológicas, mensagens de alerta SAR e outras informações urgentes. No GMDSS, a promulgação automática utiliza principalmente NAVTEX e SafetyNET, com divisão em 16 NAVAREAs para avisos. O Serviço Mundial de Avisos aos Navegantes (<em>WWNWS</em>), coordenado por IMO e IHO, trata de avisos de longa distância (NAVAREA) e costeiros (NAVTEX); avisos locais suplementam detalhes de águas interiores. <span class="src">pp. 358, 360, 363–364</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Difusão de MSI citada na fonte</caption>
+      <thead>
+        <tr><th>Sistema</th><th>Direção/alcance</th><th>Características principais</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>NAVTEX</strong></td><td>Terra-navio; áreas A1/A2, tipicamente até ~400 milhas (fonte).</td><td>NBDP em 518 kHz (uso mundial); IMO permite 490 ou 4209,5 kHz em nível nacional. Receptor com bloqueio seletivo, mas não pode rejeitar mensagens de segurança (avisos, meteorologia, SAR). Prioridades: vital, importante, rotina. <span class="src">pp. 360, 363–364</span></td></tr>
+        <tr><td><strong>SafetyNET (EGC/Inmarsat)</strong></td><td>Terra-navio via satélite; fora da cobertura NAVTEX e em áreas A3.</td><td>Permite endereçar mensagens por NAVAREA, área geográfica ou grupo; recepção gratuita. No Brasil, a NAVAREA V é coordenada pela DHN com transmissões via Embratel (Tanguá), segundo a fonte. <span class="src">pp. 360, 363–364, 366</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--info">
+    <span class="callout__label">Lacuna da fonte</span>
+    <p>O texto-fonte inclui um roteiro de perguntas sobre seções 1 a 8 do Folheto Quinzenal (p. 356), mas não traz as respostas detalhadas de cada seção. Assim, o capítulo preserva os princípios gerais disponíveis (propósito, atualização e tipos de difusão) sem inventar o conteúdo específico de cada seção.</p>
+  </div>
+  <p class="source-line">pp. 351, 356, 358, 360, 363–364, 366</p>
+</section>
+
+<section class="section" id="gmdss-conceito-areas">
+  <p class="section-kicker">Arquitetura do sistema</p>
+  <h2 id="gmdss-conceito-areas-maritimas-funcoes-e-servicos">GMDSS: conceito, áreas marítimas, funções e serviços</h2>
+  <p>O GMDSS foi estruturado para que autoridades SAR em terra e embarcações próximas sejam rapidamente alertadas e para possibilitar comunicações de urgência e segurança marítima (MSI). Ele substitui gradualmente práticas baseadas em escuta manual em frequências de socorro do sistema anterior, automatizando alertas e ampliando os meios de comunicação. A fonte registra adoção na SOLAS em 1988, entrada em operação em 1992 e implementação prevista até 1/fev/1999. <span class="src">pp. 357–358</span></p>
+
+  <div class="def">
+    <span class="def__term">Áreas marítimas de operação</span>
+    <p><strong>A1:</strong> dentro da cobertura radiotelefônica VHF de ao menos uma estação costeira com alerta DSC permanente (cerca de 20–30 milhas). <strong>A2:</strong> dentro da cobertura MF com DSC permanente (cerca de 100 milhas), exclui A1. <strong>A3:</strong> dentro da cobertura de satélite geoestacionário INMARSAT (entre 70° N e S), exclui A1 e A2. <strong>A4:</strong> áreas remanescentes no mar. <span class="src">pp. 357, 365</span></p>
+  </div>
+
+  <figure class="figure">
+    <svg viewBox="0 0 720 320" role="img" aria-labelledby="fig-gmdss-title fig-gmdss-desc">
+      <title id="fig-gmdss-title">Áreas marítimas do GMDSS A1 a A4</title>
+      <desc id="fig-gmdss-desc">Perfil esquemático da costa à esquerda e mar aberto à direita. Faixa A1 próxima à costa indica cobertura VHF DSC, faixa A2 mais ampla indica cobertura MF DSC, área A3 indica cobertura de satélite geoestacionário Inmarsat e área A4 indica regiões polares ou remanescentes fora das demais coberturas.</desc>
+      <rect x="0" y="220" width="720" height="100" fill="#dce7eb"/>
+      <path d="M0 220 Q80 180 120 220 T240 220 L240 320 L0 320 Z" fill="#b9c9b3" stroke="#8fa28a"/>
+      <rect x="240" y="70" width="90" height="150" rx="8" fill="var(--teal-soft)" stroke="var(--teal)"/>
+      <rect x="330" y="70" width="130" height="150" rx="8" fill="var(--gold-soft)" stroke="var(--gold)"/>
+      <rect x="460" y="70" width="150" height="150" rx="8" fill="var(--surface-2)" stroke="var(--line-strong)"/>
+      <rect x="610" y="70" width="90" height="150" rx="8" fill="#efe3d8" stroke="#b07a4b"/>
+      <text x="285" y="110" text-anchor="middle" class="diagram-label diagram-label--strong">A1</text>
+      <text x="285" y="130" text-anchor="middle" class="diagram-label">VHF/DSC</text>
+      <text x="285" y="148" text-anchor="middle" class="diagram-label">~20–30 milhas</text>
+      <text x="395" y="110" text-anchor="middle" class="diagram-label diagram-label--strong">A2</text>
+      <text x="395" y="130" text-anchor="middle" class="diagram-label">MF/DSC</text>
+      <text x="395" y="148" text-anchor="middle" class="diagram-label">~100 milhas</text>
+      <text x="535" y="110" text-anchor="middle" class="diagram-label diagram-label--strong">A3</text>
+      <text x="535" y="130" text-anchor="middle" class="diagram-label">Inmarsat</text>
+      <text x="535" y="148" text-anchor="middle" class="diagram-label">70°N–70°S</text>
+      <text x="655" y="110" text-anchor="middle" class="diagram-label diagram-label--strong">A4</text>
+      <text x="655" y="130" text-anchor="middle" class="diagram-label">áreas</text>
+      <text x="655" y="148" text-anchor="middle" class="diagram-label">remanescentes</text>
+      <text x="120" y="255" text-anchor="middle" class="diagram-label diagram-label--strong">costa</text>
+      <text x="480" y="255" text-anchor="middle" class="diagram-label">mar aberto / alta latitude</text>
+      <path d="M240 230 L700 230" class="diagram-line" stroke-dasharray="4 4"/>
+      <text x="360" y="285" text-anchor="middle" class="diagram-label">As faixas são conceituais; os equipamentos exigidos dependem da área de operação do navio.</text>
+    </svg>
+    <figcaption><b>Figura 2.</b> Representação esquemática das áreas A1–A4 do GMDSS. A1 e A2 baseiam-se em cobertura costeira (VHF/MF com DSC), A3 na cobertura geoestacionária Inmarsat e A4 nas áreas remanescentes. <span class="src">pp. 357, 365</span></figcaption>
+  </figure>
+
+  <h3 id="funcoes-e-servicos">Funções e serviços</h3>
+  <p>A fonte descreve 9 facilidades do GMDSS (alertas navio-terra por vias independentes, recepção terra-navio, alertas navio-navio, comunicações para coordenação SAR, comunicações na cena de ação, localização de balsas/navios, transmissão/recepção de MSI, radiocomunicações gerais e comunicações ponte a ponte) e 5 serviços (radiocomunicações e avisos pelo INMARSAT, avisos pelo COSPAS-SARSAT, e SMM em HF, MF e VHF). <span class="src">p. 357</span></p>
+
+  <div class="callout callout--exam">
+    <span class="callout__label">Cai na prova</span>
+    <p>Memorize a lógica das áreas: A1 (VHF/DSC costeiro), A2 (MF/DSC costeiro), A3 (Inmarsat, 70°N–70°S, excluindo A1/A2) e A4 (remanescente). A exigência de equipamentos e meios de alerta depende da área em que o navio opera. <span class="src">pp. 357, 365</span></p>
+  </div>
+  <p class="source-line">pp. 357–358, 365</p>
+</section>
+
+<section class="section" id="sistemas-gmdss">
+  <p class="section-kicker">Meios e terminais</p>
+  <h2 id="sistemas-do-gmdss-inmarsat-cospas-sarsat-dsc-sart-e-mmsi">Sistemas do GMDSS: INMARSAT, COSPAS-SARSAT, DSC, SART e MMSI</h2>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Componentes e sistemas principais citados</caption>
+      <thead>
+        <tr><th>Sistema/meio</th><th>Função principal</th><th>Pontos destacados na fonte</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>INMARSAT</strong></td><td>Comms satélite (alerta, tráfego, MSI via SafetyNET/EGC).</td><td>4 satélites geoestacionários; bandas ~1,5/1,6 GHz (SES) e 4–6 GHz (CES-satélite); CES em Tanguá (Embratel) no Brasil; terminais A/B/C e receptor EGC; EPIRB 1,6 GHz em banda L. <span class="src">pp. 358–361, 365–366</span></td></tr>
+        <tr><td><strong>COSPAS-SARSAT</strong></td><td>Detecção e localização de balizas de socorro.</td><td>Satélites de órbita polar; EPIRB 406 MHz (SOLAS exige para navios sujeitos, salvo alternativa 1,6 GHz); localização Doppler, modos em tempo real e cobertura global; segmento terrestre com LUT/MCC/RCC. <span class="src">pp. 357, 361, 365</span></td></tr>
+        <tr><td><strong>DSC</strong> (<em>Digital Selective Calling</em>)</td><td>Chamadas digitais de socorro, urgência e segurança.</td><td>Base para alerta e comms em VHF/MF/HF; frequências citadas incluem 156,525 MHz (canal 70), 2187,5 kHz e HF (ex.: 8414,5 kHz e outras, com variações no texto OCR); após alerta, tráfego segue por fonia/telex em frequências apropriadas. <span class="src">pp. 358, 362–363, 367</span></td></tr>
+        <tr><td><strong>SART</strong> (<em>Search and Rescue Transponder</em>)</td><td>Localização na cena de ação por radar.</td><td>Interrogado em 9 GHz, produz série de 12 pontos na PPI; alcance típico ~5 milhas para radar de navio (15 m de antena) e maior para aeronave; autonomia e requisitos de instalação/robustez citados. <span class="src">pp. 358, 363</span></td></tr>
+        <tr><td><strong>EPIRB</strong></td><td>Alerta de socorro por baliza.</td><td>EPIRB satélite 406 MHz (COSPAS-SARSAT) e 1,6 GHz (Inmarsat, banda L); características de ativação, transmissão e identificação variam por tipo; 121,5 MHz citado para orientação/homing em contextos específicos. <span class="src">pp. 359–361</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>O MMSI (<em>Maritime Mobile Service Identity</em>) é usado em EPIRBs e equipamentos DSC, com 9 dígitos (3 para o país e 6 para identificação do usuário), conforme a fonte. <span class="src">p. 364</span></p>
+
+  <div class="callout callout--info">
+    <span class="callout__label">Para entender</span>
+    <p>O GMDSS combina meios satelitais e terrestres: satélites ampliam alcance e automação de alerta/MSI, enquanto DSC, radiotelefonia e radiotelex em VHF/MF/HF garantem comunicações locais e de média/longa distância conforme a área e a disponibilidade. <span class="src">pp. 357–358, 362, 365</span></p>
+  </div>
+  <p class="source-line">pp. 357–366</p>
+</section>
+
+<section class="section" id="sinais-procedimentos">
+  <p class="section-kicker">Comportamento em emergência</p>
+  <h2 id="sinais-chamadas-e-procedimentos-de-perigo-urgencia-e-seguranca">Sinais, chamadas e procedimentos de perigo, urgência e segurança</h2>
+  <p>A fonte compila extratos de procedimentos de comunicações de perigo e segurança, enfatizando prioridade absoluta ao tráfego de socorro, clareza na transmissão e uso de frequências de perigo/socorro. Em radiotelegrafia, o sinal de perigo é SOS; em radiotelefonia, MAYDAY. Urgência usa XXX/PAN PAN e segurança usa TTT/SECURITÉ. <span class="src">pp. 367–372</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Categorias e sinais (síntese da fonte)</caption>
+      <thead>
+        <tr><th>Categoria</th><th>Sinal/chamada</th><th>Significado/uso</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Perigo</strong></td><td>SOS / MAYDAY</td><td>Perigo grave e iminente, auxílio imediato requerido. Chamada e mensagem devem incluir identificação, posição, natureza do perigo e auxílio desejado. <span class="src">pp. 368–369</span></td></tr>
+        <tr><td><strong>Urgência</strong></td><td>XXX / PAN PAN</td><td>Mensagem muito urgente relativa à segurança de navio/aeronave/pessoa; prioridade abaixo do perigo. <span class="src">p. 370</span></td></tr>
+        <tr><td><strong>Segurança</strong></td><td>TTT / SECURITÉ</td><td>Aviso importante sobre navegação ou meteorologia. <span class="src">pp. 370–371</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="frequencias-e-sinais-de-alarme-citados">Frequências e sinais de alarme citados</h3>
+  <p>Entre as frequências internacionais de perigo e segurança mencionadas estão 500 kHz (telegrafia, sistema antigo), 2182 kHz (radiotelefonia), 156,8 MHz (VHF canal 16), além de frequências suplementares e de DSC (ex.: 2187,5 kHz, 156,525 MHz canal 70) e de EPIRB/satélite conforme o meio. Sinais de alarme incluem o alarme radiotelefônico (dois tons alternados) e o radiotelegráfico (série de traços), com regras de teste e proteção para evitar interferência. <span class="src">pp. 367–368, 371</span></p>
+
+  <ol class="steps">
+    <li><strong>Emitir o alerta corretamente.</strong> Usar sinal, chamada e mensagem de perigo com identificação, posição, natureza do sinistro e tipo de auxílio; repetir quando necessário e não houver resposta. <span class="src">pp. 368–369</span></li>
+    <li><strong>Acusar recebimento e manter disciplina.</strong> Estações que recebem e podem auxiliar devem acusar recebimento conforme procedimento; quem não pode auxiliar deve acompanhar o tráfego e evitar interferência, observando silêncio imposto quando aplicável. <span class="src">pp. 369–370</span></li>
+    <li><strong>Encerrar e restabelecer tráfego.</strong> A estação controladora informa quando o silêncio pode ser relaxado ou quando o trabalho normal pode ser restabelecido. <span class="src">p. 369</span></li>
+  </ol>
+
+  <div class="callout callout--danger">
+    <span class="callout__label">Erro crítico</span>
+    <p>Transmitir sinais de perigo, urgência ou alarme sem necessidade real, ou causar interferência em frequências de socorro e segurança, compromete operações SAR e é vedado. Testes em frequências de perigo devem ser mínimos e realizados com cuidados específicos (ex.: antena artificial quando aplicável). <span class="src">pp. 367–368, 371</span></p>
+  </div>
+
+  <h3 id="prioridade-de-comunicacoes">Prioridade de comunicações</h3>
+  <p>A ordem de prioridade indicada na fonte coloca em primeiro lugar chamadas/mensagens/tráfego de perigo, seguidas de comunicações precedidas de urgência e de segurança, e depois radiogoniometria, navegação/SAR, necessidades operacionais e outras categorias. <span class="src">p. 372</span></p>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Observação sobre a fonte</span>
+    <p>Alguns trechos de frequências e procedimentos aparecem truncados ou com possíveis inconsistências de OCR (por exemplo, menções sobre frequências HF de DSC). Em operação, consultar a Lista de Auxílios-Rádio, o Manual/EROG aplicável e as instruções atualizadas do navio e da autoridade competente. <span class="src">pp. 362, 367–372</span></p>
+  </div>
+  <p class="source-line">pp. 367–372</p>
+</section>
+
+<section class="section" id="sar-apoio-costeiro">
+  <p class="section-kicker">Resposta e suporte</p>
+  <h2 id="sar-no-brasil-e-redes-de-apoio-costeiro">SAR no Brasil e redes de apoio costeiro</h2>
+  <p>O serviço de busca e salvamento no Brasil segue a estrutura da Convenção SAR (Hamburgo, 1979), com MRCC (<em>Maritime Rescue Coordination Centre</em>) e RSC (<em>Rescue Sub-Centres</em>). O país é responsável por área delimitada no Atlântico Sul, subdividida em sub-regiões sob coordenação dos Distritos Navais. A fonte distingue o serviço de busca e salvamento da Marinha (SALVAMAR Brasil) do serviço marítimo que incorpora o sistema de alerta, envolvendo estações da RENEC. <span class="src">p. 364</span></p>
+
+  <div class="grid-2">
+    <div class="card">
+      <h3 id="fases-e-autoridades-sar">Fases e autoridades SAR</h3>
+      <ul>
+        <li><strong>INCERFA</strong> (<em>uncertainty phase</em>): dúvidas quanto à segurança por falta de informações.</li>
+        <li><strong>ALERFA</strong> (<em>alert phase</em>): apreensão por falta contínua de informações ou indicação de dificuldades graves.</li>
+        <li><strong>DESTREFA</strong> (<em>distress phase</em>): necessidade de ajuda imediata por ameaça grave/iminente ou falta contínua de informações. <span class="src">p. 364</span></li>
+      </ul>
+      <p>Autoridades citadas: Coordenador de Busca e Salvamento, Coordenador de Missão SAR e Comandante-na-Cena. <span class="src">p. 364</span></p>
+    </div>
+    <div class="card card--teal">
+      <h3 id="renec-e-apoio-ao-iatismo">RENEC e apoio ao iatismo</h3>
+      <p>A RENEC presta radiocomunicação comercial pública navio-terra-terra e apoio gratuito à segurança da navegação e à SVHM, em colaboração com a MB. A fonte descreve 40 estações (principal, regionais e locais/restritas), escutas típicas em VHF canal 16 e pares em HF, e papel no recebimento de sinais de perigo e na difusão de informações. <span class="src">p. 373</span></p>
+      <p>A rede costeira de apoio ao iatismo (estações de iates clubes) mantém escutas em HF-SSB e VHF-FM conforme disponibilidade local; detalhes operacionais devem ser acertados antes da viagem. <span class="src">p. 373</span></p>
+    </div>
+  </div>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Dica de passadiço</span>
+    <p>Antes de singrar, confira quais meios de alerta e recepção de MSI são obrigatórios para a área (A1–A4), valide programação do NAVTEX/SafetyNET e mantenha à mão os contatos e procedimentos de reporte à DHN/RENEC para informações urgentes de auxílio à navegação. <span class="src">pp. 351, 357, 364–366, 373</span></p>
+  </div>
+  <p class="source-line">pp. 364, 373</p>
+</section>
+
+<section class="section" id="sintese">
+  <p class="section-kicker">Síntese</p>
+  <h2 id="o-que-levar-para-a-pratica-e-para-a-revisao">O que levar para a prática e para a revisão</h2>
+
+  <div class="keyfacts">
+    <div class="keyfact"><b>A1–A4</b><span>áreas do GMDSS: VHF/DSC, MF/DSC, Inmarsat e remanescente</span></div>
+    <div class="keyfact"><b>2 vias</b><span>alerta de socorro navio-terra por meios independentes (facilidade do GMDSS)</span></div>
+    <div class="keyfact"><b>406 MHz</b><span>EPIRB COSPAS-SARSAT citada como exigência SOLAS (salvo alternativa 1,6 GHz)</span></div>
+    <div class="keyfact"><b>9 GHz</b><span>frequência de interrogação do SART no radar</span></div>
+    <div class="keyfact"><b>518 kHz</b><span>frequência NAVTEX internacional para MSI em NBDP</span></div>
+  </div>
+
+  <ul class="checklist">
+    <li>Sei consultar e atualizar auxílios-rádio por Avisos-Rádio e Folheto Quinzenal, entendendo a lógica de numeração das estações.</li>
+    <li>Reconheço limites da radiogoniometria (refração, efeito noturno, desvios, calibragem) e características básicas dos radiofaróis e RACON.</li>
+    <li>Compreendo o papel do GPS/DGPS, principais erros e a necessidade de avaliar geometria (DOP), datum e qualidade das correções.</li>
+    <li>Relaciono áreas A1–A4 aos meios do GMDSS e sei distinguir funções de alerta, MSI (NAVTEX/SafetyNET) e localização (EPIRB/SART).</li>
+    <li>Aplico a prioridade e a disciplina de comunicações em perigo, urgência e segurança, sem interferir no tráfego de socorro.</li>
+  </ul>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Síntese para levar</span>
+    <p>Auxílios-rádio dão referência e correção; GNSS dá posição com erros conhecidos; GMDSS integra alerta, coordenação e informação de segurança. Em todos os casos, a qualidade da decisão depende de fonte atualizada, procedimento correto e consciência dos limites do meio utilizado.</p>
+  </div>
+  <p class="source-line">pp. 351–373</p>
+</section>
+
+<section class="section" id="revisao">
+  <p class="section-kicker">Revisão</p>
+  <h2 id="perguntas-para-fechar-o-capitulo">Perguntas para fechar o capítulo</h2>
+  <div class="quiz">
+    <details>
+      <summary>1. Qual a diferença entre Avisos-Rádio e Folheto Quinzenal na atualização da Lista de Auxílios-Rádio?</summary>
+      <div class="quiz__answer"><p>Avisos-Rádio divulgam alterações temporárias dos auxílios-rádio, normalmente canceladas por outro aviso. O Folheto Quinzenal publica avisos em vigor, correções permanentes ou atualizações importantes, folhas para substituição/inserção e, se houver, LPE. <span class="src">p. 351</span></p></div>
+    </details>
+    <details>
+      <summary>2. Por que marcações radiogoniométricas devem evitar ângulo pequeno com a costa e horários próximos ao nascer/pôr do sol?</summary>
+      <div class="quiz__answer"><p>A refração terrestre ocorre quando a onda forma ângulo agudo com a linha da costa ou atravessa grande extensão em terra (a fonte recomenda evitar ângulo &lt; 20°). O efeito noturno, ligado à variação da ionosfera, afeta marcações cerca de 1 h antes do pôr e depois do nascer do sol, salvo distâncias menores que 30 milhas. <span class="src">p. 351</span></p></div>
+    </details>
+    <details>
+      <summary>3. O que distingue posicionamento 2D e 3D no GPS e qual datum deve ser considerado ao plotar a posição?</summary>
+      <div class="quiz__answer"><p>O 2D usa pseudodistâncias de no mínimo 3 satélites e requer informar a elevação da antena; o 3D requer 4 satélites. O datum horizontal do GPS é o WGS-84, devendo-se converter a posição para o datum da carta quando diferente. <span class="src">p. 354</span></p></div>
+    </details>
+    <details>
+      <summary>4. Quais erros o DGPS pode reduzir e quais limitações permanecem segundo a fonte?</summary>
+      <div class="quiz__answer"><p>O DGPS pode reduzir erros de efemérides, relógios, propagação ionosférica/troposférica e efeitos da SA (conforme fonte). Não elimina problemas de geometria/satélites diferentes entre referência e usuário, degradação com distância, DOP desfavorável e falhas não detectadas. <span class="src">pp. 354–355</span></p></div>
+    </details>
+    <details>
+      <summary>5. Caracterize as áreas A1, A2, A3 e A4 do GMDSS.</summary>
+      <div class="quiz__answer"><p>A1: cobertura VHF costeira com DSC permanente (~20–30 milhas). A2: cobertura MF costeira com DSC (~100 milhas), exclui A1. A3: cobertura de satélite geoestacionário Inmarsat entre 70°N e 70°S, exclui A1 e A2. A4: áreas remanescentes. <span class="src">pp. 357, 365</span></p></div>
+    </details>
+    <details>
+      <summary>6. Qual a função do NAVTEX e do SafetyNET na difusão de MSI?</summary>
+      <div class="quiz__answer"><p>NAVTEX transmite MSI por radiotelex (NBDP, 518 kHz) para áreas costeiras/A1–A2, com mensagens de segurança não rejeitáveis. SafetyNET usa EGC/Inmarsat para difundir MSI via satélite, especialmente fora da cobertura NAVTEX, permitindo endereçamento por área, grupo ou NAVAREA. <span class="src">pp. 360, 363–364, 366</span></p></div>
+    </details>
+    <details>
+      <summary>7. Diferencie MAYDAY, PAN PAN e SECURITÉ e indique a regra geral de prioridade.</summary>
+      <div class="quiz__answer"><p>MAYDAY indica perigo grave e iminente com necessidade de auxílio imediato; PAN PAN indica urgência relacionada à segurança; SECURITÉ anuncia mensagem importante de navegação ou meteorologia. A prioridade máxima é do tráfego de perigo, seguido de urgência e segurança. <span class="src">pp. 368–370, 372</span></p></div>
+    </details>
+    <details>
+      <summary>8. O que são INCERFA, ALERFA e DESTREFA no contexto SAR descrito pela fonte?</summary>
+      <div class="quiz__answer"><p>INCERFA é fase de incerteza sobre a segurança; ALERFA é fase de alerta por apreensão quanto à segurança; DESTREFA é fase de perigo com necessidade de ajuda imediata. A estrutura SAR no Brasil envolve MRCC, RSC e coordenação pelos Distritos Navais. <span class="src">p. 364</span></p></div>
+    </details>
+  </div>
+</section>
+
+        </article>
+
+        <section class="chapter-end">
+          <p class="section-kicker">Fim do capítulo</p>
+          <h2>Auxílios Eletrônicos e GMDSS</h2>
+          <p>Conteúdo sintetizado de <strong>Lista de Auxílios-Rádio · GMDSS · DA LAR</strong>, pp. 351–373 da fonte. Consulte o original para detalhes, figuras e redação normativa.</p>
+          <button class="btn btn--gold" type="button" data-complete="16-auxilios-gmdss" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7"/></svg><span>Marcar como concluído</span></button>
+        </section>
+
+        <nav class="chapter-nav" aria-label="Navegação entre capítulos">
+          <a class="prev" href="15-meteorologia.html"><small>← Capítulo anterior</small><span>15 · Meteorologia e Marés</span></a><a class="next" href="p1-manobrabilidade.html"><small>Próximo capítulo →</small><span>I · Área I — Manobrabilidade do Navio</span></a>
+        </nav>
+
+        <footer class="site-footer">
+          <p><strong>Apostila de Praticagem</strong> · material de estudo gerado a partir de <em>resumo curso h.pdf</em>.</p>
+          <p>Não substitui as publicações oficiais (PNA, NORMAM, RIPEAM, CIS, cartas e avisos). Confirme sempre os dados críticos na fonte vigente.</p>
+        </footer>
+      </div>
+    </main>
+  </div>
+  <script>
+(() => {
+  "use strict";
+
+  const STORAGE_KEY = "apostila-praticagem-progresso-v1";
+  const THEME_KEY = "apostila-praticagem-tema";
+  const doc = document;
+  const root = doc.documentElement;
+
+  /* ---------- tema ---------- */
+  function applyTheme(theme) {
+    root.setAttribute("data-theme", theme);
+    const btn = doc.querySelector("[data-theme-toggle]");
+    if (btn) {
+      const dark = theme === "dark";
+      btn.setAttribute("aria-label", dark ? "Ativar tema claro" : "Ativar tema escuro");
+      btn.setAttribute("title", dark ? "Tema claro" : "Tema escuro");
+      btn.innerHTML = dark
+        ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>'
+        : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.4 8.4 0 1 1 9.8 3.5a6.9 6.9 0 0 0 10.7 10.7Z"/></svg>';
+    }
+  }
+
+  function initTheme() {
+    const stored = localStorage.getItem(THEME_KEY);
+    const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    applyTheme(stored || (prefersDark ? "dark" : "light"));
+  }
+
+  function toggleTheme() {
+    const current = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    localStorage.setItem(THEME_KEY, current);
+    applyTheme(current);
+  }
+
+  /* ---------- progresso ---------- */
+  function getProgress() {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+    } catch {
+      return {};
+    }
+  }
+
+  function setDone(partId, done) {
+    const data = getProgress();
+    if (done) data[partId] = Date.now();
+    else delete data[partId];
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+    paintProgress(data);
+  }
+
+  function paintProgress(data = getProgress()) {
+    doc.querySelectorAll("[data-progress-total]").forEach((el) => {
+      const total = Number(el.getAttribute("data-progress-total"));
+      const count = Object.keys(data).filter((k) => data[k]).length;
+      el.textContent = String(count).padStart(2, "0");
+      const fill = el.closest(".sidebar__progress")?.querySelector(".bar__fill");
+      if (fill && total) fill.style.width = `${Math.min(100, (count / total) * 100)}%`;
+    });
+
+    doc.querySelectorAll(".part-nav a[data-part-id]").forEach((a) => {
+      const id = a.getAttribute("data-part-id");
+      const hasDot = a.querySelector(".part-nav__done");
+      if (data[id] && !hasDot) {
+        const dot = doc.createElement("i");
+        dot.className = "part-nav__done";
+        dot.setAttribute("aria-label", "capítulo concluído");
+        a.appendChild(dot);
+      } else if (!data[id] && hasDot) {
+        hasDot.remove();
+      }
+    });
+
+    doc.querySelectorAll(".part-card[data-part-id]").forEach((card) => {
+      card.classList.toggle("is-done", Boolean(data[card.getAttribute("data-part-id")]));
+    });
+
+    const stat = doc.querySelector("[data-index-progress]");
+    if (stat) {
+      const total = Number(stat.getAttribute("data-index-progress"));
+      const count = Object.keys(data).filter((k) => data[k]).length;
+      stat.textContent = total ? `${count}/${total}` : "0";
+    }
+  }
+
+  function initCompleteButton() {
+    const btn = doc.querySelector("[data-complete]");
+    if (!btn) return;
+    const partId = btn.getAttribute("data-complete");
+    const label = btn.querySelector("span");
+
+    const sync = () => {
+      const done = Boolean(getProgress()[partId]);
+      btn.classList.toggle("btn--done", done);
+      btn.classList.toggle("btn--gold", !done);
+      if (label) label.textContent = done ? "Capítulo concluído" : "Marcar como concluído";
+      btn.setAttribute("aria-pressed", String(done));
+    };
+
+    btn.addEventListener("click", () => {
+      const done = Boolean(getProgress()[partId]);
+      setDone(partId, !done);
+      sync();
+    });
+
+    sync();
+  }
+
+  /* ---------- barra de leitura ---------- */
+  function initReadingProgress() {
+    const bar = doc.querySelector(".read-progress");
+    if (!bar) return;
+    let ticking = false;
+    const update = () => {
+      const max = doc.documentElement.scrollHeight - window.innerHeight;
+      const pct = max > 0 ? (window.scrollY / max) * 100 : 0;
+      bar.style.width = `${Math.min(100, Math.max(0, pct))}%`;
+      ticking = false;
+    };
+    window.addEventListener("scroll", () => {
+      if (!ticking) {
+        window.requestAnimationFrame(update);
+        ticking = true;
+      }
+    }, { passive: true });
+    update();
+  }
+
+  /* ---------- sidebar mobile ---------- */
+  function initSidebar() {
+    const sidebar = doc.querySelector(".sidebar");
+    const toggle = doc.querySelector("[data-nav-toggle]");
+    if (!sidebar || !toggle) return;
+
+    let scrim = doc.querySelector(".scrim");
+    if (!scrim) {
+      scrim = doc.createElement("div");
+      scrim.className = "scrim";
+      doc.body.appendChild(scrim);
+    }
+
+    const close = () => {
+      sidebar.classList.remove("is-open");
+      scrim.classList.remove("is-visible");
+      toggle.setAttribute("aria-expanded", "false");
+    };
+    const open = () => {
+      sidebar.classList.add("is-open");
+      scrim.classList.add("is-visible");
+      toggle.setAttribute("aria-expanded", "true");
+    };
+
+    toggle.addEventListener("click", () => {
+      if (sidebar.classList.contains("is-open")) close();
+      else open();
+    });
+    scrim.addEventListener("click", close);
+    doc.addEventListener("keydown", (ev) => {
+      if (ev.key === "Escape") close();
+    });
+    sidebar.querySelectorAll("a").forEach((a) => a.addEventListener("click", close));
+  }
+
+  /* ---------- âncoras nos títulos ---------- */
+  function initAnchors() {
+    doc.querySelectorAll(".content h2[id], .content h3[id]").forEach((heading) => {
+      if (heading.querySelector(".anchor")) return;
+      const a = doc.createElement("a");
+      a.className = "anchor";
+      a.href = `#${heading.id}`;
+      a.textContent = "#";
+      a.setAttribute("aria-label", `Link para: ${heading.textContent.trim()}`);
+      heading.appendChild(a);
+    });
+  }
+
+  /* ---------- scrollspy do sumário ---------- */
+  function initScrollSpy() {
+    const links = [...doc.querySelectorAll(".toc-card a[href^='#']")];
+    if (!links.length || !("IntersectionObserver" in window)) return;
+    const byId = new Map(links.map((l) => [l.getAttribute("href").slice(1), l]));
+    const targets = [...byId.keys()].map((id) => doc.getElementById(id)).filter(Boolean);
+    if (!targets.length) return;
+
+    const setActive = (id) => {
+      links.forEach((l) => l.classList.remove("is-current"));
+      const link = byId.get(id);
+      if (link) link.classList.add("is-current");
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      const visible = entries
+        .filter((e) => e.isIntersecting)
+        .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+      if (visible[0]) setActive(visible[0].target.id);
+    }, { rootMargin: "-90px 0px -65% 0px", threshold: 0 });
+
+    targets.forEach((t) => observer.observe(t));
+  }
+
+  /* ---------- busca e filtros do índice ---------- */
+  function initIndex() {
+    const cards = [...doc.querySelectorAll(".part-card")];
+    const search = doc.querySelector("[data-search]");
+    const chips = [...doc.querySelectorAll(".filter-chip")];
+    const empty = doc.querySelector(".no-results");
+    if (!cards.length) return;
+
+    let module = "todos";
+    let term = "";
+
+    const apply = () => {
+      let shown = 0;
+      cards.forEach((card) => {
+        const text = (card.textContent + " " + (card.dataset.tags || "")).toLowerCase();
+        const matchesTerm = !term || text.includes(term);
+        const matchesModule = module === "todos" || card.dataset.module === module;
+        const show = matchesTerm && matchesModule;
+        card.style.display = show ? "" : "none";
+        if (show) shown += 1;
+      });
+      if (empty) empty.classList.toggle("is-visible", shown === 0);
+    };
+
+    if (search) {
+      search.addEventListener("input", () => {
+        term = search.value.trim().toLowerCase();
+        apply();
+      });
+    }
+
+    chips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        module = chip.getAttribute("data-filter") || "todos";
+        chips.forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
+        apply();
+      });
+    });
+
+    doc.addEventListener("keydown", (ev) => {
+      if (ev.key === "/" && search && doc.activeElement !== search) {
+        ev.preventDefault();
+        search.focus();
+      }
+    });
+  }
+
+  /* ---------- inicialização ---------- */
+  initTheme();
+  paintProgress();
+  initReadingProgress();
+  initSidebar();
+  initAnchors();
+  initScrollSpy();
+  initCompleteButton();
+  initIndex();
+
+  doc.querySelectorAll("[data-theme-toggle]").forEach((btn) => btn.addEventListener("click", toggleTheme));
+
+  const printBtn = doc.querySelector("[data-print]");
+  if (printBtn) printBtn.addEventListener("click", () => window.print());
+
+  doc.querySelectorAll("[data-year]").forEach((el) => {
+    el.textContent = String(new Date().getFullYear());
+  });
+})();
+
+  </script>
+</body>
+</html>

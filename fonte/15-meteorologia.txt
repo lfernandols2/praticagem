@@ -1,0 +1,1595 @@
+FONTE: resumo curso h.pdf | CAPITULO 15 - meteorologia | paginas 325-350 | OCR ABBYY
+OBS: texto OCR ruidoso, mistura ingles/portugues. Interprete com cautela; nao invente.
+
+
+===== PAGINA 325 =====
+
+%%mm 
+METEOROLOGIA PARA NAVEGANTES 
+Ia PARTE - METEOROLOGIA 
+CAP I - VARIAÇÃO DOS PPAIS ELEMENTOS METEOROLÓGICOS 
+RADIAÇÃO SOLAR: 
+> O âng de incidência dos raios varia ao longo do dia (rotação da terra) e ao longo do ano (translação). 
+> Da quantidade total de energia solar (ondas curtas) que alcança a atm, uma grande parte é refletida. A parcela absorvida pela 
+superfície é a única fonte de aquecimento do planeta. / O resfriamento ocorre 24 h (pela emissão de ondas longas). 
+> A relação entre a quantidade de radiação refletida para o espaço e a recebida é denominada Albedo. 
+> As regiões tropicais têm saldo positivo de energia, e nas altas latitudes o saldo é negativo. Na busca do equilíbrio térmico, 
+ocorre o transporte de energia das baixas para as altas latitudes por meio da circulação geral da atm e correntes oceânicas. 
+> A energia do sol é armazenada e transportada de 2 formas: 1) calor latente (pela evaporação); e 2) calor sensível (pelo 
+aquecimento da superfície, da massa de ar à superfície e da água dos oceanos). / A temp é o indicador da qtd de calor sensível. 
+> Redistríbuição sob a forma de calor sensível: a superfície aquece o ar por condução, e essa energia é transportada vertical e 
+horizontalmente por convecção e advecção. 
+> Redistríbuição sob a forma de calor latente: o ar úmido transporta e libera calor latente do vapor em outra região. 
+> Filtragem seletiva: a radiação solar sofre absorção e reflexão (pelas nuvens e partículas em suspensão), e dispersão (pelo ar). 
+A dispersão é mais efetiva para a cor azul (daí o céu ser azul). / A filtragem seletiva resulta num espectro eletromagnético. 
+TEMPERATURA DO AR E TSM: 
+(Obs: calor sensível x latente = 1x600 cal!) 
+> A diminuição da temp do ar com o aumento da latitude é acentuada pela variação sazonal do âng de incidência dos raios 
+solares e pelo albedo das superfícies cobertas de neve. 
+> A TSM não varia com o dia e a noite, pois a radiação solar é em grande parte usada para a evaporação da superfície do mar. 
+Isso resulta numa variação muito lenta e gradual da TSM ao longo do ano, imperceptível em poucos dias. 
+> A TSM influencia o resfriamento do ar (provocando nevoeiros ou névoa) ou o seu aquecimento (provocando convecção, 
+tormentas e até furacões). A comparação entre a TSM e a temp do ar é importante para o diagnóstico e prognóstico. 
+> A temp do termômetro de bulbo úmido indica a temp do ar resultante do acréscimo artificial de umidade até a saturação do ar 
+(?). Esse acréscimo de umidade pela evaporação no tecido provoca um resfriamento do ar junto ao bulbo úmido, proporcional à 
+quantidade relativa de vapor no ar (quanto + seco o ar, maior será a evaporação e o resfriamento, resultando em maior diferença 
+entre as temps dos termômetros seco e úmido do psicrômetro). 
+> A temp do ponto de orvalho é aquela em que o vapor da atm começa a se condensar, ou seja, é a temp em que o ar atinge 
+sua saturação de umidade simplesmente por resfriamento do ar (sem nenhum acréscimo artificial de umidade). 
+> Quanto mais forte o gradiente horiz de TSM das cartas piloto, ou seja, quanto mais próximas as isotermas, maior será o 
+gradiente de pressão e, consequentemente maior será a intensidade do W. 
+> Nas regiões costeiras, a acentuada variação diurna e sazonal da temp do ar sobre os continentes, em contraste com a peq 
+variação da temp do ar sobre os oceanos, provoca fenômenos como brisas, nevoeiros e ventanias. 
+PRESSÃO ATMOSFÉRICA: 
+> Fig 1-19: a variação da temp do ar ao longo do dia explica a variação diurna da pressão. 
+> Se, pelo movimento horiz das massas de ar, a temp do ar subir, a pressão irá descer (e vice-versa). / Logo, a variação da temp 
+da superfície (terra ou mar), e a conseqüente variação da temp do ar, são muito importantes. 
+> Quanto mais forte for o gradiente horiz de pressão (menor a dist entre isóbaras), maior será a intensidade do W. 
+UMIDADE DO AR: 
+> Na atm, há água nos estados gasoso (vapor de água), líquido (gotículas de nuvens e de chuva) e sólido (cristais de gelo). 
+> A umidade do ar armazena e transporta, para outras regiões, elevadas quantidades de energia (na forma de calor latente). 
+Ela é o ppal elemento de suporte de energia dos fenômenos de grande intensidade, que se alimentam de umidade nos 
+oceanos e se dissipam ao penetrarem nos continentes. 
+> Ponto de orvalho (Td) = temp do ar na qual ele atinge, por resfriamento, a condição de saturação. 
+> Umidade absoluta = gramas de vapor / m3 de ar (independe da temp), (mas a UABS máx é diretamente prop à temp do ar!) 
+> Umidade relativa (UR) = relação entre a qtd de vapor existente no ar e a qtd máxima que ele pode conter naquela 
+temperatura. A UR é inversamente proporcional à temperatura. / Quanto maior a temp, maior a quantidade de vapor o ar 
+poderá conter. 
+> Psicrômetro de funda: obtem-se a temp seca (T) e úmida (TU). / A "depressão do termômetro úmido" é T-TU. 
+> Tabela I (T-TU x T), ou ábaco da fig 1-27: obtém-se a Td. / A "depressão do ponto de orvalho" é T-Td. 
+> Tabela II (T x Td): obtém-se a UR. 
+EVAPORAÇÃO: 
+> Envolve considerável qtd de energia, na forma de calor latente. Essa energia é retirada do ambiente (que se resfria) e 
+incorporada ao vapor d'agua. Quando esse calor latente é liberado em altitude, o ambiente se aquece, o que cria condições de 
+instabilidade, favorecendo a convecção e a circulação direta. 
+> A TSM tem importante papel na evaporação do mar. Quando TSM > 27°C, a evaporação é quase espontânea, o que resulta em 
+grande tx de energia oceano —• atm. / A TSM é um dos ppais fatores que fazem a precipitação na região tropical ser tão intensa. 
+
+
+===== PAGINA 326 =====
+
+CONDENSAÇÃO: 
+> Para que o vapor se condense, é necessário que haja acréscimo de umidade e/ou resfriamento, até que a UR atinja 100%. 
+> Quando uma massa de ar sobe, o seu resfriamento afeta continuamente a sua UR, que chega a 100% no "nível de 
+condensação" (temp do ar = ponto de orvalho), que coincide com o nível da base das nuvens baixas. Essa condensação 
+continuará a ocorrer com a subida da massa de ar. / A condensação libera energia na forma de calor latente. 
+> A ascensão do ar seco até o nível de condensação se processa segundo uma adiabática seca (10°C/Km). A partir desse nível, 
+a energia liberada aquece o ar, e a ascensão passa a se processar segundo uma adiabática úmida (6°C/Km) (fig 1-30). 
+> Adiabática significa sem troca térmica com o ambiente. 
+NEBULOSIDADE: 
+> A nebulosidade não implica necessariamente em precipitação (que requer condições favoráveis ao desenvolvimento de gotas, 
+como instabilidade e atividades convectivas). 
+> Nuvem: é uma aglomeração de gotículas de água provenientes da condensação do excesso de vapor. Dependendo de sua 
+altitude, teremos gotículas de água ou cristais de gelo, ou ambos. 
+> Núcleos de condensação: são partículas sólidas em suspensão que aglutinam milhares de gotículas de nuvem e possibilitam 
+o desenvolvimento de gotas de chuva, com tamanho suficiente que garanta sua queda até o solo. 
+> Observação da nebulosidade: é feita em oitavos de céu encoberto. Além disso, indica-se a porção do céu coberta por nuvens 
+baixas, médias e altas (considerando a altitude das bases). / Próximo do horizonte, o total de nuvens parece ser maior do que é. 
+A observação das sombras das nuvens e da claridade ajuda a avaliar a sua espessura e o seu desenvolvimento vertical. 
+> Evolução da nebulosidade: o seu aumento indica nuvens em formação, existência de correntes ascendentes e condições 
+favoráveis à instabilidade. / A sua diminuição indica nuvens em dissolução, correntes descendentes e condições favoráveis à 
+estabilidade. / A constância da nebulosidade caracteriza estabilidade. 
+NUVENS: 
+> Classificam-se em 10 tipos, acd altura da base em: 
+- baixas (< 2 km): 
+St - Ns - Sc - Cu - Cb 
+- médias (2-6 km): 
+As - Ac 
+- altas (> 6 km): 
+Ci - Cs - Ce 
+> Cb: é um caso especial que ocupa todos os níveis, mas deve ser observado como nuvem baixa. 
+> Cirrus com garras (rabos de galo): por seu acentuado deslocamento, são indício de aproximação de mau tempo. 
+> As nuvens altas são inteiramente constituídas de cristais de gelo. 
+PRECIPITAÇÃO: 
+> É a queda de gotas d'agua, partículas de gelo e cristais de gelo ou flocos de neve, quando seus tamanhos e pesos são 
+suficientes para romper o equilíbrio entre a gravidade e as correntes ascendentes. 
+> Classificação: - Quanto à continuidade: contínua (> lh), intermitente (< lh) e em pancadas. 
+- Quanto à intensidade e redução da visibilidade: garoa, chuvisco fraco, chuvisco moderado e chuvisco forte. 
+NEVOEIRO: 
+> A saturação do ar se dá por resfriamento (o ar em contato com a superfície atinge o Td). / Os tipos mais comuns são: 
+> Nevoeiro de radiação: ocorre sobre o continente, devido ao resfriamento da superfície a partir do pôr do sol (mais intenso 
+pela manhã). / Começa a dissipar após o nascer do sol, pelo aquecimento do solo. 
+> Nevoeiro de advecção: massa de ar quente e úmida se deslocando sobre uma superfície bem mais fria. 
+- É o mais comum no mar. / Para desenvolver e intensificar o nevoeiro, é necessário que haja um W fraco para misturar a 
+camada inferior com as camadas imediatamente acima. / Não tem hora para ocorrer. / Nos portos, é comum no final da tarde, 
+em dias em que a TSM está bem menor que a temp do continente, e tb menor que a Td. / Para prevê-lo, atente para uma TSM 
+bem mais fria que o ar, e vrf se há ar úmido se deslocando sobre isotermas cada vez mais frias com veloc moderada. 
+- Condições propícias: 
+- diferença Td - TSM min de cerca de 1°C em mar aberto ou 2°C próximo à costa; e 
+- UR bem alta (cerca de 95%); e 
+- atmosfera estável. 
+- Além do resfriamento obrigatório do ar, as temps devem cumprir com: T > Td > TSM 
+- Condições para dissipação: - aquecimento da superfície; ou 
+- aumento do W. 
+NÉVOA: 
+> São gotículas d'agua associadas a grande qtd de poluentes. / Requer o resfriamento do ar até a temp do ponto de orvalho (??). 
+> Névoa úmida (= neblina): parece um nevoeiro bem fraco, com grande quantidade de matérias sólidas em suspensão associadas 
+a gotículas d'agua. / A umidade é > 80%. / Tem cor acinzentada. 
+> Névoa seca: na realidade, é a concentração de poluentes sólidos (poeira, fumaça) quando essas partículas se situam abaixo do 
+nível de condensação das nuvens. / A umidade é sempre < 80%. / A cor varia em fç da paisagem de fundo: é azul-chumbo 
+contra fundo escuro (cidades ou serras), e amarelo-alaranjado contra fundo claro (sol ou nuvens no horizonte). / Pode ter 
+grande extensão vertical. 
+VISIBILIDADE: 
+> No mar, a visib é afetada por: precipitação, névoa, nevoeiro, espuma do mar, poeira e sal. / A névoa e o nevoeiro são os 
+fenômenos que mais reduzem a visib. (??) 
+> Nevoeiro: reduz a visib a menos de 1000 m (mesmo que seja um nevoeiro fraco). I Nevoeiro denso: reduz a menos de 100 m! 
+- Seu aspecto é branco-leitoso, podendo ser cinzento caso haja grande concentração de poluentes. 
+> Névoa: muito ligada aos poluentes da região. A névoa úmida reduz a visib de 1 a 2 km, e a névoa seca reduz de 1 a 5 km. 
+> Chuva: normalmente não reduz a visib para menos de 1500 m. Mas pancadas fortes e passageiras podem reduzir aquém disso. 
+> Chuvisco ou garoa: pode reduzir a visib mais que a chuva! / Chuvisco forte reduz para menos de 500 m! 
+> Espuma do mar: com mar severo, o W forte pode desprender a espuma da crista das ondas e afetar acentuadamente a visib. 
+
+
+===== PAGINA 327 =====
+
+CAP II - CIRCULAÇÃO DO AR 
+AR ESTÁVEL E INSTÁVEL: 
+> Circulação direta: é o mov espontâneo que resulta da tendência do ar mais denso (+ frio) ficar abaixo do ar menos denso. 
+> Estável: a tendência é a permanência do quadro presente com bom tempo. / Não há condições favoráveis à circulação direta. 
+> Instável: há condições propícias à circulação direta. 
+- Essa tendência espontânea pode estar influenciada por: gradiente horiz de temp, gradiente horiz de pressão, convergência em 
+baixos níveis, divergência em altos níveis e outros fatores que provocam a convecção. 
+- Os movs verticais de ascensão e subsidência são associados a movs horizs de convergência e divergência. 
+> Avaliação da estabilidade: acompanhe a evolução da diferença entre a temp do ar e a temp do solo/mar. Se houver tendência 
+de aquecimento da superfície, a evolução natural será ocorrer circulação direta (se não ocorrer, existirá inversão térmica). 
+> Linha de instabilidade: indica a ocorrência de circulação direta. / Também pode ser ocasionada por advecção de ar mais 
+quente em baixos níveis ou advecção de ar mais frio em altos níveis. / A sua menção nos boletins significa mau tempo. 
+CIRCULAÇÕES NAS BAIXAS E NAS ALTAS PRESSÕES: 
+> Centros de BP: consideram-se 2 tipos diferentes de centros de BP: os ciclones tropicais e os extratropicais. 
+> Centros de AP: no HS, a circulação é anti-horária e divergente, e associada a mov vertical descendente do ar. 
+> Cavado: é o alongamento das isobaras de um Centro de BP numa direção (ao longo do eixo do cavado). Essa protuberância 
+é mais pronunciada conforme as isobaras se afastam do centro de BP, ao longo do eixo. / Quando o cavado é bem acentuado. 
+constata-se a circulação de ar frio para regiões mais quentes, e normalmente ocorre frente fria. 
+> Crista: é o alongamento das isobaras de um Centro de AP numa direção (ao longo do eixo da crista). Essa protuberância é 
+mais pronunciada conforme as isobaras se afastam do centro de AP, ao longo do eixo. / Quando a crista é bem acentuada, 
+constata-se a circulação de ar quente para regiões mais frias, e normalmente ocorre frente quente. 
+> O eixo das cristas está sempre apontado para os pólos, e o eixo dos cavados está sempre voltado para o Equador. 
+> Vide o "colo" da fig 122. (linha entre dois centros de alta) 
+CONVERGÊNCIA E DIVERGÊNCIA: 
+> A convergência à superfície está associada ao mov ascendente do ar e à divergência em altos níveis (e vice-versa). 
+> A ocorrência da convergência e divergência pode estar associada à alteração da veloc horizontal do ar: a convergência 
+associada à redução da veloc horizontal, e a divergência ao aumento dessa veloc (fig 2-16 a 18). / Sendo assim, ao ocorrer 
+divergência ou convergência em baixos ou altos níveis, haverá interação das circulações horiz e vertical (fig 2-19 e 20). 
+BRISAS: 
+> As brisas marítimas e terrestres (ou terral) são decorrentes da circulação direta estudada. 
+> Brisa marítima: ocorre na parte da tarde, quando a temp sobre o continente se eleva e a pressão cai (a TSM não se altera!). 
+> Terral: ocorre de manhã, devido ao resfriamento noturno da superfície do continente. 
+VENTOS (quadro H-l): 
+> Os ventos teóricos são escolhidos de acordo com as forças consideradas ou desprezadas. / Serão comentados os ventos 
+"geostrófíco" e "gradiente", para que possamos entender como funciona o "W de superfície". 
+> Equilíbrio hidrostático: a força do gradiente vertical de pressão se equilibra com a força da gravidade. 
+> Vento geostrófíco: é o W horiz, sem aceleração, que sopra ao longo de um caminho reto, acima da camada de atrito. 
+- Resulta do balanço entre a "força gradiente horiz de pressão" e a "força devido a Coriolis". / É um W de larga escala. 
+> Vento gradiente: tb é um W de larga escala horizontal, sem atrito, e que sopra paralelo às isobaras. 
+- Não é conseqüência de balanço, pois a direção é alterada (a veloc não). Sopra num caminho curvo (devido à força 
+centrípeta). / Resulta da interação de: "força gradiente horiz de pressão", "força devido a Coriolis" e "força centrípeta". 
+> Vento de superfície: resulta da interação das 3 forças acima, mais a força de atrito (devido à superfície do solo ou mar). 
+- Sopra paralelo às isobaras, com uma pequena componente em direção ao Centro de BP, e sua veloc é proporcional à 
+intensidade do gradiente horiz de pressão. 
+> Anemômetro mede a intensidade, e anemoscópio ou cata-vento mede a direção. 
+> Cálculo do W verdadeiro: 
+- W relativo: é o medido pelos instrumentos acima, em rei à proa do navio. 
+- W aparente: é o W relativo à proa corrigido do rumo. 
+- Vetor do navio + W verdadeiro (de onde vem) = W aparente (de onde vem). 
+
+
+===== PAGINA 328 =====
+
+CIRCULAÇÃO GERAL DA ATMOSFERA: 
+> A região tropical recebe mais energia do que emite (saldo +), e as regiões polares emitem mais do que recebem (saldo -). Para 
+que esse desequilíbrio seja mantido em níveis estabilizados, ocorrem as circulações atmosférica e oceânica. 
+> Essas circulações são de larga escala ou planetárias, diferindo das circulações das monções (regionais), das circulações dos 
+sistemas sinóticos (1000 km) e dos sistemas de mesoescala (locais). 
+> A circulação geral da atm possui 2 direções básicas, a saber: 
+a) Circulação meridional (N-S ou S-N, fig H-26/28/31): 
+> Célula de Hadley (fig II-27): o ar sobe no Equador, apresenta circulação meridional em altura, desce a 30°, e apresenta 
+circulação meridional em dir ao Equador (ventos alíseos) e ao pólo (ventos de oeste). 
+- Esse movimento descendente a 30° origina o cinturão de anticiclones das latitudes médias. 
+> A circulação meridional se completa com outras células nas faixas de 30°-60° e de 60°-pólos, que geram cinturões de BP a 
+60° e na região equatorial, e AP a 30°. 
+> Coriolis: é a rotação da terra afetando a circulação meridional. Provoca um desvio para a esquerda no HS. 
+b) Circulação zonal (L-E ou W-E): 
+> É causada pelo efeito de Coriolis na circulação meridional. / Observa-se: 
+1) na faixa equatorial: ventos predominantes de E; 
+2) na faixa tropical: alíseos de NE (HN) e de SE (HS); e 
+3) nas latitudes médias: ventos predominantes de W. / É nesses escoamentos zonais de W que ocorrem perturbações 
+meteorológicas que desencadeiam os sistemas frontais. 
+Obs: Monções são circulações regionais na Ásia e Oceano Índico, que ocorrem devido à grande massa de terra da Ásia (é como uma 
+"mega-brisa"). Os ventos são de SW no verão, e de NE no inverno. 
+CAP III - DESENVOLVIMENTO DE ATIVIDADES CONVECTIVAS 
+PROCESSO CONVECTIVO E CONDIÇÕES PROPÍCIAS: 
+a) Processo convectivo originado por aquecimento da superfície (e intensificado pela alta UR do ar): 
+> Inicia com a simples circulação direta. O sol aquece a superfície, que aquece o ar, o que reduz a pressão, o que propicia a 
+convergência à superfície, que supre a ascensão de ar quente. 
+> Ao atingir determinado nível, o ar seco pára de subir por estar suficientemente frio (ele só continuaria a se elevar se houvesse 
+alguma fonte de energia para aquecê-lo). Portanto, uma das condições para intensificar a convecção é o ar estar bem úmido. 
+> A convecção do ar quente e úmido ocorre naturalmente até o nível de condensação (onde UR = 100% e temp = Td). A partir 
+daí, ocorre condensação e liberação de calor latente, que é a fonte de energia para o desenvolvimento da atividade convectiva. 
+> As condições são bastante propícias quando, associado à grande liberação de calor latente, se observa tb um forte gradiente 
+horiz de temp (logo, tb de pressão). Isso favorece a convergência de ar quente e úmido para a região de BP à superfície. 
+> A forte corrente ascendente propicia a divergência em altos níveis e, consequentemente, correntes descendentes e divergência 
+à superfície nas regiões vizinhas à área de BP. 
+> O grande desenvolvimento convectivo que ocorre na ZCIT e na região tropical marítima se deve à elevada umidade. 
+> Denomina-se "Nível de Divergência Nula" o nível de transição de divergência para convergência, e vice-versa (fig 3-5). 
+b) Outras causas do processo convectivo: 
+> A atividade convectiva pode ser causada por outros fatores, tais como: 
+- o frontal. 
+- o oro gráfico. 
+- o de linhas de instabilidade. 
+- a forte convergência em baixos níveis. 
+y Logicamente, essas correntes ascendentes devem satisfazer às condições favoráveis à intensificação da convecção, tais como: 
+o ar ascendente deve ser quente e úmido, a sup frontal deve ser bem inclinada, e a cadeia de montanhas deve ser bem alta. 
+Obs: nas linhas de instabilidade: 1) as condições são favoráveis à ocorrência de correntes ascendentes e à formação de uma 
+série de trovoadas isoladas; e 2) é comum observar tempo bem severo, com ventos muito fortes, chuva intensa e granizo. 
+CARACTERÍSTICAS DOS CB: 
+> Cumulus: podem conter cristais de gelo, quando o seu desenvolvimento vertical supera o nível de congelamento. 
+> Cbs: nuvens escuras com grande qtd de vapor d'agua, água e gelo em constante movimento, em correntes de ar ascendentes e 
+descendentes, o que provoca fortes turbulências e afeta a superfície com fortes rajadas. 
+- Podem ocorrer rápidas quedas de temperatura e, em alguns casos, acentuadas variações de pressão (o que pode propiciar a 
+ocorrência de tornado). / Um tornado está sempre associado a um Cb (sobre o mar, é chamado tromba d'agua). 
+- São observados como nuvens baixas, mas podem atingir os limites da troposfera. 
+- No seu topo, apresentam Cirrus (de cristais de gelo) de grande extensão (devido à divergência do ar). 
+- À superfície, ocorre convergência de ar, carreando ar quente e umidade que irão alimentá-lo de calor latente. 
+- Trovoadas: é o conjunto de relâmpagos e trovões produzidos num Cb. / O Cb é a única nuvem que normalmente apresenta 
+relâmpagos e trovões (eventualmente, tb pode haver trovoadas em Alto Cumulus). 
+- Em Cbs com fortes trovoadas, raiadas > 30 Kt precedem o temporal. 
+- Fases: 
+- cumulus: mov ascendente intenso. 
+- maturidade: mov ascendente, chuva forte, e mov descendente com raiadas na parte de vante (na dir do seu 
+- dissipação: mov descendente com chuva leve. 
+deslocamento). 
+
+
+===== PAGINA 329 =====
+
+CAP IV - SISTEMAS TROPICAIS 
+VENTOS ALÍSEOS E ZCIT: 
+> Os ventos predominantes sopram na mesma direção, com freq constante durante todo o ano, variando sua veloc moderada 
+com períodos de maior ou menor intensidade. / Aí se enquadram os ventos alíseos, característicos das regiões tropicais. 
+> Como os alíseos do HN e do HS sopram em direções distintas (devido a Coriolis), observa-se uma convergência na faixa 
+equatorial (a ZCIT). / A ZCIT oscila em fç do "Equador térmico", que varia de 15° N (verão no HN) até 5° N (verão no HS). 
+> Ao alcançarem a faixa equatorial, os alíseos escoam praticamente paralelos (de E), observando-se extensas regiões de 
+calmarias, chamadas "Doldrums". 
+> Nas ZCIT, as ocorrências de convergência, de atividade convectiva, de nebulosidade e de mau tempo associado a Cb variam 
+diariamente. Por isso, nas cartas e boletins diários, a sua posição, a intensidade da convergência e a atividade convectiva 
+resultante são registradas como fraca, moderada ou forte. 
+> No Brasil, a costa N e NE é mais afetada pelo posicionamento da ZCIT em marco e abril, época em que a nebulosidade 
+e precipitação a ela associadas são observadas mais ao sul. 
+CARACTERÍSTICAS TROPICAIS: 
+> Sistemas extratropicais: são baroclínicos, ou seja, apresentam variações de pressão e temperatura. Essa variação de temp 
+resulta em diferentes massas de ar e, consequentemente, em sistemas frontais. 
+- E ainda, observa-se diferença sensível de temp entre o verão e o inverno. 
+> Sistemas tropicais: são barotrópicos, ou seja, apresentam apenas variações de pressão. / Não se observam os efeitos das 
+estações, ocorrendo um período muito chuvoso e outro menos por efeito apenas da variação da pressão. / A variação da pressão, 
+associada à presença de ar quente e úmido, favorece a intensa atividade convectiva. que é a ppal característica da região tropical. 
+> Regiões um pouco mais afastadas do Equador ((p > 7°): o efeito de Coriolis contribui para o desvio do escoamento. Nas áreas 
+de BP, quando o escoamento evolui para circulação fechada, as perturbações atmosféricas podem se desenvolver em tormentas 
+tropicais (fig 4-1), onde os ventos muito fortes formam grandes ondas. 
+- Nos meses seguintes ao verão, aumenta a ocorrência de depressões mais intensas associadas a uma TSM elevada. 
+CICLONES TROPICAIS: 
+> Além da TSM elevada, eles devem ser desencadeados por perturbação atmosférica proveniente de depressão associada à 
+intensificação da circulação convergente e ciclônica de ar muito quente e úmido nos baixos níveis, (fig 4.1) 
+> Entre 5°-15° N, os ciclones tropicais ocorrem em AGO/SET/OUT. Em JUL e NOV, a freq é reduzida (e nula no resto do ano). 
+> Condições para a formação de tormentas tropicais e furacões: 
+- TSM > 27°C (para aumentar a umidade do ar, dando-lhe calor latente). 
+- aprofundamento dos cavados associados às ondas de E. 
+- ausência de cisalhamento do vento provocado pelas ondas de Kelvin (ondas de W). 
+Obs: quando o cisalhamento é forte (ondas de W se propagando em dir oposta às ondas de E), ele inibe a formação de furacões. 
+A grande massa da Amazônia contribui para a ocorrência de grandes ondas de KeMn (e, portanto, para o forte cisalhamento). 
+Obs: na costa N do Brasil, não há ciclones tropicais ou furacões, pois as condições propícias não são atendidas (TSM > 27°C). 
+Obs: a temp e umidade do ar no Atlântico Norte sofrem forte influência do continente africano, o que não ocorre no Sul. 
+FURACÕES (fig 4-3): 
+> A grande intensificação de uma tormenta, transformando-a em furacão, se deve à intensa liberação de calor latente (favorecida 
+por uma forte interação oceano-atmosfera, resultando em ar muito úmido), e possibilitada pela convergência em baixos níveis. 
+> A circulação ciclônica e fechada, com acentuada convergência à superfície e forte movimento ascendente, propicia a formação 
+de anéis de conglomerados de Cbs. / Os ventos têm direções bem definidas, e criam ondas em direções tb bem definidas. 
+> Distribuição da intensidade do W (fig 4-4): depende da dist ao olho e da pos em rei à sua trajetória. / É na região 
+intermediária, próxima ao olho, que o W alcança sua máx intensidade (+ de 150 kt). 
+> Ondas (fig 4-7): se propagam em todas as direções, e continuam a se propagar sob a forma de marulhos a grandes distâncias, 
+prejudicando o navegante até quando não afetado pela circulação. / As ondas são mais altas na direção da trajetória (até > 15 
+m!), pois a área geradora se desloca na mesma dir da propagação da onda, intensificando-a. 
+a) Semicírculos Perigoso e Navegável (fig 4-10/11): são assim classificados em fç do estado do mar, da intensidade do W, e do 
+perigo do navio ser arrastado na dir da trajetória. / No HS, o semicirculo perigoso está à esq da trajetória (à dir no HN). 
+> O W é mais intenso no semicirculo perigoso porque o vento ciclônico se soma ao vento principal no qual o temporal está 
+inserido (esse vento planetário é paralelo à trajetória). / No semicirculo navegável eles se subtraem. 
+> A tendência do W e do mar na parte de vante do semicirculo perigoso é arrastar o navio na dir da trajetória, onde ela é + violenta. 
+b) Manobras evasivas: 
+> No semicirculo perigoso (HS): 
+W na bochecha de BB (45°). navegando o mais rápido possível. 
+Se tiver que pairar sob máqs (= capear), fazê-lo com mar de proa. 
+> No semicirculo navegável (HS): 
+W na alheta de BB (45°). navegando na maior distância possível. 
+Se tiver que pairar sob máqs (= capear), fazê-lo com mar de popa. 
+> Sobre a trajetória e AV do centro (HS): 
+W na alheta de BB (22°). mas bem próximo à popa. 
+Manter esse rumo até chegar ao semicirculo navegável (depois, cnf acima). 
+> Sobre a trajetória e AR do centro (HS): 
+Evitar o centro, tomando o melhor rumo possível (acd estado do mar). 
+Atenção que as tormentas alteram o rumo para o S e SE. 
+
+
+===== PAGINA 330 =====
+
+: j . i ^ M * H f i i r i « a * « * ^ > . ^ ^ > r ^ ^ - : - ^ ~ * i * ã » ™M « 
+c) Localização na tormenta: 
+(útil para quando falharem os eqs de rx de infos meteorológicas
+> Caracts relacionadas à pressão: 
+- Nas regiões tropicais, a rate de flutuação da pressão apresenta oscilação diurna com máxs às 10 e 22 hs, e míns às 04 e 16 hs. 
+- Observam-se condições barométricas inusitadas mesmo a centenas de milhas de uma tormenta. 
+- Quando o furacão se aproxima na dir do navio, a pressão inicialmente apresenta uma oscilação instável, e depois começa a 
+baixar cada vez mais rápido. / Vide relação entre a variação horária da pressão e a dist ao centro da tormenta no quadro 4-1. 
+> Caracts relacionadas ao vento (figs 4-12/13): 
+- Os alíseos são predominantes e se caracterizam pela constância. Uma tormenta faz o W aumentar de forma descontínua ou 
+em rajadas, ficando mais forte quando se aproxima do centro. 
+- A variação da direção (se horária ou anti-horária) dependerá do semicírculo do navio, e serve como um bom indicador da sua 
+pos em rei à trajetória. No semicírculo navegável, em ambos os hemisférios, o sentido da variação do W concorda com o 
+sentido da circulação ciclônica. / No semicírculo perigoso é ao contrário. 
+- Direção cte e intensidade aumentando/diminuindo, navio sobre a trajetória e AV/AR do centro. / Em qq posição fora da 
+trajetória, será observada uma mudança de direção do W. 
+- Aproando o W no HS, o olho estará 90° à esq. / Para confirmar a dir do W real, aproe o deslocamento das nuvens mais baixas. 
+- Certas mudanças de dir do W tb podem significar alteração do rumo do furacão. Isso pode mudar o navio de semicírculo! 
+> Caracts relacionadas às nuvens: 
+- Cirrus: se estendem a grandes distâncias AV da tormenta e, junto com um mar anormal ou mar de marulhos, denunciam a 
+presença de uma tormenta tropical. / Se a tormenta se aproxima, os Cirrus esparsos evoluem para extensas bandas (que 
+parecem emanar do olho). / Mais perto ainda, evoluem para Cirrustratus em quantidade crescente, que formam um véu 
+(aparecem halos ao redor do sol ou da lua; e o céu fica vermelho brilhante no nascer e pôr do sol). 
+> Caracts relacionadas ao mar de marulhos ou trem de ondas que não são de origem local: 
+- São largas ondas, ou ondulações da altura normal, que avançam adiante dos ventos que as originaram. 
+- Numa zona onde há um furacão, qq trem de ondas que difira (em comp e direção) da característica local representa um alerta. 
+- O furacão se encontra na direção de onde vêm os marulhos. Com o vento é diferente! (fig 4-7). 
+- Altura crescendo/diminuindo e direção cte, navio está na trajetória e AV/AR do centro. / Se o navio estiver em qq dos lados 
+da trajetória, o marulho variará de direção, altura e período. 
+> Vide escala Saffir-Simpson na pág 115. 
+CAP V - SISTEMAS SINÓTICOS 
+CONSIDERAÇÕES INICIAIS (figs 5-1 a 5-4): 
+> Diferentemente das regiões tropical e equatorial, as variações significativas do estado do tempo e do mar nas latitudes médias 
+na maioria das vezes podem ser explicadas pelo deslocamento das massas de ar. 
+> Escoamento zonal padrão das latitudes médias (30°-60°): o vento é de oeste. / Periodicamente, esse escoamento ondula no 
+sentido meridional, formando cristas e cavados de onda. / A intensificação da componente meridional dessa ondulação 
+proporciona o transporte de massas frias para regiões quentes (e vice-versa), o que propicia a ocorrência de frentes fria e quente. 
+- A continuidade dessa circulação, no estágio de dissipacão, resulta em centros de AP e BP desprendidos, daí a circulação 
+geral volta ao escoamento zonal padrão (até nova perturbação). 
+MASSAS DE AR E FRENTES: 
+> As massas de ar se caracterizam principalmente por sua temperatura horizontal. 
+> Quando há o equilíbrio do escoamento zonal, as massas não se deslocam em latitude. Quando esse equilíbrio é rompido, as 
+massas se deslocam devido aos gradientes horizontais de temp e pressão, e formam-se as FF e FQ (fig 5-7/8). 
+> Os cavados desencadeiam, no escoamento de W, ventos de SW e de S, que com a intensificação dos cavados, propiciam a 
+formação da FF. / A formação de um cavado acentuado evidencia a ocorrência de uma FF. Quanto mais pronunciado for o 
+eixo do cavado, mais forte será a FF. 
+> Superfície frontal (fig 5-5): é a fronteira 3-D entre duas massas. / Frente: é a linha da superfície frontal na superfície. 
+> A nebulosidade formada se concentra ao longo da superfície frontal, devido à subida forçada do ar quente. Essas correntes 
+ascendentes de ar quente provocam atividade convectiva, cuja intensidade depende da inclinação da superfície frontal (fig 5-11). 
+> Na Costa Sul do Brasil, as FF são as mais comuns. / Elas normalmente se originam a 50° S (que delimita as altas das 
+médias latitudes). / Seus efeitos são observados até Salvador (13°). 
+> Ciclo de vida dos sistemas frontais: normalmente, a formação das frentes está associada à formação de uma região de BP na 
+junção das áreas onduladas das massas fria e quente. Nessa região de depressão, a circulação ciclônica é intensificada. 
+- Nesse trecho, a FF se move mais rápido que a FQ. Daí as duas frentes se juntam, no processo chamado oclusão. 
+- Quando a oclusão se inicia, a circulação ciclônica está com a sua máx intensidade. 
+- A medida que a oclusão avança, a circulação ciclônica diminui e, consequentemente, a área de BP enfraquece. 
+- Daí o mov frontal fica mais lento, reduzindo a ondulação e tornando-se novamente uma simples frente estacionaria em 
+equilíbrio (como na fig 6), enquanto o centro de BP desaparece. 
+- A nebulosidade apresenta caracts distintas em cada estágio do ciclo de vida do sistema (desde a formação da FF e FQ, o seu 
+deslocamento, a sua oclusão e dissipacão). Ao consultar a carta sinótica de pressão e a imagem-satélite, pode-se observar, 
+pelas caracts da nebulosidade, o estágio do ciclo de vida do sistema frontal. / Vide figs 5-21/22, e note o desenvolvimento da 
+nebulosidade associada ao centro de BP. 
+
+
+===== PAGINA 331 =====
+
+m 
+FRENTE FRIA: 
+> Características das FF: 
+- Acentuada inclinação da superfície frontal, resultando em intensa atividade convectiva em estreita faixa de nebulosidade 
+(aprox 40 NM). 
+- Quando o seu deslocamento é lento, as mudanças (abaixo) ocorrem de forma mais lenta e gradual, formando nuvens 
+estratiformes que ocasionam precipitação contínua e persistente. 
+- Quando a massa de ar quente é muito seca, não ocorre nebulosidade, e o mau tempo é associado apenas a ventos fortes. 
+- O ar frio sopra na direção da frente, e o ar quente sopra // à frente e sobe (fig 5-12). 
+> Na aproximação da FF: - Pressão cai. 
+- Temp aumenta (por compressão da massa de ar quente). 
+- O vento predominante sopra de N-NW (no HS). É do quadrante N! 
+- A nebulosidade aumenta com o surgimento no horizonte de topo de Cb, ou seja, Cirrus em garras. 
+(fig 12) 
+> Após a passagem da FF: - Pressão aumenta. 
+- Temp cai. 
+- O vento predominante sopra do S, normalmente SW (no HS). É do quadrante S! 
+- Visibilidade cai (devido pancadas de chuva) e ocorrem trovoadas. 
+> Na passagem, o vento ronda de NW para SW (no HS) (fig 5-14). 
+Obs: no HS, as FF se deslocam na dir NE/E com aprox 10 kt, e os centros de BP a elas associados se deslocam para E/SE. 
+FRENTE QUENTE: 
+> Características das FQ: 
+- Suave inclinação da superfície frontal, resultando em fraca atividade convectiva em extensa e larga faixa de nebulosidade 
+(aprox 180 NM). 
+- As nuvens estratificadas (St, Ns, As, Cs, inclusive Cirrus) e a precipitação ocorrem no lado do ar frio (fig 5-16). 
+- O ar quente sopra na direção da frente e ascende suavemente, e o ar frio recua (fig 5-15). 
+> Na aproximação da FQ: 
+- Pressão cai lentamente por bastante tempo. 
+- Temp se mantém quase constante (ou diminui um pouco). 
+- O vento é fraco, e sopra de NE (no HS). 
+- Visibilidade é boa até O início da garoa OU chuva, (ocorre nevoeiro frontal, de evaporação) 
+- Nebulosidade estratiforme numa extensa faixa ocasiona precipitação leve e contínua ou garoa. 
+> 
+APóS a passagem: 
+- Pressão cai. 
+- Temp aumenta. 
+- O vento predominante sopra de NW (no HS). 
+- Podem ocorrer nevoeiros. 
+> Na passagem, o vento ronda de NE para NW (no HS) (fig 5-14). 
+FRENTE OCLUSA (fig 5-17): 
+(Na passagem, o vento salta de NE para SW) 
+> Uma FF pode se deslocar cerca de 2 x mais rápido que uma FQ, alcançando-a e elevando-a. Uma Frente Oclusa ocorre 
+quando uma FQ deixa de ter contato com a superfície, sendo forçada a elevar-se devido ao avanço de uma massa de ar frio. 
+> Oclusão do tipo fria (fig 5-18): o ar avançando com a FF é mais frio que o ar fresco AV da FQ. 
+- O ar frio levanta o ar quente, a FQ e o ar fresco. / É o tipo mais comum! 
+- As caracts na superfície são semelhantes às de uma FF, exceto que o contraste de temp entre o ar frio e o ar fresco é menor. 
+- O tempo AV da oclusão é similar ao que ocorreria com o avanço da FQ. 
+- A passagem da Oclusão pode ser marcada por condições mais chuvosas, como ocorre numa FF. 
+> Oclusão do tipo quente (fig 5-19): o ar fresco avançando com a FF não é tão frio quanto o ar AV da FQ. 
+- O ar fresco da FF levanta o ar quente, mas sobe sobre o ar frio AV da FQ. 
+- O tempo AV da oclusão é similar ao que ocorreria com o avanço da FQ, com a sup frontal se comportando como numa FQ. 
+y Ambos os tipos podem ser de difícil localização pelo navegante, pois: 
+a) o contraste de temp normalmente é peq. 
+b) a precipitação ocorre sobre uma extensa região, mascarando a pos da frente. 
+c) a BP associada não é tão pronunciada como nas FFs e FQs. 
+- Mas as imagens-satélite definem as frentes oclusas tão bem quanto as FF. 
+FRENTE ESTACIONARIA: 
+> Ocorre quando não há deslocamento da frente. / Ela pode evoluir para uma FF ou FQ. 
+> Os ventos são paralelos à frente em ambos os lados, mas de direções opostas (fig 5-20). 
+> O tempo associado depende: 1) do histórico da frente; 2) do contraste de temp; 3) da dir e intensidade dos ventos; etc. 
+- Freqüentemente apresenta uma larga região de nebulosidade e precipitação ou neve no lado frio da frente. As nuvens 
+estratificadas e a precipitação resultam da ascensão do ar quente ao longo da superfície frontal de suave inclinação. 
+
+
+===== PAGINA 332 =====
+
+CAP VI - INTERPRETAÇÃO DE INFORMAÇÕES METEOROLÓGICAS 
+IMAGENS DE SATÉLITES METEOROLÓGICOS: 
+(tem no site do INPE) 
+> Satélite geoestacionário (fig 6-1): a 36 mil km, fornece imagens circulares de uma face da terra. 
+- Pode fornecer imagens a cada 3 hs. Normalmente, os meios de divulgação de infos meteoro fornecem imagens 1 ou 2 x ao dia. 
+> Satélite de órbita polar: a cerca de 800 km. / Passa ao longo do meridiano superior local 2 x ao dia (uma de dia e outra de 
+noite), cobrindo uma faixa de 15° de largura do S para o N. 
+> Imagem visível: registra a luminosidade refletida, que só pode ser obtida de dia. 
+- Nuvens diferentes podem ter a mesma refletividade, sendo representadas da mesma maneira (pelo branco). 
+- Os escuros significam ausência de nebulosidade, e os brancos significam nebulosidade refletindo a luz solar. 
+- Mesmo sem indicar os tipos de nuvens, as imagens dão importante infos sobre a intensidade da nebulosidade e sobre 
+sistemas de mau tempo. 
+> Imagem IR (fig 6-2 a 6-5): é a mais usada. 
+- Se baseia na informação de temp da coluna de ar inteira, captando a temp desde as nuvens altas até o nevoeiro. 
+- Permite identificar os diferentes tipos de nuvens e melhor caracterizar o tempo, os fenômenos e os sistemas sinóticos. 
+- Pela intensidade do branco, normalmente identificam-se, nessa ordem: Cbs, Cirrus, baixo Stratus ou peqs Cumulus, e a 
+superfície do oceano ou continente. / As partes bem brancas são Cbs grandes. 
+- Quanto menos clara é a imagem, menor é a espessura da nuvem, indicando que ela não é Cu, e sim St. 
+- Quanto menos claro aparece um Stratus, menor é sua altitude. / Os Cirrus são bem mais brancos que os baixos Stratus. 
+> As imagens subsequentes indicam a evolução, intensificação, deslocamento e as caracts da trajetória dos sistemas de nuvens. 
+- Pela análise do contínuo deslocamento das nuvens baixas ou altas, o navegante pode extrair infos do comportamento do 
+vento à superfície ou em altos níveis, respectivamente. 
+BOLETINS METEOROLÓGICOS: 
+suprimido. 
+(estudarpelo compilado "Serviços Radio-meteorológicos") 
+CARTAS SINÓTICAS (fig 6-6) (estudar figS 6-7 e 6-9): 
+(Tem no site da DHN, onde tb há previsões de ondas no modelo WAM) 
+> As cartas sinóticas de pressão à superfície são de grande importância para a avaliação do tempo presente e para a previsão do 
+tempo para as próximas horas. / A área abrangida aumentou (pega a METAREA V até a península Antártica). 
+> São tx por fax (estações do Ap4) OU via internet. (Desatualizado. A LAR diz outra coisa. Estudar pelo compilado "Svçs Radio-
+> Isóbaras: são espaçadas de 4 em 4 hPa. / Quanto mais juntas, mais forte é o W. 
+> Centros de AP e BP: são plotados nas regiões circundadas por isóbaras fechadas de valores mais baixos e mais altos. 
+> Plotagem das frentes: linha azul para FF, linha vermelha para FQ, linha violeta para FO e linha azul e vermelha para FE. 
+> Ventos: são indicados pela veloc e dir de onde sopram. / Pode-se considerar que sopram quase // às isóbaras. / Estudar a 
+simbologia. 
+> Cobertura do céu: é indicada pelo círculo numa das extremidades do símbolo do vento. / Estudar a simbologia. 
+> ZCIT: são indicadas: - a sua faixa de latitude; e 
+- a intensidade da atividade convectiva (fraca/moderada/forte), que normalmente é intensa e com Cbs. 
+> Simbologia de tempo presente: chuva, chuvisco, pancada, nevoeiro, tempestade e furacão. 
+> Linhas de instabilidade: são representadas por 2 peqs linhas paralelas (//)./ Podem ser acrescidas da simbologia de tempo 
+presente. / Significa mau tempo decorrente de processo convectivo intenso (pancadas de chuva e fortes ventos com rajadas) 
+(nada a ver com ZCIT !!) 
+ANÁLISE SINÓTICA: 
+> No Brasil, as FFs normalmente são quase perpendiculares ao litoral sul. / Elas levam cerca de 48 hs do RS ao RJ. 
+- Quando se deslocam ao longo das costas S e SE, elas vão se afastando para o oceano. 
+- Na Bahia, estão praticamente lis à costa e bastante amaradas, afetando as embs em alto-mar. 
+- Pode-se esperar o deslocamento de uma FF a cada 5-7 dias, ppalmente no inverno. 
+- No verão, o comportamento das FF é bastante alterado pela intensificação do anticiclone tropical marinho, a leste da costa. 
+> No momento da chegada das FFs, ocorre: 
+- mudança do W de 180° (de N para S). 
+- queda da temp. 
+- queda da pressão, que volta a subir após a passagem. 
+- mudança da UR. 
+- nebulosidade e precipitação. 
+> Cavado é o alongamento das isóbaras na direção da periferia de um centro de baixa (as cristas se referem a anticiclones). 
+O cavado é uma boa indicação da área com instabilidade, pois o seu eixo está associado à pos da frente. 
+> Pela observação da dir do vento e da tendência barométrica próximos à frente, podemos classificar a frente em questão como: 
+- Se o W do lado do ar frio estiver na dir da frente, esta pode ser considerada FF. 
+- Se o W do lado do ar frio estiver // à frente, esta deve ser considerada como frente quase estacionaria. 
+- Se o W do lado do ar frio tiver uma componente da dir oposta à da frente, esta pode ser considerada FQ. 
+- Se a pressão está parando de cair ou passando a subir do lado do ar frio, a frente pode ser considerada FF. 
+- Se a pressão está parando de subir ou passando a cair do lado do ar frio, a frente pode ser considerada FQ. 
+- Se a tendência barométrica é quase a mesma nos 2 lados, a frente pode ser considerada quase estacionaria. 
+- Na costa brasileira, se o W apresentar uma mudança brusca do quadrante N para o S, a frente que chegou é FF. 
+- Ventos fortes com precipitações torrenciais indicam FF de deslocamento rápido (veloc > 20 kt). 
+8 
+
+
+===== PAGINA 333 =====
+
+.. ! 
+Influência da circulação dos ventos sobre o mar: 
+> Para haver mar agitado, ventos fortes precisam soprar na mesma direção, numa grande dist, e durante bastante tempo. Logo: 
+- as isóbaras têm que ser retilíneas numa extensão bem longa (pista); 
+- as cartas anteriores devem indicar persistência (a situação está se mantendo); e 
+- o W deve ter intensidade para permitir suficiente transferência de energia ao oceano. 
+> Se a área geradora se deslocar, a dir desse movimento deve ser considerada: 
+- se esse mov for na dir das ondas, estas se intensificarão. 
+- se os movs da área geradora e das ondas tiverem dir opostas ou perpendiculares, as ondas se abrandarão. 
+> Bizú para áreas marítimas carentes de infos: a dir do vento é aprox // às isóbaras, e a intensidade é proporc ao seu espaçamento. 
+> Ressaca no litoral e nos portos: são observadas quando as isóbaras apresentam longos trechos quase retilíneos e exatamente 
+perpendiculares à costa, com a ocorrência de ondas de grande Lw, ou seja, grande volume d'agua a ser deslocado após a 
+arrebentação (além dos demais fatores acima). / Atenção à possibilidade de ocorrência de correntes de ressaca. 
+> Ler págs 171 e 172. 
+Caracts das circulações - diferenças entre os hemisférios N e S: 
+> Os cavados dos sistemas extratropicais apontam sempre para o Equador, e permitem a circulação de ar das regiões mais 
+frias para as mais quentes. / As cristas dos sistemas extratropicais apontam sempre para os pólos, e permitem a circulação 
+de ar das regiões mais quentes para as mais frias. 
+> Para nos localizarmos em relação à trajetória da tormenta e decidirmos nossa ação evasiva, sabemos que, no HS: 
+a) o semicírculo perigoso fica à esq da trajetória; e b) coloque o mar a BB (alheta ou bochecha). 
+> Coriolis ocasiona o giro das correntes marítimas, provocando um circuito fechado em cada hemisfério, nos 3 oceanos. 
+Correntes no Atlântico Sul: do Brasil, Circumpolar Antártica, de Benguela e a Sul Equatorial. 
+Informações climatológicas: 
+> Use os dados climatológicos como referencia para a previsão do tempo em longo prazo, como auxílio no planejamento. 
+> Para uma certa região, a maioria dos fenômenos esperados numa determinada época ocorre dentro de uma faixa, e em torno 
+de um valor predominante ou mais freqüente do parâmetro representativo do fenômeno. 
+Tempo presente - diagnóstico do tempo: 
+> Pode-se conhecer o tempo presente por observação local + Parte II do Meteoromarinha. / Comparando o tempo presente 
+com a situação de algumas horas antes, pode-se entender qual é a sua tendência (ou seja, a variação dos ppais parâmetros). 
+- Percebida a tendência dos parâmetros, pode-se ter uma idéia sobre a intensificação ou abrandamento das condições do 
+tempo e do estado do mar, o que é útil na falta do Meteoromarinha. 
+> Aspectos importantes dos parâmetros: 
+- Temp e umidade do ar: indicam as propriedades da massa presente. 
+- Pressão: indica o grau de aquecimento da superfície e o comportamento da temp do ar e, portanto, as caracts da massa de ar. 
+- O gradiente horiz de pressão é fç do gradiente horiz de temperatura. 
+- Alteração brusca da temp, umidade e pressão: pode significar a chegada de uma frente com outra massa de ar. 
+- TSM associada à temp do ar: indicam o comportamento da interação atmosfera-oceano. Se essa diferença de temp for 
+acentuada, as caracts da massa de ar podem ser alteradas: - TSM mais fria: pode ocasionar nevoeiros. 
+- TSM mais quente: pode instabilizar a atm e formar Cumulus. 
+- Nas regiões costeiras, a diferença entre a temp do solo e a TSM influencia a circulação local e gera brisas. 
+- Observação do W, associada à verificação da carta sin ótica: mostra a nossa pos em relação ao sistema de pressão. 
+- UR elevada: indica que a saturação pode ser alcançada com um peq resfriamento do ar. Nesse caso, tenha atenção aos 
+outros parâmetros que favorecem a formação de nevoeiros. 
+- Súbitas rajadas e uma rápida e intensa instabilidade, acompanhadas de trovoadas e forte precipitação: pode indicar 
+uma linha de instabilidade. 
+- Vários Cirrus de uma mesma direção: podem ser considerados Cirrus pré-frontais, sendo indício de tempo severo. 
+Evolução do tempo - prognóstico do tempo: aspectos para o navegante elaborar a previsão se não puder receber Meteoromarinha: 
+> Trajetória dos centros de BP e AP: acompanhe as cartas recebidas e, por extrapolação, estime a sua próxima posição. 
+Como a superfície do mar é homogênea, pode-se usar a extrapolação para um período curto (até 24 hs). / A parte do sistema 
+sobre a superfície heterogênea e seca do continente terá um comportamento bem diferente, ppalmente quanto à veloc de 
+movimento e intensidade do desenvolvimento ou dissipação do sistema. 
+> Massas de ar: quando se deslocam, elas perdem as suas caracts originais, pois sofrem influência das variáveis físicas da região. 
+Portanto, os fenômenos produzidos pelo sistema tendem a enfraquecer e dissipar, o que deve ser considerado na extrapolação. 
+> Registre as observações de preferência de 3 em 3 hs, não só para o uso em tempo real, mas tb para estudar as tendências futuras. 
+> Observar as variações dos seguintes parâmetros: 
+a) Pressão: registre em papel milimetrado (HMG x bPa). Quando uma FF, cavado ou centro de BP se aproximam, a pressão cai 
+até a sua chegada, e sobe após a passagem. 
+b) Temperatura: quando uma FF se aproxima, a compressão da massa de ar quente produz um aumento significativo da temp 
+um pouco antes da sua chegada (depois diminui). / Quando uma FQ se aproxima, a temp permanece estável ou diminui um 
+pouco, e sobe bastante depois da passagem. 
+
+
+===== PAGINA 334 =====
+
+c) Umidade do ar: quanto menor for T - Td, menor será o resfriamento necessário para se atingir UR = 100%. / Ao observar 
+advecção de massa quente e úmida sobre mar mais frio, se a variação da UR mostrar que se pode atingir a saturação, fique 
+atento para a formação de nevoeiro. 
+d) Direção do vento: no HS, quando uma depressão está associada a uma FF: 
+- A circulação do lado do ar quente varia de NE para N e NW (anti-horário) 
+- A circulação do lado do ar frio varia de SE para S e SW (horário). 
+- Com o avanço da FF, há uma mudança brusca de N ou NW para S ou SW. 
+e) Marulhos: indicam a direção onde estão as fontes geradoras de grandes ondas que estão quase estacionárias. 
+- No HS, a depressão (BP) está sempre à esquerda de onde vem o marulho. 
+f) Nuvens: indicam, com razoável antecedência, as atividades convectivas fortes e moderadas. / O topo dos grandes Cbs 
+possuem Cirrus de garras que são arrastados a grandes dists, e que ajudam a prever a app de sistemas frontais e ciclônicos. 
+Intensificação do mau tempo: 
+> O mau tempo por intensa atividade convectiva pode ser desencadeado de 2 formas: 
+a) espontânea: forte aquecimento de ar à superfície, que pode ocorrer devido ao aquecimento da superfície ou à advecção de 
+ar sobre superfície mais quente. Isso causa instabilidade e circulação direta. 
+b) forçada: ascensão do ar quente por superfície frontal inclinada, montanha ou convergência em baixos níveis (ex: ZCIT). 
+- Em ambos os casos, a intensificação do processo requer energia, que provém da liberação do calor latente. Portanto, ar 
+bastante aquecido com UR alta representa condições propícias para desencadear e intensificar mau tempo. 
+> Ex: no verão: o aquecimento diferenciado das superfícies continental e oceânica gera atividades convectivas sobre o 
+continente e circulações tipo brisas e monções, ppalmente na região tropical. 
+> Ex: no inverno: a advecção do ar frio do continente sobre o mar causa ventanias (Gales) em extensas regiões oceânicas, 
+ppalmente nas médias e altas latitudes. 
+Evolução do tempo - conceitos que ajudam a elaborar um prognóstico: 
+> Um sistema frontal apresenta uma depressão junto à frente e dois anticiclones (um da massa quente e outro da massa 
+fria). /A diferença de pressão entre os anticiclones é que determina a veloc de deslocamento da massa fria. (ex: fig 46) 
+> Quanto mais próximos os centros de AP e BP, mais forte será a circulação. 
+> Quando ocorre advecção terra-mar, é importante observar a diferença entre a temp do ar e a TSM. 
+> Quando o ar frio desce, ele se comprime e por isso aquece, chegando à superfície menos frio e normalmente seco. 
+Nos centros de AP, o tempo é bom e o céu é limpo, ou tem uma fina camada de Stratus. 
+> Ao analisar as cartas sinóticas, verifique a configuração das isóbaras e identifique as áreas propícias à formação de ondas. 
+INTERPRETAÇÃO DE INFORMAÇÕES METEOROLÓGICAS: (abaixo estão situações características de mau tempo) 
+> Trovoada de rajada e deslocamento de Cirrus rabo-de-galo indicam a presença de Cb nas proximidades. 
+> Cbs indicam área com intensa atividade convectiva isolada ou associada a sistema frontal. 
+> Estreita faixa de nebulosidade com precipitação concentrada e forte pode indicar a presença de FF. 
+> Extensa faixa de nebulosidade com precipitação fraca pode indicar a presença de FQ. 
+> Ventos lis à frente em ambos os lados indicam frente estacionaria. 
+> A ocorrência de FF e FQ está associada à presença de cavado (ambas), (indicado pela config das isóbaras). 
+> O gradiente horiz de temp pode indicar a ocorrência de brisas. 
+> A diferença Td - TSM pode indicar a possibilidade de ocorrer nevoeiro de advecção. 
+> Isóbaras perpendiculares à costa podem indicar ressaca no litoral. 
+> Isóbaras mostrando significativa área geradora de ondas podem indicar marulhos. 
+> A configuração das isóbaras pode indicar a ocorrência de ondas de águas profundas. (??) 
+> A localização do centro de BP associado ao sistema frontal é indicada pela região de inflexão do escoamento (FF para 
+FQ, ou cavado para crista). (??) 
+> A tendência da pressão pode indicar o deslocamento de centros de AP e BP. 
+> A região do centro de BP pode apresentar tempo e mar severos. 
+y A região do centro de AP pode apresentar tempo satisfatório (mas pode haver marulhos). 
+> A parte II dos boletins indica a localização dos centros de BP. / A parte III indica a previsão para as próximas 24 hs. 
+> Fig 6-22 - Montagem diária de imagens de satélites (06 e 18 HMG): é um produto via internet que possibilita o navegante 
+ter uma idéia global da ocorrência de fenômenos meteorológicos. 
+> Fig 6-23: mostra que um sistema frontal se desloca mais rápido no oceano que no continente (devido ao menor atrito). 
+> Linha de instabilidade (fig 6-46/52): é indicada no boletim, e tb é representada na carta sinótica por simbologia de tempo 
+presente entre 2 linhas paralelas. / Significa processo convectivo intenso, com pancadas de chuva e fortes ventos com rajadas. 
+> O uso simultâneo de boletins, cartas sinóticas e imagens satélite nos possibilita acrescentar várias infos especiais de nossa 
+área de interesse às infos abrangentes do boletim. / Use as trincas das figs 6-36 a 38 e 51 a 53 para identificar, nas imagens, 
+os aspectos observados nas respectivas cartas sinóticas. 
+- Para saber a intensidade do processo convectivo frontal, consulte a imagem satélite e observe a nebulosidade. 
+- Pela carta de pressão, observe os ventos à superfície para avaliar seus efeitos no estado do mar. 
+> Ler "Aspectos Relevantes" nas pág 195 e 196. 
+10 
+
+
+===== PAGINA 335 =====
+
+w3a**'ii$^ttJG&jtt&-?rt*>^*imtiBÈ^& 
+CAP VII - MENSAGENS E TELECOMUNICAÇÕES METEOROLÓGICAS 
+CARACTERÍSTICAS DOS INSTRUMENTOS: 
+1- Medição de pressão: 
+> O hPa substituiu o antigo Milibar. / Os barômetros normalmente ficam no passadiço. 
+> Em todas as leituras, aplique a correção determinada na aferição periódica. 
+> Barógrafo: registram continuamente. / Barômetro aneróide: câmaras ocas cuja deformação é tx a um ponteiro. 
+> Barômetro de mercúrio: alta precisão. / Pode ser usado para aferir os aneróides. Mas antes, deve ser corrigido de: aferição, 
+efeitos da tempe da latitude, e redução da pressão ao nível do mar (nesta ordem). 
+2- Medição de temperatura: 
+> Termômetros: o elemento sensível é o Hg. / Termógrafos: registram continuamente. / Termômetro de máx e min. 
+> Há ainda um termômetro protegido, próprio para a TSM. 
+3- Medição da umidade: 
+> Psicrômetro: fornece a UR e o Td por cálculos e tabelas. / São + precisos. 
+Psicrômetro de funda: são 2 termômetros iguais montados numa armação metálica: o seco e o úmido (bulbo de tecido, musselina). 
+Girar de 2-3 min. / São os + usados nos navios. 
+> Outros instrumentos de estações costeiras: higrômetros (indicam diretamente a UR), higrógrafos, higrotermógrafos, etc. 
+4- Medição do vento: 
+> Anemômetro: mede a veloc (relativa). 
+> Anemoscópio ou cata-vento: mede a direção em relação à proa. Observar a agulha para determinar a dir do W relativo. 
+OBSERVAÇÃO DO VENTO: 
+> A perturbação que o W produz no mar tem um efeito muito maior para a navegação que o próprio W. 
+> Para estimar a veloc e dir do W verdadeiro: 1) aproe as cristas para obter a dir; e 2) use a escala Beaufort para obter a veloc. 
+> Mas antes usar a Beaufort, considere que: 
+a) Na costa, devido à influência do vento local na circulação de maior escala, é freqüente haver discrepância entre o W e o mar. 
+b) Por falta de pista, um W soprando da costa para o mar não gera o mesmo mar que geraria em alto-mar. 
+c) Ao usar a Beaufort, supõe-se que a observação seja feita em mar aberto, e que o W tenha soprado por tempo suficiente para 
+criar a condição de mar correspondente. 
+d) Ao estimar o W, observe as ondas ou vagas geradas pelo W que está soprando no momento (desconsidere os marulhos). 
+e) A precipitação, ppalmente quando forte, atenua o mar. 
+f) Vento contra uma corrente gera ondas mais altas; e vice versa. 
+OBSERVAÇÃO DO ESTADO DO MAR: medir apenas altura, período e direção (isto é, não se mede veloc e Lw). 
+Obs da direção: 
+> A direção das vagas (que coincide com o W verdadeiro) pode ser determinada pelo alinhamento das cristas (+ 90°). 
+> Para estimar a direção do marulho, compare o seu movimento em relação à direção das vagas (determinada como acima). 
+Obs do período: 
+> O método é o mesmo para vagas e marulhos. É importante observar as vagas de períodos mais longos. 
+> Meca o tempo entre 2 aparições sobre as cristas de um objeto flutuante pela proa e suficientemente afastado. 
+Obs da altura (é difícil): 
+> Quando comp das vagas < L: observe a passagem de cristas pelo costado próprio ou de embs próximas, e compare suas 
+alturas com referências existentes (vigias, costuras de chapas, etc). 
+> Quando comp das vagas > L: posicione-se com a visada tangente às cristas (= cristas tang ao horizonte). Daí a altura das 
+vagas será igual à altura do olho sobre o mar. / Esse método é bom para vagas de grande altura, mas ruim para as pequenas. 
+> O ponto de observação não deve estar protegido ou exposto a obstáculos que possam refletir as vagas de volte ao ponto de 
+observação ou deformar as ondas, tais como: pouca prof, zonas de arrebentação, quebra-mar, banco de areia, penhasco, etc. 
+> Não observe de uma pos muito alta em rei ao nível do mar (para evitar erros para menos ao estimar altura). 
+Obs: com 2 ou + sistemas de marulhos e vagas, se o observador tiver muitas dúvidas, o mar deve ser considerado "confuso" e, na 
+msg meteorológica, deve ser lançado um símbolo equivalente à impossibilidade de observação. 
+COLABORAÇÃO DO NAVEGANTE: suprimido. 
+(estudarpelo compilado "Serviços Radio-meteorológicos") 
+> As colaborações são: 1) observação de rotina; 
+2) informação da observação de rotina, pela msg SHIP; e 
+3) informação de mau tempo, pela tx de msgs de perigo e especiais. 
+PROCEDIMENTOS PARA A RECEPÇÃO DE METEOROMARINHA: suprimido. 
+(estudarpelo compilado "Serviços Radio-meteorológicos")
+GMDSS: suprimido. 
+(estudarpelo compilado "GMDSS") 
+11 
+
+
+===== PAGINA 336 =====
+
+gBBBwajga-ssgarea^^ 
+2a PARTE - OCEANOGRAFIA 
+CAP VIII - ESTUDO DOS OCEANOS 
+> Costa: é a faixa que fica ora coberta e ora descoberta entre a PM e a BM. 
+> Cartografia náutica: representa a costa e fundo do mar como são observados na baixamar de sizígia. 
+> No verão, ocorre calmaria e depósito de areia nas praias. / No inverno, observa-se mar forte, que retira areia das praias. 
+> Plataforma continental: é a faixa com suave declividade do fundo do mar, até a fronteira com o talude continental (região 
+onde a prof aumenta abruptamente). / No Brasil, ela tem cerca de 30 milhas na costa NE, e cerca de 150 milhas na costa S. 
+> ZEE: faixa de 200 milhas ao longo da costa. / Compreende a coluna d'agua (massa d'agua = zona pelágica), o solo (fundo 
+do mar = zona bêntica) e o subsolo. / Só o país costeiro pode autorizar pesquisas, pesca, exploração de minerais e sondagem 
+por reflexão sísmica. / É na ZEE que ocorre a produtividade primária (= desenvolvimento de matéria viva, fitoplanctons). 
+POLUIÇÃO DA ÁGUA DO MAR: 
+> Os oceanos fornecem 02 para a atmosfera e absorvem C02 (os fitoplanctons são os ppais responsáveis). 
+> Ao aproximar-se de qq porto, os porões devem ser inspecionados. Caso haja resíduos a serem drenados, esgotar os porões fora 
+das zonas proibidas pelas convenções internacionais, ou seja, no min a 50 milhas da terra mais próxima, anotando-se a 
+lat/long do início e do fim da faina no Diário. 
+> Ao penetrar nas zonas proibidas para descarga de lastro sujo ou de outros resíduos, deve-se registrar no Diário de Navegação 
+e avisar o Chemaq. Imto e Comte. 
+> Prevenção da Poluição do Meio Marinho: é uma pub da DPC, disponível nas CP, que contém normas e rotinas para as 
+operações de: carregamento, descarga, alívio, abastecimento, lavagem de tanques, alijamento, lastro e esgoto dos porões da PM. 
+Principais poluentes: 
+> Despejos domésticos: são os esgotos sanitários e resíduos de alimentos. 
+- Quando lançados em águas com pequena renovação, esses biodegradáveis provocam poluição, pois a sua decomposição 
+exige uma grande DBO. As altas concentrações de nutrientes superfertilizam as águas, o que causa produção descontrolada de 
+matéria vegetal, cuja decomposição aumenta ainda mais a DBO, o que diminui o 02 dissolvido na água. 
+> Despejos orgânicos industriais: sua decomposição requer alta DBO, e são altamente tóxicos aos organismos marinhos. 
+> Despejos inorgânicos: substâncias tóxicas de atividades industriais, como metais pesados, substâncias ácidas/alcalinas, etc. 
+> Pesticidas: são extremamente tóxicos e persistentes (= acumulam nos tecidos gordurosos, permanecem no organismo e são 
+transferidos na cadeia alimentar até os homens). / Ex: o DDT. 
+> Ramonagem: as embs devem cumprir as normas nos portos de cada região relativas à ramonagem. 
+> Lixo, objetos sólidos, óleos, dispersantes de óleos e detergentes, flutuantes ou depositados no fundo: provocam danos à 
+navegação, à pesca e à recreação, e comprometem o habitat dos organismos quando depositados no fundo. 
+> O alto-mar tem peq atividade biológica. Nas águas costeiras e regiões onde há correntes ascendentes, a produtividade é maior. 
+ECOSISTEMA E CICLO DE VTOA NO MAR: 
+> Camada eufótica: é a camada superficial até onde a luz solar exerce influência. / Lá estão os fitoplanctons, que absorvem 
+sais nutrientes e C02 dissolvidos e produzem 02 por fotossíntese. 
+> 
+Ressurgência: é o afloramento de águas profundas ricas em sais nutrientes. / Como a DBO é intensa (devido à grande qtd de 
+cardumes), é inconveniente despejar substâncias biodegradáveis. 
+> Ciclo de vida no mar: o fitoplancton se desenvolve na camada eufótica com a fotossíntese, absorvendo sais e nutrientes de 
+carbono. Estes alimentam os zooplanctons, que alimentam os pequenos peixes, etc. / A ação biológica das bactérias sobre os 
+peixes mortos e plantas requer DBO e resulta na liberação de sais nutrientes, que são depositados no fundo do mar (até que, 
+muito tempo depois, são carregados por correntes de volta à superfície, enriquecendo as águas e continuando o ciclo). 
+CAP IX - MARES 
+(Arquivo separado. Estudar junto com a Tábua de Marés.) 
+12 
+
+
+===== PAGINA 337 =====
+
+CAP X - CORRENTES OCEÂNICAS E COSTEIRAS 
+> Ás ppais causas produtoras de correntes são: a diferença de densidade, as marés e os ventos. Ás duas primeiras resultam no 
+deslocamento de grandes massas de água nos oceanos. 
+CORRENTES OCEÂNICAS: 
+1- Corrente de densidade: (é a circulação termoalina) 
+> A diferença de densidade é ocasionada pela diferença de temperatura e, em menor escala, pela diferença de salinidade. 
+- As águas frias das altas latitudes desencadeiam correntes frias e profundas em dir ao Equador, o que provoca o deslocamento 
+superficial de correntes quentes em direção às altas latitudes. / Portanto, nas camadas superiores encontram-se correntes 
+quentes, e nas águas profundas as correntes frias. / E ainda, Coriolis desvia as correntes para a esquerda (no HS). 
+> Correntes da costa do Brasil: 
+- Sul Equatorial: encontra a costa N/NE e bifurca nas correntes do Brasil e das Guianas. / Ambas são superficiais, quentes e 
+se deslocam próximo à costa. 
+- das Malvinas: é fria e profunda, e chega até Cabo Frio. / Ela aflora em alguns pontos da costa S e SE (é a ressurgência). 
+> Contracorrente Equatorial: separam as circulações gerais dos 3 oceanos, em ambos os hemisférios. 
+> Vide fig 10-2 para as correntes oceânicas do Atlântico. / Vide a circulação fechada dos 3 oceanos na fig 10-1. 
+> Consulte as Cartas Piloto para obter a veloc e direção da corrente numa dada área. 
+CORRENTES COSTEIRAS: 
+> Na navegação costeira, deve-se ter atenção às correntes: induzidas pelo vento, de ressaca e de marés. 
+1-Correntes de marés: 
+> Embora ocorram em todo o oceano, são mais facilmente observadas na linha da costa. 
+> Na costa, são influenciadas pela geografia local. Consulte as Cartas de Correntes de Marés do porto para obter sua dir e veloc. 
+> 
+"Coletâneas de Cartas de Correntes de Maré": 
+- São publicadas para os portos em que o efeito das marés é mais significativo e que tenham grande movimento de embs. 
+- Compõem-se de 13 folhas: 6 para cada hora antes da PM, 1 para o instante da PM, e 6 para cada hora depois da PM. 
+- Selecione a carta em fç da diferença do tempo entre o horário da travessia e o horário da PM. 
+2- Correntes induzidas pelo vento: 
+> O atrito do W na superfície produz um pequeno arrasto superficial: a corrente de deriva. 
+> Isso ocorre quando certas caracts da região são favoráveis, tais como: proximidade da costa, configuração do fundo, direção 
+em que o litoral se estende em rei ao W predominante, e persistência do W. 
+> Espiral de Ekman (fig 10-14/15): devido ao efeito de Coriolis e ao atrito das camadas de água em profundidades distintas, o 
+vento produz um deslocamento da água que é 90° defasado da dir do vento (para a esq no HS). 
+- Embora a corrente superficial seja defasada de apenas 45° em águas profundas e 30° em águas rasas, na prática toda a 
+massa de água se desloca 90° defasada do vento. 
+- Isso é comum na costa do Brasil, ppalmente nas regiões E e NE. 
+> Fig 10-13: dependendo da pos da costa com relação ao vento, a corrente de deriva pode ocasionar fluxo ou refluxo de água, 
+alterando o nível do mar próximo à costa, e resultando tb numa circulação em profundidade (corrente de gradiente). 
+- Como a água profunda ocupa o espaço liberado pelo deslocamento da água da superfície, ocorrerá a ressurgência em regiões 
+que apresentarem caracts favoráveis. Isso contribui para formar áreas psicosas e influencia o clima e a meteorologia locais. 
+- Na identificação do abatimento da emb, deve-se considerar a posição da costa em relação à dir do vento. A emb poderá ser 
+ensacada ou afastada da costa por efeito da corrente, e não do vento. 
+> Alto-mar: na interação atm-oceano em alto-mar, a energia tx ao oceano pelos ventos é quase toda consumida na formação de 
+ondas. Essa oscilação vertical não implica em deslocamento horiz de massa de água. (há controvérsia...) 
+3- Corrente de ressaca (figs 10-16/17): 
+> Quando a configuração das isóbaras é tal que causa a incidência de frentes de ondas sobre o litoral (ondas de ressaca), pode 
+ocorrer acúmulo de massa d'agua junto ao litoral. 
+> Então, se a linha da costa apresentar caracts de uma enseada ou possuir altos fundos, poderá surgir uma corrente de ressaca. 
+> A corrente de ressaca depende do acúmulo d'agua junto ao litoral e sempre flui na dir do alto-mar, afastando a emb da costa 
+na sua estreita faixa de atuação. 
+13 
+
+
+===== PAGINA 338 =====
+
+CAP XI - ONDAS 
+ELEMENTOS DE UMA ONDA: 
+> Os ventos transferem energia para o oceano por meio de atrito. 
+> Formação da onda: uma brisa soprando por algum tempo faz surgir uma peq ondulação. / Essa ondulação aumenta a 
+superfície de contato (e aumenta o atrito). / Isso favorece o crescimento da onda, pois a pressão será maior a barla que a sota 
+da onda. / Então a onda cresce até que se atinge um equilíbrio, quando o excesso de energia passa a ser consumido em 
+arrebentação de algumas ondas (é o "mar encarneirado" de espuma branca). 
+> Comp "L" / Altura "H" (da crista ao cavado) / Período "T" (= l/freq) / Veloc de propagação "C" / Direção (de onde vem- ?).
+> Trem de ondas: conjunto de ondas de caracts iguais ou parecidas, que se propagam na mesma direção. 
+> Declividade: razão H/L, usada para indicar a possibilidade de arrebentação (quando H/L > 1/7). 
+CLASSIFICAÇÃO DAS ONDAS: 
+> Quanto ao tipo do mov ondulatório: 
+a) Progressivas: propagam-se numa dada direção por ação do vento. 
+> Quanto à influência do fundo: 
+a) de águas profundas: prof > L/2. 
+b) de águas rasas: 
+prof < L/2. 
+> Quanto ao tipo de mar que produzem: 
+a) Ondas ou Vagas: tem o vento como causa direta e imediata, são irregulares, têm perfis agudos e declividade de 1/10-1/20. 
+b) Marulhos: causadas por vento passado, de formas regulares e arredondadas e declividade de 1/30-1/100. 
+Deslocam-se a grandes distâncias, amortizando-se pelo caminho. 
+> Quanto ao comp de onda: 
+a) curta: L < 100 m. 
+b) regular: 100 < L < 200 m. 
+c) larga: L > 200 m. 
+> Quanto à declividade: 
+a) pequena: H/L < 1/100. 
+b) moderada: 1/100 < H/L < 1/25. 
+c) grande: 1/25 < H/L < 1/7. 
+d) arrebentação: H/L > 1/7. 
+> Quanto à altura dos marulhos: 
+a) pequeno: H < 2 m. b) moderado: 2 < H < 4 m. c) grande: H > 4 m (12 ft). 
+> Quanto à altura das ondas: de acordo com a Beaufort (0 a 12). 
+CARACTERÍSTICAS DAS ONDAS DE ÁGUAS PROFUNDAS E ÁGUAS RASAS: 
+> O atrito do ar na sup do mar, combinado com a força da gravidade, gera um mov circular das partículas, no plano vertical, cujo 
+diâmetro indica a altura da onda. / A ação combinada do mov circular de todas as partículas resulta na ondulação da sup do mar. 
+> Na teoria, o único movimento que avança é o ondulatório, não havendo deslocamento da massa de água. Logo, não há 
+transferência de energia cinética. 
+> As ondas são energia cinética e potencial, em partes iguais. 
+- E. potencial: corresponde à separação vertical das partículas em rei ao nível médio, ou seja, ao sobe-desce do nível do mar. 
+- E. cinética: deve-se ao mov circular das partículas (ela é consumida no mov circular do flutuador). 
+- Em águas profundas, a E. potencial avança com as ondas e é conservada, enquanto que a E. cinética é totalmente consumida 
+para manter o giro das partículas (não sendo transladada). Portanto, só metade da energia total inicial é conservada e viaja 
+com a onda, até ser dissipada no litoral (essa energia dissipada é proporcional à altura das ondas). 
+> O mov circular das partículas superficiais se transmite às partículas das camadas inferiores por atrito, fazendo-as descrever 
+órbitas que, por sua vez, se propagam para as partículas mais abaixo. / Esse movimento em profundidade se amortiza 
+rapidamente, de forma que, para os níveis mais baixos, os diâmetros dos círculos descritos pelas partículas reduzem muito. 
+- A interferência do estado do mar é praticamente nula a partir de profundidades maiores que L/2. 
+- Prof > L/2: as ondas são consideradas como "de águas profundas", e se deslocam sem alterar suas características. 
+- Prof < L/2: as ondas são consideradas como "de águas rasas". 
+> Na medida em que a prof diminui de L/2, a altura das ondas aumenta e o seu comp diminui, (e a veloc diminui) 
+- Na medida em que se aproxima da costa, H aumenta até que a declividade H/L atinge o valor crítico de 1/7. 
+- Daí ocorre a arrebentação, e observa-se o deslocamento horizontal da massa de água. Essa energia cinética é dissipada na 
+costa sob a forma de calor. / Quanto maior a altura da onda, maior o impacto e a dissipação de energia na costa. 
+> Quanto maior for o comp da onda, mais distante da costa ela encontrará a prof de interferência, mais cedo ela começará a 
+crescer e, portanto, ela terá mais tempo para atingir uma boa altura. 
+- Atenção às ondas de grande L cuja dir de propagação seja perpendicular à linha da costa, pois elas crescem muito. 
+> Quando a frente de onda é inclinada em rei à linha da costa, a sua extremidade junto ao litoral se atrasa em rei à extremidade 
+do largo. Isso faz variar o âng de incidência, de forma que o eixo da crista sofre uma rotação e se dispõe paralelo ao litoral. 
+> Altos fundos: geram áreas com ondulação de mar agitado (fazem as ondas encurtar e aumentar de altura). 
+14 
+
+
+===== PAGINA 339 =====
+
+T 
+CONDIÇÕES PROPÍCIAS À GERAÇÃO DE ONDAS: 
+> Área geradora: é a região na qual o W sopra com a necessária intensidade e direção, durante tempo suficiente para gerar trens 
+de ondas. / O que delimita uma área geradora é a acentuada mudança de direção do W. 
+> Os parâmetros da onda (período, veloc, L e H) dependem de: 
+a) intensidade e direção do W. 
+b) pista: é a extensão da área geradora na dir do W. 
+c) persistência: é o tempo durante o qual o W se mantém na mesma dir e intensidade. 
+> Ao analisar a carta sinótica de superfície, observe as caracts do W e se as condições propícias de área geradora são atendidas. 
+Normalmente, as grandes ondas estão associadas aos sistemas de isóbaras retilíneas e paralelas. 
+> Persistência: para cada tamanho de pista e força do W, existe um valor da persistência (tempo) a partir do qual as ondas não 
+crescem mais, qq que seja o período de tempo que o W continue soprando. 
+- Até que a persistência alcance esse valor crítico, tem-se um estado do mar em desenvolvimento ou de regime transitório. 
+- Se a persistência atingir ou superar o valor crítico, atinge-se um estado do mar desenvolvido ou de regime estacionário. 
+> Movimento da área geradora: 
+- Na dir das ondas: ocorre um reforço no processo de formação. 
+Obs: uma pista curta que se desloca na dir do W produz um mar mais forte que uma pista estacionaria de maior extensão. 
+- Na dir oposta ou perpendicular à dir das ondas: ocorre um abrandamento das ondas. 
+COMPORTAMENTO E MANOBRAS DO NAVEGANTE: 
+> Para se estimar o comportamento do navio e possíveis danos, não basta avaliar só o estado do mar. Tb temos que avaliar: 
+- as caracts das ondas. 
+- as caracts do navio. 
+- o rumo e veloc do navio. 
+- o âng de incidência das ondas no navio. 
+- o olho marinheiro. 
+Obs: para um mesmo mar, navios maiores podem sofrer mais avarias que navios menores. 
+> O comportamento do navio para cada tipo de mar e para cada característica de onda está basicamente associado à relação entre 
+o comp do navio e o comp da onda. 
+> Os navegantes devem estar atentos a: 
+a) Os navios tendem a sincronizar seus períodos de oscilação com os períodos aparentes das ondas. 
+- Quando se navega atravessado ao mar, o balanço tende a sincronizar com o período das ondas. 
+- Para evitar o sincronismo ou ressonância, altere o rumo e veloc com antecedência, pois romper o sincronismo é + difícil. 
+b) Quando se navega aproado ou apopado ao mar e o comp do navio coincide com o comp da onda, a proa e a popa podem se 
+situar simultaneamente em 2 cristas ou 2 cavados (o que gera grandes esforços). Altere o rumo! 
+c) Quando se navega aproado ou apopado ao mar e o comp do navio é metade do comp da onda, a popa pode ficar numa crista e 
+a proa num cavado, o que pode causar dificuldades para se enfrentar a onda seguinte (embarque de água na proa, vibração do 
+eixo, etc). / Altere o rumo ou aumente a veloc! (??) 
+d) O olho marinheiro é fundamental, pois um mar pouco agitado mas com caracts que afetam o navio desfavoravelmente pode 
+ser tão penoso quanto um mar muito agitado. 
+e) Quando a configuração isobárica for propícia à formação de ondas de ressaca, dependendo das caracts geográficas do litoral, 
+tb podem ocorrer fortes correntes de ressaca. 
+TSUNAMIS OU MAREMOTOS: 
+>• São trens de ondas (série de 3-10 ondas) gerados por atividades sísmicas submarinas (terremotos, erupções vulcânicas e 
+ondas sísmicas de grande período). / A maior onda geralmente é a segunda. / Não afetam embs em alto-mar. 
+> Caracterizam-se por: - grande veloc de propagação (+- 400 kt a 4000 m de prof). 
+- grande período (10-45 min). 
+- enorme comp de onda (100-300 km). 
+> Em águas profundas, sua amplitude é de uns poucos centímetros, sendo quase imperceptível para o navegante. 
+> Mas a redução da prof nas proximidades da costa, associada ao enorme comp de onda, resulta num gradual crescimento da 
+onda e no surgimento de energia cinética. 
+> A chegada de um maremoto se manifesta por um recuo das águas, e depois ocorre uma sucessão acentuada de subidas e 
+descidas do nível do mar. / Depois de maremotos, é comum ocorrerem violentas ondulações na costa, com vários dias de 
+duração. 
+15 
+
+
+===== PAGINA 340 =====
+
+3a PARTE - NAVEGAÇÃO METEOROLÓGICA E OCEANOGRAFICA 
+CAP XIII - CLIMATOLOGIA 
+CIRCULAÇÃO GERAL DOS OCEANOS: 
+> As correntes que fluem para as altas latitudes são chamadas "correntes quentes ou temperadas", e as que fluem em direção 
+ao Equador são chamadas "correntes frias". / Esse enorme transporte de energia possibilita a ocorrência de climas bem 
+diferentes em regiões de uma mesma latitude. 
+> A circulação geral nos 3 grandes oceanos é fechada, em ambos os hemisférios. 
+- Contracorrente Equatorial: 
+flui 
+para E e separa essas circulações fechadas. 
+- Correntes Norte e Sul Equatorial: 
+fluem 
+para W. 
+- Corrente Circumpolar Antártica (HS): flui para E e, ao bater no W dos continentes, ramificam em correntes frias para o N. 
+> Quando se navega de um quadrante para outro, as significativas mudanças de direção das correntes afetam a navegação. 
+Portanto, a circulação geral deve ser considerada no planejamento das longas rotas. 
+ELEMENTOS E UTILIZAÇÃO DAS CARTAS PILOTO: 
+1- Cartas Piloto: (ou Pilot Charts ou Routing Charts) 
+> São cartas que representam graficamente várias infos, visando facilitar as providências, procedimentos, precauções e decisões 
+na escolha das melhores derrotas e condução dos navios. 
+> Como elas indicam as correntes costeiras e oceânicas, o navegante pode aproveitar as correntes favoráveis e evitar as contrárias. 
+- O navegante tb deve observar os elementos que influenciam o estado do mar, como os ventos predominantes. 
+> As infos são: - ventos (dir, intensidade e percentual de ocorrência). 
+- correntes (dir e intensidade). 
+- rotas recomendadas para os portos indicados. 
+- isotermas do ar. 
+- áreas de previsão meteorológica. 
+- isotermas da TSM. 
+- áreas abrangidas pelos boletins meteorológicos. 
+- isogônicas. 
+- As infos provêm de estatísticas de mais de 30 anos de observações. 
+- As infos são fornecidas em percentual ou freqüência de ocorrência do parâmetro, e não por indicação de valor médio. 
+- Elas apresentam qual a possibilidade de, naquele mês, ocorrer tal vento ou tal corrente (indicam uma probabilidade). 
+> Para os ppais portos brasileiros, há infos sobre: nevoeiros, visibilidade, pressão, W fortes, W predominantes e temp do ar. 
+2- Atlas de Cartas Piloto Brasileiro - de Trinidad ao Rio da Prata (fig 13-2): 
+> Cobertura: de 10° N a 35° S, da costa a 20° W. / São 12 cartas (1 por mês). 
+> Verso de cada carta: são registradas infos para os ppais portos brasileiros e ilhas oceânicas. 
+> As representações gráficas seguem as seguintes caracts: 
+a) Vento (fig 13-3): as rosas dos ventos são azuis. Há uma rosa para cada quadrado de 5o x 5o. 
+- As rosas indicam, em percentagem e por octante, as direções de onde sopram os ventos. 
+- A quantidade de traços ou pernas nas extremidades das setas indica a força (Beaufort). 
+- O tamanho ou o número encima das setas indicam a freq com que o vento ocorre. / Determina-se a percentagem de ocorrência 
+comparando-se o comp da seta (a partir da circunferência) com a Escala Percentual de Ventos, que fica próxima das instruções. 
+- Percentagens > 29% são indicadas numericamente. 
+- A maior seta indica o vento predominante; e o número do centro indica a percentagem de ocorrência de calmaria. 
+b) Isotermas TSM: são linhas cheias encarnadas, em °C. 
+c) Isotermas do ar: são linhas tracejadas encarnadas, em °C. 
+d) Correntes: setas verdes indicam as direções predominantes, e os números indicam a veloc média à superfície. 
+e) Áreas de previsão: são definidas por letras e limitadas por linhas cinzas cheias. / São as 10 regiões (A a H, N e S). 
+f) Isogônicas: a DecMag. para 1990 é representada por linhas cheias roxas (variações anuais em linhas tracejadas). 
+g) Visibilidade no porto: números azuis indicam o percentual de ocorrência de visib < 2,5 milhas, 
+h) Nevoeiro no porto: números vermelhos indicam o percentual de ocorrência de nevoeiro. 
+i) Vento forte no porto: números encarnados indicam o percentual de ocorrência de ventos fortes. 
+j) Vento no porto: a rosa dos ventos azul indica os percentuais dos ventos predominantes. 
+k) Pressão: linhas cheias azuis indicam a pressão média no nível do mar. 
+1) Temp do ar no porto: números vermelhos indicam a temp média do ar. 
+3- Atlas de Cartas Piloto Internacionais: 
+> A Defense Mapping Agency (DMA-US) publica 5 coletâneas de 12 cartas mensais (cnf a região oceânica), com a 
+denominação NVPUB 105 a 109 (NVPUB 105 é do Atlântico Sul - fig 13-4). 
+- As cartas tropicais contêm infos mais detalhadas sobre a ocorrência e trajetórias de furacões. 
+- As cartas que abrangem altas latitudes contêm linhas limites de icebergs e pack ice. 
+a) Altura das ondas (estado do mar): linhas vermelhas indicam o percentual de freqüência de ondas > 12 pés. 
+b) Ventania: números vermelhos em cada quadrado de 5o x 5o de carta inserida na carta piloto mostram o percentual de 
+ocorrência de ventos de força > 8. 
+16 
+
+
+===== PAGINA 341 =====
+
+""—'•"^fMl 
+> Ocorrências climáticas significativas no Atlântico Sul (NVPUB 105): 
+a) Gales (ventanias): 
+- São associados ao inverno (baixas temps do ar), e são freqüentes ao longo do ano ao sul de 30° S. 
+- O pico de ocorrência é junho, principalmente no "Silvio dos Quarenta" (40° S), quando a freq varia de 20-30%. 
+b) Altura das ondas: a maior freq de ondas > 12 ft ocorre no inverno, ao sul de 25° S. 
+c) Limite máximo de Icebergs: abrange toda a área ao sul de 40° S. Na América do Sul, a maior ocorrência é em nov e dez. 
+d) Limite máximo de Pack Ice: o maior avanço ocorre em setembro, ao norte da Ilha Geórgia do Sul (52° S). 
+CARTAS CLIMÁTICAS (figs 13-10/11): 
+> São apresentadas para janeiro e julho, para os 3 grandes oceanos. / Enfatizam a sazonalidade do estado do tempo e do mar. 
+> Caracts do Atlântico Sul (ao sul de 40° S): 
+- Inverno: 
+- ventania e mar severo. 
+- Verão: 
+- ventania e mar severo (embora com menor intensidade). 
+- nevoeiro (TSM < que temp do ar, com resfriamento do ar à superfície). 
+- icebergs. 
+CAP XIV - NAVEGAÇÃO METEOROLÓGICA E OCEANOGRÁFICA 
+MARINHARIA EM MAU TEMPO: 
+> Como a água é muito mais densa que o ar, o efeito combinado do W e do mar numa embarcação é quase que somente 
+devido às ondas. / O vento só se torna importante para a estabilidade e flutuação quando atinge a veloc de tormenta e furacão 
+(quando a emb pode atingir uma banda para sota). 
+> As embs tendem a jogar acd sua freq natural de balanço e arfagem, quaisquer que sejam os movimentos das ondas. Quando a 
+freq (ou período) do mov da onda se aproximar da freq natural (ou período natural) da emb, ocorrerá sincronismo e ressonância. 
+A banda causada por uma guinada em alta veloc e o mov ondulatório da vaga se conjugam para aumentar ainda mais o balanço. 
+> Quanto maior for o momento de endireitamento para uma determinada inclinação, menor será o período de balanço (T). 
+- Se o momento de endireitamento for diminuído por efeito de superfície livre, T aumentará, e a estabilidade diminuirá. 
+- Para que possamos constatar qq mudança do T de balanço, devemos conhecer o período natural de balanço da nossa emb. 
+> O balanço é fç do âng de incidência das ondas em rei ao rumo do navio. / Com a proa em diagonal, o balanço aumenta. 
+- O balanço máx ocorrerá com mar de través, ou quando a emb estiver no cavado. 
+> A melhor forma de minimizar o balanço é navegar um pouco acima ou abaixo da veloc das vagas. 
+- Isso gera um pequeno (porém constante) mov relativo navio-vaga e evita ressonância. 
+- Quando se navega na mesma veloc das ondas, a emb é alternadamente acelerada pela parte frontal e retardada pela parte 
+posterior da vaga. 
+- Como a água na crista se desloca momentaneamente na veloc da onda, o leme terá pouco efeito quando a popa estiver na crista. 
+Isso, aliado à tendência da emb deslizar quando na crista, torna desejável navegarmos com veloc diferente da veloc da onda. 
+- Uma peq alteração de veloc pode significar a diferença entre uma pancada severa e um caturro aceitável. 
+- As mesmas considerações quanto à freq natural de balanço se aplicam à freq natural de arfagem. 
+> Indicadores de situações de perigo e de severidade do mar: 
+a) pancadas sentidas em toda a emb quando a proa passa a crista e, fora d'agua, despenca no cavado seguinte. 
+b) vibração vertical de baixa freq sentida quando toda a emb se entorta longitudinalmente sob o peso da água que embarca 
+avante, quando a proa corta as vagas. 
+- Nessas situações, fazer tentativas até se obter uma combinação satisfatória de rumo e veloc. 
+> Quando o mar estiver bravo, não é recomendável enfrentá-lo de proa. É melhor colocá-lo do través para ré do que do 
+través para vante. / Evite rumos próximos do eixo do cavado, principalmente se o comp das ondas não for longo. 
+> Navegando em ângulo com o mar, quando a proa corta a superfície frontal da onda, a emb é forçada ao paralelismo 
+com o eixo dos cavados. Ao subir na frente da onda, a gravidade tende a forçar a proa em dir ao cavado. 
+- Se, nessa situação, o cavado estiver na parte posterior da emb, a gravidade tb tenderá a torcer o navio para o eixo dos 
+cavados (a popa deslizará na vaga). 
+> Em ciclones, é fundamental manter a emb fora do eixo dos cavados (no cavado, o balanço é violento). 
+- Uma vez lá, é muito difícil de sair (pois os lemes/máqs não são suficientes para vencer o mar). 
+> Para sair do eixo dos cavados, navegue com veloc suficiente para ter boa resposta do leme. 
+- Guine a favor do vento para obter o maior intervalo de tempo possível até encontrar a próxima onda. 
+- Espere por um período menos crítico para iniciar a manobra e concluí-la antes de um novo trem de ondas. 
+> Providências para manter a estabilidade, flutuação e energia elétrica: feche os dutos de ventilação, escotilhas, elipses, etc, e 
+mantenha o CG baixo, lastrando o navio e evitando superfície livre nos tanques (mantenha-os ou cheios ou vazios). 
+> Visib < 1 milha: 
+- Cumpra os sinais sonoros de nevoeiro do RIPEAM. 
+- Pare máqs sempre que ouvir um sinal sonoro de cerração AV do través e não puder determinar a pos do emissor. 
+- Ao demandar uma bóia sonora, mantenha-a aberta em uma bochecha, pois outras embs podem estar navegando em dir à bóia. 
+> Em mau tempo, não exite em lastrar. / Mantenha a emb derrabada, e nunca abicada (isso aumenta a reserva de 
+flutuabilidade da proa ao cortar as cristas e garante a imersão do hélice). 
+17 
+
+
+===== PAGINA 342 =====
+
+•sfigSKsaassssKBiS 
+PLANEJAMENTO E ACOMPANHAMENTO DA NAVEGAÇÃO: 
+> Na fase de planejamento, os elementos básicos são os climatológicos, representados nas cartas piloto. O interesse está nas 
+infos meteorológicas de médio e longo prazo e nos seus efeitos sobre o estado do mar. 
+1- Navegação em altas latitudes: 
+> A variabilidade sazonal dos icebergs é uma das ppais preocupações, sobretudo no fim do inverno e início da primavera. 
+Eles sobem até +- de 43°, mas o perigo está na variabilidade sazonal e anual das suas rotas (os valores médios variam muito). 
+> Tb são freqüentes condições adversas de vento e ondas. 
+2- Planejamento das derrotas: 
+> Para evitar avarias, deve-se optar, com a devida antecedência, por uma derrota que não necessariamente será a mais curta. 
+> No início do planejamento, os navegantes devem ter em mente os períodos de pico, os períodos de ocorrência provável e o 
+local onde ocorrem os diversos fenômenos do mundo, cnf mostrado no "Quadro de Eventos Meteorológicos nos Oceanos 
+por mês" (fig 14-3). Esses fenômenos são: monções, ciclones tropicais, tufões, furacões, icebergs, pack ice, etc... 
+> O planejamento pode ser feito: 
+- pelo navegante, com base apenas nas cartas piloto e nos serviços de meteorologia; ou 
+- por firmas privadas de assessoramento e consultoria, que prestam svçs de planejamento e acompanhamento de rotas. 
+3- Acompanhamento da navegação meteorológica: 
+> A navegação meteorológica e oceanográfica reduz o tempo de viagem, as avarias do mau tempo e o consumo de combustível. 
+> Svçs governamentais de acompanhamento e posicionamento de embs: AMVER (USCG), JASREP (Japão) e SISTRAM. 
+> Firmas privadas: interpretam as condições meteoro e oceanográficas e as divulgam, em linguagem clara, para seus clientes. 
+Esses svçs podem ser prestados de porto a porto, com o monitoramento ao longo de toda a derrota. 
+> Mas o ppal acompanhamento para a segurança é o realizado pelo navegante, com as infos recebidas dos Svçs Meteorológicos. 
+4- Rotas recomendadas: para usar essas rotas, o navegante dispõe de algumas pubs, tais como: 
+> Ocean Passages of the World: contém infos das ppais rotas dos mares, ressaltando: pontos de junção, pontos de aterragem e 
+aproximação, pontos para demanda de estreitos navegáveis e passagens críticas. 
+> Cartas-PUoto: é a melhor publicação para se programar uma derrota. Nelas constam os traçados das ppais rotas recomendadas, 
+o uso dos círculos máximos, as distâncias, os portos de partida e destino, pontos de junção, etc. 
+- Mas a ppal vantagem está nos demais elementos constantes ao longo da derrota (linhas limites de icebergs, ocorrência de 
+ondas > 12 ft, ventos > força 8, etc). Esses elementos evidenciam condições adversas e perigosas nos meses críticos. 
+ROTAS RECOMENDADAS NO ATLÂNTICO SUL: 
+> Região de Fernando de Noronha e Rocas: tempo bom, mar pouco agitado, vento fraco. 
+- A corrente flui para W, e se bifurca na latitude de Recife para N/NW (Corr das Guianas) e S/SW (Corr do Brasil). 
+- Ao demandar Noronha com rumo N, recomenda-se deixar as ilhas por BE (por segurança, devido ao abatimento da corrente). 
+- Perto do Recife, a corrente é + forte junto à costa. Para safar a corrente contra, quem vem do S (rumo N) deve abrir 10-15 NM. 
+> Costa da Bahia, entre Salvador e Ilhéus: a corrente tende a ensacar (assim como ensaca em Paranaguá, entre RJ e SC). 
+> Arquipélago de Abrolhos: ao demandá-lo com rumo N, deixá-lo por BB (por causa da corrente que flui para SW e do perigo 
+do Parcel das Paredes e do Parcel de Abrolhos). 
+> Aracaju e Maceió: no inverno (ppalmente em agosto), ocorrem ressacas quando há FF ao largo de Salvador. 
+> Entre Santos e Cabo de Santa Marta (áreas B e C): no inverno, há ocorrências significativas de mau tempo e mar severo. 
+> De 10° S para o Sul (áreas A a F): em julho, há 10% de ocorrência de mar severo com ondas > 12 pés. 
+GLOSSÁRIO 
+Blizzard = vento muito frio e tempestuoso das regiões polares. 
+Trade winds = ventos alíseos. 
+Doldrums = zona de calmaria equatorial. 
+Hail = granizo. 
+Haze = névoa seca. 
+Ridge = crista. 
+Core = centro. 
+Squall line = linha de trovoada. 
+Storm cloud = Cb. 
+Fetch = pista geradora. 
+Swell = marulhos. 
+Surge = arrebentação. 
+Downwelling x Upweüing = submergência x ressurgência. 
+Isobar = isóbara. 
+Lapse rate = gradiente vert de temp (adiabático). 
+Slop tank = tanque de resíduo oleoso. 
+Ullage = ulagem - medida da parte vazia do tanque. 
+Monsoon = monções. 
+Minuano = vento frio da costa do RS. 
+Drizzle = garoa. 
+Sleet = saraiva. 
+Dewpoint = ponto de orvalho. 
+Col = colo. 
+Squall = ventos de rajadas com chuva, ventania, aguaceiro. 
+Instability line = linha de instabilidade. 
+Anvil = bigorna (do topo do Cb). 
+Seawing = vagas. 
+Storm surge = ressaca. 
+Cloud burgts = tromba d'agua. 
+Fringe = orla. 
+Soud = nuvens fragmentadas, tocadas pelo vento forte. 
+Drought = seco. 
+Feeble = fraco. 
+18 
+
+
+===== PAGINA 343 =====
+
+METEOROLOGIA PARA NAVEGAJSTTES 
+CAP IX-MARÉS 
+TEORIA DAS MARES: 
+> Causas das diferentes alturas da maré: - atração da lua em seu mov ao redor da terra. 
+- atração do sol. 
+{em menor escala) 
+- força centrífuga do sistema lua-terra. 
+{em menor escala) 
+> Sistema lua-terra: as forças gravitacional e centrífuga estão em equilíbrio. 
+- A força centrífuga é cte em todos os pontos da terra. 
+- A força gravitacional é maior no meridiano superior que no inferior. 
+- No ponto da terra mais próximo da lua, a atração é maior que a força centrífuga. Então a maré sobe. 
+- No ponto da terra mais afastado da lua, a atração é menor que a força centrífuga. Então a maré também sobe. 
+- Nos meridianos intermediários entre o superior e o inferior, as forças de atração e centrífuga mantém equilíbrio (baixamar). 
+- Assim, em 24 horas (1 rotação da terra), haverá 2 PM e 2 BM. Por isso a maré é dita semi-diurna. 
+- Na realidade, o horário de ocorrência dessa oscilação avança 50 min por dia, pois o período de 2 passagens consecutivas da 
+lua pelo meridiano local é de 24 h e 50 min. 
+> Causas da oscilação do nível do mar devido às marés: 
+- rotação da terra. 
+- translação da lua ao redor da terra. 
+- translação da terra ao redor do sol. 
+> Ciclo lunar (fig 9-3): a translação da lua tem duração de 28 dias. / A amplitude da maré varia ao longo desse ciclo. 
+- Marés vivas ou de sizígia: nas luas nova (terra-lua-sol em conjunção) e cheia (lua-terra-sol em oposição), os 3 astros 
+ficam alinhados, e as forças gravitacionais da lua e do sol sobre a terra se somam. Assim, as atrações da lua e do sol 
+contribuem para a elevação do nível do mar, por ocasião da PM. 
+- Marés mortas ou de quadratura: quando esses 3 astros estão a 90°, as atrações do sol e da lua tb ficam defasadas de 90°, e 
+a força resultante terá um efeito menor na elevação do nível do mar, por ocasião da PM. 
+> O movimento oscilatório do nível do mar se realiza em fç dos componentes harmônicos de cada região. 
+> Observa-se o nível do mar com uma régua de marés por 32 dias consecutivos (leituras de hora em hora). Esses dados permitem 
+calcular os componentes harmônicos do lugar. 
+ELEMENTOS E CARACTERÍSTICAS DAS CURVAS DAS MARES (fig 9-4): 
+> Nível médio (NM): é o nível médio entre a PM e a BM. 
+- O nível do mar nas PMs e BMs varia ao longo do ciclo lunar, mas o NM é o mesmo em dias de sizígia e quadratura (fig 9-5). 
+- Como o NM não varia, ele vem destacado no cabeçalho das Tábuas de Marés. 
+- O NM nos dá uma idéia do valor da semi-amplitude das marés de sizígia (a amplitude de sizígia é aprox = 2 x NM). 
+- Esse valor indica se naquele porto a oscilação da maré é acentuada ou não. 
+> Semi-amplitude: é a metade da amplitude. Combinada com o NM, pode nos fornecer o nível na PM e na BM. 
+> NR: plano em rei ao qual todas as alturas são medidas e todas as profs estão cartografadas na carta de maior escala dos portos. 
+- Para se obter a prof real, adiciona-se à profundidade indicada na carta a altura da maré naquele instante. 
+> Altura da maré: é a altura do nível do mar acima do NR num instante qq. 
+> Marés semi-diurnas (de Vitória para o norte): podem ser representadas por uma curva sinusoidal. 
+- Para esse trecho da costa, pode-se aplicar a senóide para se determinar (por interpolação a partir das horas da PM e BM) a 
+altura da maré num instante qq. 
+> Método do estabelecimento do porto: embora a maior atração da lua se dê quando ela passa pelo meridiano superior local, a 
+hora da PM não coincide com a hora da passagem meridiana, pois é necessário um tempo para que o oceano responda à atração. 
+- Esse At é chamado "estabelecimento do porto" (HWHC), e é útil para se calcular a maré de um porto não tabulado. 
+- Obtenha o valor do HWFC de um quadro da carta, e consulte o Almanaque Náutico para obter a hora média local da passagem 
+meridiana da lua em Greenwich e a correção para a longitude do local. 
+
+
+===== PAGINA 344 =====
+
+TÁBUA DE MARÉS - DHN 
+INTRODUÇÃO 
+> As tábuas contém previsões para 2011 de 43 portos, 2 ilhas oceânicas, 2 ilhas costeiras, 4 barras, 1 fundeadouro e 1 
+atracadouro. (incluindo a Estação Antártica Comte Ferraz) 
+> As previsões foram feitas pelo CHM, e as componentes harmônicas foram obtidas das observações realizadas por várias 
+instituições públicas e privadas, brasileiras e estrangeiras, através do Método de Análise Harmônica desenvolvida pelo VA 
+Alberto dos Santos Franco. 
+1) TABELAS: 
+> A pub está dividida em 6 partes: 
+a) Previsões das marés com horas e alturas das PM e BM dos ppais portos, ilhas oceânicas e barras da nossa costa, ordenados 
+de Norte a Sul. 
+Obs: do porto do Forno até o do Rio Grande, devido às caracts de desigualdades diurnas das marés da costa sul, é possível 
+encontrar exceções a esta regra. Neste caso, os pontos selecionados para caracterizar a curva da maré são os mais representativos 
+da sua oscilação irregular. 
+b) Determinação da altura da maré num instante dado: essas tabelas permitem interpolações de uma curva de maré de 
+caráter sinusoidal. A maré que mais se aproxima dessa condição teórica é a semidiurna. 
+- Recomenda-se que o uso dessas tabelas se limite aos portos de Vitória para o norte (pois para o sul, a maré se apresenta 
+com desigualdades diurnas ou mista, o que impossibilita bons resultados). 
+c) Determinação expedita de infos sobre PMs e BMs de locais não tabulados, pelo "método do estabelecimento do porto". 
+d) Informações para previsão das marés na baía de São Marcos (MA). 
+e) Fases da lua. 
+f) Mapa com a localização das estações maregráficas constantes desta pub. 
+2) INFORMAÇÕES ADICIONAIS: 
+> Cabeçalho da tábua de cada porto/barra/etc: pos. da estação maregráfica, fuso da hora legal das previsões, sigla da 
+instituição responsável pelas previsões, número de componentes harmônicas usadas na previsão, valor do nível médio (NM) 
+sobre o nível de redução (NR), e número da carta de maior escala de onde fica a estação maregráfica. 
+> Posições: para uma localização mais precisa da estação, procurar o seu símbolo cartográfico na carta de maior escala indicada 
+no cabeçalho. 
+> Hora é sempre a Hora Legal da localidade. 
+- Hora de Verão: adotada em algumas regiões de OUT a FEV, ela acarreta o adiantamento de 1 hora nas Horas Legais. Para 
+obter os horários corretos das marés, somar 1 hora às horas fornecidas pelas tábuas. 
+- A relação dos estados em que vigora a Hora de Verão e as suas datas de início e fim são divulgadas por Avisos-Rádio, sendo 
+que o Io Aviso permanece em vigor durante todo o período. 
+> Componentes harmônicas: são as ondas sinusoidais cuja freqüência é determinada pelo efeito exclusivo da ação das forças 
+astronômicas e que compõem a onda de maré. A cada componente estão associadas as suas constantes harmônicas, h 
+(amplitude da componente no local) e g (diferença de fase da componente real em relação à componente teórica). 
+> Nível de Redução (NR): é o plano de referência ao qual se referenciam todas as profundidades cartografadas. 
+A OHI o define como "um plano tão baixo que a maré, em condições normais, não fique abaixo dele". 
+> Nível Médio (NM): o valor do cabeçalho se refere à cota do NM sobre o NR. 
+> Alturas da maré: geradas através de previsão harmônica, são referidas ao NR adotado para a confecção da carta da DHN 
+que consta no cabeçalho. 
+> Corrente de maré: as horas das PMs e BMs tabuladas nem sempre coincidem com os instantes em que a corrente de maré 
+inverte o seu sentido. / A DHN publica cartas de correntes de marés para alguns rios/baías/portos brasileiros (ex: Vitória, Baía 
+da Guanabara, Santos e Paranaguá). 
+> Variações do nível do mar e discrepâncias nas horas das PMs e BMs: 
+- Fatores meteorológicos (principalmente o vento) podem elevar ou abaixar bastante o nível do mar, e atrasar ou adiantar 
+um pouco os instantes das PMs e BMs. Nessas condições, as alturas e horários das PMs/BMs podem ser diferentes dos 
+tabulados. Isso ocorre porque os efeitos meteorológicos sobre o nível do mar não podem ser previstos harmonicamente. 
+Essas diferenças se devem principalmente ao efeito de ventos fortes de duração prolongada e, usualmente, às altas e baixas 
+pressões atmosféricas que resultam, respectivamente, na elevação e rebaixamento do nível do mar (maré meteorológica). Tais 
+efeitos são mais intensos nas regiões S e SE, durante a passagem de frentes frias (consultar o Roteiro). 
+- As oscilações de curto período do nível do mar denominada "seiches", típicas de alguns corpos d'agua semi-fechados (baías, 
+enseadas, etc), tb podem contribuir para a ocorrência de diferenças entre as marés previstas e as observadas. 
+3) CONSIDERAÇÕES IMPORTANTES: 
+> Se forem observadas discrepâncias significativas entre as previsões e observações, informar ao CHM, se possível, o valor 
+em fase e altura (ou amplitude) dessa discrepância, junto com um relato das condições meteoro reinantes (em especial o W). 
+
+
+===== PAGINA 345 =====
+
+3 
+;•;; •.•<•:,; 
+> 
+> 
+> 
+> 
+> 
+g^fíe^g^^^^yr^^^-y-^^--. .••^.-^>-J.-.i.K:1QOtfVríafltiaWh 
+DETERMINAÇÃO DA ALTURA DA MARE NUM DADO INSTANTE 
+Há duas tabelas, admitindo-se que a curva da maré seja sinusoidal (as tabelas só devem ser usadas de Vitória para o 
+norte!). 
+Nos portos onde a curva da maré não é exatamente sinusoidal entre as horas da PM e BM, o resultado será apenas aproximado. 
+A altura da maré num instante qualquer, tal como resulta da tabela, pode ser muito imprecisa, sobretudo nas 
+proximidades da meia-maré. Portanto, dê uma margem de segurança de 10% da amplitude. 
+Tabela I: fornece a fração da amplitude (expressa em centésimos) que a maré subiu/desceu desde o instante de referência, 
+em fç da duração total da enchente/vazante e do intervalo de tempo entre o instante considerado e o de referência. 
+Tabela II: é uma simples tábua de multiplicação. / Ela fornece a altura que a maré subiu/desceu desde o instante de 
+referência, em fç da amplitude e do número de centésimos extraído da Tabela I. 
+INFORMAÇÕES SOBRE A PREVISÃO DAS MARES NA BAIA DE SÃO MARCOS 
+> Serve para calcular os dados das marés em 3 áreas da baía, pois a simples previsão para um ponto da costa não permite que 
+se planeje uma navegação segura naquelas áreas. 
+> Toma-se como referência um ponto que figura na Tábua de Marés, daí aplicam-se correções aos horários e às alturas da 
+PM/BM. 
+
+
+===== PAGINA 346 =====
+
+" ^ 
+MÉTODO EXPEDITO DE PREVISÃO (MÉTODO DO ESTABELECIMENTO DO PORTO) 
+> Para se determinar as horas e alturas da PM e BM para locais não cobertos pelas tábuas. 
+> Só pode ser usado nos locais onde a maré for semidiurna, não se aplicando às marés de desigualdades diurnas, mistas e 
+diurnas (acd classificação de Courtier). / No Brasil, encontram-se bons resultados entre SANTANA (AP) E VITÓRIA. 
+> Os resultados são mais precisos no período de sizígia, pois o HWF&C refere-se aos dias de sizígia. 
+> Onde a maré é semidiurna, as cartas náuticas apresentam infos sobre a maré dispostas num quadro (vide na Tábua), que 
+fornece os seguintes elementos: 
+HWF&C (High Water Full and Change) - Estabelecimento do porto: é a média dos intervalos de tempo decorridos entre 
+a passagem da lua pelo meridiano local e a ocorrência da PM, em dias de sizígia. 
+MHWS (Mean High Water Springs) - Preamar média de sizígia: é a altura (acima do NR da estação maregráfica em 
+questão) da média das preamares de sizígia (ou seja, é a média das mais altas preamares). 
+MHWN (Mean High Water Neaps) - Preamar média de quadratura: é a altura (acima do NR da estação maregráfica em 
+questão) da média das preamares de quadratura (ou seja, é a média das mais baixas preamares). 
+MLWN (Mean Low Water Neaps) - Baixa-mar média de quadratura: é a altura (acima do NR da estação maregráfica 
+em questão) da média das baixamares de quadratura (ou seja, é a média das mais altas baixa-mares). 
+MLWS (Mean Low Water Springs) - Baixa-mar média de sizígia: é a altura (acima do NR da estação maregráfica em 
+questão) da média das baixamares de sizígia (ou seja, é a média das mais baixas baixa-mares). 
+MSL ou NM (Mean Sea Level) - Nível médio: altura do nível médio acima do NR da estação maregráfica em questão. 
+a) Obtendo os horários da preamar: 
+> No Almanaque Náutico Brasileiro: 
+Pág 146: 
+- Entrar com as datas de 2 dias consecutivos. 
+- Obter as horas das passagens meridiana inferior e superior da lua em Greenwich (HMG Pmd GW). 
+- Determinar a diferença de um dia para o outro (em min). 
+Págs amarelas, tábua de "Interpolação das Horas do Nascer, do Pôr e da Passagem Meridiana da Lua para a Longitude": 
+- Entrar com a k do porto (arredondada ao grau) e com o valor médio das diferenças entre as passagens 
+meridianas superior e inferior consecutivas (arredondada a 10 min). 
+- Obter a "correção" a ser aplicada. 
+Págs amarelas, tábua "Conversão de Arco em Tempo": 
+- Entrar com a X do porto. 
+- Obter o tempo. 
+> Fuso no porto: + 3 h. 
+> Quadro de infos sobre a maré (da carta náutica): obter o HWF&C. 
+> Para obter os horários da PM: 
+- Tomar a HMG das passagens meridiana inferior e superior do dia em questão (HMG Pmd GW). 
+- Somar a "correção": 
+(obtém-se a HML Pmd local - ??). 
+- Somar o "valor em tempo" da X: 
+(obtém-se a HMG Pmd local). 
+- Subtrair o fuso (-3 h): 
+(obtém-se a HL Pmd local). 
+- Somar o HWF&C: 
+(obtém-se o horário das 2 preamares !!) 
+b) Obtendo a altura da maré na preamar e baixamar: 
+> Obter a diferença entre as alturas das médias das preamares num dia de sizígia e num dia de quadratura: 
+A = MHWS-MWHN 
+> Obter o número de dias entre uma sizígia e uma quadratura (B). 
+B 
+> Obter (por interpolação linear) a correção a ser aplicada na MHWS: 
+Correção = A. (n° dias) / B. 
+> Obter a altura da preamar 
+= MHWS - correção ! 
+> A altura da baixa-mar será: 
+= MSL - (altura da preamar - MSL) ! 
+(OBS: as preamares correspondem às passagens meridiana inferior e superior da lua.) 
+
+
+===== PAGINA 347 =====
+
+SERVIÇOS RADIO-MFTEOROLÓGICOS 
+COMPILADO DA LISTA DE AUX-RÁDIO (LAR - CAP 4) E VALGAS LOBO (MPN) 
+SERVIÇOS RADIO-METEOROLÓGICOS DE APOIO AO NAVEGANTE 
+> Eles obedecem às normas da OMM (Organização Meteorológica Mundial). 
+> As radiocomunicações (mensagens meteorológicas) no SMM obedecem às normas da UTI. 
+> A operação do svç de meteorologia na área marítima de responsabilidade do Brasil cabe ao CHM, e abrange a METAREA V 
+(Ap IV-l/LAR), estabelecida em acordo com a OMM. 
+> Os navegantes ainda dispõem de alguns Iates Clubes (canal 68) da "Rede Costeira de Apoio ao Iatismo", que tb transmitem 
+boletins meteorológicos quando solicitados (Ap IV-6/LAR). Mais infos estão no Cap VIII da LAR. 
+> MPN: a Lista de Aux-Rádio fornece todas as infos relativas à transmissão de boletins pelas estações-rádio da nossa costa, a 
+saber: horários, potência, localização, indicativo de chamada, freqs de escuta, freqs de radiotelegrafia e radiotelefonia, e freqs 
+de trabalho em CW (Morse), em RATT (rádio-teleimpresor), em rádio fac-símile e em radiotelefonia. 
+> As abreviaturas usadas no Meteoromarinha constam no ApIV-2/LAR. 
+> As infos meteorológicas elaboradas pelo "Serviço Meteorológico Marinho" da DHN são: 
+- Avisos de Mau Tempo 
+- Boletim de previsão para áreas portuárias. 
+(a LAR não menciona. Acho que este produto não existe mais) 
+- Boletim de condições e previsão do tempo 
+(é o Meteoromarinha). 
+- Boletim especial de previsão. 
+- Carta meteorológica. 
+(por fax ou internet) 
+- Produtos de Previsão Numérica. 
+(por fax ou internet) 
+Obs: a NORMAM-19 ainda menciona os seguintes produtos: Auxílio à Decisão e Boletim Climaíológico (para uma área definida). Amb
+pedido, e sujeitos a remuneração prévia. 
+1) Avisos de Mau Tempo: 
+> Emitidos quando se prevê: 
+- W > 28 kt (força 7). 
+- visib < 1 Km. 
+- ondas > 3 metros. 
+- ressaca com ondas > 2,5 m atingindo a costa. 
+> Por constituírem perigo à navegação, são divulgados da mesma forma que os Avs aos Navegantes (via rádio e internet). 
+2) Boletim de Previsão para Arcas Portuárias: 
+(a LAR não menciona este produto) 
+> Fornece a previsão para as proximidades de um porto. 
+> Redigido em linguagem clara (port-ingl) e normalmente tx por radiotelefonia em HF. 
+> As estações transmissoras são todas da Embratel: PPL, PPO, PPR e PPJ (vide Ap-2/MPN). 
+> Infos fornecidas: a) área abrangida; 
+b) data-hora do término da validade; 
+c) Aviso de Mau Tempo; e 
+d) previsões de: estado do tempo e do céu, ventos predominantes, ondas, visib. e tendência da temp. 
+3) Boletim de Condições e Previsão do Tempo (Meteoromarinha - figs 6-36 a 38, no final do cap-VI/MPN): 
+> São elaborados por todos os serviços meteorológicos destinados à navegação marítima, de acordo com as normas da OMM. 
+> A intensidade do vento é referida à Beaufort. / Possui as seguintes partes: 
+Parte I - Aviso de Mau Tempo: 
+- Emitidos quando são previstos (from MPN): - W de força > 7 (28 kt). 
+- ondas em águas profundas > 3 m (mar de grandes vagas ou vagalhões). 
+- visib < 1 km. 
+- ressaca com ondas de 2,5 m na arrebentação. 
+- Os elementos aqui mencionados não são repetidos nos demais itens. / A sua ausência consta no texto como NIL ou NÃO HA. 
+- Tb são incluídos nos Boletins de Previsão para Areas Portuárias. 
+(se é que existem!!) 
+- Contêm o período de validade e o horário do cancelamento. 
+Parte II - Resumo descritivo do tempo: (épara toda a Metarea-V, sem divisões) 
+- E uma sinopse (sumário) da situação atmosférica num dado instante de referência, indicando as posições das configurações 
+sinóticas da área, seu movimento, desenvolvimento e área afetada. 
+- Começa com o HMG de referência (hora da análise sinótica). 
+- Exs de infos: posições de centros de AP e BP (com os valores das pressões), posições das frentes (e seu deslocamento), 
+posições dos cavados, posição da ZCIT (com estado do tempo), etc. 
+Parte HI - Previsão do Tempo: 
+- Fornece previsões válidas até o HMG mencionado no início do texto. / É feita para as próximas 24 hs! 
+- As previsões são para: estado do tempo e do céu, ventos predominantes, mar, ondas, visibilidade e tendência da temp. 
+- A previsão é elaborada separadamente para as 10 áreas que compõem a região marítima brasileira (vide ApIV-1/LAR). 
+- As áreas de A a H vão do S para o N. As áreas N e S correspondem às áreas Norte Oceânica e Sul Oceânica. 
+- Cada área ainda pode ser subdividida em parte norte ou sul, ou em parte leste ou oeste. 
+
+
+===== PAGINA 348 =====
+
+Parte IV - Análise e/ou Prognóstico do Tempo: 
+- É o resultado da análise sinótica da carta de superfície que dá origem ao boletim explicativo das partes I, II e III. 
+- Essa parte é mais elaborada, e possibilita aos mais experientes obter infos mais detalhadas da região de seu interesse (após 
+decodificá-la, obtém-se o traçado das isóbaras e as posições dos centros de AP e BP e das frentes). 
+- Essa parte é codificada pelo código FM 46-IV LAC FLEET, formado por grupos de 5 algarismos. 
+- Para decodificá-la, usa-se o modelo "DHN-5911 - Msgs de Análise para Navios FM 46-IV", que contém o referido código. 
+- Para plotar a análise decodificada, usam-se modelos em branco de cartas meteorológicas (DHN-5927). 
+- O Io grupo é 10001 (preâmbulo de msg de análise) ou 65556 (preâmbulo de msg de prognóstico"). 
+- Mas não é necessário decodificar caso se possa recebê-la por radio fac-símile. A PWZ-33 transmite a parte IV em radio fac-
+símile. Ou seja, transmite a carta sinótica de pressão plotada e analisada. 
+Parte V - Seleção de msgs de navios: 
+- São msgs SHIP selecionadas pelo Centro Previsor, consideradas como representativas das condições sinóticas mais importantes. 
+- É formada pelos 7 primeiros grupos das msgs SHIP selecionadas, a partir do grupo da latitude. 
+- Quando for de interesse específico do navegante, usa-se o modelo DHN-5939 para plotar essas msgs. 
+- Obs: as estações que recebem msgs SHIP são todas as da RENEC (canal 16 e 4125 KHz SSB). 
+Parte VI - Seleção de msgs de estações terrestres costeiras e de ilhas oceânicas: 
+- São msgs SYNOP selecionadas pelo Centro Previsor, consideradas representativas das condições sinóticas mais importantes. 
+- É formada pelos 6 primeiros grupos das msgs SYNOP selecionadas. 
+- Existem 14 dessas estações no Brasil. 
+- A falta do SYNOP de qq uma dessas estações é representada por NIL. 
+- Quando for de interesse específico do navegante, usa-se o modelo DHN-5939 para plotar essas msgs. 
+Obs: 
+Partes I, II e III: são transmitidas em linguagem clara, em português, e repetidas em inglês após a parte VI. 
+Partes IV, V e VI: podem ser usadas para uma melhor avaliação da área específica do interesse de cada navegante. Elas são 
+codificadas em grupos de 5 algarismos. 
+Estações transmissoras: - as da RENEC (por fonia a pedido, no canal 16 e em 4125 KHz SSB); e 
+(vide Ap-IV-3/LAR) 
+- a PWZ-33 (2 x ao dia, por radioteleimpressão; e 1 x ao dia, por radiodados, em HF). 
+- SafetyNet/Inmarsat: transmite Meteoromarinha (2 x ao dia, às 7:30 e 19:30) e 
+Avisos de Mau Tempo (a qq horário). 
+(Alguns Iates Clubes também transmitem o Meteoromarinha no canal 68, a pedido.) 
+4) Boletim de Previsão Meteorológica Especial (BPME): 
+> Fornece previsões para uma área marítima restrita e para finalidades específicas (operações de reboque, SAR, 
+deslocamento de plataformas, regatas oceânicas, etc) que exigem infos que normalmente não constam no Meteoromarinha. 
+> Sua forma e conteúdo obedecem mais ou menos os modelos das Partes I, II e III do Meteoromarinha. 
+> Deve ser solicitado ao Serviço Meteorológico Marinho da DHN, informando: finalidade, área, datas de início e fim, meios de 
+comunicação, empresa/órgão responsável, outras infos. 
+> A DHN pode atender ou não, e pode cobrar ou não. 
+5) Produtos transmitidos por fac-símile: 
+> Cartas de análise à superfície (= cartas sinóticas de pressão, em hPa). 
+- A representação gráfica usada consta do modelo DHN-5939-2. 
+- A área abrangida aumentou (abrange a METAREA-V até a península Antártica). 
+> Produtos de Previsão Numérica: 
+- Altura significativa das ondas e direção (00Z e 12Z / + prog 36 hs). 
+- W a 10 m (00Z e 12Z / + prog 36 hs). (no modelo WAM) 
+- TSM (°C) (00Z). 
+Obs: 
+- Esses produtos são transmitidos apenas pela PWZ-33, em 2 freqs de HF. 
+- Eles são transmitidos em seqüência, 2 x ao dia (0750-0925Z e 1635-1810Z). 
+- Acd MPN, os Centros de Transmissão de Brasília e BsAs tb transmitem cartas e produtos via fax (mas a LAR não 
+menciona nada). 
+- Os produtos também estão disponíveis no site da DHN, em português e inglês. 
+- O Inmarsat não os transmite, mas permite acessá-los via internet. 
+
+
+===== PAGINA 349 =====
+
+"**"*•""'""'••"*'*•*»» 
+'.;•••• 
+COLABORAÇÃO DO NAVEGANTE 
+> MPN: de acordo com a SOLAS e com o RLESTA, essa colaboração tb está ligada à SVHM. Isso porque essas normas 
+preceituam o preenchimento do Diário de Navegação, o que inclui o registro das observações meteorológicas (esse registro 
+tem valor jurídico nos casos de acidentes e IAFN). Portanto, é recomendável que as observações sejam feitas regularmente 
+nos horários-padrão e registradas no Diário de Navegação e no modelo SHIP, que deve ser transmitido com agilidade. 
+> A NORMAM 19 (NAM para as atividades de meteorologia marítima) preceitua que as observações relativas aos horários 
+sinóticos ppais e msgs de perigo devam ser tx ao SMM usando-se a codificação normatizada pela OMM. (concluo que as 
+observações relativas às horas sinóticas intermediárias não devem ser transmitidas) 
+> As colaborações são: 1) observação de rotina; 
+2) informação da observação de rotina, pela msg SHIP; e 
+3) informação de mau tempo, pela transmissão de msgs de perigo e especiais. 
+> UAM (Unidades de Assessoramento Meteorológico): 
+- São mantidas pelo CHM para dar apoio ao navegante, especialmente aos integrantes do programa "Navios de Observação 
+Voluntária" (VOS), da OMM. 
+- Lá trabalham agentes meteorológicos para manter contato com os navegantes, oferecendo serviços de: 1) aferição de 
+instrumentos; 2) adestramento de pessoal envolvido em observações; 3) fornecimento de modelos para as observações; e 4) 
+prestação ou recebimento de infos relativas à meteorologia, ao svç radio-meteorológieo e à SegNav em geral. 
+- Acd LAR: a UAM fica na Ponta da Armação, em Niterói (só existe essa UAM), e presta quaisquer infos sobre meteorologia 
+(pessoalmente ou por carta/tel/email). 
+- Acd MPN: há uma no cais do porto do Rio e outra na CP do porto de Rio Grande. E ainda, o SMM (na Ponta da Armação) 
+também presta quaisquer infos sobre meteorologia (pessoalmente ou por carta/tel/email). 
+> Publicações e modelos do serviço meteorológico: 
+- As da DHN estão relacionados no Catálogo de Cartas e Publicações, também da DHN. 
+- A OMM edita a WMO/OMM n° 9 {Weather Reporting - Information for Shiping), que contém infos sobre divulgação de 
+previsões, estações que recebem msgs SHIP, etc, para todo o mundo. / Dela também são publicadas separatas: Coastal Radio 
+Stations Accepting Ship's Weather Repots e Meteorolosical fac-Simile Broadcast. 
+- O navegante ainda deve dispor das publicações da UIT, que contém as infos necessárias à transmissão e divulgação de dados 
+meteorológicos. 
+1) Registro das observações de rotina: 
+> Para que se tenha a exata noção do tempo, as observações devem ser feitas simultaneamente por todas as embs e estações do 
+planeta, nos chamados horários sinóticos: 
+Horas sinóticas principais (HMG): 
+0000, 0600,1200 e 1800. 
+(No Brasil, devido ao fuso +3, elas ficam 
+Horas sinóticas intermediárias (HMG): 
+0300, 0900,1500 e 2100. 
+invertidas em termos de hora local!) 
+> Modelo DHN-5934-3 (An-A/MPN): 
+- Serve para o registro das observações de rotina, de 3 em 3 hs. 
+- Usado para estatísticas e para a confecção de boletins climatológicos (2/ano) e cartas-piloto (l/mês). 
+- Esse modelo contém o código FM 13-Xn SHIP, que a OMM estabeleceu para padronizar as observações. 
+- Não é transmitido, e sim remetido à DHN por correio ou entregue nas CP/DL/AG/Embaixadas/Consulados brasileiros, 
+podendo ser acompanhado de infos sobre as dificuldades encontradas no registro das observações e na tx das msgs SHIP. 
+- Obs: a transmissão das observações obedece a outro padrão da OMM (modelo DHN-5938 - msg SHIP, figs 7-1/2). 
+> As observações das estações costeiras são registradas e transmitidas obedecendo-se o padrão do código FM 12-XII SYNOP, 
+que tb consta do DHN-5934-3. 
+> As observações e msgs das embarcações e estações costeiras são registradas e codificadas pelo código meteorológico comum 
+SYNOP-SHIP (An A-Parte 2). 
+2) Mensagens SHIP (pág 239 e figs 7-1/2): 
+> Para fins de previsão, as observações devem ser enviadas com agilidade, na forma de msgs SHIP, a uma repartição coletora 
+central por meio da rede radiotelegráfica e radiotelefônica do sistema de estações-rádio do país, para posterior transmissão ao 
+Serviço Meteorológico Marinho da DHN (que centraliza as infos e, horas depois, elabora e dissemina o Meteoromarinha). 
+> LAR: as estações costeiras que recebem msgs SHIP são todas as da RENEC, que têm freqs (canal 16 e 4125 KHz SSB, 
+ambos por fonia) e horários especiais para isso, durante ao menos 30 min após as horas sinóticas principais (neste período, 
+as mensagens meteorológicas têm preferência de tráfego). Vide Ap-IV-5/LAR. 
+- As msgs SHIP devem ser transmitidas à estação costeira mais próxima, em qq lugar do mundo, no Io horário de trabalho 
+do SMM após a hora sinótica correspondente. 
+(Obs: segundo a Normam-19, as msgs SHIP também podem ser transmitidas por email, tel ou fax.) 
+- É importante e desejável que o navegante transmita ao menos as msgs SHIP das horas sinóticas principais (00/06/12/18Z). 
+- As msgs meteorológicas são grátis em qq lugar do mundo. 
+> As msgs SHIP devem conter o indicativo internacional da embarcação. 
+- Usar como endereço "Obs Meteo" + "centro meteorológico a que se destina". No Brasil, o endereço é "Obs Meteo Rio". 
+
+
+===== PAGINA 350 =====
+
+> No Atlântico Sul, apesar do uso de satélites e estações montadas em bóias para observação automática em áreas marítimas, 
+devido à escassez de dados, as msgs SHIP transmitidas com até 24 h de atraso ainda são usadas para previsão. Depois disso, 
+são usadas apenas para fms climatológicos e cartas-piloto. 
+> As msgs SHIP seguem o código FM13 - XII SHIP, da OMM. 
+- Elas são transmitidas de acordo com o modelo DHN-5938 (é grátis), usando o código meteor, comum SYNOP-SHIP. 
+- As msgs constam de uma série de grupos de 5 algarismos e letras. 
+- O I o grupo identifica a origem da msg, e possui apenas 4 letras: AAXX para SYNOP e BBXX para SHIP. 
+- As letras ou símbolos que constituem os grupos (significados no anexo A) são substituídos por algarismos que, segundo os 
+códigos próprios, representam os valores medidos ou os aspectos observados dos elementos meteorológicos correspondentes. 
+- A maioria dos grupos de 5 letras e símbolos começa por um algarismo, que é o indicador de posição do grupo na msg. 
+> Para sua confecção, as embs devem ter: barômetro ou barógrafo, termômetro para a água do mar, psicrômetro. anemômetro. 
+anemoscópio. cronógrafo. quadro de nuvens (DHN-5906) e quadro do estado do mar (DHN-5909). 
+> Considerando-se a diversidade e a precisão dos instrumentos de bordo, as embs são classificadas como: 
+a) Embs selecionadas: 
+tx msgs SHIP na forma completa. 
+b) Embs suplementares: 
+tx msgs SHIP na forma abreviada. 
+c) Embs auxiliares: 
+tx msgs SHIP na forma reduzida. 
+- As embs auxiliares podem tx as observações em linguagem clara (sem codificação), quando não for possível tx na forma 
+reduzida. 
+3) Informação de mau tempo (msgs de perigo e especiais): 
+> MPN: realizar observações especiais, e transmitir as msgs correspondentes, sempre que ocorrer uma das seguintes 
+condições: 
+- Variação > 20 kt na veloc média do W, mantida por ao menos 10 min. 
+- Variação > 30° na direção média do W (para W > 15 kt), mantida por ao menos 10 min. 
+- Início ou fim de nevoeiro denso (visib < 1 milha). 
+- Variação > 2 hPa em 1 hora. 
+>• LAR: a SOLAS estabelece que o Comte de todo navio é obrigado a disseminar uma msg de perigo quando se encontrar na 
+presença de: 
+(Acho que está errado. Seria uma msg de segurança, e não de perigo.) 
+- Tempestades ou ciclones tropicais e seu desenvolvimento. 
+- Ventos com força > 10 ( > 48 kt). 
+- Temp do ar abaixo de zero com ventos muito fortes, provocando congelamento severo da superestrutura. 
+- Gelo flutuante/icebergs. 

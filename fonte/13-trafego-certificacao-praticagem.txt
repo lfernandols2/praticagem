@@ -1,0 +1,1150 @@
+FONTE: resumo curso h.pdf | CAPITULO 13 - trafego-certificacao-praticagem | paginas 297-315 | OCR ABBYY
+OBS: texto OCR ruidoso, mistura ingles/portugues. Interprete com cautela; nao invente.
+
+
+===== PAGINA 297 =====
+
+wm& 
+NORMAM 08 / DPC - NORMAS DA AM PARA 
+TRÁFEGO E PERMANÊNCIA DE EMBARCAÇÕES EM AJB 
+TRÁFEGO DE EMBS 
+SEÇÃO I - DEFINIÇÕES 
+1) PASSAGEM INOCENTE: 
+> Direito de passagem inocente no Mar Territorial: deve ser contínua e rápida, e não prejudicial à paz/boa-ordem/seg-do-Brasil. 
+- Compreende o parar ou fundear, desde que constituam incidentes comuns da navegação ou sejam impostos por força maior 
+ou prestação de socorro. / Não compreende o acesso às águas interiores ou quando para elas se dirigirem. 
+> Fundeio ou parada de máqs no Mar Territorial: comunicar à CP da área, informando pos, motivo, ETD e porto de destino. 
+- Informar tb a partida efetiva. / A CP comunicará ao DN. 
+- O DN ou CP poderão determinar outro local quando a pos não for conveniente à SegN/SVHM/PrevPol ou aos interesses da MB. 
+2) ÁGUAS JURISDICIONAIS BRASILEIRAS SÃO: 
+> Mar Territorial: águas marítimas na faixa de 12 NM da linha de baixamar do litoral continental e insular (acd cartas G.E.). 
+> ZEE: águas marítimas das 12 às 200 NM, a partir das linhas de base do Mar Territorial. 
+> Águas sobrejacentes à Plataforma continental, quando esta ultrapassar os limites da ZEE. 
+> Águas Interiores: são as hidrovias interiores (ie: rios, lagos, lagoas, canais, angras... e áreas marítimas consideradas abrigadas). 
+SEÇÃO II - INFORMAÇÕES SOBRE O TRAFEGO 
+1) PROCEDIMENTOS: 
+a) Embs e plataformas em fainas de reboque: os responsáveis deverão: 
+- Alocar áreas por no máx 3 dias, renovando/cancelando a área cnf apropriado. 
+- Aderir ao SISTRAM, informando periodicamente a msg de PIM das próximas 24 hs. 
+- Informar à CP da área da operação, no min 72 hs antes (CHM > Avs Navegantes), as áreas a serem alocadas, incluindo: 
+nome, caracts (cores da superestrutura), comp do reboque, rumo e veloc média, data de início e fim dos svçs e lat-log da área, etc 
+b) Controle de movimentação e posicionamento de plataformas, navios-sonda, FPSO/FSU/construções que alterem suas pos 
+nas AJB: para que a AM saiba previamente, os responsáveis devem: 
+- Enviar mensalmente ao DN e CP da área uma rela com a posição de todas as estruturas/construções desse tipo. 
+- Alocar áreas para no máx 3 dias. 
+- Aderir ao SISTRAM, informando periodicamente a msg de PIM das próximas 24 hs. 
+- Informar a todos os DNs e CPs próximos das áreas alocadas para o deslocamento, no min 72 hs antes (CHM > Avs Navegs): 
+nome ou tipo de construção, caracts, comp (se rebocando, o comp. do dispositivo), pontos de fundeio previstos e efetivos, etc... 
+c) Escuta permanente no canal 16: deve ser mantida por todas as embs no Mar Territorial e Águas Interiores equipadas com 
+VHF. 
+d) Chamada para identificação no Mar Territorial, por navios da MB/Inspeção Naval/embs de fiscalização: deve ser 
+prontamente atendida / Caso sem VHF, usar sinais visuais que permitam a identificação solicitada. 
+e) CP/DL/AG: funcionam como Sub-centros de Coordenação do serviço de Busca e Salvamento, seguindo instruções do DN. 
+f) Embs de Esporte e Recreio: atenderão às normas específicas da NORMAM 03. 
+g) Eventos náuticos: os procedimentos para comemorações públicas e regatas estão na NORMAM 03. 
+h) Embs estrangeiras arretadas, contratadas ou similares: atenderão à NORMAM 04. 
+i) São proibidas a pesca e a navegação num raio de 500 m em torno das plataformas de petróleo (exceto embs de apoio à plataf). 
+j) Tráfego no porto: tb obedecerá e às normas da Autoridade Portuária. 
+
+
+===== PAGINA 298 =====
+
+SEÇÃO III - CONTROLE DO TRAFEGO MARÍTIMO 
+1) TRÁFEGO DE EMBS EM ÁREA MARÍTIMA: 
+A) SISTRAM - vide anexo 1-B: 
+> As infos sobre o tráfego envolvem os seguintes aspectos: 
+a) a SVHM: 
+O SISTRAM recebe infos voluntárias para o SAR. 
+b) o cumprimento da legislação nas AJB: 
+O SISTRAM recebe infos obrigatórias para cumprir essa legislação. 
+c) o CNTM em emergs e conflitos: para tal, os navios cumprirão instruções específicas da Aut de CNTM, cnf doutrina da MB. 
+> Comunicação de posição dos navios: 
+a) Navios brasileiros ou afretados por armadores brasileiros, em nav de LC ou cabotagem, em qq área do mundo: são 
+obrigados a enviar ao COMCONTRAM a sua pos e dados de navegação (acd anexo 1-B). 
+b) Navios brasileiros ou afretados por armadores brasileiros envolvidos com apoio marítimo às plataformas de petróleo e 
+gás nas AJB (atividades offshore), quando em trânsito entre portos nacionais: idem. 
+c) Navios estrangeiros: são convidados a se integrarem ao SISTRAM. 
+- Mas são obrigados: 
+- no Mar Territorial e águas interiores. 
+- embs autorizadas a levantar dados para a atividade de petróleo e gás nas AJB. 
+- embs que fazem reboques de petrechos nas AJB. 
+B) Sistema de Identificação e Acompanhamento de Navios de Bandeira Brasileira a Longa Distância: 
+> LRIT: foi implementado (Ia fase) desde JUL/08. Exige o envio de infos sobre o pos para os Centros de Dados do Sistema 
+LRIT. / O CDNL está estabelecido nas instalações do COMCONTRAM, funcionando independente do SISTRAM. 
+> Tx de infos para o LRIT: os navios SOLAS brasileiros, em qq lugar mundo, devem transmitir ao CDNLRIT, a cada 6 
+horas: nome e núm IMO, lat-long e data-hora da pos. A transmissão dessas infos é por email, acd anexo 1-C. 
+> Mas novas funcionalidades exigem que o CDNLRIT possa efetuar requisição de informação de posição a qq momento e alterar, 
+remotamente, via provedores de serviço, o intervalo de tempo da transmissão configurado no eq de bordo (vide Anexo 1-E). 
+As informações passarão a ser enviadas via Web-Service. Mas até que os testes de conformidade sejam efetuados, as embs 
+deverão continuar enviando os dados de 6-6 hrs, via email. 
+C) Sistema de Monitoramento Marítimo de Apoio às Atividades do Petróleo (SIMMAP): 
+> O SIMMAP identifica e acompanha o tráfego relacionado à indústria do petróleo e gás, com as seguintes finalidades: 
+- Incrementar a segurança e proteção do tráfego, a SVHM e a PrevPol. 
+- Contribuir para a fiscalização das atividades dessa indústria. 
+- Servir como um instrumento auxiliar nas investigações de acidentes. 
+> Assim como o LRIT, o SIMMAP funciona independente do SISTRAM. 
+> Tx de infos ao SIMMAP: todas as embs operando nas AJB, empregadas no transporte de petróleo/gás/derivados, aquisição de 
+dados, prospecção, lavra, navios-sonda, plataformas de perfuração e embs de apoio marítimo enviarão suas infos acd Anexo 
+1-D, a partir de 31/JUL/07. / As embs brasileiras enquadradas do LRIT estão dispensadas. 
+D) Estudar quadro resumo da pág 1-6. 
+2) TRAFEGO DE EMBS NA "AREA DO PORTO ORGANIZADO" (APO): 
+> A AM coordenará o estabelecimento e divulgação, a ser realizada pela Adm. do Porto: do calado máx, porte bruto máx e 
+dimensões máxs dos navios; bem como a delimitação, nas APO, das áreas de fundeadouro, inspeção sanitária, etc... 
+> O CP exigirá que a Adm do Porto promulgue o documento que estabelece tais parâmetros, e os fará constar das NPCP/NPCF. 
+> Em caso de divergências, o CP/DL/AG reunirá representantes das partes interessadas (quando necessário, assessorado por 
+Práticos, convocados acd NORMAM-12), visando obter consenso na definição de parâmetros. / Sem consenso, o CP decide! 
+
+
+===== PAGINA 299 =====
+
+a/ssssasss^mm 
+ENTRADA, DESPACHO E SAÍDA 
+1) AS EMBS MERCANTES, NOS PORTOS NACIONAIS: 
+> Comunicam a chegada ao OD pela Parte de Entrada. 
+> Solicitam permissão para saída pelo Pedido de Despacho. / Esse procedimento é o Despacho. 
+> Caso não haja tempo (devido a período e local), a emb poderá ser liberada pelo Despacho Como Esperado. 
+> Após despachada, tem 2 dias úteis para sair. Caso não saia, o despacho deve ser atualizado pela Revalidação do Despacho. 
+> Ao ser liberada, recebe o Passe de Saída. 
+> A efetiva saída é participada pela Parte de Saída. 
+>• A tramitação dos does entre o OD e o Comte/armador/preposto será pref por fax. 
+> Omissão ou info inverídica que concorra para que o Despacho seja feito é falta grave (Comte é o ppal indiciado). 
+2) PARTE DE ENTRADA (Anexo 2-A): 
+^ Obrigatório para: 
+- Embs estrangeiras, exceto: 
+- esporte/recreio, e navios de guerra e de Estado não exercendo comércio. 
+- Embs nacionais > 20 AB, exceto: 
+- esporte/recreio, e navios de guerra e de Estado não exercendo comércio. 
+- de pesca, quando saindo e retornando a um mesmo porto sem escalas intermediárias. 
+> Parte de Entrada com seus apêndices: encaminhar ao OD em no máx 6 hs da atracação ou fundeio. Esses apêndices são: 
+- Apresentação obrigatória em todos os portos: 
+Declaração Geral (Anexo 2-B). 
+- Apresentar apenas no Io e no último porto, desde que sem alt de pessoal e pass: 
+Lista de Pessoal Embarcado (CrewList) (Ap. B-I) 
+Lista de Passageiros 
+(Ap. B-II) 
+Planüha de Dados do GMDSS 
+(Ap. B-III) 
+> Does que devem estar disponíveis para apresentação: 
+Declaração de Carga (An. 2-C). 
+Declaração de Bens da Tripulação (An. 2-D). 
+Declaração Marítima de Saúde. 
+Declaração de Provisões de Bordo. 
+> O OD arquivará as Partes de Entrada por 6 meses. 
+> Se na viagem imediatamente anterior à escala ocorrer: avaria de vulto, insubordinação, acidente pessoal grave, fatos 
+importantes, ou ainda qq alt de interesse da navegação, o Comte de navio brasileiro encaminhará ao OD extrato autenticado do 
+lançamento no Diário de Navegação. / Navio estrangeiro só cumpre o último caso. 
+3) DESPACHO: 
+a) Obrigatoriedade: 
+> Pesqueiros do PREPS com AB > 50 ou comp total > 15 m. 
+> Embs de qq nacionalidade > 20 AB (inclusive os pesqueiros não enquadrados acima), exceto esporte/recreio e navios de 
+guerra e de Estado não exercendo comércio. 
+Obs: a mov entre portos da mesma área portuária é efetivada pelas Partes de Saída e Entrada, não sendo necessário o Despacho. 
+b) Procedimentos do interessado: 
+> Pedido de Despacho: será ene ao OD pelo Comte/armador/preposto (pref via fax), junto com a Declaração Geral. 
+- Caso ocorram alts, encaminhar tb as Listas de Pessoal Embarcado e de Passageiros. 
+- Os pesqueiros do PREPS apresentarão, além dos does acima, a Declaração de Adesão ao PREPS (anexo 2-K). 
+- Encaminhar entre a chegada e a saída da emb, para possibilitar que sejam satisfeitas qq exigências para a liberação. 
+- Navios estrangeiros sujeitos à TUF devem encaminhar o comprovante de recolhimento. 
+- Caso a emb necessite de vistoria, o Pedido de Despacho só deve ser ene após a sua realização (anexando os does resultantes). 
+> Embarques/bqs de tripulantes: devem constar do Rol de Equipagem/Portuário da emb (original fica a bordo). 
+> Mov de pessoal ocorrida após o Despacho: encaminhar ao OD uma nova Lista de Pessoal Embarcado/Passageiros. 
+- No caso de emd/dbq fora do expediente, após o suspender ou na condição de Despacho Como Esperado, o Comte deve 
+comunicar ao OD, lançar no Diário e no Rol, e formalizar o emb/dbq no próximo OD (no caso de dbq, substituir o trip 
+antes da partida para assegurar o CTS). 
+> Se for constatado que o Armador deixou de cumprir os procedimentos acima, ou não apresentar os contratos de trabalho dos 
+tripulantes da Crew List, junto com cópia da CTPS, a CP/DL/AG deve comunicar ao Min do Trabalho e Emprego. 
+c) Procedimentos do OD: 
+> Examinar o Pedido de Despacho e a doe anexa, preencher o Passe de Saída e ene ao interessado (pref via fax), liberando a emb. 
+- Antes, vrf se não há restrições impostas pelo PSC (para emb estrangeira) ou do setor de vistorias (para embs inscritas no OD). 
+- Nos casos de prorrogação do Despacho (revalidação), deverá ser emitido um novo Passe de Saída. 
+> Verificações/inspeções/diligências devem ser feitas sem retardar as opes das embs, salvo motivo de força maior oü justificado. 
+> O OD pode determinar a apresentação de outros does e realizar vrfs materiais, enf julgue conveniente; e pode impedir a 
+entrada/perm/saída da emb (msg ao DN info DPC e cônsul da bandeira). 
+> Os OD deverão estar permanentemente guarnecidos. / Eles arquivarão os Pedidos de Despacho e seus anexos por 6 meses. 
+
+
+===== PAGINA 300 =====
+
+e) Validade do Despacho: 
+> Até o próximo porto: 
+- embs de Longo Curso e Cabotagem, 
+> Até 60 dias: 
+- embs de transporte de pass de nav interior, desde que não esteja vencendo qq certif ou doe. 
+(o despacho por fax não se aplica a essas embs) 
+> Até 180 dias: 
+- embs classificadas para a navegação de Apoio Marítimo. Interior e de Pesca. 
+- embs despachadas para navegação em Viagem Redonda (sem escala). 
+Obs: pendências impeditivas cancelam automaticamente o Despacho. / As restritivas podem ter prazo para serem sanadas. 
+f) Procedimentos especiais: 
+> Despacho Como Esperado: é o procedimento antecipado do despacho da emb esperada no porto. 
+Requisitos para consegui-lo: 1) não ter exigências a serem cumpridas. 
+2) não necessitar de vistorias, emissão de certificados, etc. 
+3) não ser de transporte de pass (ou de carga e pass). 
+4) não ter recebido "Despacho Como Esperado" no porto anterior. 
+> Alteração de destino / desvio de rota após despachada: 
+- O Comte/armador/preposto deve comunicar aos ODs do portos: de Despacho, de destino alterado e de destino efetivo. 
+- Emitir msg ao COMCONTRAM, enf SISTRAM. 
+- No caso de desvio por interesse do armador ou força de arribada, o OD do porto de chegada deve alterar, no Passe de Saída, o 
+porto de destino do Despacho anterior, transcrever o data-hora da msg que comunicou o desvio, e lançar o motivo no quadro obs 
+- Se a CP despachar navio nacional p/ porto nacional e souber que ele desviou p/ porto estrangeiro, comunicar à PF e Receita. 
+> Despacho de embs avariadas, desativadas, fora de classe, cascos e sucata flutuante > 500 AB: 
+- O despacho de saída é considerado "liberações especiais". Apresentar à AM: 
+a) plano de execução da faina, elaborado por um Salvage Master. 
+b) ratificação do plano de execução da faina por SocCIass ou EntEsp, atestando a estanqueidade e flutuabilidade. 
+c) seguro do Clube P&I para remoção de destroços e responsabilidade civil (obrigatórias no Mar Territorial). 
+> O Pedido de Despacho será negado por (pode ser impedida de sair do porto e ser retida para diligências): 
+- Decisão da CP/DL/AG (acd normas em vigor). 
+- Ordem judicial: o Despacho ficará condicionado à liberação judicial. 
+- Solicitação oficial e fundamentada de órgãos diversos (havendo dúvidas, consultar a DPC). 
+> Proibição de entrada e/ou permanência no porto: 
+- por decisão do CP/DL/AG (acd normas). 
+- por solicitação oficial das autoridades. 
+Obs: Nos 2 casos anteriores, as ações tomadas devem ser participadas por msg do CP/DL/AG ao DN, com info à DPC (e cônsul). 
+> Embarcações em comboios: no Despacho, apontar o nome de todas as embs no quadro "observações" da Declaração Geral. 
+> Quando a ope de carga se fizer por agente de navio, lançar o nome deste no quadro "observações" da Declaração Geral. 
+g) Casos especiais (does a enviar junto com o Pedido de Despacho): 
+> Embs estrangeiras autorizadas a operar em AJB: enviar cópias do AIT (??), Relatório de Vistoria (do GEVI) e do CTS. 
+> Embs de pesca estrangeiras arrendadas ou com autorização para operar nas zonas brasileiras de pesca: poderão ter 
+técnico ou observador da SEAP/PR ou MMAmb. Juntar a declaração desses órgãos quanto à designação ou não dos técnicos 
+> Embs brasileiras de pesca: para operar nas zonas brasileiras de pesca, devem ter acomodação para técnico ou observador se 
+designado pela SEAP/PR ou MMAmb. / Juntar uma declaração do prop/armador de que a emb dispõe de tal acomodação. 
+> Embs de pesca estrangeiras não aut a operar em AJB: suas arribadas são não-justificadas (IAFN e apertar fiscalização). 
+> Navios graneleiros ou combinados (Ore-Oil ou Ore-Bulk-OU) > 18 anos (da data de entrega) que carregam graneis 
+sólidos de peso específico > 1,78 ton/m3: enviar cópia da Declaração da Vistoria de Condição. 
+> Emb estrangeira sujeita à Vistoria de PSC: enviar cópia do FORM ALFA e, caso exista, do FORM BRAVO. 
+> Emb obrigada a portar CSN (??>:enviar cópia do CSN. 
+h) Sistema de Controle de Despachos de Embarcações (SISDESP): 
+> O SISDEP ONLINE foi criado para que os OD e a DPC tenham controle das embs mercantes. Os ODs devem laçar no 
+servidor ALPHA da DPC os dados das Partes de Entrada, Despachos e Partes de Saída das embs. 
+> Caso haja na OM método paralelo substituindo o SISDEP LOCAL para controle de dados e emissão de does, os seus dados tb 
+deverão ser lançados no SISDEP ONLINE. 
+4) PARTE DE SAÍDA: 
+> Obrigatório para: 
+- estrangeiras, exceto: 
+- esporte/recreio, e guerra e Estado s/ comércio. 
+- nacionais > 20 AB, exceto: 
+- esporte/recreio, e guerra e Estado s/ comércio. 
+- de pesca, quando em "viagem redonda". 
+> Deve ser enviada ao OD pelo Comte/armador/preposto (pref via fax) em até 6 hs após a saída. 
+> Serão arquivadas pelo OD por 6 meses. 
+> Alts de pessoal após o Despacho devem ser informadas com a Parte de Saída (ene nova Lista de Pessoal Emb/Passageiros). 
+5) CONTROLE DE SITUAÇÃO DE EMBS: com base nas Partes de Entrada e de Saída, as CP/DL/AG devem manter um 
+controle da situação das embs na sua jurisdição pelo "Quadro de Situação das Embs nos Portos/Fundeadouros/Terminais". 
+4 
+
+
+===== PAGINA 301 =====
+
+sHJvAummm 
+PERMANÊNCIA EM AJB 
+SEÇÃO I - PROCEDIMENTO NOS PORTOS 
+1) SERVIÇO DE PRATICAGEM: 
+> Constarão das NPCP/NPCF: - as condições da praticagem (se obrigatória ou facultativa). 
+- a ZP e seus limites. 
+- as empresas, associações de práticos ou práticos autônomos (end, tel e freqs chamada). 
+2) SERVIÇO DE REBOCADORES: 
+> O estabelecimento do dispositivo e qtd de tugs para a atrac/desatracação é responsabilidade exclusiva do Comte. 
+> Nenhum Comte deverá autorizar uma manobra se não estiver convicto de que estão resguardadas as condições de segurança. 
+> O Comte decidirá o dispositivo de reboque (o num e pos dos tugs), sendo recomendável ouvir a sugestão do Prático. 
+> As solicitações de apoio portuário devem partir do Comte, e as contratações dos svçs devem ser feitas pelo armador/prep. 
+> O uso de tugs pode onerar inaceitavelmente as manobras, devendo ser imposto diante de extrema dificuldade ou 
+impossibilidade na manobra sem eles. / Na ausência de tugs por greve ou avaria, as manobras poderão vir a ser realizadas. 
+> O uso inadequado de tugs pode gerar acidentes graves, envolvendo inclusive os próprios tugs, e com mortes. 
+> Tugs de pot > 300 HP devem ter o Certif de T.E.Longitudinal. / Os tugs são reconhecidos pelos valores deste Certificado. 
+> Tugs de pot < 300 HP são reconhecidos pelo BP estimado (1 BP = 100 HP). / Mesmo que temporariamente, esses tugs só 
+podem realizar svçs de reboque na navegação de mar aberto se tiverem o Certificado. 
+> Manobras em águas interiores com plataformas são consideradas especiais. / Devem ser planejadas com antecedência e 
+submetidas à apreciação do CP/DL/AG, que poderá mandar um rebocador de alto-mar acompanhar. 
+> Ao Comte caberá a decisão final quanto ao uso dos eqs adequados à manobra e dispositivos. 
+> Tugs junto à proa: é proibido passar o cabo arriando-o pela proa para pegar com croque. / Usar retinida. 
+> As condições de uso dos tugs (se obrigatórios ou facultativos) são estabelecidas pela Adm do Porto, sob coordenação da AM. 
+3) FAINAS NOS PORTOS: 
+> As embs devem usar sinais sonoros e visuais (e VHF) para definir antecipadamente as movimentações. 
+> Uso da bandeira nacional: 
+- Embs brasileiras > 5 AB, na popa: - entrada/saída de porto; à vista de outra emb ou farol guarnecido; no porto, das 8 ao pôr. 
+- Embs estrangeiras: 
+- no topo do mastro de vante, quando no porto. 
+> Transp de material e pessoal entre navios e pontos de terra: feito apenas por embs de peq porte autorizadas pela CP. O 
+embarque/desembarque em terra só pode ser efetuado em um dos pontos fiscais (Saúde dos Portos e Receita). 
+> Escadas: a de quebra-peito deve ficar rebatida. 
+- Fundeado: pode arriar uma escada de portaló entre o nascer e o pôr. / De noite, só pode ser arriada em caso de necessidade, 
+devendo ser recolhida logo após o emb/desembarque. 
+- Atracado: a escada de portaló arriada para o cais deve ter rede de proteção, e pode ficar içada ou arriada de noite. E proibido 
+manter qq escada arriada no bordo do mar. 
+> Pintura e tratamento: é autorizado. Evite a queda de pessoas e material. Pode arriar pranchas e chalanas sem licença da CP 
+(recolher ao final da faina ou pôr do sol). 
+> Exercícios com embs de salvatagem: podem ser amadas para treinamento, sem licença da CP (registrar no Diário). 
+Mas o seu uso para transporte de pessoal e material só pode ser feito com aut da CP. 
+> O costado deve ser iluminado no bordo do mar (para fiscalização). As chatas ou barcaças a contrabordo também. 
+> Movimentações de material do navio, exceto carga (lixo, gêneros, combu e lub): devem ser feitas, em princípio, de dia. 
+> Navio atracado é proibido de realizar reparo que o impossibilite de manobrar, salvo em situação especial, e desde que a 
+Adm do Porto concorde. Para a sua movimentação de ou para área de fundeio, usar dispositivo especial de tugs. 
+
+
+===== PAGINA 302 =====
+
+"m*/**11" •uumi'—————I 
+— — — — — — — ^ _ — 
+!MUMLM»MBUaillBISBC8ga»M-»g»>'>>J..«y! 
+SEÇÃO II - PROCEDIMENTOS PARA ARRIBADA E ABRIGO 
+1) Alt do porto de destino, arribada ou abrigo: será autorizada, se solicitada à CP/DL/AG de despacho, quando ocorrer: 
+a) Acrescentar porto de escala para abastecimento. 
+b) Assistência médica a pessoas, desde que ninguém tenha contribuído. 
+c) Substituir o porto de destino se pintar carga noutro porto, desde que sem prejuízo de terceiros e fiscalização. 
+d) Desembarcar defunto de causa natural. 
+e) Solicitação de abrigo em caso de mau tempo. 
+f) Arribada de embs avariadas. 
+2) Emb que venha arribar em portos nacionais por causa de sinistro ou avaria: terá sua entrada condicionada a uma 
+declaração do Comte de que a flutuabilidade é estável e que não há risco para o ambiente. / O titular da OM poderá subsidiar sua 
+decisão de autorizar ouvindo a SocClass (se é seguro ele demandar águas interiores). / E necessário: 
+- Que a P & I avalize contra a danos a terceiros e meio ambiente. 
+- Um depósito caução para indenizar os reparos recomendados pela Sociedade e os danos a terceiros e ambiente. 
+- Um contrato para serem efetuados os reparos recomendados pela Sociedade. 
+- Outras exigências estabelecidas após VED. 
+Obs: Essas ações não devem prejudicar o IAFN. 
+SEÇÃO III - FISCALIZAÇÃO POR AUTORIDADES NACIONAIS 
+1) QUANDO DA ENTRADA DE EMB: 
+> A visita das autoridades do porto (fiscais da Saúde dos Portos, de Aduana e Imigração) é a primeira exigência a ser atendida. 
+- Compete ao representante do armador as providências necessárias para sua realização, antes que a emb seja liberada para 
+carga/descarga e emb/desembarque de passageiros. 
+- E proibido às lanchas do armador atracar em emb fundeada procedente de porto estrangeiro, sem prévia liberação da Receita, 
+PF e Saúde dos Portos. 
+a) Livre prática (Free Pratique): é uma autorização do Órgão de Vigilância Sanitária Federal para que uma emb (procedente 
+ou não do exterior) atraque ou inicie o emb/desembarque de cargas e viajantes, podendo ser: 
+- Livre Prática a Bordo: 
+- emitida a bordo, após inspeção sanitária. 
+- Livre Prática via Rádio: 
+- emitida a partir da avaliação das infos apresentadas na solicitação do Certificado. 
+b) Quarentena: embs cujas condições sanitárias forem insatisfatórias ou que provenham de locais com surto de doença 
+transmissível devem permanecer nos fundeadouros de quarentena até liberação pela Saúde dos Portos. / O fundeio depende da 
+emb ter tanques de retenção. / O Comte deverá apresentar declaração de que os tanques de dejetos estão 100% vedados e 
+tratados quimicamente. / O descumprimento das normas de saúde sujeita a emb a ser retirada para áreas costeiras afastadas. 
+- É proibida a descarga de águas servidas! 
+c) PSC: navios estrangeiros estão sujeitos ao PSC, acd convenções e as NORMAM 04 - Ope de Embs Estrangeiras em AJB. 
+2) RELATÓRIO DE ÁGUA DE LASTRO: ao descarregar águas de lastro nas AJB, observar o contido na NORMAM 20. 
+SEÇÃO IV - PROCEDIMENTOS PARA TRANSFERÊNCIA DE ÓLEO ENTRE EMBS 
+> Ler págs 3-5 e 3-6. 
+SITUAÇÕES EPECIAIS DE PERMANÊNCIA DE EMBS NAS AJB 
+1) EMBS FORA DE SERVIÇO: 
+> Embs nacionais ou estrangeiras "aguardando reparos", "prorrogação de contrato", "abandonadas" e "sub-júdice" devem 
+ficar em áreas de fundeio/atracação específicas, estabelecidas por acordo entre a Aut Portuária e o CP/DL/AG, ou em área 
+particular, desde que acordado com a CP/DL/AG. 
+a) Embs aguardando reparos ou prorrogação de contrato: 
+> As CP/DL/AG, ao autorizarem a retirada de tráfego dessas embs, devem certificar-se da existência de um cronograma de 
+trabalho ou de does que comprovem a renovação contratual e estabelecer as condições mínimas de operacionalidade. 
+> As CP/DL/AG poderão efetuar uma VED e/ou solicitar à SocClass que ateste sobre as condições de segurança da emb. 
+b) Embs abandonadas: 
+> Fazer um levantamento da propriedade da emb e compelir o proprietário remover ou demolir. Caso ele declare renúncia à 
+propriedade ou não remover/demolir, o bem será considerado perdido e incorporado à União. 
+c) Embs sub-júdice: 
+> As CP/DL/AG deverão manter um controle rigoroso das embs sub-júdice (por ações de arresto, seqüestro, etc), e adotar as 
+medidas determinadas pelo Judiciário (comunicando o seu cumprimento ao juiz). 
+> Caso a determinação venha de juiz federal ou estadual, de outra Comarca, o caso deve ser comunicado ao juiz de origem 
+(cópia para a DPC) para que este possa ser informado, e para que as medidas derivadas possam ser adotadas. 
+d) Embs em período de defeso de pesca ou fora de serviço a pedido do armador: 
+> Ao autorizar sua retirada de tráfego, as CP/DL/AG emitirão declaração informando o período de inatividade. 
+> Para retornar ao svç ao término da imobilização, alas devem ser vistoriadas nos aspectos de SegNav/SVHM/PrevPol. 
+
+
+===== PAGINA 303 =====
+
+ANEXO 2-G 
+TARIFA DE UTILIZAÇÃO DE FARÓIS 
+Tabela do valor da TUF para embarcações estrangeiras 
+EMBARCAÇÃO (TPB) 
+< 1.000 
+1.000-50.000 (exclusive) 
+50.000 -100.000 (inclusive) 
+> 100.000 
+TARIFA 
+isento 
+US$ 1.500,00 
+US$ 2.250,00 
+US$ 3.000,00 
+Obs: cobrança em moeda nacional, conversão pela taxa de fechamento do dólar comercial de venda no dia útil anterior ao do 
+pagamento, informada pelo BACEN. 
+1) Procedimentos adotados pelos OD para uniformizar a cobrança: 
+> Navios de pass, assim reconhecidos por doe da S.Class ou da AM, pagarão TUF nos 2 primeiros e nos 2 últimos portos 
+nacionais de cada viagem em AJB, independente de qq acordo de reciprocidade. 
+- Em caso de dúvida sobre a classificação da S.Class, consultar a DPC 
+- Assim, os navios de Paquete tratados em regulamentação são os navios de Passageiros. 
+> Para terem a regalia dos navios de pass, os demais navios necessitam ser de bandeira de países com acordo de 
+reciprocidade reconhecido pela SRF e reunir as condições previstas no Decreto n° 70.198/72 (terfeito ao menos 2 viagens redondas
+no ano anterior). Para manter a regalia, o navio não pode interromper a linha por mais de 24 meses consecutivos. 
+> Obrigações da MB: verificar os does da S.Class e o núm de viagens redondas realizadas no ano anterior, na linha para a qual 
+está se inscrevendo. 
+> Obrigações da SRF: indicar os países com os quais temos acordos de reciprocidade e emitir o respectivo Certificado. 
+2) Navios de propriedade/arrendados por empresas nacionais que sejam registrados em outros países pagam a TUF. 
+Navios de propriedade/arrendados por empresas estrangeiras registrados no Brasil estão isentos. 
+Navio estrangeiro afretado por armador nacional, com trip brasileira, se permanecer com a bandeira do país de origem, pagará 
+a TUF (a menos que possa obter Certificado de Paquete). 
+3) Rebocadores/empurradores de chatas nas hidrovias, ainda que tenham bandeira estrangeira e tracionem um conjunto de chatas 
+com capacidade superior a 1.000 TPB, não pagam TUF (por inexistir norma que defina tal comboio como uma única emb). 
+4) Rebocadores de alto mar e demais navios que fazem apoio marítimo a plataformas de petróleo e que recebem despachos com 
+validade de até 180 dias, realizando uma "viagem redonda", só pagam na emissão do despacho. 
+5) Se pagou no porto A e foi para o porto B do mesmo estado, não paga em B. 
+Mas se em seguida demandar um porto C tb no mesmo estado, aí paga (pois não o fez no porto anterior). 
+Se houver um 4o porto no mesmo estado (após C), não paga. E assim por diante, sempre dentro do estado considerado. 
+6) Não pagam TUF: 
+> Navio que, após descarregar, aguarde carga em fundeadouros sob responsabilidade portuária e atraque de novo no mesmo 
+porto. Tb não paga se atracar para receber víveres, água, etc e retornar à espera. 
+> Navio que alterar a rota e retornar ao mesmo porto do despacho daquela viagem. 
+> Navio que, após descarregar, deixe a área portuária para lavar porões (acd MARPOL), retornando ao local de espera ou 
+atracando para receber nova carga no mesmo porto. 
+> Navio que fundeie na bacia de manobra de um porto só para receber peças e continue viagem (desde que isso não possa ser 
+caracterizado pelo OD como comercial). 
+> Navios registrados no Brasil. 
+> Petroleiros que recebem óleo nas plataformas de petróleo. 
+> Navios realizando expedições no litoral, desde que caracterizadas pelo EMA como científicas e com autorização, bem como 
+navios de instrução e de guerra não realizando comércio. 
+(isso não está no anexo...) 
+7) Os demais navios estrangeiros não enquadrados nas situações acima pagam TUF em todos os portos, tantas quantas 
+forem as entradas. 
+(Dúvidas em relação à TUF serão dirimidas pela DHN) 
+
+
+===== PAGINA 304 =====
+
+A N E X O 2-J (resumol 
+C E R T I F I C A D O S E D O C U M E N T O S Q U E D E V E M S E R M A N T I D O S A B O R D O 
+Todos os certificados transportados a bordo devem ser originais 
+Todos os navios devem manter a bordo: 
+• Certificado de Registro: 
+Convenção sobre a Facilitação do Tráfego Marítimo Internacional, 1995 (Convenção FAL) 
+• Certificado Internacional de Número IMO: emitido para cada navio que o tenha instalado segundo o determinado na SOLAS. 
+Resolução da IMO. 
+• Certificado Internacional de Tonelagem (1969): emitido para cada navio, constando a AB e a AL. 
+Convenção sobre Tonelagem. 
+• Certificado Internacional de Linhas de Carga ou Certificado Internacional de Isenção de Linhas de Carga: emitido para cada 
+navio que foi vistoriado e marcado, ou isento, de acordo com a Convenção. 
+Convenção LL. 
+• Folheto de Estabilidade Intacta: navios de pass ("independente de tamanho) e navios de carga de comp > 24 m deverão estar 
+inclinados na conclusão (??) e os elementos de sua estabilidade determinados. / O Comte deve ter um Folheto de Estabilidade com a 
+info necessária para saber precisamente a estabilidade sob condições variadas de carga, através de procedimentos rápidos e simples. 
+SOLAS, 1974. 
+• Documento de Tripulação Mínima de Segurança: navios aos quais a Convenção se aplica devem ter um doe apropriado de TMS 
+SOLAS 1974 
+• Certificados para Comandantes, Oficiais e graduados: emitidos para os candidatos que preenchem os requisitos da "Convenção 
+sobre Normas de Treinamento, Atribuição de Certificados de Controle para navegantes -1995". Os certificados para Comtes e Oficiais 
+são endossados pela Administração que os emitiu. Se em inglês, o certificado de endosso deve incluir a tradução. 
+STCW, 1995. 
+• Certificado de Desratização ou Certificado de Isenção de Desratização. 
+Convenção FAL. 
+• Certificado Internacional de Prevenção da Poluição por Óleo: emitido após a vistoria para qq petroleiro de tonelagem bruta > 
+150 e qq outro navio de tonelagem bruta > 400. O certificado é suplementado por um "Registro de Construção e Equipamentos para 
+Navios que não sejam Petroleiros" ou um "Registro de Construção e Equipamentos para Petroleiros", como apropriado. 
+MARPOL, 73/78. 
+• Livro Registro de Óleo: para todo navio-tanque de 150 ton de tonelagem bruta e superior e todo navio de 400 ton de tonelagem 
+bruta e superior que não seja petroleiro. 
+MARPOL, 73/78. 
+• Declaração Marítima de Saúde: fornece as infos requeridas pelas autoridades de saúde portuária, relatando o estado de saúde a 
+bordo durante a viagem e na chegada num porto. 
+Convenção FAL. 
+Certificados adicionais para navios de passageiros: 
+• Certificado de Segurança para Navio de Passageiro, ou Certificado de Isenção. 
+SOLAS, 1974. 
+Certificados adicionais para navios de carga: 
+• Certificado de Segurança de Construção para Navios de Carga 
+SOLAS 1974, como emendada pelas emendas GMDSS. 
+• Certificado de Segurança de Equipamentos para Navios de Carga 
+SOLAS 1974, como emendada pelas emendas GMDSS. 
+• Certificado de Segurança Rádio para Navios de Carga 
+SOLAS 1974, como emendada pelas emendas GMDSS. 
+• Certificado de Isenção 
+SOLAS, 1974. 
+• Documentos de cumprimento com as exigências especiais para navios que transportam mercadorias perigosas 
+SOLAS, 1974. 
+• Manifesto de mercadorias perigosas e plano de estiva 
+SOLAS, 1974. 
+• Documento de autorização para transporte de grãos 
+SOLAS 1974, Código Internacional para o Transporte Seguro de Grãos a Granel. 
+• Certificado de seguro ou outra garantia financeira com respeito à responsabilidade civil para danos da poluição por óleo: 
+Emitido para todo navio que transporte mais de 2000 ton de óleo a granel como carga. 
+CLC 69. 
+
+
+===== PAGINA 305 =====
+
+gg^^gms&mmmm&imm 
+ANEXO 1-B - SISTRAM 
+1) PROPÓSITO: 
+> Manter o acompanhamento de NMs na área SAR do Brasil através de infos padronizadas de navegação fornecidas pelos próprios 
+participantes, de modo a usar o grande potencial de recursos para salvamento representado por esses navios, que podem acorrer ao 
+local antes que qq outro meio enviado de terra o faça. / Logo, o SISTRAM permite a rápida verificação das embs que poderão 
+prestar auxílio, além da provisão ou orientação de assistência médica urgente. 
+> Benefícios da adesão ao SISTRAM: 
+- Presteza no início das operações SAR. 
+- Designação de NMs próximos de um navio sinistrado, para que prestem auxílio. 
+- Assistência médica emergencial ou orientação médica. 
+>• Participação no sistema: se inicia quando o navio enviar o seu Plano de Viagem (msg Tipo 1) e termina quando enviar a sua 
+Msg Final (Tipo 4). / Navios que se encontrem dentro da área de acompanhamento sem ter aderido ao SISTRAM poderão fazê-lo a 
+qq momento, bastando enviar o seu Plano de Viagem, a partir da pos em que a decisão for tomada. 
+2) ENVIO DAS MENSAGENS DO SISTRAM: 
+> As msgs deverão ser endereçadas ao COMCONTRAM por e-mail, telex ou fac-símile (email é mais fácil de processar). 
+> Downloads na pág do COMCONTRAM (em port e inglês): 1) software formatador que auxilia a confecção das msgs, gerando um 
+arquivo ".txt" (enviar para controle@cotram.mar.mil.br); e 2) Folheto de instruções completas sobre o SISTRAM. 
+3) TIPOS DE MSGs: 
+a) Tipo 1 - Plano de Viagem: 
+> E a informação básica para estimar a pos do navio, podendo ser enviada: 
+- no momento em que o navio aderir ao SISTRAM, 
+- quando suspender de um porto brasileiro, 
+- quando penetrar na área SAR brasileira, procedendo de portos estrangeiros. 
+Ex: o Plano de Viagem deverá ser enviado ASAP, de preferência antes de suspender ou antes da entrada na área SAR brasileira. 
+Exde msg Tipo 1: 
+SISTRAM/1/010915ZJUN06// 
+A/KNFG/SEA WOLF/US/TMC// 
+B/010900ZJUN06// 
+G/SANTOS/2356S/04619W// 
+I/NOVA YORK/4042N/07401W/141410ZJUN06// 
+L/2346S/03945W/020900ZJUN06// 
+L/0524S/03155W/051630ZJUN06// 
+L/1000N/04402W/081340Z// 
+V/NONE// 
+M/PPS/PPR// 
+X/TNMARSAT 421124251// 
+b) Tipo 2 - Msg de Posição: 
+> É a informação que permite confirmar que o navio suspendeu ou que a sua pos está de acordo com o Plano de Viagem. 
+> Deve ser enviada dentro das primeiras 24 h após o início da singradura prevista na msg tipo 1. 
+> Um navio sob mau tempo ou em condições adversas poderá enviar Msgs de Posição quando e na freqüência que quiser. 
+Ex de msg Tipo 2: 
+SISTRAM/2/020915ZJUN06// 
+A/KNFG/SEA WOLF/US/TMC// 
+B/020900ZJUN06// 
+C/2346S/03945W// 
+E/022// 
+F/150// 
+
+
+===== PAGINA 306 =====
+
+SS88S«aaaa>pao»««iaBna» 
+c) Tipo 3 - Alteração de Rota: 
+> É a informação necessária para correções na rota prevista: 
+- quando mudar o porto de destino. 
+- quando desviar-se mais que 25 milhas da rota original. 
+- qq outra mudança que altere o Plano de Viagem. 
+Ex de msg Tipo 3: 
+SISTRAM/3/071010ZJUN06// 
+A/KNFG/SEA WOLF/US/TMC// 
+IMTORIA/2020S/04019W/101400ZJUN06// 
+L/2140S/01947W/070900ZJUN06// 
+L/2112S/02702W/081200ZJUN06// 
+L/2047S/03327W/091200ZJUN06// 
+M/PPR// 
+d) Tipo 4 - Msg Final: 
+> É a informação que encerra a participação no SISTRAM. 
+> Deve ser enviada: - até 1 h antes do instante previsto para entrada no porto de destino (para NMs nacionais e estrangeiros) 
+- quando sair da área SAR brasileira (para NMs estrangeiros). 
+Ex de msg Tipo 4: 
+SISTRAM/4/101400ZJUN06// 
+A/KNFG/SEA WOLF/US/TMC// 
+K/VITORIA/2019S/04021 W/l 01400ZJUN06// 
+4) NOTAS: 
+a) Grupo Data-Hora: 
+- 6 dígitos + Z. 
+- No preenchimento do data-hora da transmissão, acrescentar mês e ano (ex: 201200ZJUN06). 
+b) Tipo do Navio: 
+TM = Carga Geral 
+TMO = Tanque 
+TMB = Graneleiro 
+TMF = Ferry 
+TME = RO-RO 
+TMT = Rebocador 
+TMC = Contêiner 
+TU = Pesqueiro 
+TMM = Pesquisa 
+PLAT = Plataforma 
+TMGB = Quebra-gelos 
+TMK = Cabos submarinos 
+TMH = Grúa 
+FPSO = Navio Plataforma 
+TMOS = Líquidos Especiais 
+c) Latitude e Longitude: 
+ex: 1830S / 03815W. 
+d) Informações de Rota planejada (linhas L): a rota é expressa pelos os pontos de guinada (no min 3 pontos). 
+- Ao entrar na área SAR: colocar na Ia linha L da msg tipo 1 a lat-long desse ponto e a data-hora de entrada. 
+- Msgs Tipo 3: na Ia linha L são expressos os dados do ponto de guinada ou do Io ponto observado que confirma o afastamento 
+(> 25 milhas) da rota planejada. 
+e) Recursos Médicos de Bordo: colocar: 
+MD = médico 
+PA = assistente de médico ou supervisor de saúde 
+NURSE = enfermeiro 
+NONE = nenhum. 
+f) Dados Opcionais: são úteis, mas não obrigatórios. 
+- Msg tipo 2: o rumo atual é expresso na linha E (3 dígitos), e a veloc média estimada em nós na linha F (3 dígitos). 
+-Exs: E/234//= 234° 
+F/153// = 15.3 nós 
+g) Linhas X e Y (comentários): preenchimento opcional. 
+- Linha X: normalmente são incluídos dados de referência úteis para o SISTRAM, como o data-hora estimado da próxima 
+transmissão, tipo de carga, os números do INMARSAT e do EPIRB, etc. 
+- Linha Y: pode ser usada para qq comunicação, a critério do navio. 
+h) Itens de Alteração de Rota: 
+- Linha I da msg Tipo 3: especifica mudança no porto de destino (ex: I/SALVADOR/1258S/03831W/051800ZJUN06//). 
+10 
+
+
+===== PAGINA 307 =====
+
+ANEXO 1-C (dar uma lida no Anexo 1-E e seus Apêndices) 
+SIST. DE D3ENTIFICAÇÃO E ACOMPANHAMENTO DE NAVIOS A LONGA DISTÂNCIA - LRIT 
+1) PROPÓSITO DO LRIT: 
+> Manter o acompanhamento da movimentação de NMs de bandeira brasileira sujeitos a regulamentação SOLAS, através de infos 
+padronizadas de posição, fornecidas pelos provedores de sistemas de acompanhamento (tracking). 
+> A implantação do LRIT e seus respectivos Centros de Dados permitirá o intercâmbio de infos entre os sistemas de controle do 
+tráfego marítimo dos países da SOLAS para uso em seus sistemas SAR e para a identificação do tráfego marítimo de interesse. 
+2) ENVIO DAS MSGs DO LRIT: 
+> As msgs serão encaminhadas via e-mail para o Centro de Dados Nacional LRIT (CDNLRIT) que, no Brasil é o COMCONTRAM. 
+> As msgs de posição devem ser enviadas para Mt@cotram.mar.mil.br, através de seus respectivos provedores de serviço de 
+acompanhamento ("Aplication Service Provider" - ASP): - a cada 6 hs. 
+-tipol 
+- em resposta a uma requisição ('polling'). 
+- tipo 2 
+- em virtude de um SAR. 
+-tipo3 
+3) FORMATAÇÃO DAS: MSGs: 
+> As msgs LRIT devem ter a seguinte formatação: 
+- Campo Assunto: deve possuir o texto: MSG LRIT. 
+- Campo Texto: deve ser estruturado cnf o padrão XML. Para a formatação deste padrão, foi usado o XML Schema (XSD). 
+> Especificação no padrão XSD (modelo de Texto da msg): a seguir é apresentado um exemplo: 
+<?xml version="1.0" encoding="windows-1252"?> 
+<LRIT> 
+<ShipEqpt> 
+<Latitude>-22.52</Latitude> 
+<Longitude>-042.35</Longitude> 
+<TimePosition>2006-10-20T10:10:10Z</TimePosition> 
+<UniqueShipEquipNum>710000001 </UniqueShipEquipNum> 
+</ShipEqpt> 
+<ASP> 
+<MessageType> 1 </MessageType> 
+<MessageID>0</MessageID> 
+<ReferenceID>0</ReferenceID> 
+<IMONum>12345678</IMONum> 
+<MMSINum>123453467123</MMSiNum> 
+<IRIN>PWBL</IRTN > 
+<ShipName>BRASIL</ShipName> 
+<ServiceProvider>SHIP TRACKING LTD</ServiceProvider> 
+<TimeReceived>2006-10-20T10:ll:20Z</TimeReceived> 
+<TimeTransmitted>2006-10-20T10:12:30Z</TimeTransmitted> 
+</ASP> 
+</LRIT> 
+a) Elementos Latitude e Longitude: representam a posição do navio ("+" para norte/leste, "-" para sul/oeste). 
+b) Elemento "TimePosition": representa o data-hora (GMT) da posição. Expresso em YYYY-MM-DDThh:mm:ssZ. 
+- T é um caractere fixo para separação da data e hora. / Ex: 2006-09-20T12:05:30Z 
+c) Elemento "UniqueShipEquipNum": representa o num do eq (baliza eletrônica) usado para comunicação via satélite. 
+d) Elemento "MessageType": representa o número do tipo da mensagem, onde: 
+-1 = msg periódica de envio de posição; 
+- 2 = msg de pos enviada em resposta a uma requisição (polling). 
+- 3 = msg de pos enviada em resposta a uma requisição em virtude de SAR. 
+e) Elementos "MessagelD" e "ReferenceD)": 
+> Para msgs do tipo 1 (MessageType = 1), receberá o valor '0'. 
+> Para msgs do tipo 2 e 3 (MessageType = 2 ou 3), deve ser expresso com 3 dígitos numéricos referente à identificação do "Data 
+Center" que solicitou a mensagem 'pooling' ou de resposta a uma requisição SAR, e o grupo data-hora desta requisição. 
+f) Elemento "IMONum": representa o num de identificação do navio cadastrado na IMO. 
+g) Elemento "MMSINum": representa o num de identificação do navio no Maritime Mobile Service Identity (MMSI). 
+h) Elemento "DUN": representa o núm de identificação do navio correspondente ao Indicativo Radio Internacional (Call Sign), 
+i) Elemento "ShipName": representa o nome completo do navio. 
+j) Elemento "ServiceProvider": representa o nome do provedor de serviço de acompanhamento (ASP) responsável pela 
+retransmissão desta msg ao COMCONTRAM. 
+k) Elementos "TimeReceived" e TimeTransmitted": representam, respectivamente, os data-hora: 1) de recebimento pelo ASP 
+da info enviada pelo eq do navio; e 2) da re-tx dessa msg ao COMCONTRAM, acrescida das infos inerentes ao ASP. 
+11 
+
+
+===== PAGINA 308 =====
+
+ANEXO 1-D - INSTRUÇÕES SOBRE O SIMMAP 
+1) PROPÓSITO: estabelecer os requisitos básicos que garantam a conectividade e a interoperabilidade entre um sistema de 
+rastreamento, independentemente da solução técnica a ser escolhida por cada embarcação ou por um conjunto de embarcações, e o 
+Sistema de Monitoramento Marítimo de Apoio às Atividades do Petróleo - SIMMAP. 
+2) DEFINIÇÕES: 
+AVL = Automatic Vessel Location = Sistema Automático de Localização = sistema que, utilizando satélite, obtém a lat-long da emb. 
+Poderá estar inserido ou integrado ao sistema de comunicações de bordo, capaz de transmitir estes dados para uma Estação Base. 
+Estação Base = estabelecimento terrestre que recebe os dados de posição da emb e re-tx essa informação para a MB, via internet. 
+FTP = File Transfer Protocol = Protocolo de Transferência de Arquivo 
+Provedor de Serviços = fornece serviços de telecomunicações e soluções de conteúdo (informática - implantação, gerenciamento e 
+hospedagem de aplicativos). O cliente recebe esses serviços através de um contrato de aluguel firmado entre o próprio e o prestador de 
+serviços. A página da ANATEL na internet fornece a rela dessas empresas habilitadas a operar em território nacional. 
+Basicamente, o provedor prove o conjunto de hardware e software necessário a bordo (AVL associado ao sistema de 
+comunicações) e executa a tarefa da Estação Base. 
+Sistema de Monitoramento Marítimo de Apoio às Atividades do Petróleo (SIMMAP) = Conjunto de hardware e software, 
+instalado na MB, capaz de receber e decodificar mensagens e/ou arquivos fornecidos por um sistema de rastreamento. 
+Após a decodifícação, as informações são armazenadas em banco de dados, sendo os dados de posição plotados numa carta digital. 
+Sistema de Rastreamento = Engloba o conjunto de hardware e software, instalados na embarcação e na estação base, capaz de 
+receber os dados de posição provenientes de bordo e retransmiti-los para o SIMMAP, devidamente formatados, via internet. 
+3) CONCEPÇÃO SISTÊMICA: 
+As embs deverão ser dotadas de um sistema de rastreamento automático, visando a transmissão automática dos seus dados de posição 
+para a MB, via uma Estação Base. 
+A escolha do sistema de rastreamento será livre e de responsabilidade de cada embarcação. Porém, deverão ser atendidos os requisitos 
+aqui estabelecidos objetivando a integração de sistemas. 
+Da fonte emissora (emb) até o destinatário final (MB), a informação deverá percorrer 2 segmentos de comunicações, um bordo/terra 
+via rádio (emb - Estação Base) e outro terrestre (Estação Base - MB). / Para tal, poderão ser usados sistemas comerciais com cobertura 
+da área marítima, por intermédio da contratação de provedor(es) de serviço. 
+O(s) provedor(es) deverá ser habilitado pela ANATEL, quando estiver sediado em território nacional. 
+A internet será o meio de comunicações para a tx dos arquivos entre Estação Base e a MB, sendo que o arquivo com os dados de 
+posição deverá ser formatado de acordo com uma das opções contidas no Apêndice I. 
+O sistema de monitoramento a ser implantado - SIMMAP - não permitirá à MB interagir diretamente com o tráfego marítimo 
+e tampouco responder às situações desenvolvidas no mar, em tempo real. 
+4) REQUISITOS BÁSICOS: 
+a) Estação de Bordo: 
+- ter um sistema de localização automático associado a um sistema de comunicações capazes de gerar e transmitir seus dados de 
+posição para uma Estação Base. 
+- transmitir automaticamente os seguintes dados de posição: lat-long, data/hora e identificação da emb. 
+- os dados de posição deverão ser referenciados ao DATUM WGS-84. 
+- transmitir automaticamente os dados de posição para a Estação Base, com a seguinte periodicidade: 
+* Apoio marítimo: 
+uma vez a cada 2 hs. 
+* Transporte de petróleo, gás e seus derivados: 
+uma vez a cada 6 hs; 
+* Aquisição de dados relacionados à indústria do petróleo: 
+uma vez a cada 2 hs. 
+* Navio Sonda: 
+uma vez a cada 12 hs. 
+* Plataforma de perfuração: 
+uma vez a cada 24 hs. 
+- ser automaticamente suprido de alimentação elétrica de emergência na falta ou desligamento da alimentação elétrica principal. 
+- permitir a inserção automática de dados de posição, sem a interferência do operador. 
+- possuir um AVL com a seguinte precisão da localização: círculo de incerteza de raio < 500 m. 
+- possuir um canal de comunicações (coordenação) com a Estação Base. 
+b) Estação Base: 
+- retransmitir automaticamente os dados de posição da estação de bordo para a MB sem introduzir atraso (tolerância máx = 30 min). 
+- retransmitir os dados, via internet, usando um dos seguintes mecanismos de tx: FTP (cliente ou servidor) ou correio eletrônico. 
+- formatar os dados de posição acd mecanismo de transmissão escolhido (FTP ou correio eletrônico), em conformidade com o 
+apêndice I, caso a embarcação não processe a formatação requerida. 
+- possuir um canal de comunicações (coordenação) com a MB e a estação de bordo. 
+5) CONSIDERAÇÕES GERAIS: 
+A MB não arcará com qq ônus para a implantação e manutenção do sistema de rastreamento. 
+Poderá ser solicitada, em casos especiais e a critério da MB, por um período de tempo qualquer, a alteração na periodicidade da 
+transmissão dos dados de posição acima especificada. 
+É obrigatório o cadastramento prévio de cada embarcação na DPC. Qualquer alt dos dados informados exigirá o recadastramento. 
+12 
+
+
+===== PAGINA 309 =====
+
+NQRMAM 12 - SERVIÇO DE PRATICAGEM 
+DEFINIÇÕES: 
+DPC (RepAM para a Seg do Tráfego Aquaviário) regulamenta o serviço, estabelece as ZP e especifica as embs dispensadas. 
+DGN (RepAM para a SegNav) estabelece as normas necessárias à regulamentação e decide casos omissos. 
+Atalaia (estação de praticagem): estrutura operacional e administrativa, homologada pelo Órgão Nacional de Praticagem. 
+Certif de Habilitação de Prático: expedido pelo DPC. 
+Certif de Habilitação de Praticante: expedido pelo CP, validade de 2 anos. Habilita a cumprir o Programa Mínimo de Estágio. 
+(caso seja Prático noutra ZP, a condição de Praticante é averbada no verso do Certif, não sendo emitido o Certif de Praticante) 
+Enxárcia: estrutura na proa da lancha de Prático, para o emb/desembarque. 
+Habilitação de Prático: nível min de capacitação técnica exigida. A manut da habilitação exigirá uma freq mínima de manobras. 
+Impraticabilidade: configurada quando as condições meteorol. ou outras (acidentes ou deficiências técnicas) possam implicar 
+em inaceitável risco à SegNav ou desaconselhem: a manobra, o tráfego de navios ou o emb/dbq. 
+Lancha de Prático: homologada pelo CP, usada para o emb/dbq. 
+Ponto de espera de Prático: estabelecido pelo DPC. 
+Prático: profissional aquaviário não-tripulante que presta serviço de praticagem embarcado. 
+Praticante de Prático: candidato autorizado a adestrar-se a bordo, sob a supervisão de um Prático. 
+Svç de praticagem (Prático + lancha + atalaia): conjunto de atividades de assessoria ao Comte, requeridos por peculiaridades. 
+ZP: delimitada pelo DPC. 
+Manobra (só para efeito da manut da habilitação e do cumprimento do estágio de qualificação): atracar/desarracar, amarrar/largar 
+a bóia ou fundear/suspender (manobra completa exige o cumprimento de uma derrota). 
+Organização das pratícagens: por Estado (exceto Bacia Am. Oriental), e nestes, em uma ou mais ZP, a critério do DPC. Numa ZP 
+pode haver: 
+- Entidade Única de Praticagem (empresa, associação, etc): reunirá todo o efetivo da ZP. O seu dirigente será 
+o representante junto à AM; OU 
+- Entidade Representante de Praticagem (empresa, associação, etc): caso haja + de 1 entidade, a que 
+representa a Praticagem é indicada por consenso entre as existentes (sem consenso, o CP designa). 
+Prático constata que a manobra ou navegação possa implicar em inaceitável risco à Nav/VH/Amb: comunicar ao CP/DL/AG 
+para que este decida pela sua realização ou não. A AM é quem pode impedir que o serviço possa deixar de ser prestado. 
+Qualquer outra situação de não atendimento, desde que o Prático responsável pelo rodízio não tenha tempestivamente comunicado tal 
+fato ao CP. será considerado "RECUSA" pela LESTA (Inquérito Administrativo para apurar responsabilidades e fundamentar as 
+penalidades). 
+CONDIÇÕES DE INGRESSO: (bem resumido) 
+- O processo seletivo encerra na emissão do Certificado de Praticante e da respectiva OS (pela CP da ZP do concurso). 
+- Realizar-se-ão tantas chamadas (com o núm ideal para treinamento) quantas forem necessárias para aproveitar todos os candidatos, 
+estendendo-se o Processo Seletivo até a certificação do último candidato aprovado e classificado no núm de vagas. 
+- A validade do Certificado é de 2 anos da sua emissão, que obrigatoriamente é o 15° dia da data da publicação do Resultado Final, 
+sendo esta a data considerada para o início do Estágio de Qualificação. 
+- Caso haja várias chamadas, os prazos começam a contar na data da convocação da DPC. 
+Estágio de qualificação: 
+- Segue um Programa Mínimo determinado pelo CP, podendo ser confiado à associação de praticagem. 
+- O Praticante será apresentado à empresa pelo CP/DL para o início do estágio, e deve iniciá-lo imediatamente, devendo a empresa 
+comunicar este ato ao CP/DL. 
+- O prazo para conclusão é de 12 a 24 meses da data do Certificado. Excepcionalmente, o prazo min pode ser alterado pelo DPC. 
+- Recomenda-se que cada Praticante tenha um Prático Monitor, mas ele deve acompanhar todos os Práticos da ZP, independente 
+do tipo de associação. 
+Exame de habilitação para Prático: 
+- É solicitado pelo Praticante após o cumprimento do Programa Mínimo, por requerimento ao CP/DL em até 60 dias do prazo para 
+a conclusão do Estágio, acompanhado da Declaração de Conclusão do Programa Mínimo e de uma Declaração de Avaliação 
+Satisfatória de Estágio de Qualificação (An 2-G), fornecida pela Associação. Caso Praticante e empresa discordem sobre essa 
+avaliação, o DPC decide. 
+- Iniciar o exame em até 30 dias do deferimento do CP à solicitação do Praticante. 
+- O exame é a bordo, e consiste na avaliação de uma ou mais manobras ou navegação de praticagem escolhidas pelo CP. 
+- A Banca é designada e presidida pelo CP, e composta por um Prático e um Of do CA ou CLC da MM com experiência na ZP. 
+- Se reprovado, requerer novo exame em no máx 30 dias. A CP/DL marcará a data no máx 15 dias após receber a solicitação. 
+- Os aprovados receberão o Certif de Habilitação de Prático, emitido pela CP/DL e assinado pelo DPC (An 2-D). 
+- Caso não se possa cumprir alguma manobra durante o estágio, o CP fará constar a restrição no verso do Certificado, que deverá ser 
+superada ASAP, em no máx 24 meses. 
+
+
+===== PAGINA 310 =====
+
+sg^^s-^yvyysasiw 
+EXECUÇÃO DO SERVIÇO DO PRATICO: 
+Os Práticos poderão exercer atuando individualmente, organizados em associações ou contratados por empresas (acd LESTA). 
+- Associação: no seu Estatuto constará que sua única finalidade é prestar o serviço de praticagem. 
+- Individualmente ou contratado por empresas deve: 
+- possuir sua própria lancha/Atalaia homologados; ou 
+- contratar lancha/Atalaia de terceiros, desde que homologadas; ou 
+- usar os serviços de lancha/Atalaia de associação da ZP. 
+Obs: nos 2 últimos, pagará por cada segmento do svç usado mediante acd 
+entre as partes (sem acordo, cnf o menor preço pago pelos tomadores de svç). 
+ESCALA DE RODÍZIO: 
+É a distribuição uniforme de trabalho que inclui todos os Práticos em atividade na ZP (independente da sua forma de 
+associação). / Os Práticos são divididos em: 
+a) P. Escala: horas ou dias consecutivos durante os quais o Prático está à disposição para ser requisitado. Subdividido em: 
+- P Svç: efetivamente em faina de praticagem ou a bordo da lancha. 
+- P Sobreaviso: não está efetivamente em faina de praticagem ou a bordo da lancha. 
+b) P. Repouso: período ininterrupto que antecede ou sucede um P Escala. Não está disponível, exceto em emerg ou risco p/ VH. 
+c) P. Férias: > 30 dias/ano, min 15 consecutivos. / Não está disponível em qq hipótese. 
+(a divisão visa garantir a disponibilidade ininterrupta, a manut da habilitação e evitar a fadiga) 
+ELABORAÇÃO DA ESCALA DE RODÍZIO: 
+- Cada ZP terá suas próprias regras, que devem considerar o limite legal de horas de trabalho e impedir a fadiga. 
+- A escala única de rodízio será entregue ao CP/DL/AG para ratificação, com antecedência (conforme sua orientação). 
+- Trocas de svç devem ser comunicadas com a antecedência estabelecida pelo CP para ratificação. Trocas no decorrer do 
+período de uma Escala devem ser informadas ao término do período, com a justificativa. 
+ZPs onde existem duas ou mais associações: 
+- A escala é elaborada pelo representante eleito/indicado das associações, e será entregue com antecedência na CP/DL para 
+ratificação. / O Prático que elabora e entrega é escolhido por consenso entre todos os Práticos da ZP (informar oficialmente ao 
+AgAM). Sem consenso, o AgAM indicará alguém. 
+- Obedecer aos critérios que atendam à manut da habilitação de todos em toda a ZP, mantendo a divisão mais equânime possível. 
+- Incentiva-se que os contratos com os tomadores de serviço não se sobreponham a uma Escala de Rodízio de serviço essencial. 
+- As ZPs deverão se adequar ao regime da Escala Única de Rodízio até 31/12/08. 
+REGRAS PARA A ELABORAÇÃO DAS ESCALAS: 
+- P. Escala máx = 
+- 7 dias consec, exceto se tiver um P.Rep min de 24 h ininterruptas antes de iniciar um novo P.Svç. 
+-15 dias consec, mesmo com o P.Rep de 24 h. Depois, obrigatório P.Rep min 72 h ininterruptas. 
+- 20 dias/mês. 
+- de 90 a 200 dias/ano 
+- P. Svç máx = 
+- 72 hs a cada P.Escala de 7 dias consec. 
+-120 hs/15 dias; 180 hs/30 dias. 
+- 6 hs consec. Caso ultrapasse: revezamento (obedecendo aos limites estabelecidos, para cada 24 h). 
+Quem sai entra em P.Sobreaviso (máx 3, um deles de no min 6 hs ininterruptas). 
+- P. Sobreaviso < 1 h entre P.Svç: são considerados P.Svç. 
+- Trechos > 90 NM (Amazônia e Patos): é obrigatório 2 Práticos em toda a derrota. O AgAM nunca pode dispensar 2 Práticos. 
+- O num de Práticos em P.Escala deve ser suficiente para que não ocorram atrasos no atendimento, mesmo nos momentos de pico. 
+DEVERES DO PRÁTICO: 
+- Manter-se apto em todos os tipos de embs, e em toda a ZP. 
+- Transmitir, responder e acusar sinais a outras embs. 
+- Observar e fazer observar as profs e correntezas, ppalmente após W fortes, grandes marés e chuvas prolongadas. 
+- Comunicar ao CP/DL/AG: as alts de prof/correntezas, alts no balizamento e qq info de interesse da SegNav. 
+- Comunicar ao Comte e CP/DL/AG quando condições desfavoráveis ou o tempo/mar arriscarem a SegTráfego/SVH/Amb. 
+- Procurar conhecer as particularidades do governo e condições das embs. 
+- Cooperar no SAR, patrulha e levantamento hidrográfico, quando determinado pelo CP/DL/AG. 
+- Atender ao CP/DL/AG para prestar qq esclarecimento, ou para integrar fainas de assistência e salvamento marítimo. 
+- Manter atualizados os seus dados na CP/DL/AG. 
+- Integrar a Banca para o exame de Prático ou Praticante, quando designado pelo DPC ou CP. 
+- Executar o svç mesmo quando em divergência com a empresa. Os questionamentos devem ser debatidos nos foros 
+competentes, sem prejuízo do svç. / Divergências técnico-operacionais referentes à SegNav/SVH/Pol terão a AM como fórum. 
+- Cumprir a escala de rodízio ratificada e o num min de manobras estabelecido pelo DPC ou CP. 
+- Submeter-se aos exames médicos e psicofísicos de rotina. 
+
+
+===== PAGINA 311 =====
+
+- Portar salva-vidas no transbordo. 
+- Cumprir as NORMAMs e comunicar ao CP/DL/AG quando observar o seu descumprimento. 
+- Manter-se em disponibilidade, naZP„ para atender a qq manobra durante o P.Escala. Se necessário afastar-se por motivo 
+de força maior, deverá ser substituído na escala, e o fato informado ASAP ao CP/DL/AG. 
+- Realizar curso de atualização dos Práticos (ATPR). 
+DEVERES DO PRATICANTE: 
+- Cumprir o Programa Mínimo de Estágio de Qualificação, estabelecido pelo CP. 
+- Comunicar ASAP qq interrupção do Estágio de Qualificação ao CP/DL/AG. 
+- Cumprir, no que couber, os deveres dos Práticos. 
+DEVERES DO COMTE COM RELAÇÃO AO PRÁTICO: 
+- Informar as condições de manobra do navio; e fornecer todos os materiais e infos necessárias ao svç (particularmente o. calado). 
+- Fiscalizar a execução dos serviços de praticagem, comunicando ao CP/DL/AG qq anormalidade. 
+- Dispensar o Prático se este estiver orientando a manobra de forma perigosa, solicitando imediatamente um substituto; e 
+comunicar ao CP/DL/AG as razões técnicas em até 24 hs. 
+- Alojar o Prático com as regalias dos seus Oficiais; e cumprir as regras de segurança sobre emb/dbq de Práticos. 
+- Não dispensar o Prático antes do ponto de espera da ZP, quando esta for obrigatória. 
+Obs: O Prático não desobriga o Comte e sua equipe de suas obrigações com a segurança (monitorar sempre as ações do Prático). 
+CONDIÇÕES DESFAVORÁVEIS EIMPRATICABILIDADE: 
+- Ao constatar condições técnicas ou meteorológicas desfavoráveis, com valores que extrapolem os parâmetros das NPCP, ou 
+acidentes que impliquem em risco à SegNav. o Prático deve comunicar ao CP/DL/AG, que decidirá se vai declarar a 
+impraticabilidade total ou parcial da ZP (parcial quando as restrições se aplicarem só a um determinado local, tipo de 
+navio ou manobra). Para tal, ele pode usar qq meio de comm (inclusive ponte com a Atalaia). 
+- Atalaia recebeu a declaração de impraticabilidade do CP/DL/AG: informar ASAP à Adm dos Portos, Agentes e demais 
+órgãos, para que seja disseminado aos navios aguardando entrada e saída. 
+IMPOSSD3ILDDADE DE EMBARQUE: 
+- Se a meteoro impedir o embarque, o Comte, sob sua responsabilidade e mediante autorização do CP/DL/AG, poderá entrar até 
+um lugar abrigado que permita o embarque, observando os sinais da Lancha. / Solicitar a autorização preferencialmente via Atalaia. 
+IMPOSSIBILIDADE DE DESEMBARQUE: 
+- Se a meteoro impedir o dbq, o Comte, sob sua responsabilidade e mediante autorização do CP/DL/AG, poderá desembarcar o 
+Prático em lugar abrigado e prosseguir observando os sinais da Lancha. 
+- Caso antecipadamente fique configurada a possibilidade de falta de segurança no dbq e a SegNav desaconselhe o dbq antes do 
+ponto de dbq, apresentar a situação ao Comte e ficar pronto (passaporte, roupas, etc) caso o Comte decida seguir viagem. 
+- Se surpreendidos pela impossib do dbq, o Comte provera a permanência e o retorno ao porto (comunicar ASAP ao CP/DL/AG). 
+PLANO DE MANUT DA HABILITAÇÃO: 
+- Elaborado pelo CP, baseado no núm min de manobras (mensal e semestral) estabelecido pelo DPC (An 2-1). / O CP descreve 
+cada manobra nas NPCP/NPCF. / O núm min de manobras do semestre das férias será deduzido do num min de manobras/mês. 
+COMPROVAÇÃO DAS MANOBRAS REALIZADAS: 
+- Até 10/01 e 10/07, encaminhar ao CP/DL/AG uma declaração da qtd de manobras do semestre anterior, em cada porto ou 
+terminal, conforme a NPCP (as associações podem encaminhar). 
+- Comprovantes de Manobra (An 2-E): assinados pelos Comtes, ficam com o Prático por 2 anos, à disposição do CP/DL/AG. 
+RECUPERAÇÃO DA HABILITAÇÃO: 
+Será condicionada ao cumprimento de um Plano de Recuperação, em fç do tempo que tiver deixado de cumprir o Plano de 
+Manut da Habilitação, cnf abaixo: 
+1 sem: assistente, no sem seguinte, do "núm min mensal de manobras" que deixou de cumprir, + exigências do sem. 
+> 1 sem e < 2 anos: assistente de, ao menos, 3 x o "núm min mensal de manobras" do Plano de Manut da Habilitação. 
+> 24 meses: participar do Programa de Praticante por no min 3 meses, cumprindo no min 2/3 do Programa, e submeter-se 
+a um exame para requalificação, apresentando uma declaração de avaliação satisfatória da empresa/associação. 
+
+
+===== PAGINA 312 =====
+
+ííC.iffS:i'/':--.v-."íí'-;--í:-í 
+AFASTAMENTO DO PRATICO: 
+a) Definitivo: 
+- Por solicitação ao DPC. 
+- Por CNL do Certificado por: 
+- incapacidade psicofísica definitiva. 
+- penalidade por falta apurada em IA, ou Rito Sumário. 
+- Acórdão em sentença do TM. 
+- falecimento. 
+- deixar de exercer por mais de 24 meses consecutivos (exceto por motivo de saúde). 
+b) Temp < 24 meses: 
+- Por solicitação ao CP. 
+- Por suspensão do exercício da atividade: 
+- perda temporária da capacidade psicofísica. 
+- penalidade por falta apurada em IA. 
+- Acórdão em sentença do TM. 
+- medida administrativa de apreensão do certificado. 
+- não comprovar semestralmente o Plano de Manut da Habilitação. 
+AFASTAMENTO DO PRATICANTE: 
+a) Definitivo: 
+- Por solicitação ao CP (a DPC deverá ser informada imediatamente). 
+- Por CNL do Certificado por: 
+- incapacidade psicofísica definitiva. 
+- falecimento. 
+- reprovado 2 x no exame. 
+- não requerer o exame após 2 anos de emissão do Certificado. 
+b) Temp < 12 meses: 
+- Por solicitação ao CP (a DPC deverá ser informada imediatamente). 
+- Por suspensão do exercício da atividade: 
+- perda temporária da capacidade psicofísica. 
+- penalidade por falta apurada em IA. 
+- medida administrativa de apreensão do certificado. 
+HABILITAÇÃO DO COMTE PARA DISPENSA DE PRÁTICO: 
+- O DPC pode habilitar Comtes de navios brasileiros a conduzir sua emb numa ZP (ou parte), quando são considerados Práticos. 
+- Requisitos para habilitação: ter realizado, por 2 sem consecutivos, acompanhado por Prático, 2 x o núm de manobras para a 
+manutenção da habilitação do Prático. / Núm min de man/sem = 36. 
+- Requisitos para manutenção da habilitação: semestralmente, o núm min de manobras/mês que um Comte deve realizar é o 
+exigido para a manutenção da habilitação de Prático daquela ZP. / Núm min de man/mês = 6. 
+- Comprovação da freq mensal: encaminhar ao CP/DL/AG os comprovantes de manobras do An 2-J, assinados pelo Prático. 
+- ZP de praticagem > 90 NM (Amazônia e Patos) que exige 2 Práticos: o Comte habilitado pode entrar no revezamento. 
+Procedimentos: 
+- O Armador encaminha requerimento ao DPC, indicando os Comtes de navios brasileiros de sua empresa que deseja habilitar. 
+- O CP comunica à praticagem da ZP para que inicie o acompanhamento das manobras e o apoie no adestramento. / A comprovação 
+do núm min de manobras para habilitação se dá pelo envio dos comprovantes de manobras ao CP, que envia à DPC. 
+- O DPC constituirá uma Banca para verificar os conhecimentos: 1) teóricos, sobre as particularidades da ZP (ou parte dela); e 
+2) práticos, pela realização de uma manobra/navega de alta demanda. 
+- O DPC autorizará a dispensa, e o CP dará ciência à Praticagem. / A autorização tem validade de 1 ano, podendo ser revalidada. 
+NÚM DE PRÁTICOS POR ZP: 
+- Efetivo = núm de práticos com menos de 70 anos em exercício na ZP, atuando em qq das 3 formas (o min é 3). 
+- Lotação = núm de Práticos necessários numa ZP, estabelecido pelo DPC (An 2-F - lotação por ZP). 
+- O cálculo da lotação considera, principalmente, a média histórica mensal de navios da mesma categoria dos últimos 3 anos, 
+combinada com: tempo e dificuldade da manobra, tempo para o adestramento do Prático, legislação trabalhista e o horário variado 
+de atividade, de forma a impedir a prestação do svç com fadiga, gerando riscos à SegNav/SVH/Amb e a bens de terceiros. 
+- A lotação deve atender: - um núm min tal que o svç esteja 24h disponível para atender ao pico (considerando PEscal, PRep, etc). 
+- um núm máx que garanta o min de manobras para manter a habilitação. 
+ABERTURA DE VAGA NA ZP: 
+- Ocorre quando o efetivo ficar menor que a lotação, por: 
+afastamento definitivo de Prático. 
+• aumento da lotação. 
+• atingir 70 anos, independente de sua permanência no Rodízio. 
+
+
+===== PAGINA 313 =====
+
+jt&mmmmmmKMmsuxiiiiiuimm 
+EXAMES MEDICO E PSICOFISICO: 
+- As aptidões física e mental aceitáveis são atestadas por um "Laudo de Avaliação Médica e Psicofísica" (An 2-H), apresentado 
+pelo Prático ao CP/DL/AG com a seguinte periodicidade: até 50 anos: 3 anos / 51-70 anos: 2 anos / > 70 anos: 1 ano 
+(não pode concorrer ao rodízio se deixar de apresentar o Laudo - comunicar ao CP/DL/AG e ao Presidente da empresa de praticagem) 
+- Após 2 anos de afastamento por problemas de saúde, o Prático será submetido a avaliação por junta médica (por portaria do 
+CP/DL). Caso o Laudo estabeleça prazo > 1 ano para recuperação, será aberta vaga na ZP. 
+ÓRGÃO NACIONAL DA PRATICAGEM 
+Cabe ao órgão de representação nacional da praticagem, quando determinado pelo DPC: 
+a) auxiliar no controle e 
+fiscalização: 
+- do exercício profissional dos Práticos e das organizações de praticagem. 
+- dos cursos de atualização de Práticos. 
+b) auxiliar como assessor/moderador nos acordos regionais sobre preços nas ZP. 
+c) homologar as atalaiais e tripulações das lanchas. 
+d) realizar as inspeções e laudos periciais para a homologação do svç de Lancha. 
+ATUALIZAÇÃO DOS PRÁTICOS 
+- A DPC aprovou o Curso de Atualização para Práticos (ATPR) para atender à resolução A.960 da IMO. 
+- Os Práticos devem cursar o ATPR a cada ciclo de 5 anos, contados a partir de sua criação, em jan/2005. 
+- Cabe ao CONAPRA efetuar o controle, gerenciamento e coord do ATPR, e prestar anualmente à DPC (até 15/dez) as seguintes 
+infos: dificuldades e discrepâncias observadas na aplicação do ATPR e a relação atualizada dos Práticos que realizaram o curso. 
+LANCHA DE PRÁTICO, LANCHA DE APOIO E ATALAIA 
+A DPC recomenda que em cada ZP exista apenas uma entidade com todos os Práticos. Nas ZP com mais de uma entidade, é 
+permitido o uso comum de Atalaia e lanchas, (para melhor coordenação e eficiência de uso dos recursos) 
+LANCHA DE PRÁTICO: 
+Caracts Essenciais: manobrab, estab e pot para o transbordo com segurança. Recomenda-se veloc de cruzeiro > 15 kt. 
+Caracts Pppais: 
+- Comp total > 9 m. 
+- Calado máx = 1,5 m. 
+(Lancha-Padrão) 
+- Comp entre PP > 7 m. 
+- Deslocamento > 5000 kg. 
+- Boca > 3 m. 
+- Prop: 2 motores diesel min 170 Hp cada, 2 eixos e 2 hélices. 
+Id Visual: casco verm, superest branca, "P" preto reflexivo (30x15 cm, ambos bordos na superest, por AAR do acesso à cabine). 
+Dotação: 
+- Navegação: 
+radar X + GPS + AIS (op) + eco + ag mag + todas as cartas da ZP + régua // + compasso + binóculo. (1 de cada). 
+- Comms: 
+HF multifreq (op) + VHF fixo (com DSC op) + VHF portátil. 
+(1 de cada) 
+(pode ter outro VHF fixo com alimentação independente, em substituição ao portátil) 
+- Pubs e Quadros: RIPEAM + quadros "Regras de Governo e Navegação", "Luzes e Marcas", "Sinais Son e Lum". 
+(1 de cada) 
+- Salvatagem: 
+- bóia salva-vidas com lanterna: 2 un na antepara por AAV e AAR da cabine, ou uma em cada bordo. 
+- balsa inflável classe I ou II: 1 un para lancha que opere em mar aberto (ou aparelho flutuante, se aut pelo CP). 
+- colete salva-vidas (total = lotação). 
+- Dispositivo para auxiliar no emb/dbq: - enxárcia ou plataforma de embarque. 
+- croque 
+(1 un). 
+- cinto de segurança 
+(1 un). 
+- defensas 
+(1 un em cada bordo). 
+- holofote de 300-500 jd de alcance, comandado da cabine, rot horiz 360° e vert 90°. 
+Emprego: é para uso específico do Svç de Praticagem, mas pode usar em outra coisa se requisitado pela AM (SAR, fiscalização). 
+E tb pode usar para outros svçs indenizáveis (ex: transp de trips/agente/técnicos para trab a bordo - valor acordado entre as partes). 
+Dotação de Lanchas: o núm de lanchas é fixado a critério da associação de praticagem ou de outras associações homologadas 
+para prestar serviço à praticagem (com a obrigatoriedade de estarem prontas 24h). 
+Qualificação das tripulações e habilitação : 
+- CTS da lancha: 1 MNC e 1 MOC, que recebem treinamento em: 
+- fainas de emb/dbq (com condicionamento nas emergs). 
+- prevenção de acidentes. 
+- Depois de adestradas, a trip é submetida às inspeções para homologação da habilitação operacional pelo CONAPRA, que 
+enviará cópia dos Certificados de Homologação para o CP/DL/AG. 
+- O adestramento nas fainas de emb/dbq deve ser continuamente mantido pelos responsáveis das tripulações. 
+- Recomenda-se: - afastar-se do navio enquanto o Prático estiver subindo a escada. 
+- não se aproximar da escada enquanto o Prático não estiver próximo da pos de embarque na lancha. 
+Homologação do Svç de Lancha: 
+- Requisitos: - caracts de manob, estab e pot adequadas àquela ZP (preferencialmente com as caracts ppais da lancha padrão). 
+- possuir a dotação exigida, tripulação dentro do CTS habilitada e treinada, e estar permanentemente disponível. 
+- É feita pelo CP, que concede o Certif de Homologação da Lancha de Prático (An 3-B). / O Órgão Nacional de Praticagem, 
+quando solicitado, realizará as inspeções intermediárias e emitirá os laudos periciais para a homologação do Svç de Lancha. 
+
+
+===== PAGINA 314 =====
+
+LANCHA DE APOIO A PRATICAGEM: 
+Para: 
+- transporte do Prático de cais para cais e transbordo com o navio atracado ou fundeado em águas abrigadas. 
+- outras atividades da praticagem e, ainda, quando requisitada pela AM (SAR e fiscalização). 
+(não substituirá, em nenhuma condição, a Lancha de Prático) 
+Id visual: 
+- idem acima. 
+Dotação: 
+- igual à estabelecida para embs de águas interiores (acd NORMAM-02 e NPCP). 
+- obrigatório VHF fixo + holofote (mesmas caracts acima) + eco. 
+Qualificação das trips e habilitação: idem acima. 
+Homologação do Svc da Lancha de Apoio: feita pelo CP. / O Órgão Nacional de Praticagem, quando solicitado, realizará as 
+inspeções intermediárias e emitirá os laudos periciais para o registro da lancha de apoio. 
+ATALAIA: 
+- Caso haja mais de uma entidade de praticagem, pode haver mais de uma Atalaia. Então será necessário normatizar o controle 
+dos navios que usarão seus serviços para garantir o controle e acompanhamento do tráfego. 
+- As Atalaias devem estar guarnecidas 24 h. 
+- Os serviços de praticagem devem, obrigatoriamente, ser requisitados à Atalaia pelos Comtes/prepostos. 
+Embs dispensadas de pratico de AB > 500: devem comunicar à Atalaia ao entrar/sair da ZP. 
+Estrutura operacional: a área para atracação das lanchas deve fazer parte das instalações. / Se não for possível agrupar tudo no 
+mesmo local, as suas partes devem ficar o mais próximo possível e devem ter comms para operarem como se estivessem agrupadas. 
+Deve haver instalações para alojar Práticos de svç e trips das lanchas. 
+Havendo apenas um "Svc de Atalaia e Lancha" para todas as entidades da ZP: o svç será coordenado e controlado pelo 
+representante das entidades perante o CP, mediante acordo entre as entidades. 
+Havendo mais de um Svc de Atalaia: 
+- O "representante {único) das entidades" perante o CP terá as seguintes responsabilidades: 
+- Considerar como Estação Coordenadora da ZP a Atalaia da sua associação. 
+- Coordenar e o controlar a mov de todas as embs > 500 AB, sujeitas ou não ao svç de praticagem. 
+- Reportar-se à AM, quando necessário. 
+- As demais Atalaias da ZP serão Estações Secundárias da ZP. com as seguintes responsabilidades: 
+- Subordinar-se operacionalmente à Estação Coordenadora da ZP. 
+- Estar pronta para assumir serviços designados pela Coordenadora. 
+- Estar permanentemente guarnecida e trocar infos sobre a movimentação das embs com a Estação Coordenadora da ZP. 
+Dotação: 
+- Comms: 
+- Linhas telefônicas em num suficiente 
+(uma com fax). 
+- VHF com DSC 
+(2 un). 
+- VHF portáteis 
+(= num de Práticos e Praticantes em escala). 
+- Operadores bilíngües (inglês-port). 
+- Energia de emerg para as comms. 
+- Meteoro: 
+- Anemômetro, termômetro de máx/mín e barômetro. 
+- Pubs: 
+- RIPEAM, Almanaque, Tábua de Marés, Roteiro, Lista de Faróis, Lista de Aux-Rádio, CIS, Avs Navegantes. 
+- Escala Beaufort, Relação de Estações Costeiras da Embratel. 
+- Cartas de toda a ZP e áreas adjacentes, régua // e compasso. 
+- Quadro com a carta da ZP, com os pontos que a delimitam, pontos de espera de Prático, de fundeio, quarentena... 
+- Normas da Aut Portuária, LESTA/RLESTA, NPCP e NORMAMs. 
+- Salvatagem: - Coletes salva-vidas 
+(= num de Práticos e Praticantes + 20%). 
+Homologação: o Órgão Nacional de Praticagem, quando possuir delegação de competência do DPC, homologará as Atalaias e 
+enviará cópia do Certif de Homologação da Atalaia (An 3-C) para o CP/DL/AG. 
+
+
+===== PAGINA 315 =====
+
+^ ^ ^ ^ ^ ^ ^ s ^ s a s H s a a s 
+ZPs 
+Fatores condicionantes para o estabelecimento de uma ZP e seus trechos facultativos: caracts hidrográficas e condições 
+peculiares, conseqüências de acidentes e movimentação de navios na ZP. 
+Relação das ZP com seus limites geográficos, estabelecidos pelo DPC: 
+An 4-A. 
+Pontos de Espera de Prático por ZP, estabelecidos pelo DPC: 
+An 4-B. 
+ZPs obrigatórias e trechos facultativos das ZPs: 
+An 4-C e 4-D (respectivamente). 
+Quadro resumo de obrigatoriedade: o An 4-E apresenta as circunstâncias que estabelecem a obrigatoriedade ou não do svç. 
+Dispensa de Prático: 
+- embs classificadas exclusivamente para a Nav Interior, de bandeira brasileira e tripuladas por aquaviários brasileiros. 
+- embs < 2000 AB de bandeira brasileira. 
+- embs < 2000 AB de bandeira estrangeira, desde que contratadas por empresa brasileira com sede e adm no país e comandadas 
+por marítimo brasileiro. 
+- embs supridoras de plataformas < 3000 AB, desde que sejam de bandeira brasileira e: 1) tenham eqs auxiliares de manobra 
+(bow/stern thrusters, prop azimutal ou similares), 2) tenham DGPS, 3) o Comte seja brasileiro, 4) a estação coordenadora da ZP 
+seja consultada quanto à seqüência das manobras de entrada e saída, e 5) tenham o AIS ativo. 
+Embs de AB > 500 de praticagem facultativa tb devem comunicar à Estação Coordenadora a sua mov em ZP obrigatória. 
+Extinção de uma ZP: os Práticos podem ser aproveitados noutra ZP, a critério do DPC (Estágio de Qualificação + exame prático). 
+Prático para embs Peruana e Colombiana: 
+- Obrigatório: 
+AB > 2000 
+- Facultativo: 
+AB < 2000 (cujo calado máx seja compatível com os valores estabelecidos pela AM). 
+- O serviço em AJB é exercido, exclusivamente, por Práticos brasileiros. 
+- O limite máx cobrado dessas embs que usarem o svç não excederá o maior valor cobrado pelo mesmo svç prestado às embs bras. 
+PREÇO DO SVC 
+- O preço remunera o conjunto das atividades compostas por Prático, Lancha e Atalaia. 
+- Quando não houver acordo e a prestação do svç for interrompida, o DPC fixará tabela de preços (valores a seu juízo), a qual será 
+definitiva pelo prazo determinado em Portaria do DPC, ou até que haja acordo, garantida a obrigatoriedade do serviço. 
+- O Órgão Nacional de Praticagem auxiliará seus afiliados nas negociações de preço, atuando como moderador. 
+- Sem acordo entre a Praticagem e o tomador de serviço quanto à Lancha e/ou Atalaia, ocasionando, a juízo do DPC, prejuízo na 
+prestação dos svçs, a AM fixará o valor a ser abatido/indenizado, considerando que o preço remunera o conjunto das atividades 
+compostas pelos 3 segmentos. / As empresas de praticagem devem se ajustar para prestar o Svç composto pelos 3 segmentos. 
+- Navios de guerra e de estado estrangeiros em tempo de paz (sem realizar comércio): a MB adota o critério da reciprocidade 
+para facilidades a esses navios. Quando a praticagem atendê-los, consultar o CP sobre as regalias e isenções aos navios daquele país. 
+DISPOSIÇÕES FINAIS E TRANSITÓRIAS 
+Prático não pode exercer em mais de um Estado, exceto nas praticagens Regionais que abranjam mais de um Estado. / Cada 
+Prático só pode ter o Certificado de Habilitação das ZP(s) na(s) qual(is) presta seus serviços. 
+Prático selecionado para ZP de outro Estado: só pode iniciar o treinamento de Praticante se requerer ao DPC, via CP/DL daZP 
+em que é Prático: 
+- afastamento temporário da sua ZP; ou 
+- autorização para realizar o treinamento junto com as atividades de Prático na sua ZP. 
+(Ele só pode ser submetido ao Exame se requerer ao DPC, via CP/DL do treinamento, o afastamento definitivo e o cancelamento 
+de seu Certificado, condicionado à aprovação no exame para a ZP pretendida.) 
+Praticante só pode ser Praticante em uma ZP. Se selecionado para outra ZP, só pode receber o novo Certificado de Praticante se 
+requerer o seu afastamento definitivo ao CP/DL da ZP em que for Praticante, em até 30 dias da publicação do Edital do Resultado 
+Final. 

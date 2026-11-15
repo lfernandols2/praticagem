@@ -1,0 +1,892 @@
+
+===== PDF_PAGE 117 =====
+NORMAM-311/DPC
+ANEXO 2-B
+BIBLIOGRAFIA SUGERIDA PARA O PROCESSO SELETIVO 
+À CATEGORIA DE PRATICANTE DE PRÁTICO
+I - 
+MANOBRABILIDADE DO NAVIO (SHIP MANOEUVERABILITY)
+1.
+CRENSHAW, Russell Sydnor. Naval shiphandling. 4. ed. Annapolis: U.S. Naval Institute,
+1975.
+Chapter 2 – Forces Affecting the Ship
+2.
+LEWIS, Edward V. Principles of naval architecture. 3. ed. Jersey City: SNAME, 1988-
+1989.
+VOLUME II
+Chapter V – Resistance – Sections 1, 3, 4 e 5
+-
+Introduction
+-
+Frictional Resistance
+-
+Wave-Making Resistance
+-
+Other Components of Resistance
+Chapter VI – Propulsion– Sections 1, 2, 4, 6, 7, 10
+-
+Powering of Ships
+-
+Theory of Propeller Action
+-
+Interaction between Hull and Propeller
+-
+Geometry of the Screw Propeller
+-
+Cavitation
+-
+Other propulsion devices (jet propulsion, paddle wheels, vertical-axis propellers,
+controllable-pitch propellers, tandem and contrarotating propellers, super-cavitating
+propellers and overlapping propellers)
+VOLUME III
+Chapter IX – Controllability – Sections 1,3,4,5,6,10,12, 13 e 14
+-
+Introduction
+-
+Motion Stability
+-
+Analysis of Course Keeping and Controls-fixed Stability
+-
+Stability and Control
+-
+Analysis of Turning Ability
+-
+Accelerating, Stopping and Backing
+-
+Effects of the Environment
+-
+Vessel Waterway Interactions
+-
+Hydrodynamics of Control Surfaces
+
+Geometry, Forces and Moments
+
+Flow around a Ship’s Rudder
+
+Scale Effects
+
+Effect of Aspect Ratio
+
+Free-stream Characteristics of All-Movable Low Aspect-Ratio Control Surfaces.
+
+Influence of Hull Shape on Effective Aspect Ratio of All-Movable Control Surfaces
+
+Influence of Fixed Structure and Flapped Control Surfaces
+- 2-B-1 -
+
+===== PDF_PAGE 118 =====
+NORMAM-311/DPC
+
+Free-stream Characteristics of All-Movable Low Aspect-Ratio Control Surfaces.
+
+Influence of Hull Shape on Effective Aspect Ratio of All-Movable Control Surfaces
+
+Influence of Fixed Structure and Flapped Control Surfaces
+Resistência do Navio
+3.
+LARSSON, Lars; RAVEN, Hoyteção C. Ship resistance and flow. PAULLING, J. Randolph
+(ed.). Jersey City: The Society of Naval Architects and Marine Engineers, 2010.
+Chapter 1 -
+Introduction
+Chapter 2 -
+Governing Equations
+Chapter 3 -
+Similarity
+Chapter 4 -
+Decomposition of Resistance
+Chapter 5 -
+Inviscid Flow Around the Hull, Wave Making, and Wave Resistance
+Chapter 6 -
+The Flow Around the Hull and the Viscous Resistance
+Chapter 7 -
+Other Resistance Components
+Chapter 8 -
+Experimental Resistance Prediction and Flow Measurement
+Propulsão do Navio e Propulsores
+4.
+BERTRAM, Volker. Practical ship hydrodynamics. 2. ed. Oxford: Elsevier, 2012.
+Chapter 2 -
+Propellers
+Chapter 3 -
+Resistance and Propulsion
+Superfícies de Controle (lemes)
+5.
+BERTRAM, Volker. Practical ship hydrodynamics. 2. ed. Oxford: Elsevier, 2012.
+Chapter 6 -
+Ship maeuvering
+A Dinâmica de Comportamento do Navio e sua Controlabilidade
+6.
+INTERNATIONAL MARITIME ORGANIZATION – IMO. Explanatory notes to the standards
+for ship manoeuvrability. London: IMO, 2002. MSC/Circ.1053, 16 Dec. 2002.
+Chapter 1 -
+General principles
+Chapter 2 -
+Guidelines for the application of the standards
+Chapter 3 -
+Prediction guidance
+7.
+INTERNATIONAL MARITIME ORGANIZATION – IMO.
+ Standards for ship
+manoeuvrability. London: IMO, 2002. Resolution MSC.137(76), adopted on 4 Dec.
+2002.
+Annex 6 – Standards for Ship Manoeuvrability
+1. Principles
+2. General
+3. Application
+4. Definitions
+4.1.
+Geometry of the ship
+4.2.
+Standard manoeuvres and associated terminology
+5. Standards
+5.2.
+Conditions at which the standards apply
+5.3.
+Criteria
+6. Additional considerations
+- 2-B-2 -
+
+===== PDF_PAGE 119 =====
+NORMAM-311/DPC
+8.
+SANTOS, Edson Mesquita dos. A manobrabilidade do navio no século 21. 1. ed. Rio de
+Janeiro: CONAPRA, 2021.
+Capítulo 2 -
+A equação de movimento do navio
+Capítulo 3 -
+A Asa – Casco do Navio − As Derivadas Hidrodinâmicas
+3.8.
+O escoamento cruzado (cross flow) e a manobra do navio
+quando em velocidades muito baixas
+Capítulo 4 -
+A estabilidade dinâmica do navio e a curva espiral
+Capítulo 5 -
+A habilidade de manter o rumo, a facilidade de quebrar a guinada e a
+curva de zigue-zague
+Capítulo 6 -
+A habilidade para executar uma curva de giro e a curva de giro
+Capítulo 7 -
+A habilidade de um navio para parar, acelerar, desacelerar e mover a ré
+Capítulo 8 -
+A ação das forças externas ambientais sobre o navio
+Capítulo 9 -
+Efeitos de águas rasas
+Capítulo 10 - Efeitos de águas restritas ou confinadas e interações
+Capítulo 11 - Manobras especiais
+9.
+SANTOS, Edson Mesquita dos. Princípios de hidrodinâmica e ação das ondas sobre o
+movimento do navio. 1. ed. Rio de Janeiro: CONAPRA, 2021.
+Capítulo 3 -
+O movimento do navio em ondas regulares
+Capítulo 4 -
+O mar irregular e o mar confuso – o movimento do navio
+10.
+INTERNATIONAL MARITIME ORGANIZATION – IMO. Revised guidance to the master for
+avoiding dangerous situations in adverse weather and sea conditions. London: IMO,
+2007. MSC.1/Circ.1228, 11 Jan. 2007.
+1. General
+3. Dangerous phenomena
+3.1.
+Phenomena occurring in following and quartering seas
+3.1.1.
+Surf-riding and broaching-to
+3.1.2.
+Reduction of intact stability when riding a wave crest amidships
+3.2.
+Synchronous rolling motion
+3.3.
+Parametric roll motions
+3.4.
+Combination of various dangerous phenomena
+4.
+Operational guidance
+4.2.
+How to avoid dangerous conditions
+4.2.1.
+For surf-riding and broaching-to
+4.2.2.
+For successive high-wave attack
+4.2.3.
+For synchronous rolling and parametric rolling motions
+11.
+INTERNATIONAL MARITIME ORGANIZATION – IMO. Provision and display of
+manoeuvring information on board ships. London: IMO, 1987. Resolution A.601(15),
+adopted on 19 Nov. 1987.
+1. Manoeuvring information
+II -
+       
+ 
+ ARTE NAVAL (SHIPHANDLING) 
+ 
+ 
+1.
+FONSECA, Maurílio M. Arte Naval. v. 1. 8. ed. Rio de Janeiro: Marinha do Brasil, 2019.
+Capítulo 1 –
+Nomenclatura do Navio
+Capítulo 2 –
+Geometria do Navio
+- 2-B-3 -
+
+===== PDF_PAGE 120 =====
+NORMAM-311/DPC
+Capítulo 3 -
+Classificação dos Navios
+Capítulo 8 –
+Trabalhos do Marinheiro
+Capítulo 9 –
+Poleame, Aparelhos de Laborar e Acessórios
+Capítulo 10 – Aparelhos de Fundear e Suspender
+Capítulo 11 - Aparelho de governo, mastreação e aparelhos de carga
+Capítulo 12 – Manobra do Navio
+2.
+MacELREVEY, Daniel H. Shiphandling for the Mariner. 4. ed. Centreville: Cornell
+Maritime Press, 2004.
+3.
+INTERNATIONAL MARITIME ORGANIZATION – IMO. International Convention for the
+Safety of Life at Sea (SOLAS), 1974, as amended. Regulation V/23.3.3. London: IMO,
+1974.
+4.
+INTERNATIONAL MARITIME ORGANIZATION – IMO. Unified interpretation of SOLAS
+regulation V/23.3.3 on pilot transfer arrangements. London: IMO, 2019.
+MSC.1/Circ.1495/Rev.1.
+5.
+INTERNATIONAL MARITIME ORGANIZATION – IMO. Required pilot transfer
+arrangements. London: IMO, 2012. MSC.1/Circ.1428.
+6.
+INTERNATIONAL MARITIME ORGANIZATION – IMO. Pilot transfer arrangements.
+London: IMO, 2011. Resolution A.1045(27), adopted on 30 Nov. 2011.
+7.
+INTERNATIONAL MARITIME ORGANIZATION – IMO.
+ Amendments to the
+recommendation on pilot transfer arrangements (resolution A.1045(27)). London:
+IMO, 2015. Resolution A.1108(29), adopted on 2 Dec. 2015.
+8.
+NAYAK, Santosha K. Theory and practices of marine pilotage. [S.l.]: Amazon Digital
+Services LLC – KDP Print US, 2020.
+Chapter 3 -
+Pilot Transfer Procedures
+Chapter 4 -
+Master-Pilot Info Exchange (MPiX)
+Chapter 13 -
+Manoeuvring Inside Harbour Limits
+Chapter 14 -
+Slow Speed Manoeuvres
+Chapter 15 -
+Approaching Berths
+Chapter 16 -
+Berthing & Moorings
+Chapter 17 -
+Un-berthing and Outward Manoeuvre
+Chapter 18 -
+Emergency Manoeuvring Options
+Chapter 19 -
+Special Operations
+9.
+HENSEN, Henk. Tug Use in Port: A Practical Guide. 4. ed. Rotterdam: STC Publishing,
+2021.
+Chapter 1 -
+Tug design factors
+Chapter 2 -
+Types of tugs
+Chapter 3 -
+Assisting Methods
+Chapter 4 -
+Tug capabilities and limitations
+Chapter 5 -
+Bollard pull required
+Chapter 6 -
+Interaction and tug safety
+- 2-B-4 -
+
+===== PDF_PAGE 121 =====
+NORMAM-311/DPC
+Chapter 7 -
+Towing equipment
+Chapter 9 -
+Escort tugs
+10.
+HENSEN, Henk; VAN DER LAAN, Markus. Estabilidade dos rebocadores: um guia
+prático para operações seguras. Tradução de Plínio Calenzo. Rio de Janeiro: Fundação
+Gente do Mar (FGMar), 2022.
+Capítulo 2 -
+Princípios básicos de estabilidade
+11.
+CLARK, I. C. Mooring and Anchoring Ships: Principles and Practice. v. 1. London: The
+Nautical Institute, 2009.
+Chapter 6 -
+Anchor and cable
+12.
+FRAGOSO, Otávio; CAJATY, Marcelo. Rebocadores portuários. Rio de Janeiro: C. I. 
+Editora, 2002.
+13.
+PIANC. Ship Dimensions and Data for Design of Marine Infrastructure. Brussels: The 
+World Association for Waterborne Transport Infrastructure, 2022.
+Chapter 1 -
+Introduction
+Chapter 2 -
+Vessel characteristics
+III -
+ 
+   NAVEGAÇÃO EM ÁGUAS RESTRITAS
+ 
+ 
+1.
+SWIFT, A. J.; BAILEY, T. J. Bridge Team Management: a practical guide. 2. ed. London:
+The Nautical Institute, 2004.
+Chapter 1 -
+Bridge Team Management
+Chapter 2 -
+Passage Appraisal
+Chapter 3 -
+Passage Planning
+Chapter 4 -
+Executing the passage/voyage plan
+Chapter 5 -
+Monitoring the Ship’s Progress
+Chapter 6 -
+Teamwork
+Chapter 7 -
+Navigating with a Pilot on Board
+2.
+MIGUENS, Altineu Pires. Navegação: a ciência e a arte. Rio de Janeiro: DHN, [s.d.]. v. 1
+e v. 3. Disponível em: www.dhn.mar.mil.br.
+VOLUME -I
+Capítulo 1 -
+O Problema Geral da Navegação
+Capítulo 2 -
+Projeções Cartográficas: A Carta Náutica
+Capítulo 3 -
+Agulhas Náuticas: Conversões de Rumos e Marcações
+Capítulo 4 -
+A Posição no Mar: Navegação Costeira
+Capítulo 5 -
+Navegação Estimada
+Capítulo 6 -
+Determinação da Posição por Marcações Sucessivas
+Capítulo 7 -
+Emprego de Linhas de Posição de Segurança
+Capítulo 8 -
+Uso dos Dados Táticos do Navio na Navegação em Águas Restritas
+Capítulo 10 - Marés e Correntes de Maré; Correntes Oceânicas
+Capítulo 11 - Instrumentos Náuticos
+Capítulo 12 - Publicações de Auxílio à Navegação
+Capítulo 13 - Auxílios a Navegação
+Capítulo 14 - Navegação Radar
+- 2-B-5 -
+
+===== PDF_PAGE 122 =====
+NORMAM-311/DPC
+VOLUME – III
+Capítulo 37 - Navegação por Satélites
+Capítulo 38 - Outros Sistemas e Técnicas Modernas de Navegação
+Capítulo 40 - A Navegabilidade dos Rios
+Capítulo 42 - Navegação com Mau Tempo
+3.
+INTERNATIONAL CHAMBER OF SHIPPING. Bridge procedures guide. 6. ed. London: ICS,
+2022.
+Chapter 2 -
+Effective bridge organisation 
+Chapter 3 -
+Passage planning
+Chapter 5 -
+Operation and maintenance of bridge equipment
+Chapter 6 -
+Pilotage
+4.
+INTERNATIONAL MARITIME ORGANIZATION – IMO. International Convention for the
+Safety of Life at Sea (SOLAS) – Consolidated Edition 2024. London, 2024.
+Chapter V -
+Safety of Navigation
+5.
+BENTO, Carlos Norberto Stumpf. Navegação integrada. 4. ed. Niterói: Claudio Ventura
+Comunicação, 2013. E-book desde 2022.
+Capítulo 1 -
+Navegação precisa em tempo real
+Capítulo 2 -
+Acompanhamento automático das embarcações
+Capítulo 3 -
+Navegação integrada
+Capítulo 4 - 
+Navegação segura e protegida
+6.
+NAYAK, Santosha K. Theory and practices of marine pilotage. [S.l.]: Amazon Digital
+Services LLC – KDP Print US, 2020.
+Chapter 5 -
+Entering Pilotage Waters 
+Chapter 6 -
+Safe Positioning of a Vessel in the Channel 
+Chapter 13 -
+Manoeuvering Imside Harbour Limits
+7.
+MARINHA DO BRASIL. NORMAM-202/DPC – Normas da Autoridade Marítima para
+Embarcações Empregadas na Navegação Interior.
+Capítulo 11 - Regras Especiais para Evitar Abalroamento na Navegação Interior
+8.
+MARINHA DO BRASIL. NORMAM-511/DHN – Navegação e Cartas Náuticas. Rio de
+Janeiro: Diretoria de Hidrografia e Navegação.
+9.
+MARINHA DO BRASIL. NORMAM-601/DHN – Normas da Autoridade Marítima para
+Auxílios à Navegação.
+10.
+MARINHA DO BRASIL. NORMAM-602/DHN – Serviço de Tráfego de Embarcações
+(VTS). Rio de Janeiro: Diretoria de Hidrografia e Navegação.
+11.
+INTERNATIONAL MARITIME ORGANIZATION – IMO. Adoption of the revised
+performance standards for radar equipment. London: IMO, 2004. Resolution
+MSC.192(79).
+- 2-B-6 -
+
+===== PDF_PAGE 123 =====
+NORMAM-311/DPC
+12.
+INTERNATIONAL MARITIME ORGANIZATION – IMO. Revised guidelines for the onboard
+operational use of shipborne automatic identification systems (AIS). London: IMO,
+2015. Resolution A.1106(29).
+13.
+INTERNATIONAL MARITIME ORGANIZATION – IMO. Performance standards for
+electronic chart display and information systems (ECDIS). London: IMO, 2022.
+Resolution MSC.530(106).
+14.
+INTERNATIONAL MARITIME ORGANIZATION – IMO. Guidelines for dynamic positioning
+system (DP) operator training. London: IMO, 2017. MSC.1/Circ.738/Rev.2, 16 June
+2017.
+15.
+INTERNATIONAL MARITIME ORGANIZATION – IMO. Guidelines for vessels with
+dynamic positioning (DP) systems. London: IMO, 2017. MSC.1/Circ.1580, 16 June
+2017.
+16.
+INTERNATIONAL MARITIME ORGANIZATION – IMO. Convention on the International
+Regulations for Preventing Collisions at Sea (COLREG). Consolidated edition 2018.
+London: IMO, 2003.
+Part A -
+General
+Part B -
+Steering and sailing rules
+Part C -
+Lights and shapes
+Part D -
+Sound and light signals
+Part E -
+Exemptions
+17.
+MARINHA DO BRASIL. NORMAM-501/DHN – Normas da Autoridade Marítima para
+Levantamentos Hidrográficos.
+IV -
+ 
+   LEGISLAÇÃO E REGULAMENTAÇÃO
+ 
+ 
+1.
+MARINHA DO BRASIL. NORMAM-201/DPC – Normas da Autoridade Marítima para
+Embarcações Empregadas na Navegação de Mar Aberto.
+Capítulo 7 - Borda-livre e Estabilidade Intacta. ART.: 7.1 a 7.3 e 7.10 a 7.14.
+2.
+MARINHA DO BRASIL. NORMAM-204/DPC – Normas da Autoridade Marítima para
+Tráfego e Permanência de Embarcações em Águas Jurisdicionais Brasileiras.
+3.
+MARINHA DO BRASIL. NORMAM-302/DPC – Normas da Autoridade Marítima para
+Inquéritos Administrativos sobre Acidentes e Fatos da Navegação (IAFN).
+4.
+MARINHA DO BRASIL. NORMAM-311/DPC – Normas da Autoridade Marítima para o
+Serviço de Praticagem.
+5.
+MARINHA DO BRASIL. NORMAM-601/DHN – Normas da Autoridade Marítima para
+Auxílios à Navegação.
+6.
+MARINHA DO BRASIL. NORMAM-112/DPC – Normas da Autoridade Marítima para
+Cerimonial da Marinha Mercante.
+- 2-B-7 -
+
+===== PDF_PAGE 124 =====
+NORMAM-311/DPC
+7.
+MARINHA DO BRASIL. NORMAM-602/DHN – Serviço de Tráfego de Embarcações
+(VTS). Rio de Janeiro: Diretoria de Hidrografia e Navegação.
+8.
+BRASIL. Lei nº 2.180, de 5 de fevereiro de 1954. Dispõe sobre o Tribunal Marítimo.
+Brasília, DF, 1954.
+9.
+BRASIL. Lei nº 9.537, de 11 de dezembro de 1997. Dispõe sobre a Segurança do
+Tráfego Aquaviário em Águas sob Jurisdição Nacional (LESTA). Brasília, DF, 1997.
+(Texto atualizado).
+10.
+BRASIL. Lei nº 14.813, de 15 de janeiro de 2024. Regulamenta a atividade de
+praticagem. Brasília, DF, 2024.
+11.
+BRASIL. Decreto nº 2.596, de 18 de maio de 1998. Aprova o Regulamento de
+Segurança do Tráfego Aquaviário em Águas sob Jurisdição Nacional (RLESTA). Brasília,
+DF, 1998.
+12.
+BRASIL. MARINHA DO BRASIL. Portaria nº 37/MB, de 21 de fevereiro de 2022.
+Estabelece a Estrutura da Autoridade Marítima e delega competências aos Titulares
+dos Órgãos de Direção-Geral, de Direção Setorial e de outras Organizações Militares
+da Marinha para o exercício das atividades especificadas. Brasília, DF, 2021.
+13.
+INTERNATIONAL MARITIME ORGANIZATION – IMO. Convention on the International
+Regulations for Preventing Collisions at Sea, 1972 (COLREG): consolidated edition
+2018. London: IMO, 2003.
+14.
+Publicações Náuticas da Diretoria de Hidrografia e Navegação (DHN) relacionadas
+abaixo:
+-
+Cartas Náuticas;
+-
+Carta 12.000 (Símbolos, Abreviaturas e Termos);
+-
+Avisos aos Navegantes;
+-
+Roteiro;
+-
+Lista de Faróis;
+-
+Lista de Auxílios-rádio;
+-
+Tábuas das Marés;
+-
+Cartas de Correntes de Maré; e
+-
+Cartas Piloto.
+15.
+Serviço de Busca e Salvamento Marítimo (SAR) no Brasil. (disponível em
+www.salvamarbrasil.mar.mil.br).
+16.
+BRASIL. Lei nº 12.815, de 5 de junho de 2013. Dispõe sobre a exploração direta e
+indireta pela União de portos e instalações portuárias e sobre as atividades
+desempenhadas pelos operadores portuários. Brasília, DF, 2013.
+Capítulo I -
+Definições e objetivos
+Capítulo IV -
+Da Administração do Porto Organizado
+Capítulo VIII - Do programa nacional de dragagem portuária e hidroviária
+- 2-B-8 -
+
+===== PDF_PAGE 125 =====
+NORMAM-311/DPC
+17.
+BRASIL. Lei Complementar nº 97, de 9 de junho de 1999. Dispõe sobre as normas
+gerais para a organização, o preparo e o emprego das Forças Armadas. Brasília, DF,
+1999. (Texto atualizado).
+Capítulo VI - Art. 17. Cabe à Marinha, como atribuições subsidiárias particulares.
+18.
+INTERNATIONAL MARITIME ORGANIZATION – IMO. Recommendations on training and
+certification and on operational procedures for maritime pilots other than deep-sea
+pilots. London: IMO, 2003. Resolution A.960(23), adopted on 5 Dec. 2003.
+19.
+BRASIL. MINISTÉRIO DA DEFESA. Glossário das Forças Armadas: MD35-G-01. 5. ed.
+Brasília, DF: Ministério da Defesa, 2015.
+20.
+BRASIL. MINISTÉRIO DA DEFESA. Política Nacional de Defesa. Brasília, DF: Ministério da
+Defesa, 2025.
+21.
+BRASIL. Decreto nº 12.481, de 2 de junho de 2025. Institui a Política Marítima
+Nacional. Brasília, DF, 2025.
+22.
+BRASIL. Decreto nº 2.256, de 17 de junho de 1997. Regulamenta a Lei nº 9.432, de 8
+de janeiro de 1997. Brasília, DF, 1997.
+23.
+BRASIL. Lei nº 7.642, de 18 de dezembro de 1987. Dispõe sobre a Procuradoria
+Especial da Marinha – PEM, e dá outras providências. Brasília, DF, 1987. 
+24.
+BRASIL. Lei nº 7.652, de 3 de fevereiro de 1988. Dispõe sobre o Registro da
+Propriedade Marítima e dá outras providências. Brasília, DF, 1988.
+25.
+BRASIL. Lei nº 9.432, de 8 de janeiro de 1997. Dispõe sobre a ordenação do transporte
+aquaviário e dá outras providências. Brasília, DF, 1997. (Texto atualizado).
+V -
+      METEOROLOGIA,
+ 
+  OCEANOGRAFIA E NAVEGAÇÃO
+ 
+ 
+1.
+MIGUENS, Altineu Pires. Navegação: a ciência e a arte. Rio de Janeiro: DHN, [s.d.]. v. 3.
+Disponível em: www.dhn.mar.mil.br. Acesso em: 17 mar. 2026.
+VOLUME III
+Capítulo 45 – Noções de Meteorologia para Navegantes
+2.
+YNOUE, R. Y.; REBOITA, M. S.; AMBRIZZI, T.; SILVA, G. A. M. Meteorologia: noções
+básicas. [S.l.]: Oficina de Textos, 2017.
+3.
+LOBO, P. R. Valgas; SOARES, C. A. Meteorologia e oceanografia. 4. ed. Rio de Janeiro,
+2019.
+4.
+SANTOS, Edson Mesquita dos. Princípios de hidrodinâmica e ação das ondas sobre o
+movimento do navio. 1. ed. Rio de Janeiro: CONAPRA, 2021.
+5.
+PIANC. Use of hydro/meteo information for port access and operations. Brussels: The
+World Association for Waterborne Transport Infrastructure, 2012. (Report, 117).
+Chapter 2 -
+Background
+- 2-B-9 -
+
+===== PDF_PAGE 126 =====
+NORMAM-311/DPC
+Chapter 3 -
+System requirements
+Chapter 4 -
+Acquisition of Hydro/Meteo information
+Chapter 5 -
+Forecasting Of Hydro And Meteo Parameters
+Chapter 6 -
+Recommended Use of Hydro/ Meteor Information
+6.
+MARINHA DO BRASIL. NORMAM-701/DHN – Normas da Autoridade Marítima para as
+Atividades de Meteorologia Marítima.
+VI -
+ 
+     
+  COMUNICAÇÕES
+ 
+ 
+1.
+INTERNATIONAL MARITIME ORGANIZATION – IMO.
+ IMO standard marine
+communication phrases. London: IMO, 2001. Resolution A.918(22), adopted on 29
+Nov. 2001.
+-
+Introduction
+-
+General
+-
+Glossary
+2.
+BRASIL. Diretoria de Portos e Costas. MANUAL DO CURSO ESPECIAL DE
+RADIOPERADOR GERAL, - Rio de Janeiro.
+3.
+INTERNATIONAL MARITIME ORGANIZATION – IMO. International code of signals.
+London: IMO, 2005. Capítulos, Seções e Apêndices de interesse do Processo Seletivo
+relacionados abaixo:
+3.1.
+CAPÍTULOS I a V, VII, VIII, X, XI, XII;
+3.2.
+SEÇÃO GERAL
+I -
+Distress – emergency
+
+Abandon
+
+Assistance
+
+Distress
+
+Search and Rescue
+
+Survivors
+II -
+Casulties – damages
+
+Collision
+
+Fire – explosion
+
+Towing – tugs
+III – Aids to navigation
+
+Canal – channel – fairway
+
+Dangers to navigation
+IV - Manoeuvres
+V - Miscellaneous
+
+Pilot
+- 2-B-10 -
+
+===== PDF_PAGE 127 =====
+NORMAM-311/DPC
+3.2.3. SEÇÃO MÉDICA (Instructions)
+I -
+Request for Medical assistance – Chapter I
+3.2.4. APÊNDICES
+1 -
+Distress signals
+2 -
+Table of signaling flags
+4 -
+Radiotelephone procedures
+VII -
+ 
+      
+ 
+ CONHECIMENTOS GERAIS
+ 
+ 
+Planejamento Portuário
+1.
+INTERNATIONAL MARITIME ORGANIZATION – IMO. Ship/port interface: list of
+publications relevant to the ship/port interface. London: IMO, 2025.
+FAL.6/Circ.14/Rev.2, 2 Apr. 2025.
+2.
+CONSELHO NACIONAL DE PRATICAGEM – CONAPRA. Planejamento Portuário:
+Recomendações para Acessos Náuticos.
+Capítulo 2 -
+Vias de Acesso a Instalações Portuárias
+Capítulo 8 -
+Análise de Risco e Planejamento Portuário
+3.
+PIANC – The World Association for Waterborne Transport Infrastructure. Harbour
+Approach Channels: Design Guidelines. Brussels: PIANC, 2014.
+Chapter 1 -
+General Aspects
+Chapter 2 -
+Design of Vertical Channel Dimensions
+Chapter 3 -
+Channel Width, Harbour Entrances, Manoeuvring and anchorage areas
+4.
+MARINHA DO BRASIL. NORMAM-224/DPC – Normas da Autoridade Marítima para
+Folga Dinâmica para Abaixo da Quilha.
+Fatores Humanos
+5.
+INTERNATIONAL MARITIME ORGANIZATION – IMO – MSC.1/Circ.1598 – Guidelines on
+Fatigue. London: IMO, 2019.
+6.
+LIVINGSTONE, Grant H.; LIVINGSTONE, George H. Shiphandling the beautiful game. v.
+1. London: The Nautical Institute, 2025.
+Chapter 1 –
+Emotions
+Chapter 3 –
+Mananging Pressure
+Chapter 11 – Managing Technology and Distractions
+Chapter 12 – Managing Professioanl Conduct
+7.
+ORGANIZAÇÃO DAS NAÇÕES UNIDAS – ONU. Declaração Universal dos Direitos
+Humanos. Rio de Janeiro: ONU, 2009.
+Meio Ambiente
+8.
+BRASIL. Decreto nº 2.508, de 4 de março de 1998. Promulga a Convenção Internacional
+para a Prevenção da Poluição Causada por Navios (MARPOL 73/78), de 1973, com o
+Protocolo de 1978.
+- 2-B-11 -
+
+===== PDF_PAGE 128 =====
+NORMAM-311/DPC
+Economia Marítima e Amazônia Azul
+9.
+STOPFORD, Martin. Economia marítima. 3. ed. Tradução de Léo Tadeu Robles e Ana
+Cristina Ferreira Castela Paixão Casaca. São Paulo: Blucher, 2017.
+PARTE 1:
+Introdução ao transporte marítimo
+Capítulo 1 -
+Transporte marítimo e economia global
+Capítulo 2. -
+A organização do mercado marítimo
+PARTE 2:
+Economia do mercado marítimo
+Capítulo 3 -
+Ciclos do mercado marítimo
+Capítulo 4 -
+Oferta, demanda e taxas de frete
+Capítulo 5 -
+Os quatro mercados do transporte marítimo
+PARTE 3:
+A economia das companhias de navegação
+Capítulo 6 -
+Custos, receitas e fluxo de caixa
+Capítulo 7 -
+Financiamento de navios e de companhias de navegação
+Capítulo 8 -
+Risco, retorno e economia das companhias de navegação
+PARTE 4:
+Comércio marítimo e sistemas de transporte
+Capítulo 9 -
+A geografia do comércio marítimo
+9.6.
+O comércio marítimo sul-americano
+Capítulo 10 - Os princípios do comércio marítimo
+Capítulo 11 - O transporte de cargas a granel
+Capítulo 12 - O transporte de cargas especializadas
+Capítulo 13 - O transporte de carga geral
+PARTE 5:
+A frota mercante e a oferta de transporte
+Capítulo 14 - Os navios que realizam o transporte
+Capítulo 15 - A economia das indústrias de construção naval e demolição de navios
+Capítulo 16 - A regulamentação da indústria marítima
+16.2.
+Sistema de regulamentação
+16.4.
+O direito do mar
+16.5.
+O papel regulatório do Estado da bandeira
+16.7.
+A organização Marítima Internacional
+16.8.
+A Organização Mundial do Trabalho
+16.9.
+O papel regulamentador dos Estados costeiros e portuários
+16.10.
+A regulamentação da concorrência no transporte marítimo
+PARTE 6:
+Previsões e planejamentos
+Capítulo 17 - Previsões e pesquisas no mercado marítimos
+Direito Marítimo
+10.
+PIMENTA, Matusalém Gonçalves. Direito processual marítimo. 3. ed. Rio de Janeiro:
+Lumens Juris, 2020.
+Capítulo 1 -
+Processos de competência da Autoridade Marítima Brasileira
+Capítulo2 -
+A Corte Marítima Brasileira
+Capítulo 3 -
+A Procuradoria Especial da Marinha
+Capítulo 4 -
+Acidentes de Navegação
+Capítulo 5 -
+Fatos de Navegação
+Capítulo 7 -
+Inquérito Marítimo e Investigação de Segurança
+Capítulo 8 -
+Processo de competência do Tribunal Marítimo
+Capítulo 9 -
+Recursos, penalidades e execução na Corte Marítima
+- 2-B-12 -
+
+===== PDF_PAGE 129 =====
+NORMAM-311/DPC
+Capítulo 10 - Processo de registro de competência no Tribunal Marítimo
+Capítulo 11 - Repercussões das decisões do Tribunal Marítimo no Poder Judiciário
+OBSERVAÇÕES:
+1.
+A Bibliografia sugerida neste anexo não limita ou esgota os assuntos constantes do
+conteúdo programático, servindo apenas como orientação para o candidato, a quem
+cabe a escolha daquela que julgue mais adequada para o estudo dos assuntos
+atinentes às provas.
+2.
+O Edital do Processo Seletivo, a que se referir, indicará as publicações, edições ou
+versões dos itens sugeridos.
+- 2-B-13 -
+
+===== PDF_PAGE 130 =====
+INTENCIONALMENTE EM BRANCO
+
+===== PDF_PAGE 131 =====
+NORMAM-311/DPC
+ANEXO 2-C
+CERTIFICADO DE HABILITAÇÃO DE PRATICANTE DE PRÁTICO
+- 2 -C -1 -
+
+===== PDF_PAGE 132 =====
+INTENCIONALMENTE EM BRANCO
+
+===== PDF_PAGE 133 =====
+NORMAM-311/DPC
+ANEXO 2-D
+DECLARAÇÃO DE AVALIAÇÃO SATISFATÓRIA EM PROGRAMA DE QUALIFICAÇÃO DE PRATICANTE
+DE PRÁTICO
+Declaro, para fim de solicitação do Exame de Habilitação para Prático, que o
+Praticante de Prático _______________________________________________, CIR nº
+_________________, da ZP ________________________________________, cumpriu junto a esta
+entidade de praticagem o Programa de Qualificação de Praticante de Prático, em conformidade
+com o previsto nas Normas da Autoridade Marítima para o Serviço de Praticagem – NORMAM-
+311/DPC e nas NPCP/NPCF, sendo seu desempenho avaliado como satisfatório, estando apto a
+solicitar o Exame de Habilitação para Prático.
+_______________________________________________________
+Assinatura do representante legal da entidade de praticagem
+- 2-D-1 -
+
+===== PDF_PAGE 134 =====
+INTENCIONALMENTE EM BRANCO
+
+===== PDF_PAGE 135 =====
+NORMAM-311/DPC
+ANEXO 2-E
+CERTIFICADO DE HABILITAÇÃO DE PRÁTICO
+- 2-E-1 -

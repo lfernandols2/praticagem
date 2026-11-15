@@ -1,0 +1,643 @@
+{
+  "titulo": "Apostila de Praticagem",
+  "subtitulo": "Do casco ao passadiço: uma síntese de arquitetura naval, manobra, navegação, legislação e meteorologia.",
+  "fonte": "resumo curso h.pdf",
+  "totalPaginasFonte": 373,
+  "modulos": [
+    {
+      "id": "fundamentos",
+      "nome": "Fundamentos de Arquitetura Naval",
+      "descricao": "Resistência, propulsão e governo do navio."
+    },
+    {
+      "id": "manobra",
+      "nome": "Manobra e Rebocadores",
+      "descricao": "Shiphandling, interação, squat e operação com rebocadores."
+    },
+    {
+      "id": "navegacao",
+      "nome": "Navegação e Arte Naval",
+      "descricao": "Radar, arte naval, gestão de passadiço e RIPEAM."
+    },
+    {
+      "id": "regulamentacao",
+      "nome": "Regulamentação e Segurança",
+      "descricao": "Legislação, sinalização, estabilidade e praticagem."
+    },
+    {
+      "id": "operacoes",
+      "nome": "Operações e Meteorologia",
+      "descricao": "Cerimonial, SAR, meteorologia, marés e GMDSS."
+    },
+    {
+      "id": "programa",
+      "nome": "Programa NORMAM-311 (Anexos 2-A/2-B)",
+      "descricao": "Material estruturado pelo conteúdo programático e bibliografia oficiais do processo seletivo."
+    }
+  ],
+  "partes": [
+    {
+      "id": "01-resistencia",
+      "numero": "01",
+      "titulo": "Resistência ao Avanço",
+      "subtitulo": "Como o casco converte velocidade em resistência: análise dimensional, atrito, formação de ondas e previsão de potência.",
+      "eyebrow": "PNA · Capítulo 5",
+      "modulo": "fundamentos",
+      "paginas": [
+        1,
+        17
+      ],
+      "tags": [
+        "resistência",
+        "atrito",
+        "ondas",
+        "Froude",
+        "Reynolds",
+        "águas rasas"
+      ],
+      "descricao": "Componentes da resistência, semelhança e análise dimensional, atrito, formação de ondas, apêndices, águas rasas, banda e deriva.",
+      "fonteNome": "Principles of Naval Architecture, Cap. 5 — Resistance"
+    },
+    {
+      "id": "02-propulsao",
+      "numero": "02",
+      "titulo": "Propulsão",
+      "subtitulo": "Do momentum ao hélice real: teoria, geometria, cavitação, interação casco-hélice e eficiências.",
+      "eyebrow": "PNA · Capítulo 6",
+      "modulo": "fundamentos",
+      "paginas": [
+        18,
+        38
+      ],
+      "tags": [
+        "propulsão",
+        "hélice",
+        "cavitação",
+        "slip",
+        "eficiência",
+        "CPP"
+      ],
+      "descricao": "Potência e rendimento, teoria do momentum, geometria do hélice, cavitação, propulsores especiais e interação casco-hélice.",
+      "fonteNome": "Principles of Naval Architecture, Cap. 6 — Propulsion"
+    },
+    {
+      "id": "03-governo-manobrabilidade",
+      "numero": "03",
+      "titulo": "Governo e Manobrabilidade",
+      "subtitulo": "Forças hidrodinâmicas, estabilidade de rumo, índices K–T, diâmetro de giro, parada e efeitos de canal.",
+      "eyebrow": "PNA · Capítulo 9",
+      "modulo": "fundamentos",
+      "paginas": [
+        39,
+        62
+      ],
+      "tags": [
+        "governo",
+        "leme",
+        "giro",
+        "K-T",
+        "parada",
+        "interação",
+        "estabilidade de rumo"
+      ],
+      "descricao": "Controllability: derivadas hidrodinâmicas, estabilidade direcional, espiral de Dieudonné, índices K–T, giro, stopping e interação navio-canal.",
+      "fonteNome": "Principles of Naval Architecture, Cap. 9 — Controllability"
+    },
+    {
+      "id": "04-shiphandling",
+      "numero": "04",
+      "titulo": "Shiphandling: Fundamentos e Manobras",
+      "subtitulo": "Forças que afetam o navio, atracação, rebocadores, canais, fundeio, desatracação e a relação prático–comandante.",
+      "eyebrow": "Naval Shiphandling",
+      "modulo": "manobra",
+      "paginas": [
+        63,
+        117
+      ],
+      "tags": [
+        "manobra",
+        "atracação",
+        "rebocador",
+        "fundeio",
+        "canal",
+        "Williamson",
+        "BRM"
+      ],
+      "descricao": "Forças estáticas e dinâmicas, efeitos de hélice e leme, atracação e desatracação, uso de rebocadores, canais, fundeio e treinamento.",
+      "fonteNome": "Naval Shiphandling e handbooks de manobra portuária"
+    },
+    {
+      "id": "05-interacao-squat-rebocadores",
+      "numero": "05",
+      "titulo": "Interação, Squat e Rebocadores",
+      "subtitulo": "Efeitos hidrodinâmicos em águas restritas, squat, Voith Water Tractor, capacidades e limitações de rebocadores e escolta.",
+      "eyebrow": "Squat · Interaction · Tug Use in Port",
+      "modulo": "manobra",
+      "paginas": [
+        118,
+        179
+      ],
+      "tags": [
+        "squat",
+        "interação",
+        "rebocador",
+        "escolta",
+        "Voith",
+        "reboque",
+        "banco"
+      ],
+      "descricao": "Interação entre cascos e margens, squat, Voith Water Tractor, desempenho e limitações de rebocadores, reboque e escolta portuária.",
+      "fonteNome": "Squat, Interaction, Manoeuvring · Tug Use in Port · PNV"
+    },
+    {
+      "id": "06-radar",
+      "numero": "06",
+      "titulo": "Radar e Navegação Radar",
+      "subtitulo": "Leitura da imagem, precisão de distâncias e marcações, navegação paralela indexada e movimento relativo para evitar colisão.",
+      "eyebrow": "Navegação Radar",
+      "modulo": "navegacao",
+      "paginas": [
+        180,
+        186
+      ],
+      "tags": [
+        "radar",
+        "ARPA",
+        "paralela indexada",
+        "movimento relativo",
+        "colisão"
+      ],
+      "descricao": "Apresentação da imagem, precisão, navegação paralela indexada e fundamentos do movimento relativo aplicado à prevenção de colisões.",
+      "fonteNome": "Navegação Radar"
+    },
+    {
+      "id": "07-arte-naval",
+      "numero": "07",
+      "titulo": "Arte Naval",
+      "subtitulo": "Nomenclatura do navio, cabos e nós, trabalhos de marinheiro, poleame, aparelho de fundear, governo, mastreação e carga.",
+      "eyebrow": "Arte Naval · Capítulos 1, 7–11",
+      "modulo": "navegacao",
+      "paginas": [
+        187,
+        227
+      ],
+      "tags": [
+        "arte naval",
+        "cabos",
+        "nós",
+        "poleame",
+        "fundeio",
+        "leme",
+        "mastros"
+      ],
+      "descricao": "Nomenclatura e dimensões do navio, cabos de fibra e aço, nós e voltas, poleame, talhas, aparelho de fundear, governo, mastreação e carga.",
+      "fonteNome": "Arte Naval"
+    },
+    {
+      "id": "08-btm-cis",
+      "numero": "08",
+      "titulo": "Bridge Team Management e CIS",
+      "subtitulo": "Passage planning, execução e monitoramento, automação de passadiço, BRC e comunicação pelo Código Internacional de Sinais.",
+      "eyebrow": "Bridge Team Management · CIS",
+      "modulo": "navegacao",
+      "paginas": [
+        228,
+        242
+      ],
+      "tags": [
+        "BTM",
+        "passage planning",
+        "BRC",
+        "CIS",
+        "comunicações",
+        "passadiço"
+      ],
+      "descricao": "Planejamento e execução da travessia, monitoramento, automação, gestão de recursos do passadiço e Código Internacional de Sinais.",
+      "fonteNome": "Bridge Team Management · Código Internacional de Sinais"
+    },
+    {
+      "id": "09-ripeam",
+      "numero": "09",
+      "titulo": "RIPEAM / COLREGS",
+      "subtitulo": "Regras de governo e navegação, conduta em visibilidade, luzes, marcas, sinais sonoros e luminosos.",
+      "eyebrow": "RIPEAM · COLREGS",
+      "modulo": "navegacao",
+      "paginas": [
+        243,
+        254
+      ],
+      "tags": [
+        "RIPEAM",
+        "COLREGS",
+        "luzes",
+        "marcas",
+        "sinais",
+        "rumo"
+      ],
+      "descricao": "Regras de governo e navegação, conduta em qualquer condição de visibilidade, luzes e marcas, sinais sonoros e luminosos.",
+      "fonteNome": "RIPEAM — Regulamento Internacional para Evitar Abalroamento no Mar"
+    },
+    {
+      "id": "10-legislacao-tribunal",
+      "numero": "10",
+      "titulo": "Legislação e Tribunal Marítimo",
+      "subtitulo": "NORMAM 02, LESTA, NORMAM 09, inquéritos administrativos e competência, recursos e penalidades do Tribunal Marítimo.",
+      "eyebrow": "NORMAM 02 · LESTA · NORMAM 09 · Lei 2.180/54",
+      "modulo": "regulamentacao",
+      "paginas": [
+        255,
+        269
+      ],
+      "tags": [
+        "legislação",
+        "LESTA",
+        "NORMAM 09",
+        "Tribunal Marítimo",
+        "inquérito"
+      ],
+      "descricao": "Navegação interior, LESTA, infrações e penalidades, inquéritos administrativos e organização e processo do Tribunal Marítimo.",
+      "fonteNome": "NORMAM 02 · LESTA 9.537/97 · NORMAM 09 · Lei 2.180/54"
+    },
+    {
+      "id": "11-sinalizacao-nautica",
+      "numero": "11",
+      "titulo": "Sinalização Náutica e IALA",
+      "subtitulo": "NORMAM 17, auxílios à navegação, balizamento IALA Região B, faróis, características de luzes e Lista de Faróis.",
+      "eyebrow": "NORMAM 17 · IALA · DHN",
+      "modulo": "regulamentacao",
+      "paginas": [
+        270,
+        282
+      ],
+      "tags": [
+        "sinalização",
+        "IALA",
+        "faróis",
+        "boias",
+        "balizamento",
+        "AISM"
+      ],
+      "descricao": "Conceitos de sinalização náutica, sistemas de balizamento IALA Região B, sinais especiais, Lista de Faróis e características das luzes.",
+      "fonteNome": "NORMAM 17/DHN · Lista de Faróis · IALA/AISM"
+    },
+    {
+      "id": "12-borda-livre-estabilidade",
+      "numero": "12",
+      "titulo": "Borda-Livre e Estabilidade",
+      "subtitulo": "NORMAM 01, borda-livre, estabilidade intacta, critérios, prova de estabilidade, avaria e alagamento.",
+      "eyebrow": "NORMAM 01 · Estabilidade",
+      "modulo": "regulamentacao",
+      "paginas": [
+        283,
+        296
+      ],
+      "tags": [
+        "borda-livre",
+        "estabilidade",
+        "GM",
+        "critérios",
+        "prova de estabilidade",
+        "avaria"
+      ],
+      "descricao": "Borda-livre e estabilidade intacta, curvas e critérios, prova de estabilidade, anteparas estanques, avaria e alagamento.",
+      "fonteNome": "NORMAM 01/DPC · CILC"
+    },
+    {
+      "id": "13-trafego-certificacao-praticagem",
+      "numero": "13",
+      "titulo": "Tráfego, Certificação e Praticagem",
+      "subtitulo": "NORMAM 08 e NORMAM 12: entrada e despacho, SISTRAM, LRIT, certificados, serviço de praticagem e ZPs.",
+      "eyebrow": "NORMAM 08 · NORMAM 12",
+      "modulo": "regulamentacao",
+      "paginas": [
+        297,
+        315
+      ],
+      "tags": [
+        "tráfego",
+        "despacho",
+        "SISTRAM",
+        "LRIT",
+        "certificados",
+        "praticagem",
+        "ZP"
+      ],
+      "descricao": "Tráfego e permanência em águas jurisdicionais, despacho, SISTRAM, LRIT, certificados de bordo e serviço de praticagem.",
+      "fonteNome": "NORMAM 08/DPC · NORMAM 12/DPC"
+    },
+    {
+      "id": "14-cerimonial-sar",
+      "numero": "14",
+      "titulo": "Cerimonial, Roteiro e SAR",
+      "subtitulo": "NORMAM 22, cerimonial da Marinha Mercante, Roteiro Costa Sul, busca e salvamento e obrigações sanitárias.",
+      "eyebrow": "NORMAM 22 · Roteiro Costa Sul · SAR",
+      "modulo": "operacoes",
+      "paginas": [
+        316,
+        324
+      ],
+      "tags": [
+        "cerimonial",
+        "roteiro",
+        "SAR",
+        "SALVAMAR",
+        "sanitário"
+      ],
+      "descricao": "Cerimonial da Marinha Mercante, Roteiro Costa Sul, busca e salvamento, desratização, desinsetização e obrigações acessórias.",
+      "fonteNome": "NORMAM 22/DPC · Roteiro Costa Sul · SALVAMAR"
+    },
+    {
+      "id": "15-meteorologia",
+      "numero": "15",
+      "titulo": "Meteorologia e Marés",
+      "subtitulo": "Elementos meteorológicos, circulação, sistemas tropicais, cartas, correntes, ondas, climatologia e marés.",
+      "eyebrow": "Meteorologia para Navegantes",
+      "modulo": "operacoes",
+      "paginas": [
+        325,
+        350
+      ],
+      "tags": [
+        "meteorologia",
+        "frentes",
+        "ciclone",
+        "ondas",
+        "correntes",
+        "marés"
+      ],
+      "descricao": "Elementos e sistemas meteorológicos, circulação geral, sistemas tropicais, interpretação de cartas, oceanografia e marés.",
+      "fonteNome": "Meteorologia para Navegantes"
+    },
+    {
+      "id": "16-auxilios-gmdss",
+      "numero": "16",
+      "titulo": "Auxílios Eletrônicos e GMDSS",
+      "subtitulo": "Lista de Auxílios-Rádio, posicionamento, DGPS e Kalman, avisos aos navegantes, GMDSS, EPIRB, DSC e apoio costeiro.",
+      "eyebrow": "Auxílios-Rádio · GMDSS",
+      "modulo": "operacoes",
+      "paginas": [
+        351,
+        373
+      ],
+      "tags": [
+        "GMDSS",
+        "DGPS",
+        "RACON",
+        "avisos",
+        "EPIRB",
+        "DSC",
+        "Inmarsat"
+      ],
+      "descricao": "Auxílios-rádio, posicionamento e DGPS, avisos aos navegantes, GMDSS, EPIRB, DSC, Inmarsat, SART e redes de apoio costeiro.",
+      "fonteNome": "Lista de Auxílios-Rádio · GMDSS · DA LAR"
+    },
+    {
+      "id": "p1-manobrabilidade",
+      "numero": "I",
+      "titulo": "Área I — Manobrabilidade do Navio",
+      "subtitulo": "Resistência, propulsão, lemes, controlabilidade, forças ambientais e interações.",
+      "eyebrow": "NORMAM-311 · Anexo 2-A",
+      "modulo": "programa",
+      "paginas": [
+        87,
+        116
+      ],
+      "tags": [
+        "NORMAM-311",
+        "Anexo 2-A",
+        "conteúdo programático",
+        "I"
+      ],
+      "descricao": "Resistência, propulsão, lemes, controlabilidade, forças ambientais e interações.",
+      "fonteNome": "NORMAM-311/DPC — Anexo 2-A (Conteúdo Programático)",
+      "pdfFile": "normam-311.pdf"
+    },
+    {
+      "id": "p2-arte-naval",
+      "numero": "II",
+      "titulo": "Área II — Arte Naval",
+      "subtitulo": "Governo, manobras, reboque, poleame, nomenclatura, transferência de práticos e condução em áreas portuárias.",
+      "eyebrow": "NORMAM-311 · Anexo 2-A",
+      "modulo": "programa",
+      "paginas": [
+        87,
+        116
+      ],
+      "tags": [
+        "NORMAM-311",
+        "Anexo 2-A",
+        "conteúdo programático",
+        "II"
+      ],
+      "descricao": "Governo, manobras, reboque, poleame, nomenclatura, transferência de práticos e condução em áreas portuárias.",
+      "fonteNome": "NORMAM-311/DPC — Anexo 2-A (Conteúdo Programático)",
+      "pdfFile": "normam-311.pdf"
+    },
+    {
+      "id": "p3-navegacao-restrita",
+      "numero": "III",
+      "titulo": "Área III — Navegação em Águas Restritas",
+      "subtitulo": "Instrumentos, passage planning, navegação com o prático e equipamentos do passadiço.",
+      "eyebrow": "NORMAM-311 · Anexo 2-A",
+      "modulo": "programa",
+      "paginas": [
+        87,
+        116
+      ],
+      "tags": [
+        "NORMAM-311",
+        "Anexo 2-A",
+        "conteúdo programático",
+        "III"
+      ],
+      "descricao": "Instrumentos, passage planning, navegação com o prático e equipamentos do passadiço.",
+      "fonteNome": "NORMAM-311/DPC — Anexo 2-A (Conteúdo Programático)",
+      "pdfFile": "normam-311.pdf"
+    },
+    {
+      "id": "p4-legislacao",
+      "numero": "IV",
+      "titulo": "Área IV — Legislação e Regulamentação",
+      "subtitulo": "LESTA/RLESTA, Tribunal Marítimo, RIPEAM, praticagem, autoridade marítima e portos.",
+      "eyebrow": "NORMAM-311 · Anexo 2-A",
+      "modulo": "programa",
+      "paginas": [
+        87,
+        116
+      ],
+      "tags": [
+        "NORMAM-311",
+        "Anexo 2-A",
+        "conteúdo programático",
+        "IV"
+      ],
+      "descricao": "LESTA/RLESTA, Tribunal Marítimo, RIPEAM, praticagem, autoridade marítima e portos.",
+      "fonteNome": "NORMAM-311/DPC — Anexo 2-A (Conteúdo Programático)",
+      "pdfFile": "normam-311.pdf"
+    },
+    {
+      "id": "p5-meteorologia",
+      "numero": "V",
+      "titulo": "Área V — Meteorologia e Oceanografia",
+      "subtitulo": "Marés, ondas, climatologia, ventos, visibilidade e sistemas atmosféricos.",
+      "eyebrow": "NORMAM-311 · Anexo 2-A",
+      "modulo": "programa",
+      "paginas": [
+        87,
+        116
+      ],
+      "tags": [
+        "NORMAM-311",
+        "Anexo 2-A",
+        "conteúdo programático",
+        "V"
+      ],
+      "descricao": "Marés, ondas, climatologia, ventos, visibilidade e sistemas atmosféricos.",
+      "fonteNome": "NORMAM-311/DPC — Anexo 2-A (Conteúdo Programático)",
+      "pdfFile": "normam-311.pdf"
+    },
+    {
+      "id": "p6-comunicacoes",
+      "numero": "VI",
+      "titulo": "Área VI — Comunicações",
+      "subtitulo": "SMCP, radiocomunicações, CIS e GMDSS.",
+      "eyebrow": "NORMAM-311 · Anexo 2-A",
+      "modulo": "programa",
+      "paginas": [
+        87,
+        116
+      ],
+      "tags": [
+        "NORMAM-311",
+        "Anexo 2-A",
+        "conteúdo programático",
+        "VI"
+      ],
+      "descricao": "SMCP, radiocomunicações, CIS e GMDSS.",
+      "fonteNome": "NORMAM-311/DPC — Anexo 2-A (Conteúdo Programático)",
+      "pdfFile": "normam-311.pdf"
+    },
+    {
+      "id": "p7-conhecimentos-gerais",
+      "numero": "VII",
+      "titulo": "Área VII — Conhecimentos Gerais",
+      "subtitulo": "Planejamento portuário, PIANC/UKC, fatores humanos, meio ambiente, economia marítima e direito processual.",
+      "eyebrow": "NORMAM-311 · Anexo 2-A",
+      "modulo": "programa",
+      "paginas": [
+        87,
+        116
+      ],
+      "tags": [
+        "NORMAM-311",
+        "Anexo 2-A",
+        "conteúdo programático",
+        "VII"
+      ],
+      "descricao": "Planejamento portuário, PIANC/UKC, fatores humanos, meio ambiente, economia marítima e direito processual.",
+      "fonteNome": "NORMAM-311/DPC — Anexo 2-A (Conteúdo Programático)",
+      "pdfFile": "normam-311.pdf"
+    },
+    {
+      "id": "p1-manobrabilidade-resistencia",
+      "numero": "I.1",
+      "titulo": "Área I — Manobrabilidade do Navio: Resistência",
+      "subtitulo": "Resistência do navio e métodos de previsão",
+      "eyebrow": "NORMAM-311 · Anexo 2-A",
+      "modulo": "programa",
+      "paginas": [
+        87,
+        116
+      ],
+      "tags": [
+        "NORMAM-311",
+        "Anexo 2-A",
+        "manobrabilidade",
+        "resistência"
+      ],
+      "descricao": "Componente da resistência, semelhança e análise dimensional, atrito, formação de ondas, apêndices, águas rasas, banda e deriva.",
+      "fonteNome": "Principles of Naval Architecture, Vol. III Ch. IX — Controllability"
+    },
+    {
+      "id": "p1-manobrabilidade-propulsao",
+      "numero": "I.2",
+      "titulo": "Área I — Manobrabilidade do Navio: Propulsão",
+      "subtitulo": "Propulsão do navio e propulsores",
+      "eyebrow": "NORMAM-311 · Anexo 2-A",
+      "modulo": "programa",
+      "paginas": [
+        87,
+        116
+      ],
+      "tags": [
+        "NORMAM-311",
+        "Anexo 2-A",
+        "manobrabilidade",
+        "propulsão"
+      ],
+      "descricao": "Potência e rendimento, teoria do momentum, geometria do hélice, cavitação, propulsores especiais e interação casco-hélice.",
+      "fonteNome": "Principles of Naval Architecture, Vol. III Ch. IX — Controllability"
+    },
+    {
+      "id": "p1-manobrabilidade-lemes",
+      "numero": "I.3",
+      "titulo": "Área I — Manobrabilidade do Navio: Superfícies de Controle",
+      "subtitulo": "Lemes e seu influência na manobra",
+      "eyebrow": "NORMAM-311 · Anexo 2-A",
+      "modulo": "programa",
+      "paginas": [
+        87,
+        116
+      ],
+      "tags": [
+        "NORMAM-311",
+        "Anexo 2-A",
+        "manobrabilidade",
+        "lemes"
+      ],
+      "descricao": "Geometria do leme, sustentação e arrasco, razão deAspecto, flap, interação leme-hélice-casco, cavitação, estolamento, projeto.",
+      "fonteNome": "Principles of Naval Architecture, Vol. III Ch. IX — Controllability"
+    },
+    {
+      "id": "p1-manobrabilidade-controlabilidade",
+      "numero": "I.4",
+      "titulo": "Área I — Manobrabilidade do Navio: Controlabilidade",
+      "subtitulo": "Estabilidade de governo, manobras-padrão e critérios IMO",
+      "eyebrow": "NORMAM-311 · Anexo 2-A",
+      "modulo": "programa",
+      "paginas": [
+        87,
+        116
+      ],
+      "tags": [
+        "NORMAM-311",
+        "Anexo 2-A",
+        "manobrabilidade",
+        "controlabilidade"
+      ],
+      "descricao": "Estabilidade de governo, manobras-padrão, derivadas hidrodinâmicas, modelo K-T, espirais de Dieudonné/Bech, critérios de parada e curva de giro.",
+      "fonteNome": "Principles of Naval Architecture, Vol. III Ch. IX — Controllability"
+    },
+    {
+      "id": "p1-manobrabilidade-ambiente",
+      "numero": "I.5",
+      "titulo": "Área I — Manobrabilidade do Navio: Ambiente e Interações",
+      "subtitulo": "Forças ambientais, águas rasas e interação navio-navio",
+      "eyebrow": "NORMAM-311 · Anexo 2-A",
+      "modulo": "programa",
+      "paginas": [
+        87,
+        116
+      ],
+      "tags": [
+        "NORMAM-311",
+        "Anexo 2-A",
+        "manobrabilidade",
+        "ambiente",
+        "interação"
+      ],
+      "descricao": "Ventos, correntes, efeito squat, águas rasas, banco, canal, interação entre navios, Esso Osaka, lama fluida.",
+      "fonteNome": "Principles of Naval Architecture, Vol. III Ch. IX — Controllability + fontes web IMO"
+    }
+  ]
+}

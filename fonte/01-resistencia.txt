@@ -1,0 +1,1116 @@
+FONTE: resumo curso h.pdf | CAPITULO 01 - resistencia | paginas 1-17 | OCR ABBYY
+OBS: texto OCR ruidoso, mistura ingles/portugues. Interprete com cautela; nao invente.
+
+
+===== PAGINA 1 =====
+
+%mmmm&s®s&a}n™h TO mi tw mi i ,iiii lit J, ,II , uj.fm 
+PRINCIPLES OF NAVAL ARCHITECTURE 
+CAP 5 - RESISTANCE 
+SECTION 1 - INTRODUCTION 
+> The assumption that a hull form that is optimum in calm water will also be optimum in rough seas is not necessarily valid. 
+Mas esse capítulo trata apenas do desenho para boa performance em águas calmas. 
+> A obrigação contratual dos fabricantes é de que o navio deve atingir uma dada veloc with a specified power in good 
+weather on trial, e por isso a smooth-water performance é muito importante. / Já os efeitos do estado do mar are 
+costumarily allowed for by the provision of a "service power margin" above the power required in smooth water (essa 
+margem depende do tipo do navio e das condições do mar nas rotas previstas para ele operar, e a sua determinação 
+depende da "sea-perfomance data" acumulada de navios similares em trades similares). 
+2) TYPES OF RESISTANCE: 
+> Resistance (RT) = é a força necessária para rebocar o navio em smooth-water, numa dada veloc. 
+> Bare-Hull Resistance = é a mesma coisa, mas considerando-se que o navio não possui appendages. 
+> Tow-Rope or Effective Power (Pe) = is the power necessary to overcome this resistance. (Pe = R TxV) 
+> To simplify, it's usual to consider the "total calm-water resistance" RT as being made of 4 main components: 
+- Air Resistance. 
+- Frictional Resistance (RF) - due to the motion through a viscous fluid. 
+- Wave Making Resistance (Rw). 
+- Eddy Resistance - due to the energy carried away by eddies shed from the hull or appendages (bossings, shafts, shaft 
+struts, non-streamlined stern frames or rudders), and also due to eddies and separation that occur on blunt sterns. 
+Obs: Residuary Resistance (RR) = Wave Making + Eddy Resistances. 
+Obs: Há outros subcomponentes da resistência, que ainda serão estudados mais adiante. 
+3) SUBMERGED BODIES: 
+Obs: A. de Perfil ou Viscoso = A. de Pressão ou de Forma + A. de Atrito (aerodinâmica) 
+A) Caso mais simples: é o de um corpo streamlined, movendo-se em linha reta e com veloc cte, bem submerso num oceano 
+ilimitado (sem superfície livre não haverá WMR), num fluido perfeito (sem viscosidade, e portanto, sem eddymaking 
+resistance e sem frictional resistance). Vide figs 1-a e 1-b, que consideram um "potential flow": 
+> Fig 1-a) a pressão dinâmica fica maior que a hydrostatic pressure AV e AR, e no meio do corpo ela fica menor. / Segundo 
+Bernouly, a distribuição de velocs será o inverso da distribuição de pressões (AV e AR a veloc do fluido é menor que a 
+veloc do escoamento potencial, e no meio ela é maior). 
+> Fig 1-b) como o fluido é não-viscoso, a pressure force age perpendicular à superfície do corpo em qq lugar. Na parte de 
+vante, haverá uma componente que resiste ao movimento, e na parte de ré há uma componente que o ajuda. / Como todas 
+as componentes longitudinais se cancelam, não haverá resistência ao movimento (Paradoxo de D'Alembert). 
+B) Fluido real: haverá várias formas de resistência: 
+a) "Form Drag" or "Viscous Pressure Drag" (figs 1-c e 1-d): 
+> The "boundary layer" alters the virtual shape and lengh of the stern, e por causa disso a distribuição de pressão na popa 
+muda (a sua componente para vante fica reduzida), enquanto que a distribuição de pressão na proa não muda muito. / O 
+resultado é uma força que resiste ao movimento, que é o "Arrasto de Pressão ou de Forma" (de origem viscosa). 
+b) "Separation Resistance": 
+> If the body has a blunt end astern, the flow may leave the form at some point (no "Separation Point"), o que resulta numa 
+redução ainda maior da pressão AR. Essa separation resistance é evidenciada pelo eddy pattern que drena energia do navio. 
+c) "Frictional Resistance" (fig 1-c): 
+> A água adjacente ao corpo viaja na mesma veloc deste, o que resulta numa camada de água (que vai ficando mais espessa 
+AR) cuja veloc varia desde a veloc do corpo até a veloc do escoamento potencial no limite externo dessa C-L. 
+> O momento fornecido pelo navio à água da C-L é uma medida da Frictional Resistance. 
+>• Como a Frictional Wake que se move AR e na mesma direção do navio representa essa drenagem contínua de energia, a 
+medição da veloc do fluido atrás de um corpo em túnel de vento é uma forma comum de se determinar a RF. 
+4) SURFACE SHD?S: 
+> Também apresentam os mesmos tipos de resistência e uma distribuição de pressão "semelhante" à de um corpo submerso, mas 
+a presença da superfície livre adiciona um componente extra, que é a formação de ondas. / A pressão na proa fica maior (o 
+que pode ser observado pelas ondas que crescem na proa), e o aumento da pressão AR (in and just bellow the free surface) 
+é menor, quando comparado a um corpo submerso. / The resulting added resistance corresponds to the drain of energy into the 
+wave system, and is called "Wave-Making Resitance". 
+> O resultado da interferência dos sistemas de ondas criados na proa, shoulders (if any) e popa é produzir: 
+1) uma série de ondas divergentes que se espalham outwards at a relatively sharp angle from the centerline. 
+2) uma série de "Transverse Waves" along the hull on each side and behind in the wake. 
+> A presença dos sistemas de ondas modifica a skin friction e outras resistências, and there's a very complicated interaction 
+among all the different components. 
+1 
+
+
+===== PAGINA 2 =====
+
+ISSSSsg' 
+SECTION 2 - DIMENSIONAL ANALYSIS 
+> Toda equação que expressa uma relação física deve ser dimensionalmente homogênea. 
+> Há 3 grandezas básicas em mecânica: massa (M), comprimento (L) e tempo (T). / Outras grandezas (força, densidade, 
+pressão, veloc, etc) são derivadas das 3 básicas. / A questão mais importante de qualquer solução dimensional é se o raciocínio 
+físico levou ou não à seleção correta das variáveis que influenciam no resultado. 
+> No caso da resistência: R / VLp.S.V2 = CR = Coef. de resistência não dimensional = f (pVL/p.; gL/V2; p/pV2) 
+- Esse coeficiente é função de 3 termos: um diz respeito à resistência devido à viscosidade (onde Reynolds é importante -
+arrasto de atrito), outro diz respeito à Wave-Making Resistance (onde Fn é importante - distribuição de pressões), e um 
+terceiro termo diz respeito à pressão total "p". 
+- Portanto, para dois corpos geometricamente similares e de tamanhos diferentes, se todos os parâmetros que formam o 
+CR tiverem o mesmo valor, então os padrões de fluxo serão similares, e o valor de R / Vá.p.S.V2 será igual. 
+2) CORRESPONDING SPEEDS: 
+a) gL/V2 (resistência residual): 
+> Se considerarmos um fluido não viscoso onde não há fricção, e se, por hora, desconsiderarmos o termo da pressão "p", 
+sobra o parâmetro g.L/V2 governando o sistema de ondas da superfície. Escrevendo a WMR ou "Residuary Resistance" 
+como RR, e o coeficiente correspondente como CR, expressamos CR da seguinte maneira: 
+CR = RR / Vi.p.S.V2 = f (V2/g.L) 
+(ou CR =f(gL/V2) - dimensionalmente é a mesma coisa) 
+- Isso significa que "geosims" (= corpos geometricamente similares) de diferentes tamanhos possuem o mesmo 
+coeficiente de resistência residual (CR) caso eles estejam se movendo no mesmo valor de V2/g.L. 
+> Froude's Law of Comparison: "A Resistência Residual de navios geometricamente similares é na razão do cubo de suas 
+dimensões lineares se as suas vetoes estiverem na razão da raiz quadrada das suas dimensões lineares". 
+- Tais velocs ele chamou de "Corresponding Speeds". 
+- Isso é a mesma coisa que dizer que V/VL tem que ser o mesmo para navio e modelo para que se possa dizer que ambos 
+operam em "Corresponding Speeds". 
+> A razão VKNh é conhecida como "Speed-Lengh Ratio" e é fácil de avaliar aritmeticamente, mas não é adimensional. 
+Já o V/VgL é adimensional, e possui o mesmo valor numérico em qualquer sistema de unidades. 
+> Por causa da proximidade da associação de Froude com o conceito de speed-lengh ratio, o parâmetro V/VgL é chamado de 
+Froude Number (Fn). 
+- Expressando VK em nós, L em pés e g em pés/seg2, temos: Fn = 0,298 V K W L ou V K W L = 3,355.Fn 
+> Para um navio e um modelo que operem em águas de mesma p e no mesmo valor de V2/g.L, vemos que: 
+RRS / RRM = Ls / LM = Ag/AM 
+(A para deslocamento; s para Ship; M para modelo; RR para resistência residual) 
+(this is in agreement with Fraud's Law of Comparison) 
+- Podemos dizer ainda que, nas corresponding speeds: RRS/AS = RRM/AM-
+(i.e., a resistência residual por unidade de deslocamento é a mesma para navio e modelo) 
+> Chamaremos de "V a "linear scale ratio" entre navio e modelo. (X = Ls/LM). 
+- Então, na corresponding speed, temos que: Vs/VM = VLS/VLM = ^X e RRS / RRM = ^3-
+- Assim sendo, a "corresponding speed" de um modelo pequeno é muito inferior à do seu navio-irmão (ótimo para os trials). 
+- Ex: se Ls = 125 m e LM = 5 m, então X = 25. Para uma veloc do navio de 25 kt, o modelo terá que navegar a 5 kt apenas! 
+b) p/pV2: 
+> Se ignorarmos a pressão atmosférica acima da água, "p" se refere apenas à "water head". 
+- Então, para pontos correspondentes do modelo e do navio, "p" vai variar diretamente com a "linear scale ratio" (X). 
+- Relembrando, nas corresponding speeds, V2 varia com X da mesma forma (diretamente). 
+- Dessa forma, nas corresponding speeds. p/p.V2 será o mesmo para o modelo e para o navio. 
+> Como a pressão atmosférica é normalmente a mesma para o modelo e para o navio, quando ela é incluída em "p" (de 
+forma que p seja a pressão total ou absoluta em um dado ponto), o valor de p/p.V2 será muito maior para o modelo do que 
+para o navio (pois o acréscimo da PATM é bem mais significativo para o modelo). 
+> Felizmente, a maior parte das forças hidrodinâmicas surge de diferenças locais de pressão, e essas são proporcionais a V2 
+(as forças não são afetadas pela pressão atmosférica enquanto o fluido se mantiver em contato com a superfície do navio e 
+do modelo). / Contudo, quando a pressão cai e ocorre cavitação, as "condições de similaridade" não mais são satisfeitas. 
+> Como a pressão total é maior no modelo que no navio, the former doesn't warn that cavitation will occur with the later. 
+Portanto, quando esse perigo é esperado, special facilities are divised onde uma correctly scaled-down total pressure pode 
+ser obtida at the same time that the Froude condition is met. 
+c) pVL/u (arrasto de atrito): 
+(obs: v = u/p = knematic viscosity) 
+> No caso de um corpo bem submerso onde não há formação de ondas, esse termo governa a frictional resistance (RF), cujo 
+coeficiente é: CF = RF / »/2.p.S.V2 = f (V.L/v). 
+> Esse coeficiente será o mesmo para o modelo e para o navio desde que V.L/v seja o mesmo. 
+> Como isso segue o trabalho de Reynolds, o termo V.L/v é chamado de "Reynolds Number" (Rn). 
+> Se o navio e o modelo navegam em águas de mesma densidade e temperatura (de forma que v seja igual), vemos, a partir 
+da eq. acima, que Vs.Ls = VM.LM. / Essa condição é bem diferente dos requisitos para a similaridade de WMR, pois para 
+um modelo de L pequeno a sua veloc tem que ser muito grande. 
+(625 ktpara o navio do exemplo anterior!) 
+2 
+
+
+===== PAGINA 3 =====
+
+naaémsmíssm 
+d) Conclusões: 
+> As condições de semelhança mecânica para fricção e formação de ondas não podem ser satisfeitas em um único teste. 
+Para que um modelo pudesse operar na "wave-making corresponding speed" correta e ainda manter o mesmo valor de 
+V.L/v para o modelo e navio, o "v" teria que ser muuuito pequeno, e não existe um fluido assim (isso só é possível em 
+túnel de vento que usa ar comprimido). 
+> Um método prático de trabalhar com modelos é lidar de forma independente com a WMR e a RF: CT = CR + CF / Froude 
+reconheceu essa necessidade, percebeu que a frictional e a residuary resistances não obedecem às mesmas leis, e fez do 
+trabalho com modelos uma ferramenta prática. 
+3) EXTENTION OF MODEL RESULTS TO SHIPS: 
+> Froude propôs o seguinte método, que é baseado na eq. acima (CT = CR + CF): 
+a) o modelo é construído numa "linear scale ratio" (X), e navega num range de "corresponding speeds" tais que 
+VSWL S = V M W L M . 
+b) a resistência total do modelo é medida (RTM)-
+C) a RFM é calculada, assumindo que ela tem o mesmo valor de uma "smooth flat plank" de mesma área e comp do modelo. 
+d) a resistência residual do modelo é assim obtida: RRM = RTM - RFM-
+e) a resistência residual do navio é calculada pela "law of comparisson" vista: RRS = RRM . )?. / Isso se aplica ao navio na 
+corresponding speed dada pela expressão Vs = VM. k . 
+f) a frictional resistance do navio (Rps) é calculada usando-se um coeficiente de fricção apropriado ao comp do navio. 
+g) a resistência total (smooth hull) é então encontrada: RTS = RFS + RRS. 
+SECTION 3 - FRICTIONAL RESISTANCE 
+> It is the largest single component of the total resistance of a ship. Even in smooth, new ships, it accounts for 80-85 % 
+of the total resistance in slow-speed ships and as much as 50 % in high-speed ships. / Any roughness in the surface 
+will increase the resistance, and corrosion and fouling will increase it even further. / A natureza da superfície altera não 
+somente o arrasto, mas tb altera a wake e a eficiência da propulsão. 
+2) FROUDE'S EXPERIMENTS ON FRICTION: 
+> Knowing the law governing residuary resistance (wavemaking + eddy resistances) and having concluded that the model-ship 
+extrapolation problem could only be solved by dividing the resistance into two components (da análise dimensional), ele 
+conduziu testes para determinar arrasto de atrito rebocando planks 2 a 50 ft em tanques. Suas conclusões foram: 
+a) A frictional resistance é proporcional ao tipo de superfície, à veloc, ao comprimento e à área da superfície molhada. 
+b) Para uma veloc qualquer, a resistência específica por unidade de área da superfície era menor para uma plank longa 
+do que para uma plank curta, o que ele atribuiu ao fato de que a água na parte de ré da plank longa já adquiriu um 
+movimento para vante, e, portanto, tinha uma menor veloc relativa. 
+c) Fórmula empírica para a resistência: R = f.S.V. / Os dados da tabela 1 nos permite tirar as seguintes conclusões: 
+(S = área total da superfície; V = veloc da placa; f e n dependem do comp e da natureza da superfície) 
+- para uma smooth vanished surface, n decrescia de 2,0 para uma plank curta até 1,83 para uma plank longa. 
+- para uma plank roughned by sand, n era cte e igual a 2,0. 
+- f decrescia com o aumento do comprimento e crescia com o aumento da surface roughness. 
+> Para aplicar esses resultados a navios, esses coeficientes teriam que ser extrapolados para comprimentos bem maiores que 
+50 ft. / Ele sugeriu 2 métodos para isso: "Para um navio de 300 ft, a redução da fricção por pé2 além dos 50 ft iniciais é 
+insignificante. Portanto, tanto faz se considerarmos que, nos últimos 250 ft, essa redução continue a ocorrer na mesma taxa, 
+ou se considerarmos que a redução deixe de existir (e a verdade certamente estará no meio termo!).". 
+> Visando confirmar sua "comparísson law" e ajudar na extrapolação dos frictional coefícients para comprimentos de navios, 
+Froude conduziu testes com o HMS Greyhound, e depois comparou os resultados dos towing tests com as previsões feitas a 
+partir de um modelo. As duas curvas de resistência ficaram quase idênticas, o que ele interpretou como a validação da sua lei. 
+- Nos papéis do Greyhound, ele explicou como aplicou a sua idéia de "equivalent plank resistance": ele mediu a área da 
+superfície molhada, e usou, "no cálculo" da resistência, uma placa retangular de mesma área e mesmo comp do navio. 
+> Os valores' de coeficientes de fricção de Froude foram estabelecidos para serem aplicados to new, clean, freshly painted 
+steel surfaces, but they lie considerably above those values now generally accepted for smooth surfaces. 
+- Nevertheless, they are still used today in some towing tanks. 
+
+
+===== PAGINA 4 =====
+
+mm>iiS!^mmm<mm!!mmmmm:mimss&gÊm 
+3) TWO-DIMENSIONAL FRICTIONAL RESISTANCE FORMULATIONS: 
+> Da aerodinâmica: 
+Re = p.V.l/u, = p.V.D/\i = V.D/v 
+v = (i/p = coef de viscosidade cinemática ou relativa. / ]i = coef de viscosidade dinâmica ou absoluta 
+> Osborne Reynolds fez o experimento do filamento de dye fluindo num tubo de água. 
+- A partir de certa veloc, que Reynolds chamou de "Critical Velocity" (Vc), the filament begun to waver, became sinuous 
+and finaly lost all definiteness. 
+- A resistência experimentada pelo fluido num certo comprimento do tubo foi medida by finding the loss of pressure ahead. 
+- Foram usados vários diâmetros de tubo "D", e a kinematic viscosity "v" foi variada aquecendo-se a água. 
+- Ele concluiu que as leis da resistência correspondiam exatamente às velocs na razão v/D, e quando os resultados foram 
+plotados logaritmicamente, constatou-se que: Vc = 2000.V/D 
+{ ou Vc.D/v = 2000 > a semelhança com a análise dimensional é óbvia: CF = RF / VLp.S.V2 = f (V.L/v) } 
+- Abaixo da Vc, a resistência do fluxo no tubo variava diretamente com a veloc: e para maiores velocs, a resistência 
+variava at a power of the speed somewhat less than 2. 
+> Baker plotou os resultados de muitos dos dados disponíveis de planks na forma de um coeficiente de resistência CF x VL/v, 
+and found that a mean curve could be drawn passing closely through Froude's results, except at low values of VL/v. 
+> Reynolds observou que havia 2 tipos de regimes de fluxo, cada um associado a uma lei de resistência diferente: 
+a) a pequenos valores de V.D/v, quando o filamento do dye mantinha sua própria identidade, o fluido estava evidentemente 
+fluindo em camadas que não se misturavam, mas que deslizavam umas sobre as outras a uma veloc relativa que variava 
+across the pipe section. Esse fluxo foi denominado "laminar", e foi associado a uma resistência relativamente baixa. 
+b) na medida em que o Reynolds number (V.D/v) aumentava, seja pelo aumento de V.D ou pelo decréscimo de v, o fluxo 
+laminar se rompia, o fluido se misturava transversalmente e a resistência aumentava. Esse fluxo foi chamado de turbulento. 
+> Nas formulações modernas de skin friction, assume-se que o coef. de resistência de fricção específico (CF) é uma fç de Rn. 
+(ou V.L/v) 
+> Blasius notou que a baixos Rn, o padrão do escoamento da C-L de uma plank era laminar. Ele calculou a resistência de 
+uma placa num escoamento laminar através de uma integração across the boundary layer para encontrar o momento 
+transferido à água, e chegou à fórmula de CF em fç de Rn num fluxo laminar (plotada na fig 2): 
+CF = RF / l/2.p.S.V2 = l,327.(V.L/v)"1/2 = l,327.(Rn)"1/2 
+Ele descobriu que o fluxo se tornava instável a Rn da ordem de 4.5 x 10s. além do qual os coefs de resistência aumentavam 
+rapidamente acima daqueles calculados a partir de sua equação. 
+> Prandt e Von Karman publicaram, separadamente, a seguinte eq. para um fluxo turbulento (tb na fig 2): 
+CF = RF / y2.p.S.V2 = 0,072.(V.L/v)-,/5= 0,072.(Rn)1/s 
+Essa eq foi baseada em investigações das características da C-L e nas medições disponíveis da overall plank resistance. 
+> A pequenos valores de Rn. and with quiet water, a resistência de uma smooth plank segue de perto a Blasius Une, o 
+fluxo é laminar, e da sua eq vemos que a resistência RB varia com V1'5. (obs: o CF diminui com o aumento de Rn!) 
+> Para fluxo turbulento, o valor do CF é consideravelmente maior do que para fluxo laminar, e a resistência RF varia 
+as a higher power of the speed (V1'8, acd eq de Prandt). (obs: o CF diminui com o aumento de Rn!) 
+> A transição de laminar para turbulento não ocorre simultaneamente over the whole plank. Ela começa quando o Rn atinge 
+um valor crítico "Re". / Na medida em que a veloc aumenta além desse valor, o ponto de transição se move para vante, de 
+forma que o valor local do Rn = V.x/v no ponto de transição se mantém igual a Re (onde x é a dist do ponto de transição 
+ao leading edge da plank). 
+- Esse é o chamado "Local Reynolds Number"; e para que o valor desse Local Rn no qual a transição ocorre seja constante, 
+x diminuirá na medida em que V aumenta. Ou seja, aumentando-se a veloc, uma maior parte da plank estará com escoamento 
+turbulento. 
+- O valor de CF então aumentará ao longo de uma "transition line" como na fig 2, and finally approach the turbulent line 
+asymptotically. / Mas não há uma transition line única, and the actual one followed in a given case will depend upon the initial 
+state of turbulence in the fluid, the character of the plank surface, the shape of the leading edge and the aspect ratio. 
+- As transition lines para smooth planks ocorrem a valores de Rn dentro do range no qual most plank-friction tests foram 
+conduzidos. Se os resultados com planks forem usados para prever os valores de CF a Rn apropriados a um navio (que são ao 
+menos 100 x maiores que os valores das maiores planks), apenas os resultados para fluxo 100% turbulento podem ser usados. 
+4) DEVELOPMENT OF FRICTIONAL RESISTANCE FORMULATIONS IN THE USA: 
+> Schoenherr coletou todos os tipos de dados de vários plank tests e plotou gráfico CF x Rn (fig 3). 
+- Ele examinou os seus resultados à luz da fórmula teórica de Prandtl e Von Karman, so arriving at the well-known 
+Schoenherr formulation: 
+0,242 / VcF = log 10 (Rn . CF) 
+- The Schoenherr coefficients as extended by this formula to the ship range of Rn apply to a perfectly smooth hull surface. For 
+actual ships with plates seams, welds, rivets and paint roughness, some allowance is necessary to give a realistic prediction. 
+5) THE WORK OF THE TOWING TANK CONFERENCES: 
+> A International Conference of Ship Tank Superintendants (ICSTS) decidiu que: 
+a) seria adotado o método de Fraude para extrapolação de modelos para navios; 
+b) seria aplicada uma correção de temperatura para 15°C (59°F) nos resultados dos modelos; 
+c) seria considerado o comprimento da linha d'agua para determinar o lengh; e 
+d) a mean girth (cintura) multiplied by the lengh is adopted as the wetted surface. 
+(that is, no obliquity correction) 
+4 
+
+
+===== PAGINA 5 =====
+
+èS25íi;s;-'.:'.?:tóiS:iE222 
+> A American Towing Tank Conference (ATTC) considerou o estabelecimento de uma prática uniforme para o cálculo da 
+skin friction e para a expansão de dados de modelos para full size ships, e adotou 2 resoluções: 
+1) as análises de model tests seriam baseadas na Schoenherr Mean Line; e 
+2) the ship efective power calculations seriam baseadas na Schoenherr Mean Line com uma allowance de +0,0004 para 
+clean, new vessels (as curvas com e sem allowance estão na fig 4). / E ainda: 
+- A Schoenherr Mean Line seria conhecida como a "1947 ATTC Line", (fig 4) 
+- Essa allowance foi originalmente considerada necessária por causa do efeito da hull roughness na resistência. Entretanto, 
+como a diferença entre a resistência obtida de full-scale trial e a resistência prevista a partir de modelos tb depende de 
+outros fatores, a ITTC decidiu se referir a ela como model-ship correlation allowance "CA". 
+> A 5a conferência da ICSTS decidiu substituir os coefs de Froude por um sistema com conceitos modernos de skin friction. 
+Mas como não foram unânimes, decidiram que os trabalhos poderiam adotar os coeficientes de Froude ou de Schoenherr, e 
+nomearam o "ITTC Skin Friction Committee" para estabelecer uma "minimum turbulent-friction line". O problema da 
+Schoenheerr line era que o slope was not sufficient steep nos baixos Rn apropriados a modelos pequenos. 
+> Os cascos foram ficando muito mais lisos, e para navios longos de cascos soldados, a CA necessária para conciliar a resistência 
+do navio com a previsão do modelo usando a "ATTC line" era, muitas vezes, igual zero ou negativa. 
+> Como as planks usadas por Schoenherr não eram geosims, os dados experimentais continham aspect ratio or edge effects. 
+- Hughes fez experiências em planks e pontoons bem compridos, e atingiu altos Rn. Essas superficies planas cobriram um 
+wide range de aspect ratios, e Hughes extrapolou os coeficientes de resistência para uma aspect ratio infinita, obtendo o que 
+ele considerou como a "curva da resistência turbulenta mínima" (fig 4) para uma plane smooth surface num fluxo 2-D. 
+> O ITTC Friction Committee não foi capaz de recomendar uma solução final ao problema de prever a resistência do navio 
+a partir dos resultados de modelos. Instead, it proposed two alternative single-line interim engeneering solutions: 
+1) usar a ATTC line para valores de Rn acima de IO7 (pois não faria diferença in ship predictions from large models), e 
+abaixo desse valor usar uma nova linha que fosse mais steep que a ATTC line; e 
+2) usar uma linha inteiramente nova, cruzando a ATTC line em +- Rn = IO7, and being slightly steeper throughout (isso 
+resultaria em lower ship predictions, e tenderia a aumentar a CA e evitar allowances negativos para navios longos. 
+> A Conferência de Madrid da ITTC adotou uma leve variação dessa segunda proposta: pariu uma nova linha e a chamou de 
+"ITTC model-ship correlation line" (fig 4), tomando o cuidado de dizer que a linha não era uma "frictional resistance line" 
+(e sim uma correlation line), e portanto não deveria ser usada para representar frictional resistance de superfícies. 
+> A proposta de Hughes fornece valores muito menores de CF que a ITTC formulation ou que a ATTC line. / A Hughes line se 
+diz ser a verdadeira friction line para smooth plates em escoamentos 2-D 100 % turbulentos; mas os seus baixos valores foram 
+criticados. / In fact, a ITTC line fornece valores de CF que são quase os mesmos da Hughes line, com uma adição cte de 12 %. 
+> Granville mostrou que a ITTC model-ship correlation line também pode ser considerada como uma "turbulent flat plate 
+2-D friction resistance line" (fig 4). Ele pariu uma fórmula que é uma generalização da equação da ITTC line. 
+> Para valores de Rn < 5 x 10s, a ITTC e Grandville lines apresentam uma boa concordância. 
+Para valores de Rn > 1 x IO8, a ITTC, ATTC e Grandville lines tb apresentam uma boa concordância (fig 4). 
+6) 3-D VISCOUS RESISTANCE FORMULATIONS: (passa da plank 2-D ao casco 3-D, o que faz surgir o arrasto depressão) 
+CTM = total model resistance coef. 
+(relembrando: Arr. de perfil ou viscoso = Arr. atrito + Arr. pressão ou deforma) 
+CVM = viscous resistance coef. 
+(vide fig 5) 
+C\VM = wavemaking resistance coef. 
+CFO = equivalent flat-plate resistance coef. 
+RN0 = Reynolds number do run-in point (= ponto até o qual a WMRpode ser negligenciada) 
+(1 + K) = "form factor" ou "form resistance coeficient" (porque o navio tem 3-D, e aplaca não) 
+>• Hughes propôs um novo método de extrapolação model to ship. Ele assumiu que o "total model resistance coefficient" (CTM) 
+poderia ser dividido em 2 partes: CVM e CWM (coefs de arrasto viscoso e de WMR, respectivamente). 
+- A pequenos Fn, CWM é muito pequeno. Assim, até o ponto onde o wavemaking possa ser negligenciado, a curva de CTM & 
+aprox paralela à 2-D friction line. / Hughes chamou esse ponto de "run-in point", onde o valor de CTM pode então ser 
+identificado como o "total viscous resistance coefficient" (CVM) em RN0. 
+(Cm = CW 
+(RNO éoRNdo run-in point) 
+> O "form resistance coeficient", devido ao menos em parte à curvatura do casco, é definido como (1 + k) da seguinte forma: 
+1 + K = CTM(RNO) / CFO(RNO) 
+(onde o CFO é o "equivalent flat plate resistance coefficient") 
+O form factor (1 + K) não varia com o RN. Então o modelo 3-D de CVM para um RN qualquer pode ser escrito: 
+CVM = (1 + K).C F O(RN) 
+A curva (1 + K).CFO é tida como o "extrapolator" para a forma do casco em questão, e a curva do navio CTs pode ser traçada 
+acima da curva (1 + K)CFO nos valores apropriados de RN. 
+> No método do Froude, the whole "model residuary coefficient" (CR) é transferido para o navio inalteradamente, já no método 
+do form factor, apenas a parte do CR atribuída aos efeitos viscosos (CFORMM5 fig 5) é reduzida na transferência. Desse modo, o 
+método 3-D gives substantial lower ship predictions, o que demanda maiores valores de CA (evita os valores negativos do 
+Froude method). / No método de Froude, apenas a inclinação da linha de fricção 2-D é que importa. Já no approach 3-D do 
+form factor, a posição vertical da linha tb afeta a ship prediction, e a escolha da basic line se torna essencial. 
+> O form factor melhorou bastante a correlação model-ship. Mas nenhum método satisfatório de derivar valores apropriados 
+de form factor foi descoberto. / Com respeito à influência da forma nos vários componentes da resistência viscosa, não se 
+pode chegar a nenhuma conclusão clara. 
+5 
+
+
+===== PAGINA 6 =====
+
+SECTION 4 - WAVE-MAKING RESISTANCE 
+> WMR é a net fore-and-aft force devido a pressões do fluido atuando perpendicularmente em todas as partes do 
+casco (assim como a frictional resistance é o resultado de tangential fluid forces). 
+> Num corpo bem submerso com veloc cte, nenhuma onda é formada, mas as pressões "normais" vão variar ao longo do 
+comprimento (e se o fluido for não-viscoso, a net fore-and-aft force será zero). 
+> Próximo à superfície, essa variação na pressão gera ondas que alteram a distribuição de pressão sobre o casco, and the 
+resultant net fore-and-aft force é a WMR. /Sobre algumas partes do casco, as mudanças de pressão irão aumentar a net 
+sternward force, e em outras partes irão diminuí-la; mas o overall effect será uma resistência tal que a energia gasta para mover 
+o corpo contra essa resistência será igual à energia necessária para manter o wave system. 
+> A WMR depende muito das formas adotadas for "the area curve", waterlines e transverse sections. 
+1) SHIP WAVE SYSTEMS: 
+> Kelvin considerou um single pressure point viajando em linha reta, sending out waves which combine to form a pattern 
+que consiste de um sistema de ondas transversais seguindo atrás do ponto, junto com uma série de ondas divergentes 
+irradiando do ponto; the whole pattern being contained dentro de duas linhas retas que fazem um ângulo de 19° 28' 
+para cada lado da linha de movimento. (Gg 6) 
+> A altura das cristas das transverse waves sucessivas diminuem para ré. The transverse waves are curved back some distance 
+out from the centerline, and meet the diverging waves in cusps, que são os pontos mais altos do sistema. / As alturas desses 
+cusps decrescem menos rapidamente com a distância ao ponto (comparando com as transverse waves), de forma que, bem AR, 
+as divergent waves se tornam mais proeminentes, (fig 7) 
+> O sistema do Kelvin explica o que vemos nos navios (fig 8): 
+- Perto da proa, as ondas mais notáveis são uma série de ondas divergentes, começando com uma grande onda na proa, 
+seguida por outras arranged on each side along a diagonal line, de tal forma que cada onda é "stepped back in echelon" 
+atrás da onda que está em frente (and is of quite short lengh along its crest line). 
+- Entre as ondas divergentes, são formadas as transverse waves, que próximo ao casco possuem a sua crest line perpend, à 
+direção do movimento, bending back na medida em que se aproximam das ondas do sistema divergente e finalmente 
+coalescing with them. / As transverse waves são mais fáceis de observar à meia-nau de um navio com um parallel body, 
+or just behind a high speed ship. 
+> Sistemas semelhantes são formados nos shouders (if any) e popa, com os patterns divergente e transversal separados; 
+mas estes não são facilmente distinguíveis por causa da general disturbance já presente devido sistema da proa. 
+> Tendo em vista que o wave pattern como um todo se move com o navio, que as tranverse waves se movem na mesma 
+direção e com a mesma veloc "V" do navio, e que pode-se esperar que elas tenham o comprimento apropriado às ondas 
+livres que viajam na superfície àquela veloc, então: 
+Lw = 2.rc.V2/g 
+- Actually, as ondas adjacentes ao modelo são um pouco mais curtas, mas elas atingem o Lw cerca de 2 wave lenghs a ré. 
+> As ondas divergentes possuem uma veloc diferente (menor) ao longo da linha normal às suas cristas, pois a sua componente 
+na linha de movimento do navio deve ser igual à veloc do navio in order to retain the fixed pattern com o navio. 
+- Se a linha normal às cristas faz um ângulo 8 com a linha de movimento do navio, a veloc naquela direção será "V.cos 0", 
+e o comp de onda correspondente será: 
+L'w=(2.7r.V2/g) . cos20 
+(fig 9) 
+2) WAVE-MAKING RESISTANCE ON SURFACE SHIPS: 
+> A baixas vetoes, as ondas formadas pelo navio são muito pequenas, e a resistência é quase toda de origem viscosa. 
+> Fig 10: como a frictional resistance varia at a power of the speed a little less than the square, quando o coef de resitência 
+total CT (= RT / "Ap.S.V2) é plotado to a base of FN (ou de V KWL), vemos que, no início, CT decresce com o aumento da 
+veloc. / Quando a veloc aumenta mais, CT começa a crescer mais e mais rapidamente, e quando FN se aproxima de 0,45 
+(ou VK/VL = 1,5), a resistência poderá variar com V6 ou mais. / Entretanto, esse aumento geral de CT é normalmente 
+acompanhado de vários humps e hollows na curva de resistência. (Isso épara o coef! A resist sempre aumenta com VI) 
+> Na medida em que a veloc do navio aumenta, the wave pattern must change, for the lengh of the waves will increase e a 
+posição relativa das suas cristas e cavados será alterada. / Nesse processo, haverá uma sucessão de velocs nas quais as 
+cristas dos dois sistemas se reforçam mutuamente, separadas por outras velocs nas quais as cristas e os cavados tendem a 
+se cancelar. The former condition leads to higher wave heights, the latter to lower ones. / Como a energia dos sitemas 
+depende do quadrado da alturas das ondas, isso significa alternating speeds of higher and lower than average resistance. 
+> Os humps e hollows ocorrem por causa desses efeitos de interferência; e obviamente deve-se assegurar, no projeto, that the 
+ship will be running under service conditions at a favorable speed. / E a dependência dos hollows e humps em relação ao 
+Fn que é responsável pela estreita relação entre velocs econômicas e comprimentos de navio. 
+> Eggert: mediu a distribuição de pressão normal nas extremidades de um modelo e plotou-as num body plan (fig 11). 
+Integrando as componentes longitudinais dessas forças de pressão, ele mostrou que a força de resistência resultante batia 
+com a resistência medida no modelo depois de subtraída a frictional resistence estimada. 
+- A fig 12a mostra curvas de força longitudinal AV e AR por polegada de comprimento. A maior parte da WMR é 
+gerada pela "upper part of the hull", near the still waterline. 
+I 
+
+
+===== PAGINA 7 =====
+
+4) THEORICAL CALCULATION ON WAVE-MAKING RESISTANCE (Rw): 
+> Michael obteve uma expressão, matemática para calcular o fluxo em torno de um slender hull of narrow beam se movendo na 
+superfície de um fluido não viscoso. / Seu método consiste em: 1) determinar a veloc do fluxo ao redor do casco (usando uma 
+"velocity potential" O bizulenta), and hence the normal pressure distribution; 2) integrar as fore-and-aft components dessas 
+pressões; e 3) a partir dessa integração, derivar urna expressão para a R w total. 
+(Igualzim a técnica experimental do Eggert, só que é cálculo puro!) 
+• Essa teoria é válida apenas se observadas certas condições: 
+a) o fluido é não viscoso e irrotacional; e seu movimento pode ser especificado por uma velocity potencial <P bizulenta. 
+b) o casco é estreito, de forma que o slope da superfície com relação ao plano da centerline seja pequeno. 
+c) as ondas devem ter uma altura pequena comparada com o seu próprio comprimento, de forma que os quadrados das 
+velocs das partículas (p/ cima e p/ baixo) possam ser negligenciados quando comparados com a veloc do navio. 
+d) não pode haver sinkage ou trim. 
+• As boundary conditions a serem satisfeitas pela velocity potencial O são: 
+a) em todos os pontos na superfície do casco, a veloc normal relativa ao casco tem que ser zero. 
+b) a pressão em todos os pontos da superfície livre da água deve ser cte e igual à pressão atmosférica. 
+• Para tornar o problema ameno para os métodos matemáticos existentes, Michael assumiu que: 
+a) a primeira boundary condition poderia ser aplicada ao plano da centerline ao invés de à superfície do casco real, de 
+forma que os resultados se aplicaram apenas para um navio vanishingly thin. 
+b) a condição de pressão cte poderia ser aplicada à superfície livre e plana da água, ou seja, a distorção da superfície 
+devido ao wave pattern foi negligenciada. 
+> Havelock pariu um segundo método, que consiste em calcular o wave pattern gerado pelo navio a uma distância grande AR. 
+Então a WMR é medida pelo "fluxo de energia" necessário para manter esse wave system. 
+• Esse método usa a idéia de "sources" and "sinks", que é uma ferramenta para simular o fluxo ao redor de objetos, e 
+assim encontrar o wave pattern, a pressure distribution e a resistência. 
+- Uma source é um ponto num fluido no qual um novo fluido é constantemente introduzido (e no sink o fluido é extraído). 
+- O fluxo out of a source ou into a sink consiste de linhas de corrente retas e radiais (fig 13). 
+- Se colocarmos um source e um sink idênticos em linha com uma corrente uniforme, as linhas de corrente podem ser 
+combinadas como na fig 14, e haverá "uma" streamline completamente fechada (ABCD). 
+- Como a source e o sink possuem a mesma força, todo o fluido que entrar por um sairá pelo outro, e nenhum fluido vai 
+cruzar a linha ABCD (e o espaço dentro dessa linha pode ser substituído por um corpo sólido). 
+- Um navio afílado, por ex, pode ser simulado por uma distribuição de sources no plano da centerline do forebody, e de 
+sinks no plano da centerline do afterbody, the sum of their total strength being zero. 
+• A restrição para um navio "thin" pode ser removida se distribuirmos os sources e sinks sobre a superfície do casco 
+propriamente dita. / Se assumirmos que as "forças" dos sources e sinks serão proporcionais ao slope do casco em todos os 
+pontos, isso resultará num strength total igual a zero; e a total velocity potential será a soma daquelas velocs devido aos 
+souces e sinks individuais com a veloc do fluxo uniforme. 
+• Cada source e sink, quando em movimento num fluido, sobre ou próximo à superfície, gives raise to a wave 
+system; e pela soma desses sistemas todos, podemos obter o sistema total para o navio. / Por esse método, Havelock 
+calculou o wave pattern bem AR, e obteve a WMR. 
+> Para ambos os métodos acima, a solução foi para um fluido não viscoso e incompressível, de forma que o navio 
+experimentasse apenas a WMR. Ambos os métodos levaram à mesma expressão matemática final. 
+> Professor Inui usou uma combinação de trabalho matemático e experimental e ressaltou a importância de se observar o wave 
+pattern em detalhe, bem como de simplesmente se medir a resistência. / Ao invés de começar com uma dada geometria de 
+casco, ele começou com uma distribuição de source-sink assumida, procurando obter uma melhor concordância entre os wave 
+systems medido e calculado. / O wave pattern e a WMR são então calculados a partir das amplitudes das ondas elementares, 
+usando o conceito de Havelock. 
+• Ele tentou várias distribuições de sources e sinks (singularities) por "volume sobre a superfície curva" (num plano 
+horizontal e sobre o plano vertical da middle-line). 
+• Para "displacement ships" a FN de 0,1 a 0,35, a geometria das extremidades foi o mais importante, e essa 
+geometria pode ser representada de forma bastante precisa por "singularities" no plano da linha de centro. 
+• Já para FN mais elevados, a distribuição de sources ao longo de todo o comprimento se torna importante. 
+• Resumindo, o seu método consiste em: 
+a) escolher uma distribuição de singularities que proveja boas qualidades de resistência. 
+b) obter a geometria do casco correspondente. 
+c) conduzir testes de resistência e de observação de ondas. 
+d) modificar o casco para dar uma forma mais "ship-shape" a meia-nau. 
+Nesse sentido, Inui conseguiu obter formas com uma WMR consideravelmente reduzida, normalmente associadas 
+a um bulbo na stem, e às vezes na popa também. 
+> O desenvolvimento de tipos especiais de formas de casco com wave making drasticamente reduzida também tem sido 
+guiado, to a certain extent, pela teoria de wave resistance. Um desses é o SWATH ship (small wáterplane area twin-hull). 
+> Atualmente, os cálculos teóricos de resistência ainda não podem ser feitos com a precisão necessária para substituir os 
+experimentos com modelos. 
+
+
+===== PAGINA 8 =====
+
+5) INTERERENCE EFFECTS: 
+> Wigley usou um corpo "double-wedged shaped" com um paralel body inserido. A fig 15 mostra a forma do casco e os perfis 
+de ondas medidos e calculados. / Ele demonstrou que a expressão para o perfil de onda ao longo do casco continha 5 termos: 
+a) uma "symetrical disturbance of the surface", que viaja com o casco e apresenta um pico na proa e um na popa, e 
+um cavado ao longo do centro, dying out rapidamente AV e AR do casco. Devido à sua simetria, não absorve energia 
+a veloc cte. / E mais 4 sistemas de ondas, a saber: 
+b) na proa, começando com um crest. 
+c) no shoulder de vante, começando com um trough. 
+d) no shoulder de ré, começando com um trough. 
+e) na popa, começando com um crest. 
+• Consideravelmente AR do corpo, os 4 sistemas de ondas se tornam sine curves de amplitude continuamente reduzida, e 
+de um comp apropriado ao de uma onda livre viajando na veloc do modelo (esse comp é alcançado após +- 2 ondas). 
+• O perfil calculado ao longo do modelo é a soma desses 5 sistemas, e o perfil medido estava "in general agreement" 
+com o calculado quanto à forma e localização de cristas e cavados; mas as alturas das ondas reais towards the stern 
+eram consideravelmente menores que as calculadas, (seria por causa da C-L viscosa?) 
+• Por causa dos sharp corners bem definidos na proa, popa e shoulders, os 4 sistemas de ondas tem a sua origem fixa em 
+pontos ao longo do casco. / Quando se aumenta a veloc, o comp de onda dos 4 sistemas tb aumenta. / Como os primary 
+crests and troughs têm posição fixa, o total wave profile vai mudar constantemente a sua forma com o aumento da veloc na 
+medida em que as cristas e cavados de diferentes sistemas se combinam. / Nas velocs onde a interferência é tal que resulta 
+em ondas mais altas, a WMR será grande; e vice-versa. 
+• In this simple wedge-shaped form, os dois tipos principais de interferência são: 
+1) entre dois sistemas de mesmo sinal (e.g., proa e popa; ou entre os shoulders). 
+2) entre sistemas de sinais opostos (e.g., proa e fwd shoulder). / Esse é o mais importante nesse caso particular, porque 
+o hollow primário do Io shoulder system pode coincidir com o Io trough do sistema da proa. 
+• Wigley calculou os valores de FN = V/V(g.L) para os valores máximo e mínimo do coeficiente de WMR (Cw): 
+- mínimos Cw ocorrem quando Fn = 
+0,187 
+/ 0,231 
+/ 0,345 
+- máximos Cw ocorrem quando Fn = 0,173/ 
+/ 0,205 
+/ 0,269 
+/ 0,476 
+• A expressão matemática para a WMR (Rw) tem a forma: Rw é proporcional a V6 
+(termo cte + 4 termos oscilantes) 
+De forma que o Cw 
+fica: 
+Cw = Rw / Vi p.S.V2 ~ V4 
+(termo cte + 4 termos oscilantes) 
+(esse termo cte não tem nada a ver com a symetrical disturbance!) 
+• A curva Cw é feita de um steady increase variando com V4 devido ao termo cte, e de 4 curvas oscilatórias devido à 
+interferência entre diferentes sistemas de ondas livres (figs 16 e 17). / Mas a altas velocs, esses 4 últimos acabam se 
+cancelando, e cancelam tb o steady increase do Cw; e não há nenhum outro hump além daquele que ocorre a um 
+valor de vW(g.L) de cerca de 0,45, depois do qual o valor de Rw decresce continuamente com o futher increase da 
+veloc. Entretanto, nessas altas velocs, the hull sinks bodly and change trim so much that entirely new phenomena arise. 
+> Para um formato mais ship-shape, onde as waterlines não tem descontinuidades definidas, o padrão de ondas ainda 
+consiste de 1 symmetrical disturbance + 4 free-wave systems. 
+- Dois desses sistemas de ondas começam com cristas, um na proa e outro na popa, e são decorrentes da mudança de ângulo do 
+flow nesses pontos. / Os outros 2 sistemas (como os dos shoulders no caso anterior) começam com hollows, mas não são 
+mais amarrados a pontos definidos, pois a mudança do slope é gradual e se espalha "over the whole entrance and run". 
+Eles começam um na proa e outro no after shoulder, muito mais gradualmente (fig 18). 
+- Aquele sistema devido à "entrance curvature", por ex, pode ser encarado como uma redução progressiva daquele devido ao 
+bow angle, na medida em que o slope da waterline gradualmente diminui para ré. 
+> Wigley tb mostrou as contribuições separadas dos sistemas transversal e divergente para a WMR. 
+- Até um Fn = 0,4, o sistema transversal é o ppal responsável pelas posições dos humps e hollows (fig 19). 
+- Acima desta veloc, o sistema divergente se torna mais e mais importante, e apenas a interferência do sistema transverso 
+não vai determinar corretamente a posição dos humps mais altos (particularmente a do último hump a Fn = 0,5). 
+> Froude: na medida em que o navio avança, mas a água não, grande parte da energia entregue à água pela proa is carried 
+out laterally and away from the ship. / Esse outward spreading da energia resulta na diminuição da altura de cada onda 
+sucessiva, sem nenhuma mudança significativa no wave lenght. 
+> Taylor fez os testes cujos resultados estão na fig 21 (curva da resistência residual x diferentes comprimentos do paralel body). 
+Esses testes não foram estendidos para um comp do paralel body tal que o sistema da proa deixasse de afetar o da popa. 
+• Fig 22: mostra várias curvas de um mesmo corpo em diferentes velocs. A mudança do comp do paralel body que resulta em 
+sucessivos humps em qq das curvas de resistência é praticamente igual ao comp de onda teórico para a veloc em questão. 
+Isso indica que as ondas dos navios possuem substancialmente o mesmo comp que as deep-sea waves de mesma veloc. 
+• Estendendo as curvas na direção de um paralel body bem grande, de forma que o sistema da proa deixe de afetar o da popa, 
+as "mean residuary resistances" para esse corpo (pontilhado) crescerão aprox com V6. / Elas são as resistências livres de 
+interferência, e representam a verdadeira resistência residual das duas extremidades. / Essa taxa de variação com a veloc 
+(V6) é a mesma que é fornecida pela teoria antes de se considerar os efeitos de interferência (fig 17). 
+> A WMR é gerada, em grande parte, pelas partes do casco próximas à superfície. Portanto, the displacement should be 
+kept as low down as possible. / O efeito relativamente pequeno da parte inferior do casco nos sistemas de ondas também 
+indica que a WMR não é unduly (= excessivamente) sensitive ao formato da midship section. 
+8 
+
+
+===== PAGINA 9 =====
+
+mm&êgê^êgmg&m^^&gm 
+6) EFFECTS OF VISCOSITY ON WAVE-MAKING RESISTANCE: 
+(me parece que o aumento da viscosidade [ a WMR) 
+> Um dos efeitos da viscosidade é a criação da C-L, que engrossa da proa para a popa. 
+> Havelock: a influência direta da viscosidade no wave motion é comparativamente pequena, e o efeito indireto might 
+possibly be allowed for later by some adjustment of the effective form of the ship. / Ele propôs fazer esse ajuste de forma 
+by assuming that the after body was virtually "lengthened" and the aft end waterlines thereby reduced in slope, so 
+reducing the after-body wavemaking. 
+> Wigley: comparou as WMR medida e calculada de 14 modelos, e constatou que as diferenças ficavam dentro de 4 %, e 
+que o "virtual lengthning" do casco devido à viscosidade variava de 2 a 8 %. 
+> A inclusão dessa correção de viscosidade tb explica outra característica da WMR calculada: 
+- Para um modelo assimétrico AV e AR, a WMR teórica num fluido não viscoso é a mesma para ambas as direções de mov, 
+embora as WMR medidas sejam diferentes. / Com a correção de viscosidade, a WMR teórica calculada tb será diferente. 
+> Professor Inui: também considerou a viscosidade no seu trabalho sobre WMR por meio de 2 coeficientes: um coef que se 
+encarrega do virtual lenghtning da forma, e outro coef para compensar os efeitos da viscosidade na altura das ondas. 
+7) SCALE EFFECT ON WAVE-MAKING RESISTANCE: 
+(muito confuso epouco importante...) 
+> As curvas calculadas de Cw são normalmente maiores que as curvas medidas em experimentos, e tb mostram 
+maiores oscilações; o que se atribui a 3 causas ppais: 
+a) simplificações para possibilitar o trabalho matemático: esses erros decrescem com o aumento da veloc. pois eles 
+dependem da premissa de que as velocs devido ao wave motion (sobe-desce na onda) são pequenas quando comparadas à 
+veloc do modelo (premissa essa which is more nearly fulfilled at high speed). 
+b) erros por se negligenciar os efeitos da viscosidade sobre Rw: dependem de Rn e, portanto, do tamanho do modelo (o 
+erro diminui quando o tamanho do modelo aumenta). / Esses erros deixam de ser importantes para Fn >_0,45. 
+c) erros devido aos efeitos da wave motion sobre a frictional resistance: são insignificantes a baixas velocs. mas se tornam 
+importantes quando Fn excede 0,35 (VK/ VL = 1,15) devido ao sinkage e trim (que aumentam rapidamente acima desta 
+veloc). 
+> Conclusão: num modelo típico, para Fn < +- 0,35 num fluido perfeito, a WMR real é menor que a calculada. Isso se 
+deve, em parte, à viscosidade (cujo efeito decresce com o aumento do tamanho); e Cw aumentará com a escala, ao 
+invés de permanecer cte as assumed in extrapolation work. 
+> Wigley estimou a diferença envolvida no cálculo da resistência de um navio de 121,9 m a partir da resistência de um modelo 
+de 4,88 m a um Fn de 0,245. / Ele concluiu que a resistência do navio seria underestimated em +- 9 % using the usual 
+calculations. / Na fig 23 (variação do erro com a veloc), vemos que o erro desaparece a baixas velocs e para Fn > 0,45. 
+8) COMPARISON BETWEEN CALCULATED AND OBSERVED WAVE-MAKING RESISTANCE: 
+> Essa comparação é difícil de fazer, pois a única coisa que se consegue medir em um modelo é a resistência total (Rr), e o 
+valor de Rw só pode ser obtido by making assumptions (sujeitas a dúvidas consideráveis) as to the amount of: 1) frictional 
+resistance; 2) viscous pressure drag; e 3) eddy making resistance. 
+> A WMR tem sido medida diretamente pela observação da forma do sistema de ondas AR do modelo e compute da 
+sua energia. / E o total viscous drag tem sido medido por "pitot tube survey" atrás do modelo. 
+- Esses dois métodos são relativamente novos, e há problemas na interpretação dos resultados. 
+> Lunde fez uma comparação de muitos dos dados disponíveis. Na comparação, o CR medido (coef de resist, residual) foi 
+derivado a partir de CT usando os coeficientes de fricção de Froude; e o Cw calculado ele corrigiu empiricamente para a 
+viscosidade. / As constatações foram (fig 24): 
+• A pequenos FN (< 0,18), é difícil determinar CR with any accuracy. 
+• Nas velocs mais altas, os humps a FN = 0,25 e 0,32 e o intervening hollow são muito exagerados nas curvas calculadas, e 
+desenhar um navio para andar na "hollow speed" não seria alcançado na prática (fig 24). O agreement no nível das curvas 
+nesse range de FN depende da forma do modelo (a teoria superestima a resistência para "full ships" com large angles of 
+entrance). 
+• Logo acima de Fn = 0,32, o modelo fica sujeito a increasing sinkage e trim pela popa, efeitos estes que não são 
+considerados nos cálculos. Logo, o CR medido é maior que o calculado. 
+• O último hump na curva de Cw ocorre a um FN de cerca de 0,5, e o valor calculado de Cw é menor do que o CR 
+medido (de novo provavelmente porque se negligenciou o trim e o sinkage). 
+• Ao incluir a correção por viscosidade nos cálculos, os valores de Cw diminuem, (essa é a minha conclusão) 
+> Em todos os casos, os humps e hollows nas curvas medidas ocorrem a valores de FN maiores do que os previstos pela 
+teoria (de 2 a 8 % maiores). Em outras palavras, o modelo se comporta como se ele fosse mais comprido do que é. 
+- Isso se deve mostly due to the virtual lenghening of the form devido à C-L viscosa. 
+> A baixas velocs (FN = 0,1), a WMR varia aproximadamente com o quadrado da tangente do semi-ângulo de entrada (half-
+angle of entrance), mas o seu valor total comparado com RT é muito pequeno. 
+> A altas velocs (FN > 1,0), a WMR varia aproximadamente com o quadrado do deslocamento. O shape é relativamente 
+irrelevante (a consideração mais importante é o displacement carried on a given lengh). 
+9 
+
+
+===== PAGINA 10 =====
+
+8BW»MB8688gJB8-g^aÃ?JÍgSag«8M—MM 
+SECTION 5 - OTHER COMPONENTS OF RESISTANCE 
+1) EDDY RESISTANCE, VISCOUS PRESSURE DRAG, SEPARATION RESISTANCE AND WAVE-BREAKING 
+RESISTANCE: 
+A) Eddy Resistance: 
+> O "turbulent frictional belt" ao redor do navio consiste de eddies, de forma que todos os tipos de frictional resistance são, 
+de fato, devido à eddy-making. / Entretanto, o termo "Eddy Resistance" é normalmente usado para descrever a resistência 
+devido à formação de eddies ou perturbação do fluxo causada por mudanças abruptas de forma, appendages ou outras 
+projeções; e exclui a "tangential skin friction". 
+B) Form Drag: 
+> A fig 25 mostra o coef. de resist, total de um modelo (CTM) x log RN, plotada a partir da R™ medida, onde: 
+CFOM = coef. de resist, de fricção para uma smooth plank (de mesma área e comp.) em fluxo turbulento (o "0" é para plank). 
+CRM = coef. de resist, residual; é o "intercept" (diferença) entre as curvas de CTM do modelo e CFOM da plank. 
+CFORM = coef. de arrasto de forma. 
+> A peqs valores de RN, a curva CTM é quase // à curva CFOM, but some distance above it. Como o componente principal de CWM 
+varia com V4 (obs: Rw varia com V6), a WMR a baixas velocs é muito pequena, de forma que CRM não pode ser atribuído 
+exclusivamente à WMR. / Assim sendo, F-E (ou B-C) é o chamado "form drag" (CFORM)- / Traçando a curva C-H paralela à 
+curva de CFOM; F-G representa CWM-
+> O CFORM é maior quanto menor for a "slenderness ratio" (comp/diâmetro, ou L/D), ou seja, quanto menor for L/A1/3. 
+> Para navios de guerra, o CRM varia de 5 a 15 % do CFOM, podendo chegar a 40% para full cargo ships. / Esses incrementos de 
+resistência, entretanto, não podem ser atribuídos apenas aos efeitos da curvatura, o que nos leva a outras causas de form effect. 
+> Hâ 3 causas ppais para a resistência de forma: o aumento da "skin friction", o "pressure drag" e o "separation drag": 
+(mas ainda não se tem conhecimento suficiente para dividir o total viscous drag em seus componentes separados) 
+a) Aumento da Skin Friction devido à forma: 
+> A distribuição de pressões faz a veloc do escoamento f na MN e J, nas extremidades, and the former effect outweighs the 
+later. / E ainda, como o trajeto da proa à popa num casco é maior que o mesmo trajeto numa plank equivalente, a veloc do 
+escoamento tem que ser maior. / Portanto, a skin friction de um navio deve ser maior que a de uma equivalent plank. 
+- As mudanças de pressão e veloc e o aumento do trajeto são maiores quanto mais "full" ou "stumpier" for o casco, 
+então essas formas terão um form drag maior. 
+> Para corpos completamente submersos, e para um dado deslocamento, o aumento da razão L/D além de um determinado 
+valor acaba causando um aumento da frictional resistance por causa da maior surface area, ainda que o form drag 
+seja reduzido. / Então, em termos de resistência total, haverá um valor ótimo de L/D, valor esse que varia de 5 a 7, 
+dependendo da forma particular de um casco e da quantidade de appendages necessários para dar-lhe estabilidade. 
+b) Viscous Pressure Drag: 
+> Já vimos que a existência da C-L tinha o "vitual effect" de esticar a forma e reduzir os slopes das after waterlines. 
+Essa é uma região onde as pressões normais ao casco são maiores que a pressão estática (devido ao "closing in" das linhas 
+de corrente), e as componentes para vante desse excesso de pressão empurram o navio para vante. A presença da C-L 
+reduz essas componentes para vante, o que resulta numa resistência maior do que a que seria encontrada se o fluido 
+fosse não-viscoso; e então ela é chamada de "viscous pressure drag". 
+c) Separation Resistance: 
+> Se a curvatura perto da popa for muito abrupta, if the bilge radius is too hard, se as after sections são muito "U"-shaped, ou se 
+há outras descontinuidades na forma do casco, a água pode não mais conseguir seguir o casco (it breaks away), e o espaço 
+entre o casco e o smooth flow ficará preenchido por eddies. / O ponto onde isso ocorre é o "separation point", e a 
+resistência resultante é o terceiro elemento do form drag, chamado "separation resistance". 
+> Explicação da separação: 
+- As partículas adjacentes ao casco se movem com a mesma veloc deste e, devido à viscosidade, arrastam a próxima camada 
+com uma veloc menor, and so on, até que a veloc das partículas em qq ponto seja igual à veloc do fluxo potencial. 
+- A C-L engrossa da proa para a popa devido ao contínuo "entrainment" de mais água. 
+- Dentro da C-L, os gradientes de veloc são muito maiores do que aqueles existentes no fluxo potencial, e a maior 
+parte do "fluid shear" responsável pela skin friction deve ocorrer dentro dessa camada. 
+- Como a veloc na C-L se aproxima da veloc do escoamento potencial asymptotically (suavemente), normalmente a 
+sua espessura é estabelecida como indo até o ponto onde a veloc das partículas é 99 % da veloc do fluxo potencial. 
+- A forma do corpo definida pelos limites externos da C-L may be considered to move without friction, e as pressões 
+normais são transmitidas através da C-L sem distorções relevantes. 
+> Fig 26: as partículas que se movem AR da meia-nau têm a sua veloc reduzida pelos "shearing stresses" e pelas "increasing 
+pressures". Algumas podem não ter energia cinética para vencer o gradiente adverso de pressão, and so come to rest before 
+reaching the stern (or even start moving fwd). / As partículas subsequentes são então forçadas outward away from the body, 
+setting up pressures que tendem a movê-las de volta para o casco, and thus causing large scale vortices na C-L. / A partir daí, o 
+fluxo se separa do casco, e uma widening band of eddying water intervenes between the hull and the smooth flow outside it. 
+- Esses eddies drenam a energia cinética que foi gasta para produzi-los, o que representa o "separation drag". 
+- Adicionalmente, essa separação tb afeta a distribuição de pressão no casco, e portanto modifica o pressure drag. 
+10 
+
+
+===== PAGINA 11 =====
+
+C) Wave-Breaking Resistance: 
+> Especialmente no caso de blunt forms, o fluxo AV da proa se torna irregular e complexo, o que normalmente leva à 
+wave-breaking. 
+> A Fn muito baixos (< 0,1), a sup livre na popa sobe para uma altura de aprox V72g, e quase não ocorre wave-making. 
+Mas na medida em que a veloc aumenta, essa subida da água AR desaparece, and instead the bow wave breaks. 
+y A bow wave-breaking ocorre devido à separação do fluxo na superfície livre (por efeito de "sheer" na sup. Livre), e pode 
+ser evitada se a tang. à curva das "sectional areas" na "PP AV" não for muito íngreme. 
+> A wave-breaking resistance pode contribuir com uma fatia considerável da resistência total do casco. 
+> A certa veloc, a superfície livre se torna instável and breaks quando o raio de curvatura das "curved streamlines" resultam num 
+valor de aceleração centrífuga V2/R superior a um valor crítico. Daí o "Taylor instability criterion": para se evitar wave-
+breaking, R tem que ser > V2/50 (onde Ré o raio da proa emm.; e Véa veloc em m/seg) 
+2) AIR AND WIND RESISTANCE: 
+> Um navio em mar calmo e sem W experimenta a resistência devido ao mov no ar do above-the-water hull. Essa resistência 
+depende da veloc do navio e da área e forma do "upper works". / Se um W estiver soprando, essa resistência tb dependerá da 
+intensidade e direção relativa do W. / In adition, o W pode levantar ondas que causam um further increase na resistência. 
+> O "true wind" é o W de causas naturais, e independe do navio. / "Zero true wind" is still air. 
+O "relative ou apparent wind" é a soma vetorial das velocs e direções do navio e do W verdadeiro, (fig 27) 
+> Devido às suas várias funções, as superestruturas não podem ser streamlined; e se o fossem, isso só ia adiantar se o W fosse 
+de proa. Logo, a redução da resistência total que poderia ser alcançada tornando a superestrutura streamlined é 
+relativamente pequena. 
+> A maior parte da resist, das superests. é devido à eddy-making (logo, varia com V2), e os efeitos das mudanças do 
+Rn (importante para arr de atrito) podem ser negligenciados. Então, a air resistance de um navio navegando em still air é: 
+RAA = coef x i4.p.AT.V2 
+(AT é a "transverse projected area" do casco acima da água; e o coef. depende da forma) 
+> Taylor: a resistência do ar para ordinary ships com vento de proa é igual à de uma flat plate de largura igual à boca (B) e 
+altura igual a B/2, colocada transversalmente ao W. / Daí ele derivou um resistance coef de 1,28, e aplicou na fórmula 
+acima (onde usou a veloc do vento aparente VR no lugar da veloc do navio): RAA = 0,64.p.AT.V2 
+> Huges: fez 3 modelos de above-water hulls e erections para navios típicos e os rebocou de cabeça pra baixo na água a 
+diferentes velocs e a diferentes ângulos. 
+• Para um dado arrangement a um 0 constante de W relativo off the bow, FAV era cte para todos os valores de velocs. 
+até aquelas velocs em que a wave-making começou a ser importante. 
+(ou seja, o coeficiente era cte) 
+• Fig 28: mostra as curvas (F / VR
+2) x 0 e a x 0 (onde a é o ângulo entre a centerline e a força resultante do W). 
+- F/ VR
+2 é máximo quando o W relativo está pelo través; o que não corresponde à máx resistência para o mov AV. 
+- O ponto de aplicação da força fica próximo à proa para ventos nearly head on, e se move para ré conforme o 0 vai 
+aumentando, até chegar a um ponto próximo da popa quando o W está quase de ré. (fig 28) 
+• W de través (fig 29): a maior parte da área, do casco e da superestrutura, fica perpend ao W, e ambas possuem o mesmo 
+valor de resistência específica (força/área); de forma que a effective area será +- igual à "área longitudinal projetada" AL. 
+• Para um W de proa (fig 29): o main hull bellow the weather deck tem uma resistência específica muito inferior à da 
+área frontal da superestrutura. / A "equivalent ou transverse projected area" AT é a soma da área projetada da 
+superestrutura com 30 % da projected main hull area. 
+• Daí Huges desenvolveu uma eq chata que calcula a força F em fç de AL, AT, a, 0, etc. / Para um W de proa (o = 0 = 0), 
+a fórmula fica: RAA = 0,734AT.VR
+2, que é quase a mesma coisa que a do Taylor, embora AT seja um tanto diferente. 
+• Para pequenos 0, a força na linha do movimento do navio será F x cos a. / A fig 30 mostra que, embora cos a decresça com 
+o aumento de 0, F aumenta tão rápido (por causa do aumento rápido da área) que o produto F x cos a aumenta com 0, de 
+forma que o valor máx de resistência na direção do movimento ocorre quando o W relativo está a aprox 30° da proa. 
+> Huges tb estudou os efeitos das mudanças de forma, tipo e arrangement da superestrutura, medindo as suas resistências 
+isoladas e combinadas by attaching them to the underside of a raft, rather than to a specific hull. / A resistência das superests 
+pôde ser reduzida seja pela redução da sua área projetada, ou por mudanças de arrangement, forma e proporções. 
+• Para ventos de proa: 
+- A resistência total de um número de separate units é menor que a soma das suas resistências individuais, por causa 
+dos "shielding effects" (esses efeitos decrescem com o streamlining). 
+- Rounding, tapering or stepping back the fwd ends of the main erections reduz a resistência, mas essas modificações 
+nas extremidades de ré possuem um efeito pequeno. 
+- The shear of the main hull fwd tern um shielding effect considerável (?? o casco AV faz uma sombra ??). 
+- A redução da resistência by streamlining the erections é de aprox 30 % (mas é bem menos se o W não for de proa!). 
+-O efeito relativo da resistência do W nos navios lentos é muito maior. Portanto, on a percentage basis, são necessárias 
+allowances muito maiores que para os navios rápidos (and streamlining should not be restricted to the faster ships). 
+Obs: o aumento de resistência ao mov para vante quando se defasa o W até 30° da proa pode chegar a 30 %! 
+11 
+
+
+===== PAGINA 12 =====
+
+> Air resistance information é muito importante para a análise de measured "mile and voyage data" e para a estimativa de 
+mooring e towing forces. / A BMT fez testes em túnel de vento, e inseriu um "gradiente de veloc a partir da linha 
+d'agua" (fig 31) semelhante ao encontrado no mar (bem steep próximo à superfície). 
+- Exceto para navios de passageiros (que são muito altos), esse gradiente reduziu muito a resultant wind force (os testes 
+de Huges não consideraram o gradiente, e portanto servem apenas para estimar a resist de navios movendo-se em still air). 
+- Como o vento criado pela veloc do navio não tem gradiente, o "effective gradient" vai depender dos valores 
+relativos da veloc do W natural e da veloc do navio. / Se aplicarmos os resultados de modelos obtidos com "graded 
+wind" a um navio que navegue em still air, a resistência será subestimada de 25 a 40 %. 
+> Wilson: 
+- definiu um "wind drag coefficient" CAAO para W de proa (definido como zero relative wind heading). 
+- usou esse coef numa equação que é a mesma coisa que as já estudadas: CAAO = RAAO/ %.p.AT.VR
+2. 
+- definiu um "heading coefficient" CY = CAA/CAAO para non-zero relative wind heading. 
+• O comportamento de Cy com o rumo y do W relativo foi o mesmo para qq tipo de navio. As figs 32 e 33 mostram que o 
+valor máx de Cy ocorre próximo a 30° e 150°, e que há um flat spot na curva a +- 80°. 
+• O wind drag e a "mudança do effective power" devido a esse drag podem ser determinados por: PEwind = RAAY-V/1000 (kw) 
+• E a mudança de veloc devido ao W é calculada a partir do gradiente da curva veloc x pot no ponto da veloc em questão. 
+> Se houver um W forte de través, o navio vai desenvolver leeway, o que fará aumentar a resistência hidrodinâmica. Assim, 
+a effective wind resistance será composta pela wind resistance mais a componente hidrodinâmica devido ao leeway. 
+- A componente hidrodinâmica pode ser bastante relevante para navios de grande superestrutura e para hull forms que não 
+sejam capazes de produzir appreciable sideforces a pequenos ângs de deriva (mas nem tanto para outras formas de casco). 
+- Em alguns casos, a leeway pode influenciar a wake, and hence the propulsive efficiency. 
+> VanBerlekom: 
+- A ordem de grandeza da força do vento na estrutura acima d'agua tem a mesma magnitude da resistência devido às ondas 
+(item 3 a seguir). 
+- O efeito de leeway tem pouca importância. 
+- As variações na deck house configuration têm relativamente menos importância nos valores dos wind coefficients que as 
+áreas frontal e lateral expostas ao W. 
+- O "yawning moment" no navio devido ao W depende da posição da superestrutura principal. 
+3) ADDED RESISTANCE DUE TO WAVES: 
+> Ondas de proa causam um aumento considerável de resistência, em parte pelo "difraction effect" of the moving hull on 
+the encountered waves (é a porrada na onda), e em parte pelos efeitos indiretos do "pitching and heaving" motions. 
+> In beam and quartering seas, poderá haver "rolling" violento e algum "yawning", que tb aumentarão a resistência. 
+> A aplicação de leme que se fizer necessária tb aumentará a resistência! 
+4) APPENDAGE RESISTANCE: 
+> Appendages principais: 
+- navios de 1 eixo: 
+bilge keel (no bojo) e leme. 
+(todos eles aumentam a resistência) 
+- de 2 ou mais eixos: bossings ou open shafts e struts, e pode haver 2 lemes. 
+> A expansão das estimativas de modelos para navios é difícil, pois como os appendages são muito pequenos, os RN neles (acd 
+sua veloc e dimensões) tb serão pequenos, e portanto os scale effects serão consideráveis. 
+- Assim sendo, é necessário planejar experimentos separados, com Reynolds scalings específicos para os appendages. / Se 
+usarmos o método de extrapolação de Froude, incorreremos em erros apreciáveis, pois devido às limitações de tamanho e 
+veloc dos modelos, não conseguiremos obter um fluxo 100 % turbulento nos appendages. 
+- Fig 34: mostra CD x RN para vários tipos de perfis usados em appendages. / A dependência do arrasto no RN foi 
+documentada para a maioria das 2-D foil sections. / Conclusões: 
+• RN < IO5: a C-L é 100% laminar, e os perfis mais espessos têm maiores valores de CD devido à separação da C-L laminar. 
+• IO5 < RN< IO6: o CD diminui rápido por conta da transição laminar > turbulento da C-L; que agora se separa mais próximo 
+ao trailing edge do que no caso do fluxo laminar (o RN no qual ocorre a transição é o "Critical Reynolds Number"). 
+• Para perfis muito finos, na ausência de separação de C-L, a transição laminar > turbulento é acompanhada de um 
+relativo aumento de CD, 
+• Depois da transição, o ponto de transição se mantém +- fixo para um certo range de RN até que, em cerca de 10 , o 
+ponto se move para vante, causando um pequeno aumento de CD. 
+• RN > IO7: o CD diminui levemente com o aumento de RN. 
+• Para os perfis mais usados no desenho de appendages, como as superfícies de controle (ex: NACA series), um fluxo 100% 
+turbulento é obtido a RN around 10* in high-turbulent flow, e around 5.106 in low-turbulent flow. 
+> Diversos trabalhos chegaram a relações empíricas que são usadas para o cálculo do drag de appendages. / Algumas dessas 
+relações independem de Rn e não podem ser usadas para se estimar scale effects. / As relações mais importantes são: 
+12 
+
+
+===== PAGINA 13 =====
+
+HH™M.i«BffMBffWWIIIII^"^^^^™™M™^^^^M™l"™^M^™l™l""l««M«""«'»»^>^^ 
+*•••••• 
+A) Superficies de Controle: (rudders, shaft brackets, stabilizer fins, etc) 
+> A resistência dos lemes pode ser medida por model tests, ou pode ser calculada usando-se os coefs. de arrasto para airfoils 
+de características semelhantes e R\ apropriados ao seu comp. e veloc. 
+> Se os lemes não estão no prop race, a veloc da água que passa sobre eles é menor que a veloc do navio (wake effect). 
+Mas quando estão na descarga do prop, essa veloc será maior que a veloc do navio. 
+> Nos testes de propulsão de modelos, é normal ignorar-se a resistência de lemes in the prop race, sendo este efeito 
+absorvido na propulsive efficiency. 
+> Para navios com twin rudders, recomenda-se fazer testes para se determinar o "optimum zero setting" para os lemes, pois 
+devido ao fechamento das linhas de corrente AR, essa setagem pode não ser // à centerline. / Contudo, sob certas condições 
+de ressonância desfavoráveis, essas zero settings podem gerar flutter no leme e vibrações no casco, então poderá ser 
+necessário escolher uma setagem diferente e entubar a resistência adicional. 
+> Relações: 
+a) Há uma fórmula (Peck) tipo D = % pSV2CF.(...), onde (...) é uma relação entre as medidas da sup de controle (vide fig 36). 
+Nos cálculos para os lemes, usar 1,1.V ao invés de V, por causa da veloc adicional devido ao prop race. 
+b) Caso o leme ou strut penetrem a superfície da água, adiciona-se um "spray drag", que é proporcional a t„2. 
+(tw é a espessura máx da sup de controle na superfície da água) 
+c) Se os struts tiverem "palms" montados sobre o casco (que não são flush), haverá um "palm drag", que é fç da altura do 
+palm acima da superfície do casco, da largura frontal, veloc, espessura da C-L, e de um coef do palm. 
+d) Há um arrasto de interferência entre os appendages tipo sup de controle e o escoamento ao longo do casco, que é fç 
+de "t/c" (onde t é a espessura máx da sup de controle no casco; e c é o comp da corda da sup de controle no casco). 
+e) Para calcular o CD de appendages do tipo foil, há diversas fórmulas em fç de t e c, e algumas em fç de RN. / As fórmulas 
+que não são fç de Rn só podem ser usadas para um range específico de RN (pois elas são para C-L ou laminar ou turbulenta). 
+- Obs: a área de referência usada nessas fórmulas é o dobro da "planform area", (pq o arrasto é de atrito, não depressão) 
+- Obs: deve-se adicionar o "foil interference drag", mas o "tip parasite drag" pode ser negligenciado. 
+B) Bilge Keels: 
+> As linhas de fluxo ao longo do bilge (bojo) são medidas com dye ou small flags, e as bilge keels são arranged to conform 
+with them. / Dessa forma, a resistência adicional pode ser mantida apenas um pouco maior que a correspondente à superfície 
+molhada adicional (que é +- de 1 a 3 % da área molhada do main hull). 
+> Relações: a resistência pode ser dividida em 2 partes: 
+a) skin friction: devido à área molhada adicional. 
+b) interference drag keel-casco: diminui quando o âng entre a keel e o casco aumenta (fig 35 - z aumenta). 
+z = x+y (no keel): - aditional drag = zero 
+z = 0 (plate keel): - interference drag é aprox = skin friction drag (= lA pSV2CF). (há uma eqpara situações intermediárias) 
+C) Shafts and Bossings: 
+> Para desenhar bossings e struts que minimizam a resistência, é necessário explorar o fluxo na popa (com dye, flags ou pitot). 
+> Com bossings bem alinhados ao escoamento, o min aumento de resistência possível é aquele devido ao aumento da 
+superfície molhada (que vai de 1 a 5 %), the amount of which depende do diâmetro do prop (que define o spread dos shafts) 
+e da fineness do afterbody (que determina o comp do bossing para fora do casco). 
+> Como o bossing tem uma curvatura maior que a do casco (portanto, maior veloc), a sua "specific frictional resistance" (i.e., 
+por unidade de área) é maior que a do casco, de forma que o aumento da resistência será maior (5 a 9 % da RF do casco). 
+> Para stern arrangements com open shafts e struts, o aumento da área molhada (incluindo stern tubes e barrels) e o 
+aumento da RF foram aprox os mesmos encontrados para os bossings. / Mas em modelos de navios de características 
+inusuais, como eixos muito longos com struts extras, o aumento da resist, pode chegar a até 16-18 %. 
+> Relações: os shafts são normalmente inclinados em relação ao escoamento, o que gera lift e arrasto apreciáveis no 
+eixo e no strut bossing. 
+a) Para calcular o arrasto do eixo para RN < 5.10s, há uma eq em fç de: comp do shaft + bossing, diâmetro do shaft (ou 
+shaft + bossing), ângulo com o escoamento, V, p e um CF. 
+b) Para calcular o CDP (coef de arrasto de pressão) das partes cilíndricas de appendages, há outras fórmulas, uma para cada 
+range de RN. Elas são fç do âng com o escoamento e do RN. (figs 37 e 38). (a área de referência usada é a área projetada = 
+comp x diâmetro) 
+c) Para calcular o CF (coef de frictional drag) de um cilindro em um x-flow, há várias fórmulas (uma para cada range de RN). 
+Elas são fç de RN, comp do cilindro e âng com o escoamento, (a área de ref usada é a área molhada do cilindro = L.d.II) 
+d) Devemos ainda adicionar o arrasto das extremidades de vante e de ré do cilindro (quando aplicável), cujos coeficientes são 
+calculados por 3 fórmulas: uma para o fwd end "sharp-edged", outra para o fwd end "faired", e outra para o aft end. 
+- fórmulas do fwd end: são fç apenas do âng com o escoamento. 
+- fórmula do aft end: 
+é fç desse ângulo, de um CF para um RN apropriado, da área molhada e da área da base do cilindro 
+(ou área da base menos a área do cilindro de menor diâmetro localizado imediatamente downstreams, se for o caso - fig 39). 
+13 
+
+
+===== PAGINA 14 =====
+
+D) Skegs: (é uma quilha tipo de caíque, ou aparte inferior saliente da quilha) 
+> Relações: o arrasto de um skeg é calculado por: DSk = V2.p.Vm
+2.CF.ASk 
+- onde Vm é a veloc média over the hull no local do skeg, ASk é a sua área lateral (pois o arrasto é de atrito), e o coef de 
+arrasto de atrito CF é baseado no wetted lengh do skeg. 
+E) Observações: 
+> Para velocs até Fn = 0,5, o drag calculado pelas formulas podem superestimar os valores dos experimentos em 30-40%. / Mas 
+as fórmulas serão bem precisas se as velocs corretas da C-L forem usadas no cálculo do valor de RN e do "dynamic lead" 
+'Ap.V2. Ou seja, a veloc a ser usada não é a veloc do navio, tem que se fazer um estudo da C-L para cada appendage (vide fig 
+40, onde as shaded areas são afetadas pela C-L). 
+> Para velocs acima de Fn = 0,5, as fórmulas acima lead to serious underprediction of resistances of appendages (há reportes de 
+erros de 100% e de 0%). / As ppais causas das discrepâncias são: valores adotados da inflow velocity, ocorrência de cavitação 
+e ventilação, desalinhamento de struts-lemes-etc, e interferências múltiplas entre appendages-hull-prop. 
+> O desalinhamento dos appendages com o flow faz o drag aumentar devagar para os peqs ângulos, e rapidamente para 
+os maiores. / A pos e alinhamento corretos de lemes e fins são determinados por testes com modelos para vários AO As (caso 
+contrário, o arrasto será maior que o calculado pelas fórmulas, que não consideram o drag-due-to-lift de appendages tipo foil). 
+No caso de lemes localizados AR de props, tem que haver uma correção para o fluxo mais intenso. 
+> Os efeitos de propeller loading, cavitation e ventilation no drag dos appendages ainda não são bem conhecidos (e não há 
+fórmulas). / Alguns estudos: 
+- Lemes: o drag aumenta com o aumento da cavitação e ventilação, e reduz com o aumento do prop loading (o leme 
+funciona com um estator, recuperando a energia rotacional). 
+- Struts e bossings: o drag aumenta bastante com o aumento do prop loading, provavelmente devido ao aumento do fluxo 
+induzido sobre os appendages. / Novamente, a cavitação tb aumenta o drag. 
+> A BSRA fez experimentos com um navio real movido por turbina de avião no convés, e comparou com 6 modelos geosims. 
+- Bossing: foi colocado com 20° na corrente para obter valores maiores de resistência necessários às comparações. A sua área 
+molhada era só 2% do bare hull, mas o aumento percentual da resistência do navio foi praticamente cte (aprox 5%) até 12 kt, 
+after which it declined to almost nothing at 15 kt. 
+- A-brackets e open shafts: o aumento do arrasto foi praticamente cte (aprox 3/4 %). 
+- Tanto para o bossing quanto para os A-brackets e open shafts, o CT dos modelos aumentou mais que o CT do navio quando 
+se colocou os apêndices. 
+> O experimento acima discorda dos de Allan, onde não foram encontrados scale effects nos bossings, provavelmente porque, 
+como o seu bossing foi alinhado com a corrente, o seu drag era quase todo de fricção (de forma que o scale effect seria 
+pequeno em termos de resistência total). / Se os bossings da BSRA tivessem sido alinhados, o seu drag poderia ter sido 
+menor do que o drag dos shafts e struts. / Devido a essa diferença com os bossings, quaisquer conclusões são duvidosas. 
+> Outros estudos mostraram diferenças muito pequenas de "required power" entre navios com bossings bem desenhados 
+e navios com shaft e strut expostos. 
+> Tabela 5: fornece núms aproximados da resistência de appendages for design purposes (no reduction made for scale effect). 
+5) TRIM EFFECTS: 
+> A baixas velocs, ocorre um general sinkage e um slight trim pela proa (fig 41). / Na medida em que a veloc aumenta, o 
+mov da proa reverte e, a cerca de FN = 0,3, a proa começa a levantar bastante e a popa afunda ainda mais (fig 42). 
+> Taylor: "grandes mudanças de trim ou sinkage do CG são os sintomas de alta resistência, e não a causa". Entretanto, 
+elas podem indicar a desirability de se alterar o at-rest trim através da mudança do CG longitudinalmente. 
+- Navios de grande A: a redução da resistência obtida pela mudança de trim é muito pequena. 
+- High-speed planing craft: a pos do CG e o resultant still-water trim têm grande influência na performance. 
+> Um trim adicional pela popa na at-rest condition resultará em (para um NM típico): 
+- aumento da resistência a baixas velocs (o aumento do calado AR torna a popa virtualmente "fuller", o que aumenta os 
+arrastos de forma e separação). 
+- redução da resistência a altas velocs (o aumento do calado AR é mais que superado pela redução do wave-making devido 
+à "finer entrance" quando trimado). 
+> Ships in ballast condition (em lastro): 
+- A área molhada/A e a frictional resistance/A fícam aumentadas, mas a resistência residual será menor (por causa da 
+forma mais fina devido ao calado reduzido). 
+- Exceto para high speed ships, a resistência total/A será maior; mas a resistência total e o power serão reduzidos (devido 
+ao menor A), e um navio em lastro alcançará uma maior veloc para a mesma potência. 
+- Normalmente coloca-se um trim considerável pela popa para manter o prop submerso, o que tb causa maior resistência a 
+baixas velocs e menor a altas. 
+14 
+
+
+===== PAGINA 15 =====
+
+«ass9aK3»Eü=sggEgw«M 
+6) SHALLOW WATER EFFECTS: 
+> A resistência de um navio é muito sensível aos efeitos de águas rasas, que são: 
+A) Mudança do escoamento em torno do casco: 
+> Considerando um navio parado numa flowing stream com prof, restrita, a água que passa debaixo terá que acelerar mais que 
+em deep water; o que leva a uma redução da pressão e aumento do sinkage, trim e resistência. / Se a água também for 
+restrita lateralmente, esses efeitos serão ainda maiores. 
+> O sinkage e o trim em águas muito rasas podem impor um limite na máx veloc que o navio poderá operar sem tocar o fundo. 
+B) Mudanças do wave pattern quando se passa de águas profundas para rasas: 
+> Haverlock estudou essas mudanças para um ponto de impulso de pressão viajando na superfície livre da água. 
+- Para águas profundas, o wave pattern consiste de ondas divergentes e transversais, contidas na linha de 19° 28'. 
+- Há uma eq. para determinar a veloc das ondas Vc em fç da profundidade h. Simplificando-a para 2 casos particulares: 
+- quando h é muito grande: 
+Vc2 = g.Lw/2n. 
+- em águas rasas: 
+Vc2 = g.h. 
+(Vc Independe de Lw e da veloc do ponto. Qual éoLwem águas rasas ??) 
+- O wave pattern para o pressure point passa por uma mudança crítica quando V = Vg.h. 
+(fig 43) 
+• V < Vg.h: o sistema consiste de ondas transversais e divergentes, como em águas profundas, avançando com o pressure 
+point com veloc V. / Para V < 0,4.Vgh, o padrão é o de 19° 28'; mas na medida em que V aumenta, o âng aumenta, 
+aproximando-se de 90° quando V se aproxima de Vg.h. 
+• v = "vg.h: o pressure point gera uma perturbação que viaja na mesma veloc que ele, e todo o wave-making effect fica 
+concentrado numa única crest at right angles com o seu rumo. The whole of the energy is transmitted with the wave, and 
+the wave is called "Wave of Translation". 
+• V > Vg.h: o âng volta a fechar, e o sistema fica contido entre as linhas que fazem um âng dado por uma eq chata (fç de g, V 
+e h). Mas agora, há apenas divergent waves (sem as transverse ou cusps). / As duas linhas retas são as próprias front crests 
+do sistema divergente, e as linhas internas são côncavas em rei ao avanço (ao invés de convexas, como em deep water). 
+C) Mudança na resistência, sem restrição lateral: 
+> Haverlock tb estudou os efeitos na resistência devido a essas mudanças do wave pattern em águas rasas para uma pressure 
+disturbance de dimensão linear 1 viajando na água de prof h. / Na fig 44, há uma curva de resistência para cada valor de h/l. 
+- Na curva de h/l = 0,75, ocorre um pico na veloc correspondente a V/Vgl = 0,86, o que corresponde a V/Vgh = 1. Portanto, o 
+pico corresponde à veloc da "wave of translation" para aquela profundidade específica, ou à "critical speed". 
+- Na "critical speed", a resistência (Rw) é muito maior que em águas profundas (mas ultimately, a velocs muito altas, 
+essa resistência acaba ficando menor que em águas profundas). 
+> Referimo-nos às velocs acima e abaixo de Vgh como "subcritical" e "supercritical", respectivamente. Quase todos os 
+navios operam na zona subcrítica, com exceção dos destroyers, dos cross-channel ships, etc. 
+> Vimos que, na medida em que a prof, diminui, a veloc de uma onda de um dado comprimento também diminui. 
+Então, para manter o mesmo padrão de ondas, um navio se movendo em águas rasas tem que navegar mais devagar; 
+e os humps e hollows da curva de resistência ocorrerão a velocs mais baixas quanto menor for a prof. 
+> Schlichting anaüsou os efeitos de shallow water (sem limites laterais), estudando o aumento da resistência nas velocs 
+subcríticas apenas (seu estudo está na fig 45). 
+• A fig 45 mostra curvas de RT e RF x Veloc para deep water. / Ele pegou uma veloc V» qualquer para deep water e calculou 
+o Lw para essa veloc (Lw= 2.n.V0O
+2/g). / Depois disse que, para uma prof "h", ondas de mesmo Lw seriam geradas a uma 
+veloc intermediária Vi. / Então assumiu que a WMR seria a mesma tanto para V*, quanto para Vi; e disse que V^-Vi = 
+ôC. Assim sendo, a RT na Vi poderia ser encontrada adicionando-se o RF calculado para a V! à essa WMR (ponto B). 
+• Mas ainda há uma perda adicional de veloc (ôVP) por causa do aumento do potencial flow ao redor do casco (devido à 
+restrição de espaço). / Então a veloc final "Vh" fica Vh = Vi - ôVP (e "C" será um ponto da curva de RT em shallow water). 
+• O principal fator influenciando ôVP era VAx/h, onde Ax é a área máx da x-section do casco. / Vide fig 46: VJW\ é 
+praticamente 1 para Vo/Vgh < 0,4, de forma que, nessa região, o efeito da shallow water na WMR não é importante. 
+• Note que, na Vh em águas rasas, a RT (ponto C) é menor que a RT para V» (ponto A) em águas profundas; ou seja, se 
+navegarmos em águas rasas com uma veloc maior que Vh que gere o mesmo RT que V» em águas profundas (ponto 
+H), o Lw (e a WMR) será diferente. 
+• A fig 47 mostra, em porcentagem, a diferença ôV entre a V „ e a Vh. Podemos entrar com uma dada veloc em águas 
+profundas, a profundidade da água rasa em que vamos navegar, e a área da seção reta do casco. Daí fazemos as contas e 
+saímos com a porcentagem de veloc que perderemos em águas rasas para o mesmo regime de máquinas. 
+> A premissa de que a WMR é igual em águas rasas e profundas quando o comp. das ondas geradas for o mesmo é 
+questionável. As ondas serão steeper e, portanto, a resistência será maior em águas rasas; o que significa que a veloc 
+deduzida para o ponto C (Vh) está um pouco mais alta que a realidade. Mas isso é parcialmente compensado pelo fato 
+explicado (quando dito que, para se manter a mesma RT, a veloc tem que ser maior que Vh); e devido a todos os fatores 
+desconhecidos, C provavelmente fornece uma boa estimativa para a veloc em águas rasas resultante de um dado regime de 
+potência, (ou seja, no ponto C,aRTé menor, mas como estou subestimando a WMR, vai dar no mesmo) 
+15 
+
+
+===== PAGINA 16 =====
+
+D) Mudança na resistência, com restrição lateral: 
+> Quando a shallow water for restrita lateralmente, o aumento da resistência ou a perda de veloc serão ainda maiores. 
+> Landweber fez experimentos com modelos em canais retangulares, sempre com velocs menores que a veloc crítica, e os 
+resultados sugeriram uma extensão do método de Schlichting para prever a resistência em águas rasas com restrição lateral. 
+• Como a veloc das ondas num canal restrito tb depende apenas da prof, o método de Schlichting para corrigir a WMR 
+parece ainda ser aplicável. / Contudo, a correção da veloc para o "displacement flow" tem que ser modificada para 
+considerar a resistência introduzida pela restrição lateral. 
+• Assim como em águas rasas irrestritas a redução da veloc é fç de VAx/h, ele buscou um parâmetro que introduzisse a 
+largura do canal "b", e encontrou o "hydraulic radius" do canal (RH), muito usado em hidráulica: 
+- RH = área da seção reta do canal / perímetro molhado. Para um canal retangular, RH = b.h / b+2.h. 
+- Quando b fica muito grande, RH = h, o que corresponde a um canal sem limites laterais. 
+- Colocando um navio de x-sectional area "Ax" e girth molhada "p" dentro desse canal: RH = (b.h - Ax) / (b + 2.h + p). 
+- Daí a perda de veloc será função de VAX/RH. 
+• A curva V h ^ x VAX/RH (fig 48) é para uso em restricted, shallow channels. / Essa curva tb está na fig 46, onde observa-se 
+que ela não coincide com a curva do Schlichting (porque ele negligenciou a largura do tanque nos seus experimentos). 
+• O livro cita um exemplo de cálculo da redução de veloc num canal raso e restrito para um navio que está a 8 kt em águas 
+profundas. / Os cálculos mostraram que, para esse caso, a perda de veloc no canal foi de 22 %. / E como, para este caso, 
+encontrou-se que a Vi = V„o, pôde-se concluir que a redução de veloc foi movida apenas pelas mudanças do potencial flow, 
+sem nenhuma influência de mudanças de wave-making. 
+E) Outras informações: 
+> Quando navios têm que fazer "measured mile trials", é importante encontrar um course onde a prof seja tal que os efeitos 
+de águas rasas na resistência e na veloc sejam desprezíveis. / Caso isso não seja possível, os resultados devem ser 
+corrigidos pelos métodos aqui descritos, de forma a se obter a performance em águas profundas. 
+> Figs 50,51 e 52: mostram o sinkage da proa, da popa, e o aumento de PD e RPM, respect, de 4 modelos de NM em águas rasas. 
+• O calado AV e AR (ou seja, a sinkage) aumentaram com a redução da profundidade e com o aumento da veloc, 
+sendo que a proa afundou mais que a popa em todos os casos, (as velocs eram baixas: Fn < 0,2) 
+• Houve indicações de que o sinkage seria maior quanto maior fosse a relação boca/calado (mas não foi confirmado). 
+• Quando prof/calado = 1,1, PD aumentou 100% para FN = 0,089 (mas nessas velocs tão baixas isso não é tão importante). 
+> Quando um navio em águas rasas se aproxima e ultrapassa a "critical speed" (i.e., a "veloc de translação" de uma onda 
+na prof em questão), mudanças radicais ocorrem no padrão de ondas ao redor do navio, na atitude do navio, e na sua 
+resistência. / Essas mudanças no wave partem são semelhantes às descritas para um pressure point em condições similares. 
+> Fig 53: ilustra o comportamento de um navio de alta veloc em águas rasas. Foram plotadas curvas de resistência para 5 
+profundidades, e curvas de trim pela popa para 2 profundidades. Em cada curva de resistência está marcado o ponto onde 
+V/Vgh = 1 (i.e., critical speed) para aquela profundidade. Conclusões: 
+• Observando-se a curva para a prof, mais rasa (B), vemos que, quando o navio se aproxima da "critical speed", o trim 
+pela popa e a resistência começam a aumentar muito rapidamente. 
+• Depois da critical speed, o trim "falls off' very quickly, e a resistência total se mantém +- cte por um tempo antes de 
+começar a subir novamente (but then at a somewhat lower rate than in deep water). 
+• Finalmente, quando V/Vgl = + 0,48, as curvas de trim e resistência cruzam a sua respectiva curva para deep water (A), e 
+acima desta veloc (já bem dentro da zona supercrítica), a resistência e o trim serão menores que em águas profundas. 
+> A veloc na qual o aumento do power em águas rasas começa a ser notado, ou seja, na qual a WMR começa a crescer 
+"apreciabily", é dada por V = 4,17Vh (h em metros). 
+A critical speed é dada por V = 6,0íWh (h em metros). 
+(a razão entre e as duas é 4,17/6,09 = 68%) 
+> Observações com um destroyer mostraram que, em águas profundas, a stern wave cresceu em tamanho continuamente com 
+o aumento da veloc. / Já em águas rasas, ela cresceu bem rápido até 22 kt; mas depois disso ficou instável e diminuiu para a 
+metade da sua altura máxima. / A 28 kt ela tinha praticamente desaparecido, e não apareceu mais nas velocs mais altas. 
+Essa mudança de padrão está "generally in accord" com a descrita por Havelock para pressure disturbances, (vide fig 44) 
+> Fig 54: mostra o efeito da prof na resistência (total) de navios de alta veloc (% de aumento da resistência x vVgh). / Observe 
+que os picos de resistência ocorrem a valores de V/Vgh um pouco menores que 1 (ou seja, que a veloc da "wave of 
+translation"). / O % de aumento do pico será maior quanto menor for a razão prof/calado. 
+> Os modelos são excelentes para se estudar esses fenômenos. Contudo, há dificuldades em se aplicar os resultados a navios. 
+- Devido ao fluxo acelerado em águas rasas, a correção de skin friction será diferente da correção para águas profundas. 
+- O aumento da resistência num tanque com paredes laterais será maior do que aquele em águas restritas sem limites laterais. 
+- Nos experimentos de resistência, due allowance must be made para o "heavier loading" do prop ao se estimar o shaft power. 
+- As diferenças no escoamento também podem afetar os elementos que influenciam na eficiência propulsiva, tais como o 
+"wake and thrust deduction". Portanto, self-propulsion experiments são recomendáveis, para os quais se devem usar tanques 
+de fundo sólido (rather than a suspended false bottom which may move). 
+- Por várias razões, testes com modelos em tanques de largura limitada tendem a exagerar o aumento da resist, em águas rasas. 
+16 
+
+
+===== PAGINA 17 =====
+
+7) RESISTANCE INCREASE DUE TO LEEWAY AND HEEL (WITH SPECIAL REFERENCE TO SAILING YACHTS): 
+> O aumento da resistência devido a um fixed yaw e/ou heel angle é mais marcante nos sailing ships e yachts. 
+A) Steady Yaw Angle (= Leeway): 
+> Ocorre: 
+• Quando o navio deva contrabalançar alguma força lateral aerodinâmica pela produção de uma força lateral hidrodinâmica 
+oposta e de igual magnitude (no casco e na keel). Como o casco é simétrico, a única forma de gerar essa força é com um 
+ângulo de ataque (AOA). 
+- Nos yachts, esse ângulo é chamado leeway, e varia de 3o a 6o. / Yachts com insufficient keels (que não conseguem gerar 
+uma boa side force a pequenos ângulos) requerem ângulos maiores. 
+• Devido a assimetrias do casco (shaft brackets ou appendages desalinhados). / Nesses casos, um peq ângulo de leme será 
+necessário para compensar a side force hidrodinâmica, e o momento hidrodinâmico resultante da aplicação do leme será 
+compensado pelo casco adotando um leeway angle de Io ou 2°. 
+> O aumento da resistência para leeways < 5o é quase que 100% arrasto induzido (gerado pelo lift do casco). 
+• O lift (— sustentação) é gerado pela deflexão downward do escoamento de um ângulo "Oj". 
+• A força "F" gerada pelo corpo é perpend, ao fluxo defletido (induzido) (fig 55). 
+• O arrasto induzido é: Ri = F.sen a; = L.tan Oj; e atua na direção contrária à do movimento. / Então C M = CL.tan Oj 
+• Para uma distribuição elíptica de sustentação, o Oj se relaciona com o coef. de sustentação e com a aspect ratio (AR) 
+da seguinte maneira: 
+C m = C L
+2/n.AR 
+> Ri = y2pV 2A.C L
+2/n.AR 
+(onde AR = depth/length, or span/chord; e A = área lateral do casco ou quilha) 
+(Conclusão: quanto menor a AR, maior é o arrasto induzido) 
+- Assim, a Ri de um sailing yacht pode ser aprox determinada somando-se as resistências induzidas do casco, leme e quilha. 
+• Para taper ratios entre 0,3 e 0,4, a distribuição se aproxima da elíptica, e o arrasto induzido adicional é muito pequeno. 
+Entretanto, o perfil de quilhas e lemes rarely lead to an eliptical spanwise loading. / Formas muito "tappered" ou 
+aproximadamente retangulares apresentam um acréscimo considerável de arrasto induzido. 
+• Ainda que planforms elípticos ou arredondados minimizem o Ri, eles produzem menos sustentação total, pois o seu 
+"effective span" é menor do que o de planforms retangulares; e por isso é que planforms retangulares apresentam 
+uma maior relação L/D. 
+• Superfícies enflechadas: 
+- O sweep aumenta a loading perto das pontas, de forma que um sweep-back de 30° requer uma taper ratio de 0,15 (ao invés 
+de 0,35 para zero de sweep-back) para se obter uma distribuição aprox. elíptica. / Portanto, exceto para configurações em 
+delta, a spanwise loading de lifting surfaces enflechadas não é elíptica, o que leva a maiores valores de Ri. 
+- O lift de cada segmento da corda próximo à ponta é mais inclinado para ré devido à > deflexão do fluxo induzido (> a{). 
+- O resultado é que o Ri aumenta com o âng de sweep-back segundo l/cosa (a é o sweep-back da linha a 25% da corda). 
+- Contudo, o aumento do arrasto induzido devido ao sweep é quase que todo compensado pela influência favorável do 
+enflechamento na wave resistance. 
+> Para ângulos de yaw > 5o, o fluxo se separa no windward side do casco, AV do leme, e o arrasto aumenta bastante 
+(isso ocorre até com os sailing yachts). 
+B) Heel Angle: 
+> Essa mesma força aerodinâmica na superestrutura e/ou velas também causará um heel angle for yachts sailing to 
+windward. Heel angles de até 30° são normais. 
+> O casco imerso de um "heeled" ship é assimétrico, sendo que o seu leeside é consideravelmente "bluffer". Isso sempre 
+leva a um aumento da WMR; e em muitos casos, a viscous resistance tb aumenta, seja por causa da superfície molhada 
+adicional, ou por causa do desenvolvimento de uma C-L mais desfavorável que leva ao descolamento (ou por ambos). 
+> Em yachts com a proa alongada e com "stern overhangs", esse aumento da resistência é em parte compensado pelo 
+aumento efetivo do "wave-making lenght" do casco ao adernar. 
+> A fig 56 mostra os resultados medidos de resistência para vários ângulos de heel. Nota-se que, para velocs de 6 a 9 kt, o 
+aumento da resistência com o heel angle é irrisório devido ao aumento do wave-making lenght. 
+17 

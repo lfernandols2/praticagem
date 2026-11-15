@@ -1,0 +1,514 @@
+<section class="section" id="abertura">
+  <p class="section-kicker">Abertura</p>
+  <h2>Por que auxílios-rádio e o GMDSS importam na praticagem</h2>
+  <p class="lead">A segurança da navegação depende de saber onde buscar informação confiável, como confirmar a posição com meios rádio, como receber alertas e como acionar socorro sem ambiguidade. A Lista de Auxílios-Rádio, os avisos aos navegantes e o Sistema Mundial de Socorro e Segurança Marítima (<em>GMDSS — Global Maritime Distress and Safety System</em>) formam, juntos, a malha de informação e comunicação que sustenta a decisão no passadiço.</p>
+  <p>Este capítulo sintetiza o conteúdo da fonte sobre publicações e serviços da DHN, radiogoniometria e radiofaróis, serviço da hora, RACON, GPS/DGPS, avisos, conceito e componentes do GMDSS, sinais e procedimentos de socorro, urgência e segurança, além de SAR e apoio costeiro no Brasil. Por ser síntese de estudo e a fonte apresentar trechos de OCR ruidosos, normas, frequências operacionais e procedimentos podem ter evoluído; em caso de operação real, prevalecem as publicações e instruções em vigor. <span class="src">pp. 351, 356–373</span></p>
+
+  <div class="grid-3">
+    <div class="card card--accent">
+      <span class="card__num">01</span>
+      <h3>Consultar a fonte certa</h3>
+      <p>Entender a organização, atualização e numeração da Lista de Auxílios-Rádio e o papel dos avisos para manter cartas e publicações corrigidas.</p>
+    </div>
+    <div class="card card--teal">
+      <span class="card__num">02</span>
+      <h3>Usar meios com critério</h3>
+      <p>Reconhecer princípios, limites e erros de radiogoniometria, radiofaróis, RACON, GPS e DGPS antes de confiar em uma marcação ou posição.</p>
+    </div>
+    <div class="card">
+      <span class="card__num">03</span>
+      <h3>Comunicar e acionar socorro</h3>
+      <p>Relacionar áreas A1–A4, sistemas do GMDSS, MSI e procedimentos de perigo, urgência e segurança à rotina e à emergência no mar.</p>
+    </div>
+  </div>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>O material-fonte é transcrição com OCR ruidoso e mistura português/inglês. Onde a leitura é ambígua, o texto indica a limitação; não se completam números, frequências ou artigos normativos por inferência. <span class="src">pp. 351–373</span></p>
+  </div>
+  <p class="source-line">pp. 351–373</p>
+</section>
+
+<section class="section" id="lista-auxilios-radio">
+  <p class="section-kicker">Publicação-base</p>
+  <h2>Lista de Auxílios-Rádio da DHN: organização, correção e numeração</h2>
+  <p>Cada capítulo da Lista de Auxílios-Rádio trata de um tipo de serviço-rádio de auxílio à navegação marítima na costa do Brasil. A hora usada é a HMG, salvo indicação de “Hora Legal” (o Roteiro adota convenção oposta, segundo a fonte). Informações urgentes podem ser enviadas via RENEC ou PWZ-33 para “NAVEMAR – Rio de Janeiro” (endereço telegráfico da DHN); outras informações podem seguir pela “Folha de Informações” destacada do Folheto Quinzenal. <span class="src">p. 351</span></p>
+
+  <h3>Correção e atualização</h3>
+  <div class="table-wrap">
+    <table>
+      <caption>Mecanismos de correção e atualização citados na fonte</caption>
+      <thead>
+        <tr><th>Meio</th><th>Conteúdo</th><th>Observação</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Avisos-Rádio</strong></td><td>Divulgam alterações temporárias dos auxílios-rádio.</td><td>Normalmente canceladas por outro Aviso-Rádio.</td></tr>
+        <tr><td><strong>Folheto Quinzenal</strong></td><td>Publica: (1) Avisos-Rádio em vigor; (2) correções permanentes ou atualizações importantes; (3) folhas com grandes correções para substituição ou inserção; e (4) LPE, se houver.</td><td>É o instrumento periódico de consolidação das alterações.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Numeração das estações (a b c d)</h3>
+  <p>A fonte descreve a lógica de numeração (observando que 6 é RACON, que segue a numeração da Lista de Faróis/Sinais Cegos): <span class="src">p. 351</span></p>
+  <ul>
+    <li><strong>a) Natureza dos serviços:</strong> 2 (radiofaróis), 3 (sinais horários), 4 (boletins meteorológicos e avisos de mau tempo), 5 (avisos aos navegantes), 7 (tráfego de perigo e segurança), 8 (tráfego comercial).</li>
+    <li><strong>b) Área geográfica:</strong> 0/1 (Costa N – Oiapoque ao Cabo Calcanhar), 2/3/4 (Costa L – Cabo Calcanhar ao Cabo Frio), 5/6/7 (Costa Sul – Cabo Frio ao Chuí), 8 (rios da bacia Amazônica e Paraguai), 9 (outros países).</li>
+    <li><strong>c e d) Número sequencial:</strong> dentro da área, obedecendo à posição (de N a S e de L para O).</li>
+  </ul>
+  <p>Uma estação que presta vários serviços tem vários números identificadores, diferindo apenas no algarismo do milhar. <span class="src">p. 351</span></p>
+
+  <div class="callout callout--exam">
+    <span class="callout__label">Cai na prova</span>
+    <p>Relacionar o algarismo do milhar ao tipo de serviço e o dígito de área à faixa da costa brasileira ajuda a interpretar rapidamente entradas da Lista de Auxílios-Rádio e a reconhecer que a mesma estação pode aparecer com identificadores distintos.</p>
+  </div>
+  <p class="source-line">p. 351</p>
+</section>
+
+<section class="section" id="radiogoniometria-radiofarois">
+  <p class="section-kicker">Posicionamento por rádio</p>
+  <h2>Radiogoniometria e radiofaróis: princípios, desvios e precisão</h2>
+  <p>Os sinais transmitidos pelas estações são radiotelegráficos. Há dois processos para obter marcação: o navio transmite sinais e uma estação radiogoniométrica fornece a marcação ao navio; ou o navio recebe sinais transmitidos por um radiofarol e determina a sua marcação. <span class="src">p. 351</span></p>
+
+  <div class="grid-2">
+    <div class="card">
+      <h3>Radiogoniômetro (<em>direction finder</em>)</h3>
+      <p>Quando o plano de uma antena de quadro está alinhado com a direção da fonte, a intensidade é máxima; na prática, é mais fácil identificar a direção de intensidade mínima, razão pela qual o ponteiro fica perpendicular ao plano da antena. Para determinar o sentido, uma antena unifilar é conectada eletricamente a um dos braços da antena de quadro. <span class="src">p. 351</span></p>
+      <p>Rotina resumida pela fonte: manter antenas como na calibragem e desligadas, com repetidora da giro sincronizada; sintonizar, buscar mínimo, girar 90° e determinar sentido; somar marcação giroscópica e desvio da agulha para obter marcação radiogoniométrica; somar desvio do radiogoniômetro para obter marcação verdadeira; e converter para marcação de Mercator (tabela no Ap. II-1 da LAR). <span class="src">p. 351</span></p>
+    </div>
+    <div class="card card--teal">
+      <h3>Causas de desvio da onda e do aparelho</h3>
+      <ul>
+        <li><strong>Refração terrestre:</strong> quando a onda forma ângulo agudo com a linha da costa ou atravessa em terra distância maior que seu comprimento; aumenta com a diminuição do ângulo e com o aumento da frequência. Evitar marcações com ângulo &lt; 20° com a costa ou de estações muito aterradas. <span class="src">p. 351</span></li>
+        <li><strong>Efeito noturno:</strong> variação da altura da ionosfera entre 1 h antes do pôr e depois do nascer do sol; evitar marcações nesses horários, salvo distância &lt; 30 milhas. <span class="src">p. 351</span></li>
+        <li><strong>Perturbações meteorológicas:</strong> alteram a condutividade da atmosfera, com pouca influência. <span class="src">p. 351</span></li>
+        <li><strong>Campo eletromagnético do navio:</strong> causa desvio do radiogoniômetro, variável com marcação relativa, calado e frequência; reduzido por compensação e quantificado por calibragem. <span class="src">p. 351</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Calibragem e correções</h3>
+  <p>A calibragem deve ser realizada pela tripulação após reparos, alteração de massa metálica em relação à antena ou da rede elétrica, e anualmente. Método citado: navio a 3–5 milhas da estação, tomar marcações visuais e radiogoniométricas de 5° em 5° e nas marcações relativas de 045°, 135°, 225° e 315°, mantendo rumo constante; calcular <em>Drg = Mrl − Mrg</em> e construir tábua ou curva de desvios para plena carga, meia carga e leve. Os desvios têm natureza quadrantal (máximos pelas bochechas/alhetas e nulos pela proa/popa/través); divergências exigem repetir a calibragem. A tábua só deve ser usada dentro de ±200 kHz da frequência de calibragem. <span class="src">pp. 351–352</span></p>
+
+  <div class="formula">
+    <span class="formula__expr">Mr<sub>g</sub> correta = Mr<sub>g</sub> observada + D<sub>rg</sub></span>
+    <span class="formula__where"><b>Mr<sub>g</sub> observada</b> já deve estar corrigida do desvio da giro. <b>M Mercator</b> = Mr<sub>g</sub> correta + correção (semiconvergência dos meridianos), função da latitude média e da diferença de longitude entre transmissor e receptor (Ap. II-1 da LAR). Sinal típico citado: para marcações da estação feitas de bordo no HS, “+” com navio a E da estação e “−” a W; para marcações do navio feitas em terra ou no HN, o contrário; em hemisférios distintos, erro desprezível. <span class="src">p. 352</span></span>
+  </div>
+
+  <h3>Precisão, estações radiogoniométricas e radiofaróis</h3>
+  <p>Para determinar posição, traçam-se retas com ângulo igual ao erro provável (a fonte sugere 2° para cada lado). Com mais de uma estação, a área de interseção indica posições prováveis, considerando que alguma marcação pode ter erro maior que 2°. Com duas marcações de uma mesma estação e distância navegada conhecida, obtém-se um quadrilátero de posições possíveis. <span class="src">p. 352</span></p>
+  <p>Estações radiogoniométricas informam a direção de sinais radiotelegráficos recebidos, com direções já corrigidas dos desvios da onda e erro &lt; 2° para distâncias até 50 milhas (exceto diferença ortodromia-loxodromia). A fonte registra que, no Brasil, não há tais estações, mas descreve a faina típica de chamada (QTE/QTF, transmissão do indicativo por cerca de 1 min, resposta hhmm + QTE + xxx° e confirmação). <span class="src">p. 352</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Radiofaróis segundo a fonte</caption>
+      <thead>
+        <tr><th>Tipo</th><th>Característica</th><th>Uso/observação</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Direcionais</strong></td><td>Transmitem num setor de 10°–15°.</td><td>Para rumo de governo definitivo; mais usados em aeronaves.</td></tr>
+        <tr><td><strong>Rotativos</strong></td><td>Feixe direcional com movimento rotativo uniforme.</td><td>Citado como tipo existente.</td></tr>
+        <tr><td><strong>Circulares</strong></td><td>Onidirecionais.</td><td>Mais comum; todos no Brasil são assim. Funcionam continuamente, alcance de 200 ou 300 milhas, muitos com DGPS e transmissão de sinal Morse de 2 letras a cada 7,5 s. <span class="src">p. 352</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>Radiofaróis aeronáuticos (<em>AERO RC</em>) relacionados na Lista/cartas podem não ser confiáveis para o navegante: não é possível prever a extensão do efeito terrestre e alterações/cancelamentos podem não ser publicados previamente nos avisos. <span class="src">p. 352</span></p>
+  </div>
+  <p class="source-line">pp. 351–352</p>
+</section>
+
+<section class="section" id="hora-racon">
+  <p class="section-kicker">Tempo e resposta radar</p>
+  <h2>Serviço da hora, escalas de tempo e RACON</h2>
+
+  <h3>Serviço da hora e escalas</h3>
+  <p>No Brasil, há 4 estações de sinais horários, todas no Rio, com serviço supervisionado pelo Serviço da Hora do Observatório Nacional. A hora legal é distribuída em fusos (Green −2 h a −5 h), conforme descrição da fonte. <span class="src">p. 352</span></p>
+  <div class="table-wrap">
+    <table>
+      <caption>Escalas de tempo citadas</caption>
+      <thead>
+        <tr><th>Escala</th><th>Definição/uso na fonte</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>TU/TU1</strong> (Tempo Universal)</td><td>Tempo solar médio do 1º meridiano, obtido por observações astronômicas.</td></tr>
+        <tr><td><strong>HMG</strong> (Hora Média de Greenwich)</td><td>Equivalente ao TU1; relacionada à posição angular da Terra, usada em navegação astronômica e como argumento de tempo em almanaques e publicações náuticas.</td></tr>
+        <tr><td><strong>TAI</strong> (Tempo Atômico Internacional)</td><td>Comparação de relógios atômicos; medida precisa e uniforme, não alterada pela rotação irregular da Terra.</td></tr>
+        <tr><td><strong>TUC</strong> (Tempo Universal Coordenado)</td><td>Mesma marcha do TAI, diferindo por número inteiro de segundos; escala usada para disseminação de frequências padrão e sinais horários.</td></tr>
+        <tr><td><strong>DTU1</strong></td><td>Diferença prevista entre TUC e TU1; correção aplicada ao TUC para melhor aproximação ao TU1 (TU1 = TUC + DTU1).</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Ajustes de ±1 s no TUC podem ser feitos para mantê-lo conforme a rotação irregular da Terra, sem divergir mais de 0,9 s do TU1; estações de sinais horários já introduzem esses ajustes e podem transmitir DTU1 em código. <span class="src">p. 352</span></p>
+
+  <h3>RACON (<em>radar responder beacon</em>)</h3>
+  <p>O RACON é auxílio à navegação específico, instalado em faróis, balizas, torres ou pontos conspícuos. É útil em má visibilidade frequente, perigos fora do alcance visual, pontos de inflexão em canais, perigos temporários/novos e estruturas ao largo ou em vias navegáveis. Pode operar em uma ou duas bandas: X (3 cm, resposta em 9,3–9,5 GHz) e S (10 cm, 2,92–3,1 GHz). Alcances no Brasil: 12–25 milhas. <span class="src">p. 353</span></p>
+  <p>A resposta na tela é uma letra Morse, seguida ou não de linha longa; “D” é exclusivo para novos perigos. Erro na distância decorre do atraso na resposta (distância real sempre menor), nunca maior que 100 m (no Brasil, 60 m segundo a fonte); a marcação é muito precisa. Os RACONs brasileiros são de sintonia ágil e onidirecionais, com períodos típicos de “18 s ativo + 12 s de repouso” ou “30 s ativo + 30 s de repouso”. <span class="src">p. 353</span></p>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>Podem aparecer sinais espúrios a distâncias bem maiores que o alcance previsto, em qualquer posição ou marcação. Verifique sempre se o contato está dentro do alcance do RACON utilizado. <span class="src">p. 353</span></p>
+  </div>
+  <p class="source-line">pp. 352–353</p>
+</section>
+
+<section class="section" id="gps">
+  <p class="section-kicker">Satélites de posicionamento</p>
+  <h2>GPS: estrutura, métodos, efemérides e fontes de erro</h2>
+  <p>O GPS emprega 24 satélites (sendo 3 reservas), 6 planos orbitais e cerca de 12 horas por órbita, com cobertura global praticamente 24 h/dia. Estações de controle acompanham, processam dados e podem manobrar satélites; a Estação Mestra de Controle recebe dados das demais e carrega informações orbitais. <span class="src">p. 353</span></p>
+
+  <div class="grid-2">
+    <div class="card">
+      <h3>Sinal e métodos</h3>
+      <p>Cada satélite transmite duas portadoras: L1 (1,5 GHz) e L2 (1,2 GHz), moduladas por códigos e dados. Para posicionamento, a fonte cita sinais PRN (<em>pseudo-random noise</em>): código C/A (<em>Coarse Acquisition</em>, menor exatidão, em L1) e código P (<em>Precision</em>, maior exatidão, em L1 e L2), além do código Y (secreto/OTAN). <span class="src">p. 353</span></p>
+      <ul>
+        <li><strong>Pseudodistância (<em>pseudo-range</em>):</strong> mede atraso entre código do satélite e réplica do receptor; precisão citada de 30 cm (P) e 3 m (C/A).</li>
+        <li><strong>Fase da portadora (<em>carrier beat phase</em>):</strong> compara fase com efeito Doppler; alta precisão (até 2 mm) mas ambiguidade de ciclos, não servindo para posicionamento em tempo real sem observações. <span class="src">p. 353</span></li>
+      </ul>
+    </div>
+    <div class="card card--teal">
+      <h3>Efemérides e filtro de Kalman</h3>
+      <p>Efemérides são dados orbitais que permitem prever a posição do satélite; desvios orbitais afetam diretamente a posição calculada, pois o GPS se baseia na distância receptor-satélite. A Estação Mestra processa e controla a transmissão desses dados, carregando cada satélite com estimativas suficientes para 26 horas. <span class="src">p. 353</span></p>
+      <p>O filtro de Kalman é técnica matemática para obter a melhor estimativa da posição em tempo real, usada pelas estações monitoras e por muitos receptores. A fonte indica 4 variáveis em aplicações estáticas, 8 em baixas velocidades e 11 em altas velocidades. <span class="src">p. 354</span></p>
+    </div>
+  </div>
+
+  <h3>Posicionamento e datum</h3>
+  <p>Posicionamento 2D requer pseudodistâncias de no mínimo 3 satélites (com elevação da antena informada) e 3D requer 4 satélites. Em DGPS, a seleção automática 2D/3D é preferível segundo a fonte. O datum horizontal de referência é o WGS-84; para plotar em carta com datum diferente (ex.: Córrego Alegre), é necessária conversão conforme dados da carta ou do receptor. <span class="src">p. 354</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Principais fontes de erro do GPS (fonte)</caption>
+      <thead>
+        <tr><th>Origem</th><th>Exemplos</th><th>Mitigação/observação</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Satélites</strong></td><td>Variação de relógios, erros de efemérides, falhas internas (<em>unhealthy</em>).</td><td>Receptores descartam satélites marcados como defeituosos; atraso entre detecção e correção pode introduzir erro. <span class="src">p. 354</span></td></tr>
+        <tr><td><strong>Receptor</strong></td><td>Relógio a cristal, ruído interno, interferência entre canais, <em>multipath</em>.</td><td>Instalação adequada da antena reduz reflexões. <span class="src">p. 354</span></td></tr>
+        <tr><td><strong>Meio</strong></td><td>Atraso ionosférico (até ~150 m em condições desfavoráveis, &lt; 5 m à noite/zênite), troposférico e <em>multipath</em>.</td><td>Receptores bi-frequência e DGPS podem reduzir ionosfera; troposfera é pouco relevante sem exigência centimétrica. <span class="src">p. 354</span></td></tr>
+        <tr><td><strong>SA e DOP</strong></td><td>Disponibilidade Seletiva (SA) introduzia erros propositais; DOP multiplica erros pela geometria.</td><td>SA retirada do sinal em 2000 (fonte); DOP elevado indica geometria desfavorável (ex.: desvio-padrão 30 m e DOP 3 → 90 m). <span class="src">p. 354</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <figure class="figure">
+    <svg viewBox="0 0 720 280" role="img" aria-labelledby="fig-gps-title fig-gps-desc">
+      <title id="fig-gps-title">Posicionamento GPS e influência da geometria</title>
+      <desc id="fig-gps-desc">Esquema com navio no centro recebendo sinais de quatro satélites em posições diferentes. Três satélites bem espaçados e um no alto representam boa geometria e baixo DOP; um grupo de satélites agrupados ao lado representa geometria ruim e alto DOP.</desc>
+      <defs>
+        <marker id="arrow-gps" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--line-strong)"/>
+        </marker>
+      </defs>
+      <rect x="20" y="20" width="330" height="240" rx="10" fill="var(--surface-2)" stroke="var(--line)"/>
+      <rect x="370" y="20" width="330" height="240" rx="10" fill="var(--surface-2)" stroke="var(--line)"/>
+      <text x="185" y="48" text-anchor="middle" class="diagram-label diagram-label--strong">Boa geometria (DOP menor)</text>
+      <text x="535" y="48" text-anchor="middle" class="diagram-label diagram-label--strong">Geometria ruim (DOP maior)</text>
+
+      <circle cx="185" cy="185" r="10" fill="var(--navy)"/>
+      <text x="185" y="210" text-anchor="middle" class="diagram-label">receptor</text>
+      <circle cx="70" cy="90" r="8" fill="var(--teal)"/>
+      <circle cx="185" cy="60" r="8" fill="var(--teal)"/>
+      <circle cx="300" cy="95" r="8" fill="var(--teal)"/>
+      <circle cx="250" cy="130" r="8" fill="var(--teal)"/>
+      <path d="M78 95 L175 178" class="diagram-line" marker-end="url(#arrow-gps)"/>
+      <path d="M185 68 L185 175" class="diagram-line" marker-end="url(#arrow-gps)"/>
+      <path d="M292 100 L195 178" class="diagram-line" marker-end="url(#arrow-gps)"/>
+      <path d="M243 135 L193 178" class="diagram-accent" marker-end="url(#arrow-gps)"/>
+      <text x="185" y="235" text-anchor="middle" class="diagram-label">satélites espaçados reduzem incerteza</text>
+
+      <circle cx="535" cy="185" r="10" fill="var(--navy)"/>
+      <text x="535" y="210" text-anchor="middle" class="diagram-label">receptor</text>
+      <circle cx="470" cy="80" r="8" fill="var(--gold)"/>
+      <circle cx="500" cy="70" r="8" fill="var(--gold)"/>
+      <circle cx="530" cy="85" r="8" fill="var(--gold)"/>
+      <circle cx="560" cy="75" r="8" fill="var(--gold)"/>
+      <path d="M475 88 L525 178" class="diagram-line" marker-end="url(#arrow-gps)"/>
+      <path d="M503 78 L530 176" class="diagram-line" marker-end="url(#arrow-gps)"/>
+      <path d="M530 93 L535 175" class="diagram-line" marker-end="url(#arrow-gps)"/>
+      <path d="M557 83 L542 176" class="diagram-line" marker-end="url(#arrow-gps)"/>
+      <text x="535" y="235" text-anchor="middle" class="diagram-label">satélites agrupados aumentam DOP</text>
+    </svg>
+    <figcaption><b>Figura 1.</b> O DOP (<em>Dilution of Precision</em>) expressa a “força” da geometria dos satélites e atua como multiplicador dos erros de medição. Configuração favorável: satélites bem distribuídos; desfavorável: agrupados. <span class="src">p. 354</span></figcaption>
+  </figure>
+  <p class="source-line">pp. 353–354</p>
+</section>
+
+<section class="section" id="dgps">
+  <p class="section-kicker">Correções diferenciais</p>
+  <h2>DGPS: mensagens, limites e rede de referência</h2>
+  <p>O DGPS aplica correções diferenciais a partir de estações de referência. A fonte cita o padrão de comunicações RTCM SC-104, com mensagens padronizadas, entre elas: Tipo 1 (correção de pseudodistância C/A), Tipo 2 (diferença das correções), Tipo 3 (coordenadas X/Y/Z da estação, WGS-84), Tipo 6 (sincronismo) e Tipo 16 (mensagem curta de identificação/utilidade). A taxa de transmissão na rede brasileira é indicada como 1 mensagem Tipo 2 a cada 15 Tipo 1 e 1 mensagem Tipos 3, 6 e 16 a cada 30 Tipo 1. <span class="src">p. 354</span></p>
+
+  <div class="compare">
+    <div class="pro">
+      <h4>O que o DGPS pode reduzir/eliminar</h4>
+      <ul>
+        <li>Erros de efemérides e de relógios dos satélites.</li>
+        <li>Atrasos de propagação ionosférica e troposférica (em grande parte).</li>
+        <li>Efeitos da SA, segundo a fonte (com ressalvas). <span class="src">p. 354</span></li>
+      </ul>
+    </div>
+    <div class="con">
+      <h4>O que o DGPS não elimina</h4>
+      <ul>
+        <li>Erros decorrentes de distância/configuração diferente de satélites entre usuário e referência, tempestades no caminho e degradação com afastamento.</li>
+        <li>Efeito de DOP desfavorável (reduzido, mas não eliminado).</li>
+        <li>Falhas não detectadas em satélites ou na estação de referência. <span class="src">pp. 354–355</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <p>Sobre a estação de referência, a precisão citada é &gt; 3 m em 68% dos casos e 9 m em 99% dos casos (σ = 3). Próximo ao limite de alcance (cerca de 200 milhas), diferenças de satélites visíveis e máscaras de elevação podem impedir correções para algum satélite usado pelo receptor do navio. A rede brasileira usa portadoras de radiofaróis marítimos na faixa de 200–300 kHz; o uso aeronáutico é recomendado com restrições pela taxa de atualização. <span class="src">pp. 354–355</span></p>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Na prática</span>
+    <p>Para correções automáticas, o navegador GPS deve aceitar o padrão RTCM SC-104 e possuir interface serial; o demodulador MSK recebe na frequência do radiofarol e envia dados ao navegador. Antenas <em>loop</em> são mais imunes a ruídos em embarcações metálicas; <em>whip</em> têm maior sensibilidade em embarcações pequenas/não metálicas. Jamais confiar cegamente nas correções: avaliar qualidade do sinal e satélites corrigidos. <span class="src">p. 355</span></p>
+  </div>
+  <p class="source-line">pp. 354–355</p>
+</section>
+
+<section class="section" id="avisos-aos-navegantes">
+  <p class="section-kicker">Informação de segurança</p>
+  <h2>Avisos aos Navegantes e MSI: Folheto, NAVAREA e difusão</h2>
+  <p>O Folheto Quinzenal consolida Avisos-Rádio em vigor, correções permanentes ou atualizações importantes, folhas de substituição/inserção e, se houver, LPE. Avisos-Rádio divulgam alterações temporárias de auxílios-rádio. A fonte relaciona ainda perguntas de estudo sobre seções do Folheto, propósitos, tipos de avisos (temporários, preliminares, permanentes), APE, extrato em inglês, formas de obtenção e sistemática de divulgação náutica NAVAREA e costeira. <span class="src">pp. 351, 356</span></p>
+
+  <h3>MSI no contexto do GMDSS e WWNWS</h3>
+  <p>As Informações de Segurança Marítima (<em>MSI — Maritime Safety Information</em>) englobam avisos aos navegantes, avisos e previsões meteorológicas, mensagens de alerta SAR e outras informações urgentes. No GMDSS, a promulgação automática utiliza principalmente NAVTEX e SafetyNET, com divisão em 16 NAVAREAs para avisos. O Serviço Mundial de Avisos aos Navegantes (<em>WWNWS</em>), coordenado por IMO e IHO, trata de avisos de longa distância (NAVAREA) e costeiros (NAVTEX); avisos locais suplementam detalhes de águas interiores. <span class="src">pp. 358, 360, 363–364</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Difusão de MSI citada na fonte</caption>
+      <thead>
+        <tr><th>Sistema</th><th>Direção/alcance</th><th>Características principais</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>NAVTEX</strong></td><td>Terra-navio; áreas A1/A2, tipicamente até ~400 milhas (fonte).</td><td>NBDP em 518 kHz (uso mundial); IMO permite 490 ou 4209,5 kHz em nível nacional. Receptor com bloqueio seletivo, mas não pode rejeitar mensagens de segurança (avisos, meteorologia, SAR). Prioridades: vital, importante, rotina. <span class="src">pp. 360, 363–364</span></td></tr>
+        <tr><td><strong>SafetyNET (EGC/Inmarsat)</strong></td><td>Terra-navio via satélite; fora da cobertura NAVTEX e em áreas A3.</td><td>Permite endereçar mensagens por NAVAREA, área geográfica ou grupo; recepção gratuita. No Brasil, a NAVAREA V é coordenada pela DHN com transmissões via Embratel (Tanguá), segundo a fonte. <span class="src">pp. 360, 363–364, 366</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--info">
+    <span class="callout__label">Lacuna da fonte</span>
+    <p>O texto-fonte inclui um roteiro de perguntas sobre seções 1 a 8 do Folheto Quinzenal (p. 356), mas não traz as respostas detalhadas de cada seção. Assim, o capítulo preserva os princípios gerais disponíveis (propósito, atualização e tipos de difusão) sem inventar o conteúdo específico de cada seção.</p>
+  </div>
+  <p class="source-line">pp. 351, 356, 358, 360, 363–364, 366</p>
+</section>
+
+<section class="section" id="gmdss-conceito-areas">
+  <p class="section-kicker">Arquitetura do sistema</p>
+  <h2>GMDSS: conceito, áreas marítimas, funções e serviços</h2>
+  <p>O GMDSS foi estruturado para que autoridades SAR em terra e embarcações próximas sejam rapidamente alertadas e para possibilitar comunicações de urgência e segurança marítima (MSI). Ele substitui gradualmente práticas baseadas em escuta manual em frequências de socorro do sistema anterior, automatizando alertas e ampliando os meios de comunicação. A fonte registra adoção na SOLAS em 1988, entrada em operação em 1992 e implementação prevista até 1/fev/1999. <span class="src">pp. 357–358</span></p>
+
+  <div class="def">
+    <span class="def__term">Áreas marítimas de operação</span>
+    <p><strong>A1:</strong> dentro da cobertura radiotelefônica VHF de ao menos uma estação costeira com alerta DSC permanente (cerca de 20–30 milhas). <strong>A2:</strong> dentro da cobertura MF com DSC permanente (cerca de 100 milhas), exclui A1. <strong>A3:</strong> dentro da cobertura de satélite geoestacionário INMARSAT (entre 70° N e S), exclui A1 e A2. <strong>A4:</strong> áreas remanescentes no mar. <span class="src">pp. 357, 365</span></p>
+  </div>
+
+  <figure class="figure">
+    <svg viewBox="0 0 720 320" role="img" aria-labelledby="fig-gmdss-title fig-gmdss-desc">
+      <title id="fig-gmdss-title">Áreas marítimas do GMDSS A1 a A4</title>
+      <desc id="fig-gmdss-desc">Perfil esquemático da costa à esquerda e mar aberto à direita. Faixa A1 próxima à costa indica cobertura VHF DSC, faixa A2 mais ampla indica cobertura MF DSC, área A3 indica cobertura de satélite geoestacionário Inmarsat e área A4 indica regiões polares ou remanescentes fora das demais coberturas.</desc>
+      <rect x="0" y="220" width="720" height="100" fill="#dce7eb"/>
+      <path d="M0 220 Q80 180 120 220 T240 220 L240 320 L0 320 Z" fill="#b9c9b3" stroke="#8fa28a"/>
+      <rect x="240" y="70" width="90" height="150" rx="8" fill="var(--teal-soft)" stroke="var(--teal)"/>
+      <rect x="330" y="70" width="130" height="150" rx="8" fill="var(--gold-soft)" stroke="var(--gold)"/>
+      <rect x="460" y="70" width="150" height="150" rx="8" fill="var(--surface-2)" stroke="var(--line-strong)"/>
+      <rect x="610" y="70" width="90" height="150" rx="8" fill="#efe3d8" stroke="#b07a4b"/>
+      <text x="285" y="110" text-anchor="middle" class="diagram-label diagram-label--strong">A1</text>
+      <text x="285" y="130" text-anchor="middle" class="diagram-label">VHF/DSC</text>
+      <text x="285" y="148" text-anchor="middle" class="diagram-label">~20–30 milhas</text>
+      <text x="395" y="110" text-anchor="middle" class="diagram-label diagram-label--strong">A2</text>
+      <text x="395" y="130" text-anchor="middle" class="diagram-label">MF/DSC</text>
+      <text x="395" y="148" text-anchor="middle" class="diagram-label">~100 milhas</text>
+      <text x="535" y="110" text-anchor="middle" class="diagram-label diagram-label--strong">A3</text>
+      <text x="535" y="130" text-anchor="middle" class="diagram-label">Inmarsat</text>
+      <text x="535" y="148" text-anchor="middle" class="diagram-label">70°N–70°S</text>
+      <text x="655" y="110" text-anchor="middle" class="diagram-label diagram-label--strong">A4</text>
+      <text x="655" y="130" text-anchor="middle" class="diagram-label">áreas</text>
+      <text x="655" y="148" text-anchor="middle" class="diagram-label">remanescentes</text>
+      <text x="120" y="255" text-anchor="middle" class="diagram-label diagram-label--strong">costa</text>
+      <text x="480" y="255" text-anchor="middle" class="diagram-label">mar aberto / alta latitude</text>
+      <path d="M240 230 L700 230" class="diagram-line" stroke-dasharray="4 4"/>
+      <text x="360" y="285" text-anchor="middle" class="diagram-label">As faixas são conceituais; os equipamentos exigidos dependem da área de operação do navio.</text>
+    </svg>
+    <figcaption><b>Figura 2.</b> Representação esquemática das áreas A1–A4 do GMDSS. A1 e A2 baseiam-se em cobertura costeira (VHF/MF com DSC), A3 na cobertura geoestacionária Inmarsat e A4 nas áreas remanescentes. <span class="src">pp. 357, 365</span></figcaption>
+  </figure>
+
+  <h3>Funções e serviços</h3>
+  <p>A fonte descreve 9 facilidades do GMDSS (alertas navio-terra por vias independentes, recepção terra-navio, alertas navio-navio, comunicações para coordenação SAR, comunicações na cena de ação, localização de balsas/navios, transmissão/recepção de MSI, radiocomunicações gerais e comunicações ponte a ponte) e 5 serviços (radiocomunicações e avisos pelo INMARSAT, avisos pelo COSPAS-SARSAT, e SMM em HF, MF e VHF). <span class="src">p. 357</span></p>
+
+  <div class="callout callout--exam">
+    <span class="callout__label">Cai na prova</span>
+    <p>Memorize a lógica das áreas: A1 (VHF/DSC costeiro), A2 (MF/DSC costeiro), A3 (Inmarsat, 70°N–70°S, excluindo A1/A2) e A4 (remanescente). A exigência de equipamentos e meios de alerta depende da área em que o navio opera. <span class="src">pp. 357, 365</span></p>
+  </div>
+  <p class="source-line">pp. 357–358, 365</p>
+</section>
+
+<section class="section" id="sistemas-gmdss">
+  <p class="section-kicker">Meios e terminais</p>
+  <h2>Sistemas do GMDSS: INMARSAT, COSPAS-SARSAT, DSC, SART e MMSI</h2>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Componentes e sistemas principais citados</caption>
+      <thead>
+        <tr><th>Sistema/meio</th><th>Função principal</th><th>Pontos destacados na fonte</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>INMARSAT</strong></td><td>Comms satélite (alerta, tráfego, MSI via SafetyNET/EGC).</td><td>4 satélites geoestacionários; bandas ~1,5/1,6 GHz (SES) e 4–6 GHz (CES-satélite); CES em Tanguá (Embratel) no Brasil; terminais A/B/C e receptor EGC; EPIRB 1,6 GHz em banda L. <span class="src">pp. 358–361, 365–366</span></td></tr>
+        <tr><td><strong>COSPAS-SARSAT</strong></td><td>Detecção e localização de balizas de socorro.</td><td>Satélites de órbita polar; EPIRB 406 MHz (SOLAS exige para navios sujeitos, salvo alternativa 1,6 GHz); localização Doppler, modos em tempo real e cobertura global; segmento terrestre com LUT/MCC/RCC. <span class="src">pp. 357, 361, 365</span></td></tr>
+        <tr><td><strong>DSC</strong> (<em>Digital Selective Calling</em>)</td><td>Chamadas digitais de socorro, urgência e segurança.</td><td>Base para alerta e comms em VHF/MF/HF; frequências citadas incluem 156,525 MHz (canal 70), 2187,5 kHz e HF (ex.: 8414,5 kHz e outras, com variações no texto OCR); após alerta, tráfego segue por fonia/telex em frequências apropriadas. <span class="src">pp. 358, 362–363, 367</span></td></tr>
+        <tr><td><strong>SART</strong> (<em>Search and Rescue Transponder</em>)</td><td>Localização na cena de ação por radar.</td><td>Interrogado em 9 GHz, produz série de 12 pontos na PPI; alcance típico ~5 milhas para radar de navio (15 m de antena) e maior para aeronave; autonomia e requisitos de instalação/robustez citados. <span class="src">pp. 358, 363</span></td></tr>
+        <tr><td><strong>EPIRB</strong></td><td>Alerta de socorro por baliza.</td><td>EPIRB satélite 406 MHz (COSPAS-SARSAT) e 1,6 GHz (Inmarsat, banda L); características de ativação, transmissão e identificação variam por tipo; 121,5 MHz citado para orientação/homing em contextos específicos. <span class="src">pp. 359–361</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>O MMSI (<em>Maritime Mobile Service Identity</em>) é usado em EPIRBs e equipamentos DSC, com 9 dígitos (3 para o país e 6 para identificação do usuário), conforme a fonte. <span class="src">p. 364</span></p>
+
+  <div class="callout callout--info">
+    <span class="callout__label">Para entender</span>
+    <p>O GMDSS combina meios satelitais e terrestres: satélites ampliam alcance e automação de alerta/MSI, enquanto DSC, radiotelefonia e radiotelex em VHF/MF/HF garantem comunicações locais e de média/longa distância conforme a área e a disponibilidade. <span class="src">pp. 357–358, 362, 365</span></p>
+  </div>
+  <p class="source-line">pp. 357–366</p>
+</section>
+
+<section class="section" id="sinais-procedimentos">
+  <p class="section-kicker">Comportamento em emergência</p>
+  <h2>Sinais, chamadas e procedimentos de perigo, urgência e segurança</h2>
+  <p>A fonte compila extratos de procedimentos de comunicações de perigo e segurança, enfatizando prioridade absoluta ao tráfego de socorro, clareza na transmissão e uso de frequências de perigo/socorro. Em radiotelegrafia, o sinal de perigo é SOS; em radiotelefonia, MAYDAY. Urgência usa XXX/PAN PAN e segurança usa TTT/SECURITÉ. <span class="src">pp. 367–372</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Categorias e sinais (síntese da fonte)</caption>
+      <thead>
+        <tr><th>Categoria</th><th>Sinal/chamada</th><th>Significado/uso</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Perigo</strong></td><td>SOS / MAYDAY</td><td>Perigo grave e iminente, auxílio imediato requerido. Chamada e mensagem devem incluir identificação, posição, natureza do perigo e auxílio desejado. <span class="src">pp. 368–369</span></td></tr>
+        <tr><td><strong>Urgência</strong></td><td>XXX / PAN PAN</td><td>Mensagem muito urgente relativa à segurança de navio/aeronave/pessoa; prioridade abaixo do perigo. <span class="src">p. 370</span></td></tr>
+        <tr><td><strong>Segurança</strong></td><td>TTT / SECURITÉ</td><td>Aviso importante sobre navegação ou meteorologia. <span class="src">pp. 370–371</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Frequências e sinais de alarme citados</h3>
+  <p>Entre as frequências internacionais de perigo e segurança mencionadas estão 500 kHz (telegrafia, sistema antigo), 2182 kHz (radiotelefonia), 156,8 MHz (VHF canal 16), além de frequências suplementares e de DSC (ex.: 2187,5 kHz, 156,525 MHz canal 70) e de EPIRB/satélite conforme o meio. Sinais de alarme incluem o alarme radiotelefônico (dois tons alternados) e o radiotelegráfico (série de traços), com regras de teste e proteção para evitar interferência. <span class="src">pp. 367–368, 371</span></p>
+
+  <ol class="steps">
+    <li><strong>Emitir o alerta corretamente.</strong> Usar sinal, chamada e mensagem de perigo com identificação, posição, natureza do sinistro e tipo de auxílio; repetir quando necessário e não houver resposta. <span class="src">pp. 368–369</span></li>
+    <li><strong>Acusar recebimento e manter disciplina.</strong> Estações que recebem e podem auxiliar devem acusar recebimento conforme procedimento; quem não pode auxiliar deve acompanhar o tráfego e evitar interferência, observando silêncio imposto quando aplicável. <span class="src">pp. 369–370</span></li>
+    <li><strong>Encerrar e restabelecer tráfego.</strong> A estação controladora informa quando o silêncio pode ser relaxado ou quando o trabalho normal pode ser restabelecido. <span class="src">p. 369</span></li>
+  </ol>
+
+  <div class="callout callout--danger">
+    <span class="callout__label">Erro crítico</span>
+    <p>Transmitir sinais de perigo, urgência ou alarme sem necessidade real, ou causar interferência em frequências de socorro e segurança, compromete operações SAR e é vedado. Testes em frequências de perigo devem ser mínimos e realizados com cuidados específicos (ex.: antena artificial quando aplicável). <span class="src">pp. 367–368, 371</span></p>
+  </div>
+
+  <h3>Prioridade de comunicações</h3>
+  <p>A ordem de prioridade indicada na fonte coloca em primeiro lugar chamadas/mensagens/tráfego de perigo, seguidas de comunicações precedidas de urgência e de segurança, e depois radiogoniometria, navegação/SAR, necessidades operacionais e outras categorias. <span class="src">p. 372</span></p>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Observação sobre a fonte</span>
+    <p>Alguns trechos de frequências e procedimentos aparecem truncados ou com possíveis inconsistências de OCR (por exemplo, menções sobre frequências HF de DSC). Em operação, consultar a Lista de Auxílios-Rádio, o Manual/EROG aplicável e as instruções atualizadas do navio e da autoridade competente. <span class="src">pp. 362, 367–372</span></p>
+  </div>
+  <p class="source-line">pp. 367–372</p>
+</section>
+
+<section class="section" id="sar-apoio-costeiro">
+  <p class="section-kicker">Resposta e suporte</p>
+  <h2>SAR no Brasil e redes de apoio costeiro</h2>
+  <p>O serviço de busca e salvamento no Brasil segue a estrutura da Convenção SAR (Hamburgo, 1979), com MRCC (<em>Maritime Rescue Coordination Centre</em>) e RSC (<em>Rescue Sub-Centres</em>). O país é responsável por área delimitada no Atlântico Sul, subdividida em sub-regiões sob coordenação dos Distritos Navais. A fonte distingue o serviço de busca e salvamento da Marinha (SALVAMAR Brasil) do serviço marítimo que incorpora o sistema de alerta, envolvendo estações da RENEC. <span class="src">p. 364</span></p>
+
+  <div class="grid-2">
+    <div class="card">
+      <h3>Fases e autoridades SAR</h3>
+      <ul>
+        <li><strong>INCERFA</strong> (<em>uncertainty phase</em>): dúvidas quanto à segurança por falta de informações.</li>
+        <li><strong>ALERFA</strong> (<em>alert phase</em>): apreensão por falta contínua de informações ou indicação de dificuldades graves.</li>
+        <li><strong>DESTREFA</strong> (<em>distress phase</em>): necessidade de ajuda imediata por ameaça grave/iminente ou falta contínua de informações. <span class="src">p. 364</span></li>
+      </ul>
+      <p>Autoridades citadas: Coordenador de Busca e Salvamento, Coordenador de Missão SAR e Comandante-na-Cena. <span class="src">p. 364</span></p>
+    </div>
+    <div class="card card--teal">
+      <h3>RENEC e apoio ao iatismo</h3>
+      <p>A RENEC presta radiocomunicação comercial pública navio-terra-terra e apoio gratuito à segurança da navegação e à SVHM, em colaboração com a MB. A fonte descreve 40 estações (principal, regionais e locais/restritas), escutas típicas em VHF canal 16 e pares em HF, e papel no recebimento de sinais de perigo e na difusão de informações. <span class="src">p. 373</span></p>
+      <p>A rede costeira de apoio ao iatismo (estações de iates clubes) mantém escutas em HF-SSB e VHF-FM conforme disponibilidade local; detalhes operacionais devem ser acertados antes da viagem. <span class="src">p. 373</span></p>
+    </div>
+  </div>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Dica de passadiço</span>
+    <p>Antes de singrar, confira quais meios de alerta e recepção de MSI são obrigatórios para a área (A1–A4), valide programação do NAVTEX/SafetyNET e mantenha à mão os contatos e procedimentos de reporte à DHN/RENEC para informações urgentes de auxílio à navegação. <span class="src">pp. 351, 357, 364–366, 373</span></p>
+  </div>
+  <p class="source-line">pp. 364, 373</p>
+</section>
+
+<section class="section" id="sintese">
+  <p class="section-kicker">Síntese</p>
+  <h2>O que levar para a prática e para a revisão</h2>
+
+  <div class="keyfacts">
+    <div class="keyfact"><b>A1–A4</b><span>áreas do GMDSS: VHF/DSC, MF/DSC, Inmarsat e remanescente</span></div>
+    <div class="keyfact"><b>2 vias</b><span>alerta de socorro navio-terra por meios independentes (facilidade do GMDSS)</span></div>
+    <div class="keyfact"><b>406 MHz</b><span>EPIRB COSPAS-SARSAT citada como exigência SOLAS (salvo alternativa 1,6 GHz)</span></div>
+    <div class="keyfact"><b>9 GHz</b><span>frequência de interrogação do SART no radar</span></div>
+    <div class="keyfact"><b>518 kHz</b><span>frequência NAVTEX internacional para MSI em NBDP</span></div>
+  </div>
+
+  <ul class="checklist">
+    <li>Sei consultar e atualizar auxílios-rádio por Avisos-Rádio e Folheto Quinzenal, entendendo a lógica de numeração das estações.</li>
+    <li>Reconheço limites da radiogoniometria (refração, efeito noturno, desvios, calibragem) e características básicas dos radiofaróis e RACON.</li>
+    <li>Compreendo o papel do GPS/DGPS, principais erros e a necessidade de avaliar geometria (DOP), datum e qualidade das correções.</li>
+    <li>Relaciono áreas A1–A4 aos meios do GMDSS e sei distinguir funções de alerta, MSI (NAVTEX/SafetyNET) e localização (EPIRB/SART).</li>
+    <li>Aplico a prioridade e a disciplina de comunicações em perigo, urgência e segurança, sem interferir no tráfego de socorro.</li>
+  </ul>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Síntese para levar</span>
+    <p>Auxílios-rádio dão referência e correção; GNSS dá posição com erros conhecidos; GMDSS integra alerta, coordenação e informação de segurança. Em todos os casos, a qualidade da decisão depende de fonte atualizada, procedimento correto e consciência dos limites do meio utilizado.</p>
+  </div>
+  <p class="source-line">pp. 351–373</p>
+</section>
+
+<section class="section" id="revisao">
+  <p class="section-kicker">Revisão</p>
+  <h2>Perguntas para fechar o capítulo</h2>
+  <div class="quiz">
+    <details>
+      <summary>1. Qual a diferença entre Avisos-Rádio e Folheto Quinzenal na atualização da Lista de Auxílios-Rádio?</summary>
+      <div class="quiz__answer"><p>Avisos-Rádio divulgam alterações temporárias dos auxílios-rádio, normalmente canceladas por outro aviso. O Folheto Quinzenal publica avisos em vigor, correções permanentes ou atualizações importantes, folhas para substituição/inserção e, se houver, LPE. <span class="src">p. 351</span></p></div>
+    </details>
+    <details>
+      <summary>2. Por que marcações radiogoniométricas devem evitar ângulo pequeno com a costa e horários próximos ao nascer/pôr do sol?</summary>
+      <div class="quiz__answer"><p>A refração terrestre ocorre quando a onda forma ângulo agudo com a linha da costa ou atravessa grande extensão em terra (a fonte recomenda evitar ângulo &lt; 20°). O efeito noturno, ligado à variação da ionosfera, afeta marcações cerca de 1 h antes do pôr e depois do nascer do sol, salvo distâncias menores que 30 milhas. <span class="src">p. 351</span></p></div>
+    </details>
+    <details>
+      <summary>3. O que distingue posicionamento 2D e 3D no GPS e qual datum deve ser considerado ao plotar a posição?</summary>
+      <div class="quiz__answer"><p>O 2D usa pseudodistâncias de no mínimo 3 satélites e requer informar a elevação da antena; o 3D requer 4 satélites. O datum horizontal do GPS é o WGS-84, devendo-se converter a posição para o datum da carta quando diferente. <span class="src">p. 354</span></p></div>
+    </details>
+    <details>
+      <summary>4. Quais erros o DGPS pode reduzir e quais limitações permanecem segundo a fonte?</summary>
+      <div class="quiz__answer"><p>O DGPS pode reduzir erros de efemérides, relógios, propagação ionosférica/troposférica e efeitos da SA (conforme fonte). Não elimina problemas de geometria/satélites diferentes entre referência e usuário, degradação com distância, DOP desfavorável e falhas não detectadas. <span class="src">pp. 354–355</span></p></div>
+    </details>
+    <details>
+      <summary>5. Caracterize as áreas A1, A2, A3 e A4 do GMDSS.</summary>
+      <div class="quiz__answer"><p>A1: cobertura VHF costeira com DSC permanente (~20–30 milhas). A2: cobertura MF costeira com DSC (~100 milhas), exclui A1. A3: cobertura de satélite geoestacionário Inmarsat entre 70°N e 70°S, exclui A1 e A2. A4: áreas remanescentes. <span class="src">pp. 357, 365</span></p></div>
+    </details>
+    <details>
+      <summary>6. Qual a função do NAVTEX e do SafetyNET na difusão de MSI?</summary>
+      <div class="quiz__answer"><p>NAVTEX transmite MSI por radiotelex (NBDP, 518 kHz) para áreas costeiras/A1–A2, com mensagens de segurança não rejeitáveis. SafetyNET usa EGC/Inmarsat para difundir MSI via satélite, especialmente fora da cobertura NAVTEX, permitindo endereçamento por área, grupo ou NAVAREA. <span class="src">pp. 360, 363–364, 366</span></p></div>
+    </details>
+    <details>
+      <summary>7. Diferencie MAYDAY, PAN PAN e SECURITÉ e indique a regra geral de prioridade.</summary>
+      <div class="quiz__answer"><p>MAYDAY indica perigo grave e iminente com necessidade de auxílio imediato; PAN PAN indica urgência relacionada à segurança; SECURITÉ anuncia mensagem importante de navegação ou meteorologia. A prioridade máxima é do tráfego de perigo, seguido de urgência e segurança. <span class="src">pp. 368–370, 372</span></p></div>
+    </details>
+    <details>
+      <summary>8. O que são INCERFA, ALERFA e DESTREFA no contexto SAR descrito pela fonte?</summary>
+      <div class="quiz__answer"><p>INCERFA é fase de incerteza sobre a segurança; ALERFA é fase de alerta por apreensão quanto à segurança; DESTREFA é fase de perigo com necessidade de ajuda imediata. A estrutura SAR no Brasil envolve MRCC, RSC e coordenação pelos Distritos Navais. <span class="src">p. 364</span></p></div>
+    </details>
+  </div>
+</section>

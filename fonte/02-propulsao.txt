@@ -1,0 +1,1389 @@
+FONTE: resumo curso h.pdf | CAPITULO 02 - propulsao | paginas 18-38 | OCR ABBYY
+OBS: texto OCR ruidoso, mistura ingles/portugues. Interprete com cautela; nao invente.
+
+
+===== PAGINA 18 =====
+
+PRINCIPLES OF NAVAL ARCHITECTURE 
+CAP 6 - PROPULSION 
+SECTION 1 - POWERING OF SHIPS 
+1) HISTORICAL: começou com ores, then sails, then mechanical devices (jets, paddle wheels and propellers). 
+> Jets: tem um prime mover e uma pump. A pump puxa a água e a entrega para trás em alta veloc, e a reação produz o thrust. 
+Nas velocs atuais dos navios, o jet é menos eficiente que qq propeller. 
+> Side Paddle Wheels: eram movidos a vapor. / Tinha boas caracts de manobrabilidade. / Devido ao seu giro lento, eram um 
+propulsive device razoavelmente eficiente. 
+- Eram ruins para sea-going ships, pois: a imersão variava com o deslocamento; as wheels saiam da água quando o navio rolava 
+(causing erratic course keeping); e eles eram too slow-running (demanda grandes motores). / Portanto, foram usados em tugs e 
+pleasure steamers de águas protegidas, onde o calado não muda muito e a peq profundidade limita o uso de screws grandes. 
+- Alguns stern-wheelers ainda estão em uso em navios de passageiros no Mississippi. 
+> Screw Propeller: rapidamente substituíram os wheelers nos ocean-going ships. / Ainda que outros devices tenham sido 
+adotados para tipos particulares de navios/serviços, os screw não possuem rivais. 
+- Vantagens sobre os wheelers: não é afetado por mudanças de calado, fica abrigado e protegido do mar e de colisões, não 
+aumenta a boca do navio e pode girar bem mais rápido sem perder a eficiência (pode-se usar smaller faster-running engines). 
+> "Shroud Ring" ou "Nozzle": o seu uso junto com o screw prop apresenta grandes vantagens em heavily loaded propellers; 
+sobretudo para os tugs, onde o BP para um dado HP pode aumentar em até 40 % por causa do direcionamento do thrust. 
+Já em navios mais rápidos, o aumento do arrasto causado pelo nozzle anula essa vantagem. 
+- Em outros navios que não os tugs, essa vantagem pode ser estendida para maiores velocs usando-se thinner nozzles (com 
+alguma perda de thrust nas baixas velocs). E esse tipo de arranjo associado a formas especiais de stern lines fornece uma boa 
+propulsive efficiency. 
+- Podem prover ótima manobrabilidade se o nozzle puder girar e controlar a direção do propeller race. 
+> "Feathering Paddle Wheel": desenvolvida por Fowler. 
+- Era instalada bem submersa na popa. / Era excelente para manobrar e para manter o navio parado numa posição, mas a 
+propulsive efficiency era pequena. 
+- A versão moderna consiste de um disco grande montado flush com a sup inferior de um flat counter, carrying projecting 
+vertical blades resembling "spade rudders". Na medida em que o disco gira, cada blade gira em seu próprio eixo vertical, 
+ajustando-se ao fluxo de forma que a tração total de todas as blades fica concentrada numa só direção. A direção da tração é 
+controlada pela variação do movimento das blades. 
+- Esse sistema tb permite que o equivalente a um large orthodox propeller seja montado em navios que operam em águas rasas; 
+and the propeller disc can be driven through gearing by relatively light, high-speed diesel engines. 
+- A eficiência não é tão alta como a dos orthodox propellers, e o seu custo de manut. é maior; mas as foregoing advantages 
+resultaram em muitas aplicações em river steamers, tugs e ferries. 
+2) TYPES OF SHIP MACHINERY: 
+a) Reciprocating Steam Engine: as de 2, 3 ou 4 cilindros dominaram até 1920, quando foram substituídas pela turbina a 
+vapor (para médias e altas potências) e pelo motor a diesel (para médias e baixas potências). 
+- Vantagens: controlabilidade excelente at all loads; facilmente reversível; o range mais eficiente de RPM é o mesmo do screw. 
+- Desvantagens: é pesada; ocupa muito espaço; o output power por cilindro é limitado; o vapor não pode se expandir até as 
+baixas pressões dos condensadores modernos (consumo de combu é alto: +- 0,7 kg/kWhr). 
+b) Steam Turbine: 
+- Vantagens: turning effort uniforme; apropriada para large-unit power output; usa vapor a pressões muito altas no inlet, num 
+wide range of power, e descarrega a pressões muito baixas (logo, a thermal efficiency é boa; e o consumo de grandes turbinas é 
+baixo, cerca de 0,3 kg/kWhr). / Under overload conditions, elas entregam potência +- cte para uma dada throttle setting. 
+- Desvantagens: não é reversível (precisa de reversing turbines); a sua RPM de máx eficiência é muito maior que a dos props 
+(precisa de reduction gears). 
+- Redução do RPM: 
+- Por engrenagens mecânicas: a perda de potência é de apenas 2 a 4 %; mas é necessário ter uma stern turbine (o que 
+adiciona complexidade, custo e perda de potência). 
+- Eletricamente: a turbina é acoplada a um gerador de alta RPM, que toca um motor elétrico associado ao prop (baixa RPM). 
+Não há eixos entre a turbina e o prop (maior flexib. de desenho). / Em twin screw ships com dois sets de "turboalternators", 
+pode-se alimentar os 2 motores com 1 gerador, e assim economizar quando operando com metade da potência. 
+Vantagens: elimina a reversing turbine, maior flexibilidade e agilidade para manobrar, and prevents racing of the propeller. 
+Desvantagens: first cost elevado e maiores perdas na transmissão. 
+1 
+
+
+===== PAGINA 19 =====
+
+c) Internal-Combustion Reciprocating Diesel Engine: 
+- Vantagens: feitas em todos os tamanhos; são diretamente reversíveis; ocupam pouco espaço; consumo de combu muito baixo 
+(+- 0,2 Kg/kWhr); são usadas in large single units diretamente acopladas ao eixo, ou em sets de unidades pequenas que movem 
+o prop por conexões elétricas ou mecânicas. 
+- Desvantagens: mais pesadas e mais caras (both in first cost and upkeep) que as steam plants de tamanho equivalente. 
+O torque é limitado pela pressão máx que pode ser desenvolvida em cada cilindro. Portanto, quando o motor estiver produzindo 
+o torque máx, ele só produzirá a máx potência na RPM máx. Ou seja, a potência produzida num motor a diesel é diretamente 
+proporcional ao RPM para qq throttle setting! / Essa limitação leva ao problema de se ter que casar bem o motor a diesel 
+com o hélice. / Devido ao "fouling", a resistência aumenta e a tração do hélice diminui com o tempo. Portanto, a carga no 
+"prime mover" irá aumentar para manter a mesma veloc, o que requer a seleção de certas caracts do prop (ex: o pitch) para que, 
+ao longo da vida, o motor não opere sobrecarregado ou não chegue a desenvolver a sua máx capacidade. 
+d) Gas Turbine: foram instaladas em uns poucos NM; mas muito usadas em NGs (fragatas, destroyers grandes e peqs, etc). 
+- Originou na aviação; e seu progresso depende de metais que suportem as elevadas pressões e temperaturas. 
+- Podem ser associadas a motores diesel, steam turbines ou smaller gas turbines (para general cruising), e só entram na linha, at 
+Utile or no notice, quando se precisa de full power (ambas as plantas são conectadas num mesmo eixo por clutches e gearing). 
+- Vantagens: dispensa caldeiras (boilers); é leve; fornece um smooth continuous drive; pode ser rapidamente levada à máx load 
+(+-15 min) sem warm-up demorado. 
+- Desvantagens: consome muito combu. 
+e) Nuclear Reactor: usados por NGs, uns poucos NM e ice breakers. / Os reatores substituem os boilers, e por meio de um heat 
+exchanger, produzem vapor (que é usado numa turbina normal). / O reator opera na carga máxima indefinidamente. / Elimina o 
+peso e o volume do combustível, mas o peso do reator + shielding é > ao peso do boiler + combu de um navio normal. 
+3) DEFINITION OF POWER: 
+(dafísica: P = F.V=Q.w) 
+(lhp = 0,7457kW = 550ft.lb/seg) 
+- Os vários tipos de engines não são "rated" da mesma maneira, inasmuch as it is inconvenient or impossible to measure then-
+exact power output in exactly the same manner. 
+> Steam Reciprocating Engines are rated in "Indicated Power" Pi. 
+- Pi é obtido dos cilindros por um indicador que grava continuamente a pressão. Do "indicator card" resultante, a "mean 
+effective pressure" pm é medida, e o P! é calculado para as partes inferior e superior separadamente. / O Pi total da engine é 
+a soma dos Pi calculados para cada cilindro. 
+P i = Pm-L.A.n (kW) 
+(L = comp. do stroke do pistão; A = área efetiva do pistão; n = strokes/seg) 
+> Internal Combustion Engines are rated in "Indicated Power" Pi or "Brake Power" PB. 
+- PB é medido no "crank shaft coupling" por meio de um freio mecânico, hidráulico ou elétrico (durante um shop test): 
+PB = 2.n.Q.n (kW), 
+(onde Q = torque do freio; n = RPM) 
+(obs: w = 2.II.n) 
+> Turbines are rated in "Shaft Power" Ps: é a potência transmitida através do eixo para o prop. 
+- É medido a bordo, tão perto do prop quanto possível, por um torsionmeter, que mede o "ângulo de twist" entre duas seções 
+do eixo (o qual é proporcional ao torque). Daí há uma fórmula para achar Ps para um eixo sólido (fç do diâmetro do eixo, âng 
+de twist medido, comp no qual o âng é medido, RPM e "G", que é o "shear modulus of eleasticity" do material do eixo). 
+> "Delived Power" PD: é a potência realmente entregue ao prop, que é um pouco menor do que a medida com o torsionmeter. 
+(há uma perda de potência no mancai do stern tube e em qq outro mancai do shaft tunnel entre o stern tube e o torsionmeter) 
+> "Thrust Power" PT. = T.VA (quando o prop avança na água a uma "veloc de avanço" VA, ele entrega uma "thrust" T) 
+> "Effective Power" PE = R.V 
+4) PROPULSIVE EFFICIENCY: 
+> Eficiência é a razão entre o trabalho útil ou potência obtida e aquele gasto para realizar a operação. 
+- Usefull power obtido: é aquele usado para superar a resistência ao movimento numa dada veloc (é representado pelo PE). 
+- Power put in to achieve this result: não é facilmente definido. Temos: 
+Reciprocating engines: pode ser medido pela potência desenvolvida nos cilindros Pi (daí a propulsive efficency é PE/PI). 
+Turbinas: é comum usar o Ps entregue ao eixo abaft the gearing 
+(daí a propulsive efficency é PE/PS)-
+> Como as eficiências mecânicas e as perdas nas gears e nas shaft transmissions variam de navio para navio (acd tipo de máq, 
+general layout, carga de operação, etc), é difícil definir a eficiência hidrodinâmica de uma combinação casco-prop em termos 
+dessa overall propulsive efficiency. / Assim sendo, uma medida da eficiência da propulsão muito mais significativa é a 
+razão entre o usefull power obtido (PE) e o power actualy delivered ao prop (PD). 
+- Essa razão é chamada de "quasi-propulsive coeficient"= nD
+ = PE/PD-
+- A perda por fricção nos mancais e stern tubes é PS-PD- / Daí a razão ns = PD/PS = "Shaft Transmission Efficiency". 
+> Nesse texto, a eficiência propulsiva é assim definida: 
+Propulsive Efficiency = quasi-propulsive coef x shaft transmission efficiency = TJD X TJS = PE / Ps 
+- Ou seja, a eficiência propulsiva engloba a perda por fricção nos mancais e sterntubes. 
+- A transmission loss é cerca de 2 % para navios com a máquina localizada AR, e 3 % para os que têm a máquina a meia nau. 
+- Ao usarmos o power medido pelo torsionmeter, a resposta dependerá da sua localização ao longo do eixo. Logo, para se 
+aproximar ao máximo do PD, o torsionmeter deve ficar o mais perto possível do stern tube. It's often assumed that n.s = 1»0. 
+2 
+
+
+===== PAGINA 20 =====
+
+s^BgaagggsaigiKs-re •.<?•>•::-..'---?J 
+SECTION 2 - THEORY OF PROPELLER ACTION 
+1) MOMENTUM PRINCIPLE: 
+> Os props derivam a sua tração através da aceleração do fluido em que trabalham, de acordo com as Leis de Newton. 
+> F = m. dv/dt (Ia Lei de Newton). / Integrando F no tempo: Jo' F.dt = m.v2 - mvi 
+- V F.dt 
+= impulso da força no intervalo de 0 a t 
+- massa x veloc 
+= momentum 
+- Essa eq diz que: "o impulso da força num intervalo de tempo é igual à mudança total de momento produzido pela 
+força nesse intervalo de tempo". / Se a força for cte, teremos: F.t = m.v2 - mvj. 
+2) GENNERAL DISCUSSION OF PROPELLER THEORIES: 
+- A explanação física da ação do prop é simples, mas a sua análise matemática precisa é bem complicada. / As early propeller 
+theories seguem 2 linhas de raciocínio. A 3a teoria é mais recente. Vejamo-las: 
+a) Momentum theories: a produção de tração é explicada pelas mudanças de "momentum" (qty de movimento) do fluido. 
+- O prop era idealizado como um "actuator disk" capaz de causar um aumento instantâneo da pressão no fluido. 
+- Essa teoria, embora correta, não indicava a forma como o prop produziria tração. Entretanto, levou à conclusão importante 
+de que a eficiência de um prop ideal tem um limite máximo, que varia com a "loading". 
+b) Blade Element theory: a tração é obtida pela análise das forças atuando nas várias seções das pás, and then integrating 
+these over the propeller radius. 
+- Essas teorias foram capazes de prever os efeitos de várias mudanças na forma do propeller. Entretanto, levaram ao 
+resultado incorreto de que a eficiência de um prop ideal é igual a i (100 %). 
+c) Circulation Theory: mostra a relação entre as mudanças de momentum no meio e as forças agindo nos blade elements. 
+- A diferença entre os dois grupos anteriores de teorias was not dispelled até que a "Circulation Theory" desenvolvida por 
+Lanchester (da aerodinâmica) foi aplicada aos props por Prandtl. 
+- Essa teoria possibilitou uma boa correlação com resultados experimentais, e ainda era bem flexível para practical design work. 
+3) THE MOMENTUM THEORY OF PROPELLER ACTION: 
+> Os caras são Rankine, Froude e Greenhill. 
+> O prop ideal é tido como um disco capaz de imprimir um aumento repentino de pressão no fluido que passa por ele (mas a 
+forma como ele o faz é ignorada). / It's assumed that: 
+- O prop imprime uma aceleração uniforme ao fluido, de forma que o thrust gerado é uniformemente distribuído pelo disco. 
+- O escoamento não apresenta fricção. 
+- Há um fluxo ilimitado de água ao prop. 
+> Fig 1: a primeira premissa implica numa contração da "race column" que passa pelo disco. Como tal contração não ocorre 
+repentinamente, a aceleração real deverá ocorrer fora deste, espalhando-se a uma dist finita AV e AR. 
+- Assume-se um disco estacionário de área Ao num escoamento não perturbado de veloc VA. / Na seção 1, bem AV do disco, a 
+veloc é VA e a pressão é pt. Na seção 3, bem AR do disco, a veloc da race column é VA (1 + b). / No disco (seção 2), o fluido 
+já terá ganho parte desse aumento de veloc, e a veloc será VA (1 + a), onde a é o "Axial Inflow Factor". 
+- A pressão na race column, que é p t bem AV, diminui quando o fluido se aproxima do disco (Vf > p|). / No disco, a pressão 
+é repentinamente aumentada pelo mecanismo, e depois decresce com o contínuo aumento de veloc AR do disco. / Se a seção 
+3 estiver tão AR que se possa assumir que a contração do race tenha cessado, e se não houver rotação no race, a pressão na 
+seção 3 será a mesma pi (igual à do escoamento não perturbado). 
+- Depois da calculera, vemos que: a = b/2 (válido só na momentum theory; não é necessariamente o que ocorre na realidade!) 
+> Definições: 
+Total Work done per unit time ou power expended = T.VA(1 + a) 
+> é o aumento de energia cinética do fluido 
+Trabalho Útil obtido = T.VA 
+Eficiência Ideal = tji = T.VA / T.VA(1 + a) = 1 / (1 + a) 
+> é o useful work obtained / work expanded 
+Perda de Potência no disco = T.VA(1 + a) - T.VA = T.VA.a 
+Slip Velocity = b.VA 
+> é o aumento total da veloc 
+Slip Ratio = s = b.VA/VA = b = 2.a 
+> é a expressão da Slip Velocity como uma fração de VA 
+Axial Inflow Factor = a 
+> Podemos definir um "Thrust Loading Coefficient" = CT = T / Vi pA0VA
+2 
+(é um coeficiente de carregamento) 
+> Daí há outra fórmula para x\i em fç apenas de CT [ i]i = (...)/(...CT...) ]. / Essa eq é importante porque fornece um critério para 
+comparar a eficiência de props: 
+- "Um prop que trabalha num CT elevado é menos eficiente que outro que trabalhe num CT mais baixo." 
+- "Ceteris paribus, o prop de maior área é, em geral, mais eficiente." 
+> Quando a veloc de avanço for zero, a eficiência tb será zero, mas ainda assim o prop entregará thrust e absorverá potência. 
+- A relação entre thrust e potência para VA = 0 pode ser calculada (bizulentamente). Para um prop ideal: T/P(...) = V2. 
+- Para um prop real esse valor é bem menor, e serve como uma medida da habilidade relativa de gerar tração a zero veloc (ele 
+pode ser determinado em dock trials). 
+
+
+===== PAGINA 21 =====
+
+4) THE MOMENTUM THEORY, INCLUDING ANGULAR MOTION: 
+(onde lê-se "w", leia-se "ca") 
+> Consideremos que, além da aceleração axial, o disco também imprime ao fluido uma aceleração rotacional: 
+a) Teorema para movimento angular: 
+> Q = torque ou momento da força que age num corpo ao redor de um eixo de rotação "0"; 
+> IP = Momento Polar Mássico de Inércia (mass polar moment of inertia) do corpo com respeito a "0"; e 
+> dw/dt = aceleração angular resultante. 
+> A eq. equivalente à Ia Lei de Newton é: Q = IP.dw/dt, ou Q.dt = IP.dw. 
+(ou seja, "impulso angular" Q.dt = "mudança de momento angular" IP.dw) 
+> 
+Se considerarmos um At = 1 seg durante o qual o torque permanece cte, a eq. pode ser assim integrada: Q = IP (w2 - Wi) 
+b) Inserindo a rotação no disco: 
+> O fluido possui uma veloc VA bem AV do disco, onde não há rotação (wj = 0). / O disco gira com uma veloc w, e o fluido 
+que passa por ele irá adquirir parte dessa rotação. / Bem AR do disco, a veloc translacional da água será VA (1 + b), como 
+antes, e a veloc rotacional será w2 = w.(l - b'). 
+> Como parte desse w2 será adquirida antes do disco, definimos um Rotational Inflow Factor a' (análogo ao a). 
+> A veloc angular do disco em relação à água será então reduzida de w para w.(l - a'). 
+> Metade da veloc angular é adquirida pelo fluido antes do disco, de forma que: w2/2 = a'.w. (só para a momentum theory!) 
+c) Cálculo da eficiência: 
+> A energia cinética total no race será aumentada pela energia da rotação, e o efeito disso será a redução da eficiência ideal. 
+> Vamos assumir que ambas as velocs impressas ao fluido sejam distribuídas uniformemente sobre o disco, e vamos dividir o 
+disco em elementos anulares concêntricos que trabalham de forma independente. Daí calculamos o thrust dT desenvolvido 
+por cada elemento e o torque dQ por eles absorvidos. 
+> O trabalho útil desenvolvido por cada elemento será dT.VA. 
+A potência absorvida será dQ.w (= trabalho útil + perdas de energia). 
+> A eficiência de cada elemento é: u,i = useful work performed / power absorbed = dT.VA / dQ.w = (1 - a') / (1 + a). 
+- Como (1 - a') é sempre < 1, e como no caso do simple disc actuator x[i = 1 / (1 + a), então a eficiência de um screw 
+prop ideal sempre será menor do que a de um actuator disc prop by the fraction (1 - a')-
+- Essa eq não apenas representa a eficiência ideal de um elemento da pá, mas ela tb representa a expressão para a 
+eficiência ideal de um screw prop que apresenta uma perda mínima de energia cinética. 
+5) BLADE ELEMENT THEORY OF SCREW PROPELLER: 
+> Essa teoria explica como o prop aumenta o momento do race. O prop é analisado como sendo um conjunto de blades 
+separadas, as quais são divididas em strips (fig 2) do leading ao trailing edge. As forças em cada strip são avaliadas a partir 
+do conhecimento da veloc de cada strip em relação à água e das caracts da sua seção. 
+> As forças elementares são decompostas nos elementos thrust (dT) para vante, e torque (dQ) no plano da rotação. / Se 
+plotarmos dT e dQ do boss ao tip (fig 3), obtemos as curvas de tração e torque loading, que quando integradas fornecem a 
+tração total T e o torque Q do prop como um todo. 
+> A eficiência é: % = T.VA / 2.n.n.Q (n = revoluções por un. de tempo) 
+A) Aspectos gerais de aero/hidrodinâmica (fig 4): 
+> A força numa seção da pá atuando num dado "a" (entre a face da seção e o fluxo) pode ser decomposta em lift "L" (normal 
+ao fluxo) e drag "D" (// ao fluxo), que são expressos em termos dos coeficientes: CL = L / Ví.p-A.V2 e CD = D / í4.p.A.V2 
+(A é a área do plan form da seção = chord x span para formas retangulares) 
+> A eficiência da seção como um lifting device é: L/D = Ci/CD = 1/tan y. 
+> Os dados de L e D para perfis são derivados de testes em túnel de vento. No túnel, they "span" the section, ou seja, o L e o D 
+medidos são representativos do caso 2-D de span infinito (a distribuição de L e D ao longo da envergadura é uniforme). 
+> Um tipo comum de perfil é o "NACA 66 (mod) thickness distribution", superposto no "NACA (a = 0,8) mean line". 
+> Resultados desses testes com perfis: 
+- Para pequenos AO A, CL é fç linear de a. Mas a valores maiores de a, o CL deixa de crescer linearmente com a. 
+- O zero de lift ocorre a um ao (angle of zero lift) negativo. The zero lift line is drawn from the tail, passing above the 
+pitch face at an angle <x<). / Quando o AOA da pitch face for a, o "hydrodynamic angle of incidence" ar será: o* = a0 + a. 
+- O CD permanece pequeno e aprox cte para pequenos a, mas quando o CL começa a cair, o CD aumenta rapidamente. 
+- O L/D é máximo num a pequeno, e para que tais perfis funcionem de forma eficiente, o AOA deve ser pequeno. 
+> A razão span/chord é o "aspect ratio" (AR). / Quando AR = oo, o fluxo é 2-D, e a spanwise load distribuition é uniforme. 
+- Com uma envergadura finita, ocorre um "spilling" nas extremidades, e a sustentação cai a zero nesses pontos. 
+- Os resultados podem ser convertidos de uma aspect ratio para outra, e normalmente são dados para uma AR = 6 ou AR = oo. 
+> Distribuição de pressão no perfil (fig 6): on the face (= intradorso), a pressão é maior que a da free stream (sendo max 
+próximo ao nose); on the back (= extradorso), a pressão diminui (há um pico marcado próximo do nose). / O lift gerado é o 
+resultado das diferenças de pressão das duas faces (na fig 6, ocorre um reinforcement, e a redução da pressão on the back tem 
+uma contribuição maior para a sustentação do que o aumento da pressão on the face). 
+> Num prop, a sup de ré da pá (que sofre o aumento de pressão) é a "face of the blade"; e a de vante é a "back of the blade". 
+
+
+===== PAGINA 22 =====
+
+«M5gJI«.W&: 
+B) Superfícies helicoidais: 
+> Fig 7: no caso mais simples, a face da pá é parte de uma "true helical surface" (superfície helicoidal verdadeira), ou seja, 
+uma sup varrida por uma linha AB, onde A avança com veloc cte no eixo 00', enquanto a linha gira em torno de A com uma 
+veloc angular "w" cte. Quando a linha completa uma volta e se encontra em A'B\ a distância que ela avançou (AA') é 
+chamada de "face pitch" ou "geometrical pitch" (P). / As "curvas espaciais" que são traçadas pelos vários pontos da linha 
+geradora são chamadas de "helices" (= plural de helix). Essas "helices" ficam encostadas nas superfícies de cilindros 
+coaxiais com OO', e todas têm o mesmo avanço por revolução ou Pitch (P). / Portanto, a true helicoidal surface pode ser 
+definida como uma superfície da qual cada "line element" é uma "helix" de pitch constante. 
+> Qualquer cilindro coaxial com OO' cortará a sup helicoidal numa "helix", e o âng entre qq helix e a sup normal ao eixo 
+(SS da fig 7) é o "pitch angle" O. / O O é cte para um dado helix (i.e., a um dado raio), mas aumenta da ponta ao hub. 
+> Na prática, o pitch geométrico "P" não será o mesmo para todos os raios; é comum se ter um pitch reduzido próximo ao 
+hub (and, less usual, reduced towards the tip). Nesses casos, o pitch a 0,7R é normalmente tomado como o "pitch médio 
+representativo", pois esse é o ponto aproximado onde a máxima sustentação é gerada (fig 3). 
+C) Definições e conceitos: 
+> As formas das blade outlines e as seções variam muito com o tipo de navio e com as idéias do projetista. 
+> Fig 8: "Skew" é o âng entre o centro da corda de cada seção em rei à "reference line" (linha de referência que vai do centro 
+do hub ao centro da corda da seção no raio do hub: r = d/2). / Observar o conceito de "Rake" pela figura. 
+> Fig 9: consideremos a seção de uma pá a um raio "r", com um pitch angle "<P", um pitch "P", com a pá trabalhando num 
+"unyielding medium" (sem escorregamento). Em uma revolução, a seção vai avançar de A para A' (= P). Desenrolando o 
+cilindro de raio "r" numa superfície plana, o helix traçado por A se desenvolverá em uma reta AM, e tan O = P / 2.n.r. 
+> Fig 10: se o prop gira com "n" rotações por unidade de tempo, ele avançará a dist "P.n" neste intervalo. Assim obtemos o 
+diagrama de veloc para a seção. / Mas num fluido real, haverá um certo "yielding" (escorregamento) quando o prop estiver 
+desenvolvendo tração. Então o prop não vai avançar LM (= P.n) por unidade de tempo, ele avançará apenas LS. 
+- MS 
+= P.n - VA = 
+slip 
+-MS/ML = slip/ pitch = sr = 
+real slip ratio 
+- MÂS 
+= 
+slip angle ou geometrical slip angle 
+> Fig 11: como num actuator disk, o trabalho das pás e o desenvolvimento de tração resultam na aceleração da água AV do 
+prop, de forma que a "total axial inflow velocity" numa dada seção da pá é aumentada de VA para VA (1 + a), e a 
+"rotational inflow velocity" é reduzida de 2.ü.n.r para 2.DZ.n.r (1 - a'). / Ambos "inflow factors" (a e a') resultam num 
+decréscimo do AOA da seção para um valor bem inferior ao que seria obtido se eles fossem ignorados (de AÔC para 
+BOC). / O âng BOC é sempre peq num prop eficiente (3°-6°), pois nesses ângulos L/D está aprox de seu valor máximo. 
+- Então, embora as velocs definidas por a e a' possam ser peqs, quando comparadas às velocs de avanço e rotação das 
+seções, elas têm um efeito grande no âng de incidência e, portanto, nas condições nas quais as blade sections trabalham. 
+Obs: a veloc da água em rei à seção é VR (L é perpend a VR, e D é // a VR). / O âng de incidência = a = <P - Pi 
+D) Observações: 
+> Figs 2 e 3: conclui-se que dT/dr e dQ/dr podem ser plotados com base no raio "r"; e a tração total "T" e o torque "Q" 
+podem então ser obtidos por integração. / Esse gráfico mostra que a maior parte de T e Q são desenvolvidos na parte 
+externa das blades, sendo que o valor máximo ocorre a cerca de r = 0,7.R. 
+> A eficiência do prop é dada por: % = T.VA / 2.n.n.Q 
+> O desempenho de cada blade element só pode ser determinado quando os valores de a', a, CL e y forem conhecidos. 
+- CL e Y podem ser obtidos from test data on the blade section chosen. / Para encontrar o e o ' , é necessário igualar a tração ao 
+fore-and-aft momentum put into the race, e o torque à mudança no rotational momentum (como na Momentum Theory). 
+- A afirmação de que ft = b/2 é válida apenas na Momentum Theory. Não se sabe qual a porcentagem da veloc final do 
+prop race é adquirida na posição da blade section. 
+> Antigamente, a blade-element theory simplificada ignorava as velocs induzidas. / Quando as velocs induzidas foram 
+introduzidas nos cálculos, os resultados melhoraram, mas ainda havia discrepâncias. / Depois que se passou a considerar a 
+interferência mútua entre as pás e a redução da sustentação nas pontas das pás, os resultados ficaram mais precisos. 
+6) CIRCULATION THEORY OF SCREW PROPELLER: 
+A) Vortex Theory (by Lanchester): 
+> Fig 12-a: o escoamento é tal que r.v = c = cte. / Uma linha de corrente de raio "r0" qq pode representar a parede de um 
+cilindro em torno do qual o fluido circula. / Quando r0 for muito peq, temos o chamado "vortex tube" or "filament" (pois a 
+eq r.v = c se aplica com boa aproximação às vortex motions encontradas na natureza). 
+> Algumas propriedades desse "vortex filaments" em fluidos ideais: 1) qualquer vortex filament é permanentemente composto 
+das mesmas partículas de fluido; e 2) um vortex filament não pode terminar abruptamente no interior do fluido (ele deverá 
+retornar a si próprio ou terminar na boundary da fluid region ??). 
+B) Efeito Magnus: 
+> Figs 12-b/c: colocando o cilindro num escoamento uniforme de um fluido ideal, as streamlines serão simétricas, e não surgirá 
+nenhuma força. / Superpondo uma circulação no cilindro, o escoamento se tornará assimétrico e surgirá um lift L no cilindro. 
+- No ponto E, a veloc // ao escoamento será V0 + D, e no ponto F será V0 - D. Daí a pressão em F será maior que em E. 
+- O resultado c que uma força L atuará no cilindro perpendicularmente ao escoamento uniforme. / A produção de força 
+num rotating cilinder in a stream é chamada Efeito Magnus. / O Flattner rotor ship usa esse princípio como propulsão. 
+5 
+
+
+===== PAGINA 23 =====
+
+C) Circulation 'T": 
+> Fig 12-a e 13: imaginemos 2 pontos (A e B) unidos por uma curva plana qq, e um vetor "w" no ponto "P", fazendo um ângulo 
+"E" com a direção do "line element" (ds). / Então a integral da linha entre A e B será definida por: JA
+B w.cos E.ds. 
+> No caso especial onde w denota uma veloc e a integração é feita numa curva fechada, a integral é chamada de circulação T, 
+definida como: r = í> w.cos E.ds (onde 0 indica a integração numa curva fechada) 
+> Considerando uma linha qq unindo A e B da fig 12-a, para avaliarmos a integral ao longo da linha, substituímos a curva por peqs 
+linhas radiais e arcos circulares. A integração ao longo das linhas radiais não contribui para o valor final (pois o "line element" e o 
+"velocity vector" são perpendiculares, e cos E = 0); e a integração ao longo dos arcos leva a um valor definido (pois cos E = 1). 
+Assim, o valor da integral ao longo dessa curva será: TAB = ÍAB w.ds = JAB w.r.d\|/ = +- c.\|/o 
+(onde y/g é o âng entre A e B; o sinal "+" se aplica à integração feita numa direção, e o "- " na direção contrária) 
+> O valor da line integral independe do caminho (só depende dos pontos inicial e final). Assim, a integral ao longo de um 
+loop fechado é zero. / Mas se o loop fechado passar ao redor da origem, de forma que \j/ = 211, a circulação terá o valor T = 2.Ü.C. 
+D) Eq. de Kutta-Joukowski (fig 12-c): a força que atua no cilindro é L = p.r.V0 
+(onde V0éa veloc do escoamento uniforme; eT = 2.TÍ.C = força da circulação). 
+> Essa eq. é uma das grandes generalizações da mecânica, pois se aplica a qq corpo, independente da sua forma (o shape factor é 
+contido na circulação T). Ela simplifica a discussão matemática do prop, pois não temos que considerar a forma das pás até o 
+final dos cálculos (enquanto isso, refere-se a ela apenas como "vortex filaments" ou "lifting lines" relacionados à circulação). 
+E) Tip Vortices e Vortex Sheet: 
+> Considera-se que essas linhas de sustentação (lifting lines) possuem um comprimento finito (correspondente ao comprimento das 
+pás). Entretanto, elas não terminam abruptamente nas pontas, mas possuem continuações chamadas de "tip vortex" nas 
+extremidades livres (o que de fato ocorre nas pontas e raízes das pás e nas asas dos aviões). 
+- Como o fluido tende a seguir o gradiente de pressão, ele tenderá a escapar sobre as extremidades, da face para o back, e criará 
+vórtices poderosos downstreams (cujos eixos são aprox. perpend, ao eixo da asa ou pá). Esses vórtices formam as fronteiras da 
+camada de fluido que esteve em contato com a pá. 
+> Fig 14 (asa de avião): o "equivalent bound vortex" (AA) viaja numa linha reta em ângulo reto com o seu eixo. / Se a circulação 
+ao longo desse bound vortex for cte ao longo do seu comprimento, teremos o sistema simples, onde AA é o bound vortex e AB é o 
+"free tip vórtice". / Mas esse sistema não expressa o escoamento real de uma asa, pois a sustentação decresce de um valor 
+máximo no mid-span para zero nas pontas, de forma que a circulação deverá variar de acordo. 
+> Fig 15: assumindo que a circulação em torno do bound vortex AA varia continuamente como na curva Y - f(x) da fig, demonstra-
+se que os vórtices livres fluem não apenas a partir das extremidades livres, mas também ao longo do bordo de fuga de AA, todos 
+formando uma "vortex sheet" (uma "folha de vórtices"). 
+- A força de qq vórtice individual na folha é igual à mudança da circulação naquele ponto de AA. Portanto, se a distâncias Xi e x2 
+(a partir do mid-span) as forças da circulação forem Ti e r2, o vórtice livre formado entre Xi e x2 terá uma força igual a (ri - T2). 
+F) Induced Downward Velocity: 
+> Considere dois vórtices individuais na sheet, localizados em lados opostos do mid-span. Cada vórtice irá assumir a downward 
+velocity existente naquele ponto do campo. / Como isso é verdadeiro para todos os vórtices na sheet, a sheet como um todo 
+assume uma "induced downward velocity". 
+> Prandt: a "induced downward velocity" é constante "across the sheet" quando a distribuição f(x) é elíptica. (fig 15) 
+- Mas "ao longo da sheet", de AA ao infinito (da asa para ré do avião), a veloc induzida varia de um valor "u„" a uma 
+distância muito grande de AA, até "un / 2" em AA. / Isso pode ser comprovado por um teorema de vortex motion que tem um 
+equivalente em eletrodinâmica e que é conhecido como Lei de Biot-Savart. 
+> Prandt: no caso das pás de um prop: 
+- A vortex sheet é a camada helicoidal de fluido "trailing" atrás da pá. 
+- A veloc induzida é normal à camada helicoidal, empurra a sheet para ré ao longo do eixo do prop e gira a sheet sobre esse eixo. 
+- A veloc induzida é idêntica à "slip velocity" já definida (pág 3). Nesse caso, um teorema análogo ao explicado é verdadeiro: "A 
+veloc induzida na posição do bound vortex (ou seja, no propeller disk) é u„/2, o que é metade da veloc induzida a uma dist 
+bem AR do prop." 
+G) Observações: 
+> Teorema de Bertz: "uma pá terá a menor perda de energia devido à veloc induzida quando a vortex sheet helicoidal for 
+empurrada para ré ao longo do eixo do prop e girar sobre esse eixo como se fosse uma folha rígida". 
+- Isso fornece uma regra prática para o desenho de props: "para se obter a máxima eficiência, as pás devem ser desenhadas de 
+forma que a "inflow velocity" seja a mesma para todos os elementos da pá". 
+> A aplicação da teoria da circulação no desenho de props permite vários refinamentos à blade-element theory estudada. Em 
+particular, ela permite que se calcule a induced velocity u„/2, o que permite o cálculo dos inflow factors radial e axial (a e a'). 
+
+
+===== PAGINA 24 =====
+
+SECTION 4 - INTERACTION BETWEEN HULL AND PROPELLER 
+1) GENERAL: 
+> Nos navios, o prop trabalha em águas perturbadas pelo casco, onde, de forma geral, a água já adquiriu algum mov para vante. 
+Esse mov da água para vante é chamado de "wake". / Daí o prop não mais avançará com relação à água na mesma veloc do navio 
+(V); ele avançará a uma veloc menor (VA = Speed of Advance). 
+> Quando o prop desenvolve tração, ele acelera a água AV dele, o que causa uma redução da pressão e um aumento da veloc na área 
+da popa (ambos esses efeitos aumentam a resistência do navio!). 
+> Ainda, as relações entre tração, torque e RPM de um prop em open water não serão as mesmas que atrás de um casco. Isso 
+possibilita que as eficiências do prop em "open water" e "behind the hull" sejam distintas. 
+2) WAKE: 
+> Notation: 
+- Wake Speed = V - VA, (onde VA é a "speed of advance") 
+- Froude's notation: "wake fraction" = wF = V - VA / VA 
+ou: VA = V / (1 + wF); onde: (1 + wF) = Froude's Wake Factor 
+- Taylor's notation: "wake fraction" = w = V - VA / V 
+ou: VA = v.(l - w) 
+Obs: a de Froude já era. / A de Taylor é + usada, pois uma wake de 40 % significa que a veloc da wake é 40 % da veloc do navio. 
+> Componentes ou causas da wake: 
+a) o frictional drag do casco gera uma following current que aumenta em veloc e volume em direção à popa. 
+b) o streamline flow passando no casco causa um aumento de pressão na área da popa (onde as linhas de corrente fecham), 
+onde a veloc relativa da água com o casco será menor do que a veloc do navio, and will appear as a forward positive wake 
+(somando-se à wake devido à fricção). 
+c) no wave pattern do navio, as partículas das cristas movem para vante, e as dos cavados movem para ré. Essa veloc orbital 
+gera uma componente da wake que será negativa ou positiva se houver um cavado ou uma crista nas proximidades do prop. 
+-A total wake formada por esses 3 componentes quase sempre será positiva, (exceto em very high-speed crafts como 
+destroyers, onde ela será zero ou levemente negativa, pois: 1) o prop fica num cavado; 2) a streamline wake é peq devido ao casco 
+afilado; e 3) o prop tem um raio grande, parte dele ficando fora da frictional wake). 
+A) Medições: 
+> A wake fraction pode ser medida de várias formas. / Para sabermos os detalhes do wake pattern, a veloc do escoamento pode ser 
+medida por tubos-pitot, obtendo-se as velocs axial, tangencial e radial nas proximidades de onde se pretende instalar o prop. 
+Exemplos de curvas para as componentes axiais da veloc estão nas figs 17 e 18-a/b (para single/twin-screw ships, respect). 
+• Single screw: a wake é mais intensa na parte superior do disco, menos intensa down the vertical line, e muito mais fraca nos 
+outer lower quadrants. 
+• Twin-screw: a average wake no prop disk é menos intensa que a de um single screw de mesma fullness devido à localização 
+diferente; mas haverá uma concentração boa atrás dos bossings (ou atrás dos struts, no caso de open shafts). 
+- Em ambos os casos, a água tem um mov geral upward e inward, o que causa ainda mais assimetria. 
+> Quando a pá gira, uma seção de um raio qq passa por regiões de concentrações de wake muito diferentes. Podemos construir um 
+prop cujo pitch varia do hub para a ponta de forma a se adequar à average circunferential wake em qq raio particular. 
+- Essas "average wakes" são encontradas a partir de "wake diagrams" (como os das fig 17 e 18), ou podem ser medidas usando-
+se "vane wheels" de diferentes raios que integram a wake sobre um anel de um raio qualquer. 
+> A wake que representa o fluxo existente na ausência do propeller é chamada de "nominal wake". 
+- A nominal wake é modificada quando o prop está presente e desenvolvendo tração, e é possível deduzirmos um wake factor 
+que represente a "effective wake" sentida pelo prop. / Essa dedução do wake factor é feita a partir da comparação da 
+performance do prop atrás do casco e em open water, da seguinte maneira: 
+- Suponhamos que um prop move um casco com veloc "V", gerando a tração "T" quando gira com "n" RPM. Mas observando 
+as "open-water curves" do prop, veremos que, com a mesma RPM n, ele vai gerar a tração T a uma veloc VA menor que V. 
+Então, dizemos que VA é a "effective speed of advance", e a "effective wake fraction" será wT = V - VA / V. 
+- Esse método de se chegar à effective wake é baseado na "thrust identity" em open water e atrás do modelo. Mas pode-se 
+derivar uma wake fraction de forma análoga usando "torque identity". / Os valores de wake derivados de thrust e de torque 
+são um pouco diferentes. / Para os modelos, prefere-se as thrust-identity wakes, pois elas são mais fáceis de se medir. / Já para 
+os navios, freqüentemente é necessário usar a torque-identity wake, pois navios não possuem medidores de tração. 
+> O efeito do prop induzindo uma inflow velocity reduz um pouco a forward wake. Portanto a "effective wake" é 
+normalmente 3 or 4 points menor que a "nominal wake". 
+B) Conseqüências da não-uniformidade da wake: 
+> A não-uniformidade da wake trás outras conseqüências muito indesejáveis: 
+1- Quando as pás giram, são criadas forças e acoplamentos periódicos que são tx ao navio pela água e mancais, constituindo 
+uma das principais fontes de vibração no casco. 
+2- A variação da inflow velocity também leva a uma mudança periódica do AOA das pás e, consequentemente, is conducive 
+to the onset of cavitation (causando vibração, ruído e erosão das pás). 
+3- As unsteady forces nas pás e a possível ocorrência de cavitação também ocasionarão pressões flutuantes no casco. Esse 
+problema pode ser ainda mais severo que as forças flutuantes no eixo do prop e mancais! 
+- Portanto, deve-se dar atenção ao formato das stern lines, appendages (como bossings) e às prop clearances, de forma a 
+garantir que as desigualdades da wake sobre o prop sejam as menores possíveis. / Para tal, é bom fazer experimentos com 
+modelos bem cedo no projeto, usando tufts ou dyes para visualizar o escoamento, ou fazendo pitot survey. 
+7 
+
+
+===== PAGINA 25 =====
+
+3E3JSSS8S!!! 
+> Há uma Série de Fourier que calcula a wake, e que serve para ilustrar a sua não-uniformidade. / Hadler aplicou resultados de 
+pesquisas na Série de Fourier para obter infos sobre as flutuações do âng de pitch hidrodinâmico quando a pá completa uma 
+rotação. / Conclusões sobre as forças flutuantes no eixo do prop geradas pelo campo de velocs não-uniformes (tab 2): 
+a) Os unsteady thrust and torque são determinados apenas pelos termos de Fourier que são múltiplos inteiros do núm de pás. 
+b) Os unsteady bending moments (M) e side forces horiz e vertical (F) são determinados por dois termos bizulentos 
+específicos da série de Fourier a múltiplos inteiros da freqüência das pás. 
+- A tab 2 fornece os componentes harmônicos do campo de wake axial que contribuem para as unsteady forces (ela não 
+fornece as freqs das unsteady forces). Assim, pode-se fazer uma escolha consciente do número de pás (Z). 
+- Além do num de pás, o conteúdo da harmonic wake tb determina as unsteady forces. Esse conteúdo harmônico e a 
+amplitude dos componentes de Fourier dependem da forma do casco e, possivelmente, da veloc. 
+(Resumindo esse bizuleu todo, a Série de Fourier, por meio de uma análise dos componentes harmônico da esteira, ajuda 
+no cálculo das forças variantes experimentadas pelo prop e na escolha da quantidade de pás.) 
+> Hadler chegou às seguintes conclusões: 
+a) O wake pattern é ppalmente afetado pela forma do aftbody. As variações do forebody têm efeito negligenciável. 
+b) ?? As amplitudes dos harmônicos para os velocity components logitudinal e tangencial decrescem com o aumento da ordem. 
+Esse decréscimo é contínuo para open-stern ships (twin-screws), mas as amplitudes pares são mais fortes para single-screw ships 
+de popa convencional?? 
+c) Sobre as distribuições radiais da velocidade de avanço do prop na água (veloc do navio - veloc da esteira): 
+- Open-type sterns (twin-screws): tendem a ter uma distribuição quase uniforme, e de magnitude comparável à veloc do modelo. 
+- Single-screw de popa convencional: prove uma distribuição com valores menores no inner radii e maiores no outer radi. As 
+magnitudes dependem da finura e da forma do afterbody (quanto mais fina for a popa, maiores serão os valores das velocs). 
+d) A variação da veloc tangencial é grande e de natureza senoidal devido ao upward flow no plano do prop (que aparece 
+predominantemente no Io harmônico). Isso, junto com a grande amplitude do Io harmônico da veloc longitudinal, resultará em 
+shaft-frequency vibration quando houver imperfeições na geometria da pá; o que causará desbalanceamentos hidrodinâmicos. 
+e) Para minimizar a cavitação e vibração, as open-type sterns (ou "transom Sterns", que têm struts suportando o eixo) 
+são melhores que as popas convencionais de single-screw ships. 
+(transom = viga horiz acima da janela) 
+f) O leme pode ter um efeito na veloc média longitudinal, mas não tem um efeito apreciável nas derived quantities.?? 
+g) O efeito das variações de velocidade do navio parece ser pequeno. 
+h) O efeito da localização do propeller na "aperture" (na "clara") pode ser importante. 
+i) Mudanças de deslocamento e trim podem resultar em grandes variações de wake pattern e, portanto, influenciarão 
+nas caracts de cavitação e vibração. 
+> Van Manen: estudou vários modelos. / Calculando com 4 pás, o Io harmônico da flutuação de torque seria de 6,5% do torque 
+médio, e o Io harmônico da flutuação de thrust seria de 10 % do thrust médio. / Para um prop de 5 pás, esses valores seriam de 
+1,5 e 2 %, respec. / Ele tb notou que fine-ended vessels podem ter flutuações muito maiores. 
+> Os desenhistas querem conhecer o wake field uma vez que o "lines plan" estiver traçado, ou ao menos conhecer a amplitude dos 
+harmônicos quando as ppais caracts do navio forem estabelecidas, de forma a poder alterar a forma do casco para preencher certos 
+requisitos. Por isso, tem-se tentado solucionar as eqs de movimento de um fluido viscoso turbulento para que se possa determinar, 
+teoricamente, a distribuição da wake esperada; mas isso ainda não é possível, (tem que recorrer aos modelos) 
+> Conclusões de cientistas que tentaram correlacionar a forma do casco com a wake distribuition: 
+a) Harvald: mediu a esteira de single-screw merchants de diferentes formas de aft body. 
+- A veloc influenciou levemente. 
+- A influência do trim foi pequena quando o calado na PP AR era igual. 
+- A mudança do calado AR tinha um efeito pronunciado na wake distribuition, especialmente na parte sup do prop disk. 
+- Pode-se obter um wake field muito melhor se mudarmos o aft body introduzindo um "stern bulb", removendo o 
+"deadwood" (soleira, cadaste, calcanhar ?) e aumentando a "aperture" acima do eixo do prop, (fig 19). 
+- A aplicação de um "partial stern tunnel" mostrou algum benefício para o effective wake field. 
+b) Holden: fez um trabalho para reduzir, nos estágios iniciais de desenho, as forças de pressão no casco causadas por cavitação do 
+prop. Ele chegou aos seguintes requisitos para wakes com pequenos valores de pico: 
+- Evitar grandes waterline angles e blunt waterline endings. 
+(= formas cheias ou com terminações abruptas) 
+- O máx ângulo da waterline com relação ao eixo longitudinal do navio deve ser mantido abaixo de 30°. 
+- Para full ships, o âng com relação à vertical da frame situada a 0,1 Lpp AV da PP AR, na waterline, através do eixo do prop, 
+deve ser < 17°. Isso significa que as frames devem ser "U-shaped" nessa região....bla...bla.... 
+c) Hoekstra: mediu o effective wake field aplicando um difusor para simular a ação do prop. Pela variação do comp do difusor 
+(mantendo cte o âng do difusor), ele obteve uma variação da propeller loading simulada. As medidas das velocs axial e transversal 
+para um tanker de popa bulbosa mostraram que, com o aumento do prop loading: 
+- O bilge vortex (vórtex do bojo) se desloca radialmente em direção ao eixo do prop e para baixo. 
+- A força do bilge vortex aumenta. 
+- O wake peak associado com o centro do bilge vortex fica reduzido. 
+- A "wake fraction" diminui. 
+8 
+
+
+===== PAGINA 26 =====
+
+3) REAL AND APPARENT SLIP RATIO: 
+> Real silp ratio - SR: é o único guia real para a performance do navio, e requer o conhecimento da effective wake fraction. 
+Ela já foi definida (pag 5) como: 
+SR = 1 - (VA / P.n) 
+> Apparent Slip Ratio - SA: é a slip ratio calculada para um prop trabalhando atrás de um casco usando a veloc do navio V, ao 
+invés da veloc de avanço VA. / Ela necessita apenas dos valores de V, RPM e pitch do prop para ser calculada. 
+SA=1-(V/P.n) 
+4) RELATIVE ROTATIVE EFFICIENCY (de um prop): 
+> Open Water Efficiency - %: para um prop com uma inflow velocity uniforme, % e: 
+n0 = T.VA / 2.ILn.Q0. 
+("Qo" é o torque medido em open water quando o prop entrega uma tração "T" a "n " RPM) 
+> Efficiency Behind the Hull - nB: atrás do casco, na mesma veloc efetiva de avanço "VA", a tração "T" e a RPM "n" estarão 
+associadas a um valor diferente de torque "Q", e a Efficiency Behind the Hull será: 
+nB = T.VA / 2.n.n.Q. 
+> Relative Rotative Efficiency - ijR: é o nome dado à razão entre a Behind e Open efficiencies: nR = uB / % = Q0 / Q 
+> Essa diferença de torque entre open water e behind the hull tem dois motivos: 
+a) devido à wake heterogênea atrás do modelo, o fluxo sobre uma dada seção de pá, na medida em que esta gira, difere muito 
+do fluxo encontrado em open water, de forma que a eficiência de qq blade element particular não será necessariamente a mesma. 
+b) as quantidades relativas de fluxo laminar e turbulento nas blades podem ser diferentes, pois a turbulência na água AR 
+do casco é maior que em open water. 
+>0 valor da relative rotative efficiency não se afasta muito da unidade. Ele fica entre 0,95 e 1,0 para twin-screw ships; e entre 1,0 e 
+1,1 para OS single-SCrew. 
+(Minha conclusão: apesar da esteira mais perturbada, o single-screwpode ser mais eficiente) 
+5) AUGMENT OF RESISTANCE AND THRUST DEDUCTION: 
+> Quando um casco é rebocado, há uma área de alta pressão na popa, que resulta numa componente de força para vante, que reduz a 
+resistência do navio. Com um casco auto-propulsado, entretanto, a pressão em parte dessa área é reduzida pela ação do prop que 
+acelera a água que flui na sua direção. Então a componente de força para vante fica reduzida e a resistência do navio aumenta, 
+bem como a tração necessária para movê-lo. 
+> Se a resistência de um casco rebocado for RT na veloc V, a tração T necessária para propulsá-lo na mesma veloc V será 
+maior que RT. Esse aumento é chamado de "Augment of Resistance" (T - RT), que tb pode ser expresso na forma de aumento 
+de tração em relação à resistência. Então: 
+"Resistance Augment Fraction" = a = T - RT/ RT; ou 
+T = (1 + a) . RT; onde 
+(1 + a) = "Resistance Augment Factor" 
+> Embora a análise do ponto de vista da resistência seja mais lógica, é comum analisar o aumento da resistência como uma dedução 
+da tração disponível no prop; de forma que, embora o prop proveja uma tração de T tons, apenas RT tons estarão disponíveis para 
+superar a resistência. / Essa perda de thrust (T - RT) é expressa como uma fração da tração T. Então: 
+"Thrust-Deduction Fraction" = t = T - RT / T ; ou 
+RT = (1 -1). T ; onde 
+(1 -1) = "Thrust Deduction Factor". 
+> E comum instalar lemes e outros stern appendages no modelo para a realização de testes auto-propulsados, o que introduz 
+problemas para a interpretação de "t". É normal se considerar "RT" como sendo a "bare hull resistance"; entretanto, T terá que 
+superar não apenas a resistência aumentada Rr.(l + a), mas tb a resistência do leme e de outros appendages. Nesses casos, o valor 
+de "t" encontrado nos experimentos dependerá não apenas da forma do casco e das caracts do prop (como refletido no aumento de 
+a), mas tb dependerá do tipo de leme, sternpost and so on. Portanto, cuidado ao interpretar estudos publicados. 
+6) HULL EFFICIENCY: 
+> Effective Power = PE = RT.V > é proporc. ao trabalho realizado ao se mover um navio numa veloc V contra uma resistência RT. 
+> Thrust Power = PT = T.VA 
+> é proporc. ao trabalho realizado pelo prop ao entregar uma tração T numa veloc de avanço VA. 
+> A razão ente o trabalho realizado "on the ship" e o trabalho realizado "by the screw" é chamada "Hull Efficiency" T)H-
+nH = PE/P T = Rr-V / T.VA 
+ou: 
+nH = 1 -1 /1 - w 
+(na Taylor notation); ou 
+n H = l + w F / l + a = ( l + wF).(l -1) 
+(naFroudenotation). 
+7) PROPULSIVE EFFICIENCY: 
+> Quasi-Propulsive Coefficient - nD: foi definido como: 
+nD = effective power / delivered power = PE / PD 
+(onde: PD = T.VA/nB = 2.n.n.Q) 
+> Mexendo com as letras, vemos que: 
+nD = nH. nR. % 
+(quasi-prop efficiency = hull efficiency x rotative efficiency x open prop efficiency) 
+> Pela Froude notation: 
+nD
+ = 0- + W F ) - ( 1 - O-^IR-'HO 
+> Essa divisão do r\0 ajuda a entender o problema da propulsão e a estimar a eficiência da propulsão para fins de desenho. 
+9 
+
+
+===== PAGINA 27 =====
+
+SECTION 6 - GEOMETRY OF THE SCREW PROPELLER 
+1) GENERAL CHARACTERISTICS: 
+> O desenho de um prop quase sempre começa com uma superfície helicoidal que, ou forma a face da pá, ou serve como uma 
+"reference frame" a partir da qual são medidos offsets para se descrever a pá. Essa sup helicoidal pode ser uma "true one" ou uma 
+"warped helicoidal surface" (= distorcida), com características a serem descritas. 
+> Uma "true helicoidal surface" é uma superfície de curvatura dupla da qual cada "line element" é uma "helix" de pitch constante. 
+> Se os "helical-line elements" tiverem pitchs diferentes, ou se a linha radial que deu origem à sup helicoidal for curva, será obtida 
+uma superfície mais genérica, a qual, embora não possa ser descrita matematicamente, será inteiramente descrita se dermos a 
+forma da linha de referência radial e os pitchs de um número de "helices" a várias distâncias do eixo OO'. 
+> Essa sup genérica é chamada "pitch surface" do prop; e os line elements (que são true helices) são chamados "pitch lines". 
+Essa sup genérica, quando usada como uma "frame" de referência, permite-nos descrever qq tipo de prop possível de se usar. 
+2) GEOMETRY OF HELIX: 
+> Fig 24: se um cilindro de raio "r" for desenrolado, a helix será uma linha reta; e tan <P = P / 2.n.r (O = pitch angle) 
+> O pitch P é a distância que r avança enquanto faz uma revolução completa (i.e, quando 8 varia 2JI). 
+Então, para qq outro valor de 8, r avançará uma dist = P.8 / 2n. 
+> Se o âng 8 e o tempo t começarem a ser medidos quando a linha geradora estiver na vertical, então: 8 = w.t. 
+> O mov de um ponto qq na helix pode ser descrito matematicamente por coords retangulares: x (coincide com o eixo OO'), y e z. 
+x = P.8 / 2.n 
+y = r.sen 8 
+z = r.cos 8 
+> Para obter o comp expandido de uma parte qq da helix (por ex: "aç" na fig 24), desenrolarmos o cilindro e aplicarmos Pitágoras 
+(ab = r.8;ebç = P.8/2JI). 
+3) PROPELLER DRAWING: 
+> A escolha do outline da pá depende de vários design features. Assumiremos que essas escolhas já foram feitas. 
+>• O desenho normalmente consiste de 4 partes (fig 25). / Por simplicidade, assumiremos que o prop possui seções com "flat faces". 
+a) Side Elevation: mostra: 
+> O "rake" do prop (i.e., o fore-and-aft slope da linha geradora). 
+> A projeção do outline da forma da pá no plano longitudinal da centerline. 
+> Uma "seção hipotética" mostrando a variação da espessura máxima da ponta à raiz. / Como essa linha não está contida no 
+plano long da centerline, não há uma "true plane section" through the blade nessa posição (daí a thickness line ser hipotética). 
+b) Expanded Blade Outline: mostra: 
+> Os detalhes das "section shapes", com as "pitch faces" desenhadas paralelas à base line e no raio correto. / As pitch faces são 
+seções cilíndricas, com a espessura medida paralelo ao eixo (e não perpend à face). / As formas das seções são mostradas por suas 
+dimensões, sendo fornecidos: a espessura a várias dists ao longo da corda, as espessuras e os raios das edges, etc. 
+> O "expanded blade outline", obtido ao unir as extremidades das sections que foram traçadas com as pitch lines paralelas ao eixo. 
+> A "linha de máxima espessura" das seções. 
+c) Pitch Distribution Diagram: mostra: 
+> A variação do pitch com o raio, a partir do eixo (caso ele não seja cte"). / No exemplo, o pitch é cte na parte de fora da pá, e 
+diminui em direção à raiz (o que é comum em props de NM de 1 eixo). 
+d) Transverse View: mostra: 
+> A "projeção transversal" da pá. 
+> O "developed outline" da pá, desenhado através das edges da pá quando as larguras da pá forem assentadas sobre helical arcs. 
+> A "linha de máxima espessura" das seções. A pos da espessura máx das seções pode ser colocada ao longo de cada linha radial. 
+> A quantidade de "skew". 
+e) Observações: 
+> Detalhes dos desenhos: 
+- E1 e F1 serão pontos da blade outline projetada transversalmente. 
+- E n e F u serão pontos da blade outline projetada longitudinalmente e da developed blade outline. 
+> A developed outline não é fácil de desenhar. Mas para a maioria dos propósitos, é suficiente expandirmos a section ao longo de 
+um arco de círculo que tenha um raio igual ao raio de curvatura da helix no ponto C. / Essa construção é quase que exata para 
+blades de larguras finas e médias; mas não é tão precisa para blades mais largas. 
+> Fig 26: se as seções não forem do tipo "flat face and circular back" (se tiverem forma de aerofólio com nose e tail levantados da 
+pitch face), as projected e developed outlines obtidas para a mesma largura total da corda serão um pouco diferentes. 
+> As caracts dos props são expressas na forma de razões adimensionais. As mais comuns são (fig 8): 
+- Pitch ratio = PR 
+= prop pitch / prop diameter = P / D 
+- Disc area = A0 
+= n.r2 
+- Expanded area ratio 
+= AE de todas as pás, fora do hub / A0 
+- Developed area ratio 
+= AD de todas as pás, fora do hub / A0 
+- Projected area ratio 
+= AP de todas as pás, fora do hub / A0 
+- Mean width ratio 
+= mean developed or expanded width de uma pá / D 
+- Blade width ratio 
+= max width / D 
+- Blade thickness 
+fraction 
+= espessura máx da blade produced to shaft axis / D 
+= to / D (fig 25-a) 
+10 
+
+
+===== PAGINA 28 =====
+
+HP^^BB 
+4) CONSTRUCTIONAL DETAILS OF MARINE PROPELLER: 
+A) Número de pás: 
+> Por muito tempo, os props foram feitos com 3 ou 4 pás, the later being almost universal among single-screw ships. Experimentos 
+mostravam que tais props eram mais eficientes, e que qq aumento do num de pás causaria interferência entre elas (próximo ao 
+hub), acarretando perda de eficiência. 
+- Ainda, se a "expanded area" total for mantida cte, o aumento do num de pás fará com que elas tenham uma aspect ratio maior e 
+uma corda menor; o que fará a razão L/D das sections diminuir (porque as pás serão um pouco mais espessas para satisfazer a 
+requisitos estruturais). A aspect ratio maior não trará nenhum benefício se o camber e a distribuição do pitch puderem ser 
+otimizados. 
+- Por outro lado, o aumento do num de pás resultará em melhor eficiência se as pás isoladas tiverem o mesmo L/D. Esse efeito, 
+contudo, é mais do que compensado pela redução da eficiência. 
+> Com o aumento da veloc e potência dos navios, particularmente dos de 1 só prop, tornou-se necessário aumentar a blade area para 
+retardar o onset da cavitação. E para se evitar blades excessivamente largas, o aumento do num de pás foi uma alternativa. 
+- Esse mesmo aumento de potência (e, portanto, de tração produzida por pá) tb aumenta as forças periódicas transmitidas do prop 
+para o casco (pela água por efeitos de pressão; e pelos mancais do eixo); o que intensificou os problemas de vibração do casco. 
+- Essas propeller forces são predominantemente de blade frequency. O aumento no num de pás não apenas reduz a tração por pá (o 
+que tb reduz a intensidade das disturbing forces), mas tb aumenta a sua freqüência. Em certos casos, isso pode ser usado para se 
+evitar condições de ressonância, pois a vibração será menor devido ao aumento no "internal dumping" da estrutura do casco nas 
+freqs mais elevadas. / Por esses motivos, muitos navios estão sendo equipados com props de 5, 6 ou mais pás. Com um desenho 
+esmerado, tais props precisam pagar apenas um pequeno preço em eficiência (if any). 
+> Resumo: os props com mais de 3 ou 4 pás são menos eficientes (mais interferência; > AR e > espessura —» < L/D). 
+- Mas o aumento da pot dos navios: 
+1) causava cavitação. Isso levou ao aumento da blade area e, para não aumentar muito a largura, levou ao aumento do num de pás. 
+2) aumentava as forças periódicas tx do prop para o casco, gerando muita vibração. Isso levou a aumentar o num de pás para: 
+reduzir a tração por pá, e para aumentar a blade frequency (o internal dumping do casco é maior nas freqs mais elevadas). 
+B) Construção: 
+> Solid propeller: as pás são cast (fundidas) integralmente com o hub. 
+> Built-up propeller: as pás são fundidas isoladamente, then bolded to the hub. 
+- Vantagens: permite substituir pás danificadas e fazer pequenos ajustes de pitch (by turning the blades on the hub). 
+- Desvantagens: higher first cost, maior peso, e um pouco menos eficiente (porque o hub é um pouco maior). 
+> Hub: é cilíndrico ou cônico, seu diâmetro vai de 0,15 - 0,25.D, é bored (vazado) para encaixar no taper da ponta do eixo, e 
+normalmente é preso a este por uma ou mais "keys" e um "nut", coberto por uma streamlined "fairwater or "cap". 
+> Rake: as pás normalmente têm um rake para trás. Isso aumenta a clearance com o casco, bossings ou shaft brackets, o que 
+beneficia a eficiência e reduz as forças periódicas do prop que induzem vibrações no casco. 
+> Skew: tb reduz as forças periódicas, pois os bordos de ataque de skewed blades penetram de forma mais suave as "wake 
+concentrations" atrás do casco e appendages. 
+> Área das pás: as "developed blade-area ratios" vão de 0,35 a 1,0 ou mais (nos high-speed ships). 
+- A área das pás depende da thrust loading. 
+> Espessura das pás: uma vez que a área da pá e a forma do "blade-outline" forem escolhidas, as espessuras das seções devem ser 
+tais que pro vejam a resistência estrutural necessária. 
+- Do ponto de vista da eficiência hidrodinâmica de uma seção de pá, é desejável manter a espessura tão fina quanto possível. 
+- Mas do ponto de vista de se atrasar o onset da cavitação. uma pá mais espessa é benéfica. 
+- Esses requisitos conflitantes resultaram em desenhos de pás que não são mais tão finas como antigamente. 
+> Materiais: devem ser leves, ter um acabamento smooth na superfície, e ter alta resistência à erosão. 
+- Os mais usados são: cast iron, cast steel, manganese bronze e diferentes ligas (allloys) de manganês-bronze-níquel-alumínio: 
+• Ligas e manganese bronze: resultam em tough blades, possuem pequena densidade, suportam maiores stresses, pegam alto 
+polimento, são resistentes à erosão da cavitação, e permite a construção de props finos, leves e de alta eficiência. 
+• Cast iron: são mais baratos, entretanto: 1) têm pouco "tensile strength" (= resistência de ruptura); 2) têm que ser relativamente 
+muito mais espessos; 3) corroem muito em água salgada; 4) têm pouca resistência à erosão da cavitação; e 5) o working stress 
+suportado é aprox metade do manganese-bronze, por isso são mais espessos e pesados. / Essas caracts reduzem a sua eficiência. 
+Mas são usados em harbour tugs e icebreakers porque tendem a partir cleanly ao bater, sem causar danos ao casco ou à máq. 
+C) Pitch: 
+> Pitch ratios (P/D, fig 8): variam de 0,6 (para highly loaded props, como tugs) a 2,0 ou mais (para high speed boats). 
+> Distribuição radial do pitch: 
+- Nos twin-screw às vezes é çte. / Mas nos single-screw, onde a variação da wake sobre o disco é muito maior (alta 
+concentração nos inner radii), o pitch normalmente é reduzido em dir ao hub. 
+- Em highly loaded props, o pitch tb pode ser reduzido em dir às pontas para diminuir a thrust loading nelas, visando 
+atrasar o onset ou reduzir a intensidade da "tip-vortex cavitation". 
+11 
+
+
+===== PAGINA 29 =====
+
+D) Cálculos do esforço e da espessura das pás: 
+> Como o comp da corda e a espessura das seções são parâmetros importantes no desenho do prop, e como os esforços das pás 
+devem satisfazer aos requisitos das SocClass, é necessário calcular a espessura mínima das pás cedo do projeto. Vários métodos 
+foram desenvolvidos para esse fim: 
+- Nos mais simples, a pá é tratada como uma cantilver, com o torque e tração totais atuando em alguns pontos estimados da pá; 
+daí calcula-se o esforço numa seção típica próxima à raiz. 
+- Um refinement desse método consiste em substituir as cargas concentradas de tração e torque por um "loading pattern" que varia 
+da raiz à ponta (acd circulation theory). / Mas esse método ainda ignora a variação da carga ao longo da corda, que só pode ser 
+computada por uma teoria mais sofisticada. 
+- Para NM convencionais, os métodos de cálculo mais simples são normalmente suficientes; e para a sua adequação às regras das 
+SocClass, os cálculos devem ser reduzidos a uma fórmula relativamente simples com coeficientes numéricos. 
+> Schoenherr estudou os "bending moments" devido às cargas hidrodinâmicas, à força centrífuga, ao rake e ao skew. 
+- Ele obteve uma fórmula para calcular a espessura mínima (de qq seção desejada) necessária para suportar os esforços sob 
+condições normais de operação. Essa fórmula foi simplificada para que os projetistas tivessem uma working rule simples, a saber: 
+a) assume-se que a espessura "t" decresce linearmente da raiz à ponta, pois quando t é calculada para uma seção próxima ao 
+hub e essa variação linear é assumida, a espessura em todos os lugares será maior que a necessária para suportar um esforço 
+constante. Portanto, basta calcular apenas o t para a seção que sofre o maior esforço. 
+b) foram assumidos valores médios para a forma da pá e para os parâmetros das seções. 
+c) foi eleito um ponto representativo na seção escolhida para se calcular o esforço, que fica na "face" da pá, na posição da 
+espessura máxima; onde o esforço é máximo e é "tensile" para ahead operation. 
+- Essas simplificações foram justificáveis em vista dos outros fatores desconhecidos do problema, como os "locked-in stresses" e 
+os efeitos dinâmicos de: blade vibration, ship motion in a seaway e crash reversals. 
+> O American Bureau of Shipping adotou a fórmula simplificada de Schoenherr para o cálculo da espessura mínima, escolhendo 
+como "strength section típica" a seção a 0,25 do raio. 
+- Para os "controlable pitch props", o ABS adotou uma fórmula para se calcular a espessura mínima em 0,35 do raio. 
+- Há tb fórmulas para se calcular o peso (W) e o momento polar de inércia (IP) das pás (excluindo o hub). O peso é importante do 
+ponto de vista do custo, e ambos são necessários ao se considerar shaft vibration. 
+> Outras SocClass adotaram outras fórmulas, mas os resultados encontrados de várias fórmulas para a "minimum section thickness" 
+diferem muito pouco. / Os fabricantes de props normalmente adotam espessuras superiores às fórmulas das SocClass, objetivando 
+incorporar maior margem de segurança contra falhas estruturais e reduzir a sensibilidade ao âng de ataque da distribuição de 
+pressão das seções da pás (o que melhora as caracts de cavitação). 
+E) Influência do Skew: 
+> Para props com grandes ângs de skew (> 40°), os cálculos de esforço com os métodos de cantilever beam resultarão numa 
+resistência insuficiente. As fórmulas mencionadas (Schoenherr) tb podem não ser válidas para esses props. 
+> Boswell mediu esforços com props de diferentes quantidades de skew, e viu que a cantilever beam theory não levava a valores 
+corretos dos principais esforços máximos, nem à sua correta distribuição ao longo da corda (fig 27). 
+- Para todos os props, o esforço máx ocorre na região entre o hub e 50 % do raio. 
+- Nos props sem skew, a 30 % do raio, o esforço ppal máximo está na metade da corda; e na medida em que o skew 
+aumenta, ele se move em dir ao bordo de fuga. 
+- A fig 27 mostra a dependência do esforço máx em rei ao âng de skew (note que os esforços inicialmente diminuem com 
+aumento do skew, e depois aumentam). I Esses resultados mostram apenas o efeito do skew no esforço (forças centrífugas não 
+foram incluídas). / Essa fig tb inclui resultados de props com skew e rake (warped propellers). 
+> Boswell tb mediu esforços num prop com 60° de skew. O esforço máx ocorreu perto do bordo de fuga. 
+- Os esforços foram bem menores para a backing condition, assumindo esforços principais máximos iguais na face e no back. 
+- Entretanto, nas condições relacionadas à "crash stop maneauver", os níveis elevados de esforços podem ser aumentados pela 
+deflexão elástica: quando a pá entorta, o effective pitch aumenta, e as cargas ficam ainda maiores. Isso pode levar a uma 
+"divergência estática", cuja instabilidade pode ocasionar avarias (um prop é mais suscetível a essa instabilidade quanto maior 
+for o skew). Contudo, essa instabilidade ainda não foi observada em props náuticos. 
+> Luttmer analisou a influência do skew nos esforços em backing props em condições de crash-stop maneauvers. Ele encontrou 
+as isocurvas de stress da fig 28, que mostram, ao contrário da pesquisa mencionada acima, que os esforços máxs estão na ponta 
+(bordo de fuga para normal ahead condition). Esses esforços aumentam muito com o skew. 
+> As forças e stress variáveis gerados pela operação do prop no wake field tb são importantes. As unsteady forces dependem 
+do conteúdo harmônico do wake field e da quantidade de skew, e ainda podem ser causadas pela vibração do prop. 
+- Para props convencionais, a freq natural fundamental da pá é normalmente maior do que as freqs de excita ção primária. 
+- Para props de skew elevado, a freq natural diminui significativamente (para corda e espessura constantes). 
+- Mas para stresses constantes, esse efeito será menor. 
+12 
+
+
+===== PAGINA 30 =====
+
+SECTION 7 - CAVITATION 
+> Cavitação é um fenômeno observado em highly loaded props nos quais, além de uma certa revolução crítica, ocorre um 
+breakdown progressivo no fluxo e uma conseqüente perda de tração. / Em sua forma extrema, ela pode evitar que o navio 
+atinja sua veloc desejada. Mas antes disso, ela se manifesta através de ruído, vibração e erosão das pás, struts e lemes. 
+> Antigamente, esse problema se restringia a high-speed ships, mas na medida em que as velocs e potências aumentaram, o erosion 
+aspect of cavitation se tornou mais e mais importante, particularmente nos very high-powered single-screw ships. 
+- Nesses navios, há uma grande variação da wake no disco do prop, o que é pró-cavitação, portanto é necessário dar mais 
+atenção para as "prop clearances from the hull" e para os efeitos do overloading do prop em mau tempo ou quando o fundo do 
+navio está "fouled", (águas rasas ou craca ?) 
+- É necessário considerar o problema da cavitação antes de se partir para os métodos de desenho do prop. 
+A) Mecanismo da Cavitação: 
+> Consideremos uma blade section a um peq AOA num escoamento 2-D uniforme e não-viscoso (fig 29). / V0 e p0 são a veloc e a 
+pressão do escoamento não perutrbado. / Para uma linha de corrente particular (como AB), Bernoulli diz: 
+Po + %.p.V0
+2 = cte. 
+> 
+essa mesma eq vale para um ponto P (com Vi e pi) 
+ôp = pi - po = i4.p.(V0
+2 - Vi2). 
+> 
+ou seja, se Vt > V0, então p t < p0. 
+> Num ponto S próximo ao nariz, o fluxo se divide e o fluido é girado 90°, perdendo toda a sua veloc e momentum na direção de 
+movimento ao longo da linha de corrente. Portanto, no ponto S, Vi = 0. / E vemos que: 
+ôp = pi - po = í4.p.V0
+2 
+> 
+ou seja, o aumento da pressão em S acima da pressão ambiente é Ví.p.Vo2 
+S é chamado de "Ponto de Estagnação" 
+"Pressão Dinâmica" do escoamento = "Ram Pressure" = "Stagnation Pressure" = "q" = V^p.Vo2 
+> O fluido que passa por cima (pelo back) possui maior veloc e menor pressão, e o que passa pela face possui menor veloc e maior 
+pressão. Essa diferença de pressão é que gera a sustentação. 
+- Num ponto qq do back onde a pressão é pi e a veloc é Vi, temos que: õp = p t - p0 
+- Quando p! for igual a zero (ôp = - p0), água não mais conseguirá suportar a tensão, o fluido irá se partir e haverá a formação de 
+bolhas e cavidades (correrá a cavitação!). 
+B) Cavitation Number: 
+> Na prática, isso ocorre um pouco mais cedo: quando p t tiver caído não a zero, mas ao valor da pressão de vapor da água "pv", na 
+qual ela começa a ferver e a formar cavidades. 
+- O critério então será: 
+Po + ôp = p v, ou õp = - (p0 - pv) 
+- E a cavitação começará quando: 
+ôp / q > (p0 - pv) / q 
+o = "Cavitation Number" = (p0 - pv) / q 
+> Em qq caso, o pode ser calculado: pv depende a temp da água; p0 é a pressão estática total (arm + hidrostática); e q depende da 
+densidade e da veloc do escoamento. 
+- O õp / q é fç da forma particular do perfil e do seu AOA, e pode ser calculado para diferentes posições around the section. 
+> Transient Cavitation: quando um prop estiver com o seu eixo imerso a uma prof "h", a pressão estática será pA + p.g.h. 
+Ao girar, a pressão numa dada section irá variar de +- p.g.r, onde "r" é o raio da seção. / Sendo assim, uma transient cavitation 
+ocorrerá primeiro na parte superior do disco quando o ôp for pA + p.g.h - p.g.r - pv. 
+> A veloc a considerar para efeitos de cavitação é a que a pá sente, composta da veloc de avanço "VA", da veloc de rotação "«" e da 
+"inflow velocity". / Desconsiderando-se esta última (que não é conhecida unless a detailed screw calculation is made), a veloc 
+relativa "VR" past the blade será: 
+VR
+2 = VA
+2 + (ra.r)2 
+- Então chegamos à fórmula para o valor do "Local Cavitation Number" <TL: 
+CL = (PA + p.g-h - p.g.r - pv) / V2.p.(VA
+2 + (ra.r)2) 
+> O mar contém "dissolved and entrained air" e muitos "minute nuclei" de outros tipos que levam à formação antecipada de 
+cavidades ou bolhas a pressões maiores que pv. Logo, deve-se tomar uma margem ao avaliar a probab. de ocorrência de cavitação. 
+C) Gráfico da fig 29: 
+> Traçando uma linha horiz para mostrar o valor de (p0 - pv / q), visualizamos se uma redução da pressão em qq ponto do back será 
+suficiente para gerar cavitação. Nas condições representadas pela linha cheia, essa condição ainda não foi alcançada. Ao aumentar 
+o AOA, õp/q vai aumentar até que a máx redução de pressão no back alcance p0 - pv (pontilhado), daí ocorrerá cavitação. 
+> O lift total de uma blade section é a soma das áreas sob as curvas de pressão da face e do back. / Não é a redução média de 
+pressão que causa a cavitação, e sim a máxima redução. Portanto, para um dado lift (= para uma dada área), as sections mais 
+resistentes à cavitação serão aquelas com uma distribuição de pressão mais uniforme e com um pico menos pronunciado. 
+2) THE 4 TYPES OF CAVITATION: 
+- TRAVELING: ocorre no free stream, e consiste de bolhas individuais se movendo com o escoamento. 
+-FIXED: ocorre nas boundaries do corpo. É "fixa" pq a cavitação está atrelada ao corpo, sendo inerente a este, e não ao escoamento. 
+- VORTEX: um vortex ocorre num "high shear flow". Para compensar as forças centrífugas, a pressão no escoamento próximo ao 
+vortex diminui, e segue diminuindo em direção ao centro do vortex. Daí essas baixas pressões causam cavitação. 
+- VIBRATORY: pulsações no líquido normalmente causadas por objetos submersos que vibram perpend, à sua face produzem ondas 
+de pressão. A cavitação ocorre quando essas variações de pressão fazem a pressão no líquido cair abaixo da pressão de vapor. 
+13 
+1 
+
+
+===== PAGINA 31 =====
+
+> As formas de cavitação dos props são do tipo FIXED ou VORTEX. / Subdividindo-as quanto à sua natureza, temos: 
+SHEET: ocorre no bordo de ataque da pá, no suction side (back) quando o AOA é positivo, ou no pressure side (face) 
+quando o AOA é negativo. / Ela ocorre porque esses "non-shock free AOAs" (= AOAs onde o L não surge apenas devido ao 
+camber) causam pressões muito baixas no leading edge. / Pode se desenvolver e cobrir todo o suction side da pá, espalhando-se 
+para dentro em forma de folha, a partir do bordo de ataque. Neste caso, ela é bem estável (fig 30). / Mas quando o prop trabalha 
+numa wake, esse tipo de cavitação normalmente é muito instável. 
+BUBLE: ocorre primeiro na metade da corda das seções ou na posição de máx espessura, at shock-free entry of the flow (= L 
+gerado apenas pelo camber); e portanto ocorre em escoamentos que não estão descolados. 
+Aparece como grandes bolhas individuais, crescendo e se contraindo rapidamente, (fig 31) 
+CLOUD: ocorre atrás de "sheet cavities" estáveis e fortemente desenvolvidas e, de forma geral, ocorre em escoamentos 
+moderadamente descolados, nos quais vários peqs vórtices formam "kernels" (= cernes) para muitas peqs cavidades. 
+Aparece como um "mist" ou nuvem de bolhas muito pequenas (fig 32). 
+TIP VORTEX: o escoamento do pressure side para o suction side ao redor das extremidades causa um vórtice instável that is shed 
+into the flow from the tip or hub (como numa asa finita). / A pressão é menor no centro do vórtice, e é esse "vortex core" que 
+cavita. / Começa um pouco atrás da ponta da pá; portanto, nesse estágio inicial, ela é unattached to the tip (fig 33). / Quando fica 
+mais forte, o cavitating tip vortex becomes attached (fig 34). 
+HUB VORTEX: é composto pelos vórtices combinados das pás nas suas raízes, que são muito fracos para cavitarem por conta 
+própria. Mas com uma forma de hub convergente, o hub vortex pode ser muito forte e então cavitar. / A cavitação resultante é 
+muito estável, e aparece como uma espia grossa onde os "strands" correspondem ao núm de pás (fig 35). 
+3) LAW OF SIMILITUDE FOR CAVITATING PROPS: 
+> Por análise dimensional, o thrust coefficient tern a forma: CT = T / /4.p.D2.VA
+2 = f (»»), onde (....) possui 4 termos. 
+> Se esses 4 termos tiverem os mesmos valores para dois props geosims de tamanhos diferentes, os flow patterns serão similares. 
+Portanto, os testes têm que ocorrer no mesmo FN, mesmo RN, mesma slip-ratio ou "J-value", e mesmo valor de p/p.VA
+2. 
+- FN e RN: são incompatíveis. / Para testar na Froude speed of advance, o RN nas seções seriam baixos, o que geraria problemas de 
+escala na fricção das pás. / E se não seguirmos a lei de Froude, a distribuição de pressão across the disk será diferente no navio e 
+no modelo. / Esta última parece ser a menos mal; e embora não se consiga seguir a lei de Reynolds à risca, se construirmos 
+modelos bem grandes and run them at high speeds, o scale effect na fricção será pequeno, (i.e., é melhor seguir Reynolds) 
+- J-value: temos que trabalhar com o prop do modelo no mesmo slip do navio, ou seja, no mesmo valor de VA/n.D, ou "J". 
+- Termo p/p.VA
+2: na análise dimensional dos props, esse termo não foi o mesmo para modelo e navio (pois a pressão atm não era 
+reduzida em escala). Mas como as forças nas pás são oriundas de diferenças de pressão, elas não seriam afetadas. / Mas agora, 
+lidando com cavitação, p/p.VA
+2 tem que ser o mesmo, o que significa que "o" deve ser o mesmo, pois o = (p<> - Pv) / /4.p.VA
+2. 
+Logo, para cumprir a condição de c, a pressão ambiente deve ser reduzida para o valor correto. 
+4) CAVITATION TESTS WITH MODEL PROPELLERS: 
+> A máx redução de pressão que pode ser tolerada no back da pá antes da cavitação começar a ocorrer depende da "total pressure 
+head" na seção num dado instante (pA + p.g.h - p.g.r - pv). / Portanto, se a pressão atmosférica não for reduzida em escala, ela 
+será muito grande para que o prop do modelo forneça indicações adequadas do onset da cavitação. 
+> Por isso, há facilities onde a pressão pode ser controlada. A maioria é um circuito vertical, onde os testes são conduzidos na parte 
+superior (onde se regula a pressão do ar), e a água é bombeada na parte inferior (onde a maior pressão evita a cavitação da bomba). 
+> Para controlar a quantidade de ar dissolvido na água, alguns túneis foram desenhados sem a air chamber (a pressão era controlada 
+bombeando água). / Mas depois que ocorria a cavitação, o ar que se desprendia da água a tornava cloudy, e não dava para ver mais 
+nada. / Então, depois o ar era retirado por vácuo and the water dearated and cleared; e aí dava para fazer outro teste e observar os 
+resultados. / Entretanto, a água não era mais representativa em termos de quantidade de ar. 
+> Então um "resorber" foi inserido, consistindo de um tubo largo enterrado 21 m no chão (onde a água passava 4x e ficava um bom 
+tempo sob alta pressão para reabsorver o ar). Assim a água chegava à measuring section com a qty correta de ar dissolvido. 
+> Devido à falta de "nuclei" on model scale, o onset da cavitação pode ocorrer a maiores velocs (menores pressões). Portanto, em 
+algumas facilities, nucleis adicionais são gerados para que se possa chegar a uma boa correlação. 
+> A aparência da cavitação é observada por janelas, ou fotograficamente (com estrobelights). / Os testes são feitos a diversos valores 
+de a, e para cada um destes a slip-ratio é variada (por meio da variação da veloc da água ou da RPM). 
+> As condições nos túneis diferem muito das condições atrás de um navio. O fluxo é uniforme (ao invés irregular, por causa da 
+wake), é // ao eixo (o que raramente ocorre nos twin-screw ships), o conteúdo de ar é diferente, and so on. / Para compensar: 
+a) É comum se fazer testes com um valor de o de 15-25 % menor que o calculado para o navio (obs: a menor cavita mais cedo) 
+b) Alguns túneis simulam shaft rake através do movimento do eixo do prop no túnel em até 15°. 
+c) É comum simular a wake medida atrás do modelo inserindo partes suficientemente grandes de um modelo na frente do prop. 
+A forma do navio próximo ao prop é mantida como possível, mas a largura do modelo tem que ser reduzida devido às dimensões 
+do túnel (para compensar, coloca-se "wire gauze" nos flanks). / Usa-se um pequeno fore body padrão, pois a wake é quase que 
+100% determinada pelo aft body. / Outras adaptações podem ser necessárias. 
+d) Para se medir as pressões no casco, o eixo motor (que fica downstreams do prop) tem que ser suportado fora do modelo para 
+evitar as vibrações transmitidas pelo eixo (que iriam gerar flutuações indesejáveis de pressão). 
+e) Pode-se usar um towing tank ou um circulating water channel no qual se possa controlar a pressão (daí os testes de cavitação e 
+propulsão podem ser combinados). O MARIN tank é o único desse tipo. 
+14 
+
+
+===== PAGINA 32 =====
+
+5) PRESENTATION OF DATA: 
+> As caracts da performance de um prop num túnel de cavitação (T, Q, n) são plotadas em curvas separadas para cada valor de 
+a (fig 37). / Obs: quanto maior for o <T, será mais difícil de ocorrer cavitação! 
+> Diagrama de Newton (fig 38): os valores de J em que diferentes tipos de cavitação aparecem e desaparecem (a distintos valores 
+de o) são marcados numa o x J chart, onde são traçadas boundaries. / O lado direito da hatched line é a área livre de qq cavitação. 
+Como para cada veloc do navio existem valores de o e J, pode-se traçar uma linha mostrando onde fica a performance propulsiva 
+do navio com rei à cavitation picture. 
+6) DETRIMENTAL EFFECTS OF CAVITATION: 
+A) Effects on the propeller performance: 
+> A cavitação altera o escoamento sobre a pá, o que influencia a distribuição de pressão, o que reduz a Tração e o Torque. 
+- Fig 39 (AOA cte, o variando): a cavitação reduz o pico de pressão negativa no leading edge, espalhando-o sobre o comp da 
+corda. Essa mudança resulta num aumento inicial da sustentação, logo seguido por um decréscimo. 
+- O efeito no drag é bem parecido, só que ele não é tão extremo and "lags behind" (tem um atraso). 
+- Assim, a eficiência (L/D) das blade sections decresce com o aumento da cavitação, logo após um aumento inicial (fig 40). 
+- Para obter uma veloc definida, um prop cavitante suffering from thrust breakdown necessita de mais power; logo, de mais RPM. 
+> Essas mudanças na performance devido à cavitação dependem da geometria do prop e das suas inflow conditions. 
+- Para se determinar a performance do prop em condições de cavitação e para se desenhar props com ótimas propriedades de 
+cavitação, é importante conhecer as caracts de cavitação das seções de pá utilizadas. 
+B) Cavitation damage (erosão e entortamento do BF): 
+> Antigamente, achava-se que os danos encontrados em props eram causados por corrosão, e não por erosão. 
+> A erosão intensa e contínua leva a danos desastrosos. / Hidrofólios e outros crafts de alta velocidade sofrem erosão não apenas no 
+prop, mas também nos foils e em outras partes submersas, como struts e fins. 
+> O dano é causado pelo colapso de bolhas de cavitação. / A energia associada ao colapso é muito alta, pois isso ocorre na 
+forma de ondas de choque em partes muito peqs da sup da pá (daí a pitted nature da forma do dano chamado "erosion"). 
+- Acd uma teoria moderna, a energia que causa o dano é trazida por um re-entrant jet into the bouble on the boundary surface. 
+> Foi observada erosão em locais onde ocorre cavitação tipo cloud e bouble (as bolhas individuais colapsam no downstream 
+end da zona de cavitação, onde há um aumento da presão). 
+- O colapso tb ocorre atrás de cavitação tipo sheet quando a sheet se desfaz em bolhas individuais. 
+> Embora corrosão e erosão sejam fenômenos distintos, pode haver interação. / Se uma superfície lisa é erodida por cavitação, 
+a corrosão acelera o dano. / Se a corrosão começar, a superfície vai deixar de ser lisa, e o prop vai cavitar mais cedo. 
+> Prevenção da erosão: usam-se materiais apropriados para os props, ou aplica-se um coating protetor metálico ou não. Mas a 
+melhor prevenção é garantir que harmfull cavitation não ocorra. 
+- Se isso não for possível, uma "supercavitating condition" (= fully-developed cavitation) deve ser prevista no desenho do prop, 
+de forma a assegurar que as bolhas colapsarão no escoamento, downstream of the boundary surfaces. 
+> Outro dano é o bending dos bordos de fuga das pás (em direção ao pressure side) de high-powered single-screw ships, o que se 
+deve ao colapso simultâneo de um grande núm de bolhas nessa região. 
+- Explicação: leaving the wake peak, quando o AOA diminui novamente, um aumento do camber da blade section é induzido. 
+Daí a sheet cavitation do bordo de ataque desaparece e são formadas bolhas na mid-chord position. Quando a curvatura induzida da 
+blade section diminui, essas bolhas deixam a pá simultaneamente. O período relativamente longo disponível para o crescimento 
+das bolhas e a sua chegada simultânea ao bordo de fuga (com a sua alta pressão associada) causam um colapso simultâneo. 
+- Prevenção: é necessário ter um bom compromisso entre a camber distribution da seção e o AOA de trabalho da pá. (no projeto) 
+C) Cavitation-induced vibrations and noise: 
+> Vibrações dos navios são determinadas pelas caracts de resposta da estrutura e pelo nível de excitacão. 
+- As_forças vibratórias induzidas pelo prop no after body formam a maior parte dessas forças de excitacão. 
+> O maior efeito da cavitação são flutuações de pressão induzidas no afterbody. Não apenas as amplitudes são afetadas, mas 
+também o âng de fase das pressões flutuantes induzidas pelo prop. 
+- A amplitude das pressões vibratórias aumenta em até lOx, dependendo do núm de pás e da extensão da cavitação (a 
+variação do AOA gera grandes variações no tamanho das cavidades nas pás e, portanto, causa grandes variações 
+volumétricas). / Quando as cavidades nas pás não oscilam muito em tamanho, como ocorre num escoamento uniforme, as 
+flutuações de pressão num corpo nas proximidades não são tão aumentadas. 
+> A cavitação não influencia apenas as flutuações de pressão de baixa freq induzidas pelo prop no casco, mas tb aumenta os 
+níveis de ruído de alta freq. Esse aspecto é particularmente problemático nos navios de guerra, pois o aumento do underwater 
+self-noise com o aumento da cavitação (i.e., aumento da veloc) prejudica a detecção sonar. 
+15 
+
+
+===== PAGINA 33 =====
+
+7) CRITERIA FOR PREVENTING CAVITATION: 
+> Os critérios antigos para prever o onset da cavitação usavam um valor máx permissível de tração média por unidade de 
+"projected area" da pá, valor esse que tb variava em fç da imersão. Eles ainda servem como um guia inicial, mas não são 
+suficientes para desenhos mais elaborados. 
+> Para um mesmo CL, a máx redução da pressão no back depende da forma da seção e das condições em que ela opera. Portanto, 
+qq critério deve considerar esses fatores, e é difícil encontrar um que seja realmente satisfatório. 
+> Um approach moderno consiste em calcular as distribuições de pressão em torno de seções apropriadas (ou medi-las em túnel de 
+vento ou água), e então usar o âng de incidência real (obtido da teoria circulatória) para se determinar a máx redução de pressão 
+no back da seção, para comparação com a P. estática disponível (po - Pv)-
+- O âng de incidência real depende do wake pattern em que o prop trabalha, e tais cálculos devem ser feitos usando-se a 
+"average circunferential wake" em cada raio particular. Na prática, o âng de incidência varia acima e abaixo dessa média, e a 
+cavitação ocorrerá a uma RPM menor (deixe uma margem para isso). 
+- A cavitação tb será atrasada ou evitada se a wake for mais "even", o que se consegue dando atenção à forma do casco, às 
+clearances, ao prop rake e ao alinhamento de bossings ou shafts e struts com a direção geral do escoamento. 
+> Muitos props ainda são desenhados a partir de charts derivadas de methodical series tests. E mesmo quando se desenha pela 
+circulaton theory, é necessário começar com algum diâmetro tb determinado por uma design chart. Portanto, é necessário algum 
+critério geral para a escolha da área da pá para evitar cavitação excessiva e erosão sob condições normais de operação. 
+• Burrill desenhou um diagrama para isso (fig 45), no qual usou um coef "TC" para expressar a "mean thrust loading" nas pás, 
+plotado contra o "cavitation number" a 0,7.raio (CT0,7R). 
+Tc = T/Ap / Vi.p.VR2 
+(ondeAp = projected blade area) 
+- Foram sugeridas linhas para valores máx de T/AP para se evitar serious back cavitation in heavily loaded props (warships) 
+com seções especiais, e para props de NM. / Uma 3a linha indica os limites inferiores para se evitar face cavitation de props de 
+tugs e trawlers. / Depois se adicionaram linhas para indicar 2 lA ,5, 10,20 e 30 % de back cavitation. 
+- Observe que a linha de 5 % de back cavitation fica muito próxima do upper limit para NM. Como foi constatado que 
+muitos props trabalharam por anos nessa condição sem apresentar erosão, concluiu-se que essa linha de 5% back cavitation 
+constitui um critério adequado a se buscar in practical design calculations. 
+• Keller pariu outra fórmula bizulenta para se obter uma primeira indicação da required expanded blade area ratio (AE / A0). 
+> A questão do cavitation criteria no desenho de props não pode ser abordada sem que se incorpore a distribuição de pressões, o 
+AOA e o n dentro de um processo bem detalhado, para cada raio. Critérios como o de Keller e a Burrill chart não refletem a 
+influência da wake ou da geometria das pás (como pitch, camber e thickness distribution), e devem ser usados com cautela. 
+SECTION 9 - OTHER PROPULSION DEVICES 
+1) GENERAL: Outros sistemas de propulsão que não os screws apresentam vantagens em circunstâncias especiais. 
+2) JET PROPULSION: 
+> É o tipo mais antigo de propulsão mecânica de navios. / Um "impeller" ou pump dentro do casco puxa a água de fora, acelera-a e 
+descarrega a ré como num jato de veloc mais elevada. / Assim como um prop, ele é um mecanismo de reação, só que as partes 
+móveis ficam dentro do casco. 
+> Sua eficiência "n" não é muito boa. / Da fig 86, depois da calculera: 
+- massa descarregada per unit time = p.Vj.A 
+- mudança de momentum per unit time = Tração = T = p.Vj.A.(Vj - V) 
+- u = useful work / useful work + lost jet energy. = T.V / T.V + 1Á.p.VJ.A.ÇVJ - V)2 = ...bla bla... =2.V / Vj + V. 
+- A eficiência se aproxima de 1 quando Vj se aproxima da veloc do navio (V). Mas quando isso ocorre, a tração se 
+aproxima de zero (a menos que a área "A" seja muito grande). 
+- O mesmo acontece com um screw normal, ou seja, a eficiência aumenta na medida em que a quantidade de água usada 
+aumenta e a aceleração a ela imposta diminui. / Para se obter tais valores elevados de A, é melhor colocar o prop fora do casco 
+onde o preço pago pelo tamanho será bem menor. 
+> Na análise acima, se supôs que a água fluindo ao impeller tinha a mesma veloc do navio (não sofreu nenhuma perda no intake). 
+Mas se a água chegar ao impeller quase que sem veloc, este terá que acelerá-la de zero até Vj, e a eficiência diminui ainda mais. 
+Neste caso, u = 2.(Vj - V).V / V/, o que tem um valor máx de apenas 0,5 quando Vj = 2.V. 
+> Nos cálculos de n, tb foram ignorados: a eficiência do mecanismo de bombeamento, a fricção e outras perdas no intake e ducting. 
+Então a eficiência total será muito baixa na prática, como exemplificado na tab 27 (onde o "loss factor" é uma estimativa das 
+perdas de fricção e do intake, que vai de 0,25-0,5 para sistemas bem desenhados até 1,0 para os piores). 
+> Desvantagens adicionais: 1) perda de volume dentro do navio; 2) perigo de engastar o impeller com debris ou weeds (a menos 
+que haja resistful gratings no intake); e 3) dificuldade de se obter um escoamento uniforme no impeller quando a água advém da 
+boundary layer around bends in the ducts. 
+> Vantagens: 1) a mais importante é a habilidade de manobra se a descarga operar como um leme móvel; 2) se a descarga entregar 
+tração AR, as reversing gears são eliminadas: 3) ruído reduzido (impeler dentro do casco); e 4) não existe appendage drag. 
+> Produtos químicos ou explosivos podem ser usados para acelerar e descarregar a água. 
+- Tb pode-se usar uma jet engine ou um rocket acima d'agua . / Aircraft engines já foram usadas em racing boats. / Rockets são 
+pouco eficientes, a menos que a veloc do craft seja uma fração razoável da veloc do gás (e tb há problemas de calor e ruído). 
+16 
+
+
+===== PAGINA 34 =====
+
+3) PUMP JETS: 
+> Arranjo no qual o impeller fica externo ao casco. / É um impeller rotativo com fixed guide vanes AV ou AR (ou ambos), the 
+whole unit being enclosed in a duct or long shroud ring. 
+> Eram chamados de "Screw Turbine". 
+> Nos mais modernos, o diâmetro do duto aumenta da entrada para o impeller (a veloc cai e a pressão aumenta). 
+- O diâmetro do impeller é grande e o coef de thrust loading é menor, o que melhora a eficiência. Entretanto, paga-se uma 
+multa pela resistência do duto, e o resultado final depende das circunstâncias individuais. 
+- Comparado com um open prop, a veloc no prop é menor e a pressão é maior, o que retarda a cavitação e ruído. 
+- Se a clearance entre a ponta do impeller e o anel for pequena, a formação de vórtices de ponta é inibida. 
+4) PADDLE WHEELS: 
+> As primeiras tinham pás fixas e planas. 
+> Depois vieram as wheels de "curved feathering blades" (depasso variável), que para um mesmo âng de entrada na água tinham o 
+diâmetro da roda reduzido pela metade. / Com feathering wheels, a eficiência da propulsão se aproxima ou iguala à de um screw 
+prop onde o calado e a profundidade limitem o diâmetro do prop. 
+> É importante colocar a roda sobre uma crista do perfil de ondas para aproveitar o mov para vante da água. 
+- Isso já ocorre naturalmente com as stern wheels. Mas no caso de side wheels, deve-se fazer testes com modelos. 
+- Isso é fácil de assegurar em navios de veloc cte (como river passenger ships), mas pode ser difícil nos demais casos. 
+- Tugs rebocando não apresentam um wave pattern importante, de forma que os side paddles podem ser instalados onde for 
+melhor para a free-running speed do tug. 
+5) VERTICAL-AXIS PROPELLERS: 
+(há 2 tipos) 
+a) Kirsten-Boeing: as pás fazem meia volta quando o eixo do prop gira uma volta completa. 
+- Fig 87: o prop gira no sentido anti-horário com veloc angular ca, o navio se move da esq para a direita com veloc V0, a veloc 
+resultante sentida pela pá é Vr, e a força N normal à face da pá fornece uma tração T. 
+• Pás como em 87-a: a força resultante atua na direção do movimento do navio. 
+• Pás como em 87-b: a força resultante se opõe ao movimento do navio. 
+• Pás como em 87-c: a força resultante atua a ângulos retos com a direção do movimento do navio. 
+- Há um mecanismo que coloca as pás em qq posição intermediária, sendo possível governar e propulsar o navio ao mesmo tempo. 
+b) Voith-Schneider: a diferença é que as pás completam uma volta para cada volta do disco. C é um ponto no qual as pás são 
+conectadas por linkages, e que pode ser movido para diferentes posições no plano do disco (fig 88): 
+• Pás como em 88-a: a força resultante atua na direção do movimento do navio. 
+• Pás como em 88-b: a força resultante se opõe ao movimento do navio. 
+• Pás como em 88-c: a força resultante atua a ângulos retos com a direção do movimento do navio. 
+- Há um mecanismo para alterar a pos de C enquanto o prop está em operação, sendo possível governar e propulsar ao mesmo tempo. 
+- A dist de C ao centro O, adimensionalizada com o raio R, é chamada de "eccentricity", e é sempre < 1. 
+> Esses props são muito usados e muito práticos. Eles tb podem ser usados na proa para auxiliar em manobras. 
+- Pode-se governar ou parar o navio sem ter que parar ou inverter a máq (o que os torna excelentes para navios de águas restritas 
+que necessitam de altas potências a baixas velocs). 
+> Podem ocorrer 3 situações cinemáticas em fç do"Coef. de Avanço" = J = V0 / w.R: 
+J < 1 
+o centro da pá descreve um "epicycloid". 
+J = 1 
+o centro da pá descreve um "normal cycloid". 
+J > 1 
+o centro da pá descreve um "elongated cycloid" ou "trochoid". 
+> O "course" (= variação) do AOA efetivo ao longo do círculo da pá determina a unsteady load distribution ao longo do círculo da 
+pá e, portanto, também determina o sistema de vórtices livres despejado na corrente do prop. 
+- Sparenberg: a mínima perda de energia é alcançada se mantivermos constante a circulação das pás nas posições mais AV e 
+mais AR, de forma que apenas as pás próximas à mid-position, fore and aft, irradiem vórtices livres. / Essa relação para o mov das 
+pás é diferente no Voith-Schneider, que é mais recomendado do ponto de vista de construção. 
+> O pitch (P) para props de eixo vertical é o "traversed path" na direção da translação por revolução, a zero de slip. 
+(sem escorregamento). 
+- Hence: P/D = II.J, ou P = 2.ü.r.J / O pitch a zero de slip também está relacionado com a "eccentricity" (e = J). 
+> Van Manen testou vários modelos no MARIN tank: 
+- As maiores èficiências foram obtidas com props de 6 pás. 
+- Fig 90 (máxs èficiências x BP): note que o vertical-axis prop é 30-40% menos eficiente que os 2 Troots props tb mostrados. 
+- Fig 91: note que a eficiência aumenta com o aumento de J, e depois começa a cair. 
+- Ele também testou o mov de pás segundo o critério para eficiência ótima de Sparenberg, e obteve um aumento de 6% nos 
+valores de eficiência para excentricidades maiores que 1,0. 
+- Para velocs muito altas (J > 1), Van Manen encontrou elevados valores de eficiência (até 70%) para props cicloidais de 4 
+pás com excentricidade de 1,6 (o mov trochoidal das pás lembrou um peixe). But cavitation may set a bound to such steps. 
+Obs: - A tração e o torque podem ser avaliados pela integração do lift e do drag em cada seção de pá (similar à blade element theory). 
+- Ocorre um camber induzido pela órbita curva e pela rotação da pá em seu próprio eixo. 
+- Pás retangulares apresentaram uma eficiência 2 % maior que as elípticas. 
+17 
+• w.R>V0 
+• w.R = V0 
+• w.R<V0 
+
+
+===== PAGINA 35 =====
+
+gggg 
+6) CONTROLLABLE-PITCH PROPELLERS: 
+> As pás são montadas separadamente no hub, cada uma no seu eixo. 
+- Quando se muda o pitch, todas as seções mudam para o mesmo âng, e assim a pitch face deixa de ser uma helical surface. 
+- O mecanismo de mudança de pitch consiste de pistões hidráulicos dentro do hub, atuando em "crossheads". 
+- São quase tão eficientes quanto um fixed blade prop em qq condição. A única diferença é que o hub é um pouco maior. 
+- Eles eliminam a necessidade de um mecanismo de reversão em reciprocating engines, e também eliminam a turbina AR em 
+navios movidos a turbina. Isso reduz peso, custo, e agiliza a reversão em emergência. 
+> É vantajoso para navios que têm que se adaptar a distintas condições operacionais (como tugs e trawlers) e para navios cujo prime 
+mover não é reversível (normalmente NGs movidos a gas turbine). 
+- Ex: reduzindo o pitch quando rebocando, a máq de um tug pode continuar trabalhando na máx RPM. Assim ela 
+desenvolverá a máx pot. sem aumentar a pressão efetiva média nos cilindros (o que é importante nos motores a diesel). 
+- Ex: para ferries que têm que parar, avançar e reverter repetidamente, full power AR estará disponível pela simples reversão do 
+pitch, enquanto a máq continua trabalhando na mesma direção. 
+7) TANDEM AND CONTRAROTATING PROPELLERS: 
+> Quando o diâmetro do prop for restrito devido ao calado ou outro motivo, o loading factor aumenta, a eficiência diminui, e a 
+liability to cavitation aumenta. / Isso pode ser aliviado se dividirmos a carga entre dois ou mais props. 
+a) Tandem: 
+> São os props montados no mesmo eixo e que giram na mesma direção. 
+- Por trabalharem no race dos props de vante, os props de ré precisam ter um pitch maior para que possam absorver a mesma 
+potência. 
+- Com os dois props girando na mesma direção, a energia rotacional no race do prop de vante é aumentada pelo prop de ré. 
+(o que prejudica a eficiência) 
+b) Contrarotating: 
+> A idéia de se recuperar a energia rotacional do prop de vante levou ao desenvolvimento de contrarotating props coaxiais. 
+- Tb são usados em torpedos para compensar o torque de reação (para ele não rolar). 
+> O prop de trás tem menor diâmetro para se adaptar à contracting race column do prop de vante, e deve ter o pitch 
+desenhado para atender à absorção de potência necessária. / O ideal seria que não houvesse rotação no race atrás do prop de ré. 
+> Antigamente, os contrarotatings eram tratados separadamente, daí tinha que fazer testes com modelos para checar o desenho e 
+encontrar os pitchs para se conseguir um equilíbrio de potência. 
+- Depois, foi aplicada a circulation theory aos desenhos. 
+- Depois, Morgan usou os induction factors de Lerbs no desenho e viu que isso resultava em props com um bom torque balance 
+e eficiências maiores que as de single props. / Quando ele atribuiu valores mais precisos de inflow velocities para cada seção das 
+pás, ele também obteve um melhor controle sobre a cavitation performance. 
+> Hadler avaliou o mérito relativo de vários tipos de prop (single, twin, tandem e contrarotating) num mesmo modelo de navio. 
+- Esse navio foi um "twin-screw, very-large, high-block coeficient merchant ship" que necessitava de grande potência. 
+- O afterboby foi alterado para prover uma "clear-water stern" com uma aperture adequada para um prop de 7,6 m de diâmetro, e 
+para prover um fore-and-aft length adequado para acomodar os tandem e os contrarotating props. 
+Obs: devido ao grande prop loading, esse navio foi construído como um twin-screw. Não há problemas em se absorver tamanha 
+potência em apenas um dos props de um multi-screw ship (onde os props trabalham numa wake uniforme). Mas no caso de um 
+single screw ship, há os perigos da cavitação e das vibrações excitadas pelo prop (pois ele opera num very uneven inflow patern). 
+Conclusões: em rei ao twin-screw original: 
+1) Nenhum screw apresentou face cavitation ou perda de eficiência. 
+2) Houve uma leve back cavitation próximo às pontas, a cerca de 19 kt, sem muita diferença entre os props. 
+3) Houve pouca diferença de PD entre o twin-screw original e o single-screw de 5 pás (este precisou de 0,4 % menos de potência). 
+4) O single-screw de 9 pás precisou de 4 % a mais de potência. 
+5) O tandem precisou de 2 % a mais de potência. 
+6) O contrarotating precisou de 7 % menos de potência (porque grande parte da energia rotacional da wake foi reaproveitada). 
+> Esse ganho de eficiência propulsiva, as melhores caracts de vibração desses props de menor diâmetro e a blade frequency 
+mais elevada tornam os contrarotating props muito atraentes do ponto de vista hidrodinâmico. 
+> A contrapartida é que há um aumento de peso e complicações com gearing, coaxial shafting e sealing. 
+8) SUPER-CAVITATING PROPELLERS: 
+> Diz-se que um prop opera no regime de super-cavitação quando a cavidade no back da pá se espalha até cobrir todo o back 
+(which is then no longer wetted). 
+> Depois que o back se torna "denuded", um novo aumento do RPM não consegue reduzir mais a pressão nessa área e, 
+portanto, nenhum lift adicional será gerado no back. Mas a pressão continuará a aumentar na face, and so does the thrust 
+(embora numa rate menor do que antes da cavitação ter começado). 
+> Uma vantagem é a ausência de back erosion, pois a bolhas não mais colapsam no back. / E ainda, as unsteady forces 
+resultantes de cavitação intermitente são muito reduzidas e, portanto, há menos vibrações. 
+> Esses props a muito vêm sendo usados em racing boats, e as suas caracts vêm sendo determinadas por trial-and-error. 
+18 
+
+
+===== PAGINA 36 =====
+
+> Todd testou um modelo com prop convencional trabalhando no regime de super-cav (vide fig 92, vide tb as fotos). / Resultados: 
+- Com pressão atmosférica ambiente, não houve cavitação. Quando se reduziu a pressão para gerar um a = 0,83, as curvas de 
+tração e torque se afastaram das curvas de full-pressure a cerca de 800 RPM, ocasião em que a cavitação começou a se espalhar 
+pelo back a partir das pontas. 
+- A 1200 RPM, com a cavitação cobrindo quase todo o back, a eficiência foi 0,49 (a de full pressure sem cavitação foi 0,61). 
+- A partir de 1500 RPM, na full-cavitating zone, houve uma recuperação na produção de tração (a taxa de aumento de T com o 
+RPM aumentou), e a perda de eficiência diminuiu. / A cavidade se estendeu downstreams por cerca de um giro do hélice. 
+> Como na super-cav o back não fica em contato com a água, deve-se buscar uma section shape que assegure uma clean 
+separation do escoamento nos bordos de ataque e de fuga, e que proveja bons valores de L/D. 
+- Tulin pariu uma forma de calcular esse shape ótimo da face, e pariu um método para calcular o shape da cavidade. Assim, pôde-
+se escolher "at will" uma forma de back que tivesse a resistência estrutural necessária, contanto que ela ficasse dentro da cavidade. 
+Isso levou a uma wedged-shaped section (cunha), com um bordo de ataque bem fino para assegurar a separação (fig 93). 
+> Tachmindjí: seções com o leading edge muito fino podem sofrer vibrações e falha estrutural. Portanto, a edge deveria ser 
+feita mais grossa ou o AOA deveria ser maior (?). 
+• Para se alcançar uma operação satisfatória na condição de full-cav, o o a 0,7 do raio deve ser < 0,045. 
+• Fig 94: é uma "design chart" usada para calcular a performance de uma série de props de 3 pás. 
+• Fig 95: essa chart mostra as regiões onde os super-cav props se tornam exeqüíveis. A line 1 mostra o começo do "performance 
+breakdown" devido à cavitação em props convencionais. A line 2 é baseada numa tentativa de se assegurar que o valor local de a 
+na section a 0,7 do raio seja < 0,045. 
+• Usando-se "design charts" e baseando as estimativas nas condições do ponto A da fig 95 (onde o uso dos super-cav props é 
+marginal), a tab 28 indica, de forma genérica, "the possible fields of usefullness" in ships. 
+- Note que, para se atingir os baixos valores de o necessários para a super-cav, a RPM tem que ser muito mais elevada e o 
+pitch ratio (P/D) tem que ser menor que para os props convencionais. 
+- Para o liner, o super-cav prop é cerca de 10 % menos eficiente que o convencional. Já no destroyer e no motor boat essa 
+diferença é bem menor. / E o fully-cav prop tem a vantagem adicional de não sofrer erosão. 
+> Experimentos com cavitating props são caros, pois eles têm que cobrir todo um range de o para cada modelo. Por isso são usadas 
+design charts teóricas para props de 2 e 4 pás, que junto com as charts já citadas, cobrem um grande range de propeller parameters. 
+> Quando se considera velocs ainda maiores (40-80 kt), o fully-cav prop pode ser a única alternativa. Não seria possível 
+desenhar props convencionais para essas condições mesmo que as power plants necessárias estivessem disponíveis. 
+- Pode haver sérios strength problems com os super-cav props. Nevertheless, pode-se usar lighter fast running engines com eles. 
+> Problemas de strength podem ser causados pela combinação de tração elevada com bordos de ataque finos. 
+Adicionalmente, os super-cav props alcançam sua máx eficiência em partial submergence (portanto, grandes forças e 
+pressões variáveis podem ser esperadas na medida em que cada pá entra, atravessa e sai da água). 
+- A fig 96 mostra a pressão em dois pontos do raio da pá de um SES (Surface Effect Ship) variando com a posição angular da pá. 
+Nota-se que a pressão é muito alta quando a pá entra na água. / A fig 97 mostra o strain próximo à raiz da pá do mesmo prop. 
+> As seções dos fully-cav props mais antigos eram do tipo airfoil ou do tipo crescente (hollow-faced), e tinham pouca 
+eficiência. Hoje, se escolhermos corretamente as seções e se o desenho for avançado, os props provêem eficiências bem razoáveis. 
+- Se for aplicado um rake adequado, pode-se obter eficiências que se aproximam à dos bons props convencionais. 
+- Pode-se obter maior eficiência se o eixo for inclinado (para peqs pitch ratios). Vide fig 98. Para maiores pitch ratios, a 
+inclinação do eixo pode ter efeitos adversos. 
+- Com o decréscimo da "bottom clearance", o torque e a tração diminuem (já a inclinação do eixo teve pouca influência). 
+- A presença de um leme pode ser benéfica para a tração (some 10 %) e para a eficiência (some 2%), especialmente para peqs 
+clearances entre o leme e o prop. Mas efeitos adversos foram observados para arranjos com twin-rudders. 
+> Para props operando parcialmente no regime de fully-cav, um prop com "hollow-faced sections" apresenta melhores 
+caracts de performance que um de "flat faces". 
+> Vennin: os super-cav props podem suprir a demanda para high thrust e ainda reduzir a blade erosion. Nas condições de alta veloc, 
+alta RPM e small submergence de alguns high-speed crafts, a mesma tração não poderia ser entregue por um prop convencional. 
+- Os super-cav props não têm nenhuma vantagem sobre os convencionais nas regiões sem cavitação, e não devem ser usados 
+a menos que se estabeleça a relação apropriada entre V e n. / E ainda, um baixo o nas pás é fundamental para o seu sucesso. 
+> Há muitos problemas a serem estudados no uso de super-cav props, dentre os quais: 
+a) Num hydrofoil craft, a tração na "decolagem" é +- a mesma que quando voando na máx veloc, embora a veloc seja apenas a 
+metade. Esse fato, combinado com mudança de imersão e com a necessidade de se respeitar algumas "engine relationships" entre 
+RPM e potêncja, constituem um difícil problema de design. 
+b) Esses props não são adequados para trabalhar por longos períodos em off-design conditions (ex: numa veloc de cruzeiro 
+mais baixa), pois a eficiência será menor. / E se eles experimentarem face cavitation, provavelmente sofrerão erosão. 
+c) Com o conhecimento atual de design, as condições de super-cav não são sempre alcançadas. Portanto, a tração e a 
+eficiência são normalmente baixas. / As grandes cavidades nas pás aumentam a interferência entre elas and have a 
+"blockage effect", e os elementos da eficiência do casco são alterados (o thrust deduction factor diminui bastante). 
+> Uma forma de assegurar uma boa super-cav performance é introduzir ar no back das pás (naturalmente ou por pressão). 
+Daí temos um "ventilated prop". / Além de assegurar full-cavitation, a ventilação permite que esses props sejam usados em 
+velocs mais baixas (e talvez permita até simular a cavitação nos self-propulsion tests normais em towing tanks). 
+- Há pouca diferença em eficiência entre full-cavitating e ventilated props uma vez que a cavidade já esteja formada. 
+19 
+
+
+===== PAGINA 37 =====
+
+9) OVERLAPPING PROPS: 
+> A redução da potência devido ao overlapping dos campos dos props em um twin-screw arrangement é de 5 a 8 % comparado à 
+single-screw solution, e de 20 a 25 % comparado a um twin-screw convencional. 
+> A dist longitudinal entre os planos dos dois props e o sentido de rotação e o pitch do prop de ré são pouco importantes. 
+- Já a dist entre os centros (the degree of overlapping) é mais importante. Num caso analisado, a "center distance" ótima foi 
+de aproximadamente 0,7.D. 
+- O grau máximo de overlapping não corresponde à mínima potência, pois a wake fraction do prop de ré é tão reduzida que a 
+perda de eficiência não pode ser compensada pelo aumento da eficiência do prop de vante (que tem uma wake fraction maior). 
+> Forcas vibratórias induzidas pelo prop: observaram-se variações de tração e torque de aprox 10 % dos seus respectivos 
+valores médios (50% maior que um prop convencional de 4 pás). Entretanto, se fosse efetuada uma análise de vibração, 
+provavelmente não seriam encontrados problemas expressivos. 
+- As variações de T e Q não dependiam da "posição fásica" relativa dos props. 
+> Os "bending moments" do eixo são determinados: 1) pela excentricidade da tração (i.e., o seu ponto de aplicação); 2) pela 
+magnitude da tração; e 3) pela magnitude das forças laterais do prop (no plano vertical do prop). 
+- Quanto às forças laterais, pode-se considerar que elas trabalham através do centro do prop, pois qq mudança desse vetor está 
+incluída no torque do prop. Ainda, as forças laterais de overlapping props são aproximadamente iguais e opostas em direção, e não 
+são excessivas em magnitude. 
+- A excentricidade da tração média e os bending moments laterais possuem um valor comparável com o arranjo convencional de 
+single ou twin screws. 
+- Os bending moments resultantes apresentaram valores aceitáveis, e foram praticamente independentes da posição 
+angular relativa do prop. Portanto, não ocorrerá nenhum fenômeno de "beating". 
+> Entretanto, a diferença de veloc entre os props, quando movidos por prime movers distintos, ocasiona excitações alternadas 
+torsionals e verticais do casco, causadas por flutuações de pressão. 
+> As propriedades de cavitação de ambos os props são comparáveis às de um single-screw convencional. Entretanto, pode ocorrer 
+uma interação desfavorável de cavitating tip vortices (fig 99). Mas como não houve nenhum fenômeno desfavorável, como 
+boubble cavitation, o risco de erosão foi considerado negligenciável. 
+> Um arranjo de overlapping props aplicado a um 425.000-dtw tanker mostrou uma economia de potência de 16 % comparando 
+com a versão original single-screw. 
+10) PARTIALLY SUBMERGED ou SURFACE PIERCING PROPS: 
+> Podem ser atraentes devido às seguintes vantagens: 
+• Podem ficar bem atrás do navio. Assim, o drag de shafts e shaft brackets é pequeno, e o diâmetro do prop pode ser maior. 
+• A maioria dos props produz grandes cavidades no high-speed range (> 40 kt), que quando colapsam causam erosão. Já as 
+cavidades enchidas com ar não colapsam com tanta violência. 
+• A redução do perigo da erosão possibilita usar menores blade area ratios, o que reduz a fricção e afeta a eficiência 
+positivamente. 
+• A skin friction das pás reduz um pouco (comparado com o pure-water environment). 
+• Na casa dos 40 kt, é possível se obter uma eficiência em open water de 60 %. 
+> Opondo-se às vantagens acima, há 2 desvantagens: 
+• Propeller strength: a blade loading varia de aproximadamente zero na posição superior, até o seu valor máximo na pos inferior, 
+o que demanda cuidados com a fadiga. 
+• Efeito da cavitação/ventilação no torque: como as embarcações velozes operam num grande range de velocs, e como a resist, 
+do navio é caracterizada por "humps", ocorrem situações onde a veloc é baixa, mas o torque excede o torque de projeto. 
+- Esse over-torque ocorre devido à diferença de submersão dos props, associada com a forte influência da cavitação e 
+ventilação na tração e torque. 
+- Portanto, deve-se escolher uma pitch ratio tal que, a baixas velocs, os valores de torque permaneçam dentro de limites razoáveis. 
+> Nos experimentos com tais props, a pressão sobre a superfície da água deve ser "scaled" to meet the cavitation characteristics. 
+20 
+
+
+===== PAGINA 38 =====
+
+11) OTHER DEVICES: 
+> Munjewerf apresentou um review sobre economia de energia. Alguns dos devices mencionados já foram analisados. A tab 29 dá 
+uma idéia das power savings desses dispositivos. / O uso de props grandes com baixa RPM foi abordado num Cap que não cai. 
+a) Vane Wheel: 
+> Uma "freely rotating vane wheel" fica atrás de um prop de desenho convencional, no mesmo eixo e com um diâmetro maior. 
+- As pás do vane wheel absorvem a energia do prop race no seu "inner radii", a qual é imediatamente transmitida em 
+forma de tração no seu "outter radii", fora do race do prop da frente. Dessa forma, o impulso necessário para produzir a 
+tração total do "prop+vane wheel" é transmitido através de uma maior massa de água; e portanto o impulso é transmitido 
+a um menor "power required" comparado com um single prop convencional de mesma tração. 
+> Testes mostraram que a eficiência aumentou 9 % em rei ao single prop convencional. / Se forem projetadas otimizações do prop e 
+da vane wheel com antecedência (as opposed to the retrofitted vane wheel used in the tests), ganhos de até 12 % são possíveis. 
+> A comparable "low RPM-large diameter prop" de mesmo diâmetro da vane wheel girando a um RPM 20 % mais baixo que o prop 
+original ocasionaria uma economia de potência de aproximadamente 8 %. 
+> As vantagens da combinação "prop + vane" sobre um prop de baixa RPM são evidentes: 
+- A combinação pode operar com RPM normal (dispensando engrenagens redutoras). 
+- A combinação aceita menores tip-hull clearances que o low-RPM prop. 
+- Como a velocidade das pontas da vane wheel será aprox a metade da velocidade das pontas do low-RPM prop, a 
+cavitação e as flutuações de pressão no casco não serão problemáticos para a combinação. 
+> Provavelmente, o fator responsável pela alta performance dessa combinação é a redução da energia rotacional da corrente 
+resultante da ação da vane wheel. 
+b) Reaction Fin: 
+> O propósito do fin é introduzir um "swirling flow" AV do prop para compensar o vórtex produzido por este, o que se 
+consegue posicionando os fins num padrão essencialmente radial na "apperture" da popa. 
+- O princípio é similar ao do "contra-propeller". 
+> A forma do casco no afterbody influencia muito a efetividade dos fins. Eles são mais adequados a navios de grande Cb. 
+> Resultados de testes de mar com e sem fins, para ballast condition: 
+- A manobrabilidade ficou um pouco afetada. 
+- Economia de potência de 7 a 8 % em lastro (estima-se uma economia de 4 a 6 % para a condição de carregado). 
+- Com navios, houve melhorias relacionadas a ruído e vibração. Com modelos, não houve efeito significativo quanto à 
+cavitação, tampouco quanto às vibrações induzidas pelo prop. 
+> Sabe-se que a máxima economia potencial de energia pela eliminação total das perdas rotacionais é de 10%. 
+- Como a ação de contra-propeller do leme apenas já contribui com 3-4%, parte da economia de 4-8% obtida com o 
+reaction fin tem que ser atribuída a uma melhoria no escoamento no after body e na interação casco-prop. 
+> Por motivos estruturais, as pontas dos fins são unidas por um aro. 
+> Os ângulos de incidência dos fins devem ser otimizados por testes em tanques. 
+c) Integrated Duct Propeller: 
+> É uma variação do ducted propeller design onde o duto fica AV do prop e é integrado ao casco. 
+> Os ducted propellers convencionais sofrem erosão no interior do duto devido à implosão da cavitação. Um duto AV do 
+prop representa uma vantagem nesse aspecto. 
+> Conclusões de estudos hidrodinâmicos: 
+- A resistência do casco diminui. 
+- O escoamento para o prop ficou homogêneo e estável. 
+- Na "behind condition", a duct thrust aumenta significativamente devido ao "inward radial flow" around the stern. (??) 
+- A "effective wake fraction" e o "thrust deduction factor" dependem da posição longitudinal do duto. 
+- O integrated duct prop assimétrico com um maior comp de corda no topo teve melhores resultados que o duto simétrico. 
+(??> 
+> Testes com um 250.000-dwt tanker mostraram: 
+- Power saving de 5 %. 
+- Redução da sheet cavitation e eliminação da cloud cavitation. 
+- As flutuações de pressão no casco foram reduzidas em aprox 50 % para o 6o (blade freq) e 12° (2 x blade freq) harmônicos. 
+- Melhoria na manobrabilidade (mas esses testes não foram corrigidos para vento e corrente). 
+21 

@@ -1,0 +1,875 @@
+FONTE: resumo curso h.pdf | CAPITULO 10 - legislacao-tribunal | paginas 255-269 | OCR ABBYY
+OBS: texto OCR ruidoso, mistura ingles/portugues. Interprete com cautela; nao invente.
+
+
+===== PAGINA 255 =====
+
+NORMAM 02/DPC - EMBS EMPREGADAS NA NAV INTERIOR 
+> APLICAÇÃO: a todas embs de bandeira brasileira destinadas à NI, exceto as de esporte/recreio e as embs da MB. 
+CAP 11 - REGRAS ESPECIAIS PARA EVITAR ABALROAMENTO NA NAVEGAÇÃO INTERIOR 
+> Essas regras especiais são complementares, no âmbito da NI, às do RIPEAM-72, e ambas se aplicam a todas as embs usadas 
+na NI. / Às embs que operam em águas internacionais da Hidrovia Paraguai-Paraná, aplica-se o Regulamento para Prevenir 
+Abalroamento na Hidrovia Paraguai-Paraná. 
+> Unidade integrada: grupo de embs que navegam rigidamente integradas, formando uma só emb. 
+> Comboio: grupo de embs que navegam de forma integrada, mas não rígida. 
+> Emb com cap de man restrita inclui: 
+- as restritas em fç de seu comp ou boca. 
+- as que transportam/rebocam/empurram carga explosiva ou inflamâvel. 
+> Emb restrita ao seu comp e boca: emb de prop mecânica que, devido a seu comp e boca em rei à área de manobra, está 
+com severas restrições. 
+> Comp e boca: comp total e largura máx da emb e/ou comboio. 
+> Calados leve e máximo: na condição de sem carga e plena carga. 
+> Eclusa: permite vencer o desnível de uma barragem. 
+> Banzeiro e mareta: ondas provocadas por uma emb. 
+> Altura acima do casco: acima do convés corrido superior, medida na vertical, a partir da posição da luz. 
+> Tráfego de embarcações: compreende a movimentação e parada de embs nos portos e fundeadouros. 
+CONDUÇÃO DE EMBS EM QUALQUER CONDIÇÃO DE VISIBILIDADE 
+RE 6: Veloc de Segurança: 
+a) Toda emb deve navegar com veloc apropriada ao cruzar com embs pequenas e embs empurrando ou rebocando e que 
+devam ser protegidas contra avarias causadas pela ação de maretas ou banzeiros. 
+b) Toda emb deverá navegar com veloc apropriada ao se aproximar de qq emb amarrada a um trapiche. cais, etc. 
+RE9: Canais Estreitos: 
+a) Tendo em conta "manter-se próximo do limite de BE do canal estreito ou via de acesso " e "guinarpara BE quando roda a 
+roda", uma emb de prop mecânica com corrente a favor terá preferência ao cruzar com uma emb contra a corrente. A que tem 
+preferência indicará a maneira e o local da passagem e efetuará os sinais de manobra apropriados. 
+CONDUÇÃO DE EMBS NO VISUAL UMA DA OUTRA 
+RE13: Ultrapassagem: 
+a) Não cruzar ou ultrapassar sob vãos de pontes, a menos que o canal tenha largura compatível para a passagem simultânea. 
+RE14: Situação de roda a roda: 
+a) Não obstante o "guinar para BE em situação de roda a roda ", uma emb de prop mecânica a favor da corrente terá 
+preferência sobre uma emb contra a corrente. A que tem a preferência indicará a maneira e o local da passagem e efetuará os 
+sinais de manobra segundo as circunstâncias. 
+LUZES E MARCAS 
+RE21: Luz de Mastro = luz branca contínua, no eixo longitudinal, visível num setor horiz de 225° da proa até 22,5° por AAR do 
+través, exceto em embs de comp < 12 m, onde ela ficará o mais próximo possível do eixo longitudinal. 
+SINAIS SONOROS E LUMINOSOS 
+1) A critério da DPC, isenções poderão ser concedidas para embs que, em razão das suas condições operacionais, não possam 
+cumprir algum requisito das regras deste capítulo. 
+
+
+===== PAGINA 256 =====
+
+SECÂQ VII - POSICIONAMENTO E DETALHES TÉCNICOS DE LUZES E MARCAS 
+1) Posicionamento e espaçamento vertical das luzes: = Anexo I do RIPEAM, com as seguintes alts: 
+a) Alínea 2-a: "Numa emb de comp > 20 m, as luzes de mastros devem ser posicionadas como se segue: 
+I) A luz de mastro de vante ou, se houver apenas uma luz de mastro, esta, a uma altura acima do casco não inferior a 6m(5 m), 
+e caso a boca da embarcação exceda 6 m(5 m), a uma altura acima do casco não inferior à boca, não sendo necessário, 
+entretanto, que esta luz seja posicionada a uma altura acima do casco superior a 12 w (8 m); 
+II) Quando houver duas luzes de mastro, a de ré deverá estar posicionada a uma altura pelo menos 4,5 m (2 m) verticalmente 
+mais alta que a de vante. " 
+III) As embs de NI da rede hidroviária do Rio Grande do Sul de comp > 20 m, terão a luz do mastro de vante a uma altura > 6 m 
+acima do casco superior, não sendo obrigadas a posicioná-las acima disso, mesmo que exibam uma única luz ou que tenham boca 
+superior a 6 m. Esta regra visa permitir a navegação das embs com boca > 6 m sob pontes da região. 
+(esse item foi inserido) 
+b) Alínea 2-e: "Uma das 2 ou 3 luzes de mastro prescritas para uma emb de prop mecânica engajada em reboque ou empurra 
+deve ser posicionada no mesmo local da luz do mastro de vante ou da luz do mastro de ré, desde que, se colocada no mastro de 
+ré, a luz inferior do mastro de ré esteja pelo menos 4,5 m (2 m) mais elevada do que a luz do mastro de vante." 
+c) Alínea 2-i: "Quando as regras prescreverem 2 ou 3 luzes em linha vertical, seu espaçamento deve: 
+1) Em embs de comp >20m, o espaçamento destas luzes não deve ser inferior a 2 m (1 m) e, exceto quando for necessário uma 
+luz de reboque, a altura acima do casco da luz inferior não deve ser menor que 4 m; 
+II) Em embs de comp < 20 m, o espaçamento destas luzes não deve ser inferior a 1 m, e, exceto quando for necessário uma luz de 
+reboque, a altura acima do nível da borda da luz inferior não deve ser menor que 2 m; e 
+III) Quando forem usadas 3 luzes, o espaçamento entre elas deve ser igual." 
+2) Posicionamento e espaçamento horizontal das luzes: = Anexo I do RIPEAM, com a seguinte alt: 
+a) Alínea 3-a: "Quando forem prescritas 2 luzes de mastro para emb de prop mecânica, a dist horizontal entre elas não deve ser 
+inferior à metade do comp da emb, mas não necessita ser superior a 100 m (50 m). A luz de mastro de vante não deve ser 
+posicionada a uma distância da roda de proa superior a 1/4 (1/2) do comp da emb." 
+3) Aprovação: a construção de luzes e marcas e sua instalação a bordo atenderá a requisitos estabelecidos pelo RIPEAM e DPC. 
+DETALHES TÉCNICOS DE APARELHOS DE SINALIZAÇÃO SONORA 
+1) Apitos de Rebocadores: emb que realiza normalmente reboque a contrabordo ou empurra poderá, a qq momento, usar 
+um apito cuja freqüência que considere como comp máximo o comp composto pelo rebocador e rebocado. 
+2) Aprovação: a construção de aparelhos de sinalização sonora, seu desempenho e instalação a bordo deverão satisfazer a 
+requisitos específicos estabelecidos pela DPC. 
+SINAIS DE PERIGO 
+Substituir: foguete luminoso comparaq. ou tocha manual, exibindo luz encarnada por "facho manual de luz vermelha". 
+REGRAS GERAIS 
+> Embs com prop própria e de comp > 12 m devem ter estas regras a bordo para consulta imediata. 
+> As luzes e marcas podem ser rebatidas ao passar embaixo de uma ponte. Para mastros maiores que o gabarito das 
+pontes e eclusas, deve ser previsto um sistema de mastro rebatível (manual ou eletro-mecânico). 
+> À aproximação da passagem de pontes móveis ou eclusas, as embs obedecerão às eventuais ordens da adm da ponte ou eclusa. 
+1) Luzes de barcaças que se encontrem nas proximidades da costa ou margem: 
+> Barcaça: 
+- atracada, reduzindo a largura disponível de qq canal com menos de 80 m. 
+- atracadas a contrabordo, com uma largura total > que a de 2 barcaças, ou com uma largura máx > 25 m. 
+- não atracada em sentido paralelo à costa ou margem. 
+De noite e em visib reduzida, exibirão 2 luzes brancas sem obstrução, com intensidade para serem vistas a ao menos 1 NM: 
+- Uma barcaça atracada: 
+- as luzes serão instaladas nas extremidades mais afastadas da costa ou margem. 
+- Atracadas em grupo: 
+- as luzes serão colocadas nas extremidades do conjunto que estiverem a favor e 
+contra a corrente, nas pos mais afastadas da costa ou margem. 
+2) Luzes de tubulação de dragagem: 
+> Tubulações de dragagem flutuando ou apoiadas em cavaletes deverão exibir, de noite e em visibilidade reduzida: 
+- Uma fileira de luzes circulares amarelas: 
+- alcance > 2 milhas em noite escura e calma. 
+- altura sobre a água de 1-3,5 m. 
+- quando cruzar um canal navegável, o espaçamento será < 10 m. 
+- quando não cruzar um canal navegável, as luzes serão em número sufi para 
+mostrar corretamente o comp e a pos da tubulação. 
+- Duas luzes circulares vermelhas nos extremos (incluindo os que se formam quando se separa a tubulação para passagem de 
+embs, tanto na sua posição fechada ou aberta): - alcance > 2 milhas em noite escura e calma. 
+- altura > 1 m acima da fileira de luzes amarelas. 
+
+
+===== PAGINA 257 =====
+
+LESTA 9.537/97 
+- Aquaviário: tem habilitação para operar embs em caráter profissional. 
+- Profissional não-tripulante: presta serviços eventuais, sem atribuições ligadas diretamente a operação da emb. 
+- Prático: aquaviário não-tripulante que presta serviços de praticagem embarcado. 
+- Inspeção Naval: atividade administrativa de fiscalização no que se refere exclusivamente à SVH/SegNav/PrevPol por parte de 
+embs, plataformas fixas ou suas IA. 
+- Vistoria: ação técnico-administrativa para vrf o cumprimento de normas referentes à PrevPol e às condições de segurança e 
+habitabilidade de embs e plataformas. 
+- Margens das águas: onde a água toca em cheia normal sem transbordar, ou preamar de sizígia. 
+- Navegação em mar aberto: em águas marítimas consideradas desabrigadas. 
+- Navegação interior: em hidrovias interiores (rios/lagos/lagoas/baías/angras/canais/enseadas e áreas marítimas abrigadas). 
+> Atribuições da AM: - Regulamentar o svç de praticagem, estabelecer as ZPs obrigatórias e especificar as embs dispensadas. 
+- Executar vistorias (pode delegar para entidades especializadas) e Inspeção Naval. 
+> Emb estrangeira submetida a Inspeção Naval: se apresentar irregularidades na documentação ou condições operacionais 
+precárias, pode ser ordenada a: - não entrar ou não sair do porto. 
+- sair das águas iurisdicionais. 
+- arribar em porto nacional. 
+> Compete ao Comte: (sob pena de multa e/ou suspensão do certificado) 
+1) Cumprir e fazer cumprir as normas/leis... e os procedimentos para a SVHM e preservação do ambiente/emb/carga. 
+2) Manter a disciplina. 
+3) Proceder: 
+- à lavratura de termos de nascimento e de óbito. 
+- ao inventário e à arrecadação dos bens do morto. 
+- a realização de casamentos e aprovação de testamentos "in extemis". 
+4) Comunicar à AM: 
+- qq alt nos sinais náuticos e obstáculo à navega que encontrar. 
+- acidentes e fatos ocorridos na sua emb. 
+- infração desta Lei ou normas dela decorrentes, cometida por outra emb. 
+> O Comte pode: 
+- impor sanções disciplinares previstas. 
+- ordenar o desembarque de qq pessoa. 
+- ordenar a detenção em camarote ou alojamento (até com algemas, para a manut da integridade física). 
+- determinar o alijamento de carga. 
+> O serviço de praticagem é o conjunto de atividades profissionais de assessoria ao Comte requeridas por forças de 
+peculiaridades locais que dificultem a livre e segura movimentação de embarcações. 
+> Esse svç será executado por Práticos habilitados: organizados em associações, individualmente ou contratados por empresas. 
+> A inscrição de aquaviários como Práticos obedecerá aos requisitos estabelecidos pela AM, especificamente para cada ZP. 
+> A manut da habilitação depende do cumprimento da freq min de manobras estabelecida pela AM. 
+> É assegurado a todo Prático, na forma prevista no caput desse artigo, o livre exercício do serviço de praticagem. 
+> A AM pode habilitar Comtes de navios de bandeira brasileira a conduzir sua embarcação em ZP específica (ou em parte 
+dela), os quais são considerados como Práticos nesta situação. 
+> O serviço de praticagem, considerado atividade essencial, deve estar permanentemente disponível nas ZPs. Para assegurar 
+isso, a AM poderá: 1) estabelecer o num de Práticos por ZP; 2) fixar o preço: e 3) requisitar o svç de Práticos. 
+> Práticos não podem se recusar a prestar o serviço, sob pena de suspensão do certificado (e se reincidente, cancelamento). 
+> Medidas administrativas: 
+- Apreensão do certificado, (não é suspensão ou cancelamento!) 
+- Embargo de construção, reparo ou alteração das caracts de embarcação. 
+- Embargo da obra. 
+- Embargo da atividade de mineração e de benfeitorias realizadas. 
+- Apreensão, retirada do tráfego ou impedimento da saída de embarcação. 
+- A irregularidade determinante da apreensão deve ser sanada em 90 dias, senão será leiloada ou incorporada à União. 
+- As medidas admin são suspensas tão logo sanados os motivos que as ensejaram, e não elidem as penalidades desta Lei. 
+- O procedimento para a aplicação das medidas administrativas obedecerá ao Cap V. Mas para o bem da SVH e da SegNav, 
+a AM poderá aplicar as medidas administrativas liminarmente. 
+> As penalidades são aplicadas mediante procedimento administrativo, que se inicia com o Auto de Infração, lavrado pela AM: 
+-15 dias úteis para apresentar defesa. 
+- 30 dias para a decisão. 
+- recurso (sem efeito supressivo) dentro de 5 dias úteis da data da notificação (para a autoridade superior designada pela AM). 
+- Em caso de recurso contra a pena de multa, será exigido o depósito prévio. 
+-15 dias corridos para pagar, a contar da data da ultimação (isso se não recorrer!). 
+> Penalidades para infrações: 
+- multa. 
+- suspensão da habilitação (mâx 12 meses). 
+- cancelamento da habilitação. / Depois de 2 anos, pode requerer a reabilitação. 
+- demolição de obras/benfeitorias. 
+Obs: 1 e 4 podem ser cumuladas com as outras. 
+1 
+
+
+===== PAGINA 258 =====
+
+> Circunstâncias agravantes: 
+- reincidência. 
+- uso de emb em ato ilícito. 
+- embriaguez ou tóxicos. 
+- grave ameaça à integridade física de pessoas. 
+> Respondem solidária e isoladamente pelas infrações desta Lei: 
+- o proprietário, armador ou preposto de embs. 
+- o proprietário ou construtor da obra, PF ou PJ proprietária de jazida ou que realizar pesquisa ou lavra de minerais. 
+- o autor material. 
+> Os acidentes e fatos da navegação são apurados por IA instaurado pela AM, e julgados pelo TM. 
+- Sempre que uma infração for constatada no curso do inquérito, é vedada a aplicação das sanções previstas nesta Lei antes da 
+decisão do TM, com exceção da hipótese de poluição das águas. 
+RLESTA - DECRETO 2.596/98 
+> Amadores: constituem um único grupo, cujas categorias são: Capitão-A, Mestre-A, Arrais-A, Motonauta e Veleiro. 
+> Grupos de aquaviários (categorias no Anexo I): 
+Io - Marítimos: embs classificadas para a navegação em mar aberto, apoio marítimo, apoio portuário e para a navegação 
+interior nos canais/lagoas/baías/angras/enseadas e áreas marítimas abrigadas. 
+(tudo água salgada!)
+2° - Fluviários: operam embs classificadas para a navegação interior nos lagos, rios e de apoio port, fluvial, (tudo água doce!
+3o - Pescadores: seções de convés e máquinas. 
+4o - Mergulhadores: tripulantes ou prof, não-tripulantes que exercem atribuições diretamente ligadas à ope da emb e 
+prestam svcs eventuais de atividades subaquáticas. 
+5o - Práticos: aquaviários não-tripulantes que prestam serviços de praticagem. 
+6o - Agentes de Manobra e Docagem: para fainas em diques, estaleiros e carreiras. 
+> Classificação da navegação: 
+a) Mar aberto: de águas marítimas desabrigadas, podendo ser de: 
+- Longo curso: entre portos brasileiros e estrang. 
+- Cabotagem: entre portos ou pontos do Brasil. 
+- Apoio Marítimo: para apoio log a embs e instalações. 
+b) Interior: de hidrovias interiores (= rios/lagos/lagoas/canais/baías/angras/enseadas/áreas marítimas abrigadas). 
+Obs: A navegação nos portos e terminais para atender a embs e instalações portuárias é classificada como de Apoio Portuário. 
+> A aplicação da fixação do preço do serviço de praticagem prevista na LESTA observará o seguinte: 
+- O svç de praticagem é constituído de Prático, lancha e atalaia. A sua remuneração abrange o conjunto desses elementos, 
+devendo o preço ser livremente negociado, seja pelo conjunto dos elementos ou para cada elemento separadamente. 
+- Nos casos excepcionais sem acordo, a AM fixará o preço, garantida a obrigatoriedade da prestação do svç. 
+> Constitui infração às regras do tráfego aquaviário a inobservância de qq preceito deste regulamento, normas da AM, atos... 
+> Quanto às multas, as infrações são classificadas em grupos de A a G (Anexo II). 
+> Autor material: 
+- o tripulante. 
+- o proprietário/armador/preposto da emb. 
+- a PF ou PJ que construir/alterar as caracts da emb. - o construtor ou proprietário de obras. 
+- o pesquisador/explorador/proprietário de jazida. 
+- o Prático. 
+- o agente de manobra e docagem. 
+> Suspensão do Certificado: só pode ser aplicada ao aquaviário ou amador embarcados e ao Prático. 
+> A infração e seu autor material são constatados: 1) no momento da infração; 2) mediante apuração; ou 3) por Inquérito Adi 
+> Reincidência: é a repetição da mesma infração num período < 12 meses. Ela implicará na multiplicação da pena de multa oi 
+suspensão por 2,3,... 
+> Infrações imputáveis aos Autores Materiais: 
+- Portar documentação relativa à habilitação ou ao controle de saúde desatualizada: 
+(A ou até 30 dias) 
+- Não portar documentação relativa à habilitação ou ao controle de saúde: 
+(B ou até 60 dias) 
+- Não possuir documentação relativa à habilitação ou ao controle de saúde: 
+(D) 
+- Dispositivos para embarque de Prático inoperantes ou funcionando precariamente: 
+(B ou até 30) 
+- Veloc superior à permitida: 
+(C ou até 30) 
+- Deixar de contratar Prático quando obrigatório: 
+(D ou até 60) 
+- Descumprir regra do RIPE AM: 
+(D ou até 60) 
+- Causar danos aos sinais náuticos: 
+(D ou até 60) 
+- Descumprir as regras regionais sobre tráfego, estabelecidas pelo repres. local da AM: 
+(D ou até 60) 
+- Conduzir emb embriagado/intoxicado: 
+(até 120 - reincidência cancela) 
+- São aplicáveis ao Comte, em caso de descumprimento das competências estabelecidas na LESTA: (G e até 12 meses) 
+> Infrações imputáveis aos Práticos: 
+- Recusar-se à prestação do svç: 
+(até 12 meses - reincidência cancela) 
+- Deixar de cumprir as normas da AM sobre o svç de praticagem: 
+(até 120) 
+> As medidas administrativas serão aplicadas pela AM ao autor material por comunicação formal. / Em situação de emerg e 
+para preservar a SVH/SegNav, a medida será aplicada liminarmente (a comunicação formal é encaminhada depois). 
+
+
+===== PAGINA 259 =====
+
+vumsmmium 
+NORMAM 9/DPC - INQUÉRITOS ADMINISTRATIVOS 
+ACIDENTES E FATOS DA NAVEGAÇÃO (IAEN) 
+APLICAÇÃO: 
+> Essas normas se aplicam a qq Acidente ou Fato envolvendo: 
+- Embs mercantes e de esporte e recreio: 1) de qq nacionalidade, nas AJB; e 2) brasileiras, em alto-mar e em águas estrangeiras. 
+- Embs estrangeiras em alto-mar em acidente/incidente/fato em que: 1) PF brasileira tenha falecido ou sofrido ferimentos graves; 
+ou 2) tenha provocado danos graves a navios/instalações brasileiras ou meio marinho. 
+- Aquaviários e amadores: 1) brasileiros; e 2) estrangeiros em território ou AJB. 
+- Proprietários/operadores/locatários/carregadores/consignatários-de-carga/SocClass/prepostos/etc, de embs bras e estrangeiras. 
+- Empreiteiros e proprietários de construções sob/sobre/às margens das "águas-interiores/MT/ZEE/PC brasileiros" que, por 
+mancadas técnicas diversas, atentem contra a seg. da navegação. 
+- Toda PF ou PJ envolvida: 1) com construção/reparo naval; ou 2) em qq Acidente ou Fato. 
+- Marinas, clubes náuticos, pontões, trapiches e similares. 
+- Ilhas artificiais, instalações e embs de qq nacionalidade empregadas em pesquisa/prospecção/exploração/beneficiamento/etc de 
+recursos naturais, nas "águas-interiores/MT/ZEE/PC brasileiros", respeitados os acordos e o Direito Internacional. 
+COMPETÊNCIA, PRECEDÊNCIA E PRAZO PARA INSTAURAÇÃO: 
+> Será instaurado IAFN sempre que chegar ao conhecimento de um Ag da AM a ocorrência de um Acidente ou Fato. 
+> Só as CP e DL podem instaurar. Se uma AG tomar conhecimento de um A/F, comunicar à CP a que estiver subordinada. 
+> Terá precedência para instauração a CP ou DL: 
+1) da jurisdição do ocorrido. 
+2) do Io porto de escala ou arribada. 
+3) de inscrição da emb. 
+4) que for designada pelo TM. 
+> Prazo: instaurar imediatamente ou até 5 dias da data em que um dos Ag da AM tiver tomado ciência do A/F. 
+SÃO ACIDENTES DA NAVEGAÇÃO: 
+> Naufrágio: afundamento total ou parcial por perda de flutuação devido a embarque de água que decorra de adernamento. 
+emborcamento ou alagamento. 
+> Encalhe. 
+> Colisão: com qq coisa que não seja outra emb (inclusive com pessoas). 
+> Abalroamento ou abalroação: choque entre embs. 
+> Água aberta: abertura nas obras vivas que permita o ingresso descontrolado de água, ou descarga dos tanques. 
+> Explosão. 
+> Incêndio: inclui fogo sobre a água. 
+> Varação: é o encalhe deliberado. 
+> Arribada: entrar num porto que não seja porto de escala ou destino. 
+> Alijamento: da carga ou outros bens, para salvar a emb, parte da carga ou outros bens. 
+> Avaria ou defeito no navio ou nas suas instalações que ponha em risco a emb, as vidas e fazendas de bordo. 
+SÃO FATOS DA NAVEGAÇÃO: 
+> Mau aparelhamento (falta ou impropriedade de aparelhos/equipamentos/sobressalentes/acessórios/etc). 
+> Impropriedade da emb para o serviço ou local (destinação, área de navegação ou atividade do Título de Inscrição). 
+> Deficiência de equipagem (quanto à quantidade e à qualificação dos tripulantes). 
+> Alteração da rota programada para qual o navio estava aprestado, arriscando a expedição ou gerando prejuízo. 
+>• Má estivação da carga que arrisque a segurança. 
+> Recusa injustificável de socorro. 
+> Uso da emb em atos ilícitos (crime ou contravenção penal ou lesivos à Fazenda - ex: contrabando ou descaminho) 
+> Todos os fatos que prejudiquem ou arrisquem a incolumidade e seg da emb/vidas/fazendas de bordo (ex: clandestinos). 
+CASOS DE DISPENSA DE IAFN: 
+> 
+A/F envolvendo navios da MB (exceto se usados em comércio): o ComlmSup abre sindicância e/ou IPM. 
+> 
+Arribada justificada: se ocorrer uma das seguintes necessidades (previamente solicitada à CP/DL/AG de despacho): 
+a) Acrescentar porto de escala para abastecimento. 
+b) Prestar svç médico, desde que ninguém ou o navio tenha contribuído para prejudicar o sujeito. 
+c) Substituir o porto de destino quando pintar carga em porto diferente, desde que sem prejuízo de 3o e das fiscalizações. 
+d) Desembarcar defunto de causa natural, comprovada por Certidão de Óbito ou Laudo Necrológico. 
+e) Solicitação de abrigo em caso de mau tempo. 
+- A CP/DL/AG que receber essa solicitação comunicará a alt ao COMCONTRAN e às CPs e DNs dos destinos inicial e novo. 
+
+
+===== PAGINA 260 =====
+
+Obs: Arribadas não justificadas (a instauração é obrigatória): 
+- Emb de pesca estrangeira não autorizada a operar nas AJB. 
+- Inavegabilidade oriunda de: 
+- mau conserto 
+- falta de apercebimento ou esquipação 
+- má arrumação da carga. 
+- Falta de víveres/aguada fruto de: 
+- não fez a provisão necessária 
+- perdeu/estragou por má arrumação/descuido 
+- o Comte vendeu. 
+PROVAS: 
+> 
+OIAFN é uma mera fase de coleta de provas. Portanto, não cabe a participação do interessado até a conclusão final do IAFI 
+> 
+Para os exames periciais, o Comte/armador disponibilizará à AM: a emb, os eqs (VDR com software), e qq objeto solicitado. 
+DEPOIMENTO: 
+> Notificação ou Requisição (func público): é a convocação para comparecer num data-hora para ser inquirido como testemunha 
+- O recebedor firma o recibo numa cópia, ficando com o original. 
+- Se analfabeto, expressar isso no recibo (firmado por 2 testemunhas + digital do polegar dir). 
+Qualificação das testemunhas: nome/apelido/filiação/id/CPF/CNPJ/etc, categoria funcional, núm de inscrição pessoal e CP de 
+inscrição. / Se estrangeiro, o depoente informará quem é o Agente/Armador/operador da emb (+ qualificação do intérprete). 
+Qq pessoa que não seja incapaz pode ser testemunha. Mas só dos >18 anos se exigirá o compromisso de dizer a verdade. 
+Adolescentes entre 12 e 18 anos incompletos: podem ser ouvidos na qualidade de "informantes", sem prestar o compromisso 
+de dizer a verdade (e acompanhados pelo responsável ou curador, que assinará o termo de inquirição). 
+Alertar os depoentes para comparecer à OM no término do inquérito, para tomar conhecimento da conclusão do relatório, 
+onde poderão constar como possíveis responsáveis. Neste caso, o indiciado será notificado para apresentar defesa prévia. 
+O depoente pode levar um advogado, que não pode interferir na oitiva (mas pode orientar o cliente para apresentar protesto 
+caso seus direitos estejam sendo preteridos ou caso correções não sejam consignadas). 
+O depoente pode levar cópia do depoimento que assinou (por requerimento, diretamente, ou por meio do advogado). 
+Cópia de peças do IAFN: ao término do IAFN, as partes interessadas podem requerer cópia dos autos (sem retirar da OM). 
+Depoimento de estrangeiros que não falam Português: a versão em português por Intérprete Comercial é exigência (por 
+conta do prop/armador). / Caso saiba falar fluentemente, deverá declarar sua habilitação. 
+Despacho do Ene do Inquérito: restando alguém a ser inquirido, o Escrivão fará conclusão dos autos ao Ene do Inquérito, 
+que, por despacho, designará novo dia e hora, ordenando as intimações e diligências necessárias. 
+> Does escritos em idioma estrangeiro: é exigida a tradução por tradutor público (por conta do armador/proprietário). Tb é 
+obrigatória a juntada dos originais. 
+PRAZO PARA CONCLUSÃO E PRORROGAÇÃO DO IAFN: 
+> Conclusão (por relatório circunstanciado) em no máx 90 dias da instauração até a ciência e o "de acordo" do CP ou DL. 
+> Se houver possível responsável (indiciado), serão necessários a "notificação" + 10 dias para Defesa Prévia. 
+> Os controles dos prazos e a decisão sobre pedido de prorrogação ficam a cargo do Cap dos Portos da jurisdição. 
+> O Ene do Inquérito pode solicitar prorrogação ao Cap dos Portos. / As decisões de prorrogação são participadas ao DN por 
+msg (info TM, DPC e PEM). / Se não for concluído em 1 ano, a prorrogação só pode ser autorizada pelo Comte do DN. 
+> O andamento de um IAFN não será obstado pela falta de depoimento de pessoas ausentes ou desaparecidas. 
+DA COMPETÊNCIA DO COMANDANTE, DO PRÁTICO E DO SUPERINTENDENTE DA PLATAFORMA: 
+> Compete-lhes comunicar à AM: 
+1) qq alt na sinalização náutica. 
+2) os A/F ocorridos com a sua embarcação ou de outrem. 
+.-•-•••. 
+
+
+===== PAGINA 261 =====
+
+LEI 2.180/54 - TRIBUNAL MARflTMO 
+TÍTULO I 
+CAP I - DA ORGANIZAÇÃO DO TRIBUNAL MARÍTIMO 
+Art. 1°: O TM, órgão autônomo, auxiliar do Poder Judiciário, vinculado ao MM (quanto ao provimento de pessoal militar e 
+recursos orçamentários para pessoal e material), tem como atribuições julgar os acidentes e fatos da navegação marítima, fluvial e 
+lacustre e as questões relacionadas com tal atividade especificadas nesta lei. 
+Art. 2o: Composição (7 juizes): Presidente, 2 juizes militares e 4 juizes civis. 
+a) Nomeações dos 7 juizes: feitas pelo PRep, mediante proposta do MM, e atendidas as seguintes condições: 
+- Presidente: - Of-General do CA da ativa ou não, com mandato de 2 anos (respeitando os limites de idade de permanência no 
+Svç Público), podendo ser reconduzido. 
+- Militares: 
+- 2 CMG ou CF inativos (1 do CA e 1 do Corpo de Eng e Técnicos Navais, subespecializado em Máqs ou Casco), 
+com mandato de 4 anos, podendo serem reconduzidos (respeitado o limite de idade). 
+(se da ativa, a indicação do MM tem que ser acompanhada de uma declaração de concordância dos indicados) 
+- Civis: 
+- 2 bacharéis em direito com + de 5 anos de prática forense e idade de 35-48 anos (1 especializado em Direito 
+Marítimo e 1 em Direito Internacional Público). 
+-1 especialista em armação de navios e navegação comercial, de 35-48 anos, com + de 5 anos de cargo de 
+direção de empresa de navegação marítima. 
+-1 CLC de 35-48 anos, com + de 5 anos de comando de navios brasileiros de longo curso, sem punição por 
+tribunal hábil. 
+b) J. Civis: nomeados mediante aprovação em concurso de títulos e provas, realizado perante banca examinadora. / Permanecem no 
+cargo até a idade limite de permanência no serviço público, e ficam impedidos de advogar ou prestar serviços em favor de partes 
+interessadas nas atividades de navegação. 
+c) Quando na ativa, haverá transferência para a inatividade: 1) do Presidente, após 2 anos de afastamento, sendo agregado ao 
+respectivo Corpo no período anterior a esse prazo; 2) dos Juizes militares, logo após a nomeação. 
+d) Vice-Presidente: eleito bienalmente entre os juizes, em escrutínio secreto. 
+Art. 3o: Suplentes: todos os juizes terão suplentes indicados pelo MM e nomeados pelo PRep (com mandato de 3 anos, podendo 
+ser reconduzidos), que funcionarão quando convocados pelo Presidente do TM. / As nomeações dos suplentes devem atender às 
+mesmas condições acima. / Os suplentes dos J. Militares serão Oficiais de Marinha inativos. 
+Art. 8o: Não podem ter assento simultaneamente no TM parentes ou afins até o 2° grau (extensivo aos adjuntos de Procurador e 
+advogados de ofício). 
+Art. 9o: Para a execução dos serviços processuais, técnicos e administrativos, o TM terá uma secretaria constituída de 5 divisões. 
+CAP II - DA JURISDIÇÃO E COMPETÊNCIA 
+Art. 10: O TM exercerá jurisdição sobre: 
+a) Embs mercantes de qq nacionalidade, em AJB. 
+b) Embs mercantes brasileiras em alto-mar ou águas estrangeiras. 
+c) Embs mercantes estrangeiras em alto-mar, quando envolvidas em qq acidente marítimo ou incidente de navegação no qual: 1) 
+um brasileiro tenha morrido ou sofrido ferimentos graves; ou 2) navios ou instalações brasileiras ou o meio marinho tenham 
+sofrido danos graves, de acordo com as normas do Direito Internacional. 
+d) O pessoal da MM brasileira. 
+e) Marítimos estrangeiros, em território ou águas territoriais brasileiras. 
+f) Proprietários, armadores, locatários, carregadores, agentes e consignatários de embarcações brasileiras e seus prepostos. 
+g) Proprietários, armadores, locatários, carregadores, consignatários, e seus prepostos, no Brasil, de NM estrangeiros. 
+h) Agentes ou consignatários no Brasil de empresas estrangeiras de navegação. 
+i) Empreiteiros ou proprietários de estaleiros/carreiras/diques/oficinas de reparação ou construção naval, e seus prepostos. 
+j) Empreiteiros e proprietários de construções executadas sob/sobre/às margens das águas interiores, mar territorial, ZEE e 
+plataforma continental brasileiros, que atentem contra a segurança da navegação (por conta de alguma mancada técnica). 
+1) Toda PF ou PJ envolvida em acidente ou fato da navegação. 
+m) Ilhas artificiais, instalações, estruturas e embs de qq nacionalidade empregadas em pesquisa marinha, prospecção, produção, 
+exploração, armazenamento e beneficiamento dos recursos naturais nas águas interiores, mar territorial, ZEE e plataforma 
+continental brasileiros, respeitados os acordos bilaterais e o Direito Internacional. 
+
+
+===== PAGINA 262 =====
+
+Art. 11: Embarcação Mercante: é toda construção usada como meio de transporte por água e destinada à indústria da 
+navegação, quaisquer que sejam as suas caracts. e lugar de tráfego. Ficam-lhe equiparados: 
+a) Os artefatos flutuantes de habitual locomoção. 
+b) As embs usadas na praticagem, no transp não remunerado e nas atividades religiosas/científicas/beneficentes/recreativas/desp. 
+c) As empregadas no serviço público, exceto as da MB. 
+d) As da MB, quando usadas total ou parcialmente no transporte remunerado de passageiros ou cargas. 
+e) As aeronaves flutuando/voando, desde que colidam ou atentem contra embs mercantes. 
+f) Os navios de Estados estrangeiros usados para fins comerciais. 
+Art. 12: O pessoal da marinha mercante constitui-se por: 1) todos que exercem atividades em embs mercantes; 2) pessoal 
+da praticagem: 3) os que trabalham em estaleiros, diques, carreiras e oficinas de reparação naval; 4) pessoal das administrações 
+dos portos organizados; 5) trabalhadores da estiva e capatazia; 6) pescadores; 7) armadores; 8) amadores; e 9) mergulhadores. 
+Obs: equiparam-se aos marítimos aqueles que, sem matrícula, estejam de fato em qualquer fç que deve ser exercida por marítimo. 
+Art. 13: Compete ao TM: 
+a) Julgar os acidentes e fatos da navegação: 1) definindo-lhes a natureza e determinando suas causas, circunstâncias e extensão; 
+2) indicando os responsáveis e aplicando-lhes as penas desta Lei; e 
+3) propondo medidas preventivas e de seg. da navegação. 
+b) Manter o registro geral: 1) da propriedade naval; 
+2) da hipoteca naval e demais ônus sobre embarcações brasileiras; e 
+3) dos armadores de navios brasileiros. 
+Art. 14: São acidentes da navegação: 
+a) Naufrágio, encalhe, colisão, abalroação, água aberta, explosão, incêndio, varação, arribada e alijamento. 
+b) Avaria ou defeito no navio ou suas instalações que ponham em risco a embarcação, as vidas e fazendas de bordo. 
+Art. 15: São fatos da navegação: 
+a) O mau aparelhamento ou impropriedade da emb para o svç em que é usada, e a deficiência da equipagem. 
+b) A alteração da rota. 
+c) A má estivação da carga que arrisque a segurança da expedição. 
+d) A recusa injustificada de socorro. 
+e) Todos os fatos que prejudiquem/arrisquem a incolumidade e seg da emb, as vidas e fazendas de bordo. 
+f) O uso da emb na prática de atos ilícitos previstos como crime ou contravenção penal, ou lesivos à Fazenda Nacional. 
+Art. 16: Compete ainda ao TM: 
+a) Determinar as diligências necessárias à elucidação dos Fatos e Acidentes. 
+b) Delegar atribuições de instrução. 
+c) Por medida de segurança, proibir/suspender o tráfego de emb ou ordenar o desembarque/suspensão de qq marítimo. 
+d) Julgar os recursos interpostos. 
+e) Dar parecer nas consultas concernentes à M. Mercante que lhe forem submetidas pelo Governo. 
+f) Funcionar, quando nomeado pelos interessados, como juízo arbitrai nos litígios patrimoniais conseqüentes a Acidentes/Fatos. 
+g) Propor que sejam concedidas recompensas honoríficas ou pecuniárias aos que tenham prestado svçs relevantes à M. Mercante, 
+ou que hajam praticado atos de humanidade nos Acidentes e Fatos julgados. 
+h) Sugerir ao Governo quaisquer modificações à legislação da M. Mercante, quando aconselhadas pela observação de fatos 
+trazidos à sua apreciação. 
+i) Executar ou fazer executar as suas decisões definitivas. 
+j) Dar posse a seus membros e conceder-lhes licença; elaborar/votar/interpretar/aplicar o seu regimento; e eleger o seu Vice-Pres. 
+Art. 17: Na apuração da responsabilidade por Fatos e Acidentes, cabe ao TM investigar: 
+a) Se o Capitão/Prático/Of de quarto ou qq outra pessoa foram os causadores por dolo ou culpa. 
+b) Se, para evitar abalroação, foram cumpridas as regras internacionais e especiais da AM concernentes à navegação. 
+c) Se deixou de ser prestada assistência obrigatória, e se o acidente na sua extensão teria sido evitado com a assistência não prestada 
+d) Se foram fielmente aplicadas as disposições de convenções sobre SVHM e de leis/regulamentos complementares. 
+e) Se o proprietário/armador/afretador infringiu a lei/regulamentos/usos/costumes pertinentes aos deveres que a sua qualidade lhes 
+impõe. 
+f) Nos casos de Acidente ou Fato que possa resultar a classificação de danos e despesas como avaria comum, se apresentam os 
+requisitos que autorizam a regulação. 
+Art. 18: Quanto à matéria técnica, as decisões do TM referentes aos Acidentes e Fatos têm valor probatório e se presumem certas; 
+sendo, porém, suscetíveis a reexame pelo Poder Judiciário. 
+Art. 19: Sempre que se discutir em juízo uma questão decorrente de matéria da competência do TM, a sua decisão definitiva 
+deverá ser juntada aos autos. 
+Art. 20: Não corre a prescrição contra qualquer dos interessados na apuração e nas consequêcias dos Acidentes e Fatos por água 
+enquanto não houver decisão definitiva do TM. 
+Art. 21: Nos processos em que houver crime ou contravenção a punir, isso não impede o julgamento do que for da competência do 
+TM. Mas finda a sua ação, ou desde logo, sem prejuízo dela, as peças necessárias à ação da Justiça serão remetidas em traslado. 
+
+
+===== PAGINA 263 =====
+
+•M 
+CAP i n - DAS ATRIBUIÇÕES DO PRESIDENTE 
+Art. 22: Compete ao Presidente: 
+a) Dirigir os trabalhos, presidir as seções, propor as questões e apurar o veredito. 
+b) Só votar em caso de empate. 
+c) Distribuir os processos e consultas pelos juizes e proferir os despachos de expediente. 
+d) Convocar seções extraordinárias; ordenar a restauração de autos perdidos; admitir recursos. 
+e) Deferir ou denegar o registro da propriedade marítima e a averbação da hipoteca e demais ônus reais sobre embs, 
+bem como o registro dos armadores nacionais. 
+f) Representar o TM e dirigir/controlar/coordenar os seus serviços. 
+g) Praticar todos os atos de direção decorrentes da legislação em vigor para os servidores públicos federais. 
+h) Propor ao PRep, por intermédio do MM, os servidores para os cargos em comissão, bem como os que devam ser promovidos. 
+Obs: Ele terá um assistente de sua confiança, designado dentre os funcionários do TM. 
+CAP IV - DAS ATRD3UIÇÕES DOS JUÍZES 
+Art. 24: Os juizes do TM: 
+- Dirigem o processo que lhes é atribuído, presidem os atos de instrução, orientam o processo, requisitam informações e does de 
+qq lugar, admitem defesa e intervenção de terceiros interessados, e apresentam ao Tribunal os processos prontos para julgamento. 
+- Eles discutem e julgam as questões e, na apreciação da prova, formam livremente o seu convencimento. 
+- Quando vencedores, eles servem de relator: e quando vencidos, justificam o voto por escrito. 
+Art. 25: O juiz suplente em exercício terá as atribuições e vantagens do juiz efetivo. 
+Art. 26: O juiz que se declarar suspeito ou impedido motivará o despacho (se forem de natureza íntima, comunicará os motivos 
+H§ 
+ao Presidente do TM). 
+Art. 27: É vedado ao juiz do TM: 1) exercer outra fç pública, ainda que em disponibilidade, salvo o magistério secundário e 
+superior e os casos previstos para os magistrados, sob pena de perda do cargo; e 2) exercer atividade político-partidária. 
+CAP V - DOS ADVOGADOS E SOLICITADORES 
+Art. 31: O patrocínio das causas é privativo dos advogados e solicitadores provisionados inscritos na OAB. / As proibições e 
+impedimentos de advocacia no TM regem-se pelo Regulamento da OAB. 
+CAP VI - DA SECRETARIA 
+Art. 32: Um baixaréu em direito exerce o cargo de Diretor-Geral. 
+- Composição: 
+1) Divisão de Acidentes e Fatos da Navegação. 
+2) Divisão de Registro da Propriedade Marítima. 
+3) Divisão de Jurisprudência e Documentação. 
+4) Divisão de Administração. 
+- As atribuições do Diretor-Geral, das divisões, serviço, seção e turma serão fixadas no Regimento Interno. 
+TÍTULO II 
+CAP I - DO INQUÉRITO SOBRE ACIDENTES OU FATOS DA NAVEGAÇÃO 
+Art. 33: Sempre que chegar ao conhecimento de uma Capitania qualquer Acidente ou Fato, será instaurado inquérito. 
+- Será competente para o inquérito: 
+1) a Cap em cuja jurisdição tiver ocorrido. 2) a Cap do Io porto de escala ou arribada. 
+3) a Capitania do porto de inscrição. 
+4) qq outra Capitania designada pelo TM. 
+- Se qq das 3 primeiras não abrir inquérito dentro de 5 dias da data em que tiver tomado conhecimento do fato, a providência será 
+tomada pelo MM ou pelo TM, sendo a decisão deste adotada mediante provocação da Procuradoria, dos interessados ou de qq dos 
+juizes. 
+Art. 34: Verificar-se-á a competência por prevenção desde que, sendo mais de uma capitania competente, houver uma delas, em 
+Io lugar, tomado conhecimento do ocorrido, iniciando desde logo o inquérito. 
+- Qualquer dúvida sobre a competência para a sua instauração será dirimida, sumariamente, pelo TM. 
+Art. 35: São elementos essenciais nos inquéritos: 
+a) Comunicação ou relatório do Capitão/Mestre, ou parte de qq dos interessados, ou determinação ex-offício. 
+b) Depoimento do Capitão/Mestre, do Prático e dos tripulantes que tenham conhecimento do ocorrido. 
+c) Depoimento de qq testemunha idônea. 
+d) Esclarecimentos dos depoentes e, caso necessário, acareação. 
+e) Cópias dos lançamentos diários de navegação e máquinas referentes ao ocorrido (ao menos das 24h anteriores). No caso de embs 
+dispensadas desses lançamentos, os pormenores da navegação serão reconstituídos e investigados mediante depoimentos. 
+f) Exame pericial feito após o ocorrido, e juntada do laudo ao inquérito. 
+g) Juntada ao inquérito dos últimos termos de vistoria da emb, em seco e flutuando, antes do ocorrido; bem como cópia do termo 
+de inscrição da emb (caso ela não seja registrada no TM). 
+h) Juntada, sempre que possível, do manifesto de carga, com esclarecimentos sobre a forma de estiva, 
+i) Se tiver havido alijamento, juntada de infos sobre a natureza e quantidade da carga alijada e sobre o cumprimento das 
+prescrições legais a esse respeito. 
+Obs: a autoridade ene do inquérito poderá: 1) ordenar diligências suscetíveis de contribuir para a elucidação; 2) requisitar de qq 
+outra autoridade infos e does que não possam ser obtidos das autoridades navais. 
+
+
+===== PAGINA 264 =====
+
+Art. 36: O TM poderá baixar provimento em que fixe, para cada Acidente ou Fato, a matéria a ser apurada pela Capitania. 
+Art. 37: Quando concluídas as diligências, cabe à autoridade ene do inquérito fazer um minucioso relatório em 10 dias. Se o 
+relatório apontar possíveis responsáveis, estes terão 10 dias (da data em que se der ciência) para apresentarem defesa prévia. 
+Art. 39: O inquérito, encerrado, será enviado com urgência ao TM. 
+Art. 40: No caso de sinistro com emb brasileira em águas estrangeiras, o inquérito será realizado pelo consulado local, a quem 
+cumprirá também efetuar todas as diligências determinadas pelo TM. / Cumpre ao Cônsul que abrir o inquérito: 
+a) Nomear peritos para os exames técnicos, obedecendo a escolha à seguinte ordem: 1) 2 Oficiais da Armada Nacional, caso haja 
+algum navio de guerra no porto ou em águas da sua jurisdição; 2) 2 Capitães de M. Mercante estrangeira. 
+b) Ordenar (em nome do TM, e mediante prévia comm a este) o desembarque imediato do Capitão ou qq tripulante, quando tal 
+providência for essencial aos interesses nacionais e à apuração da responsabilidade. 
+CAP II - DO PROCESSO SOBRE ACIDENTE OU FATO DA NAVEGAÇÃO 
+SEÇÃO I - DISPOSIÇÕES GERAIS 
+Art. 41: O processo perante o TM se inicia: 1) por iniciativa da Procuradoria: 2) por iniciativa da parte interessada: ou 3) por 
+decisão do próprio Tribunal. 
+- O processo iniciado por iniciativa da parte interessada se dará por meio de: 
+a) representação, devidamente instruída, no decorrer dos 30 dias subsequentes ao prazo de 180 dias da ocorrência, se até o 
+final deste o inquérito não houver entrado no TM; 
+b) representação nos autos do inquérito, quando a promoção for pelo arquivamento, dentro de 2 meses do dia em que os 
+autos voltarem da Procuradoria (os autos permanecerão em Secretaria nesse prazo, e depois serão conclusos ao relator); 
+c) representação nos autos do inquérito ainda no curso do processo, dentro de 3 meses da abertura da instrução (ou até a 
+data do seu encerramento, se sua duração for menor). 
+- Em qq caso, porém, esses prazos são peremptórios (= que não podem ser dilatados) e só serão contemplados uma vez, não se renov
+em outras fases de instrução que por ventura venham a ocorrer. 
+Art. 42: Feita a distribuição e a autuação, em se tratando de inquérito ou representação, o relator dará vista dos autos à 
+Procuradoria, para que esta oficie (dentro de 10 dias) por uma das seguintes formas: 
+1) oferecendo representação ou pronunciando-se sobre a que tenha sido oferecida pela parte. 
+2) pedindo o arquivamento do inquérito (em parecer fundamentado). 
+3) opinando pela incompetência do TM e requerendo a remessa dos autos a quem de direito. 
+Art. 44: As representações oriundas do mesmo inquérito terão o mesmo relator, e serão instruídas e julgadas conjuntamente. 
+Art. 45/46: Nos feitos de iniciativa privada: 
+1) a representação ou contestação só poderá ser oferecida por quem tiver legítimo interesse econômico ou moral no julgamento. 
+2) é lícito às partes desistirem, mas o processo seguirá como se fosse de iniciativa da Procuradoria. 
+Art. 47: No processo iniciado em virtude de representação do interessado, admitir-se-á o litisconsórcio ativo ou passivo, fundado 
+na comunhão ou identidade de interesse. 
+- O direito de promover os atos dos processos cabe indistintamente a qq dos litisconsortes, e quando um deles citar ou intimar a 
+parte contrária, deverá tb citar ou intimar os colitigantes. 
+- Quando o litígio tiver de ser resolvido de modo uniforme para todos os litisconsortes, serão representados pelos demais: os revéis 
+ou foragidos, ou os que houverem perdido algum prazo. 
+- Quando a decisão puder influir na relação jurídica entre qualquer das partes e terceiro, este poderá intervir como litisconsorte em 
+qq fase do processo, aceitando a causa no estado em que ela se encontrar. 
+Art 48: No processo de ação pública, qq interessado poderá intervir apenas como assistente ou da Procuradoria, ou do acusado. 
+- O assistente será admitido enquanto a decisão não passar em julgado, e receberá a causa no estado em que ela se achar. 
+- O co-representante não poderá, no mesmo processo, intervir como assistente da Procuradoria. 
+- Ao assistente será permitido propor meios de prova, requerer perguntes às testemunhas, participar do debate oral, arrazoar os 
+recursos interpostos pelo assistido e recorrer, caso não o tenha feito o assistido. 
+- Quando o assistente, uma vez intimado, deixar de comparecer a qualquer dos atos processuais (sem motivo de força maior), o feito 
+prosseguirá independentemente de nova intimação. 
+Art. 49: Recebida a representação pelo Tribunal, o relator do processo o fará prosseguir nos termos desta Lei. 
+Art. 50: Quando a Procuradoria requerer o arquivamento, o Tribunal, se julgar improcedentes as razões invocadas para o pedido, 
+ordenará a volta do processo à Procuradoria. 
+Art. 51: Se a Procuradoria opinar pela incompetência do TM, o processo será concluso ao relator, que o apresentará ao Tribunal 
+para seu conhecimento e decisão. Se o Tribunal afirmar a sua competência da espécie, o processo será enviado à Procuradoria. 
+Art. 52: Nos casos dos arts. 50 e 51, o Procurador terá 5 dias para oferecer representação. 
+
+
+===== PAGINA 265 =====
+
+<BãVãrirum-^&^Mw*xrniGna 
+SEÇÃO II - DA CITAÇÃO 
+Art. 53: Recebida a representação ou negado o arquivamento do inquérito, o relator determinará a notificação do acusado: 
+1) por mandato ou com hora certa (se residente no Estado da Guanabara); 2) por delegação ao Capitão dos Portos ou Cônsul de 
+onde residir o representado; e 3) por edital, se o local de permanência for ignorado ou incerto. 
+Art. 54: A citação é necessária no início da causa ou da execução, sob pena de nulidade, caso em que se fará por guia de sentença. 
+Art. 55: A citação, a notificação e a ultimação serão cumpridas com as formalidades estabelecidas no regimento do Tribunal. 
+SEÇÃO III - DA DEFESA 
+Art. 56: Dentro de 15 dias da notificação, o notificado poderá oferecer defesa escrita, juntando e indicando os meios de prova 
+que achar convenientes. / A decisão do TM só poderá versar sobre os fatos constantes da representação ou da defesa. 
+SEÇÃO IV - DA PROVA 
+Art. 57: Todos os tipos de provas reconhecidas em direito são admissíveis. 
+Art. 58: O fato alegado por uma das partes que a outra não contestar será admitido como verídico (se as provas não disserem o 
+contrário). / A prova do inquérito será aceita enquanto não destruída por prova contrária. 
+Art. 59: O juiz ou o Tribunal poderão ouvir a terceiro a quem as partes ou testemunhas se hajam referido como sabedor de algo 
+que influa na decisão do feito (ou ordenar que exibam documento de interesse). 
+Art. 60: Os fatos notórios independerão de provas. 
+Art. 61: Aquele que alegar direito estadual, municipal, costumeiro, singular ou estrangeiro, deverá provar-lhe o teor e a 
+vigência (salvo se o Tribunal dispensar a prova). 
+Art. 62: No exame das provas de atos e contratos, guardar-se-á o que prescrevem as leis que os regulam. 
+Art. 63: A prova que tiver que ser produzida fora da sede do Tribunal será feita por delegação de atribuições de instrução ao 
+Capitão dos Portos ou agente consular. 
+Art. 64: No que concerne às diversas espécies de provas, serão obedecidas as regras do processo comum. 
+CAP III - DAS RAZÕES FINAIS 
+Art. 65: Finda a instrução, será aberta vista dos autos por 10 dias, sucessivamente, ao autor e ao representado, para que 
+aduzam alegações finais. Em seguida, os autos serão conclusos ao relator para pedido de julgamento. 
+Art. 66: Antes de pedir julgamento, o relator: 1) mandará sanar qq omissão legal ou processual; e 2) ordenará qq diligência ou 
+prova necessária ao esclarecimento da causa. 
+Art. 67: O relator terá 10 dias para estudar os autos que lhe forem conclusos para pedido de julgamento (afora o tempo 
+consumido nos atos a que se refere o artigo anterior). 
+CAP IV - DO JULGAMENTO 
+Art. 68: O julgamento obedecerá às seguintes normas: 
+1) relatório. 
+2) sustentação das alegações finais pelas partes. 
+3) conhecimento das preliminares suscitadas e dos agravos. 
+4) discussão da matéria em julgamento. 
+5) decisão, iniciando a votação pelo relator, seguindo-se os demais juizes (a partir do mais moderno). 
+- Antes de iniciada a votação, qq juiz poderá pedir vista do processo até a sessão imediata e, excepcionalmente, pelo prazo que lhe 
+for concedido pelo Tribunal. Iniciada a votação, nenhum juiz poderá mais se manifestar, salvo para justificar o voto. 
+Art. 69: Proferido o julgamento, o Presidente anunciará a decisão, designando ao relator para redigir o acórdão ou, vencido 
+este, o juiz cujo voto tiver prevalecido. 
+Art. 70: Se houver empate, o Presidente desempatará. 
+Art. 71: O Tribunal só pode deliberar com a presença de metade + 1 dos seus membros, sendo as questões decididas por maioria. 
+Art. 72: O julgamento só poderá ser convertido em diligência a critério do Tribunal por proposta de um dos juizes, apresentada 
+antes de iniciar-se a votação. / A diligência será promovida pelo relator e, uma vez cumprida, ouvidas as partes, o processo será 
+submetido ao plenário para prosseguir o julgamento. 
+Art. 72: O acórdão será publicado em seção do Tribunal nos 10 dias seguintes ao julgamento, remetendo-se cópia para 
+publicação no órgão oficial. 
+Art. 74: Em todos os casos de Acidente ou Fato, o acórdão conterá: 
+1) a definição da natureza do ocorrido e as circunstâncias em que se verificou. 
+2) a determinação das causas. 
+3) a fixação das responsabilidades, a sanção e o fundamento desta. 
+4) as medidas preventivas e de SegNav (tf any). 
+
+
+===== PAGINA 266 =====
+
+TITULO IV 
+CAP I - DOS RECURSOS 
+Art. 105: Os recursos admitidos são: 1) embargos de nulidade ou infringentes: 2) agravos: 3) embargos de declaração. 
+CAP II - DOS EMBARGOS INFRINGENTES 
+Art. 106: A decisão final é passível de embargos, estes versando exclusivamente sobre matéria nova, ou baseando-se em prova 
+posterior ao encerramento da fase probatória; ou ainda, quando a decisão não for unânime (neste caso, os embargos serão 
+restritos à matéria objeto da divergência). 
+Art. 107: Os embargos, que deverão ser opostos até 10 dias da publicação do acórdão no órgão oficial, serão deduzidos por artigo 
+Art. 108: Admitido o recurso e designado novo relator, o embargado terá 10 dias para oferecer impugnação. 
+- O prazo para o preparo do recurso será de 3 dias da ciência do recebimento, sob pena de deserção. 
+- Se a Procuradoria oficiar no processo apenas como fiscal da lei, terá, por último, vista dos autos para dizer sobre os embargos. 
+- A seguir, os autos serão conclusos ao relator para pedido de julgamento. 
+Art. 109: No julgamento dos embargos, será observado o Art. 68. 
+Art. 110: Desprezados os embargos e publicado o acórdão oficial, a decisão produzirá todos os efeitos. 
+CAP III - DOS AGRAVOS 
+Art. Ill: Caberá agravo para o Tribunal por simples petição: 
+a) Dos despachos e decisões dos juizes: 1) que não admitirem a intervenção de terceiros na causa como litisconsorte ou assistente; 
+2) que concederem ou denegarem inquirição e outros meios de prova; 3) que concederam grandes ou pequenas dilações para fora 
+do país; 4) que deferirem, denegarem ou renovarem o benefício da gratuidade. 
+b) Dos despachos e decisões do Presidente: 1) que admitirem ou não recurso ou apenas o fizerem em parte; 2) que julgarem ou 
+não reformados autos perdidos em que não havia ainda a decisão final; 3) sobre erros de contas ou custas; e 4) que concederem ou 
+denegarem registro. 
+Art. 112: O agravo é restrito ao ponto de que se agravou, ao qual o Tribunal deverá limitar a sua decisão, de que não haverá 
+embargos. 
+- O recurso terá efeito suspensivo; porém, só em relação ao ponto agravado. 
+- O prazo para interposição de agravo é de 5 dias, e o seu processamento será cnf o Código de Processo Civil. 
+- No Tribunal, o agravo será distribuído a um juiz desimpedido, que pedirá sua inclusão em pauta para julgamento com preferência 
+nos trabalhos do dia, quando o relatará. 
+- Provido ou não o recurso, os autos baixarão ao relator do feito principal, para o seu prosseguimento. 
+CAP IV - DOS EMBARGOS DE DECLARAÇÃO 
+Art. 113: Quando as decisões do Tribunal apresentarem ambigüidade, obscuridade, contradição ou omissão, podem ser 
+opostos embargos de declaração às decisões em até 48 horas da publicação no órgão oficial. 
+Art. 114: Os embargos de declaração serão deduzidos em requerimento (devem constar os pontos em que a decisão for 
+ambígua, contraditória ou omissa). / Se a petição não apontar qualquer dessas contradições, será logo indeferida. / O julgamento 
+de embargos de declaração terá preferência nos trabalhos do dia. 
+CAP V - DA EXECUÇÃO 
+Art. 115: Para cumprimento de decisão do TM, será expedida guia de sentença com os seguintes requisitos: 1) nome da 
+autoridade que manda cumprir; 2) indicação da autoridade incumbida do seu cumprimento; 3) nome e qualificação do 
+responsável; 4) transcrição da parte decisória e indicação do órgão oficial que publicou o acórdão na íntegra; 5) assinaturas do 
+Presidente e do diretor da Secretaria. 
+Art. 116: A guia de sentença será restituída ao TM com uma declaração do seu cumprimento feita pela autoridade a quem foi 
+remetida. / Se essa autoridade não puder cumprir, restituirá a guia com declaração negativa. 
+Art. 117: Quando a pena for a de multa e das custas, será expedida a guia à repartição encarregada da inscrição das dívidas 
+fiscais para a cobrança executiva. 
+Art. 118: Quando a pena não for de multa e se referir a estrangeiro domiciliado fora do país, além da remessa da guia à 
+autoridade competente, far-se-á comunicação ao representante consular. 
+Art. 119: Os representantes eventuais da embarcação serão responsáveis pelos pagamentos das multas impostas a estrangeiros 
+domiciliados fora do Brasil, e das respectivas custas processuais. 
+Art. 120: Nas guias de sentença, serão incluídas as custas processuais vencidas, para cobrança. 
+
+
+===== PAGINA 267 =====
+
+....... 
+y\ .:-•-•. 
+TITULO V 
+CAP I - DAS PENALIDADES 
+Art. 121: A inobservância dos preceitos que regulam a navegação será reprimida com as seguintes penas: 
+a) Repreensão, medida educativa sobre seg. da navegação, ou ambas. 
+b) Suspensão de pessoal marítimo (máx por 12 meses). 
+c) Interdição para o exercício de determinada fç (máx por 5 anos). 
+d) Cancelamento da matrícula profissional e da carteira de amador. 
+- Para estrangeiros, essa pena é convertida em proibição para o exercício da fç em AJB. 
+e) Cancelamento do registro de armador. 
+f) Proibição ou suspensão do tráfego da embarcação. 
+- Isso cessará logo que deixarem de existir os motivos que a determinaram; ou no caso de falta de registro da emb 
+obrigada a tal, logo que seja iniciado o processo de registro da propriedade. 
+g) Multa (cumulativamente ou não com as penas anteriores). 
+- O valor é de 11-543 UFIR, ressalvada a elevação do valor máximo nos casos previstos nesta Lei. 
+- Elas serão convertidas em URV (Unidade Real de Valor) ou no padrão monetário que vier a ser instituído. 
+Art. 122: São preceitos legais e reguladores da navegação: convenções, tratados, leis, regulamentos, portarias, usos e costumes, 
+instruções, exigências e notificações das autoridades, sobre o uso de embarcações, tripulação, navegação e atividades correlatas. 
+CAP II - DO CANCELAMENTO DA MATRICULA 
+Art. 123: O Tribunal pode cancelar a matrícula de profissional ou carteira de amador, ou interditar o sujeito para o exercício 
+de determinada fç, quando provado: 
+1) que o Acidente ou Fato foi causado com dolo. 
+2) que o responsável estava embriagado ou drogado. 
+3) que a falta de assistência causou a perda de vida. 
+4) que, no caso de emb brasileira, foi praticado contrabando em águas 
+estrangeiras, ocasionando o confisco da emb ou sua carga. 
+CAP III - DA SUSPENSÃO OU MULTA 
+Art. 124: O Tribunal poderá aplicar pena de suspensão ou multa (ou ambas) quando provado que o Acidente ou Fato ocorreu por: 
+1) erro da navegação ou de manobra. 
+2) deficiência de tripulação. 
+3) má estivação da carga. 
+4) haver carga no convés, impedindo manobras de emerg ou prejudicando a estabilidade. 
+5) avarias ou vícios próprios conhecidos e não revelados à autoridade (no casco, máqs, instrumentos e aparelhos). 
+6) recusa de assistência sem motivo a emb em perigo iminente, do qual tenha resultado o sinistro. 
+7) falta de aparelhagem de socorro, ou de luzes destinadas a prevenir abalroações. 
+8) falta de recursos para garantir a vida dos pass e tripulantes. 
+9) prática do que, geralmente, se deva omitir, ou omissão do que, geralmente, se deva praticar. 
+- O Tribunal pode aplicar multa até o décuplo ao proprietário/armador/operador/locatário/afretador/carregador convencido 
+da responsabilidade a que se referem este artigo e o anterior, bem como na inobservância dos deveres que a sua qualidade lhe impõe 
+em relação à navegação e atividades conexas. 
+- Essa responsabilidade não exclui a responsabilidade do pessoal marítimo que transgredir com os armadores na prática das 
+infrações. 
+Art. 125: Quando provado que a estiva foi feita em desacordo com as instruções do Comte/piloto/mestre/contramestre ou qq outro 
+preposto do armador, e disso resultar dano à emb ou à carga, a empresa estivadora ou o estivador (ou ambos) serão punidos com 
+multa. 
+- A falta de pgto da multa importará na suspensão das licenças para construção ou reparação naval. 
+
+
+===== PAGINA 268 =====
+
+CAP IV - DA APLICAÇÃO DA PENA 
+Art. 127: Cabe ao TM, atendendo aos antecedentes e à personalidade do responsável, à intensidade do dolo ou ao grau da culpa, às 
+circunstâncias e conseqüências da infração: 
+1) determinar a pena aplicável dentre as cominadas alternativamente; e 
+2) fixar a quantidade da pena aplicável (dentro dos limites legais). 
+- Na fixação da multa, o Tribunal deverá atender, principalmente, à situação econômica do infrator. 
+- A multa pode ser até dobrada, se o Tribunal julgar que ela é ineficaz mesmo quando aplicada no valor máximo, em virtude da 
+situação econômica do infrator. 
+- Serão assegurados o contraditório e a ampla defesa aos infratores. 
+Art. 128: O tribunal poderá substituir as penas de multa e suspensão pela repreensão, toda vez que só encontrar atenuantes a favor. 
+Art. 129: As penas de suspensão, cancelamento e interdição em que incorrer a tripulação de emb estrangeira será aplicada somente 
+em relação ao exercício de suas fçs em águas sob jurisdição nacional. 
+Art. 130: A pena de multa será aplicada ainda nos casos de dolo ou fraude nos registros mantidos pelo TM. 
+- Nesses casos, a competência para aplicar a penalidade será do Presidente do TM. 
+Art. 131: A multa deverá ser paga em até 10 dias da ciência da guia de sentença (excepcionalmente, este prazo pode ser 
+dilatado). / Caso a multa seja elevada para as posses do infrator, o pgto poderá ser parcelado mensalmente até no máx 1 ano. 
+Art. 132: O Tribunal poderá converter a multa em suspensão, quando houver razões que o justifiquem (cada 4 UFIRs 
+corresponderá a 1 dia de suspensão, arredondando-se para 1 mês quando o resultado apurado for < 30 dias). 
+Art. 133: Não se executará a pena de multa quando ela incidir sobre os recursos indispensáveis à manutenção do infrator e sua 
+família. Mas se ele for reincidente, será aplicado o art. anterior. 
+Art. 134: Será suspensa a execução da pena de multa se ao infrator sobrevier doença que o incapacite para o trabalho e ele não 
+dispuser de outras fontes de recurso. / Caso ele volte ao exercício, será procedida a cobrança. 
+Art. 135: As seguintes circunstâncias agravarão sempre a pena, quando "de per si" não constituam a própria infração: 
+1) reincidência; 2) ação ou omissão da qual tenha resultado perda de vida; 3) coação ou abuso de autoridade ou poder inerente ao 
+cargo; 4) pânico a bordo, quando evitável ou reprimível; 5) desobediência a ordem legal de superior hierárquico; 6) ausência do 
+posto quando de serviço; 7) concurso em ato que tenha agravado o dano; 8) instigação a cometer a infração; 9) execução da infração 
+mediante paga ou promessa de recompensa; 10) ter praticado a infração para assegurar ou facilitar a execução, a ocultação, a 
+impunidade ou a obtenção de vantagem de outra infração; 11) embriaguez e uso de drogas, salvo se decorrer de caso fortuito ou de 
+força maior; 12) ser a infração praticada no exterior; 13) a infração resultar em poluição ou outro dano ao meio aquático. 
+Art. 136: Reincidência é quando o agente comete outra infração, depois de definitivamente condenado por infração anterior. 
+- A reincidência será específica se as infrações forem da mesma natureza. / São consideradas da mesma natureza: 1) as 
+infrações estabelecidas em um só dispositivo legal; e 2) as que, embora estabelecidas em dispositivos diversos, apresentarem os 
+mesmos caracteres fundamentais (pelos atos ou pelos motivos determinantes). 
+- O tempo observado no agravamento da pena por reincidência é de 5 anos, devendo ser considerado como marco inicial de 
+contagem: 1) nos casos de repreensão ou medida educativa (ou ambas), a data em que o acórdão do Tribunal transitar em julgado; 2) 
+nos casos de multa, o dia do seu pagto (ou da última parcela); 3) nos casos de suspensão e interdição, após o último dia de 
+cumprimento da pena; e 4) em qq caso, a data da extinção da pena. 
+Art. 137: Reincidência específica: importará na aplicação da pena de multa ou suspensão, acrescida do dobro da fixada para a 
+pena-base, somadas as circunstâncias agravantes (quando for o caso), observados os limites do Art. 121. 
+Art. 138: Reincidência genérica: importará na aplicação de pena de multa ou suspensão, acrescida da metade da fixada para a 
+pena-base, somadas as circunstâncias agravantes (quando for o caso), observados os limites do Art. 121. 
+Art. 139: Serão sempre circunstâncias atenuantes: 
+a) Agente menor de 21 e maior de 70 anos. 
+b) Terem sido de somenos importância os efeitos da infração cometida. 
+c) A ignorância ou a errada compreensão da lei, quando escusável. 
+d) Ter o agente: - procurado, por espontânea vontade e com eficiência, minorar as conseqüências logo após o ocorrido. 
+- cometido a infração: sob coação a que podia resistir, ou sob violenta emoção por influência externa não 
+provocada, ou em estado de esgotamento físico resultante de trabalho extraordinário. 
+- confessado espontaneamente a autoria do fato. 
+Art. 140: Em concurso de agravantes e atenuantes, a pena deverá aproximar-se do limite indicado pelas circunstâncias 
+preponderantes (ou seja, as que resultarem dos motivos determinantes da infração, da personalidade do agente e da 
+reincidência). 
+
+
+===== PAGINA 269 =====
+
+i»B»gflBa«ajujJM«»miJuii 
+Art. 141: A pena que tenha que ser aumentada ou diminuída dentro de determinados limites é a que o Tribunal aplicaria se não 
+existisse causa de aumento ou diminuição. / Em concurso das causas de aumento ou de diminuição da pena, elas compensar-se-ão. 
+Art. 142: Quando o agente praticar duas ou mais infrações (idênticas ou não) mediante mais de uma ação ou omissão., as penas 
+em que houver incorrido se aplicarão cumulativamente. 
+- Quando o agente praticar duas ou mais infrações da mesma espécie, mediante mais de uma ação ou omissão, e pelas 
+condições de tempo e lugar, maneira de execução e outras semelhantes, as infrações subsequentes forem consideradas como 
+continuação da primeira, ser-Ihc-á imposta a pena de uma só das infrações (se idênticas), ou da mais grave (se diversas), 
+aumentada, em qq caso, de 1/6 a 4/6. 
+Art. 143: A ignorância ou a errada compreensão da lei, quando escusáveis, ou quando as conseqüências da infração atingirem 
+o agente de forma tão grave que a sanção administrativa se torne desnecessária, poderão resultar na não-aplicação de pena. 
+Art. 144: Os casos omissos serão resolvidos por Resolução do TM. 
+TITULO VI 
+CAP I - DO QUADRO DO TRIBUNAL MARÍTIMO 
+Art. 147: O TM terá seu quadro próprio de pessoal, proposto pelo Juiz-Presidente através do MM e submetido à aprovação do 
+Congresso. 
+CAPs II e III - DISPOSIÇÕES ESPECIAIS E FINAIS 
+Art. 148: Os juizes do TM gozarão de inamovibilidade e das deferências devidas ao cargo. 
+- O tempo de svç no Tribunal será contado como de serviço público federal. 
+Art. 150: Os advogados de ofício, quando funcionando nos processos, terão as mesmas regalias concedidas aos demais advogados. 
+Art. 151: Aos demais funcionários do TM e no que concerne ao aproveitamento de cargos, direitos e vantagens, deveres e 
+responsabilidades, aplica-se a legislação em vigor para os servidores públicos federais (com as alterações decorrentes desta Lei). 
+Art. 152: O TM terá regime de férias coletivas de 30 dias, a partir de 01/janeiro, / Nesse período, o TM somente se reunirá para 
+assunto de alta relevância, por convocação extraordinária do seu Presidente. 
+Art. 154: O retardamento de processo por parte de juiz, procurador, adjunto de procurador ou advogado de ofício, determinará a 
+perda de tantos dias de vencimentos quantos os excedidos dos prazos estabelecidos nesta Lei, descontados no mês seguinte 
+aquele em que se verificar a falta. / O desconto se fará pela repartição pagadora à vista de certidão, que o Secretário do TM lhe 
+remeterá ex-officio, sob pena de multa de 500 Cruzeiros, sem prejuízo da falta de exação no cumprimento do dever. 
+Art. 155: Nos casos de matéria processual omissos nesta Lei, serão observadas as leis de processo que estiverem em vigor. 
+Art. 156: Nos processos da competência do TM haverá custas que serão recolhidas na forma da legislação fazendária em vigor. 
+- O TM organizará o seu "Regimento de Custas" e o submeterá à aprovação do PRep. 
+- Esse Regimento será vinculado ao valor do maior salário-mínimo vigente (e o seu reajuste também). 
+Art. 157: O Regimento Interno do TM será submetido ao PRep. 

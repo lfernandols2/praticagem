@@ -1,0 +1,175 @@
+<section class="section" id="i3-superficies-controle">
+  <p class="section-kicker">Tópico 3</p>
+  <h2>3. Superfícies de Controle (lemes)</h2>
+  <p class="lead">As superfícies de controle geram as forças e os momentos de governo do navio. O leme é a principal, e sua ação é <strong>indireta</strong>: ao defleti-lo, cria-se um momento que faz o navio assumir ângulo de deriva em relação à direção do movimento; são as forças hidrodinâmicas no casco, desenvolvidas com o tempo, que mudam a trajetória do centro de gravidade. <span class="src">pp. 39, 41</span></p>
+  <p>Esta seção organiza a física do leme conforme o Anexo 2-A; o tópico 7 retoma o assunto com ênfase em desempenho e projeto.</p>
+
+  <h3>3.1. Geometria do leme</h3>
+  <div class="def">
+    <span class="def__term">Hidrofólio (hydrofoil)</span>
+    <p>Membro relativamente fino, em forma de placa perfilada — como a pá de um hélice ou o leme —, projetado para obter sustentação quando inclinado em relação ao escoamento da água. <span class="src">Crenshaw, cap. 2</span></p>
+  </div>
+  <p>A geometria descreve-se pela <strong>área</strong>, pela <strong>corda</strong> (comprimento do perfil no sentido do fluxo), pela <strong>envergadura</strong> (<em>span</em>, altura vertical) e pela <strong>razão de aspecto</strong> (<em>aspect ratio</em>, relação entre envergadura e corda). A forma do perfil — simétrico na maioria dos lemes de navio — e o balanceamento completam a descrição.</p>
+
+  <h3>3.2. Princípio de sustentação e arrasto: forças e momentos do leme</h3>
+  <p>Uma placa inclinada na corrente cria alta pressão no lado de vante e baixa pressão no lado de ré; a diferença de pressão produz força. Com escoamento suave, essa força é proporcional ao ângulo de inclinação, ao quadrado da velocidade do fluxo e à área. <span class="src">Crenshaw, cap. 2</span></p>
+  <div class="def">
+    <span class="def__term">Ângulo de ataque, sustentação e arrasto</span>
+    <p>O <strong>ângulo de ataque</strong> é aquele a que o hidrofólio está inclinado em relação ao fluxo livre relativo. A <strong>sustentação</strong> (<em>lift</em>) é a componente da força de reação perpendicular ao fluxo livre; o <strong>arrasto</strong> (<em>drag</em>) é a componente paralela a esse fluxo. <span class="src">Crenshaw, cap. 2</span></p>
+  </div>
+  <p>A deflexão do leme (δ<sub>R</sub>) gera a força lateral Y<sub>δ</sub>·δ<sub>R</sub> e o momento N<sub>δ</sub>·δ<sub>R</sub> no CG. A guinada iniciada faz o navio assumir ângulo de deriva; o casco, agindo como hidrofólio, então gera um momento N<sub>v</sub>·v que <strong>aumenta muito</strong> o momento do leme — os momentos combinados produzem o giro. <span class="src">p. 41</span></p>
+
+  <figure class="figure">
+    <svg viewBox="0 0 720 320" role="img" aria-labelledby="fig-lemes-title fig-lemes-desc">
+      <title id="fig-lemes-title">Forças no perfil do leme</title>
+      <desc id="fig-lemes-desc">Perfil de leme inclinado em relação ao fluxo livre, com ângulo de ataque, vetor de sustentação perpendicular ao fluxo, vetor de arrasto paralelo ao fluxo e linha de corda indicada.</desc>
+      <defs>
+        <marker id="arrow-lm" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+        <marker id="arrow-lm2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--teal)"/>
+        </marker>
+      </defs>
+      <rect x="15" y="15" width="690" height="290" rx="12" fill="var(--surface-2)" stroke="var(--line)"/>
+      <path d="M60 70 L140 70" class="diagram-line" marker-end="url(#arrow-lm2)"/>
+      <path d="M60 100 L140 100" class="diagram-line" marker-end="url(#arrow-lm2)"/>
+      <text x="52" y="90" class="diagram-label">fluxo livre</text>
+      <path d="M300 160 Q420 120 540 145 Q600 160 560 175 Q460 205 340 185 Q280 172 300 160 Z" fill="var(--navy-2)" stroke="var(--teal)" stroke-width="2"/>
+      <path d="M280 195 L600 125" class="diagram-line" stroke-dasharray="6 5"/>
+      <text x="588" y="118" class="diagram-label">corda</text>
+      <path d="M420 175 L500 235" class="diagram-gold" stroke-width="4" marker-end="url(#arrow-lm)"/>
+      <text x="470" y="255" class="diagram-label diagram-label--strong">sustentação (L)</text>
+      <path d="M420 175 L330 155" class="diagram-line" stroke-width="3" marker-end="url(#arrow-lm)"/>
+      <text x="245" y="150" class="diagram-label">arrasto (D)</text>
+      <path d="M470 165 A60 60 0 0 1 452 190" fill="none" stroke="var(--gold)" stroke-width="2" marker-end="url(#arrow-lm)"/>
+      <text x="492" y="182" class="diagram-label diagram-label--strong">ângulo de ataque</text>
+      <circle cx="420" cy="175" r="6" fill="var(--gold)"/>
+      <text x="392" y="168" class="diagram-label">centro de pressão</text>
+      <text x="610" y="185" class="diagram-label">bordo de fuga</text>
+      <text x="268" y="225" class="diagram-label">bordo de ataque</text>
+      <text x="52" y="290" class="diagram-label">A sustentação cresce com o ângulo de ataque até o estol; o arrasto cresce junto.</text>
+    </svg>
+    <p>    <figcaption><b>Figura 1.</b> Perfil do leme em escoamento: força resultante decomposta em sustentação (perpendicular ao fluxo) e arrasto (paralelo), aplicada no centro de pressão. Física do perfil conforme Crenshaw, cap. 2.</figcaption>
+  </figure>
+
+  <h3>3.3. Princípios do escoamento em torno do leme do navio</h3>
+  <p>O escoamento que atinge o leme resulta da <strong>combinação</strong> do movimento do navio com a corrente de descarga do hélice; estimado o fluxo real, prevê-se a eficácia de cada ângulo de leme. <span class="src">Crenshaw, cap. 2</span></p>
+  <p>Em placas brutas, mudanças abruptas de fluxo no bordo de ataque podem provocar <strong>separação</strong>, alterando a distribuição de pressão. Um perfil conformado torna a aceleração da água gradual e evita a separação, sustentando a força em ângulos maiores. <span class="src">Crenshaw, cap. 2</span></p>
+
+  <h3>3.4. Influências da razão de aspecto do leme</h3>
+  <p>A razão de aspecto mede o quanto o leme é "alongado": lemes de envergadura grande e corda menor perdem menos sustentação nas pontas e respondem de forma mais proporcional ao ângulo de ataque. Em termos gerais, para o mesmo ângulo de ataque, uma razão de aspecto maior aumenta a efetividade da superfície.</p>
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>Detalhamento em <strong>PNA Vol. III, Ch. IX — Hydrodynamics of Control Surfaces</strong> (seção <em>Effect of Aspect Ratio</em>; Anexo 2-B da NORMAM-311) — não disponível na pasta de estudos.</p>
+  </div>
+
+  <h3>3.5. Diferenças de atuação entre um leme de estrutura fixa e um do tipo "flap"</h3>
+  <p>No leme convencional, toda a superfície gira em torno de seu eixo. No tipo <em>flap</em>, uma parte posterior articulada deflete adicionalmente, curvando o perfil em operação; isso aumenta a sustentação máxima para o mesmo ângulo de leme, à custa de maior complexidade mecânica. A diferença importa nas manobras que exigem força alta em velocidade moderada.</p>
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>Detalhamento em <strong>PNA Vol. III, Ch. IX</strong> (seção <em>Influence of Fixed Structure and Flapped Control Surfaces</em>; Anexo 2-B) — não disponível na pasta de estudos.</p>
+  </div>
+
+  <h3>3.6. Influências da forma do casco na ação do leme</h3>
+  <p>O casco altera o fluxo que chega ao leme e, ao assumir ângulo de deriva, gera forças laterais próprias que se somam ao momento do leme. A popa — rabeta, arqueamento, apêndices fixos — também modifica a <strong>razão de aspecto efetiva</strong>, pois funciona como "parede" que inibe perdas nas pontas.</p>
+  <p>Na síntese de Nomoto da fonte, o parâmetro K'/T' — indicativo de boa manobrabilidade — é proporcional a A<sub>R</sub>·L/V (área do leme × comprimento ÷ volume deslocado). Fixadas as dimensões do navio, a controlabilidade melhora com o aumento do tamanho do leme ou de sua efetividade. <span class="src">p. 45</span></p>
+  <p class="source-line">pp. 39–45; Crenshaw, cap. 2 (ed. 1960)</p>
+</section>
+
+<section class="section" id="i7-superficies-controle-a">
+  <p class="section-kicker">Tópico 7</p>
+  <h2>7. Superfícies de Controle (lemes) — efetividade, forças e estol</h2>
+  <p class="lead">O tópico 7 retoma as superfícies de controle com ênfase em efetividade, forças, estol e interações — os conceitos coincidem com o tópico 3, aqui vistos do ponto de vista do desempenho.</p>
+
+  <h3>7.1. Geometria do leme</h3>
+  <p>Remente ao item 3.1: área, corda, envergadura e razão de aspecto entram nas expressões de sustentação e arrasto e, pela razão de aspecto efetiva, conectam-se à forma da popa.</p>
+
+  <h3>7.2. Efetividade do leme</h3>
+  <p>A efetividade é a capacidade do leme de produzir força e momento por unidade de ângulo defletido. Na formulação de resposta, ela aparece no coeficiente de giro K' com a constante de tempo T': leme mais eficaz aumenta K'; resposta inicial rápida é T' pequeno, o que garante boa mudança de rumo (<em>course changing</em>) e quebra de guinada (<em>course checking</em>). <span class="src">pp. 43–45</span></p>
+  <div class="callout callout--exam">
+    <span class="callout__label">Cai na prova</span>
+    <p>A força no leme varia com o <strong>quadrado da velocidade de escoamento</strong>: dobrar o fluxo quadruplica a força para o mesmo ângulo de leme. <span class="src">Crenshaw, cap. 2</span></p>
+  </div>
+
+  <h3>7.3. Princípios de sustentação e arrasto</h3>
+  <p>Remente ao item 3.2: sustentação perpendicular e arrasto paralelo ao fluxo livre relativo, com força proporcional à área, ao ângulo de ataque e ao quadrado da velocidade. O projeto busca maximizar a sustentação útil controlando o arrasto, que é resistência adicionada.</p>
+
+  <h3>7.4. Forças hidrodinâmicas e momentos no leme</h3>
+  <p>Num navio de um hélice, a resultante de três forças determina o movimento: <strong>empuxo do hélice</strong> (<em>thrust</em>), <strong>força lateral</strong> (<em>side force</em>, componentes transversais do hélice) e <strong>força do leme</strong> (perpendicular às faces do leme). Atuando em pontos próximos, na popa, podem ser tratadas como uma única resultante; controla-se o navio controlando essa resultante. <span class="src">Crenshaw, cap. 2</span></p>
+  <p>Se a linha de ação da força na popa não passa pelo CG, surge torque igual à força multiplicada pelo braço de alavanca — é esse momento que faz o navio guinar. No formalismo das equações de movimento, δ<sub>R</sub> entra pelas derivadas Y<sub>δ</sub> (força lateral) e N<sub>δ</sub> (momento). <span class="src">Crenshaw, cap. 2; p. 41</span></p>
+
+  <h3>7.5. Ângulo de estolamento do leme</h3>
+  <p>A sustentação cresce com o ângulo de ataque até um limite: superado o <strong>ângulo de estolamento</strong>, o escoamento separa do perfil, a sustentação cai e o arrasto aumenta drasticamente. Defletir o leme além do estol não aumenta o momento de governo — apenas paga resistência e perde resposta.</p>  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>O ângulo de estol depende do perfil, da razão de aspecto e do regime de escoamento; valores específicos constam em <strong>PNA Vol. III, Ch. IX</strong> (Anexo 2-B) — não disponível na pasta de estudos.</p>
+  </div>
+  <p class="source-line">pp. 41–45; Crenshaw, cap. 2 (ed. 1960)</p>
+</section>
+
+<section class="section" id="i7-superficies-controle-b">
+  <p class="section-kicker">Tópico 7 (continuação)</p>
+  <h2>7. Superfícies de Controle (lemes) — tipos, interações e projeto</h2>
+
+  <h3>7.6. Tipos de leme</h3>
+  <div class="table-wrap">
+    <table>
+      <caption>Tipos correntes de leme e características gerais</caption>
+      <thead>
+        <tr><th>Tipo</th><th>Característica</th><th>Consequência prática</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Toda-móvel (all-movable)</strong></td><td>Superfície inteira gira com o eixo do leme.</td><td>Resposta direta; é a configuração básica discutida nas fontes.</td></tr>
+        <tr><td><strong>Balanceado</strong></td><td>Área à vante do eixo reduz o torque no servo.</td><td>Menor esforço do sistema de governo para o mesmo ângulo.</td></tr>
+        <tr><td><strong>Semi-balanceado</strong></td><td>Balanceamento parcial, usualmente com parte fixa no casco.</td><td>Compromisso entre torque e proteção estrutural.</td></tr>
+        <tr><td><strong>Com estrutura fixa / flap</strong></td><td>Parte móvel articulada atrás de estrutura fixa ou de painel móvel.</td><td>Ver itens 3.5 e 7.9.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>A escolha do tipo resulta do compromisso entre efetividade, torque de governo, proteção pelo hélice e restrições de calado e popa. <span class="src">detalhamento em PNA Vol. III, Ch. IX</span></p>
+
+  <h3>7.7. Interação entre o leme e o propulsor</h3>
+  <p>Em navio de um hélice com leme atrás do hélice, a corrente de descarga domina a eficácia: com o hélice avante, o fluxo sobre o leme é quase a própria descarga, pouco importando o movimento do navio. Com o hélice à ré, a descarga não é dirigida contra o leme e a sucção, pouco concentrada, quase não o atinge; o navio precisa de velocidade considerável para ré antes de responder bem ao leme. <span class="src">Crenshaw, cap. 2</span></p>
+  <div class="callout callout--tip">
+    <span class="callout__label">Dica de passadiço</span>
+    <p>Se for desejada forte ação de leme, o hélice deve estar avante. Navio à ré com máquina atrás responde ao leme tarde e pouco — planeje a manobra com essa defasagem. <span class="src">Crenshaw, cap. 2</span></p>
+  </div>
+
+  <h3>7.8. Interação entre o leme e o casco do navio</h3>
+  <p>A interação atua nos dois sentidos: o casco altera o fluxo e a razão de aspecto efetiva do leme, e o momento do leme induz deriva que gera no casco forças muito maiores — o momento N<sub>v</sub>·v soma-se ao do leme e sustenta o giro. O efeito do leme no giro é, portanto, indireto e acoplado à resposta do casco. <span class="src">pp. 39, 41</span></p>
+  <p>Nota da fonte: um leme de área considerável reduz a magnitude negativa de N<sub>v</sub>; um leme muito grande pode até tornar N<sub>v</sub> positivo, o que não é usual. <span class="src">p. 41</span></p>
+
+  <h3>7.9. Diferenças entre leme de estrutura fixa e do tipo "FLAP"</h3>
+  <p>Remente ao item 3.5: a parte articulada do <em>flap</em> deflete em relação ao corpo principal, curvando o perfil e elevando a sustentação máxima, enquanto o leme de estrutura fixa depende apenas do ângulo da superfície inteira. Vantagem: força extra por grau defletido; desvantagem: complexidade mecânica e de manutenção.</p>
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>Detalhamento em <strong>PNA Vol. III, Ch. IX</strong> (Anexo 2-B) — não disponível na pasta de estudos.</p>
+  </div>
+
+  <h3>7.10. Cavitação no leme</h3>
+  <p>Quando a pressão local sobre o perfil cai abaixo da pressão de vapor da água, forma-se cavitação: bolhas que colapsam na região de alta pressão, degradando a sustentação e causando erosão e ruído. Ocorre em velocidades altas e grandes ângulos de ataque e reduz bruscamente a força disponível.</p>
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>Detalhamento em <strong>PNA Vol. III, Ch. IX</strong> (Anexo 2-B) — não disponível na pasta de estudos. Para o fenômeno geral de cavitação, ver o capítulo de propulsão da apostila (Lewis Vol. II, Cap. VI).</p>
+  </div>
+
+  <h3>7.11. O projeto do leme para atender os critérios de manobrabilidade do navio</h3>
+  <p>O projeto parte dos requisitos de manobrabilidade — critérios da IMO (Res. MSC.137(76), listada no Anexo 2-B) e ensaios padrão (espiral, zigzag, giro) — e atua nos alavancas disponíveis: área do leme (A<sub>R</sub>·L/V grande é desejável), efetividade, balanceamento e posição relativa ao hélice. <span class="src">pp. 45–46</span></p>
+  <div class="grid-2">
+    <div class="card card--accent">
+      <span class="card__num">01</span>
+      <h3>Dimensionar</h3>
+      <p>Área e razão de aspecto definem a força disponível e a resposta: leme maior melhora K'/T' e a manobrabilidade.</p>
+    </div>
+    <div class="card card--teal">
+      <span class="card__num">02</span>
+      <h3>Verificar</h3>
+      <p>Os índices K' e T' podem ser derivados dos ensaios de mar e comparados com os cálculos de projeto.</p>
+    </div>
+  </div>
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>As relações geométricas e hidrodinâmicas completas do projeto constam em <strong>PNA Vol. III, Ch. IX — Hydrodynamics of Control Surfaces</strong> (Anexo 2-B da NORMAM-311) — não disponível na pasta de estudos.</p>
+  </div>
+  <p class="source-line">pp. 41–46; Crenshaw, cap. 2 (ed. 1960)</p>
+</section>

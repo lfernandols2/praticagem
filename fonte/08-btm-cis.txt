@@ -1,0 +1,1034 @@
+FONTE: resumo curso h.pdf | CAPITULO 08 - btm-cis | paginas 228-242 | OCR ABBYY
+OBS: texto OCR ruidoso, mistura ingles/portugues. Interprete com cautela; nao invente.
+
+
+===== PAGINA 228 =====
+
+BRIDGE TEAM MANAGEMENT 
+CAP 3 - PASSAGE PLANNING 
+> Pode ser considerado em 2 estágios que podem se combinar e se sobrepor: 1) ocean e open water; e 2) coastal e estuarial. 
+1) Cartas: 
+> Coloque-as em ordem, e tb inclua: 1) cartas adjacentes às áreas a atravessar; e 2) cartas de escala muito grande (com os port 
+plans da parte costeira da travessia). / Essas cartas, embora possam não ser usadas, podem conter infos úteis. 
+> Atualize as cartas e pubs com os "Navwarnings" e "Notices to the Mariners". 
+2) No-go areas (fig 1): 
+> Highlight ou cross-hatch todas as áreas onde o navio não pode ir. 
+> Amplitude de maré pequena: as no-go areas incluem as chartered depths < calado + safety margin de 10%. 
+- Os 10% podem ter que ser aumentados if the ship is liable to pitch, roll or squat. 
+- Como essas áreas variam com o calado, elas podem ser diferentes para a inward e outward passages. 
+> Amplitude de maré relevante: as no-go areas variarão acd hora da passagem. / Inicialmente, considere como no-go as áreas 
+onde chartered depth < calado + margem de segurança. / Ao conhecer a hora da travessia, as no-go areas poderão ser 
+modificadas (diminuídas!). Essas áreas devem ser marcadas mostrando-se as horas e o estado da maré no qual elas são seguras. 
+3) Margins of safety (fig 2 - mostradas como clearing bearings): 
+> É a clearing distance em torno das no-go areas em que o passadiço não deverá passar (pois um fixo representa a pos de 
+alguma parte do passadiço, e pode ser que outras partes do navio estejam numa no-go area). 
+> Mostram o quanto se pode desviar da derrota e ainda permanecer em águas seguras. 
+> Tamanho da margem de segurança: considere as dimensões do navio, a precisão do sistema de nav, as correntes de maré e as 
+caracts de manobra. / Regra geral: assegurar que o navio permaneça em águas de prof > calado + 20%. 
+- Casos em que se deve aumentar a clearance de 20%: 1) survey antiga or unreliable; 2) navio jogando muito; 3) squat; e 
+4) quando o navio puder ter aumentado o calado ao passar into fresh water. 
+> Para monitorar as margens de segurança, devemos relacioná-las a um dos sistemas de navegação em uso (ex: clearing 
+bearings related to a headmark; ou indexes paralelos). / Em alguns casos, elas podem ser facilmente monitoradas a olho, usando-
+se as bóias de um canal ou clearing bearings facilmente identificáveis. 
+4) Safe water: áreas para onde o navio pode desviar. Seus limites são as "margens de segurança". 
+5) Ocean and open water tracks: 
+> São inicialmente traçadas nas cartas de pequena escala. 
+>• Great circle or composite great circle tracks (= ortodrômias): são obtidos do Satnav computer ou das great circle charts. 
+> Linhas de rumo constante (= rhumb lines = loxodrômias): são traçadas como retas nas cartas de Mercator. 
+6) Coastal and estuarial trakcs: 
+> São inicialmente traçadas nas cartas de menor escala (de preferência que cubra de porto a porto). 
+> A partir dessas derrotas iniciais, são obtidas as dists e os tempos. / Ao conhecer o ETD, calcule o ETA dos waypoints enroute. 
+> A direção verdadeira da derrota deve ser mostrada bem próximo desta. 
+> Depois, transfira as derrotas para as cartas de maior escala (usando marc/dist da transfer position e confirmando com lat/long). 
+7) Chart change: onde se deve mudar de carta, coloque o num da outra carta. 
+8) Track considerations (fig 3): se tiver que passar perto de perigos, mantenha-se suficientemente longe dele de modo a não 
+encalhar caso ocorra um machinery breakdown ou erro de navegação. 
+9) Distance off: 
+> Não há uma regra quanto à distance off a danger a se manter, pois ela depende de: a) calado em ralação à profundidade; b) 
+weather (ex: a distance off aumenta com vento forte para terra, ou com fog ou chuva); c) corrente ou maré; d) volume de 
+tráfego; e) survey da carta; e f) disponibilidade de águas seguras. 
+> Guidelines: 
+- Costa escarpada e off-shore soundings aumentando rapidamente: 
+dist mínima = 1,5-2 milhas. 
+- Costa suave e off-shore soundings aumentando gradualmente: 
+a derrota deve assegurar uma UKC adequada: 
+- calado < 3 m: 
+passar por fora do contorno de 5 m. 
+- calado de 3-6 m: 
+passar por fora do contorno de 10 m. 
+- calado de 6-10 m: 
+passar por fora do contorno de 20 m. 
+- calado > 10 m: 
+assegurar que haja UKC suficiente, tendo cuidado dentro da linha de 20 m. 
+> In ali cases, quando o perigo mais próximo estiver a BE, aloque um espaço que lhe permita guinar para BE ao evitar tráfego. 
+> Regulations: obedeça aos regulamentos de países e de empresas regarding offshore distances. 
+10) Deviation from track: se tiver que desviar da derrota, limite o desvio para não se aproximar muito das margens de segurança. 
+11) UKC: se tiver que navegar com uma UKC reduzida, planeje e mostre isso claramente na carta. / Onde UKC < 10% do calado 
+(ou outro valor determinado), o OOW deverá estar ciente da UKC e da necessidade de reduzir veloc (squat!). 
+12) Tidal window: nas tidal areas onde o navio só possa passar num determinado período (chamado de tidal window), este deve 
+ser mostrado para que o OOW saiba se é ou não seguro proceder. / Fora desse período, a área é no-go. 
+1 
+
+
+===== PAGINA 229 =====
+
+sáá^aaaa 
+• • 
+13) Stream/current allowance: 
+> Mar aberto: as track corrections são feitas depois que o navio desvia. 
+> Próximo à costa: corrigir para maré/corrente antes que ela afete o navio. / Quando a hora de passagem for conhecida, calcule 
+as alturas das marés e as correntes, e calcule a proa para compensar essas correntes. 
+> Infos sobre correntes (set and rate): estão nas cartas, no "Ocean Passages of the World", "routeing charts" e "pilot books" 
+> Infos sobre marés: estão nas cartas, tábuas de marés e "tidal atlases". / Maiores infos locais são obtidas dos "pilot books". 
+14) Course alteration & wheel-over (fig 4): 
+> Mar aberto: as alts de rumo coincidem com as interseções das derrotas. 
+> Águas confinadas: comece a alterar o rumo na "wheel-over position", um pouco antes da interseção (acd dados de manobra). 
+> Práticos determinam a wheel-over pos. por experiência. Ainda assim, planeje-a com os dados de manobra e marque-a na carta. 
+> Visual or radar clues: use-as para saber quando estará na posição. 
+- Grandes guinadas: as melhores clues são indexes paralelos ou marcações paralelas à nova perna. 
+- Peqs guinadas: 
+é melhor uma marcação pelo través. 
+> Fig 4: a primeira guinada ocorrerá quando a dead range de Thorn Island for 1,31 milhas. A segunda wheel-over pos será 
+alcançada quando a parte sul de Rat Island marcar 096°. 
+15) Parallel indexing (fig 5 - PI servindo com Margin of Safety): 
+> Funciona melhor com o radar em "north-up, relative motion, ship centered". 
+> Marque o parallel index na carta inconspicuously no planejamento. / Prepare as track lines no reflection plotter, ou use as 
+index lines do ARPA. 
+> É útil em boa ou má visibilidade para monitorar a cross-track tendency. / E tb serve para monitorar a wheel-over pos (ainda 
+permite uma contagem regressiva da distância). Marque no PI a dist e marcação do alvo no wheel-over point. 
+16) ARPA mapping: ARPAs modernos podem gerar e arquivar mapas sintéticos, que em alguns casos podem ser estabilizados 
+por meio de um sistema de nav eletrônico. / Mas esse "luxo" deve ser usado em adição (não em substituição) a outros sistemas. 
+17) Waypoint: 
+> E uma pos mostrada na carta onde uma mudança planejada de status ocorrerá, tal como: guinada, mudança de veloc, embarque 
+de Prático, anchor stations... / Tb serve como ref para determinar horários na travessia (saber se estamos no schedule), etc. 
+> Essas infos podem ser incluídas num notebook do planejamento, ou verificadas após inseridas num sist de navegação eletrônica. 
+> Se usar um navaid eletrônico que armazene waypoints, assegure que os "waypoint designators" sejam uniformes. 
+18) Aborts (fig 6): 
+> POINT OF NO RETURN: ponto a partir do qual as águas são tão estreitas que não há espaço para retornar, ou não é possível 
+retraçar a derrota devido a uma "falling tide" ou UKC insuficiente. / A partir dele, o navio estará commited. 
+> Logo, um ABORT-POINT deve estar marcado, as must a subsequent planned track to safe water. 
+> Razões para abortar: deviation from approach line, falha de machinery, indisp. de tugs/berths, perigos ashore ou no porto, 
+deterioração da meteoro, falhas de instrumentos, etc. 
+19) Contingencies (fig 6 - vide exemplo no livro): 
+> Depois de marcadas as no-go areas, as margens de segurança e a derrota, o planejamento deve focar em assegurar que não 
+acontecerá nada que não possa ser esperado ou corrigido. 
+> Passados a abort position e o point of no-return, poderão ocorrer situações de emerg. / Para tal, os planos de contingência são 
+feitos no planejamento e marcados claramente na carta. / Eles devem conter rotas alternativas, fundeadouros, áreas de espera e 
+atracadouros de emergência. 
+> Uma ação de emerg poderá levar o navio para áreas onde ele estará restrito: 1) devido ao seu calado (reduza a veloc!); ou 
+2) restrito por marés (só podendo entrar nessas áreas na tide window). / Essas restrições devem estar claramente marcadas. 
+20) Primary and secondary position fixing: 
+> O passage plan dirá quais métodos serão usados, indicando o primário e o(s) secundário(s). Ex: 
+- em mar aberto: 
+1 ° - GPS 
+2° - LORAN C 
+- próximo da costa: 1° - GPS 
+2°-radar 
+3° - LORAN C 
+- mais perto: 
+1° - radar 
+2° - GPS 
+- águas restritas: 
+1° - radar/visual 
+> Não há um padrão, pois depende dos equipamentos e das circunstâncias. Todos devem estar cientes de que sistema está em uso. 
+21) Radar conspicuous objects & visual navaids: o navegador planejará os "radar conspicuous marks" e os "visual aids" a serem 
+usados em cada estágio da travessia. 
+22) Landfall lights: 
+> As luzes que serão avistadas primeiro devem ser estudadas no planejamento (e mostradas na carta), para que o OOW possa 
+buscá-las no horizonte e não na carta. / O mesmo se aplica ao longo de uma coastline ou em águas restritas. / Todas as luzes 
+mostradas na carta parecem similares, e devem ser individualmente estudadas no planejamento. 
+> Pela marc e dist de uma "dipping light", o OOW pode obter uma pos aproximada, often bem antes do radar detectar essa luz. 
+23) Radar targets: Idem anterior. Os alvos a serem usados devem ser determinados no planejamento. / Ilumine na carta os 
+RACONS e objetos conspícuos ao radar, ilumine os navaids visuais, diferenciando-os entre fixos e flutuantes, e entre as luzes de 
+alta e baixa pot. / Considere que, podendo escolher, floating navaids não devem ser usados, pois podem estar fora de pos. 
+
+
+===== PAGINA 230 =====
+
+EBB 
+24) Buoyage (balizamento): se for usar bóias ou outros sinais flutuantes para determinar fixos, primeiro cheque sua posição e 
+confirme se está conforme a carta. / Quando o uso de bóias for crítico, determine tais posições no planejamento, anotando a sua 
+marc/dist a partir de um objeto fixo conhecido, ou confirmando com o VTS local que todos os navaids estejam cnf cartografados. 
+25) Fix frequency: deve ser estabelecida no planejamento. / Deve ser tal que o navio não possa ser colocado em perigo entre fixos. 
+Se não for possível obter uma pos nessa freq (menos que 3 min é difícil), use outro método primário de navegação (ex: PI). 
+26) Fix regularity: ao OOW não cabe mudar a freq estabelecida, exceto se estiver em fainas de maior prioridade, tais como: 
+próximo de um wheel-overpoint (estabeleça a pos imediatamente antes da guinada, e logo após completá-la) ou manobras anti-col. 
+(= a intervalos de tempo regulares, iguais) 
+27) Additional information: infos não essenciais para a segurança tb podem constar no plano, visando lembrar o OOW das 
+preparações necessárias. Exs: 1) Reporting points: reportar-se à autoridade relevante quando e como requerido; 2) Anchor 
+clearance: mostrar as posições onde "anchor stations need to be called" and "the anchors cleared"; 3) Pilot boarding area: a 
+escada deve ser preparada e o pessoal envolvido deve ser avisado com antecedência; 4) Tug engagement: chamar os tripulantes 
+necessários para amarrar os tugs; e 5) Traffic areas: áreas onde tráfego pesado possa ser encontrado. 
+28) Situation awareness (SA): o OOW precisa saber a pos do navio com rei à derrota, e a tendência desse desvio aumentar ou 
+diminuir. Embora a determinação regular proveja essa info, há outras maneiras de obtê-la que requerem apenas pequenos inputs 
+além da observação de características naturais. Muitas delas podem ser planejadas e marcadas na carta, tais como: 
+a) Transits (alinhamentos - fig 8): são os "ranges" nos EUA. 
+- É uma linha na qual se observam dois objetos alinhados. / É uma única LDP, mas o único instrumento necessário é o olho. 
+- Podem vir impressos nas cartas, mas tb pode-se usar transits naturais que se marcam na carta no planejamento. 
+- Usados: 1) como uma dica para uma ação (ex: wheel-over); 2) como um lembrete de que algum evento está para acontecer; 
+3) para determinar os erros da giro e da agulha magnética. 
+- Para precisão extrema: "dist observador-objeto próximo" < "3 x dist entre objetos" (transits maiores tb podem ser usados). 
+b) Leading lines (linhas de alinhamentos - fig 7): normalmente figuram nas cartas. 
+- O transit impresso na carta é uma derrota a ser seguida quando os leads estiverem alinhados. 
+c) Head mark (marca de proa - fig 8): adequada para seguir numa derrota sem uma leading line (alinhamento). 
+- É um objeto cartografado na projeção da derrota (a proa pode ter que ser diferente, para compensar W/corr). 
+- Se a marcação do head mark se mantiver igual à derrota e cte, o navio estará sobre a derrota. 
+- Uma head mark só pode ser monitorada por uma compass bearing, pois relative bearings podem ser muito misleading. 
+d) Clearing marks (marcas de segurança): usa o alinhamento de 2 objetos para garantir qué o navio fique numa área 
+segura. / A fig 8 mostra uma clearing mark de forma que, se a extremidade oeste de Rat Island permanecer open of and to the 
+left of Sheep Buoy, o navio estará fazendo uma aproximação segura com relação a este lado do channel. 
+e) Clearing bearings (marcações de segurança): se não houver clearing marks, pode-se usar um só objeto de forma similar. 
+- Na fig 9, quando o navio se aproxima sobre a derrota de 032° T, ele estará seguro enquanto o forte na parte oeste de Thorn 
+Island permanecer entre as marcações 028° e 042° T (marque as clearing bearings na carta como NLT 028° T e NMT 042° T). 
+Obs: observar clearing marks e clearing bearings não é determinar posição, mas nos assegura que o navio não esteja rumando 
+para um perigo. / De forma análoga, o uso de "dipping distances" pode nos informar que o navio se aproxima de um perigo. 
+29) Range of lights: o alcance máx das luzes depende de: 1) altura combinada olho + luz; 2) intensidade da luz; e 3) clarity da atm. 
+> Geografical range: é fç das alturas da luz e do olho. 
+> Luminous range: depende da intensidade da luz e da visibilidade da atmosfera. 
+> Nominal range (alcance nominal): é o alcance luminoso quando visib = 10 milhas. 
+Obs: o alcance da carta, ao lado da luz, normalmente é o alcance nominal. Mas no Brasil, por ex, é o maior dos alcances 
+geográfico e nominal (errado!!). O navegador deve se informar qual é e informar os OOW. 
+30) Landfall lights (luzes de aterragem): 
+> No planejamento, o navegador deve determinar a dist máx que uma luz de aterragem se tornará visível. Essa distância é o 
+menor valor entre os alcances geográfico e nominal, assumindo-se visib > 10 milhas. 
+> Apenas luzes de alcance luminoso > geográfico podem ser usadas para se determinar uma pos aproximada. / Em todos os 
+casos, os arcos de visibilidade máxima devem ser traçados nas cartas de aterragem. 
+^ Extreme range: às vezes, luzes fortes serão avistadas antes que o radar as detecte. Embora não possa ser considerado um fixo 
+preciso, observar a marcação no momento da avistagem e plotá-la no extreme range da luz contribuirá para a SA. 
+31) Echo-sounder: ligue-o antes de aterrar. O decréscimo da prof não é um fixo, mas indica que se está aproximando de perigo. 
+32) Chart overcrowding: pode cobrir detalhes. Escreva infos fora da derrota, usando uma connection line ou letra de referência. 
+33) Planning book: é melhor escrever certas infos num planning book que na carta (ex: horas de PM/BM, nascer e por do sol, freqs 
+de VHF). / Quem visita um porto regularmente pode colocar todo o planejamento num planning book (in addition to the chart). 
+34) Conning note book: é uma edição abreviada do planejamento para certas partes da travessia (feita numa agenda), para que 
+o shiphandler possa se atualizar sem abandonar a conning station para ver a carta. 
+
+
+===== PAGINA 231 =====
+
+y 
+35) Aprovação do Comte e mudanças no plano: o planejamento deve ser submetido ao Master para aprovação. / Se houver 
+mudanças durante a travessia, quem fez a alteração deve obter a concordância do Master e avisar a todos os membros do team. 
+36) Automatic Identification System (AIS): prove infos que não poderiam ser obtidas de outra maneira. De particular importância,
+citamos a psb de identificar navios escondidos por terra ou chuva, ou de observar guinadas dos alvos com mais antecedência. 
+Because of manual inputs into the system, care must be taken when using the information for decision. 
+CAP 4 - EXECUTING THE PLAN 
+TATICS: ao se determinar a execução do plano, definem-se os métodos que serão usados para levá-lo a termo, incluindo o uso 
+otimizado dos recursos disponíveis. Detalhes finais terão que ser confirmados quando a hora de partida for conhecida. Deve-se, 
+então, determinar as táticas que serão usadas para executar o plano, que devem incluir: 
+> ETAs for tides and daylight: determine os ET As de pontos críticos para poder tirar vantagem de correntes de marés 
+favoráveis, da luz do dia ou do sol pela popa. 
+> Traffic conditions at focal points. 
+> Destination ETA: determine ETA no destino, particularmente se não houver vantagens de se chegar mais cedo, ou quando o 
+pilot boarding time tiver sido confirmado. 
+> Tidal streams: determine-as quando souber a hora da travessia (pode-se colocá-las na carta). O ideal é calcular as proas a 
+governar antes da travessia; mas se nos ativermos fidedignamente à derrota planejada, as correntes de maré serão compensadas. 
+> Plan modification: modifique o plano em algumas situações (exs: degradação de eqs de nav, mudanças de horários). 
+> Additional personel: deve-se ter ciência das posições onde será necessário: 
+- Chamar o Comte ao passadiço para situações rotineiras (águas restritas, aproximação da costa ou da estação de praticagem). 
+- Mudar de unattended para manned machinery space. 
+- Colocar um oficial extra no passadiço. 
+- Disponibilizar pessoal (além dos watchkeepers) para certas tarefas: 1) no passadiço (timonear, manter vigilância, etc); ou 
+2) no convés (preparar a escada do Prático, o ferro, o berthing equipment, amarrar tugs, etc). 
+> Briefing: 
+- O briefing dá ciência aos indivíduos do seu papel no plano, contribuindo para a satisfação no trabalho, and gives people 
+oportunity to query or comment any part of the plan they do not fully understand. 
+- Brife todo o pessoal antes do começo da viagem. / Quando o começo da viagem se aproxima, pessoas específicas têm que 
+ser brifadas (para que os work schedules e necessidades possam ser planejados). / Em diferentes estágios, será necessário 
+rebrifar durante a viagem. 
+- Em particular, o pessoal envolvido em quaisquer variações da rotina (ex: necessidade de dobrar o quarto, de pessoal no 
+ferro, etc) deve ser brifado (pelo Comte ou pelo navegador). 
+> Fatigue: 
+- Antes de começar a travessia e, em certos casos, durante a travessia, o Master deve assegurar que haverá pessoal 
+descansado disponível (ex: saída de porto, áreas de tráfego intenso, mau tempo, travessia de estreitos). 
+- Para tal, dispense os watchkeepers de suas tarefas bem antes deles serem requisitados. Isso pode exigir mudanças nos 
+períodos dos quartos de rotina (o Master é quem deve decidir sobre essas mudanças). 
+> Voyage/bridge preparation: 
+- Numa ocasião especificada pelo Master, normalmente caberá a um Junor Officer preparar o passadiço para a travessia. 
+- É bom usar um checklist: 
+a) Passage plan e infos complementares à mão / Cartas em ordem na gaveta. / Carta em uso sobre a mesa (não tenha mais de 
+uma carta na mesa, pois a info lida numa carta e transferida para outra pode não ser correta). 
+b) Eqs da mesa em ordem: réguas lis, compassos, lápis, caneta, dividers, notepads... 
+c) Eqs auxiliares de watchkeeping ok: binóculos, azimuth rings, Aldis lamp... 
+d) Eqs de gravação e monitoração funcionando e com papel (course recorder; engine movement recorder...). 
+e) Giro mestra operacional, repetidoras (follow-ups) alinhadas, magnética ok. 
+f) Lâmpadas de iluminação dos instrumentos funcionando e com intensidades ajustadas (há spares? onde?). 
+g) Verificar luzes de navegação e de sinalização. 
+h) Ligar os eqs eletrônicos de navegação. Confirmar o seu modo de operação e posição. 
+i) Ligar e confirmar as leituras de ecobatímetros e logs, e verificar os eqs de gravação associados. 
+j) Após assegurar que as antenas (= scanners) estejam prontas, ligar e sintonizar os radares, e selecionar as dists e os modos. 
+k) Ligar e testar: eqs de controle (telégrafos, combinator thrusters, steering gear), eqs de comm internos (telefones e rádios 
+portáteis) e externos (VHF, MF, e sistemas Navtex/Inmarsat/GMDSS) e o apito. 
+1) Clearview screens, wippers funcionando, janelas limpas. 
+m) Relógios e eqs de gravação sincronizados. 
+n) Local de trabalho em ordem: iluminação e temp adequados, portas e janelas abrindo facilmente, móveis em seus lugares, etc. 
+o) Ligar e entrar com os dados do navio no AIS. 
+p) Após verificar que não há novas infos relevantes no telex, fax ou Navtex, dar o pronto do passadiço ao Master. 
+Obs:, essa relação é apenas um guia geral (cada navio deve adaptá-la). / Elabore tb uma modificação dessa rela quando o navio for 
+se aproximar de um porto ou de qq área onde o watchkeeping possa não ser o de rotina. 
+
+
+===== PAGINA 232 =====
+
+GSS&BSSSB8S& 
+'-•'••: 
+CAP 5 - MONITORING THE SHIP'S PROGRESS 
+> Monitorar é assegurar que o navio esteja seguindo o plano, e consiste em: seguir uma série de funções, analisar os resultados e 
+agir com base nessas análises. / Monitorar é a fç primária do OOW, que para tal pode estar sozinho, pode ser ajudado por 
+outros tripulantes, ou pode estar servindo de backup ou fonte de infos para outro Oficial com a manobra. 
+a) Fixing method: a primeira exigência da monitoração é estabelecer a posição do navio. / Isso pode ser feito por vários métodos, 
+mas o resultado será sempre o mesmo. / O importante é como a informação é usada. 
+b) Marcações visuais: 
+> A determinação básica consiste na obtenção de mais de uma LDP pela tomada de marcações com um círculo azimutal sobre 
+uma agulha. / Corrija-as para verdadeiras e plote-as na carta. / O mínimo para se assegurar precisão são 3 LDPs. 
+> Se não der para obter 3 marcações visuais, distâncias-radar podem ser incluídas no fixo (ou podem compor todo o fixo). / É 
+aceitável misturar marcações visual ou radar com distâncias-radar. 
+> Outros métodos antigos podem ser usados, exs: running fixes (= marcações sucessivas, que pode ser impreciso por depender de 
+um elemento de DR), ângulos de sextante, etc. 
+> Métodos eletrônicos de position fixing tb podem ser usados, particularmente onde não haja objetos em terra para observar e 
+onde a linha da costa não seja distinguível. / Compreenda seus princípios e falhas (para evitar uma falsa sensação de segurança). 
+c) Freqüência de determinação: foi estabelecida no planejamento. / Ainda assim, ela deve ser revisada, sempre considerando que a 
+freq mínima deve ser tal que o navio não possa ser colocado em perigo entre fixos. 
+d) Regularidade: além de ter que ser precisa e suficientemente freqüente, a determinação também tem que ser regular. 
+e) Posição estimada (EP): 
+> Sempre que uma pos for determinada, estime a pos no próximo fixo. / Se a determinação for feita a intervalos regulares, 
+selecione a dist entre o ponto atual e o anterior, e verifique-a com rei à veloc esperada. 
+> Se o próximo fixo coincidir com a EP: obteremos um cheque adicional de que o navio está mantendo a derrota e veloc. 
+> Se o fixo não coincidir com a EP: ou alguma coisa está errada com o fixo, ou alguma influência externa afetou o navio. 
+- Primeiro verifique a EP; depois o fixo; depois o rumo governado ou se a RPM mudou; e por último, se o vento e/ou a corr 
+de maré mudaram. Então corrija imediatamente. 
+f) Soundings: observe a sondagem ao obter um fixo, e anote ao lado deste. / Se a leitura não for a esperada, a carta pode estar 
+errada, ou o navio pode estar rumando para um perigo. 
+g) Cross track error: 
+> Se o navio estiver desviando da derrota, determine: 1) se isso o colocará em perigo; e 2) que ação será tomada para corrigir. 
+> A menos que o desvio seja para se evitar um perigo (ex: tráfego), raramente haverá justificativa para não retornar à derrota. 
+> O âng de guinda para retornar depende do julgamento do OOW. 
+> Após retornar à derrota, deixe parte da correção de rumo para compensar a causa do desvio. 
+h) RIPEAM: 
+^* Regra 16: "toda emb obrigada a se manter fora do caminho de outra deverá, tão longe quanto possível, manobrar antecipada e 
+substancialmente afim de se manter bem safa da outra." 
+> Apesar de ter que manter a derrota, o "give away ship" deve manter-se afastado (guinando ou, se isso for impossível, reduzindo 
+a veloc, ou ambos). O bom planejamento assegura que nunca estaremos numa situação onde não poderemos manobrar. 
+> Em áreas de perigos e de tráfego intenso, a pessoa com a manobra tem que manter um equilíbrio delicado entre a 
+manutenção da derrota e a colision avoindance. A prioridade deverá ser evitar colisão, mas não à custa de um encalhe. 
+i) Non-navigational emergencies: o planejamento deverá ter previsto tais contingências, mas não poderá prever todas as situações. 
+> O bridge team não deve permitir que a reação a uma emerg domine tanto a sua reação a ponto de desviar o navio p/ um perigo. 
+A SA, a avaliação da situação e os princípios do bridge team management evitam que uma situação ruim complique mais ainda. 
+j) Time management: se o navio tiver fora do ETA do próximo waypoint, o OOW deve julgar se ajusta ou não a veloc. Mas se o 
+ETA for crítico (ex: para chegar numa dada maré), este deverá ser cumprido. / Em ambos os casos, avisar o Master poderá estar 
+determinado nas "night or standing orders", ou ficará a critério do OOW. 
+k) Lookout (vigilância): 
+> Uma boa vigilância aumenta a SA do OOW (isso não significa que só ele próprio deva vigiar!). 
+> Regra 5 do RIPEAM: "toda emb deverá manter, permanentemente, vigilância apropriada, visual e auditiva, bem como 
+através de todos os meios apropriados às circunstâncias e condições predominantes, afim de obter inteira apreciação da 
+situação e do risco de colisão." I Embora se refira especificamente a colisão, essa regra tb se aplica à SA do OOW. 
+> A manutenção de uma vigilância eficiente tem um sentido mais amplo. "Lookout" inclui os seguintes itens: 
+1- Uma constante vigilância visual de 360° que possibilite uma total compreensão da situação. 
+2- A observação visual permite verificar as mudanças do ambiente, particularmente do W e visibilidade. 
+3- A observação visual da marcação de um navio mostra rapidamente se ele deve ou não ser considerado um perigo. 
+4- A observação das caracts das luzes and timing them é a única maneira de identificá-las, o que aumenta a SA. 
+5- A monitoração do controle do navio e dos sistemas de alarme (exs: comparar as agulhas padrão e giro; verificar se o rumo 
+correto está sendo governado). 
+6- Saber que echo-sounders, radares, etc, são auxílios à navegação, not merely single means of navigation. 
+7- A monitoração de canais apropriados de VHF nos avisa de situações que vão ocorrer adiante. 
+8- Estabeleça uma rotina antes de grandes guinadas (verificar AR e na marcação da nova derrota, visualmente e por radar). 
+
+
+===== PAGINA 233 =====
+
+1) Under kell clearance: a observação rotineira do eco deve ser um dos procedimentos do serviço. 
+m) Waypoints: tb são bons indicadores do schedule. / Se o navio não está no schedule, o OOW deve agir para corrigir as causas. 
+n) Rising / dipping distances: seja aterrando ou navegando ao longo da costa, observar e plotar a marcação e a distância de 
+rising/dipping de luzes fortes ajuda a garantir que o navio está na posição prevista. 
+o) Light sectors: a mudança de cores de luzes com setores pode indicar que o navio está correndo perigo. / Em certas ocasiões, uma 
+flickering sector change pode ser virtualmente usada como marcação. / Em icy weather, os setores podem ficar indistinguíveis. 
+p) Transits (= ranges = alinhamentos): 
+> Podem ser usados: 1) como dicas para decisões (ex: wheel-over); 2) para confirmar que estamos on schedule, ou que estamos 
+mantendo a derrota (especialmente após uma alteração). / Eles ajudam o OOW a ter uma confirmação de que está tudo ok. 
+q) Leading lines (linhas de alinhamento): 
+> É o transit (= alinhamento) de duas marcas de terra proeminentes na extensão da derrota requerida e normalmente 
+mostradas na carta. / É usada para assegurarmos que o navio está sobre a derrota. 
+> Natural leading lines: o OOW pode selecionar informal leading lines (ex: uma marca de navegação em linha com uma 
+extremidade de terra) para o mesmo fim. 
+r) Head marks: 
+> A observação de uma "head mark" e um cálculo mental indicam a dist fora da derrota: 
+diferença entre as marcações da derrota e observada (graus) x dist ao objeto (NM)/6 = distância fora da derrota (cables) 
+Obs: A distância off-track tb pode ser avaliada se olharmos "down the required bearing" e estimarmos a distância entre a headmark 
+e onde a marcação observada encontra a terra (carros, postes, etc, podem ajudar nessa estima). 
+s) Clearing marks & bearings: 
+> 
+Embora não sejam fixos, indicam que o navio permanece em águas seguras. 
+t) GPS: estudar toda a pág 46. 
+CAP 6 - TEAM WORK 
+> A resolução 285 da IMO requer que o OOW "assegure que um lookout eficiente seja mantido", mas concede que "podem haver 
+circunstâncias nas quais o OOW poderá, sozinho, prover a vigilância durante o dia". 
+- Entretanto, "quando o OOW for o único vigia, ele não deve exitar em chamar assistência ao passadiço. E quando, por algum 
+motivo, ele não for capaz de dedicar sua atenção exclusiva à vigilância, tal assistência deverá estar imediatamente disponíveF. 
+- É comum ter um watchkeeper não certificado trabalhando nas proximidades do passadiço onde ele possa ser chamado. 
+- De noite, o lookout fica normalmente no passadiço desempenhando fç exclusiva. 
+> Se o OOW se envolver em outras fainas que requeiram que ele abandone (= to forego) as suas tarefas de vigilância, ele 
+deverá chamar o unlicensed watchstander para assumir. É responsabilidade do OOW assegurar que esse vigia: 1) tenha sido 
+instruído sobre as tarefas de vigilância; 2) saiba como reportar as observações; 3) esteja vestido e protegido; 4) seja rendido na 
+freq adequada; e 5) seja posicionado where he can best act as lookout. / O OOW tb pode solicitar um timoneiro, além do 
+vigia, e é sua responsabilidade assegurar que esses 2 homens estejam cientes de suas tarefas e que as executem como marca. 
+> Sob certas condições, o steering pode ser automático, e o vigia pode estar fazendo fainas perto do passadiço. 
+Aparentemente não há team work, mas o OOW trabalhará dentro de uma estrutura de ordens permanentes e específicas. 
+> Chamar o Master ao passadiço: 1) nas circunstâncias indicadas no planejamento; 2) quando as standing orders ou night 
+orders do Master preverem; e 3) quando o OOW perceber que a situação requer a experiência do Master. 
+- Chamar o Master não lhe transfere a manobra (o OOW deve continuar a fazer tudo o que vinha fazendo). 
+- Uma vez que o Master assuma a manobra e o evento seja logado, o OOW assume um supportive role, mas ainda fica 
+responsável pelas ações do pessoal do seu quarto de svç. 
+> Não há regras rígidas sobre como as tarefas no passadiço devem ser distribuídas. Isso depende das habilidades e caracts do 
+pessoal, das circunstâncias que requeiram gente extra, e do layout do passadiço. O importante é que cada membro saiba o sei 
+papel, e saiba quais são os papéis dos outros membros do team. Isso evita a duplicação desnecessária de tarefas e, mais 
+importante, assegura que nenhuma tarefa será ignorada por todos. / Sugestão de funções: 
+- Master: controla o mov do navio segundo o RIPEAM e os esquemas de tráfego recomendados, regula o rumo e a veloc, 
+supervisiona a navegação e coordena e supervisiona a organização geral do quarto. 
+- OOW: continua a navegar, reportando as infos relevantes e assegurando que tais infos sejam colacionadas. Ele passa a posiçãc 
+do navio e outras infos à manobra, monitora a execução das ordens de leme e máquina, coordena todas as comms internas e 
+externas, faz as entradas nos logbooks e outras fainas determinadas pelo Master. 
+- Lookout e helmsman: continuam a executar suas tarefas, conforme acima. 
+> Em situações de alto risco (peqs margens de segurança que requeiram cuidadosa manutenção da derrota, UKC reduzida, 
+tráfego intenso, baixa visib, etc), o Master pode colocar 2 Oficiais de navegação (um como OOW, outro como backup). 
+As responsabilidades do Master se mantêm, e as dos 2 Oficiais têm que ser bem definidas: 
+- OOW: manterá as suas tarefas descritas acima, e será responsável pelo quarto de serviço. 
+- Additional Officer: provera ao Master infos-radar sobre o tráfego, e provera um backup ao OOW na carta (isso inclui 
+prover infos de navegação à carta as required, confirmar importantes decisões de navegação, e fazer as comms externas e 
+internas). 
+^ 
+Fazer leitura rápida sobre Training, Coaching e Simuladores nas págs 48 a 50. 
+
+
+===== PAGINA 234 =====
+
+SCENARIO 
+> Master: "Secon Mate, I have the conn". I Mate: confirma o rumo/veloc, avisa sobre qq tráfego de interesse, loga o evento, 
+vai para a navega e continua com as fçs descritas no cap anterior (isso inclui confirmar que as ordens do Master sobre todos os 
+aspectos de controle do navio estejam sendo cumpridas). 
+> Mate/QOW: vai avisando as reduções de veloc planejadas: fuU sea speed, maneauvering full ahead, half ahead, slow ahead, 
+e dead slow ahead. 
+> Master e Mate: usam os radares para monitorar o tráfego. 
+> Mate: - confirma os detalhes do embarque do Prático pelo rádio (ETA, veloc e bordo de embarque). 
+- manda o standby rating/lookout preparar a escada e avisar ao pessoal para safar os ferros. 
+- avisa a engine room que o Prático está para embarcar. 
+> Tempo entre fixos: vai reduzindo de 20 min, para 10 min, para 6 min... 
+> Master: manda o Second Mate/OOW receber o Prático, que leva um rádio para reportar o embarque. 
+> Present requirements are that embarkation and disembarkation of a pilot should be be supervised by a responsible 
+Officer. Logo, o Master ficará só quando o Mate descer, ou outro Oficial será chamado (melhor). O Master decidirá em fç das 
+condições (tráfego, correntes, perigos, etc). Mesmo assim, as circunstâncias devem ter sido previstas no planejamento. 
+> Prático chega ao passadiço: Mate/OOW confirma a posição e assume temporariamente a manobra (enquanto Master e 
+Prático trocam infos). 
+Debrief: 
+> Depois da travessia, o Master deve debrifar rapidamente o pessoal. / Faça as correções ao plano, e guarde-o para uso futuro. 
+> Se o navio fizer aquela rota/porto com freqüência, guarde as cartas e os notebooks (esses navios possuem 2 jogos de cartas, um 
+para a entrada e outro para a saída). / O planejamento servirá para futuras visitas (reconsiderando a meteorol e as marés). 
+> Guarde o planejamento num computador (vai corrigindo, salvando..). Assim, os proprietários podem mandar para todos os seus 
+navios um planejamento que segue o seu padrão. Daí os navios podem rapidamente modificar o plano em fç das circunstâncias. 
+CAP 7 - NAVIGATING WITH A PILOT ON BOARD 
+> A relação entre o team do navio e o Prático is primarily professional. / O Master tem a responsabilidade pela segurança do 
+navio; ao Prático, cabe auxiliar com a navega em águas restritas e "facilitate" a aproximação ao porto, a atracação e a partida. 
+> O Master tem a "ultimate responsibility", e tem o direito e o dever de assumir a manobra nos casos raros de inexperiência ou 
+mau julgamento do Prático. 
+> O ideal é que o Master e o seu team estejam cientes das intenções do Prático, e que estejam em posição de apoiá-lo e de poder 
+questionar suas ações em qq estágio da travessia (o que nem sempre acontece). Isso só poderá acontecer (= to bring about) se: 
+- O bridge team estiver ciente das dificuldades e restrições da ZP (pilotage area). 
+- O Prático estiver ciente das caracts e peculiaridades do navio, tiver sido familiarizado com o equipamento à sua disposição, e 
+tiver ciência do grau de apoio que ele pode esperar do pessoal do navio. 
+> Infelizmente, ao embarcarem em um navio desconhecido, Práticos com freqüência sentem que não recebem apoio. 
+> Da mesma forma, o OOW pode se sentir excluído dos eventos, caso em que provavelmente perderá o interesse. 
+a) Planning: 
+> Uma travessia bem planejada continua do mar até o berth, ou vice versa, sendo o embarque do Prático parte do plano. 
+y Isso permite ao Master e ao OOW comparar o progresso do navio com a derrota planejada, e também permite que eles estejam 
+cientes dos constraints e outros detalhes da travessia. 
+> "Abort and contingency planning" serão úteis caso o navio experimente problemas de navegação ou outros problemas. 
+b) Master-Pilot information exchange: 
+> O Master pode ter que delegar a manobra para o OOW ou outro Oficial para que ele possa discutir a travessia com o Prático. 
+Deve ser estabelecida uma rotina para essa troca de infos. 
+> Infos do Prático para o Master: a derrota planejada, as velocs e ETAs anticipated (tanto enroute como no destino), que 
+auxílios ele espera de terra (como tugs e VTS information), e que contingências ele tem em mente. 
+y Infos do Master para o Prático: as caracts de manobra do navio; em particular, quaisquer caracts inusuais e infos relevantes 
+(ex: condições dos ferros, tipo e controle da máquina, disponibilidade de pessoal). 
+- Muitas dessas infos podem estar disponíveis num "Master/pilot exchange form". 
+> Depois que essas broad outlines forem estabelecidas, o Prático precisará: familiarizar-se com o passadiço, combinar como 
+as suas instruções serão executadas (se ele mesmo vai querer manejar os controles), saber onde está o VHF e como mudar de 
+canal, e que radar está disponível (em particular, qual o modo). Então ele estará mais bem situado para assumir. 
+> Fatores que poderão limitar o tempo disponível para a troca de infos: 
+1) Posição da pilot boarding area; 2) Veloc do navio na pilot boarding area; e 3) Condições ambientais (baixa visib, 
+ventos fortes, marés, tráfego...). / Se por algum motivo não houve troca de infos, o bridge team deve tomar ainda mais cuidado. 
+c) Reponsibility: mesmo com o Prático, o Master ainda é o responsável pela segurança do navio. / O Prático é o expert local, e 
+conduzirá o navio usando toda a sua habilidade (advising o Master como necessário e, como de costume, realmente conduzindo 
+a travessia). / Isso se aplica se a praticagem for facultativa ou compulsória. / Nas praticagens longas, o Master não fica no 
+passadiço o tempo todo (ele delega sua autoridade a um Oficial, provavelmente o OOW). 
+d) Monitoring: o progresso do navio tb tem que ser monitorado quando o Prático está com a manobra. / Essa monitoração é feita 
+pelo OOW, que deve dar ciência ao Master dos desvios de veloc e derrota (como se o Master tivesse com a manobra). / Com essas 
+informações, o Master estará em posição de poder questionar o Prático com diplomacia e confiança. 
+
+
+===== PAGINA 235 =====
+
+CAP 8 - AUTOMATION OF BRIDGE SYSTEMS 
+• Estudar tudo pelo livro (págs 57 a 78). 
+GLOSSÁRIO 
+ERBL = eletronic radar and bearing line. 
+P/L = position line. 
+UMS = unnatended machinery space. 
+OOW = Officer of the Watch. 
+RDF = radio direction 
+finder. 
+VTS = vessel traffic services. 
+Watchkeeping = serviço de quarto. 
+Lookout = vigilância/vigia. 
+AIS = Automatic Identification System. 
+EOP = end of sea passage. 
+Watchkeeper = uncertified crew member tasked with bridge watchkeeping duties. 
+Abort = último ponto onde o navio pode agir para evitar passar o ponto de não retorno. 
+Point of no return = é a posição depois da qual o navio está commited a entrar numa área restrita. 
+Clearing bearing = marcação limite de uma "nav mark" para um lado da qual o navio estará seguro (definida por NMT/NLT xxx°). 
+DR position = obtida pela resultante do rumo governado e da veloc na água. 
+EP position (estimated position) = é a posição derivada de DR e ajustada para leeway e set/drift. 
+SA = situation awareness = consciência situacional 
+Transit = range = quando 2 objetos são vistos em linha, they are said to be "in transit". 
+Leeway = é o efeito angular no rumo do navio causado pelo vento. 
+Set and drift = é o efeito da corrente (de maré e/ou oceânica) sobre a derrota. SET - é a direção da corrente 
+RATE - é a veloc da corrente 
+DRIFT - é a distância resultante (= rate x tempo) 
+(Alguns fabricantes de ARPA definem drift = veloc da corrente) 
+
+
+===== PAGINA 236 =====
+
+CÓDIGO INTENACIONAL DE SINAIS 
+SINAIS DE PERIGO (14 + 2) - decorar (vide tb o RTPEAM) 
+BANDEIRAS ALFABÉTICAS. GALHARDETES NUMERAIS. CORNETAS SUBSTITUTAS E 
+DISTINTIVO DO CÓDIGO OU GALHARDETE DE RESPOSTA - decorar 
+TABELA DE SINAIS DE SALVAMENTO (from SOLAS) 
+1) Sinais de aterragem para guiar embs com pessoas em perigo: 
+(diurnos e noturnos) 
+(alinhamento luz br ou facho A V) 
+> Este é o melhor local para aterragem 
+(1 band br/l luz br/2 braços /piro VD / Kpor som-luz) 
+> Aterragem aqui é extremamente perigosa. 
+(1 bandbr /1 luz br/2 braços/piro VM / S por som-luz) 
+> Aterrar aqui é extremamente perigoso. O local favorável está na direção indicada. 
+(finca band ou luz br e leva a outra /piro VM + BR /SR ou SL) 
+2) Sinais usados com equipamento de salvamento em terra: 
+> AFI / retinida segura / moitão ou cabo sob volta / homem no assento / alar. 
+> NEGAT / folgar os cabos / guentar / parar de alar. 
+(1 band br/l luz br/2 braços /piro VD ou VM) 
+3) Resposta de estação salva-vidas ou navios de socorro a sinais de perigo feitos por navios/pessoas: 
+> Vc está sendo avistado e assistência será enviada, 
+fumaça lrj/3 luzes br com bang -1 min (D) 
+3 luzes br-1 min (N) 
+4) Sinais visuais ar-sup usados por anv SAR para: 
+> Dirigir um navio para navio/anv/pessoa em perigo. 
+(circula min lx /asas e/ou motor na proa / ruma) 
+> Dizer que a assistência da emb não é mais necessária. 
+(asas e/ou motor na popa) 
+> Resposta da embarcação (acs rcb ou impossibilidade de cpr). 
+(DCI/ ruma / Tpor luz 
+ou 
+band N/Npor 
+luz) 
+5) Sinais visuais sup-ar (por navio ou sobreviventes): 
+> Use os seguintes sinais sup-ar estendendo-os no chão ou convés. 
+Símbolos visuais da ICAO/IMO (IAMSAR manual): V / X / N / Y / f 
+Obs: Resposta da anv (msg entendida ou não entendida). 
+(lançamsg/ asas ou pisca nav/ldg lights 2 x / T ou R por luz) 
+(reto e nivelado / RPTpor luz) 
+6) Sinais para os sobreviventes: 
+> Feitos por anv, para instruir os sobreviventes. 
+(lança msg ou eq comm) 
+> Resposta dos sobreviventes (entendi ou não entendi). 
+(T ou Rpor luz 
+ou 
+RPTpor luz) 
+PROCEDIMENTOS RADIOTELEFÔNICOS 
+1) Recepção de safety messages: 
+> Mayday (SOCORRO): 
+grave e iminente perigo, solicitando auxílio imediato. 
+> Pan Pan (URGÊNCIA): 
+msg urgente relativa a segurança de emb/anv/pessoas. 
+> Securité (SEGURANÇA): 
+msg relativa à segurança da navegação ou aviso meteorológico. 
+Obs: Todas as msgs precedidas dessas palavras envolvem SAFETY. Chame o Comte ou OOW. 
+2) Procedimentos de tx de msgs de SOCORRO: 
+> Só quando necessário auxílio imediato. 
+> Usar linguagem clara. Se não der, diga INTERCO (= vou usar o CIS) e use as Tabs 1/2/3. 
+> Procedimento: 
+Sinal de alarme: 
+2 tons (2200 -1300 Hz), de 30-60 seg (se tiver tempo). 
+Chamada de perigo: 
+"Mayday Mayday Mayday / this is / nome ou indicativo (3 x) " 
+Msg de socorro: 
+"Mayday / nome ou indicativo / pos / natureza do acidente / natureza do aux e outras infos" 
+(tab 2) 
+(tab 3) 
+(se necessário) 
+Obs: o nome é pronunciado, e o indicativo é soletrado. 
+Exs de msgs de socorro: 
+a) MAYDAY - nome - POSITION 5425 NORTH 01633 WEST - I'M ON FIRE AND REQUEST IMMEDIATE 
+ASSISTANCE. 
+b) MAYDAY - nome - INTERCO - ALFA NADAZERO UNAONE PENTAFIVE USABA ROMEO ÍCARTEFOUR 
+NADAZERO - DELTA XRAY. 
+c) MAYDAY - nome - INTERCO - LIMA PENTAFIVE KARTEFOUR BISSOTWO PENTAFIVE NOVEMBER GOLF 
+NADAZERO UNAONE SOXSIX TERRATHREE TERRATHREE WHISKEY - CHARLIE BRAVO SOXSIX. 
+Tab 1: usada na tx em linguagem clara ou codificada. / Decorar números. / Vírgula decimal = DECIMAL / Ponto = STOP. 
+Tab 2: para tx posição: 1) marc e dist (nm) de uma referência (A_ 
+BOTOM R _/_/_); 2) Lat e long (L 
+_S G 
+W). 
+Tab 3: Natureza do acidente, como codificados pelo CIS: 
+- Transmitir: AE, BF, CB, CB6, DX, HW. 
+- Resposta ao perigado: CP, ED, EL. 
+
+
+===== PAGINA 237 =====
+
+CAP 1 - EXPLANAÇÃO E RECOMENDAÇÕES GERAIS 
+1) Propósito do CIS: prover meios e métodos de comms em situações relacionadas com a Seg da Navegação e de pessoas, 
+especialmente quando pegar para o idioma. 
+2) Sinais usados: 1 letra (assuntos muito: importantes, urgentes ou comuns), 2 letras (Seção Geral) e M+2 letras (Seção Médica). 
+3) Princípio básico: cada sinal deve ter um significado completo. 
+4) Complementos: podem ser usados para expressar: variações do significado básico, perguntas, respostas e infos suplementares. 
+5) Complementos que aparecem no texto mais de uma vez: foram agrupados em 3 tabelas, que serão usadas só como e quando 
+especificado no texto do sinal (estão no final da Seção Geral). 
+6) Textos entre parênteses indicam: uma alternativa, uma info que pode ser tx se solicitada ou disponível, ou uma explicação. 
+CAP 2 - DEFINIÇÕES 
+> Sinalização visual. 
+> Sinalização sonora: para tx Morse por meio de: sereia/sino/apito/sinal de cerração/etc. 
+> Indicativo ou Sinal de Chamada (identity signal or call sign): grupo de letras/algs atribuídos à estação pela Administração. 
+> Estação: qq local em que possam ser efetuadas comms por qq meio. 
+> Origem (originator): autoridade que ordena a tx. 
+> Estação de origem: é a inicial da tramitação. 
+> Estação transmissora/receptora. 
+> Estação de destino: na qual o destinatário finalmente recebe a msg. 
+> Endereçado ou destinatário (addressee): autoridade à qual uma msg é destinada. 
+> Sinal de procedimento (procedure signal): sinal para facilitar a tx de uma msg. 
+> Hora de origem: é a da elaboração da msg. 
+> Grupo: 1 ou + num/letras que compõe um sinal. 
+> Grupo numerai: 1 ou + algarismos. 
+> Içada (hoist): 1 ou + grupos numa só adriça = halyard. IA MEIO (= at the dip) e ATOPETADO (= close up) refere-se à 
+altura da bandeira mais de cima. 
+> Adriça separadora (tackline): linha de +- 2 metros que separa cada grupo. 
+> Regimento: conjunto de 26 bands alfabéticas, 10 galhes numerais, 3 cometas substitutas e o galhe distintivo do CIS (DCI). 
+CAP 3 - MÉTODOS DE SINALIZAÇÃO 
+1) Por bandeiras (Set of signal flags = 26 alphabetical flags, 10 numeral pendants, 3 substitutes and the answering pendant). 
+2) Por lampejos e sonora (ambos com Morse): 
+> Morse: 
+- unidade de duração = 1 ponto. 
+- 1 traço = 3 unidades. 
+(se tiver que errar, faça os pontos bem mais curtos que os traços!) 
+- tempo entre elementos de um símbolo = 1 unidade. 
+- tempo entre símbolos = 3 unidades. 
+- tempo entre palavras ou grupos = 7 unidades. 
+- veloc padrão por lampejos = 40 letras/min. 
+3) Por voz amplificada: (megafone = loud hailer) 
+> Se possível, usar linguagem clara. / Senão, usar os grupos do CIS (transmitindo letra por letra, acd alfabeto fonético). 
+4) Por radiotelegrafia e radiotelefonia: cumprir o Regulamento de Radiocomms da UIT. 
+5) Por bandeirolas ou braços (com Morse). 
+CAP 4 - INSTRUÇÕES GERAIS 
+1) Origem e destinatário de msgs: é de Comte para Comte (se nada dito). 
+2) Hora de origem: pode ser colocada no final do texto. / Expressa por 4 algs. / Serve como uma referência útil. 
+3) Comunicar usando um Código Local: 
+> Preceder os grupos desse Código por YV 1 (se necessário). 
+4) Indicativos: 
+> São atribuídos segundo padrões internacionais (pode revelar a nacionalidade). 
+> Usados com dois objetivos: 1) chamada ou trabalho entre estações; e 2) citar ou indicar estação. 
+5) Nomes de navios e locais: devem ser soletrados. 
+6) Transmissão de números: 
+> Bandeiras: pelos galhardetes numerais. 
+> Lampejos ou sinais sonoros: números do Morse (mas pode soletrar). 
+> Voz (radiotelefonia ou megafone): por extenso, usando a tabela fonética para algarismos (Tab í)(by the code words of the 
+figure-spelling table). 
+Obs: se forem grandezas de altura, prof, etc, devem ser seguidos de F ou M (para pés ou metros). 
+
+
+===== PAGINA 238 =====
+
+*B**t**«*><<™r*ttc 
+7) Vírgula decimal: 
+> Bandeiras (flags): inserindo o galhardete do Código. 
+> Lampejos ou sinais sonoros: grupo Morse AAA. 
+> Voz (radiotelefonia ou megafone): pronunciando DECIMAL 
+8) Outros: 
+> Azimutes e marcações: (A) 
+Se houver psb de confusão, precedê-los por A. / São verdadeiros (se nada dito). 
+> Rumos: 
+(C) 
+Se houver psb de contusão, precedê-los por C. / São verdadeiros (se nada dito). 
+> Datas: 
+D + 2/4/6 algs 
+(4 para indicar tb o mês; 6 para indicar tb o ano). 
+> Latitude: 
+L + 
++ S 
+(pode suprimir o N/S) 
+> Longitude: G+ 
++ W 
+(pode suprimir o W/E; e pode usar só 4 algs) 
+> Distâncias: R +_.... 
+Algarismos precedidos de R indicam dists em milhas (mas pode suprimir o RJ. 
+> Veloc: 
+VowS + 
+S para nós; V para km/h. 
+> Horas: 
+TouZ+ 
+Z para UTC; T para local. 
+> Números que indicam alturas, prof, etc: 
+Devem ser seguidos de F ou M (para pés ou metros). 
+CAP 5 - SINAIS POR BANDEIRAS 
+> Regra geral: usar uma içada de cada vez (quepode conter mais de um grupo). 
+> Manter a içada (ou grupo de içadas) no ar até que seja reconhecida. 
+> Se içar 2 ou + grupos na mesma adriça (= halyard), usar uma adriça separadora (= tackline). 
+1) Chamadas: 
+> Içar o indicativo da estação(ões) chamada junto com o sinal. Se não içar indicativo, o sinal é para todas no visual. 
+> Se não souber o indicativo da estação com quem deseja comunicar, içar VF (Vc deve içar o seu indicativo) ou CS (Qual o 
+seu indicativo?), junto com o próprio indicativo. / Tb pode-se usar YQ (desejo comunicar-me por + complemento Tab I + 
+com o navio marcado por mim aos 
+). 
+2) Respostas: 
+> Ao avistar o sinal, içar o DCI a meio (at the dip). I Ao reconhecê-lo (entendê-lo), atopetar o DCI (close up). 
+> Quando o transmissor arriar o sinal, colocar o DCI a meio. / Quando reconhecer o novo sinal içado, atopetar o DCI. 
+> And so on... a meio quando avistado, atopetado quando reconhecido. 
+> Ao completar o sinal, o transmissor atopeta o DCI isoladamente. / O receptor responde como anteriormente. 
+3) Não pôde distinguir os sinais: manter o DCI a meio. 
+4) Distinguiu mas não entendeu: içar ZQ (Acho que vc codificou errado. Vrfe repita) ou ZL (Recebi, mas não compreendi). 
+5) Cometas substitutas: 
+> Permite repetir a mesma bandeira ou galhardete, 1 ou + vezes no mesmo grupo (para quando tiver só 1 regimento). 
+> A Ia substituta repete a Ia bandeira (de cima para baixo), da classe da que imediatamente a precede. / And so on... 
+> Cada substituta não pode ser usada + de 1 vez no mesmo grupo. 
+> Se usar o DCI como vírgula decimal, escolha a substituta como se esse galhardete não existisse. 
+Ex: 
+1100 
+= 
+{galhe 1 + Ia substituta + galhe 0 + 3a substituta} 
+Ex: 
+L2330 = 
+{bandeira L + galhe 2 + galhe 3 + 2a substituta + galhe 0} 
+Ex: 
+K2L20 = 
+Impossível 
+6) Nomes mencionados no texto das msgs: 
+> Serão soletrados com as bandeiras alfabéticas. 
+> Se necessário, pode-se usar YZ (As palavras que se seguem estão em linguagem clara). 
+7) Navio de guerra quando quer falar com mercante: atopetar o DCI e mantê-lo assim durante toda a transmissão. 
+
+
+===== PAGINA 239 =====
+
+BM BMgBBBsãsgaa^aã^v 
+CAP 6 - SINAIS POR LAMPEJOS 
+1) As msgs são divididas em 
+a) Chamada: 
+- TX: 
+"chamada geral" ou indicativo do RX. 
+- RX: 
+"sinal de resposta". 
+b) Identificação: 
+TX 
+RX 
+•TX 
+DE + indicativo ou nome próprio 
+DE + indicativo ou nome próprio 
+indicativo ou nome do outro + texto 
+c) Texto: são grupos em linguagem clara ou codificados. Se for codificado, pode usar linguagem clara para nomes, locais, etc. 
+- TX: 
+Se for usar o CIS, transmitir: 
+YU + grupos 
+- RX: 
+Acusar rcb de cada palavra ou grupo com: T 
+TX: 
+AR 
+RX: 
+R 
+d) Fecho: 
+Obs: A chamada e a identificação podem ser omitidas quando 2 estações já tenham se comunicado. 
+2) Valem os sinais de procedimentos (abreviaturas de tráfego) que serão vistos adiante. 
+3) Bizús: 
+> 
+ÃÃÃÃÃÃ, 
+> TTTTTT... 
+> T 
+^ 
+JtflLJifJiíJlrXL... 
+> RPT 
+> OK 
+> 
+> 
+> 
+AR 
+R 
+CS 
+AS 
+> AAA 
+> C 
+RQ 
+N 
+NO 
+Obs: 
+Obs: 
+"Chamada geral" ou de "estação desconhecida". / Repetir até que seja respondida. 
+"Sinal de Resposta". / Usado ininterruptamente até que a TX cesse a chamada. 
+Indica o recebimento de cada palavra ou grupo. 
+"Sinal de erro" (errase signal). IO último grupo ou palavra estava errado. / Deve ser respondido 
+pelo próprio. / Depois de respondido, o TX repetirá a última coisa tx corretamente e continuará a tx. 
+"Sinal de repetição". 
+Usado pela TX: 
+Significa que ela vai repetir (se não o fizer, então ela está pedindo para a RX repetir). 
+Usado pela RX: 
+Significa pedido de repetição do que acabou de ser transmitido. 
+A RX pode transmitir sinais especiais de repetição (AA, AB, WA, WB e BT), logo após o RPT. 
+Obs: Se não compreender um sinal ou se ele for inteligível depois de decodificado, transmitir ZL {Seu sinal 
+foi recebido, mas não foi entendido). Não usar o RPT neste caso !! 
+Indica o recebimento correto de uma repetição: ou "está correto". 
+"Sinal de fim de msg", usado pela TX. / Indica o fim de uma msg ou de uma transmissão. 
+"Recebido". É a resposta da RX para o AR. 
+Feito pela TX para pedir o nome/indicativo da RX. 
+"Sinal de espera", isolado ou após o fim de uma msg, é para pedir para a RX aguardar outras comms; ou 
+"Sinal de interrupção periódica" (periodsignal), para separar grupos, evitando confusão. 
+Indica vírgula decimal ou ponto final. 
+Indica afirmação ou resposta afirmativa a uma pergunta. 
+Indica uma pergunta. 
+Indica uma negativa ou uma resposta negativa a uma pergunta (sinalização visual e sonora). 
+Indica uma negativa ou uma resposta negativa a uma pergunta (voz ou transmissão via rádio). 
+Ao usar RQ/N/NO para transformar uma afirmativa em pergunta ou negativa, eles vão depois do sinal. 
+C/RQ/N/NO não podem ser usados com sinais de 1 letra! 
+CAP 7 - SINAIS ACÚSTICOS {apitos, sereias (= siren), 
+fog-horn} 
+> São lentos e causam confusão. Logo, recomenda-se usar os sinais acústicos de serracão ao mínimo indispensável. 
+> Sinais que não sejam de 1 letra só devem ser usados em emerg, e nunca em áreas densamente navegadas. 
+> Executá-los lenta e pausadamente. Podem ser repetidos, mas a intervalos bem longos (para não confundir sinais de 1 letra 
+com grupos). 
+> Sinais de uma letra do CIS marcados com *, se feitos pelo método acústico, só podem ser usados de acd com o RIPEAM. 
+
+
+===== PAGINA 240 =====
+
+CAP 8 - RADIOTELEFONIA 
+> Se for usar o CIS por problemas de idiomas, observar o Regulamento de Radiocomms da UIT. 
+> Pronunciar as letras e algs de acd com as Tabelas Fonéticas. 
+> Ao chamar estações costeiras ou de navios, usar seus indicativos ou nomes. 
+> Nomes difíceis devem ser soletrados. 
+> Depois que estabelecer contato, só dizer o nome ou indicativo 1 x. 
+> Para fazer chamadas: 
+TX: 
+Indicativo ou nome do outro (máx 3 x) + DE + indicativo ou nome próprio (máx 3 x) 
+(ou CQ, para efetuar chamadas gerais (max 3 x)) 
+> Para responder: 
+RX: 
+Indicativo ou nome do outro (máx 3 x) + DE + indicativo ou nome próprio (máx 3 x) 
+> INTERCO 
+Deve ser usado antes de msg codificada pelo CIS. 
+> YZ 
+Pode ser usado antes de grupos em linguagem clara (palavras). 
+^ AS (.-J 
+Usado se a RX não puder aceitar o tráfego imediatamente. Se possível, acrescentar a espera, em min. 
+> R 
+Indica o recibo de qq transmissão. 
+> RPT 
+Usado para pedir repetição total ou parcial. / Pode ser suplementado por AA, AB, WA, WB ou BN. 
+> AR 
+Indica o final da transmissão. 
+CAP 9 - SINALIZAÇÃO MORSE C O M OS BRAÇOS OU BANDEIROLAS 
+(hand-flags) 
+> Normalmente usa os 2 braços, mas pode usar um só. 
+> Os intervalos de tempo devem ser tais que propiciem uma recepção correta. 
+> Saber os seguintes sinais: 
+PONTO / TRAÇO / ERRO (erase) I PEDIDO DE REPETIÇÃO 
+SEPARAÇÃO ENTRE PONTOS E TRAÇOS 
+SEPARAÇÃO ENTRE LETRAS, GRUPOS OU PALAVRAS 
+> TX: 
+Kl 
+Enviado por qq método, indica a intenção de se comunicar dessa forma, (tab l de complementos) 
+AA AA AA 
+Tb pode-se usar esse sinal de chamada para isso. 
+> RX: 
+T 
+Indica o recebimento. 
+YS1 
+Enviado por qq método, indica a impossibilidade de se comunicar por esse método. 
+> AR 
+"Sinal de fim de transmissão", que encerra todas as msgs. 
+CAP 10 
+SÍMBOLO MORSE - TABELAS FONÉTICAS - SINAIS DE PROCEDIMENTO 
+1) Símbolos Morse: estudar a tabela (letras, algs e sinais de procedimentos AR/AS/AAA). / Letras com "til" foram retiradas. 
+2) Tabelas fonéticas: para a pronúncia de letras e algs nos métodos radiotelefônicos ou loud hailer. 
+> Alfabeto fonético: 
+Decorar. 
+> Tabela fonética para algarismos: 
+Saber os números, a vírgula decimal (DEICIMAL) e o ponto (STOP). 
+Enfatizar igualmente cada sílaba. 
+A 2a parte de cada palavra-código é a palavra-código usada no SMAeronáutico. 
+3) Sinais de procedimento: 
+> Traço sobre as letras indica que a transmissão deve ser sem intervalo entre elas, como se fosse uma só. 
+> Estudar as seguintes Tabelas: 
+a) Sinais para voz (radiotelefonia ou megafone): 
+STOP / DECIMAL / INTERCO / CORRECTION 
+b) Sinais para lampejos: 
+ÃÃ ÃÃ ÃÃ ... / EEEEEE... / ÃÃÃ / TTTTT... / T 
+c) Sinais para bandeiras, radiotelefonia e radiotelegrafia: 
+CQ (chamada geral ou para estação desconhecida). 
+d) Sinais para uso com todos os sistemas: AA / AB / AR / ÃS / BN / C / CS / DE / K / NO / OK / RQ / R / RPT / WA / WB 
+Obs: 
+Os sinais de procedimento C / RQ / N ou NO não podem ser usados com sinais de 1 letra, e vão depois do sinal. 
+Sempre que transmitidos por voz, deve-se usar o alfabeto fonético (exceto o NO, que se prenuncia "nô"). 
+
+
+===== PAGINA 241 =====
+
+<
+-
+r :
+•
+*
+>
+;
+. • / - ' • . : -
+: 
+í
+_
+* 
+• ; . - : 
+- ; . 
+-
+;
+" 
+r
+-
+^
+o
+^
+s 
+CAP 11 - SINAIS DE UMA LETRA (transmitidos por qq método!) 
+A 
+Tenho mergulhador na água. Mantenha-se bem afastado e a baixa veloc. 
+B 
+Estou carregando/descarregando/transportando carga perigosa. 
+C 
+Afi, sim, concordo, ou interpretar o grupo anterior na afirmativa. 
+D 
+Mantenha-se afastado, estou manobrando com dificuldades. 
+E 
+Estou guinando para BE. 
+F 
+Estou à matroca (disabled), comunique-se comigo. 
+G 
+Solicito prático. 
+H 
+Tenho prático a bordo. 
+I 
+Estou guinando para BB. 
+J 
+Mantenha-se bem afastado. Tenho incêndio e carga perigosa; ou tenho vazamento de carga perigosa. 
+K 
+Desejo comunicar-me com vc. 
+L 
+Pare imediatamente seu navio. 
+M 
+Estou parado e sem segmento. 
+N 
+Negat, não, não concordo, interpretar o grupo anterior na negativa. 
+(Só visualmente ou por som) 
+(Por voz ou radiotelefonia é "NO".) 
+O 
+Homem ao mar. 
+P 
+Geral embarcar, pois vai zarpar (no porto). / Solicito Prático (no mar, como sinal sonoro) {.--.} 
+Q 
+Meu estado sanitário é bom e peço livre prática. 
+R 
+Sem significado. 
+S 
+Minhas máquinas estão AR. 
+T 
+Mantenha-se afastado, estou arrastando redes em paralelo (pair trawling). 
+U 
+Você se dirige para um perigo. 
+V 
+Solicito auxílio. 
+W 
+Solicito assistência médica. 
+X 
+Pare o que está fazendo (earring your intentions) e observe meus sinais. 
+Y 
+Estou arrastando meu ferro. 
+Z 
+Solicito rebocador. 
+Sinais de pescador: 
+G 
+Estou arrastando redes (hauling nets). (Quando feito por pesqueiros operando próximos um do outro) 
+P 
+Minhas redes estão presas (came fast) numa obstrução. 
+T 
+Estou arrastando redes em paralelo (pair trawling), mantenha-se afastado. 
+Z 
+Estou lançando redes (shooting nets). (Quando feito por pesqueiros operando próximos um do outro) 
+Sinais que, quando feitos pelo método acústico, só podem ser usados acd Regras 34 e 35 do RIPEAM: 
+B / C / D / E / G / H / I / S / T / Z (mas G e Z podem continuar a ser usados por pesqueiros pescando próximos uns dos outros) 
+Obs: K e S têm significado especial como sinais de desembarque para embs miúdas com pessoas em perigo (SOLAS). 
+
+
+===== PAGINA 242 =====
+
+:./ 
+CAP 12 - SINAIS DE U M A LETRA C O M COMPLEMENTOS (transmitidos por qq método!) 
+Estudar Tabela: A 
+/C 
+/D 
+— /G 
+-/L 
+_/R_..../S_..../V_..../T_ 
+/Z 
+/ K_ (tab I) / Z _ 
+CAP 14 
+D3ENTIFICACÂO DOS MEIOS DE TRANSPORTE DE ASSISTÊNCIA MÉDICA E M CONFLITOS E 
+IDENTIFICAÇÃO PERMANENTE DE NAVIOS D E SOCORRO 
+1) Tb se aplica a embs de socorro costeiro. 
+2) Símbolos: 
+> Cruz ou crescente vermelho vivo (dark red) sobre fundo branco, tão grande quanto possível: usados, separadamente 
+ou em conjunto, para mostrar que o navio é de assistência médica e está protegido pela Convenção de Genebra. 
+> O vermelho deve ser pintado sobre um primer de tinta preta (melhor contraste para instrumentos e filmes IR). 
+> Podem ser feitos de materiais que os tornem reconhecíveis por meios técnicos de detecção. 
+> De noite e em visib. restrita, os símbolos devem ser iluminados ou ter iluminação própria, e todas a luzes do convés e 
+costados devem estar acesas. 
+> O pessoal de assistência médica e religiosa (engajado) deve, se possível, em área de combate, usar símbolos identificadores 
+no capacete e roupas. 
+> Posições: 
+- Costados: 
+Da linha d'agua à borda. 
+- Bochechas e popa: 
+Se necessário para serem visíveis, pintar numa estrutura de madeira. 
+- Convés: 
+Bem desimpedido dos eqs do navio, para ser visível por anvs. 
+3) Todo navio engajado nessas ops deve: 
+> Exibir 1 ou + luzes circulares de lampejos azuis, de 60-100 Lp/min, de visib > 3 NM (acd RIPEAM), exibidas o mais alto 
+possível acima do convés (de forma que ao menos 1 seja visível de qq direção). 
+> Ter transponder-radar, cujo sinal seja YYY + indicativo de chamada (ou outro meio de id conhecido). 
+> Poder emitir sinais acústicos submarinos (freq = 5 KHz, por ex), cujo sinal seja YYY + indicativo de chamada. 
+4) Embs de salvamento transportadas pelos navios-transporte de assistência médica: devem ter um mastro para içar uma 
+bandeira com a cruz vermelha (de 2 x 2 metros). 
+5) Anvs de transporte de assistência médica: devem ter luzes de lampejos azulados, de 60-100 Lp/min, em número necessário 
+para que seja visível de quase todas as direções. / Nenhuma outra anv pode usar esse sinal. 
+SEÇÃO GERAL 
+> 
+agoniza 
+TABELAS DE COMPLEMENTOS 
+> Decorar as Tabelas I, II e III. 
+SEÇÃO MÉDICA - INSTRUÇÕES 
+> Pedir e dar orientação médica, sempre que possível, em linguagem clara (mesmo assim, se possível, obedecer aos textos e 
+instruções do Código). / Problemas com idioma? Use o Código. 
+> C / N / N O / C Q são usados como já visto. 
+> Todos os sinais são precedidos de M. 
+> Tabelas: Ml (regiões do corpo), M2.1 (lista das doenças mais comuns), M2.2 (idem, só que em latim) e M3 (lista de 
+medicamentos). 
+1) Instruções aos Comtes: PARTE I - PEDIDO DE ASSISTÊNCIA MÉDICA 
+> Examinar o paciente e obter as seguintes infos: descrição do paciente, antecedentes patológicos, localização dos 
+sintomas/doença/ferimentos, sintomas gerais, sintomas específicos e diagnóstico, (esses são alguns Capítulos da Parte I -
+Pedido de Assistência Médica). I Obedecer a essa ordem seria bastante útil. 
+> O Cap 1 contém sinais que podem ser usados com ou sem a descrição do caso (é relacionado ao pedido de assistência 
+propriamente dito). / Ex: MAA (sol assistência médica urgente). 
+> Depois de recebida as instruções do médico, o Comte pode enviar um informe sobre a evolução. 
+2) Instruções aos médicos: PARTE n-ORDXNTAÇÃo MéDICA 
+> Há um Cap para cada coisa, tais como: solicitar infos adicionais, diagnósticos, receitas (estas devem limitar-se à "Lista de 
+Medicamentos" da Tabela M3), tratamentos especiais e dietas. 
+> Na prescrição de medicamentos, deve-se usar 3 sinais: 1) o medicamento; 2) via de administração e dose; e 3) freq das 
+doses. / A freq das aplicações para uso externo está separada em outro Capítulo. 

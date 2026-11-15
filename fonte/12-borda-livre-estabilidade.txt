@@ -1,0 +1,819 @@
+FONTE: resumo curso h.pdf | CAPITULO 12 - borda-livre-estabilidade | paginas 283-296 | OCR ABBYY
+OBS: texto OCR ruidoso, mistura ingles/portugues. Interprete com cautela; nao invente.
+
+
+===== PAGINA 283 =====
+
+NORMAM 01 /DPC - NORMAS DA AM PARA 
+EMBARCAÇÕES EMPREGADAS EM MAR ABERTO 
+> Aplicação: a todas as embs brasileiras destinadas a nav em mar aberto, exceto as de esporte/recreio e as da MB. 
+> Navegação em mar aberto: em águas consideradas desabrigadas. 
+> Despesas com os serviços a serem prestados pela AM em decorrência destas normas (vistorias, análises de planos, pareceres, 
+perícias, etc) serão indenizadas no ato da solicitação do serviço (navios do estado brasileiro são isentos). 
+CAP 7 - BORDA-LIVRE E ESTABILIDADE INTACTA 
+> Estabelece regras para a determinação da BL e compartímentagem das embs nacionais usadas na Navega de Mar Aberto, e 
+critérios e procedimentos para a verificação da EI. 
+SEÇÃO I - DEFINIÇÕES E REQUISITOS TÉCNICOS 
+1) APLICAÇÃO: 
+a) Regras sobre atribuição da BL: 
+> Se aplicam às embs: - que solicitem emissão do Certificado Nac ou Intern de BL, após fev/97. 
+-já construídas ou com modificações de vulto que exijam reavaliação da BL, após mai/97. 
+- às construídas antes dessa data, por solicitação do proprietário/armador. 
+> Estão isentas de atribuição de BL as embs de: 
+- comp de regra (L) < 20 m. 
+-AB<50. 
+- esporte/recreio e guerra. 
+> A DPC pode isentar embs que possuam um novo tipo de dispositivo, cuja aplicação das regras posa impedir seu 
+desenvolvimento e posterior incorporação a outros navios (tais embs deverão atender a requisitos que a DPC julgar necessários). 
+> An 7-H: procedimentos para a renovação do Certificado de BL para embs existentes cuja BL foi atribuída acd regras antigas. 
+b) Regras sobre verificação da EI: se aplicam a todas as embs de mar-aberto construídas após jun/98. 
+c) Regras sobre compartímentagem: se aplicam às embs de: 
+- pass de AB > 50 construídas após jun/98 (as construídas antes atenderão a esses requisitos na Ia Vistoria de Renovação). 
+- AB > 50 reclassificadas como embs de pass. 
+- pass que sofrerem alterações de vulto, a critério da DPC. 
+2) DEFINIÇÕES: são as da regra 3 da CILC. Adicionalmente: 
+- Comp total: entre os pontos extremos da proa e popa (não inclui o mastro de proa dos veleiros). 
+- Estanque ao tempo (weathertighf) ou à água (watertight): que passa por um ensaio (fechando atracadores com a mão, com 
+borrifo/j ato sólido (respec), etc), sem apresentar qq vazamento. 
+- Passageiro: todos que não sejam Comte/tripulante, pessoas ocupadas em svçs, ou criança < 1 ano. 
+- Emb de pass: que transporte mais de 12 pass. 
+- Emb de carga: qq emb que não seja de passageiro, de pesca ou empurrador/rebocador. 
+- Barcaça: emb de carga que possui as seguintes caracts: 
+1) não tripulada. 
+2) não propulsada. 
+3) boca/calado > 6. 
+4) boca/pontal > 3. 
+- Angulo de alagamento (transv): submergem as aberturas no casco/superestrutura que não podem ser fechadas e/ou tornadas 
+weathertight (não se incluem peqs aberturas através das quais não possa haver um alagamento progressivo). 
+- Embs SOLAS: são as mercantes usadas em viagens internacionais ou entre portos brasileiros, ilhas oceânicas, terminais e 
+plataformas, exceto os navios: - de comp. de regra < 24 m. 
+- de carga de AB < 500. 
+- de pass de AB < 500 (não aplicável aos que efetuam viagens internacionais); 
+- sem prop. 
+- de madeira de construção primitiva. 
+- de pesca. 
+
+
+===== PAGINA 284 =====
+
+3) DETERMINAÇÃO DA BL DAS EMBS SOLAS: estas devem atender à CILC e seus requisitos para o cálculo da BL, 
+vistorias, inspeções e fixação das marcas no costado. / As embs de casco não metálico e/ou cujas caracts tornem a aplicação daquela 
+convenção desaconselhável ou impraticável, podem atender apenas a estas regras (a critério da DPC). 
+4) REQUISITOS TÉCNICOS PARA EMBS NAO-SOLAS: 
+a) Portas externas de acesso ao interior: soleira de 380 mm de altura mínima. 
+b) Aberturas no CBL: 
+> Escotilhões: bracola min de 380 mm (em qq outro convés é 150 mm), e fechamento por tampa com atracadores permanentes. 
+> Escotilhas: bracola min de 600 mm (em qq outro convés é 150 mm). 
+Obs: as braçolas podem até se reduzidas/suprimidas (a critério da DPC), desde que não comprometam a seg em qq condição de 
+mar. Portas de visitas e aberturas para a retirada de eqs com tampas aparafusadas watertight não precisam ter bracola. 
+> Tampas dessas aberturas e seus dispositivos de fechamento: terão a resistência suficiente e todos os elementos necessários 
+para assegurar a estanqueidade prevista. 
+c) Aberturas no costado: 
+> Aresta inferior min a 500 mm acima da linha d'agua carregada, em qq trim, com tampas watertight; ou vigias e olhos de boi. 
+> Vigias e olhos de boi abaixo do CBL devem: - ser watertight ou ter dispositivo de fechamento watertight, e de construção sóli< 
+- ter tampa de combate e vidros temperados de espessura compatível. 
+d) Saídas d'agua: construções que possibilitem o acúmulo de água terão saídas d'agua (exceto nas bordas falsas na proa ou se o 
+tosamento for pronunciado). 
+Obs: para os conveses da superestrutura, a área mínima das saídas é a metade do valor bizulentamente calculado para o CBL. 
+e) Suspiros externos acima do CBL: 
+> Devem ter fechamento weathertight por dispositivos permanentemente fixados. 
+> No CBL, a dist entre o ponto inferior do pescoço e o convés onde se encontra deve ser > 750 mm (450 mm noutros conveses). 
+> Suspiros dos tanques de água doce/diesel/lub, dos tanques de lastro-profundo com altura maior que a largura, ou de caixas de 
+mar, que apresentarem superfície livre desprezível, estão isentos de altura mínima. 
+f) Dispositivos de ventilação ou exaustão: 
+> Dutos de ventilação/exaustão destinados a espaços abaixo do CBL: terão meios de fechamento weathertight na sua 
+extremidade superior externa (por atracadores permanentes). 
+- Esses dispositivos de fechamento podem ser dispensados se a dist entre a borda inferior da abertura e o CBL for maior que o 
+valor dado por uma fórmula (quanto mais longe da linha de centro, maior é a altura mínima para obter a dispensa). 
+> Venezianas em anteparas ou portas externas para a ventilação de compartimentos sob o CBL ou superestruturas 
+fechadas: terão meios de fechamento weathertight, ou atenderão aos requisitos de altura mínima dos dutos de ventilação. 
+> Alboios imediatamente acima do CBL para compartimentos sob esse convés: deverão: 1) ser estanques ou ter meios de 
+fechamento estanque à água (?weathertight?); 2) ter vidros de espessura compatível com a área de dimensões lineares (não 
+precisa tampa de combate); e 3) ter braçolas min de 380 mm. 
+g) Extremidade de tubos de descarga de águas servidas no costado: devem ter w s de retenção e fechamento, combinadas ou 
+não, e facilmente acessíveis. / Se a descarga for por gravidade e a dist "descarga-extremidade superior do tubo" for > 2 m, as ws 
+podem ser de fechamento, sem retenção. 
+h) Proteção da tripulação: 
+> Partes expostas do CBL e conveses das superestruturas devem ter balaustradas ou bordas falsas > 1 metro (mas pode ser 
+reduzida ou suprimida se interferir nas opes do navio, a critério da DPC, desde que se garanta a proteção de trips/pass). 
+> A abertura inferior da balaustrada deve ter altura < 230 mm. Os demais vãos podem ter altura < 380 mm. 
+> Navios com bordas arredondadas: os suportes das balaustradas devem estar na parte plana do convés. 
+> Deve haver uma passagem permanentemente desobstruída de proa a popa com ao menos 80 cm cada (não por cima das 
+tampas de escotilhas). 
+
+
+===== PAGINA 285 =====
+
+RCOMgBBBMBWWIffflrllllfiHflW 
+11 
+SEÇÃO II - DETERMINAÇÃO DA BL DE EMBS "NÃO SOLAS" 
+1) ALTURA MÍNIMA DE PROA (Hp): 
+> Não deve ser inferior ao valor obtido por fórmulas bizulentas em fç do comp total. 
+> É medida na PP de vante a partir da linha d'agua de projeto até o convés exposto, que vem a ser: 
+1) o CBL, que pode ter um tosamento regular a partir da seção de meio navio até a PP de vante; ou 
+2) o convés de um castelo de proa, fechado e weathertight, de comp > a 10% do comp total da emb, mesmo que tenha um 
+tosamento (que, entretanto, não pode ser maior que o tosamento do CBL). 
+2) CÁLCULO DA BL: 
+a) BL Mínima: é a dist vertical, medida na meia-nau, entre a face superior do tríncaniz do CBL e uma linha de flutuação (// à 
+linha d'agua de projeto) que intercepta a PP de vante no ponto correspondente à Hp. 
+b) Correção para a Pos da Linha de Convés (flg 7-1): se não der para marcar a LC na pos regular, a diferença entre a pos real e a 
+estabelecida nas regras será somada/deduzida do valor da BL mínima. 
+c) Valor mínimo: a BL Mínima não pode ser < 100 mm, exceto em fç da correção para a Posição da Linha de Convés. 
+d) Verificação do calado máx: as embs devem ter resistência estrutural e estabilidade intacta satisfatórias no calado correspondente 
+à BL Mínima atribuída. Caso essa BL acarrete um calado > calado máx do projeto, a BL mínima deve ser aumentada para coincidir 
+com o calado máx. / Ainda, se necessário, a BL min deve ser aumentada para atender aos requisitos de pos das aberturas no costado. 
+e) O cálculo da BL para embs não SOLAS poderá ser efetuado pela CILC, sempre que julgado necessário ou conveniente. Nesse 
+caso, devem ser atendidas as demais disposições da CILC, bem como a Seção V deste capítulo. 
+3) CORREÇÃO PARA NAVEGA EM ÁGUA DOCE: 
+> A BL mínima para a navega em água doce será reduzida de: 
+AD = (D - BL) / 48 
+mm 
+Onde: 
+AD (mm) = correção para a navega em AD 
+D (mm) = pontal para BL 
+Obs: AD aprox = calado máx / 48 
+BL (mm) = BL mínima 
+SEÇÃO III - MARCAS DE BL DE EMBS "NÃO SOLAS" 
+(ou marcas do Franco-Bordo) 
+1) MARCAS DA LINHA DE CONVÉS: 
+>• Linha de Convés: 300 x 25 mm (12" x 1"), ambos bordos, na meia-nau, aresta superior coincidindo com a interseção entre o 
+prolongamento da face superior do convés da BL e a face externa do chapeamento do costado (Figs 7-2/3). 
+> Embs com bordas arredondadas ou com qq dispositivo que impossibilite a fixação no local estabelecido: sua pos será 
+determinada com ref a outro fixo no costado, desde que a BL sofra a correção correspondente (Fig 7-1). 
+> Embs com o CBL descontínuo cuja parte superior se estenda além da meia-nau: a aresta superior da linha do convés 
+coincidirá com "o prolongamento da face superior da parte mais baixa desse convés, // à parte superior do mesmo". 
+2) MARCA DE LINHA DE CARGA (DISCO DE PLIMSOLL): 
+> É um anel de 180 mm de diâmetro externo e 25 mm de largura, cruzado por uma linha horiz de 300 x 25 mm, cuja face 
+superior passa pelo centro (Fig 7-2). / É fixada em ambos os bordos, com o centro do anel à meia-nau e a uma dist vertical 
+abaixo da aresta superior da Linha do Convés igual à BL atribuída (Fig 7-2). 
+> Marcação para valores de BL inferiores a 120 mm: só será fixada a parte inferior do anel (Fig 7-4). 
+3) MARCA DA AUTORIDADE RESPONSÁVEL: 
+> Quando a BL for atribuída pelas CP/CF/DL/GEVI, serão fixadas, em ambos os bordos, à esq e à dir da marca de linha de carga 
+e acima da linha horiz, as letras C e P (35 x 25 mm) (fig 7-5). 
+> Quando a BL for atribuída por uma S.Class ou EntEsp, serão fixadas as letras da entidade. 
+4) MARCA DE ÁGUA DOCE: 
+> São 2 linhas horiz (300 mm) e 1 vertical (650 mm AV do centro do disco, unindo as duas horizontais) (Fig 7-6). 
+> Dist vertical entre as duas linhas horiz = correção para a navegação em AD. 
+5) DETALHES DE MARCAÇÃO: 
+> As marcas devem estar permanentemente fixadas em ambos os bordos (soldadas ou buriladas para navios de aço), pintadas 
+em branco ou amarelo (fundo escuro) ou em preto (fundo claro). 
+> Devem ser facilmente visíveis (se necessário, arranjos especiais devem ser feitos para tal, a critério da DPC). 
+
+
+===== PAGINA 286 =====
+
+SEÇÕES IV E V - CERTIFICAÇÃO DE EMBARCAÇÕES (COMPILADO DAS 2 SEçõES) 
+1) CERTIFICADO INTERNACIONAL DE BL: 
+> As "embs SOLAS" para as quais seja obrigatória a atribuição de BL terão um CIBL, segundo a CILC - 1966, emitido pelas 
+S.Class (esta deve encaminhar cópia do Certif à DPC e ao órgão de inscrição). 
+> Validade máx: 5 anos. 
+> Emissão, Renovação e perda de validade do Certificado, Vistorias e Inspeções: observar os procedimentos da Convenção. 
+> O proprietário e preposto são responsáveis por manter as condições de atribuição previstas na Convenção e que foram 
+consideradas ou avaliadas por ocasião do cálculo para emissão do Certificado ou das vistorias e inspeções. 
+2) CERTIFICADO NACIONAL DE BL PARA A NAVEGAÇÃO DE MAR ABERTO (An 7-A): 
+> Obrigatório para "embs não SOLAS" que não sejam dispensadas de atribuição de BL (acd Seção I). 
+> Validade máxima: 
+5 anos. 
+> Emitido por: 
+EmbsECl: 
+EntEsp, GEVI ou S.Class. 
+Embs EC2 sujeitas à BL e não classificadas: 
+EntEsp ou CP/DL/AG. 
+Embs classificadas: 
+obrigatoriamente por S.Class. 
+a) Cálculos para a determinação da BL: são apresentados pelas Notas para a Marcação da BL Nacional - NMA (An 7-B) 
+> Certif emitido pela GEVI ou CP/DL/AG: os cálculos serão feitos por RT contratado pelo constr/arm/proprietário) + ART. 
+> Certif emitido por S.Class ou EntEsp: podem exigir a Notas assinadas pelo RT (+ ART), ou elaborá-las pelo seu corpo técnic 
+b) Procedimentos para emissão do certificado: 
+> Certif emitido pela GEVI/CP/DL/AG: a sol para a determinação da BL será por requerimento do propr/arm/construtor à 
+CP/DL/AG de inscrição da emb ou de jurisdição do estaleiro, junto com ao menos uma via de vários does previamente 
+avaliados por ocasião da licença de construção/alt/reclassificação, tais como: 1) declaração da S.Class de que a emb apresenta 
+resistência estrutural satisfatória no calado correspondente à BL atribuída (só para embs classificadas); 2) Notas para a 
+Marcação da BLN-NMA e ART dos cálculos para preenchimento dessas notas; 3) Relatório das Condições para Atribuição 
+da BLN e ART ref à realização das vistorias para o preenchimento desse relatório (dispensável no caso do GEVI). 
+> Certif emitido por S.Class ou EntEsp: a sol para a determinação da BL será ene pelo propr/arm/construtor a uma S.Class ou 
+EntEsp, acompanhada dos planos e does avaliados por ocasião da licença de construção/alt/reclassificação. 
+- Caso a S.Class ou EntEsp exija, tb serão encaminhadas as Notas para Marcação da BLN, feitas por RT (+ ART). 
+- Após a elaboração/verificação dos cálculos e realização das vistorias, a S.Class ou EntEsp emitirá o Certificado. Uma via das 
+Notas para Marcação da BL, do Relatório das Condições para Atribuição da BL e do Certificado será encaminhada à DPC 
+e ao órgão de inscrição da emb. 
+> Emb solicitando Licença de Construção, Alteração de Caracts ou Reclassificação: simultaneamente, pode solicitar o 
+cálculo da BL (o Certificado de BL só será emitido se o processo para a concessão da licença solicitada for satisfatório). 
+> O Certificado será emitido em 2 vias: uma fica no órgão de inscrição da emb; a outra é do interessado. 
+> Ficarão arquivadas no órgão de inscrição da emb, junto com o Certificado, uma via dos seguintes does: 1) Declaração da 
+S.Class de que a emb apresenta resistência estrutural satisfatória no calado correspondente à BL atribuída (dispensável para 
+embs não classificadas); 2) Notas para a Marcação da BL nacional; 3) Relatório das Condições para Atribuição da BL nacional; 
+e 4) as 2 ARTs já vistas, sempre que um técnico for o responsável pelos cálculos e/ou vistoria. 
+c) Perda de validade do certificado: ocorrerá quando: 1) terminar a validade; 2) não forem efetuadas as inspeções anuais; 3) a emb 
+sofrer alts que modifiquem o valor da BL já determinado; ou 4) a emb sofrer alts e/ou reclassificação, de modo que se enquadre nas 
+embs excluídas de terem BL atribuída. 
+d) Renovação do certificado: 
+> Certif emitidos pela GEVI: vistoria de renovação e emissão de novo Certificado realizada por uma S.Class, EntEsp ou GEVI. 
+> Certif emitidos pelas CP/DL/AG, S.Class ou EntEsp: serão renovados pelas mesmas. 
+e) Vistorias: 
+> Vistoria para Emissão ou Renovação do Certif: a emb é vistoriada para constatar a adequação das estruturas e eqs a esta 
+Norma. São verificadas as condições da emb consideradas nos cálculos para a determinação da BL, as quais são apresentadas no 
+Relatório das Condições para a Atribuição da BLN-NMA (An 7-C) (cujos itens constituem a própria Lista de Verificação). 
+- Certif emitido pelas CP/DL/AG: a vistoria é feita por RT contratado pelo construtor/prop/armador (apresentar a ART). 
+- Certif emitido pela GEVI, S.Class ou EntEsp: a vistoria é realizada pelas mesmas. 
+> Vistoria de Constatação: antes da entrega do Certificado, será feita uma vistoria para verificar se as marcas de BL foram 
+fixadas na pos determinada no Certificado. É feita pelo emissor do Certif (se for a GEVI, pode ser feita pela CP/DL/AG). 
+f) Inspeção Anual: serve para 1) assegurar que não ocorreram alts no casco/superests que alterem a BL já atribuída; 2) vrf o 
+funcionamento dos dispositivos de proteção de aberturas e sua estanqueidade, balaustradas, saídas d'agua; e 3) vrf a pos das marcas. 
+É feita anualmente, entre 3 meses antes e depois do aniversário da vistoria para emissão/renovação do Certif em vigor. 
+> Emb não-classificada: pelo emissor do Certif. 
+> Emb classificada: pela própria S.Class emissora. 
+Obs: O proprietário e preposto da emb são responsáveis por manter as condições de atribuição aqui previstas e que foram 
+consideradas ou avaliadas por ocasião do cálculo para emissão do Certificado ou das vistorias regulamentares. 
+
+
+===== PAGINA 287 =====
+
+w&m 
+SEÇÃO VI - ESTABILIDADE INTACTA 
+1) CÁLCULO DAS CURVAS DE ESTABILIDADE: 
+a) Procedimentos Gerais: 
+> As Curvas Hidrostáticas e as Curvas Cruzadas de Estabilidade são normalmente elaboradas para uma flutuação paralela. 
+Mas quando o trim de projeto ou as formas e arranjo da emb são tais que uma mudança no trim afeta consideravelmente os 
+braços de endireitamento, a variação no trim deve ser considerada. 
+> Os cálculos consideram o volume até a face superior do revestimento do convés. / Para navios de madeira, considera-se o 
+volume correspondente à superfície externa do casco. 
+> As superestruturas e demais estruturas acima do CBL que tenham sido consideradas no cálculo das Curvas Cruzadas estarão 
+especificadas na documentação apresentada. Será tb informado até que âng de inclinação cada estrutura foi considerada como 
+contribuinte para os braços de endireitamento. 
+> Quando a emb puder naufragar por alagamento através de qq abertura: a curva de estabilidade estática deve ser 
+interrompida no âng de alagamento, e deve-se considerar que a emb perdeu completamente sua estabilidade. 
+b) Superestruturas, Casarias e demais edificações acima do Convés: 
+> Superestruturas fechadas, troncos e conjuntos braçolas/tampas de escotilhas que atendam aos requisitos da LL (66): 
+podem ser considerados no cálculo das Curvas Cruzadas de Estabilidade. 
+> Superestruturas, casarias e demais edificações acima do CBL que não atendam aos requisitos de Superestrutura 
+Fechada da LL (66): podem ser consideradas no cálculo das Curvas Cruzadas de Estabilidade até o âng de inclinação a 
+lip 
+partir do qual suas aberturas submergem (nesse âng, a curva terá um ou mais ressaltos e, nos cálculos subsequentes, o espaço 
+alagado será considerado "não existente"). 
+2) CALCULO DO EFEITO DE SUPERFICDZ LIVRE: 
+> Para todas as condições de carregamento, a altura metacêntrica inicial e as Curvas de Estabilidade Estática serão 
+corrigidas em fç do efeito de superfície livre dos tanques. / Esse efeito será calculado segundo o procedimento deste item, 
+exceto quando forem usados programas de computador (autorizados pela DPC) que equilibram o líquido no interior dos 
+tanques e fornecem o valor exato da posição do seu CG em cada inclinação. 
+> Na determinação do efeito da sup livre na estabilidade para todas as inclinações, serão considerados os tanques singelos ou 
+combinação de tanques de cada tipo de líquido (incluídos os de lastro de água) que, dependendo das condições de serviço, 
+possam simultaneamente ter superfícies livres. 
+> Na determinação desse efeito, os tanques considerados serão os que possuem o maior Momento de Superfície Livre (MSL) 
+a 30° de inclinação, quando com 50% de sua capacidade total. 
+> O MSL (ton.m) em qq inclinação é calculado por uma eq super-bizulenta. 
+> Os seguintes tanques não necessitam ser computados no cálculo do Momento de Superfície Livre: 
+a) Os completamente cheios (os que não estejam completamente cheios apenas em fç da margem de expansão do líquido 
+podem ser considerados cheios). 
+b) Os vazios (desconsiderar os resíduos que não seja possível aspirar). 
+c) Tanques peqs cujo MSL em qq inclinação seja < 1% do A min da emb (ton). 
+
+
+===== PAGINA 288 =====
+
+3) CONDIÇÕES DE CARREGAMENTO: 
+a) Considerações gerais: 
+> A avaliação da estabilidade será efetuada para as condições de carregamento que o proprietário pretende operar, além 
+das condições apresentadas neste item para cada tipo de serviço específico. / Se o proprietário não souber informar as 
+condições usuais de operação, a análise poderá ficar restrita às condições-padrão a seguir: 
+> Na condição de carga total de partida, supõe-se que as embs estão carregadas (sem lastro) até: 
+1) a marca de BL de verão, caso tenha um Certificado Internacional de BL: 
+2) a marca de BL, caso tenha um Certificado Nacional de BL (NMA); ou 
+3) o calado máximo permissível, caso seja isenta da atribuição de BL. 
+> Se necessário lastrear em qq condição de carregamento, serão analisadas condições de carregamento adicionais, considerando 
+o lastro com água (especificando a quantidade e disposição do lastro). 
+> Em todos os casos, assume-se que a carga (inclusive a do convés) é homogênea, a menos que isso seja inconsistente com 
+serviço normal da emb. 
+b) Embs de Passageiros: 
+> Terão sua estabilidade avaliada para, ao menos, as seguintes condições de carregamento: 
+1) Carga total de partida, atopetada de gêneros/combu, máx de pass e bagagens; 
+2) Carga total de partida, atopetada de gêneros/combu, sem pass; 
+3) Carga total de regresso, com 10% de gêneros/combu, máx de pass e bagagens; 
+4) Carga total no regresso, com 10% de gêneros/combu, sem pass; 
+5) Sem carga, atopetada de gêneros/óleo, máx de pass e bagagens; e 
+6) Sem carga, com 10% de gêneros/óleo, máx de pass e bagagens. 
+> Peso por pass = 75 Kg. / O CG fica a i m acima do convés (em pé ou em redes) ou 0.3 m acima do assento (sentados). 
+> Bagagem = 25 Kg/pass (pode reduzir até zero se, a critério da DPC, houver justificativa), estivada nos locais a ela reservadosv 
+> Pass sem bagagens são considerados produzindo a combinação mais desfavorável para o momento emborcador que pode 
+ocorrer na prática (todos num bordo e/ou posição vertical do CG na condição). 
+> Se a análise do acúmulo de pass num bordo verificar a possibilidade de uma condição intermediária (num de pessoas inferior 
+à lotação máx prevista) acarretar uma condição de carregamento mais crítica, será apresentada (no Folheto de Estabilidade 
+da emb) uma análise verificando qual é a lotação e distribuição de pass mais severa, e o atendimento do critério de 
+estabilidade nessa condição. / Se os critérios não forem atendidos numa condição intermediária, a lotação máx será reduzida 
+até que se alcance o seu integral atendimento em qq condição. 
+c) Embs de carga: 
+> Terão sua estabilidade avaliada para, ao menos, as seguintes condições de carregamento: 
+1) Carga total de partida, com carga homogeneamente distribuída por todos os espaços de carga e atopetada de gêneros/combu 
+2) Carga total na chegada, com carga homogeneamente distribuída por todos os espaços de carga e 10% de gêneros/combu; 
+3) Condição de partida, sem carga, atopetada de gêneros/combu; e 
+4) Condição de chegada, sem carga, com 10% de gêneros/combu. 
+> Na condição de carga total (de partida ou chegada) de uma emb de carga seca que possui tanques para carga líquida, o porte brul 
+efetivo deve ser distribuído e a estabilidade avaliada considerando: 1) tanques de carga cheios; e 2) tanques de carga vazios. 
+d) Rebocadores e Empurradores: 
+> Terão sua estabilidade avaliada para, ao menos, as seguintes condições: 
+1) atopetada de gêneros e combu; e 
+2) com 10% de gêneros e combu. 
+e) Embs de pesca: 
+> Terão sua estabilidade avaliada para, ao menos, as seguintes condições de carregamento: 
+1) Partida para as zonas de pesca, atopetada de gêneros/óleo; 
+2) Partida da zona de pesca, com captura total e 35% de gêneros/óleo; 
+3) Retorno ao porto de origem, com captura total e 10% de gêneros/óleo; 
+4) Retorno ao porto de origem, com 20% da captura e 10% de gêneros/óleo; e 
+5) Condição que caracterize o calado máximo permissível da emb. 
+> Nas condições acima, incluir a carga de convés (se esta prática for pretendida). 
+> Deixar uma margem para o peso das redes e equipamentos de pesca molhados. 
+> A água de lastro só será incluída se transportada em tanques específicos para tal. 
+f) Embs que transportam carga no convés: 
+> Deverão, adicionalmente, ter sua estabilidade avaliada para as seguintes condições de carregamento de carga total, com 
+carga homogeneamente distribuída por todos os porões e com carga no convés: 
+1) Carga total de partida, atopetada de gêneros/combu e lotação máx de pass; 
+2) Carga total de partida, atopetada de gêneros/combu e sem pass; e 
+3) Carga total na chegada, 10% de gêneros/combu e lotação max de pass; 
+4) Carga total na chegada, 10% de gêneros/combu e sem pass. 
+> A quantidade e disposição da carga no convés devem estar de acordo com o Cap 5. (arvorei) 
+.,--, .-aa
+
+
+===== PAGINA 289 =====
+
+4) CRITÉRIOS DE ESTABILIDADE: 
+a) Embs de Passageiros ou de Carga: devem atender aos seguintes critérios de estabilidade: 
+(desenhar uma curva) 
+1) Área sob a Curva de Estabilidade Estática entre 0°-30° > 0,055 (m.rad). 
+2) Área sob a Curva entre 0°-40° (ou 8f, caso 6f < 40°) > 0,090 (m.rad). 
+Obs: 8,=âng de alagamento. 
+3) Área sob a Curva entre 30°-40° (ou 9f, caso 9f < 40°)> 0.030 (m.rad). 
+4) Braço de endireitamento com 30° > 0.20 m. 
+5) Braço de endireitamento máximo deve ocorrer num âng > 25°. 
+6) Altura metacêntrica inicial GMo > 0.15 m. 
+7) Âng de inclinação causado por todos os pass num bordo < 10° (só aplicável às embs de pass). 
+8) Âng de inclinação causado por guinadas < 10° (só aplicável às embs de pass). 
+9) Embs de pass ou de carga com "comprimento de regra" L > 24 m devem, adicionalmente, atender ao Critério Ambiental. 
+b) Critério alternativo para as embs de Passageiros ou de Carga: as que não atendam integralmente aos critérios de a) podem, 
+alternativamente, ter sua estabilidade intacta avaliada pelo seguinte critério: 
+5) Braço de endireitamento máximo deverá ocorrer num âng > 15°. 
+1) Quando o braço de endireitamento máx ocorrer num âng de inclinação 8 de 15°, de 15°-30°, ou > 30°, a área sob a curva 
+de 0o a 0 será > que 0,7, ..eqchata.. e 0,055, respectivamente. 
+3) 4) 6) 7) 8) Idem item a). 
+c) Barcaças: devem atender aos seguintes critérios de estabilidade: 
+1) Área sob a Curva de 0o até o âng correspondente ao braço de endireitamento máx > 0.080 (m.rad); e 
+2) "Altura Metacêntrica Inicial" (GMo) > "Altura Metacêntrica Inicial Requerida" (GMr). 
+Onde: GMr é calculada por fórmula bizulenta, fç de: área lateral projetada acima da linha d'agua, dist entre o centróide 
+dessa área e a metade do calado médio, deslocamento, comp entre perpendiculares e âng 8 (figs 7-7 e 7-8). 
+3) Âng de equilíbrio estático causado por todos os pass num bordo < 10° (só aplicável às que transportem pass, c/ ou s/ prop). 
+d) Embs de Pesca: devem atender aos seguintes critérios de estabilidade: 
+1) 2) 3) 4) 5) Idem item a). 
+6) GMo > 0.35 m. 
+9) As de L > 45 m devem, adicionalmente, atender ao Critério Ambiental. 
+e) Rebocadores e Empurradores: devem atender aos seguintes critérios de estabilidade: 
+1) Area sob a Curva entre 0°-40°, ou entre 0o- 8f, ou entre 0o e o âng correspondente ao braço de endireitamento máx, o que for 
+menor, será > 0.090 (m.rad). 
+2) Área sob a Curva entre 30°-40° (ou 8f, caso 8f < 40°) > 8.030 (m.rad). 
+3) Braço de endireitamento máximo deve ocorrer num âng > 25°. 
+4) Âng correspondente ao braço de endireitamento nulo (diferente de 0o) > 60°. 
+5)8f>38°. 
+6) "Altura Metacêntrica Inicial" (GMo) > "Altura Metacêntrica Inicial Requerida" (GMr). / Obs: Idem item c) (fig 7-9). 
+7) A área entre a "Curva dos Braços de Endireitamento" (Curva de Estab Estática) e a "Curva dos Braços de Emborcamento" 
+devido ao reboque, entre o âng do Io ponto de interseção e um âng correspondente à soma do âng do Io ponto de interseção 
+com 40°, ou com o 6f (caso 6f < 40°), será > 0.090 (rarad), somente para rebocadores. / Vide fig 7-10. 
+f) Critério Ambiental: a capacidade de uma emb resistir aos efeitos combinados do W de través e ao balanço será verificada 
+em cada condição de carregamento, acd seguinte procedimento (fig 7-11): 
+1) A emb é submetida a um W cte atuando perpendicular à Linha de Centro, que resulta num braço de emborcamento (lwl). 
+2) A partir do âng de equilíbrio estático 80 (resultante da ação de lwi), assume-se que a emb inclina devido às ondas para o 
+bordo oposto em que se encontrava inclinada devido ao W, até um âng de banda 8i. 
+Obs: 80 deverá ser < 16° ou 80% do âng de imersão do convés (menor valor). 
+3) A emb é então submetida a uma lufada de vento que resulta num novo braço de emborcamento devido à lufada (lw2), e 
+inclina até 82 (= 8f ou 58°) ou 8C (2o interseção das curvas), o que for menor. 
+4) Sob essas circunstâncias, a área "b" deve ser > área "a". 
+5) Os efeitos de superfície livre serão considerados em cada condição de carregamento analisada. 
+5) CÁLCULO DOS MOMENTOS E BRAÇOS DE EMBORCAMENTO: 
+a) Cálculo do Momento Emborcador devido ao agrupamento de pass num bordo (MP): 
+> Momento emborcador para cada convés = MP> (t.m) = P x N x YC' x cos8. 
+Onde: 
+P = peso de cada pass = 8.8751; 
+N = número de pass no convés considerado; 
+Yc> = dist do centróide da área ocupada pelos pass agrupados e a Linha de Centro, em m; 
+8 = âng de inclinação. 
+> O momento emborcador total devido ao agrupamento de pass num bordo (MP) é o somatório dos MP> para cada convés 
+> Na determinação do centróide da área ocupada pelos pass em cada convés, observar o seguinte: 
+a) Área = "num de pass no convés" x "concentração assumida" (4 pessoas / m2); 
+b) Não se considera locais com obstruções no cálculo da área (e do seu respectivo centróide) ocupada pelos pass agrupados; e 
+c) Á área assim calculada será distribuída de forma que seu centro fique o mais afastado possível da Linha de Centro. 
+> Os Braços de Emborcamento devido ao agrupamento num bordo (BP), cuia curva deve ser representada iunto com a Curva 
+de Estabilidade Estática, são calculados, para cada inclinação, por: BP = MP / A. 
+
+
+===== PAGINA 290 =====
+
+ft&BtfpTannavV*- fiy' <*r y-^-i jtg^m^^ 
+b) Cálculo do Momento Emborcador devido a guinadas (MG): 
+> MG(t.m) = [0.02.Vo
+2.A(KG-(H/2))]/L 
+Onde: 
+Vo = veloc de serviço. 
+A = deslocamento na condição de carregamento considerada. 
+KG = altura do CG acima da quilha. 
+H = calado médio na condição de carregamento analisada. 
+L = comp de linha d'agua na condição de carregamento analisada. 
+> O braço de emborcamento devido à guinada (BG), cuja curva deve ser representada junto com a Curva de Estabilidade 
+Estática, é calculado por: BG (m) = MG / A 
+c) Cálculo do Momento Emborcador devido ao Reboque (MR): 
+> MR (t.m) = F x d x cos 6. 
+Onde: F = metade da máxima força de tração estática (BP), em t. 
+d = braço do momento de inclinação devido ao reboque. 
+8 = âng de inclinação. 
+> O MR é calculado usando metade do BP atuando a 90° com a Linha de Centro. 
+> O BP é obtido pelo Teste de Tração Estática. Preliminarmente, pode-se adotar o valor estimado de 0.01351 / BHP. 
+> O d é a dist vertical do extremo superior do "gato de reboque" até o "centro de carena" ou, alternativamente, até a metade 
+do calado médio, na condição de carregamento considerada. 
+> Os braços de emborcamento devido ao reboque (BR), cujas curvas são representadas junto com a Curva de Estabilidade 
+Estática, são calculados, para cada inclinação, por: BR (m) = MR / A . 
+d) Critério Ambiental: 
+> Os "braços de emborcamento devido ao W" (lwl e 1^) têm valores ctes para cada âng de inclinação, e são calculados por: 
+lwl = P.A.Z / A 
+Onde: 
+P = 0.0514, em t/m2. 
+I,v2 = 1,5 . lwi 
+A = área lat projetada da parte da emb e carga no convés acima da linha de flutuação, em m2. 
+Z = dist vertical entre o centróide desta área A e um ponto a +- metade do calado, em m. 
+> O âng de jogo 0i é calculado por uma expressão complexa, fç de: se o bojo é arredondado ou com bolinas ou chapa quilha, 
+OG (dist entre o CG e a linha de flutuação), boca moldada, calado médio moldado, CB, área de bolinas, área da projeção 
+lateral da chapa quilha, período de jogo, GM (altura metacêntrica corrigida do efeito de superfície livre), e comp da emb. 
+6) PRECAUÇÕES CONTRA EMBORCAMENTOS: 
+> O atendimento aos critérios de estabilidade não garante a imunidade contra emborcamentos nem absolve os Comtes de suas 
+responsabilidades. Portanto, estes devem agir com prudência e nas regras de marinharia, atentando para a estação do ano, 
+meteorologia, zona de navegação; e ainda, adotando a veloc e o curso apropriados às circunstâncias. 
+> A carga e peças maiores de equipamentos devem ser armazenadas e peiadas, para minimizar a psb de deslocamento 
+long/transversal sob o efeito de balanço ou arfagem. 
+> A carga deve poder ser estivada de forma a possibilitar o atendimento aos critérios de estabilidade destas Regras. Caso 
+necessário, a capacidade de carga deve ser reduzida na proporção do lastro requerido para se atender aos critérios. 
+> Uma emb usada em reboque não pode transportar carga no convés, exceto peqs quantidades peiadas que não arrisquem 
+a segurança da trip no convés nem impeçam o funcionamento do eq de reboque. 
+> O núm de tanques parcialmente cheios deve ser reduzido ao mínimo em fç do seu efeito adverso na estabilidade. 
+> Os critérios destas Regras apresentam valores mínimos (não há um padrão para valores máximos). Recomenda-se evitar 
+valores excessivos para a altura metacêntrica, pois podem ser geradas forças devido à aceleração que podem ser 
+prejudiciais ao navio/equipamentos/tripulação/carga. 
+> Todas as aberturas onde a água pode penetrar no casco/casarías/superestruturas devem ser fechadas em tempo adverso. 
+> Tampas/portas/dispositivos estanques de fechamento devem ficar fechados em viagem, exceto quando necessário abrir 
+para a ope da emb (desde que prontos para serem fechados e que esteja assinalado que elas devem ser fechadas após o acesse 
+Tampas de escotilha e aberturas no convés/costado de pesqueiros ficarão fechadas quando não estiverem sendo usadas na pesca. 
+> Dispositivos de fechamento dos suspiros dos tanques de combu permanecerão fechados em clima adverso. 
+> Pescado não deve ser transportado a granel, exceto se houver divisões portáteis nos porões. 
+> Não usar piloto automático em clima adverso devido à impossibilidade de efetuar mudanças de rumo/veloc com presteza. 
+> Em todas as condições de carregamento, ter atenção para que seja mantida a BL adequada à área de navegação. 
+> Em mau tempo, a veloc deve ser reduzida se ocorrerem: 1) grandes inclinações transversais; 2) saída do hélice d'agua; 3) 
+embarque de água no convés; ou 4) violentas pancadas de proa (slamming). 
+Obs: 25 saídas do hélice ou 6 slammings durante 100 arfagens é considerado perigoso. 
+> Atenção com mar de popa ou de alheta (devido a fenômenos que podem resultar em jogo excessivo ou perda de estabilidade 
+nas cristas, favorecendo o emborcamento). / Uma situação perigosa ocorre quando o comp da onda = 1-1.5 x L. 
+Alterar a veloc e/ou rota para evitar esses fenômenos. 
+> Evitar acúmulo d'agua em poços no convés exposto. Se as saídas d'agua não forem suficientes para drená-los, reduzir veloc 
+e/ou guinar. / Saídas com dispositivos de fechamento não podem ter dispositivos de travamento. 
+> Atenção para as regiões de arrebentação e para certas combinações de W/corr que ocorrem em estuários de rios ou em 
+áreas de peq prof (pois essas ondas são perigosas, ppalmente para peqs embs). 
+
+
+===== PAGINA 291 =====
+
+SEÇÃO VII - PROVA DE INCLINAÇÃO 
+1) PREPARAÇÃO DA PROVA: 
+> A prova será realizada na condição de navio leve. Retirar objetos que não façam parte do eq fixo. 
+> Líquidos de caldeiras, equipamentos e tubulações devem ser mantidos nos seus níveis normais. 
+> Tanques: se possível, devem estar vazios. 
+- A quantidade de tanques com líquidos deve ser a mínima para assegurar um compasso e estabilidade adequados. 
+- Se a prova for realizada por tx de líquidos, a quantidade de tanques com líquidos deve ser a mínima para efetuar a inclinação. 
+- Para assegurar o trim e estabilidade adequados, os tanques com líquidos devem estar cheios ou, quando inevitável, carregados 
+num nível que se possa determinar a superfície livre (e que esta permaneça +- cte durante a inclinação). 
+- No caso de tanques totalmente cheios, cuidado para evitar bolsões de ar durante o seu enchimento. 
+> Itens passíveis de sofrer deslocamentos que influenciem os resultados da prova: devem ser guentados. Para tal, nas 
+leituras: lanças, baleeiras, aparelhos ou paus de carga devem estar fixos em pos de viagem, e tampas de escotilha fechadas. 
+> Trim: 
+- o compasso deve ser < 1% de Lpp, se as curvas hidrostáticas foram usadas para cálculo. 
+- um âng de banda inicial < 0,5° é ok (mas só se devido a assimetria de pesos, e não a estab inicial negativa). 
+> Local do teste: deve ser abrigado, sem W/corr (if not practical, devem ser tais que não comprometam a precisão). 
+> Só as pessoas necessárias à prova devem embarcar; e salvo necessidade durante a prova, devem ficar na Linha de Centro. 
+> A livre oscilação durante as leituras deve ser garantida. Os cabos de amarração devem estar brandos, pranchas e escadas 
+recolhidas, e conexões com terra desligadas (fig 7-12). 
+> "Centro de comando da prova": terá comms com os responsáveis pelas leituras, tx de pesos, amarração e PM, e terá meios 
+de efetuar cálculos e verificações durante a prova. 
+> "Doe de procedimento de ensaio": conterá os passos da prova e infos úteis ao seu acompanhamento (DPC não precisa analisar). 
+a) Esquemas para preparação da prova: 
+> Preparar um esquema que mostre as localizações dos medidores de inclinação, dos pesos a serem transferidos, do centro de 
+comando da prova e os postos de comunicação (fig 7-13). 
+> Preparar um "esquema para movimentação dos pesos" (tabs 9 e 11 do "Relatório da Prova de Inclinação" do Anexo 7-D). 
+b) Estimativa dos pesos inclinantes: os pesos a serem movimentados podem ser determinados por: P = A .GM. tg 8 / d 
+Onde: 
+P = peso total a ser transferido. 
+A = deslocamento estimado para a condição de prova. 
+GM = altura metacêntrica inicial estimada. 
+d = percurso transversal do peso inclinante. 
+8 = âng de banda provocado pela movimentação do peso, sendo recomendável Io < 6 < 3°. 
+c) Pesos sólidos: se usados, devem ser medidos e numerados. Se possível, transferir sem alterar sua pos long (p/ não afetar o trim). 
+d) Tx de lastro líquido: só usá-lo se o uso de pesos sólidos for absoluta e tecnicamente impraticável. Nesses casos: 1) transferir 
+entre tanques simétricos; 2) medir a densidade; 3) a tubulação da tx deve estar cheia antes do início da prova; 4) rigoroso controle na 
+manobra de ws; e 5) nos diversos movimentos, os níveis de líquido devem ser tais que seja possível saber a sua superfície livre. 
+2) INSTRUMENTOS E MATERIAIS PARA A PROVA: 
+a) Requisitos para os Pêndulos: 
+> No min 2, e afastados o máx possível no sentido long. 
+> Fio: de aço flexível, suportar o pêndulo sem elongar (para não tocar o fundo da cuba), e o comp deve ser o > possível (> desvio). 
+> Peso: deve ser suficiente para manter o fio retesado (massa mínima 5 Kg), e deve ter +- a forma do detalhe B da fig 7-14. 
+> O suporte do fio no ponto da suspensão deve garantir a livre oscilação sem escorregamento (fig 7-14/A). 
+> Cuba com óleo: para amortecer as oscilações, deve ter dimensões tais que o pêndulo não toque na borda e fique imerso. 
+> Para medir os desvios do pêndulo, usar uma régua (graduada ou não) solidária a cavaletes fixos (fig 7-14). 
+b) Requisitos para o tubo "U": 
+> No min 2, e afastados o máx possível no sentido long. 
+> Dist entre as partes verticais do "U": deve ser a maior possível (proporciona > desvio). 
+> Os tubos devem ser rigidamente fixados à emb para evitar movimentos. 
+> O tubo é transparente para permitir observar, com diâmetros maiores nas extremidades (figs 7-15 e 7-16). 
+^ 
+Fazer cálculos preliminares para evitar transbordar nas extremidades. / Evitar bolhas de ar no tubo. 
+> Fixar uma régua (graduada ou não) em cada parte vertical do "U" para medir/marcar os desníveis (figs 7-15 e 7-16). 
+c) Outros instrumentos devem estar disponíveis: bote para a leitura das marcas de calado, densímetro, balde com corda 
+(obter amostras d'agua), trena, trenas de sondagens de tanques, chaves para abrir as tampas dos tubos de sondagem, lanternas, 
+comms (entre a direção, os locais das medições e de amarração), e chaves de todos os compartimentos. 
+
+
+===== PAGINA 292 =====
+
+ocg-s^^&aiaãr>f^>^^^«íeggw 
+3) SEQÜÊNCIA DE EXECUÇÃO DA PROVA: 
+> Ler o calado nas marcas (com tubo-amortecedor - fig 7-17). / Caso não as tenha, medir as bordas livres nas regiões de 
+proa e popa (ambos bordos) e, a critério do engenheiro, a meia-nau. / Anotar na Tab 2 do Relatório da Prova de Inclinação. 
+> Verificar se a prof é suficiente para que a emb oscile sem interferência com o fundo. 
+> Anotar a densidade da água (média de 3 amostras próximo às marcas de calados, com balde). / Anotar na Tab 2. 
+> Proceder à sondagem ou ulagem de todos os tanques, observando se a sonda atingiu o batente. / Anotar na Tab 3. 
+> Fazer um levantamento de todos os pesos presentes a bordo que não façam parte do peso leve; e dos pesos que fazem parte do 
+peso leve e que não estejam a bordo ou que estejam fora de suas posições. / Anotar nas Tab 4 e 5. 
+> Anotar as condições de W e mar na Tab 1. / Verificar a influência do W nos fios dos pêndulos, caso expostos. 
+> Verificar o sistema de amarração e anotar na Tab 1. 
+> Verificar a localização e o funcionamento dos pêndulos e/ou tubo "U". Anotar seus comps e/ou dists entre as partes 
+verticais nas Tabs 6,7 e 8, cnf o caso. 
+> Verificar a pos dos pesos ou tanques a serem usados (acd esquema preparado), e anotar suas pos na Tab 9 ou 11. 
+4) MOVIMENTAÇÃO DOS PESOS INCLINANTES: 
+> Efetuar 8 movimentos (cnf Tabs 9 e 11) (esse num pode ser diminuído, a critério da DPC). 
+> Após cada mov, medir o desvio do pêndulo ou desnível do "U". Usar a média de ao menos 10 oscilações consecutivas. 
+> Durante a prova, plotar o Gráfico "Tang do Âng de Inclinação x Momento Inclinante" (para vrf e corrigir possíveis 
+distorções das medidas). / Anexá-lo ao Relatório. 
+> No caso de tx de líquidos, a cada movimento, anotar a altura de sondagem ou ulagem dos tanques envolvidos (cnf tab 12). 
+5) APRESENTAÇÃO E CÁLCULO DA PROVA DE INCLINAÇÃO: 
+a) Cálculos hidrostáticos: 
+> Vide anexo 7-E: cálculo do deslocamento e dos calados nas PP e na Seção de MN, a partir das leituras nas marcas de calado. 
+> Curvas de Bonjean: as caracts hidrostáticas da emb são determinadas usando as Curvas de Boniean e a linha de flutuação 
+na condição de prova. A deflexão do casco durante a prova deve ser levada em conta considerando-se que os calados em 
+cada baliza (H) obedecem a uma eq do tipo: H = A.x2 + B.x + C 
+(H = calado na baliza. / x = pos long da baliza) 
+- Exceto quando usados programas que equilibram a emb e fornecem os valores exatos das caracts hidrostáticas (independentes 
+do cálculo com Bonjean), os seguintes dados constarão da Tab 13: 
+a) em cada baliza: calado, área submersa; altura do centróide de área submersa; boca (ou meia boca) no calado da baliza; 
+b) volume moldado V; fator casco (FC); deslocamento A; 
+c) pos long do centro de carena (LCB); pos vert do centro de carena (KB); e pos vert do metacentro transversal (KM). 
+> Curvas ou tabelas hidrostáticas: se compasso < 1% LPP e a emb tiver formas onde não ocorram mudanças bruscas, as 
+caracts hidrostáticas podem ser determinadas com as curvas ou tabs hidrostáticas a partir do calado correspondente (An 7-E). 
+- Neste caso, apresentar na Tab 14: o A, o LCB, o momento para trimar 1 cm (MTC), e o KM. 
+Obs: Os valores do A e do MTC obtidos pelas curvas ou tabelas hidrostáticas devem ser corrigidos para a densidade da água. 
+b) Cálculo da Altura Metacêntrica na condição de prova (Tab 15): é feito pela média das alturas met. obtidas em cada mov. 
+GM = Mom inclinante / A.tg 6 = P.d / A.tg 9 
+c) Cálculo da correção devido ao efeito de superfície livre: 
+> Considerar todos os tanques que contenham líquidos e que não estejam atopetados. 
+> Desconsiderar os tanques com líquidos residuais, normalmente não aspirados. 
+> Se usar movimentação de líquidos na prova e a variação da sup livre entre os movimentos não for desprezível, a pos vertical 
+do CG deve ser corrigida devido à variação da superfície livre (cnf Tab 17). 
+d) Cálculo da pos vertical do CG: a pos do CG na condição de prova é: 
+KG = KM - GMo - GGo 
+(Tab 15) 
+> GGo: se a prova for feita pela mov. de líquidos, a pos vertical do CG será corrigida devido: 1) à variação da altura do CG do 
+líquido movimentado (cnf Tab 16).; e 2) à variação da superfície livre do líquido movimentado (cnf Tab 17). 
+e) Cálculo da pos longitudinal do CG: 
+> A pos long do CG será calculada pelas seguintes fórmulas, válidas quando o LCB e o LCG são tomados em rei à PP de Ré 
+(positivo para vante): 
+- Quando as caracts hidrostáticas forem obtidas pelas Curvas de Bonjean: 
+LCG = LCB - [(KG - KB) . t / LPP] 
+- Quando as caracts forem obtidas por meio das Curvas ou Tabs Hidrostáticas: 
+LCG = LCB - [(100 . MTC . t) / A] 
+f) Pesos fora de posição: 
+> Quando existirem pesos em pos diferente da sua pos real, deve-se: 1) incluí-los na Tab 4 (pesos a deduzir), sendo que os 
+momentos horiz/vertical devem ser calculados em relação à sua pos durante a prova; e 2) incluí-los na Tab 5 (pesos a 
+acrescentar), sendo que os momentos horiz/vertical devem ser calculados em relação à sua pos real a bordo. 
+6) APRESENTAÇÃO DOS DADOS E CÁLCULOS: 
+> Todos os dados obtidos na prova de inclinação, os dados que aparecem nas Tabelas 1 a 18 e o gráfico Momento Inclinante x 
+Ângulo de Inclinação devem ser apresentados junto com os seguintes cálculos: 
+1) cálculos hidrostáticos; 2) pos do CG na condição de prova; e 3) cálculo da condição de navio leve (Tab 18). 
+10 
+
+
+===== PAGINA 293 =====
+
+Gtt&Q&&tt*l~,^~~v-^^ràSlGtji^ 
+SEÇÃO VIU - COMPARTIMENTAGEM 
+1) NÚMERO MÍN DE ANTEPARAS ESTANQUES PARA EMBS DE CASCO METÁLICO: 
+a) Anteparas de Colisão: 
+> Embs de pass com AB > 20 para as quais sejam aplicáveis estas Regras devem ter as seguintes anteparas transv. estanques: 
+1 antepara de colisão de vante (na proa) e 1 de ré (na popa). 
+b) Anteparas da PM: 
+> Embs com PM ao centro: 
+deverão, adicionalmente, ter 2 anteparas estanques, AV e AR da PM. 
+> Embs com PM à ré: 
+deverão, adicionalmente, ter 1 antepara estanque AV da PM. 
+c) Anteparas nos espaços de carga e/ou pass: 
+> Adicionalmente às acima, deve haver anteparas transversais estanques subdividindo os espaços destinados carga e/ou pass, 
+(acd Tab 7.6). 
+> A dist entre essas anteparas deve ser < 30 metros. 
+2) POS DAS ANTEPARAS DE COLISÃO EM EMBS DE CASCO METÁLICO: 
+a) Antepara de Colisão de vante: 
+(L = comp de regra) 
+> Dist > a 5% de L ou 10 m (< valor), a partir da interseção da roda de proa com a linha de flutuação onde foi determinado L. 
+> Não deve ser instalada a uma dist a partir desta interseção superior a: 
+-13% de L 
+(barcaça com L < 90 m). 
+- 8% de L 
+(demais embs). 
+- Pode-se aceitar dists maiores desde que o alagamento do Pique Tanque de Vante em plena carga não acarrete: 
+- imersão do convés ppal 
+- emersão do hélice 
+- uma condição potencialmente perigosa. 
+b) Antepara de Colisão de ré: 
+> Embs propulsadas: deve limitar o tubo telescópico num espaço(s) estanque(s) à água, de volume moderado. 
+> Embs tipo barcaça com formas simétricas AV-AR: posicionada igual ao estabelecido para a antepara de colisão de vante. 
+> Demais embs tipo barcaça: poderá coincidir com a antepara de ré dos espaços destinados à carga. 
+3) ANTEPARAS RETARD ADORAS DE ALAGAMENTO (ARA) EM EMBS DE CASCO NÃO METÁLICO: 
+> A idéia de instalar ARAs em embs de madeira é retardar o alagamento. / A montagem das anteparas é feita com tábuas de 
+dispostas horiz, pregadas numa determinada caverna. Depois, as frestas são calafetadas com o mesmo sistema do casco. 
+> As dimensões das tábuas das anteparas serão semelhantes às das tábuas do casco (exceto as tábuas inferiores, que podem ser 
+maiores devido à geometria do fundo e bojo). / Adicionalmente, deverão ser instalados prumos verticais. 
+> Na determinação do núm min de anteparas, observar que: 
+- os espaços abaixo do Convés Superior destinados à carga, pass ou às máq, devem estar separados entre si por ARAs. 
+- nenhum compartimento abaixo do Convés Superior pode ter comp > 40% de L. 
+4) ABERTURAS EM ANTEPARAS ESTANQUES: 
+> As anteparas estanques devem se estender até o Convés de BL. 
+> Quando tubulações/embornais/cabos/etc atravessarem anteparas estanques, deve-se manter a estanqueidade integralmente. 
+> Não é permitido instalar ws que não façam parte de um sist de tubulações. 
+> Nas embs de casco metálico, não se pode usar materiais sensíveis ao calor em sistemas que atravessam anteparas estanques. 
+> Anteparas de colisão abaixo do convés principal: não é permitido portas/registros/outras aberturas de acesso, exceto: 
+- para passar a tubulação necessária aos pique tanques. 
+- portas de visita para inspeção, desde que estanques, de aço, peqs e fixadas por porcas/paraf. 
+> ARAs: não é permitido qq tipo de portas/aberturas, exceto para passar cabos e tubos. 
+5) ACESSOS: 
+> Todos os espaços limitados por anteparas estanques ou por ARAs devem ter meios de acesso para a entrada e inspeção. 
+- ARAs: tais acessos não devem ser por aberturas nas anteparas (acd item 4). 
+- Anteparas estanques: tais acessos não devem ser por aberturas nas anteparas. Mas em casos excepcionais, a DPC pode 
+autorizar o acesso pela antepara, desde que: 
+- a porta seja de aço, estanque e operada pelos dois lados 
+- haja indicador local e no passadiço de porta aberta/fechada 
+- seja afixado na porta um aviso para matê-la fechada. 
+(esses 3 itens não se aplicam a anteparas de colisão!) 
+11 
+
+
+===== PAGINA 294 =====
+
+SEÇÃO IX - DETERMINAÇÃO DA LOTAÇÃO DE PASSAGEIROS E 
+DO PESO MÁXIMO DE CARGA DE EMBS COM AB < 20. 
+> Esses procedimentos podem ser usados para determinar a lotação de pass e o Peso Máximo de Carga (PMC) de embs com 
+AB < 20 usadas no transporte de: 1) pass e carga; e 2) só de pass. 
+> Se for necessário usar esse método para embs com outros empregos, consultar a DPC para avaliar a viabilidade. 
+1) PROCEDIMENTOS: 
+> Os CP/DL/AG deverão determinar a lotação de pass e o PMC dessas embs que operam em sua jurisdição, acd instruções do 
+Anexo 7-F, nas seguintes situações: 
+- antes das embs novas entrarem em tráfego. 
+- para autorizar reclassificações para os serviços/atividades acima. 
+- quando as embs sofrerem aterações que modifiquem suas caracts de estabilidade. 
+> A critério dos CPs, o procedimento do Anexo 7-F pode ser usado para reavaliar a lotação ou PMC de embs com AB < 20 já 
+existentes, sempre que julgar necessário. 
+> A critério dos CP, pode-se adotar procedimentos consagrados em certas regiões e/ou tipos de barcos, ao invés do An 7-F. 
+- Tais procedimentos devem ser avaliados pela DPC. No período de avaliação, valem os procedimentos já adotados pelas CP. 
+- Caso esses critérios sejam considerados ok, os CPs emitirão Portaria regulamentando. 
+> Os resultados do teste prático serão apresentados no "Relatório de Verificação da Lotação de Pass e do PMC de Emb com 
+AB < 20" (Anexo 7-G), preenchido em ao menos 2 vias (uma do proprietário/armador e outra arquivada na CP/DL/AG de 
+inscrição). 
+> Por ocasião da regularização de embs com AB < 20, os proprietários podem optar por apresentar os does previstos no Cap 3 
+para embs com 20 < AB < 50 (em substituição aos procedimentos do anexo ou aos eventualmente adotados pelas CP). 
+Nesse caso, a determinação do PMC/lotação será informada na declaração apresentada pelo engenheiro naval responsável. 
+2) LIMITES DAS ÁREAS DE NAVEGAÇÃO: 
+> Os CP/DL deverão estabelecer os limites entre os tipos de áreas de navegação na sua jurisdição (definidos no Anexo 7-F), 
+considerando as caracts da região, o padrão de operação e os limites estabelecidos nas normas de Navegação Interior 
+(na determinação desses limites, deve-se manter os padrões de navegação já existentes, baseados nas condições ambientais de 
+cada área). 
+3) RESPONSABILD3ADE: 
+a) O teste prático do Anexo 7-F será feito por uma S.Class, EntEsp ou RT com CREA. Junto com os resultados, apresentar a 
+ART referente ao teste. 
+b) Os CP/DL/AG podem determinar que o teste seja conduzido por representante da CP/DL/AG (preferencialmente um Oficial), 
+quando julgar conveniente. 
+(Tendo tempo, estudar os "melhores momentos" do Anexo 7-F. Lumicolor no que achar importante.) 
+12 
+
+
+===== PAGINA 295 =====
+
+Bee&a&&ã&mnr#-Ã 
+ANEXO 7-E; CONVERSÃO DOS CALADOS LIDOS NO COSTADO PARA 
+AS PERPENDICULARES E SEÇÃO DE MEIO NAVIO E 
+CÁLCULO DO DESLOCAMENTO A PARTIR DOS CALADOS 
+1) PROPÓSITO: Serve para o: 1) cálculo dos calados nas PP e na seção de meio navio, a partir dos calados lidos nas marcas 
+do casco; e 2) cálculo do deslocamento, a partir dos calados nas PP e do calado na Seção de Meio Navio. 
+2) SIMBOLOGIA: 
+> PR = Perpendicular de Ré. 
+> MN = Seção de Meio Navio. 
+> PV = Perpendicular de Vante. 
+> HMR = Calado nas marcas de ré. 
+> HMMN = Calado nas marcas de meio navio. 
+> HMV = Calado nas marcas de vante. 
+> HPR = Calado na Perpendicular de Ré. 
+> HMN = Calado na Seção de Meio Navio. 
+> HPV = Calado na Perpendicular de Vante. 
+> TM = compasso (trim) medido entre as marcas de calado de ré e de vante. (TM épositivo caso o trim seja pela popa) 
+> LPP = Comprimento entre Perpendiculares. 
+> LR = distância das marcas de calado de ré à Perpendicular de Ré. 
+> LM = distância das marcas de calado de meio navio à Seção de Meio Navio. 
+> LV = distância das marcas de calado de vante à Perpendicular de Vante. 
+> LRV = distância paralela à Linha de Base entre os calados nas marcas de vante e ré. 
+> d HPR = correção do calado lido HMR para a Perpendicular de Ré. 
+> d HMN = correção do calado lido HMN para a Seção de Meio Navio. 
+> d HPV = correção do calado lido HMV para a Perpendicular de Vante. 
+> 8 = ângulo do compasso (trim) TM. 
+> LCF = Posição Longitudinal do Centro de Flutuação ou de Carena. 
+> T = compasso (trim) medido entre as perpendiculares. 
+> HC = Calado Correspondente. 
+3) CÁLCULO DOS CALADOS NAS PERPENDICULARES E NA SEÇÃO DE MEIO NAVIO: 
+> É por meio de uma bizulência geométrica, usando as leituras das marcas de calado (Figs 7-06.1e 7-06.2). 
+4) CALCULO DO CALADO CORRESPONDENTE: 
+> Calado correspondente: é o calado de uma emb em flutuação paralela, cujo deslocamento é igual ao deslocamento 
+desta emb numa condição de trim e/ou sujeita a esforços de alquebramento ou tosamento devido a carregamentos. 
+> Ele é calculado por uma fórmula bizulenta, que precisa inclusive de um dado obtido das Curvas Hidrostáticas. 
+5) CALCULO DO DESLOCAMENTO: 
+> O deslocamento é obtido das Curvas Hidrostáticas através do Calado Correspondente (HC). 
+> Caso o peso específico do meio fluido seja diferente do usado nos cálculos hidrostáticos, é necessário corrigir o deslocamento 
+obtido das Curvas Hidrostáticas. 
+RESUMINDO: 
+Calados lidos nas marcas ou medição da BL 
+4 
+Calados nas PP e na seção de meio navio 
+4 
+Calado Correspondente 
+4 
+Curvas hidrostáticas 
+4 
+Deslocamento 
+13 
+
+
+===== PAGINA 296 =====
+
+ssaBssssgjsgggsa^gB; 
+ANEXO 7-H 
+Obs: Esse anexo não compensa reestudar. 
+PROCEDIMENTOS PARA RENOVAÇÃO DE CERTIFICADOS DE EMBS EXISTENTES 
+1) APLICAÇÃO: às embs existentes cujos Certificados de BL foram emitidos acd PORTOMARJNST 21-02, fora de vigor. 
+> De acordo com aquela regulamentação, as embs existentes deveriam ter suas BL atribuídas segundo os seguintes critérios: 
+a) Embs empregadas nas extintas classes de Navegação de Mar Aberto deveriam ter suas BL determinadas segundo a 
+Convenção Internacional de Linhas de Carga (1966). 
+b) Embs empregadas nas extintas classes de Navegação de Mar Aberto para as quais não fosse exigida a atribuição de uma BL 
+Internacional, e embs empregadas nas extintas classes de Navegação Interior, deveriam ter suas BL determinadas segundo as 
+"Regras e Procedimentos para Determinação da BL Nacional", não mais em vigor. 
+c) Estavam isentas da atribuição de uma BL Nacional as embs: 1) AB <50; 2) L <20 m; e 3) esporte, recreio e guerra. 
+2) PROCEDIMENTOS: 
+a) Borda-Livre Nacional: 
+> As embs para as quais foi atribuída uma BL Nacional devem ter um Certificado Nacional de BL (Anexo 7-1). 
+> O procedimento para cálculo dessa BL não é apresentado nesse Anexo, pois para a renovação do certificado acima não 
+precisa refazer os cálculos. / Caso se questione o valor de BL já atribuído, os cálculos serão refeitos pelas novas regras. 
+> Validade do Certificado Nacional de BL: 5 anos. 
+b) Borda-Livre Internacional: 
+> As embs para as quais foi atribuída uma BL Internacional devem ter um Certificado Internacional de BL (acd Convenção 
+Internacional de Linhas de Carga - 1966), que podia ser emitido pelas S.Class ou pela DPC, a critério do interessado. 
+3) RENOVAÇÃO DOS CERTIFICADOS: 
+a) Borda-Livre Nacional: 
+> Deve ser renovado ao término de sua validade por um certificado idêntico ao original. 
+> O Certificado de renovação será emitido pela CP/DL de jurisdição da área de operação da emb, desde que esta não tenha 
+sofrido alts de suas caracts ppais, arqueação ou tipo de navegação. 
+> Emitidos pelas S.Class (acd antigas NPNM/I - Normas e Proced para a Nav Marítima/Interior): serão renovados por 
+uma EntEsp ou S.Class. 
+> Emitidos pela DPC ou GEVI (acd NPNI/M), incluindo os certificados das embs classificadas: serão renovados por uma 
+EntEsp, S.Class ou CP/DL/AG, seguindo procedimento do Cap 6 da NORMAM 02. 
+> Certificados de embs classificadas, emitidos acd NORMAM 01 ou 02: serão renovados por sua classificadora. 
+> Quando uma emb classificada sofrer modificação que acarrete alteração na BL, deverá ser emitido novo certificado pela 
+S.Class, acd procedimentos desta Norma. 
+> Encaminhar à DPC uma cópia dos certificados emitidos acd acima, informando a realização da vistoria do item 4 abaixo. 
+> Deve ser especificado no certificado que o mesmo é uma renovação do original. 
+b) Borda-Livre Internacional: 
+> Emitidos pelas S.Class: a renovação será feita por elas, acd Convenção Internacional de Linhas de Carga (1966). 
+> Emitidos pela DPC para as embs classificadas por uma S.Class para atuar na Navegação de Mar Aberto: serão 
+renovados por essa sociedade. 
+> Demais certificados emitidos pela DPC: serão renovados por uma S.Class ou pela GEVI. 
+> Se, no processo de renovação, for constatado que foi incorretamente atribuída uma BL Internacional (acd item 1), será emitido 
+um Certificado Nacional de BL. Nesse caso, o valor atribuído para a BL Nacional será o indicado no Certificado Internacional 
+para a BL de Verão. 
+> Os Certificados Internacionais de BL porventura emitidos para embs usadas só na pesca serão renovados por um Certificado 
+Nacional de Borda-Livre (como no item anterior). 
+4) VISTORIAS: 
+a) Borda-Livre Nacional: 
+> Por ocasião da renovação, será feita uma vistoria para vrf se as marcas de BL continuam na pos determinada no certificado 
+original (conduzida pelas CP/DL/AG de jurisdição da área de ope da emb, independente do seu porte). 
+b) Borda-Livre Internacional: 
+> Vistorias e Inspeções de embs cujos certificados de renovação sejam emitidos por S.Class: serão feitas por elas mesmas, 
+e de acd com a Convenção Internacional de Linhas de Carga (1966). 
+> Vistorias de embs cujos certificados de renovação sejam emitidos pelo GEVI: podem ser feitas pelo GEVI ou S.Class. 
+Vide Anexo 7-J para a lista de verificação para essa vistoria. 
+> Inspeções para o endosso anual dos Certificados emitidos pela DPC ou GEVI: podem ser feitas por uma S.Class ou pela 
+GEVI. / Usar os itens do Anexo 7-J referentes à proteção de aberturas, balaustradas, saídas d'agua e meios de acesso aos 
+alojamentos. 
+Obs: GEVI = Grupo Especial de Vistoria.
+14 

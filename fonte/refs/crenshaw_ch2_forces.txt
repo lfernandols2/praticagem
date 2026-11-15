@@ -1,0 +1,2100 @@
+FONTE: Crenshaw Naval Shiphandling Ch II Forces pp36-65 | paginas_pdf 36-65
+
+
+===== PDF_PAGE 36 =====
+
+CHAPTER
+II
+FORCES AFFECTING THE SHIP
+In order to predict the movement of our ship accurately, we must thor-
+oughly understand the nature and magnitude of the forces which affect her.
+There are six general sources of forces which can be brought to bear on our
+ship independent of any other vessel. They are the propellers, the rudders,
+the mooring lines, the ground tackle, the wind, and finally the current. The
+first four are controllable from the ship itself. The wind and the current (and
+this includes tidal currents), though not controllable, can be utilized to serve
+our aims
+if properly handled. Each of these forces can produce important
+effects, as indicated in Figure
+1, so it is worth while to take the time to study
+and understand each of them. Let's remember from the beginning, however,
+that
+these
+are forces
+only, and
+that motion
+results only
+after
+inertia has
+played its part.
+A modern ship may have a distributed mass of many thousand tons and may
+be several hundred feet long. Such a body not only has tremendous inertia
+to resist linear acceleration, but it also has a tremendous Moment of Inertia
+to resist rotational accelerations. The ship is resting in a fluid (water) covered
+by another fluid (air), both of which will offer a resistance to relative motion.
+Thus, when we apply a single force to the ship, we can expect an acceleration
+until the fluid resistance produced by the motion balances out the original
+force. This
+will apply
+to angular motion produced by an off-center force
+as well as by force applied through the center of gravity. Thus, when we ap-
+ply any force to the ship, we can expect motion to gradually build up until
+a state of equilibrium
+is reached, at which time the velocity of the motion
+will become constant.
+Basic Principles
+Forces in water manifest themselves as pressure differences. ^Vater
+is in-
+compressible, but by applying force to
+it we can build up a higher pressure
+in one area as compared to surrounding areas, and
+this difference in pres-
+sure
+will cause the water to flow from the area of higher pressure to the
+surrounding area of lower pressure. When we pull an oar through the water,
+for
+instance, we build up high pressure on
+the
+face of the blade toward
+which the blade
+is moving, and we create a low pressure on the face which
+is moving away from the water. During the motion, water flows from the
+high pressure region to the low pressure region. The greater the immersed
+6
+
+
+===== PDF_PAGE 37 =====
+
+FORCES AFFECTING THE SHIP
+WIND
+FORCE
+PRODUCED BY
+30 KNOT WIND FROM
+45* ON THE
+BOW...
+23,000
+LBS.
+RUDDER
+30* RUDDER PRODUCES
+A SIDE FORCE
+AT
+15
+KNOTS
+OF...
+45,000 LBS.
+PROPELLER
+THRUST
+AT
+15
+KNOTS...
+55,000
+LBS.
+CURRENT
+FORCE REQUIRED TO
+HOLD
+SHIP
+STATION-
+ARY
+IN
+A
+3 KNOT
+CURRENT
+45*
+ON THE
+BOW...
+55,000
+LBS.
+BREAKING
+STRENGTHS
+6- INCH
+MANILA
+30,000
+LBS.
+5/8- INCH
+WIRE
+25,500
+LBS.
+1-INCH WIRE
+64,400 LBS.
+1-5/8 INCH
+SPRING
+LAID
+WIRE ROPE
+93,000 LBS.
+1-1/8 INCH DIE
+LOCK
+CHAIN
+161,000
+LBS.
+Figure
+1. Fortes which can bear on a ship (figures for a 2200-ton 1)1)).
+area of the
+blade,
+the greater the area upon which
+the pressure can
+act.
+The greater the force applied to the oar, the greater the pressure difference.
+The average difference of pressure between the two sides, multiplied by the
+immersed area of the blade,
+is a measure of the force we are exerting on
+the water. Since the inertia of the water resists the force being applied by
+the blade end of the oar,
+this resistance, working through the oar, applies
+a
+force
+to the boat
+in
+the opposite direction.
+Resistance
+to the oai
+exists
+only when the particles of water are being set in motion by the movement
+of the oar. Without the force we apply to the oar, there would be no motion.
+
+
+===== PDF_PAGE 38 =====
+
+8
+NAVAL SHIPIIANDLING
+no pressure difference, and no resistance. Tims we see tliai force, resistance,
+and motion are irrevocably interlocked when dealing in a fluid medium.
+The above discussion
+illustrates the
+fact
+that
+all
+forces
+in water mani-
+fest themselves as pressure differences.
+If we are going to apply force on
+a
+waterborne object, such as our ship, we can do
+it only by creating a pressure
+difference across a part of the ship's structure. And
+if at any time our ship
+moves
+in any way, we know
+that some force
+is acting somewhere on our
+ship's structure—and we can
+locate
+that force by looking
+for the pressure
+difference that causes
+it.
+In any large body of Avater, there are always t^vo components of pressure
+present
+at any
+point:
+one
+is
+the
+static
+pressure due
+to
+depth,
+or
+sheer
+weight
+of
+the water above the
+point;
+the other
+is
+the dynamic
+pressure
+caused by motion in the surrounding water. In the sea the static pressure
+does not cause motion, because
+it is the same everywhere at any given depth
+level, and hence balances out as far as we are concerned. But in restricted
+waters, such as rivers and harbors, static pressure or "water head" is caused by
+differences of elevation;
+these differences in
+static pressure head cause the
+water
+to flow from the point of higher
+elevation toward points
+of lower
+elevation. In addition
+to "pressure head" caused by differences in ground
+elevation, in tidewater there will be a pressure head difference set up by the
+difference in water level caused by the height of the tide.
+Hence
+it can be generally stated
+that currents
+in
+a body of water
+are
+caused by pressure differences. If a current increases in velocity between one
+point and another, we know there has been a drop in pressure between the
+first point and the second;
+if the velocity decreases, we know there has been
+a pressure rise between the two points. In a steady
+flow, the pressure
+dif-
+ferences are evidenced by differences in the height of the surface or "water
+level."
+A
+last general characteristic of water that
+is important in our study
+is
+its
+continuity;
+it tends to exist as a continuous body, without gaps or holes ex-
+cept as caused by extraordinary forces.
+If a volume of water is moved away
+so quickly, by a propeller blade, for instance, that the pressure differences
+tiiere
+are
+insufficient
+to
+accelerate water
+in
+as
+fast
+as
+it
+is being moved
+aiuay, then a gap would occur on the back side of the propeller blade. This
+gap is kno^vn as Separation.
+A companion phenomenon occurs when,
+in
+a high velocity stream,
+the
+velocity gets so high and the pressure so low that the pressure in the stream
+drops to the vaporization point of w^ater. In this case drops of water become
+vaporized in the area described, in a manner similar to boiling. This phe-
+nomenon is known as Cavitation.
+
+
+===== PDF_PAGE 39 =====
+
+FORCES AFFECTING THE SHIP
+9
+Separation and Cavitation are of interest to the shiphandler, because, when
+they occur, they upset the pattern of streamlines and change the resulting
+forces. These phenomena arc likely to occur around abrupt changes in the
+underwater body of a ship moving at high speed, or about the blade of a
+propeller that is being rotated rapidly.
+A
+flat plate placed at an angle in a stream of water, as indicated in Figure
+2
+(a), causes the water to accelerate to move out of the way on the leading
+side and to accelerate to move in behind the trailing side. This creates a high
+pressure on the leading side and a low pressure on the
+trailing side. This
+difference of pressure exerts a force on the plate as indicated in the
+figure.
+With smooth flow% this force
+is proportional to the angle of inclination, the
+square of the velocity of the current, and
+the area of the
+plate. Since an
+abrupt change of flo^v
+is required at Point A, Separation could exist at such
+a
+point, and could alter the pressure distribution over the surface of
+the
+plate. If the plate is shaped as indicated in Figure 2(b), however, the accelera-
+tion of the water will be gradual and Separation will be avoided.
+Before proceeding further ^vith a discussion of the hydrodynamic effects,
+it
+is necessary to set down certain definitions to assist the reader in following
+the explanation. The following definitions are used throughout the book:
+Hydrofoil. Any
+relatively
+thin,
+plate-like member,
+such
+as
+a
+propeller
+blade or rudder, designed to obtain a
+Lift force when inclined to the
+flo^v
+of the water.
+Angle of Attack. The angle at which a hydrofoil
+is inclined to the relative
+free stream flow.
+Lift. That component of the reaction force on a hydrofoil which
+lies in a
+direction perpendicular to the relative free stream flow of the water.
+Drag. That component of the reaction force on a hydrofoil which
+lies
+in
+a direction parallel to the relative free stream flow of the water.
+Pitch. As applied to a propeller, Pitch
+is defined by the helix angle.
+It
+is
+normally expressed in fect-per-revolution, indicating the distance per revolu-
+tion the propeller would travel when turning ideally
+(with no slip) in
+still
+water.
+SliJ). The amount the actual speed
+of the propeller through
+the water
+falls short of the ideal speed. (Ideal speed
+is defined
+as the product of the
+Pitch multiplied by the RPM, or Revolutions per Minute.)
+The Propeller
+One of the most important sources of force on a ship
+is her own propeller.
+One would expect, since the propeller
+is designed
+to propel the ship, that
+turning the propeller AIIKAl) would cause the ship to iiioNc shaig/il ahead.
+
+
+===== PDF_PAGE 40 =====
+
+DIRECTION
+OF FLOW
+V
+u
+V
+V
+7
+>f
+^^
+V
+(«^) THE FLOW PATTERN AROUND
+A FLAT
+PLATE
+INCLINED
+TO THE
+AXIS
+OF
+THE STREAM.
+(b). THE FLOW PATTERN AROUND
+A
+HYDROFOIL
+INCLINED
+TO
+THE
+AXIS
+OF
+THE STREAM.
+Figure
+2. Flow patterns about an inclined plane.
+
+
+===== PDF_PAGE 41 =====
+
+FORCES AFFECTING THE SHIP
+11
+and
+that turning the propeller
+in
+the opposite direction would cause
+the
+ship to move straight astern. This
+is not necessarily the case, however, and
+the shiphandler must study the action of a propeller in order to be able to
+predict
+its action on his ship.
+The objective in designing a propeller is to produce the maximum thrust
+along the line of the shaft from a given rotational force or torque applied
+to the shaft
+itself. A
+fixed blade propeller
+is designed
+for optimum
+per-
+formance at one particular speed of the ship, usually the maximum speed,
+but
+it can be depended upon to operate efficiently at all normal speeds. The
+actual speed of the ship through the water
+is less than the ideal speed (Pitch
+X RPM) because the blade of the propeller must be inclined to the direction
+of the water flow relative to the blade in order for the water to exert force
+on the blade and drive the ship. The cross-section of the blade
+is shaped to
+provide the greatest Lift and the required strength, but at the same time to
+reduce Separation and Cavitation to a minimum.
+To operate at another speed than design speed, the rotational speed of the
+propeller
+is simply changed
+to the RPM (Revolutions per Minute)
+corre-
+sponding to the new speed. With a well-designed propeller the speed varies
+nearly
+linearly with shaft RPM. This relation holds true until a speed
+is
+reached where Separation and Cavitation become pronounced.
+The water exerts force on the propeller by the differential pressure on the
+opposing faces of the blade. Therefore this force must be perpendicular to
+the mean face of the blade. Since the blades are inclined, this force is inclined
+to the propeller shaft rather than along
+its
+axis. However,
+since there
+is
+normally more than one blade on any propeller, and since the blades are
+disposed symmetrically around the
+axis,
+all of the radial components can-
+cel out and the remaining thrust is along the axis of the shaft.
+It
+is because of
+the necessity for exact balancing of the radial components of force that the
+blade alignment of a propeller
+is so important. Though the propeller and
+shaft are well supported to withstand large forces along the axis of the shaft,
+the
+length
+of external
+shafting and
+the small number of
+relatively weak
+supports
+(the
+struts) form
+a structure
+poorly designed
+to withstand
+large
+radial forces at the propeller. A seemingly unimportant nick or dent
+in
+a
+single blade can
+alter
+the balance
+of
+the
+radial
+forces
+signifuantly, even
+though the useful
+thrust obtainable from the proijcilcr
+is not
+signific aiiily
+affected.
+It
+is because of the upsetting of the radial
+forces
+that
+a damaged
+propeller causes so much vibration or pounding.
+A propeller
+is designed for a given Ahead speed, but
+it works quite well
+turning Astern
+also. The Pitch
+of the propeller
+is the same going Astern
+as
+it
+is going Ahead, the major difference being that the blade cross-section
+
+
+===== PDF_PAGE 42 =====
+
+12
+NAVAL SHIPHANDLING
+is now reversed from
+that
+best suited
+for preventing Cavitation and
+tur-
+bulence. When operating Astern, a given propeller is less efficient than when
+going Ahead. This means that more power will be required for a given shaft
+RPM Astern than
+for the same R1*M Ahead, but approximately the same
+thrust will result from a given RPM whether turning Ahead or Astern.
+Though the propeller
+is designed to force water through itself parallel to
+the shaft, the actual flow is somewhat different, as indicated in Figure 3. The
+character of the flow
+is due
+to the acceleration of the stream
+as
+it
+passes
+through the propeller, and to the rotation imparted by the propeller. The
+amount of disturbance
+of
+the
+parallel
+flow
+varies with
+the
+difference
+in
+Figure 3. Flow pattern about a driving propeller.
+
+
+===== PDF_PAGE 43 =====
+
+FORCES AFFECTING THE SHIP
+13
+velocity between the mean flow through the propeller and the mean current
+of the surrounding
+water. Thus
+a minimum
+disturbance
+of
+the
+parallel
+flow through
+the
+propeller occurs when
+the propeller
+is doing
+the
+least
+work. A great deal of disturbance occurs, however, when the ship
+is
+at
+a
+standstill and the propellers are being turned rapidly. And the maximum
+disturbance
+is created when
+the ship
+is moving in one direction and
+the
+propellers are being turned with maximum power in the other direction.
+There
+is also a tangential component of motion imparted to the water by
+the propeller. Since the force from the propeller blades is nearly perpendicu-
+lar to the blade surfaces, the
+initial acceleration
+of the water must be
+in
+line with
+this force. Thus the propeller, as
+it rotates, imparts a rotational
+motion
+as well
+as a backward motion
+to the water. This
+effect
+is evident
+in the spiral discharge from a propeller, as indicated in Figure
+3.
+The flow pattern about the propeller
+is of great interest in determining
+the forces on the ship. Although the direct effect of rotating the propeller
+is obtained as thrust along the propeller shaft, the secondary effects of the
+current flow are often just as important in handling the ship. It
+is often the
+adroit use of the secondary effects of the propeller's rotation that allows us
+to accomplish intricate maneuvers.
+A. SINGLE-SCREW SHIPS
+Side Force on a Propeller
+As mentioned above, in addition to a thrust along the propeller shaft, we
+obtain
+a Side Force which
+affects the maneuvering of the ship. In our dis-
+cussion of the propeller, we were considering an isolated screw turning in an
+unlimited body of water. In an actual ship, the propeller
+is not isolated, but
+is in close proximity to the hull and the necessary supporting structure for
+the propeller
+itself. Hence, the water cannot flow parallel to the propeller
+shaft, but always flows into the propeller at some inclination to the propel-
+ler's axis. In the upper part of the propeller disc, the blades are near the
+surface, and "churning" and "air drawing" are experienced under certain
+circumstances. Finally, the helical discharge from the propeller can produce
+unusual
+effects. All of these conditions contribute to producing a resultant
+Side Force which can be of sufficient magnitude to have an important effect
+in the movement of the ship.
+The physical causes of the resultant Side Force are somewhat subtle and
+a discussion has been prepared in Appendix I for the reader who is interested
+in the origin of the force. It
+is sufficient for the purposes of the shiphandler
+to consider that, as a result of rotating the propeller, a force
+is created tend-
+ing to move the stern of his ship to one side or the other. The magnitude
+
+
+===== PDF_PAGE 44 =====
+
+14
+NAVAL SHIPHANDLING
+of this force will vary with the type of ship and the character of the under-
+water structure
+in the
+vicinity
+of
+the
+propeller, but the direction of
+this
+force depends on the direction of rotation of the propeller only, and will be
+as though the lower blades of the propeller were bearing on the bottom and
+pushing the stern to the side as the shaft rotates. A propeller turning to the
+Right, or clockwise, as seen from astern, will tend to force the stern to the
+Right as shown in Figure
+4. A propeller turning
+to the
+Left, or counter-
+clockwise as seen from astern, will tend to force the stern to the Left. W'hen
+the
+direction
+of
+rotation
+is
+reversed,
+the
+direction
+of
+the
+Side
+Force
+is
+reversed.
+When moving Ahead
+at a steady speed
+in a single-screw
+ship,
+the Side
+Force on
+the
+propeller
+is not
+large.
+In order
+to
+insure good
+propulsive
+efficiency, such a ship
+is carefully designed to minimize the Side Force (and
+the amount of rudder required to overcome
+it). When Backing or maneu-
+vering with
+little way, the Side Force may be much larger.
+When a single-screw ship Backs, the helical discharge from the screw
+is
+thrown directly into the ship's structure, and the Side Force experienced
+is
+usually the strongest encountered under any circumstances. For this reason,
+it is difficult to prevent the stern moving to Port when Backing a single-screw
+ship with a Righthand Screes'.
+When maneuvering with
+little way on, the propeller may be driving at a
+high speed while the ship
+is moving relatively slowly. With this high "slip"
+condition. Separation and turbulance may cause an unusually powerful Side
+Force to be felt.
+Thus, regardless of the motion of the ship, a Side Force
+is experienced
+as a result of the rotation of the propeller, and this force must enter into the
+calculations of the conning officer in estimating the motion of his ship.
+The Rudder, in a Single-Screw Ship
+Having considered
+the action
+of the
+single-screw ship with
+the rudder
+amidships, let us now consider the action of the rudder. The rudder, like any
+other hydrofoil, experiences a Lift force when it is inclined to the flow of the
+water in which it is submerged. This force is proportional to the Area of the
+rudder,
+its Angle of Attack, and the square of the velocity of Flow. If we can
+estimate the actual flow at the rudder resulting from the combination of the
+ship's motion and the screw current, we can predict the effectiveness w^e w^ill
+obtain from the rudder. Since the force on the rudder varies as the square
+of the velocity of flow,
+if we can double the velocity of flow past the rudder,
+we can quadruple the force obtained from a given rudder angle!
+In
+a single-screw
+ship, since the rudder
+is placed
+directly astern of the
+
+
+===== PDF_PAGE 45 =====
+
+FORCES AFFECTING THE SHIP
+15
+SINGLE
+SCREW
+GOING
+AHEAD.
+TWIN
+SCREW
+ENGINES
+OPPOSED.
+BOTTOM
+SIDE
+FORCE
+DIRECTION
+OF
+FORCE
+IS AS
+THOUGH
+BLADES WERE BEARING
+ON THE BOTTOM
+AS THEY TURN,
+Figure 4. Side Force on a propeller.
+propeller, the screw current
+is usually the dominant factor in determining
+the effectiveness of the rudder. When the screw
+is going Ahead, the velocity
+of flow past the rudder
+is almost exactly the discharge current of the screw,
+regardless of the ship's motion. Under these circumstances very large Side
+Force can be supplied by the rudder independent of the ship's speed through
+the water. So
+long
+as the screw
+is going Ahead, we can depend on good
+rudder effectiveness.
+When
+the
+propeller
+is
+turning
+Astern,
+however,
+the
+strong
+discharge
+current
+is not directed against the rudder, and the relatively unconcentrated
+suction current has
+little
+effect on
+the rudder. Consequently, such
+a ship
+must rely nearly entirely on sternward velocity to provide the flow necessary to
+produce strong rudder forces. For this reason a single-screw ship must build up
+considerable speed Astern before she responds well to her rudder.
+If .slroni:^
+rudder forces are desired,
+the propeller
+nuist be turning Ahead.
+
+
+===== PDF_PAGE 46 =====
+
+16
+NAVAL SHIPHANDLING
+Resultant Force on a Single-Screw Ship
+Though we have considered the Thrust, the Side Force, and the Rudder
+action separately,
+it
+is the resukant of all three that determines the motion
+of a ship. We must combine the separate components into a single resultant
+force if we are to be able to predict their combined reaction of the ship.
+If we define as SCREW THRUST the component of propeller action that
+acts in line with the propeller shaft, we can lump all other components of
+propeller action in the horizontal plane into a single athwartships component
+which we can
+call SIDE FORCE. Since the force on a rudder inclined to
+the flow is nearly perpendicular to the faces of the rudder, we can define the
+RUDDER FORCE as a force perpendicular to the faces of the rudder. Since
+all of these forces act at nearly the same place near the stern of the ship, we
+can
+for
+all
+practical purposes consider
+their combined
+effect
+as
+a single
+resultant force acting at the propeller. We control the ship by controlling this
+resultant force!
+In addition to the active forces mentioned above, there
+is the Drag of the
+hull as it moves through the water. This Drag force depends upon the speed
+of the ship through the water, and it can be considered to act at the center of
+gravity in a direction opposite
+to the movement of the ship through the
+water. If the force we apply at the stern is exactly equal to the Drag force, and
+if the line of action of the applied force passes through the center of gravity,
+a steady state is achieved and the ship will proceed at a steady speed with no
+tendency to turn.
+If, on the other hand, the line of action of the resultant force at the stern
+does not pass through the center of gravity of the ship, there will be a torque
+on the ship and the ship will turn. The amount of this torque will be equal
+to the force on the stern multiplied by its effective lever arm with respect to
+the center of gravity of the ship. For
+all practical purposes, the center of
+gravity of a ship can be considered to lie on the centerline.
+Since we control the ship by controlling the force on the stern,
+it is useful
+to set up a system for determining this force.
+If we can consider all of the
+forces on the stern to be acting at one place, we can construct a vector diagram
+to determine the resultant force on the ship. The Drag force can be viewed
+as a reaction force, as can the resistance torque which opposes the rotation of
+the ship in the water, and thus they can be omitted from the resolution of
+active control forces on the stern.
+Figure 5 illustrates the range of variation of the force on the stern obtain-
+able by the use of the rudder while the ship is being driven Ahead at a con-
+stant speed.
+It will be noticed that the Side Force allows more transverse
+
+
+===== PDF_PAGE 47 =====
+
+FORCES AFFECTING THE SHIP
+17
+force to be applied to Starboard than to Port. Thus the ship can turn more
+rapidly to Port than to Starboard. Figure 6 illustrates the effects of the screw
+and the rudder while the ship is dead in the water. The Side Force is shown
+greater than when the ship is moving Ahead, which is the normal experience
+in single-screw ships. W^hen the screw
+is turning Astern, the Side Force com-
+pletely overshadows the Rudder Force available while the ship is dead in the
+water, and the resultant force
+is always to Port. Thus, though
+it
+is possible
+to twist the ship to the right with the screw turning Ahead, she twists much
+better to the Left. With the screw turning Astern while dead in the water, the
+stern goes to Port regardless of the rudder.
+In Figure 7 we construct the vector diagrams for the engine driving Astern
+while the ship also
+is moving Astern. In this condition the rudder
+is once
+again effective, and a condition
+is selected where the rudder is able to over-
+come the Side Force and produce a resultant with a component to Starboard.
+It is evident from the figure that much greater forces can be applied to Port
+than to Starboard.
+RUDDER
+LEFT
+aO*'
+RUDDER
+AMIDSHIPS
+RUDDER
+RIGHT
+30®
+SIDE
+FORCE
+SIDE
+FORCE
+RUDDER
+FORCE
+RUDDER
+FORCE
+->-SIDE
+FORGE
+RESULTANT
+RESULTANT
+RESULTANT
+Figure 5. Resuhant forte on a singlc-strcw ship when going ahead.
+
+
+===== PDF_PAGE 48 =====
+
+RESULTANT
+RUDDER
+RIGHT
+30<*
+c(5o
+SIDE
+^ FORCE
+RESULTANT
+SIDE
+> FORCE
+RUDDER \
+FORCE
+^
+RESULTANT
+(a). ENGINE
+RPM
+FOR
+5 KNOTS
+AHEAD,
+SHIP
+DEAD
+IN
+WATER.
+RUDDER
+LEFT
+30*
+RESULTANT
+RUDDER
+AMIDSHIPS
+RESULTANT
+RUDDER
+RIGHT
+30*
+(X)
+RESULTANT
+RUDDER
+FORCE
+SCREW
+THRUST
+(b). ENGINE RPM
+FOR
+5
+KNOTS
+ASTERN,
+SHIP
+DEAD
+IN WATER.
+Figure 6. Resultant force on a single-screw ship with no way on.
+
+
+===== PDF_PAGE 49 =====
+
+FORCES AFFECTING THE SHIP
+19
+RUDDER
+FORCE
+RESULTAN
+RUDDER
+AMIDSHIPS
+RESULTANT
+SHIP
+MOVING ASTERN
+AT
+10 KNOTS
+WITH
+ENGINE
+RPM
+FOR
+10 KNOTS
+ASTERN.
+.RESULTANT
+Figure 7. Resultant force on a single-screw ship when going astern.
+B. TWIN-SCREW SHIPS
+Most Navy ships have twin propellers, and some of the largest have lour.
+Normally, when driving Ahead,
+tiie propellers turn outboard, the Starboard
+propeller turning clockwise and
+the Port propeller turning counter-clock-
+wise, as seen from astern. Providing a ship with an even number of opposed
+propellers eliminates many of the troubles found
+in single-screw ships. As
+long as the propellers are driving together, the Side Forces (which depend on
+the direction of rotation) are cancelled out, whether the screws are turning
+Ahead or Astern. On the other hand, if the propellers are opposed, one turn-
+ing Ahead and the other Astern, the Side Forces then augment each other.
+Thus, with two or four screws, we have an ideal situation wiiere the Side
+Forces
+cancel
+out
+if we
+are
+proceeding
+steadily Ahead
+or
+Astern,
+yet
+we can obtain an augmented Side Force by opposing the screws when we so
+desire.
+In addition to the augmented Side Force with the screws opposed, we ob-
+tain a torque or twisting effect on the ship, because the shafts are displaced
+
+
+===== PDF_PAGE 50 =====
+
+20
+NAVAL SHIPHANDIJNG
+from the ccntcrline. Since the thrust line from each screw passes to the side
+of the center of gravity, the torque applied by each propeller
+is ccjual to the
+thrust of the propeller multiplied by the perpendicular distance from
+this
+thrust line to the center of gravity. Since the screws are opposed, the torques
+augment each other and the resulting moment tends to turn the ship. The
+greater the distance between the propellers (with parallel shafts), the greater
+will be this effect.
+When the screws on opposite sides of the ship are opposed, a circulating
+current
+in
+the
+horizontal
+plane
+is
+created by
+the
+suction and
+discharge
+streams of the propellers,
+as indicated in Figure
+8. When this current im-
+pinges on a part of the ship's underwater structure,
+it produces a force. For-
+ward of the screws there are many obstructions to
+this flow, and a strong
+athwartships force
+is experienced. Abaft the screws, only the rudder(s) are
+encountered, and
+if these are turned to conform to the flow,
+little force re-
+sults. Consequently, the effect of the circulating current can be considered
+to be a Side Force on the structure forward of the propellers.
+All of the effects mentioned in the above paragraphs resulting from oppos-
+ing the engines of a twin-screw ship, with outward turning screws, act in the
+same direction. In combination they can produce a strong Resultant Side
+Force which can play an important part in maneuvering the ship.
+When the twin-screw ship
+is going Ahead on one screw only, there
+is a
+tendency to veer to the side opposite from the screw in use. This tendency
+is,
+of course, caused by the Side Force and the offset position of the driving
+screw. At low speeds, the tendency is quite marked, but at higher speeds this
+tendency can be overcome by the use of a moderate amount of rudder.
+When Backing with only one screw, a stronger turning effect
+is noticed.
+In this case we have not only the normal Side Force and torque due to the
+offsetting of the propeller, but also a strong additional Side Force caused by
+the helical discharge current. When Backing, the propeller throws a strong
+helical current into the struts, which are above the shaft, causing a strong
+athwartship
+force. This causes a much stronger Side Force than when the
+screw
+is turning Ahead.
+Following the above observations we can draw a diagram as indicated in
+Figure 9, showing the direction of the force that we can apply to the stern of
+a twin-screw ship by turning each screw individually. The a\cragc direction
+of the resultant force from using a screw in a given direction
+is indicated in
+the figure, and
+if the length of the vector is made proportional to the RPM
+of the shaft, we can combine the vectors to determine the resultant force on
+the stern of the ship from the two propellers.
+It
+is useful to keep Figure 9 in
+mind when maneuvering with the engines.
+
+
+===== PDF_PAGE 51 =====
+
+FORCES AFFECTING THE SHIP
+21
+(VIEWED FROM ABOVE,
+LOOKING DOWNWARD
+THROUGH THE SHIP).
+RESULTANT
+FORCE
+ON
+THE
+STERN.
+Figure 8. Circulating current caused by opposing the engines, showing the
+resultant force on a destroyer's typical underwater structure.
+The Rudder, with Twin Screws
+The rudder of a twin-screw, single-rudder ship
+is mounted on the center-
+line just abaft the screws. As indicated in Figure
+10,
+it does not feel the dis-
+
+
+===== PDF_PAGE 52 =====
+
+22
+NAVAL SHIPHANDLING
+MEAN
+THRUST
+LINES
+AVAILABLE
+FROM
+THE
+PROPELLERS
+ALONE.
+problem:
+TO
+FIND
+FORCE
+ON
+STERN
+WITH:
+STARBOARD
+ENGINE
+AHEAD
+AT
+100 RPM.
+port
+ENGINE
+BACKING
+AT
+50 RPM.
+LENGTH
+PROPORTIONAL
+TO
+100 RPM.
+LENGTH
+PROPORTIONAL
+TO
+60 RPM.
+RESULTANT
+FORGE
+IN
+THE
+DIRECTION
+OF
+THIS
+VECTOR
+AND
+PROPORTIONAL
+TO
+THIS
+LENGTH.
+Figure 9. Diagram for determining force on the stern from propellers alone.
+charge current from the propellers when
+it
+is positioned "amidships." Con-
+sequently, when using small rudder angles, only the forzvard motion of the
+ship through the water has any appreciable effect on the velocity of flow past
+the rudder and hence on
+the
+force obtainable by use
+of the rudder. At
+larger rudder angles, however
+(usually about 15° or more, depending on the
+type of ship), the after edge of the rudder enters the discharge current from
+the propeller on the side to which
+it
+is turned. Thus, at large rudder angles
+an augmented efl^ect
+is obtained
+if the screw on the side to which the rudder
+is deflected is turning Ahead.
+
+
+===== PDF_PAGE 53 =====
+
+io^).
+SINGLE
+RUDDER.
+RUDDER BETWEEN
+SCREW
+DISCHARGE
+RACES.
+VIEWED
+FROM
+ABOVE, LOOKING DOWNWARD
+THROUGH THE
+SHIP.
+(b)
+TWIN
+RUDDERS.
+RUDDERS
+IN
+CENTER
+OF
+DISCHARGE
+RACES.
+VIEWED
+FROM ABOVE. LOOKING DOWNWARD THROUGH THE
+SHIP.
+Figure
+10. Comparative position.s of single ami (win rudders in twin-screw ships.
+
+
+===== PDF_PAGE 54 =====
+
+24
+NAVAL SHIPHANDLING
+Many modern types
+of
+vessels are equipped with twin rudders.
+In
+this
+design the rudders are mounted directly astern of the propellers, as shown in
+Figure 10, and their effectiveness is increased by the screw current impinging
+directly on the rudders. Since the screw discharge can produce a high velocity
+current at the rudder regardless of the ship's motion, it is this screw discharge
+that is the controlling factor in rudder effectiveness. If the screws are opposed,
+the one going Ahead will have the greatest effect on the rudder action for
+this reason. In fact, with a twin-screw, twin-rudder ship, we can quite easily
+twist in our own water, with no way on, by opposing the engines equally and
+using full rudder in the direction we desire to turn. The Side Force from the
+rudder astern of the propeller which
+is driving Ahead more than overcomes
+the weak opposing force of the other rudder.
+Resultant Force on a Twin-Screw Ship
+To construct the complete vector diagram for the forces on the stern, we
+must first resolve the off-center effect of the screws by replacing the resultant
+couple by an equivalent Side Force acting at the screws. Having done this, we
+can consider that all the forces act at the centerline between the screws, and
+thus can resolve the single resulting force by a vector polygon. This, of course,
+overlooks the longitudinal distance from the screws to the rudders, but this
+discrepancy produces only a minor inaccuracy. Figure
+11
+is an example of
+the vector solution for the force on the stern of a twin-screw, t^vin-rudder
+ship.
+By using the various combinations available with a twin-screw ship, we
+can create a force in any desired direction at the stern. Our speed through
+the water will vary the amount of Side Force that we can apply, and, generally
+speaking, the amount of Side Force we can produce will be much less than
+the fore-and-aft force that
+is at our command. Nevertheless, by proper selec-
+tion of the engine and rudder combination with a twin-screw ship, we can
+create a force at the stern in any direction we desire. Figure
+1 2 indicates the
+engine and rudder combination required for producing force in each of the
+relative
+octants. A twin-rudder vessel
+is indicated because
+this type
+is the
+most versatile type. The figure assumes that the ship has no way on, and
+it
+will be noted that the rudders are positioned to achieve a maximum effect
+from that rudder which is astern of the screw that is going Ahead.
+In handling a ship it is very difficult at times to judge correctly what is the
+actual current in the vicinity of the screws and the rudder. Even the most
+experienced shiphandler will misjudge the direction of the flow during an
+intricate maneuver, and will put his rudder over the wrong way. When in
+doubt as to the combined effect of the engines and rudder, watch the surface
+
+
+===== PDF_PAGE 55 =====
+
+FORCES AFFECTING THE SHIP
+25
+PORT
+ENGINE
+BACK ONE
+THIRD
+SHIP
+MOVING
+THROUGH WATER
+AT
+5 KNOTS.
+STARBOARD
+ENGINE
+AHEAD
+TWO
+THIRDS.
+RUDDER
+LEFT
+ZO'.
+-STARBOARD
+ENGINE
+THRUST.
+-^HULL
+FORCE.
+FORCE
+AT STERN
+EQUIVALENT
+TO OFF-
+CENTER
+THRUST
+EFFECT.
+STARBOARD
+RUDDER
+FORCE.
+(VIEWED
+FROM
+ABOVE,
+LOOKING DOWNWARD
+THROUGH
+THE SHIP)
+RESULTANT
+FORCE
+ON
+STERN.
+Figure 11. Resultant force on the stern of a twin-rudder, twin-screw ship.
+of the water in the vicinity of the stern. Since the water is accelerated in the
+direction opposite to that of the force on the stern, the mean resultant flow
+from the stern will indicate the direction of the force we are obtaining. The
+magnitude of the force can be estimated by the strength of the flow.
+Turning
+We have discussed the rudder and the screw forces that act at the stern
+of the ship, but we have not explored how the ship reacts to the application
+of these forces. So long as the resultant force vector passes through the center
+
+
+===== PDF_PAGE 56 =====
+
+26
+NAVAL SHIPHANDLING
+of gravity, no rotation
+is produced. When a Side Force
+is applied by the rud-
+der and screws, with the ship dead in the water, the ship pivots about a point
+about 30 per cent of the distance from the bow to the stern. One might ex-
+pect the ship to spin about its midpoint—and thus it should, from the applica-
+tion of a pure torque—but in the case of an unbalanced Side Force applied at
+the propeller, the ship must move broadside in response to the unbalanced
+directional force, as well as rotate in response to the resulting torque. Thus the
+combination of the side motion and the rotation causes the ship to appear
+to
+rotate about
+a point considerably forward of the midpoint. Figure
+13
+illustrates how a ship turns about its Pivot Point when twisting with no way
+on.
+When under way and proceeding Ahead, the Pivot Point moves forward
+as the speed increases, until, at normal operating speeds, the Pivot Point
+is
+abaft the stem about 15 to 20 per cent of the length of the ship. This shifting
+of the Pivot Point
+is caused by the hydrodynamic
+effects of the flow past
+the hull.
+When under
+way,
+the only means we have
+of controlling
+the
+ship
+is
+through her engines and rudder, and both of these act near the stern of the
+ship. Thus we can consider that we steer the ship by forcing the stern from
+side
+to side. To make a turn we force the stern to the side opposite to the
+direction in which we wish to turn, and this has two effects. First, the hull of
+the ship
+is inclined to the
+initial direction of motion, and
+this produces a
+large force pushing the ship in the direction of the turn; and second, the
+thrust from the screws is now inclined to the initial direction of motion, and
+this also forces the ship off
+its former course in the direction of the turn.
+This
+is a continuous process, and as the ship proceeds around in
+its turn, the
+centerline of the ship
+is inclined toward the center of the turn. The stern
+rides to the outside and the bow to the inside of the mean path of the ship.
+The ship
+as
+a whole proceeds
+as though
+the Pivot Point were making
+a
+smooth turn.
+It
+is a useful concept to consider that we are maneuvering the Pivot Point
+through the water when we handle the ship. Wc can always twist about the
+Pivot Point to correct our alignment, but wc can't move the Pivot Point
+sideways with the engines and rudder.
+Control Commands
+Though we have discussed the use of the engines and propellers in general
+terms, it is apparent that we must have precise control of the propellers if we
+are going to handle the ship skillfully. To do this we must define our engine
+commands, and this is not as simple as it might appear.
+
+
+===== PDF_PAGE 57 =====
+
+RUDDERS
+>'
+>r
+Figure 12. Resultant force with various screw and rudder combinations.
+PIVOT
+POINT
+SHIP
+TWISTING
+WITH
+NO WAY
+ON.
+Figure 13. Pivot point of a ship twisting with no way on.
+
+
+===== PDF_PAGE 58 =====
+
+28
+NAVAL SHIPHANDLING
+It would
+be advantageous
+to be able
+to oppose
+the engines exactly
+in
+certain situations and thus be able to twist the ship in her own water, getting
+no way on in either direction. Since the pitch of the propellers
+is equal, we
+could do
+this by ordering equal RPM
+in opposite directions on
+the two
+shafts. However,
+if BACK ONE THIRD were defined simply
+as a given
+number of RPM Astern,
+it would call for a great deal more power if ordered
+while the ship was proceeding at full speed Ahead than if ordered while dead
+in the water. In fact, in a destroyer an eager throttleman might drag off all
+the steam from a boiler in trying to produce 100 RPM astern quickly for a
+BACK TWO THIRDS bell
+if the initial speed Ahead were high. Because
+the amount of steam required
+to produce a certain RPM varies with the
+speed through the water, many ships define their backing speeds as steam
+pressures on the turbines. This system avoids the trouble described above,
+but
+it sacrifices the precision possible when using the shaft tachometers to
+produce exact RPM.
+The order STOP
+is not as simple as it appears. Remembering that we are
+delivering force with the engine, we would like the engine to cease supplying
+force when we give the order STOP. If we meant to have the shaft stop rotat-
+ing, we might have to apply a great deal of power to keep the shaft from
+rotating merely from the effect of the current flowing past it. Most ships have
+adopted the definition of STOP which calls for all throttles closed and the
+propeller
+idling. The command STOP SHAFTS
+is an emergency order
+meaning
+to
+stop
+the
+shafts from
+rotating while
+passing an
+obstruction.
+The exact definitions used in a given ship will depend upon a number of
+factors, but under any circumstances it is essential that all hands have a clear
+and accurate understanding of all of the orders used. Whether on the bridge
+or in the engineering spaces, the engine orders must have the same meaning.
+The definitions in Figure 14 were set up for a destroyer and have been found
+to be very useful. They are adequate to meet the most stringent demands.
+This system capitalizes on the advantages of both the Steam Pressure and the
+RPM systems of defining backing bells, since the steam pressure is used until
+the RPM is reached, and the RPM thereafter.
+In Navy ships the orders are given to the engines by means of the Engine
+Order Telegraphs, which order the direction and general magnitude of the
+speed desired, and by the Revolution Indicator, which
+specifies the RPM
+desired. The Telegraphs can be read in all of the engineering spaces, but the
+Revolution Indicator
+is normally installed only
+in the engine-rooms. The
+system of multiple rings indicated in Figure 14
+is provided to keep the
+fire-
+rooms informed of changes of speed beyond the range of the Telegraphs.
+On
+the
+standard Engine Order Telegraph,
+in
+addition
+to
+the STOP
+position there are five positions for AHEAD speeds, but only three positions
+
+
+===== PDF_PAGE 59 =====
+
+FORCES AFFECTING THE SHIP
+29
+are used for BACK speeds. Because of
+tlie symmetry of construction of the
+actual Navy units, this leaves two unused positions in the BACK arc on
+all
+of the transmitters and indicators. By simply lettering in the proper labels,
+we can
+utilize
+these two
+spare segments
+for STOP SHAFT and BACK
+EMERGENCY. Thus
+by
+the
+expedient
+of more
+completely
+using
+the
+equipment provided, we obtain means of ordering these very useful com-
+mands.
+The above discussion has dealt with Engine Telegraph orders exclusively,
+but the Revolution Indicator
+is also a very important link in our engine
+command system. It
+is an essential aid in precise shiphandling when engine
+changes
+less than
+five knots are desired. Quite often when exact control
+is
+required at a speed intermediate between the increments of the Telegraphs,
+the Revolution order becomes the controlling means of command. Under these
+circumstances
+it
+is the normal practice to keep the Engine Telegraphs set on
+ENGINE ORDERS
+AHEAD ONE-THIRD
+. .RPM
+for 5 Knots Ahead
+AHEAD TWO-THIRDS
+.
+. .RPiM for 10 Knots Ahead
+AHEAD STANDARD
+..RPM
+for
+15 Knots Ahead
+AHEAD FULL
+..RPM
+for 20 Knots .\head
+AHEAD FLANK
+...RPM
+for 25 Knots Ahead
+FLANK RUNG TWICE
+.
+.
+. .RPM
+for 30 Knots Ahead
+FLANK RUNG THREE TIMES
+.
+. .RPM
+for 35 Knots Ahead
+STOP
+.
+. .All Throttles Closed
+BACK ONE-THIRD
+..60
+Lbs.
+Pressure on
+Astern Tmbine
+Until
+50 RPM Reached. Then RPM Astern
+for
+5 Knots
+BACK TWO THIRDS
+....
+...120
+Lbs.
+Pressure on Astern Turbine Until
+100 RPM Reached. Then RPM Astern for
+10 Knots
+BACK FULL
+...200 Lbs. Pressure on Astern Turbine
+BACK EMERGENCY
+...Backing Throttle Open Completely, Except
+Steam
+Pressure
+at
+Throttle Not Allowed
+to
+Fall Below 500
+Lbs.
+STOP SHAFT
+. ..Anolv
+Sufficient Steam
+to Ston
+All Rotation
+of Shaft
+Figure
+1 L Table of Engine Orders (for a dcsiroytr with a
+600 psi projnilsioii phint).
+
+
+===== PDF_PAGE 60 =====
+
+30
+NAVAL SHIPHANDLING
+the increment nearest to the speed actually desired. We must remember, how-
+ever, that moving the Telegraphs will signal a speed change of at least five
+knots to those stations not equipped with both a Telegraph Receiver and a
+Revolution Indicator, and all stations will take action. If the Telegraphs are
+being moved simply
+to match
+the revolutions, and
+if a
+large incremental
+change
+is not desired, the conning officer must be careful that the engineers
+are notified of his desires.
+If this is not done, an inefficient and smoky opera-
+tion will result as the firerooms prepare for the change that never comes to
+pass and then have to change their firing rate drastically to compensate for
+their undesired forehandedness.
+Since two instruments are used
+to give commands
+to the engines,
+it
+is
+essential that a system be worked out which specifies which shall be followed
+in case they give conflicting orders. Most ships adopt the rule that the latest
+command holds, regardless of the instrument upon which received. Thus,
+if
+we are steaming at 18 knots with the Telegraphs set at STANDARD, and we
+wish to correct the situation, we must set the Telegraphs at FULL and then
+ring off and ring back the appropriate turns for 18 knots.
+If this were not
+done,
+the engine-rooms would follow the command FULL calling for 20
+knots, because it was the latest command.
+The Revolution Indicator can be used with the engines opposed
+if
+this
+condition has been adequately defined. In this case, the engine-rooms answer
+the Telegraphs for direction and the Indicators for amount. Obviously this
+system cannot be used when
+it
+is desired to oppose the engines at different
+powers. Under circumstances where
+it
+is desired to use unequal power, the
+increments of the Telegraphs are normally quite adequate.
+Since there
+is a problem of the interaction of the Engine Telegraphs and
+the Revolution Indicator,
+it is convenient to set up a system to eliminate the
+Revolution Indicator when
+it
+is not needed. This
+is the normal case in a
+harbor, and
+it
+is useful to define "MANEUVERING BELLS" as the system
+where the Engine Order Telegraphs are used exclusively and the Revolution
+Indicator
+is ignored. Conversely,
+the normal system using both the Tele-
+graphs and the Revolution Indicators
+is defined as "STEAMING BELLS."
+It
+is convenient
+to order MANEUVERING BELLS by setting the Revo-
+lution Indicator on a certain number beyond the range of the engines, such
+as 777 RPM. The return to STEAMING BELLS is ordered simply by ring-
+ing up the desired number of turns.
+For the same reasons that engine orders need
+exact definitions, rudder
+orders must be precisely defined. The order STANDARD RUDDER can no
+longer be used, because ships are now required to turn
+to specific
+tactical
+diameters depending on the composition of the Force and regardless of speed.
+
+
+===== PDF_PAGE 61 =====
+
+FORCES AFFECTING THE SHIP
+31
+Tlic amount of rudder to produce even a single tactical diameter will vary
+with
+the speed. Since the helmsman reads
+his Rudder Angle Indicator
+in
+degrees and the conning ofFicer checks
+it on the open bridge on a repeater
+graduated in degrees,
+it is most desirable that all rudder angles be ordered in
+degrees. The command should be "RIGHT, EIGHTEEN DEGREES RUD-
+DER,"
+or
+"LEET, THIRTV-EIVE DEGREES RUDDER,"
+instead
+of
+"RIGHT, STANDARD," or "LEET, HARD RUDDER." The slight
+dif-
+ference
+in number of words
+is more than compensated by
+the
+resulting
+certainty
+that the order can't be misinterpreted.
+The conning officer should school himself in giving his orders clearly and
+properly. Orders to the engines should invariably be given in the sequence:
+Engine, Direction, Amount. Thus the proper command would be "STAR-
+BOARD ENGINE, AHEAD, TWO-THIRDS,"
+or "PORT ENGINE,
+BACK, FULL." In the same manner, rudder orders should be given in the
+sequence: Direction, Amoimt. Since there is only one control for the rudders
+regardless of how many are installed, the word "RUDDER"
+is normally left
+until the end of the order.
+All orders should be given
+in a clear, loud voice. Although the man to
+execute
+the order may be standing next
+to
+the conning
+officer,
+it
+is
+im-
+portant that all hands in the conning station hear the order so as to keep
+them
+abreast of the
+situation and functioning
+at maximum
+efficiency.
+Wind
+Having discussed at length the use and eflfects of the engine and the rudder,
+we can now^ consider the next important source of force on the ship, the
+Wind.
+This force warrants thorough study because it
+is not only outside the
+control of the shiphandler but is quite changeable. Though the wind is often
+a hazard to the shiphandler, it can also be a very useful aid. By carefully play-
+ing the effect of the wind on the ship we can do things that would iiave been
+impossible through the use of the engines and rudders alone.
+The wind normally acts to force the ship bodily downwind. The force
+it
+exerts
+is proportional
+to the square of the velocity of the wind, the cross-
+sectional area presented normal to the flow of air, and the form of the super-
+structure in the air flow.
+If we double the velocity of the Relative Wind, we
+quadruple the force on the ship from this source. If we turn the ship so that
+a larger cross-section
+is presented normal to the wind, the resultant force
+is
+increased.
+If the superstructure of the ship
+is irregular and presents many
+flat surfaces to the wind, the force of the wind will be larger tlian
+if the super-
+structure presents a smooth, streamlined form.
+It
+is relatively easy to predict the reaction of the wind on a given ship.
+If
+
+
+===== PDF_PAGE 62 =====
+
+32
+NAVAL SHIPHANDLING
+the ship has high freeboard and
+is of shallow draft, the force from the wind
+will be large, the resistance to motion from the water will be small, and the
+ship will respond quite readily to the wind. If the ship
+is of deep draft and
+presents a small streamlined body
+to the wind,
+the wind
+effect
+will be
+a
+minimum. This also applies to the sections of the ship. With a given ship,
+if
+the bow
+is high, the stern low, and the ship trimmed down by the stern, the
+wind will tend to carry the bow doiunwind. Generally speaking, a ship lightly
+loaded is more sensitive to the wind than one heavy laden.
+If we remember that
+tiie propellers and rudders give us means to apply
+force to the stern only,
+it
+is apparent that to force the ship to turn into a
+beam wind,
+it
+is necessary to overcome the wind force tending to blow the
+bow downwind. We must move the stern downwind faster than the wind
+is
+moving the
+boiu downwind.
+If the bow presents a much larger "sail" area
+than the stern, the Side Force needed at the stern might be quite large. Since
+the Side Forces available from the engines alone are relatively small,
+it
+is
+often necessary to gain considerable headway before the additional force from
+the rudder is sufficient to overcome the wind.
+Currenf
+The
+last general force to be considered
+is the force due to Current. The
+resistance of the underwater body of the ship to the flow of water
+is very
+similar to the resistance of the superstructure to the wind; however, the force
+resulting
+is much
+larger
+for a given
+velocity because
+the
+density
+of
+the
+medium
+is much greater. The streamlining of the hull is most important, and
+the top speed of a given ship is that speed at which the total resistance of the
+hull exactly balances the maximum force that can be delivered by the pro-
+pellers.
+The resistance of the underwater body to the flow of current
+is propor-
+tional to the square of the velocity of the current and the cross-sectional area
+presented to the flow, and
+is inversely dependent upon the streamlining of
+the body with respect to the direction of the flow. Obviously the resistance of
+the hull to a given current from ahead would be much smaller than the re-
+sistance to the same current from abeam.
+Since the current
+is by definition the movement of the water, the ship
+is
+normally carried along with this movement. If we handle our ship as though
+there were no current and the stationary objects were moving at the speed of
+the current but in the opposite direction, we would have
+little trouble pre-
+dicting the behavior of the ship. This simple solution
+is satisfactory for a
+steady current, but unfortunately the current
+is not steady in the vicinity of
+
+
+===== PDF_PAGE 63 =====
+
+FORCES AFFECTING THE SHIP
+33
+stationary objects. However, the special problems of current in the vicinity
+of docks and buoys will be covered later.
+Actually,
+it
+is impossible to have a current relative to the ship other than
+from ahead or astern except by the application of forces external to the ship.
+If the flow of current relative to the ship
+is to be other than parallel to the
+axis of the keel, there must be some restraining force provided by mooring
+lines or ground tackle.
+The shiphandler must always consider the current in maneuvering his ship
+near stationary objects. He must add the current vector to the vector of his
+own ship's motion through the water to determine his true movement rela-
+tive
+to the ground. As he changes his speed through the water he must re-
+member that the current velocity remains generally constant, and he must
+compensate for
+it. Finally, as he handles his sliip broadside to the
+( urrent, he
+must expect to be swept along with the current unless he uses external means
+to restrain the ship, and
+in
+that case the forces required
+will be relatively
+large.
+C. FORCES
+We have now examined the forces that come to bear on a ship due to the
+environment in which
+it operates and the manner in which
+it
+is propelled
+and controlled. We have considered the reasons why these forces exist, and
+we have prepared ourselves to be ready to estimate these forces for a given
+ship in a given situation.
+The shiphandler must always be alert for evidences of conditions which
+will affect the handling of his ship. He must watch his bunting and rigging
+to determine the Relative Wind, and he must watch the surface of the water
+for signs of the True Wind and current.
+If he
+is completely aware of the
+forces playing on his ship, he can compensate for the undesired effects and
+make use of the helpful effects.
+A thorough understanding of all of the forces which can act upon the ship
+is
+the
+cornerstone
+of
+ability
+at
+shiphandling.
+Unless
+tiie
+shiphandler
+thoroughly understands the forces that come to play on his ship, how they
+act, and how
+they (an
+!)(
+( oiinolk'd,
+he (annot hope
+to handle
+his ship
+efficiently.
+
+
+===== PDF_PAGE 64 =====
+
+CHAPTER
+III
+THE DESTROYER
+Though we can discuss the forces on a ship and the environment ot the sea
+from a generalized point of view,
+as soon
+as we begin
+to examine specific
+problems which confront
+the shiphandler our solution
+will depend
+to
+a
+large extent upon the type of ship we are considering. Each type of ship has
+peculiarities which set
+it off from other types, and these must be taken into
+account when deciding upon a solution
+for a particular problem.
+If each
+evolution were discussed for all types at the outset, the discussion might be-
+come so involved that the reader would miss the principles. Consequently,
+it
+is best to cover the entire field of shiphandling from the point of view of a
+single
+type, and then
+later point out where other types require
+different
+treatment.
+The Destroyer has been selected as the type ^vith which to
+first explore
+the problems which face the shiphandler. The Destroyer was selected because
+she embodies the characteristics of even the most complex type while pos-
+sessing the capacity
+to solve most of the problems which will face her. She
+was also selected because of the traditional excellence of destroyer handling
+in the Fleet, and because of the fierce pride that destroyer officers have in this
+phase of their work.
+Most
+officers
+feel
+that the peak of their careers
+is reached with the com-
+mand of a destroyer. Although many have assignments of more prestige and
+achieve a rank much senior to that of a destroyer skipper, in their hearts the
+most satisfying tour of duty
+is that in command of a fine destroyer. Much of
+that satisfaction comes from the pleasure and sense of accomplishment that
+comes from having handled her well.
+Within
+her
+sleek
+sides
+the destroyer
+possesses
+the
+greatest capacity
+for
+maneuvering of
+all ships. She
+is the
+fastest and most maneuverable major
+ship
+in
+the Navy. Though
+the
+battleship
+is immensely
+larger, mounts
+a
+vastly superior battery, and can steam as many weeks
+as the destroyer can
+steam days, she
+is treated like an invalid in port. A battleship
+is given only
+the
+safest berths, she never moves except on the most favorable
+tide, and
+she
+is usually attended by a bevy of
+tugs. Handling the destroyer
+is
+like
+driving a sports car: commanding a capital ship is like being mayor of a city.
+Actually
+the destroyer
+is the
+largest ship
+in the
+fleet that
+is habitually
+34
+
+
+===== PDF_PAGE 65 =====
+
+THE DESTROYER
+35
+handled
+without
+assistance.
+Displacing
+3,000
+tons
+or
+more,
+the modern
+destroyer
+is not a small ship. She
+is long and she
+is heavy, but her powerful
+engines give her the greatest horsepower-per-ton ratio of any major type of
+ship. In the hands of a competent shiphandler she can be made to do almost
+anything that any other ship can do, and she handles with a grace beautiful
+to behold.
+Another reason why the destroyer has been selected as the ship with which
+to explore the field of shiphandling is that she
+is called upon for the greatest
+variety of duty. She
+is active in every phase of Fleet operations from Anti-
+submarine Warfare to Amphibious Support. She
+is found in the screen of
+every major naval force, and she
+is an integral part of carrier air operations.
+In
+fact, except for the submerged operation of the submarine or the beacli-
+ing of a landing ship, the destroyer participates in every phase of Fleet ac-
+tivity. She
+is therefore the ideal example for discussion.
+The
+Fleet
+Destroyer
+Counted as Destroyer Types today \ve have ships with standard displace-
+ments of from
+1,200
+tons
+to 5,600
+tons
+(actual
+full
+load displacement of
+NORFOLK [DL-1]
+is 7, .300 tons), lengths from 300
+ft. to 540
+ft., and many com-
+binations of screws and rudders. With such variation
+in
+size and character-
+istics
+it would seem impossible
+to consider destroyers
+as a single category,
+and
+indeed
+there
+are important
+differences among
+the
+various
+classes
+of
+destroyers. However,
+all of these ships are of similar hull form and
+possess
+very powerful engines in comparison to their displacement, and to the ship-
+handler the differences between the classes are generally in degree, not
+in
+principle.
+The newer twin-screw, twin-rudder ships are now the most numerous and
+they are also the easiest to handle. Among these we find the big Frigates, the
+FORRKST
+suF.RMAN-class
+tlic
+(;farin(;-( lass
+(2.100-tonners),
+the
+siMNKR-class
+(2,200-tonners), and the World War
+II DFs. Ahiiost e(|ually numerous now,
+but gradually being phased
+out, arc
+the twin-screw, single-rudder ships of
+the FLETCHER-class
+(2,100-t()nners) and the bfnson-c lass
+(I .(iOO-toiuuis). An
+odd exception to the above two groups
+is the new DKAl.K^
+class of DFs with
+a single screw and twin rudders.
+Besides the diHereiues
+in engines and ruddeis. the major
+lac tor of differ-
+ence between the various types
+is the relative distribiuion of sail area. In a
+crosswind, one of the frigates or a
+late
+iorrksf siikrman with
+its very high
+bow
+is much more dillicult
+to handle than, for example, a 2,2()()-tonner with
+her lower and more e\enly distributc-d sail area,
+llowc-xi-r, wiih the noi.iI)le

@@ -1,0 +1,201 @@
+<!--
+  MODELO DE FRAGMENTO DE CAPÍTULO
+  Este arquivo NÃO é um capítulo da apostila. Serve como referência visual e estrutural.
+  Copie e adapte os componentes abaixo. NÃO inclua <html>, <head>, <body>, <style> ou <script>.
+  O título do capítulo, o hero, o sumário e a navegação são gerados automaticamente pelo build.py.
+-->
+
+<section class="section" id="por-que-importa">
+  <p class="section-kicker">Abertura</p>
+  <h2>Por que este assunto importa no passadiço</h2>
+  <p class="lead">Um parágrafo de abertura que conecta o tema à prática do prático, explicando <strong>o problema real</strong> que o capítulo resolve e o que o leitor deve saber ao final.</p>
+  <p>Desenvolvimento em linguagem de estudo: contexto, conceito, aplicação. Use <span class="src">p. 12</span> para indicar a página da fonte quando o dado for específico.</p>
+  <p class="source-line">pp. 10–14</p>
+
+  <div class="grid-3">
+    <div class="card card--accent">
+      <span class="card__num">01</span>
+      <h3>Objetivo um</h3>
+      <p>O que o leitor será capaz de explicar ou fazer após esta seção.</p>
+    </div>
+    <div class="card card--teal">
+      <span class="card__num">02</span>
+      <h3>Objetivo dois</h3>
+      <p>Outro resultado de aprendizagem, escrito de forma concreta e verificável.</p>
+    </div>
+    <div class="card">
+      <span class="card__num">03</span>
+      <h3>Objetivo três</h3>
+      <p>Um terceiro objetivo, com foco em aplicação ou tomada de decisão.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="conceitos">
+  <p class="section-kicker">Conceitos essenciais</p>
+  <h2>Definições que sustentam o resto</h2>
+
+  <div class="def">
+    <span class="def__term">Termo técnico</span>
+    <p>Definição curta, precisa e em português, preservando o termo em inglês entre parênteses quando ele for usado a bordo: <em>squat</em>, <em>shiphandling</em>, <em>draught</em>.</p>
+  </div>
+
+  <div class="callout callout--info">
+    <span class="callout__label">Para entender</span>
+    <p>Use este bloco para explicar uma ideia difícil, dar contexto histórico ou ligar dois conceitos. Não repita o texto principal.</p>
+  </div>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Dica de passadiço</span>
+    <p>Aplicação prática, procedimento, regra de bolso ou forma de comunicar o conceito à equipe.</p>
+  </div>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>Risco, limite de validade de uma fórmula, exceção normativa ou erro frequente que muda o resultado.</p>
+  </div>
+
+  <div class="callout callout--danger">
+    <span class="callout__label">Erro crítico</span>
+    <p>Consequência grave de uma interpretação errada. Use com parcimônia, apenas quando a fonte justificar.</p>
+  </div>
+
+  <div class="callout callout--exam">
+    <span class="callout__label">Cai na prova</span>
+    <p>Ponto que costuma ser cobrado em exames ou que precisa ser memorizado com precisão normativa.</p>
+  </div>
+
+  <div class="callout callout--mnemonic">
+    <span class="callout__label">Mnemônico</span>
+    <p><strong>F-A-R-O</strong> — Força, Área, Resistência, Ondas. Explique o que cada letra representa.</p>
+  </div>
+</section>
+
+<section class="section" id="formulas">
+  <p class="section-kicker">Ferramentas</p>
+  <h2>Fórmulas e relações úteis</h2>
+
+  <div class="formula">
+    <span class="formula__expr">R<sub>T</sub> = R<sub>F</sub> + R<sub>P</sub> + R<sub>W</sub></span>
+    <span class="formula__where"><b>R<sub>T</sub></b> resistência total; <b>R<sub>F</sub></b> resistência de atrito; <b>R<sub>P</sub></b> resistência de pressão viscosa; <b>R<sub>W</sub></b> resistência de formação de ondas.</span>
+  </div>
+
+  <div class="formula formula--light">
+    <span class="formula__expr">Fn = V / √(gL)</span>
+    <span class="formula__where">Use a mesma unidade para <b>V</b> e <b>√(gL)</b>. Explique quando a aproximação deixa de valer.</span>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Comparação entre grandezas ou critérios</caption>
+      <thead>
+        <tr><th>Grandeza</th><th>O que mede</th><th>Uso prático</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Reynolds (Rn)</strong></td><td>Razão entre forças de inércia e viscosas.</td><td>Semelhança de atrito entre modelo e navio.</td></tr>
+        <tr><td><strong>Froude (Fn)</strong></td><td>Razão entre inércia e gravidade.</td><td>Semelhança de formação de ondas e squat.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section" id="diagrama">
+  <p class="section-kicker">Visual</p>
+  <h2>Um diagrama vale por um parágrafo</h2>
+  <p>Use no máximo 1–2 diagramas por capítulo, sempre com título e legenda. O SVG deve ser simples, legível e usar as classes do sistema visual.</p>
+
+  <figure class="figure">
+    <svg viewBox="0 0 640 260" role="img" aria-labelledby="fig-exemplo-title fig-exemplo-desc">
+      <title id="fig-exemplo-title">Exemplo de diagrama esquemático</title>
+      <desc id="fig-exemplo-desc">Caixa à esquerda representando o casco, seta para a direita representando o avanço e linhas onduladas representando a esteira.</desc>
+      <defs>
+        <marker id="arrow-ex" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+      </defs>
+      <path d="M70 120 L150 120 Q210 120 230 160 L250 200 L100 200 Q55 190 50 150 Z" fill="var(--surface-2)" stroke="var(--line-strong)" stroke-width="2"/>
+      <path d="M125 120 L125 85" class="diagram-line"/>
+      <path d="M125 85 L175 85 L165 105 L125 105" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.5"/>
+      <path d="M250 150 L480 150" class="diagram-gold" marker-end="url(#arrow-ex)"/>
+      <text x="500" y="154" class="diagram-label diagram-label--strong">avanço</text>
+      <path d="M300 210 Q330 190 360 210 T420 210 T480 210" class="diagram-accent"/>
+      <text x="300" y="235" class="diagram-label">esteira / wake</text>
+      <text x="72" y="225" class="diagram-label">casco</text>
+    </svg>
+    <figcaption><b>Figura 1.</b> Legenda explicando o que o leitor deve observar no diagrama e como relacioná-lo ao texto. Indique a página da fonte: p. 23.</figcaption>
+  </figure>
+</section>
+
+<section class="section" id="procedimentos">
+  <p class="section-kicker">Aplicação</p>
+  <h2>Sequência de execução</h2>
+
+  <ol class="steps">
+    <li><strong>Primeiro passo.</strong> O que fazer, com quem confirmar e qual dado registrar.</li>
+    <li><strong>Segundo passo.</strong> A decisão intermediária e os critérios de aceitação.</li>
+    <li><strong>Terceiro passo.</strong> A verificação final e a comunicação ao passadiço.</li>
+  </ol>
+
+  <ul class="checklist">
+    <li>Item de conferência antes da manobra.</li>
+    <li>Outro item que não pode faltar na briefing.</li>
+    <li>Condição de abortar ou rever o plano.</li>
+  </ul>
+
+  <div class="example">
+    <h3 class="example__title"><span>Caso prático</span> Título curto do exemplo</h3>
+    <p>Descreva uma situação verossímil baseada nos conceitos do capítulo, sem inventar números normativos. Termine com a lição operacional.</p>
+  </div>
+</section>
+
+<section class="section" id="comparacao">
+  <p class="section-kicker">Síntese</p>
+  <h2>Comparações que ajudam a decidir</h2>
+
+  <div class="compare">
+    <div class="pro">
+      <h4>Vantagens</h4>
+      <ul>
+        <li>Primeira vantagem objetiva.</li>
+        <li>Segunda vantagem, com limite de aplicação.</li>
+      </ul>
+    </div>
+    <div class="con">
+      <h4>Limitações</h4>
+      <ul>
+        <li>Primeira limitação ou risco.</li>
+        <li>Segunda limitação, com consequência prática.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="keyfacts">
+    <div class="keyfact"><b>+15%</b><span>exemplo de número de destaque (confirme na fonte)</span></div>
+    <div class="keyfact"><b>2–3</b><span>outro dado de referência</span></div>
+    <div class="keyfact"><b>0,3</b><span>limiar ou ordem de grandeza</span></div>
+  </div>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Síntese para levar</span>
+    <p>Em duas ou três linhas, o que o leitor não pode esquecer deste capítulo.</p>
+  </div>
+</section>
+
+<section class="section" id="revisao">
+  <p class="section-kicker">Revisão</p>
+  <h2>Perguntas para fechar o capítulo</h2>
+  <div class="quiz">
+    <details>
+      <summary>Pergunta objetiva ou de aplicação sobre o conteúdo.</summary>
+      <div class="quiz__answer"><p>Resposta direta, com a explicação mínima e a referência de página quando necessário.</p></div>
+    </details>
+    <details>
+      <summary>Segunda pergunta, preferencialmente ligando dois conceitos.</summary>
+      <div class="quiz__answer"><p>Resposta comentada.</p></div>
+    </details>
+    <details>
+      <summary>Terceira pergunta de julgamento ou procedimento.</summary>
+      <div class="quiz__answer"><p>Resposta comentada.</p></div>
+    </details>
+  </div>
+</section>

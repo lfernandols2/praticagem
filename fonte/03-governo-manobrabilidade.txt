@@ -1,0 +1,1598 @@
+FONTE: resumo curso h.pdf | CAPITULO 03 - governo-manobrabilidade | paginas 39-62 | OCR ABBYY
+OBS: texto OCR ruidoso, mistura ingles/portugues. Interprete com cautela; nao invente.
+
+
+===== PAGINA 39 =====
+
+PRINCIPLES OF NAVAL ARCHITECTURE 
+CAP 9 - CONTROLLABILITY 
+SECTION 1 - INTRODUCTION 
+> Controllability inclui: starting, steering a steady course, turning, slowing, stopping, backing and diving (subs). 
+> O seu estudo é dividido em 3 áreas: 
+a) Course keeping (ou steering): é a manutenção de um steady mean course (o foco é a facilidade de se manter o rumo) 
+b) Maneauvering: é a mudança controlada da direção de movimento (o foco é a facilidade com que se consegue alterar o rumo, e 
+o raio e dist necessários para efetuar essa mudança). 
+c) Speed changing: é a mudança controlada de veloc, stopping and backing (o foco é a facilidade, rapidez e dist para a mudança). 
+> Course keeping e maneauvering são particularmente sensíveis ao trim do navio. / Essas duas qualidades tendem a trabalhar uma 
+contra a outra, embora um practical compromise is nearly always possible. 
+> Há 3 tarefas envolvidas para se produzir um navio com boa controllablility: 
+a) estabelecimento de especificações e critérios para as 3 áreas acima. 
+b) desenho do casco, sups de controle, appendages, steering gear e sists de controle para cumprir com esses requisitos. 
+c) condução de full-scale trials para medir a performance. 
+SECTION 2 - THE CONTROL LOOP AND BASIC EQUATIONS OF MOTION 
+1) THE CONTROL LOOP: 
+> A controlabilidade é influenciada pelas forças de mov hidrodinâmicas e interações agindo no casco, leme e appendages. Ela tb é 
+influenciada pela resposta de outros fatores eletrônicos, mecânicos, ambientais e ppalmente humanos. 
+> Closed loop (fig 1): na esquerda, temos a trajetória desejada pelo OOW. / No caso ideal, um display mostra ao OOW ou ao auto-
+pilot os paths desejado e real. / Se esses path não coincidirem, uma ação corretiva será tomada (ordem de leme), o que fará uma 
+control force atuar no navio, induzindo um AO A, um mov angular e outras motions ao casco. / Essas motions do casco 
+introduzem grandes forças hidrodinâmicas e momentos que efetuam a mudança de rumo e path. / Além das forças de controle e 
+forças hidrodinâmicas, há ainda as external disturbances (W, corr, ondas). / No caso ideal, o rumo resultante e o actual path são 
+continuamente alimentados ao display do timoneiro, o que vem a fechar o loop. 
+- No caso real, o path instantâneo é raramente conhecido. Quase sempre temos apenas infos de heading e turn rate, e às vezes infos 
+de posição (grandes mudanças de pos podem ser determinadas por sists de navegação ou observações visuais/radar/marcações em 
+águas restritas). Nesse caso, o control loop ainda funciona, mas com menos infos para o PA ou timoneiro. 
+- Todos os elementos do loop são fundamentais para a controlabilidade, ppalmente o steering gear, o rudder e o fator humano. 
+> Speed control loop: serve para determinar a veloc ao longo do path. A única coisa em comum com o control loop é o OOW, que 
+dá as ordens a um engineer/operator, que manipula o power output e dir de rotação do prop para acelerar, parar, reduzir, etc. 
+> No mar, o conning officer tem tempo para dar ordens separadas a ambos os control loops. Já em águas restritas, essas ordens têm 
+que ser emanadas simultaneamente. / Mas com a automação, é comum integrar dos dois loops e eliminar os papéis intermediários 
+do timoneiro e engineer/operator. Com os "drill rigs" e "track-keeping vessels" sofisticados, o automatic controller usa a 
+heading, a veloc e os erros de pos transversal e longitudinal para computar vector thrusts necessários aos diversos force effectors 
+(prop, leme, thrusters, etc), sendo as forças/momentos corretivos ordenados automaticamente. 
+2) AXIS FIXED RELATIVE TO THE EARTH: 
+> As eqs do mov de Newton podem ser usadas no plano horiz com sistemas de eixos fixos à terra ou ao navio (ambos na fig 2): 
+- Heading: é o âng entre o eixo longitudinal x e um dos eixos terrestres. É o "ângulo de yaw" ou "y". 
+- Path: é a trajetória do CG. 
+- Drift ou leeway angle "P": é a diferença entre a heading e o actual course (velocity vector do CG, que é tangente ao path). 
+- y0 é positivo para a BE, e z0 é positivo para baixo. 
+- A dir positiva do eixo Xo is taken to be in the general direction of motion. Sua dir precisa é arbitrária e fixa em rei à terra. 
+> O mov do navio fica completamente definido pelas coordenadas XOG e yoG e pelo ângulo de yaw «j». 
+> Há fatores importantes que acoplam a velocidade do navio com o seu path. / Ex: mudanças de path causam mudança involuntária 
+de veloc (devido ao aumento do drag). / Ex: a thrust dos props pode ser controlada individualmente para afetar também o path. 
+> Xo e Y0 são forças; 
+N é o momento total sobre um eixo // a z0 e que passa pelo CG; 
+A é a massa; 
+Iz é o "mass moment of inertia" em torno do eixo z. 
+3) AXIS FIXED IN THE SHIP: 
+> A origem é o CG do navio. 
+> O eixo x fica no center plane, e é coincidente com o "eixo longitudinal de inércia", que pode-se assumir que seja paralelo à 
+"base Une" do navio. / A direção de x com rei aos eixos Xo-y0 é a heading (\|/), que é o mesmo que yaw angle. 
+> O eixo z fica no center plane e é perpend ao eixo x. 
+> A veloc linear instantânea da origem é o vetor V (tang ao path). 
+> A orientação dos eixos móveis com rei a V é o âng p (= drift angle = AOA medido de Vp/ x). /Na fig 2, y e p são negativos. 
+> Roll, pitch e yaw: 
+são os movs rotacionais nos eixos x, y e z. 
+Surge, Sway e Heave: 
+são os movs translacionais ao longo dos mesmos eixos. 
+"u" e "v": 
+são as componentes de V nos eixos x e y, respect. 
+> As eqs foram desenvolvidas considerando-se a origem no CG. Mas nesse livro será considerado que a origem está no midlength 
+(para simplificar os cálculos e porque a localização do CG muda com as condições de carregamento). 
+1 
+
+
+===== PAGINA 40 =====
+
+4) FORCES ACTING ON A VESSEL DURING A MANEAUVER: 
+> As forças e momentos das eqs de Newton (X, Y e N) surgem de 4 tipos de forças que agem sobre o navio numa manobra: 
+a) Forças hidrodinâmicas agindo no casco e appendages devido à veloc/aceleração do navio, deflexão do leme e rotação do prop. 
+Elas caem em 2 categorias básicas: 
+- as que surgem da veloc do casco na água (dumping forces). 
+- as que surgem da aceleração do casco na água (added mass forces). 
+b) Forças de reação inercial causadas pela aceleração do navio devido a todas as outras forças. 
+c) Forças ambientais causadas por W, corr e ondas. / A corrente normalmente é incorporada nas forças hidrodinâmicas 
+(considerando-se a veloc relativa entre o casco e a água). / O vento e as ondas são tratados como forças externas. 
+- Como a veloc do W é normalmente unsteady, suas forças e momentos serão dependentes do tempo. Essas forças são 
+proporcionais à área acima d'agua e ao quadrado da veloc relativa do W, e tb variam com o âng de incidência. 
+- Há 2 tipos de wave forces: 
+1) Steady and slowly varying forces due to "second-order" wave drift effects: são as mais importantes para a controlabilidade. 
+As wave drift forces dependem basicamente do comp do navio e das magnitudes relativas do comp da onda e amplitude. 
+2) Forças de Ia ordem: são mais importante para sea-keeping. mas que tb podem ser importantes para a controlabilidade no caso 
+de following seas, onde a freq de encontro é pequena. 
+d) Forças externas (tugs ou thrusters), que são eficazes a baixas velocs. Essas forças são praticamente externas ao campo 
+hidrodinâmico da manobra, e são tratadas como adições independentes. 
+y As 2 primeiras agem no plano horiz e envolvem apenas respostas de surge, sway e yaw, embora ocorram rolling effects (heel) na 
+manobra de navios de alta veloc e nos SWATH vessels (Small Waterplane Area Twin Hull). 
+> O efeito do leme num giro é indireto: movê-lo gera um momento que faz o navio mudar de heading e assumir um AOA em rei à 
+dir de mov do CG. Isso gera forças hidrodinâmicas no casco, que depois de um tempo fazem o CG se mover lateralmente. 
+- Esse mov lateral sofre oposição das reações inerciais. Se o leme for mantido, uma steady turning condition se desenvolverá 
+quando as forças e os momentos hidrodinâmicos e inerciais se balancearem. 
+> Pitching muda a forma do casco imerso e afeta muito os coefs das eqs de mov, ppalmente em quartering e following seas. 
+SECTION 3 - MOTION STABILITY AND LINEAR EQUATIONS 
+1) DEFINITIONS OF MOTION STABILITY: 
+> O conceito de "path keeping" está totalmente relacionado ao conceito de "course stability" ou "stability of direction". 
+- Um corpo possui estabilidade se retorna sozinho ao estado inicial de equilíbrio quando cessa a força perturbadora. 
+- No caso de path keeping, a fonte mais óbvia de perturbação seria uma onda ou rajada de W. Se o navio vai retornar ou não ao 
+estado inicial (sem ação do timoneiro) dependerá do tipo de "motion stability" que ele possui. 
+> Fig 3: tipos de motion stability (segundo os atributos do estado inicial que são mantidos no path final): 
+- Case l("straight line" ou "dynamic stability"): o final path retém apenas a linha reta. 
+- Case 2 ("directional stability"): o final path retém a linha reta e a direção original. 
+- Case 3 ("directional stability"): igual ao case 2, só que o navio não oscila, ele transiciona suavemente ao estado final. 
+- Case 4 ("positional motion stability"): o navio retorna ao path inicial (mesma linha reta, direção e transverse position). 
+> Esses tipos de estabilidade formam uma hierarquia ascendente. A "straight line stab." Cease 1) é o objetivo usual do designer para 
+a maioria dos navios governados manualmente. Os outros casos requerem vários graus de controle automático. 
+2) COURSE STABILITY WITH CONTROLS FIXED AND CONTROLS WORKING: 
+> Os 4 tipos de estabilidade fazem sentido com as superfícies de controle: trabalhando, fixas em zero ou livres para girar. 
+> O termo "estabilidade" normalmente significa "controls-fixed stability". Entretanto, o termo tb pode ter significado com os 
+controles trabalhando. Alguns exemplos que ilustram essas diferenças: 
+a) No plano vertical, um navio em mar calmo possui "positional motion stability - caso 4" (portanto, tb possui directional e 
+straight line stab). Nesse caso, as forças e momentos hidrostáticos introduzem um tipo único de estabilidade. 
+b) No plano horiz, um navio não pode ter positional ou directional stab com controles fixos, porque as mudanças em bouyance 
+que o estabilizam no plano vert não existem no plano horiz. Mas ele deve ter ambos os tipos de estab com controles trabalhando. 
+> O único tipo de estab possível no plano horiz com navios auto-propulsados e controles fixos é a straight-line stab, que é 
+desejável, mas não é mandatória. Com algumas exceções, quando mencionarmos "controls-fixed stab", o significado será 
+"controls-fixed straight-line stab". 
+> A cada tipo de controls-fixed stab estará associado um index numérico cujo sinal indicará se o corpo será estável ou instável, e 
+cuja magnitude designará o grau de estab/instab. 
+
+
+===== PAGINA 41 =====
+
+Jjõ&.cjj>i^„i~^ãTais> 
+3) ASSUMPTIONS OF LINEARITY AND SIMPLE ADDABLE PARTS: 
+> Para compreender o impacto das várias caracts de desenho na controlabilidade, devemos nos familiarizar com alguns aspectos 
+relacionados ao conceito de estabilidade e ao desenvolvimento e uso das eqs lineares do movimento, (eqs não-lineares não cai) 
+> Assumiremos que as "force components" X e Y e o "moment component" N sejam compostos apenas por forças e momentos que 
+surgem de movimentos do navio excitados por perturbações. As expressões de X, Y e N são: 
+X = ¥x (u, v, ú, v, *|í, y) 
+Y = Fy (u, v, ú, v, \|/, *|Z) 
+N = Fv (u, v, ú, v, <|/, \|í) 
+Onde u e v são as componentes do vetor velocidade "V" nos eixos x e y, respectivamente. 
+> Para se obter um index numérico de motion stability, usa-se a "Expansão de Taylor" de uma fç de várias variáveis. 
+- A "Taylor Expansion" de uma fç de apenas uma variável "x" (fig 4) diz que, se a fç dessa variável e todas as suas derivadas 
+forem contínuas num determinado valor (digamos, x^, então o valor da fç a um valor de x não muito longe de Xi pode ser 
+expresso por uma fórmula cascuda composta de vários termos. / Mas se a mudança na variável (ôx = x - Xi) for suficientemente 
+pequena, essa eq cascuda pode ser simplificada. Essa simplificação é chamada de "forma linearizada". 
+> A motion stability determina se uma perturbação muito peq de um estado de equilíbrio inicial irá aumentar ou diminuir com o 
+tempo. Portanto, a assumption que prove linearização (ôx pequeno) é perfeitamente compatível com a motion stability, and it's ok 
+to use the "linearized Taylor Expansion". 
+> Alguns fatores que simplificam ainda mais a forma linearizada: 
+a) Como a maioria dos navios é simétrica no plano x-z: 
+- Vi será zero (exceto em navios com números ímpares de props ou com qq número de unirotating props). 
+- ôY/ôu = ôY/ôú = 0 (uma mudança na veloc ou acel para vante não produz transverse force). 
+b) Várias "cross-coupled derivatives" são iguais a zero por causa da simetria em x-z (ex: ÔX/ôv, ôX/ôv, SX/õy, ÔY/ôú), ou 
+possuem small non-zero values por causa da peq assimetria no plano y-z (ex: ôN/ôv, ôY/ô\|/). 
+4) NOTATION OF FORCE AND MOMENTS DERIVATIVES: 
+> Simplified notation of SENAME: 
+ÔY/ôv = Yv 
+ÔN/ôy = Nv 
+and so on... 
+\|/ = r e»|/"=r 
+> Para adimensionalizar, dividimos as eqs de força por (p/2).L2.V2, e a de momento por (p/2).L3.V2. / Essas formas adimensionais 
+são os coeficientes. / Usa-se um "primed symbol" ( ' ) para designar as formas adimensionais. 
+> Por entrar numa das eqs cascudas de Y como uma adição ao "mass term A", termo Y'* é chamado de "virtual mass coefficient". 
+- Esse termo é sempre negativo, ou seja, Y age sempre em oposição a v (ou seja, a força é uma reação à aceleração lateral). 
+- O fato de que "a força necessária para se acelerar um corpo num fluido é sempre maior que massa x aceleração" fez surgir o 
+conceito de "entrained mass" ou "added mass". Entretanto, essa força adicional deve ser realmente interpretada como a força 
+hidrodinâmica que surge por causa da aceleração do corpo no fluido. 
+(Não é reação inercial!Éhidrodinâmic
+Obs: analogamente, o termo N\ (que aparece como uma adição a I'z) é chamado de "vitual moment of inertia coefficient". 
+Obs: as derivadas Y'f. e N'y são chamadas de "coupled virtual inertia coefficients". Conforme já visto, essas derivadas seriam 
+zero se os cascos, incluindo os appendages, fossem simétricos no plano y-z. 
+Obs: é conveniente usarmos uma notação que diferencie as forças e momentos de acordo com a sua origem. Ex: Yvv será usado 
+para denotar a componente em y da força hidrodinâmica agindo no CG que se desenvolve devido a uma veloc lateral v. 
+5) CONTROL FORCES AND MOMENTS: 
+^ Todos os termos das eqs cascudas estudadas devem incluir o efeito do leme mantido a 0o. 
+- Para considerar o path do navio com os controles trabalhando, as eqs de movimento devem incluir termos (do lado direito) que 
+expressem as forças e momentos de controle criados pelo leme (ou qq dispositivo de controle) em fç do tempo. 
+> Fig 5: - ÔR = âng de deflexão do leme, medido do plano x-z para o plano do leme (positivo é curva para BB). 
+- Y8 ôR = é a componente linearizada no eixo y da força agindo no CG criada pela deflexão do leme. 
+- N5 ÔR = é a componente linearizada do momento no eixo z criado pela deflexão do leme. 
+- Ys e Ns = são derivadas linearizadas de Y e N com relação a ÔR. 
+> A força lateral do leme defletido cria um momento para girar o navio. Essa guinada faz o navio assumir um AOA na água. 
+- Daí um navio bem desenhado (que age como um foil com um AOA num fluido) gera forças laterais que criam um momento N„v 
+que aumenta muuuito o momento do leme. The combined moments cause the turning motion, as seen in fig 5. 
+> No caso de perturbações peqs (único caso onde as eqs cascudas se aplicam), somente peqs defiexões do leme são admissíveis. 
+Com essa restrição, derivadas como Y'v, N'v, Y'r e N'r são avaliadas em ôR = 0, e assume-se que elas não mudam a outros 
+valores admissíveis de ôR. / Furthermore, para configurações usuais de navios, Y'j.« 0 e N'* ~ 0. 
+
+
+===== PAGINA 42 =====
+
+SECTION 4 - ANALYSIS OF COURSEKEEPING AND CONTROLS-FIXED STABILITY 
+> This section develops the basic "stability indexes" e descreve a "definitive spiral maneauver", cujas medidas numéricas são 
+indicativas das caracts de estabilidade de um navio. 
+1) STABILITY INDEXES: 
+> A solução das eqs de sway e yaw para v'e r' gera uma eq diferencial que leva ao conceito de "straight-line stability". 
+v' = Vi.eV + V2.eV 
+Onde: 
+e = 2,718; 
+r' = Ri.eY + R2.eCT2' 
+V], V2, Ri e R2 são ctes de integração; 
+Oi e c2 são stability indexes com as dimensões de l/t. 
+- Vemos que, se ambos os valores de a forem negativos, v' e r' se aproximam a zero com o aumento do tempo, o que significa 
+que o path do navio vai eventualmente assumir uma nova straight line (o que corresponde ao caso 1). 
+- Mas se Oi ou c2 forem positivos, v' e r' vão aumentar com o tempo, e um stright-line path will never be resumed (e o navio 
+poderá terminar numa steady turn com o leme a meio). 
+> A relação entre os "stability indexes" o e as "stability derivatives" pode ser obtida por uma eq quadrática em c: 
+A.o2 + B.c + C = 0 
+> 
+essa eq tem duas raízes: Oj e a2, both of which have to be negative for controls-fixed stability. 
+> Na prática, apenas at é fornecido para navios de superfície. Isso porque a2 é algebricamente menor que ov Portanto, fica claro 
+pelas eqs que, depois que a perturbação cessar, a descrição do movimento pelo termo Oi é maior que pelo termo a2. 
+- Portanto, Oi sozinho é uma boa medida quantitativa negativa do grau de estabilidade. 
+2) THE STABILITY CRITERION: 
+(Obs: as eqs de A, B e C foram omitidas por serem muito complexas e de pouco interesse p/ a prova) 
+> A eq. acima (A.o2 + B.c + C = 0) revela que as duas condições essenciais para que Oi e o2 sejam negativos são: - C/A > 0; e 
+- B/A > 0 
+- Assim, as condições para estabilidade foram reduzidas aos requisitos de que B/A e C/A devem ser positivos. 
+- Como todos os termos que compõe A, B e C são adimensionalizados, as magnitudes e os sinais de A, B e C podem ser 
+determinados analisando-se as derivadas dimensionais ou adimensionais que aparecem nas definições de A, B e C. Como os 
+termos adimensionalizantes p, V e L são sempre tomados como positivos, eles não mudam os sinais das derivadas. 
+a) Primeiro trataremos da derivada Y*, que aparece nas definições de A e B. Essa derivada é o slope da Y-force com relação a v. 
+- A fig 6 mostra um navio com uma aceleração + v, com a origem a meia-nau. A proa e a popa experimentam uma aceleração v na 
+direção positiva de y. Portanto, a pressão da reação inercial da água sendo acelerada pelo casco produz uma força na direção 
+negativa de y (os efeitos da proa e da popa se somam para prover uma força negativa em y relativamente grande). 
+- No gráfico de Y x v (fig 7), a inclinação de Yy tomada em v = 0 terá um valor negativo de magnitude relativamente grande. 
+- Para ship-shaped bodies (grande comp/boca), a magnitude de Y^ é aprox igual ao deslocamento do navio (A). 
+- Dessa forma, o termo (A - Yy), que está presente em A e B, possui um grande valor positivo aproximadamente igual a 2.A. 
+b) A derivada Nt tb aparece em A e B, e tb é sempre negativa e relativamente grande, como visto na fig 8. 
+- A plotagem de N x r é semelhante à da fig 7. 
+- Para ship-shaped bodies (grande comp/boca), a magnitude de Nf é quase igual a Iz (momento mássico de inércia). 
+c) Ny e Yt: nesses casos, os efeitos da proa e da popa se opõem, e que os valores de Ny e Yf são peqs e de sinal indefinido. 
+d) Yv: a fig 9 mostra a natureza das forças agindo num corpo com uma veloc v adicionada a uma veloc para vante u. Nota-se que, 
+como resultado do AOA no corpo (ji ~ -v/V), a proa e a popa experimentam um lift oposto a v. / Portanto, Yv é sempre negativo! 
+e) Ny: a contribuição da proa para a Yv v-force total é normalmente maior que a contribuição da popa. Assim, o centro de ação da 
+força total na y-direction devido a v fica bem AV do midlenght. Portanto, com a origem no midlenght, Nv normalmente tem um 
+valor negativo para navios sem fins ou rudders. / É óbvio que a adição de um leme AR, por ex, aumenta a magnitude de (Yv v)steri» 
+e portanto reduz a magnitude negativa de Nv. Se o leme for muito grande, Nv pode até ficar positivo (o que não é comum). 
+- A fig 10: mostra uma plotagem típica de Y x v e as possíveis plotagens de N x v. 
+f) Yr e Nr: vide fig 11. / A um navio se movendo com veloc V, adicionou-se uma veloc angular r. O ponto B (bow) tem um AOA 
+para a direita que produz um Y-force negativo e um N-moment negativo. / Já o ponto S (stern) experimenta um AOA por BB que 
+produz uma Y-force positiva e um N-moment negativo. / Desse modo, a proa e a popa se somam para dar um grande N-moment 
+negativo para um r positivo, enquanto que a proa e a popa se opõem, resultando num peq valor (positivo ou negativo) de Y-force 
+para um r positivo (Y-force é negativo se a proa dominar). / A fig 12 mostra exemplos d e Y x r e N x r para origem no midlenght. 
+> Das eqs de A e B (omitidas), conclui-se que A e B terão sempre um grande valor positivo, independente da escolha da origem. 
+> Portanto, a condição para estabilidade se reduz apenas a C > 0. 
+[ou Y'v N'r > N'v (Y'r - A') ] 
+- C é considerado o "discriminante da stab dinâmica" ou "stabüity criterion". 
+- A solução dessa desigualdade pode ser interpretada como uma relação entre as forças das alavancas devido a yawning e sway. 
+- Essa desigualdade indica se o navio é ou não estável, mas não quantifica nada (as do the stabüity indexes a). 
+> Os stabüity indexes o não dependem da veloc no range dos Fn peqs e moderados, onde o CT (coef resist) é aprox cte. Portanto, se 
+um navio possui controls-fixed straight-line stability a baixas velocs, ele tb será estável a velocs mais altas, e vice-versa. 
+- Isso pode parecer conflitar com a prática, que diz que, na presença de ventos ou correntes variáveis, a pathkeeping ability melhora 
+com o aumento da veloc. Entretanto, perturbações contínuas não são consideradas devido à nossa definição de estabilidade. 
+> Outra forma útil de se comparar navios é usar o index T (aprox = l/oi), do par de indexes K e T (da section 5), que podem ser 
+desenvolvidos a partir de trials comuns e servem para se comparar navios. 
+4 
+
+
+===== PAGINA 43 =====
+
+3) THE DIEUDONNE'S SPIRAL MANEAUVER (OU DIRECT SPIRAL MANEAUVER): 
+> É uma definitive ship trial que identifica as características de estabilidade direcional de um navio. As medidas numéricas obtidas 
+são as steady yawing rates em fç do âng de leme, cuja plotagem indica as caracts de estabilidade. / A manobra é assim: 
+a) o navio é steadied num rumo e veloc ctes por aprox 1 min. Quando uma steady speed for alcançada, não se toca mais nas máqs. 
+b) depois de aprox 1 min, o leme é colocado num âng õR de aprox 15° e mantido até que a yaw rate fique cte por aprox 1 min. 
+c) depois tiramos um pouco de leme (cerca de 5o) e mantemos até que um novo valor de veloc angular seja alcançado e mantido 
+cte por vários minutos. 
+d) repetem-se esses procedimentos para diferentes ângs de leme (mudados pouco a pouco, desde, por ex, grandes valores a BE até 
+grandes valores a BB, e de volta a grandes valores a BE). 
+> Ex da fig 13 (navio A): se a plotagem de um navio que vai de leme a BE para BB e de volta a BE for uma linha única, então o 
+navio terá controls-fixed straight-line stability (ou seja, possui o stability index o negativo). 
+> Ex da fíg 13 (navio B): se a plotagem consistir de 2 branches unidos formando um "hysteresis loop", o navio é instável (o > 0). 
+- Começamos no ponto d. / Vamos tirando leme até que, em c, o leme estará a meio e o navio continuará girando para BE. Em a, 
+teremos leme a BB e giro a BE. / Ao aumentarmos um pouco o leme a BB, o giro reverte rapidamente (pode até overshoòtar 
+temporariamente o ponto at). / Logo, um navio instável pode girar contra o seu leme até um certo ôR, e depois girar rapidamente 
+na direção oposta até uma nova posição estável para aquele mesmo ÔR. 
+- A existência do loop significa que, com o leme fixo a 0o, o navio pode continuar a girar. A altura e largura do loop são medidas 
+numéricas do grau de instabilidade (quanto maior o loop, mais instável). 
+- A inclinação da curva de yaw rate em 8R = 0 tb é uma medida do grau de estabilidade ou instabilidade. 
+- Nenhum dado pode ser obtido na curva pontilhada entre a e b, pois estes são pontos de equilíbrio instável para os ângs de leme 
+particulares (o slope na origem é negativo). / Com ôR = 0, o navio se moverá para c ou Cj, dependendo da previous time history do 
+movimento, pois essas são posições de equilíbrio estável para ôR = 0, visto que a inclinação da curva nesses pontos é positiva. 
+- Vemos que há regiões entre as linhas aai e bbi onde há mais de uma veloc angular para uma dada deflexão de leme. 
+- A teoria linear usada não é capaz de prever as caracts do loop de navios instáveis. Para esse fim, usa-se a teoria não-linear. 
+Obs: analogamente, a plotagem da fig 14 mostra a estabilidade em "heel" (curva de momento de endireitamento x heel angle O). 
+A análise dos navios A e B é idêntica à da fig 13. / O navio B é transversalmente instável, ou seja, ele não consegue permanecer 
+upright mesmo na ausência de um momento inclinante (ele inclinará para c ou cl5 que são posições de equilíbrio (slope positivo)). 
+> Os resultados da fig 13 são simétricos em torno de ÔR = 0 e \|/= 0. Isso é típico de navios que são dinâmica e geometricamente 
+simétricos no plano x-z. 
+> Entretanto, navios com um núm ímpar de props ou com qq núm de unirotating props não são dinamicamente simétricos no plano 
+x-z. Portanto, os resultados serão deslocados para um ou outro lado, dependendo da dir de rotação do uncompensated prop. 
+- Para um navio estável, o âng de leme ôi necessário para manter um rumo reto normalmente virá associado a um valor Vi 
+diferente de zero. Os valores de ôi e V! tb são chamados de "neutral angles". 
+- Para um navio instável, o âng de leme correspondente à pos da metade da altura do loop da fig 13 é o neutral angle aproximado. 
+> Na spiral maneauver, é importante dar tempo suficiente para as condições estabilizarem após cada mudança de leme. A fig 15 
+mostra que, se esse tempo for peq (60 ou 120 segs), um navio estável poderá apresentar um loop e parecer instável. 
+> Como já visto, os controls-fixed stability indexes não dependem da veloc (para velocs baixas e médias). Portanto, os resultados de 
+spiral maneauvers conduzidos em velocs diferentes não diferem muito. 
+> A instabilidade direcional não é necessariamente ruim. Navios grandes e lentos com instabilidade direcional podem ser 
+manobrados de forma satisfatória. O importante é o grau de instabilidade relativamente ao tipo, tamanho e veloc do navio. 
+Obs: o "Meander test" é um método para verificar a estab direcional (case 2) de submarinos no plano vertical. / Como navios de 
+superfície não possuem estab direcional case 2 no plano horizontal, esse teste não é feito. 
+(deflete-se o elevador momentaneament
+e coloca a meio em seguida) 
+4) THE BECH REVERSE SPIRAL MANEAUVER: 
+> É um teste alternativo à direct spiral maneauver. 
+> O navio é mantido numa curva com rate cte enquanto se mede o "mean rudder angle" necessário para produzir essa yaw rate. 
+- Isso é repetido para várias yaw rates (por ex: de 0,5°/seg a BB a 0,5°/seg a BE), podendo os pontos serem obtidos em qq ordem. 
+- O teste pode ser feito com o piloto automático, ou com um timoneiro munido de rate-gyro indicator e rudder angle indicator. 
+> Para navios direcionalmente estáveis, os resultados são similares aos da direct spiral maneauver. 
+> Para navios instáveis, pode-se identificar um hysteresis loop (fig 16), mas uma relação definida é indicada dentro do loop (pois as 
+condições do teste não são mais controls-fixed). / Os resultados tb dão a forma do loop para que se avalie o grau de instabilidade. 
+5) PULLOUT MANEAUVER (fig 17): 
+(pode ser conduzido junto com outros testes, mas não é muito usado) 
+> O Pullout test prove uma indicação da estabilidade do navio num straight course. 
+> Faça o navio girar com uma dada rate para qq bordo. Depois coloque o leme a meio (neutral position). 
+- Faça para os dois bordos, visando detectar possíveis assimetrias. 
+> Se o navio for estável, a rate diminuirá até zerar (para curvas a BE e BB). 
+Se ele for apenas moderadamente instável, a rate diminuirá e se manterá num valor residual. 
+5 
+
+
+===== PAGINA 44 =====
+
+ffi8S2S8g&gSSS333&£££Sg8aSBg 
+SECTION 5 - STABILITY AND CONTROL 
+> Os "controls-fixed stab, indexes" estudados constituem um dos importantes elementos de path keeping. Como o problema prático 
+de path keeping envolve repetidas instâncias de path correction, os seus elementos básicos tendem a se mesclar com os elementos 
+básicos de path changing (mostrados na fig 1). 
+> A path keeping e a path changing ability de um navio dependem de: 
+a) da magnitude e freq de quaisquer "yawing moments" e "sway forces" que agem para retirar o navio do path desejado. 
+b) do tipo de resposta do navio com controles fixos a essas perturbações. 
+c) da rapidez com que o erro entre o path atual e o desejado pode ser detectado, e da rapidez com que se pode iniciar uma ação 
+corretiva. 
+d) da rate na qual a ação corretiva é traduzida em mov do leme. / Isso é uma fç do lance entre o 3o e 4o elementos do control loop 
+e da rate na qual a sterring gear consegue defletir o leme (4o elemento). 
+(timão > leme) 
+e) de magnitude da força de controle e momento aplicados ao navio pelo leme (tamanho do leme). 
+> De todos esses elementos, apenas 2o depende da estabilidade com controles fixos (mas os outros tb são importantes). 
+> Normalmente, as deficiências de um elemento do control loop podem ser compensadas por melhorias em outros elementos. 
+Ex: bons controles automáticos (c) podem compensar uma estabilidade pobre (b). (mas um leme grande (e) ou uma boa rate de 
+deflexão do leme (d) podem não ser suficientes para compensar outras deficiências) 
+> Embora peqs graus de instabilidade com controles fixos sejam comuns em muitos navios, o melhor desenho provavelmente será 
+aquele que apresente menos deficiências em cada elemento do control loop. 
+> DEFINITIVE MANEAUVERS: o engenheiro se interessa mais pelos elementos (b), (d) e (e) do path keeping/path changing 
+problem. Portanto, certas manobras foram desenvolvidas para demonstrar a eficácia desses elementos (estabilidade e controle) e 
+eliminar ao máx possível a influência de (c) (timoneiro ou autopilot). São elas: 
+a) Direct or reversed spiral (já estudadas): determina características de estabilidade. 
+b) Zigzag, Z, ou "Kempf overshoot": determina características de controle. 
+c) Turning (section 6-1): denota turning qualities. 
+1) ZIGZAG MANEAUVER OR KEMPF OVERSHOOT: 
+(é a 2a em importância depois da spiral maneauver) 
+> Os resultados indicam a habilidade do leme em controlar o navio. / Mas assim como os resultados da spiral maneauver tb dão 
+uma indicação da efetividade do leme, os resultados da zigzag tb dependem, em parte, das caracts de estabilidade do navio. 
+> Procedimento: 
+a) steady the ship como no passo (a) da spiral maneauver. 
+b) mova o leme para um âng pré-selecionado (ex: 20°) usando a máx razão, e mantenha-o até atingir uma mudança de rumo pré-
+selecionada (ex: 20°). 
+c) nesse ponto, inverta o leme para 20° para o outro bordo, tb usando a máx razão, e mantenha-o até que o navio reverta e guine 
+20° para o outro bordo. This completes de overshoot test. 
+d) Para completar o zigzag test, deflexione o leme de novo para o mesmo âng na dir inicial, usando a máx razão. / Esse ciclo pode 
+ser repetido através da 3a, 4a ou mais "executes", embora as caracts do Io overshoot sejam as mais importantes. 
+> Resultados (fig 18 - maneauver carried through 5 executes): só é possível obter esses dados com um navio bem instrumentado. 
+Com os instrumentos normais de navegação, apenas as curvas de âng de leme e âng de yaw podem ser obtidas. 
+Os pontinhos indicam a reversão do leme. / As principais medidas numéricas são: 
+a) tempo para alcançar o 2o excecute yaw angle: é uma medida direta da capacidade de um navio rapidamente mudar de rumo 
+(melhora com o aumento da eficiência do leme e com a redução da fixed-controls stability). 
+b) overshoot yaw angle: decresce com o aumento da estabilidade, mas aumenta com o aumento da eficácia do leme. 
+c) overshoot width of path: decresce com o aumento da estabilidade e com o aumento da eficácia do leme. 
+- (b) e (c) são medidas numéricas da "counter-maneauvering ability", e são indicativos da quantidade de antecipação requerida de 
+um timoneiro quando operando em águas restritas. 
+> Todos os resultados dependem da veloc: ambos os overshoots aumentam com a veloc, e o time to reach execute diminui. 
+- Obs: Entretanto, o "nondimensional time to reach execute" t' (que aparece na fig 18 como "ship lengths of travel to execute") 
+tende a aumentar com o aumento da veloc devido à influência da taxa de deflexão do leme (quando essa taxa é adimensionalizada, 
+ela é maior nas baixas velocs que nas altas, então o leme exerce a sua influência por mais tempo em baixas velocs). / Entretanto, a 
+despeito desse efeito benéfico quando a veloc cai, o "time to reach execute" normalmente aumenta com a diminuição da 
+veloc. 
+> Essa manobra, realizada no plano vertical, é muuuito importante para os subs. 
+
+
+===== PAGINA 45 =====
+
+2) THE "K" AND "T" COURSEKEEPING AND TURNING INDEXES: 
+> Os indexes T e K, que podem ser obtidos na zigzag trial, são ferramentas de análise simples e muito usadas para se comparar 
+course keeping e turning abilities de navios. Eles dão um significado físico às standard trials. 
+> Simplificação adotada por Namoto: as eqs lineares de yaw e sway são acopladas apenas pelos termos N'vv' e Y'rr', que 
+tipicamente são pequenos. Se esses cross-coupling terms forem negligenciados e a veloc de sway (ou side slip angle) for 
+eliminada, o turning dependerá apenas da yaw rate "r". 
+> Os índices T' e K' representam as seguintes razões de coeficientes adimensionais: 
+T' = n'z / N'r 
+= yaw inertia coef. 
+/ yaw dumping coef. 
+K' = N'6 / N'r = turning moment coef. / yaw dumping coef. 
+Logo: 
+K' / T' 
+= turning moment coef. / yaw inertia coef. 
+> Quando o leme é colocado repentinamente e mantido num ângulo ô0, a solução para r será: 
+r = K.ô0 (1 - e_t/T) 
+- A razão r aumenta exponencialmente com o tempo, mas a uma taxa decrescente que depende de T, e tende a estabilizar em K.ô0. 
+> K grande: maior steady-state turning ability. 
+- O diâmetro adimensionalizado do giro Do/L se relaciona com K' da seguinte forma: 
+D0 / L = 2 / K'.ôR0 
+- Logo, se o navio tiver um K' grande, ele poderá usar um ÔR0 peq para girar com um determinado diâmetro. 
+> T peq: rápida resposta inicial ao leme, o que implica em boa "course changing ability" e boa "course checking ability" 
+quando se completa a curva. 
+- A equação de r mostra que T não tem nenhum efeito na steady turning rate, mas um T peq reduz o tempo necessário para 
+se alcançar um giro sustentado. 
+Obs: como resposta rápida é importante para course keeping (steering), ela é consistente com um T pequeno. 
+Obs: ao mesmo tempo, T é uma medida recíproca da course stability (a estabilidade aumenta quando T diminui). Mas um valor 
+negativo de T indica instabilidade dinâmica (pois se pode comprovar que Oj = - 1/T'i). 
+Obs: como ©i = - 1/T'j, o T fornece uma medida quantitativa direta da straight-line stability. 
+(Pelo livro, a influência de Tna course stability não é clara, pois há afirmações conflitantes.) 
+> As ppais qualidades de manobrabilidade podem ser caracterizadas usando-se apenas K' e T'. 
+- O aumento dos valores seguintes indicam uma boa performance de: 
+T' 
+- course stability (?) 
+1 / T' 
+- resposta ao leme 
+K' 
+- turning ability 
+> Um navio altamente manobrável (rápida resposta ao leme, boa turning stability e baixa course stability) terá T' peq e K' grande. 
+- Ou seja, um K'/T' grande (ou Norrbin parameter = P = K72.T') é um indicativo de boa manobrabilidade. 
+- Entretanto, esse parâmetro não é um bom indicativo de course-keeping ability f good steering), pois isso pode ser alcançado de 
+duas maneiras: - T' alto (alta course stability e resposta lenta); ou 
+- T' baixo (estab baixa, ou até negativa, somada a uma reposta rápida) associado a um bom controle automático. 
+- Resumindo, um K'/T' grande sugere uma boa overall controlability apenas se a estabilidade não for maior que o necessário. 
+> Angulo de overshoot da zigzag maneauver: é usado para se medir a controlabilidade. 
+- Para um dado âng de leme, o âng de overshoot é aprox proporcional a K'.T'. 
+- A desvantagem é que não se pode usá-lo para distinguir dois navios que possuam: 
+a) good turning e resposta rápida (K' grande e T' pequeno); e 
+b) poor turning e resposta lenta ou boa course stability (K' peq e T' grande). 
+(a) é muito superior em overall controlability. 
+- Mas o âng de overshoot indica a turn-checking ability! 
+> Nomoto: 
+- Turnig moment coef <x> AR/LT 
+- Yaw inertia coef 
+<x> V/L2T 
+Então: 
+K'/T' oo AR.L/V = ct.AR.L/V 
+(AR = área do leme; V = volume deslocado; Cj é uma cte de proporcionalidade, 
+que tende a ser independente do tipo de navio e do âng de leme) 
+- Como um K'/T' grande é favorável, um valor grande de AR.L/V é desejável. 
+- Conclusão: uma vez que dimensões gerais do navio forem estabelecidas, ambos os aspectos da controlabilidade podem ser 
+melhorados pelo aumento do tamanho do leme ou da sua efetividade. 
+> Os indexes T' e K' podem ser calculados numericamente se os coefs de massa e hidrodinâmicos do navio forem conhecidos. 
+- Uma vantagem desses indexes é que eles podem ser derivados a partir de resultados de standard trials para serem comparados 
+com os cálculos. Eles dão um significado físico às standard trials. 
+
+
+===== PAGINA 46 =====
+
+«nmi 
+SECTION 6 - ANALISIS OF TURNING ABILITY 
+1) CHARACTERISTICS OF THE TURNING PATH: 
+> A resposta do navio à deflexão do leme e as forças e momentos produzidos pelo leme podem ser divididos em 2 partes: 
+- Initial transient portion: 
+- ocorrem acelerações significantes de surge, sway e yaw. 
+- Steady turning portion: 
+- a razão de giro e a fwd speed são constantes, e a trajetória é circular. 
+> Diagrama de definições para curvas de qq diâmetro (fig 20): o turn path de um navio é caracterizado por 4 medidas: 
+- Advance: é a dist da origem no "execute" até o eixo x do navio quando esse eixo tiver girado 90°. 
+- Transfer: é a dist do approach course para a origem do navio quando o seu eixo x tiver girado 90°. 
+- Tactical diameter: é a dist do approach course ao eixo x do navio quando esse eixo tiver girado 180°. 
+- Steady turning diameter. 
+(os 3 primeiros são relacionados ao heading do navio, e não à tang ao turning p
+> Pivot Point numa steady turn (fig 20): para um observador a bordo, parece que o navio está pivoteando sobre um ponto que está 
+um pouco AR da proa. 
+- O pivot point fica dentro da curva descrita pelo CG. 
+- Devido à combinação âng de deriva + rotação, o escoamento no PP é // ao eixo x do navio. / Para uma curva a BE, AV 
+desse ponto o fluxo se aproxima por BE, e AR desse ponto o fluxo se aproxima por BB. 
+- A dist do PP ao CG é xc = R.sin B. / xc normalmente vai de 0,3.L a 0,5.L. 
+- Como um peq raio de giro está associado a grandes drift angles B (e vice-versa), o produto R.sin B não varia muito para 
+diferentes navios, ou para um mesmo navio girando com diferentes raios. 
+- Para a maioria dos navios, o PP fica entre a proa e 0,2.L AR da proa. 
+> Na Ia fase do giro, antes dele se tornar estável, há tb um "pivoting point aparente", que fica próximo da proa. Esse ponto 
+inicialmente segue a extensão em linha reta do approach path, enquanto a popa se desvia para fora e a proa para dentro do 
+approach path. 
+> A turning circle maneauver é muito praticada a bordo e é destrinchada em estudos de manobrabilidade. 
+2) THE THREE PHASES OF A TURN: 
+> Suponhamos que um navio está avançando num straight path quando o seu leme é defletido e mantido num angulo fixo para BE. 
+O resulting path do navio pode ser dividido em 3 fases distintas: 
+Fase 1) 
+(não há velocs, só acelerações) 
+y Começa no instante em que o leme começa a defletir, and may be complete by the time the rudder reaches its full deflection. 
+> Nesse período, a rudder force (Y5 ôR) e o rudder moment (Ns ôR) produzem acelerações, e a elas se opõem apenas a reação 
+inercial do navio, pois ainda não deu tempo de se desenvolverem forças hidrodinâmicas oriundas de um drift angle (B) substancial 
+ou uma rotação (r). 
+> Portanto, B = v/V = r = 0, e teremos apenas as acelerações v e r . 
+> Nas figs 20 e 21, nota-se que, nessa fase, a aceleração transversal (v) é negativa (i.e., para BB), sendo que a curva eventualmente 
+será para BE. Isso ocorre porque a força do leme (Ys ôR) é direcionada para BB numa curva para BE. 
+> As acelerações v e r podem existir isoladas apenas momentaneamente, pois elas rapidamente geram um drift angle p e uma 
+rotação r no navio. Com a introdução desses parâmetros, o navio entra na 2a fase. 
+Fase 2) 
+> Nessa fase, as acelerações coexistem com as velocs, e os termos de excitação Ys ôR e N5 ôR estão atuando plenamente. 
+> O evento crucial que ocorre no começo da 2a fase é a criação de uma Yv v-force direcionada positivamente para a direita, 
+em direção ao centro do giro, como resultado da introdução do âng de deriva. / A magnitude dessa força rapidamente supera 
+a Y5 ôR- force que atua para BB (vide fig 5). 
+- Conforme vemos na fig 21, isso faz com que a aceleração v pare de crescer para BB e eventualmente seja reduzida a zero, na 
+medida em que a Yv v-force direcionada para dentro do giro se iguala à força centrífuga direcionada para fora. 
+> Na 2a fase, o path do CG inicialmente responde à Ys ôR- force e tende a BB antes que a Yv v-force cresça o suficiente to enforce 
+the starboard turn. / Esse offset para BB, embora seja visível na fig 20, é negligenciável ou inexistente na prática por causa da 
+pequena duração da fase 1, e também devido ao rápido desenvolvimento do grande Nv v-moment no navio. 
+3) STEADY TURNING RADIUS (Fase 3): 
+(não há acelerações, só velocs) 
+^ Depois de algumas oscilações (algumas devido ao settling down da propulsão), a 2a fase termina com o estabelecimento do 
+equilíbrio final de forças. 
+> Fig 20: nessa fase, o raio é cte, v = r = 0, e v e r possuem valores diferentes de zero. 
+(v é negativo (para BB) para uma curva a B
+> Concluímos que: 
+- O raio R da steady turn é prop a L, e inversamente prop a ôR. 
+- O âng de deriva B é diretamente prop a ôR. 
+Obs: as soluções lineares são úteis para se determinar o raio R e o p em steady turn para navios estáveis com diâmetros de curvas 
+razoavelmente grandes (de cerca de 4 x L ou mais). Portanto, elas são úteis para se estimar o raio de giro at less then maximun 
+rudder angles. / Mas grande maioria dos NMs possui um turning diameter de 2 a 4 x L com máx deflexão de leme, e muitos outros 
+navios possuem um turning diameter de 2 x L ou menos. Tais cuvas apertadas introduzem strong nonlinearities que diminuem a 
+validade das eqs lineares. 
+8 
+
+
+===== PAGINA 47 =====
+
+iisfssssassaaaaa 
+4) RELATIONSHIP BETWEEN STEADY TURNING RADIUS AND THE HYDRODYNAMIC DERIVATIVES: 
+> Para prevermos os efeitos das mudanças das derivadas hidrodinâmicas no raio de giro, vamos analisar a eq cascuda que diz que o 
+raio R é igual a um monte de derivadas (vide livro). 
+- O seu numerador é idêntico ao "stability criterion" C, cujo valor independe da origem. 
+- O seu denominador é sempre positivo, pois: Y'v é sempre negativo e N'5 é sempre negativo para lemes na popa, Y8 é sempre 
+positivo, e N'v é quase sempre negativo. Conclusões: 
+a) Se o navio é estável, um raio R positivo (para BE) sempre resultará se for aplicado leme para BE (ôR negativo), e vice-versa. 
+b) Se o navio é instável, R terá o mesmo sinal de ô. Isso significa que o navio guinará contra o seu leme. / Obs: como essa eq lida 
+apenas com a inclinação da curva R x ô em ô = 0, que é uma região de equilíbrio instável para navios instáveis, ela não pode ser 
+usada para predizer o raio de giro de navios instáveis. 
+> Para navios estáveis, pode-se usar essa eq cascuda para estudar o efeito das mudanças de diversas derivadas individuais no raio R: 
+- se N'v for negativo: aumentando sua magnitude, R diminui. 
+- se N'v for positivo: aumentando sua magnitude, R aumenta. 
+- um aumento de N'r aumenta o R. 
+- um aumento de N's diminui o R. 
+- efeito da variação de Y'v: 
+- se N' s > N'v, o aumento de Y'v reduz o R. 
+- se N' s < N'v, o aumento de Y'v aumenta o R. 
+Obs: o efeito mais comum de se aumentar Y'v é o aumento de R. Portanto, embora a Yv v-force seja a responsável por 
+iniciar a curva na direção desejada, um aumento de Y'v não necessariamente reduz o raio da steady turn. 
+5) HEEL ANGLE IN A TURN: 
+> Embora o leme seja usado apenas para gerar yaw, os seus efeitos indesejados são pitch (despresível) e roll (mais importante). 
+A magnitude da inclinação induzida pode ser estimada considerando-se os heeling moments que surgem da disposição vertical das 
+forças envolvidas. 
+> Fase 1: vide fig 23-a para a disposição das forças atuando em uma curva a BE. / Conclusões: 
+a) Y6ôR é negativo (para BB) e atua no centro vertical do leme. 
+b) Yvv é positivo (para BE) e atua na metade do calado. 
+(essa é a força lateral devido à aceleração lateral para a esquerda) 
+c) Yfr tem sinal indefinido, peq magnitude e atua na metade do calado. 
+(essa é a força lateral devido à rotação) 
+d) A.v: A é positivo e v é negativo, logo (-A.v) é positivo. 
+(esse termo é a reação inercial, que atua no CG) 
+- O heel angle aproximado é obtido igualando-se o heeling moment resultante (soma dos momentos de cada força no plano y-z) ao 
+"hidrostatic righting moment". / Fica claro, pela figura, que o heel angle será positivo (para BE) na primeira fase do giro. 
+> Fase 3: vide fig 23-b. / Conclusão: sabemos que Yvv + Yrr tem que ser muito maior que Y5ÕR para que ocorra a steady turn. 
+Portanto, é Óbvio que a inclinação será para BB. 
+(ainda tem a força centrifuga no CG, que aumenta a inclinação p
+> Entre as fases 1 e 3: o heel angle vai mudar de sinal. / Vide fig 24. 
+- A amplitude da inclinação inicial (para BE) é pequena comparado com a 2a inclinação (para BB). 
+- Essa 2a inclinação inclui um grande overshoot além do valor de equilíbrio que eventualmente é atingido. 
+- Se um timoneiro assustado colocar o leme a meio um pouco antes do pico da grande inclinação para BB (eliminado Y58R), ele 
+vai aumentar ainda mais a inclinação para BB. / A única saída é reduzir o leme bem devagar, e reduzir a veloc ASAP. 
+> Submarinos: essa inversão não ocorre (a inclinação é sempre para dentro), pois as forças Yvv + Yff (fase 1) e Yvv + Yrr (fase 3) 
+atuam muito mais para cima (às vezes acima do CG). / Na fase 1, o giro é mais violento (chamado snap roll), e depois ele 
+amortece para um valor de equilíbrio. / A vela (= bridge fairwater) tem 2 papéis: ela amortece um pouco a amplitude do snap roll 
+(na fase 1); e depois, por elevar ainda mais o centro de pressão, ela aumenta a inclinação para dentro do giro (fase 3). 
+- O overshoot do navio não é tão grande quanto o snap roll do sub (3,5-5 x <|> da fase 3) porque aquele perde mais veloc do que 
+este ao guinar. 
+5) REDUCTION OF SPEED IN A TURN: 
+> O motivo de a Io inclinação para BB (fig 24) ser bem maior que as inclinações é, em parte, a grande redução de veloc que 
+ocorre assim que o navio desenvolve um drift angle substancial. 
+> A magnitude da redução da veloc numa curva is largely a function of the tightness of the turning circle. 
+A fig 25 mostra a relação (veloc numa steady turn / veloc de aproximação) x (diâmetro / ship length). Ou seja, mostra o percentual 
+de perda de veloc em fç do diâmetro do giro. 
+> Apesar da grande perda de veloc em curvas apertadas, se diminuirmos o diâmetro tático para 2 ship lengths ou menos, 
+podemos obter ganhos operacionais. A fig 26 (Davidson) mostra que, se fizermos o giro mais apertado, recobraremos a veloc 
+original no rumo oposto em menos tempo e usaremos bem menos searoom. 
+> A veloc usada para computar o heel angle na fase 3 da curva deve ser a veloc fornecida pela fig 25, e não a veloc de aproximação. 
+
+
+===== PAGINA 48 =====
+
+SECTION 10 - ACCELERATING, STOPPING AND BACKING 
+1) INTRODUCTION: 
+> As interações entre casco e props nessas 3 manobras são muito complexas. Por isso, e devido ao seu caráter transitório, às vezes 
+são usados cálculos empíricos das caracts das manobras quando os coeficientes das eqs do mov não estiverem disponíveis. 
+> Accelerating é aumentar a veloc a partir do repouso, ou a partir de uma dada veloc para vante, até uma veloc superior. 
+> Stopping é desacelerar de qq veloc AV até o repouso. Ao se discutir stopping capabilities, consideram-se ao menos 2 velocs AV: 
+crash stop from full-ahead-sea speed e stop from harbor speed (esta varia de 12 a 15 kt). 
+- Embora quase nunca se ordene "emerg full astern" from full-ahead-sea speed, isso constitui uma acceptance trial de máqs muito 
+usada, que fornece uma medida relativa da stopping ability. 
+> Coasting é desacelerar sem usar backing power. / O tempo e a dist necessários para desacelerar para uma veloc mais baixa são de 
+interesse do shiphandler. / Raramente o shiphandler will coast a ship to near dead in the water, pois isso requer muito tempo. 
+- Entretanto, é importante desacelerar usando o "least sustainable ahead power" no qual o navio mantém governabilidade. 
+> Decelerating é uma palavra mais genérica, e significa que a potência AV é insuficiente para se manter uma steady fwd speed. 
+- O desequilíbrio entre Tração e Resistência faz o navio desacelerar até que a RT novamente se iguale à T numa veloc mais baixa. 
+- A dist necessária para desacelerar é muito importante para se reduzir da veloc de app ao porto para o regime de velocs no qual os 
+tugs são eficazes (pois em alguns portos onde o cais fica perto da entrada, não se usam "backing tugs" para reduzir a veloc). 
+> Backing é acelerar a partir do repouso para uma dada veloc ou distância AR. 
+- Um "backing prop" é aquele cujas pás estão girando com AO A negativo, produzindo stern thrust. 
+> Os ppais indexes de performance dessas manobras refletem o tempo e a dist do início ao fim da manobra. 
+> Para simplificar, we often assume que o navio segue uma linha reta no stopping. Isso não ocorre, exceto com alguns multiscrew 
+ships com props que giram para lados opostos (e ainda assim na ausência de W e corr, e com controls-fixed straight line stab). 
+> Quando o navio guina durante uma stopping ou backing maneauver, a dist percorrida é medida ao longo do curved track. 
+Mas as projeções dessa dist, chamadas "head reach" e "side reach", são de maior importância como indexes de performance. 
+2) ACCELERATION TIMES, DISTANCES AND VELOCITIES: 
+> Peach: o valor da força de aceleração, em qq veloc, é a diferença entre a net thrust T* disponível naquela veloc e a resistência Rt 
+na mesma veloc ("X" da fig 57). A aceleração é, então, encontrada por: 
+Rt + To (1 -1) = (A - Xi) ú 
+(onde t = thrust deduction; A = massa; X„ = added mass na direção de x devido a u) 
+> Fig 57: mostra relações típicas entre Rt, To, X e veloc para um steam turbine ship. 
+- As curvas 1 e 2 se aplicam quando a veloc inicial é maior do que zero. 
+- No "execute", a tração é aumentada rapidamente para um valor desejado. Então a curva 1 se aplica. 
+- Vai demorar para alcançar a veloc máx, pois a resistência se aproxima gradualmente da curva da tração na medida em que a 
+veloc se aproxima ao seu valor máx (o unbalance disponível T - R vai diminuindo). 
+- Se a veloc final desejada for menor que a veloc máx, precisaremos de muito menos tempo e distância. Usamos a curva de máx 
+available thrust até que a veloc desejada seja atingida, depois reduzimos a tração para um valor que se iguale à resistência naquela 
+veloc (curva 2). / Isso é útil nos trials para se reduzir o tempo necessário para alcançar a condição inicial do teste. 
+- A parte de baixo dessa fig mostra a relação definida pela eq. acima entre ú e V, correspondentes às curvas de tração 1 e 2. 
+> A relação entre veloc, tempo e distância pode ser assim computada: 
+ú = dV/dt 
+dt=l/ú.dV 
+t = jl/ú.dV 
+S = ÍV.dt 
+- Essa relação para a start maneauver de um sub específico está nas fig 58 e 59, que permitem obter rapidamente t, V e dist. 
+> Para subs e para navios lentos (low Fn - low WMR), a expressão simplificada R = k.V2 pode ser usada para calcular a resistência. 
+- Para navios mais rápidos, valores médios efetivos bem mais elevados se aplicam (tab 10). 
+> Fig 60: para uma dada configuração de navio e prop, e a qq veloc menor que a veloc máx do navio, a tração máx disponível T* 
+pode ser calculada por um diagrama que combina as caracts do prop com as caracts de torque do prime-mover. 
+- Embora esse gráfico seja aplicável apenas para máq AR, ele tb é típico de máq AV. 
+- Como as curvas características do prime-mover (pontilhado) representam uma steam turbine de pot cte, elas mostram que o 
+torque sobe quando o RPM diminui (se o desenho fosse de uma diesel engine, as linhas pontilhadas seriam aprox horizontais). 
+> Assumptions simplificadoras usadas nos cálculos das caracts de aceleração dos navios: 
+a) aceleração instantânea do prop: assume-se que o RPM e o valor da tração mudam instantaneamente. Esse erro introduzido é 
+pequeno, pois o tempo para o navio acelerar é grande comparado com tempo para o prop acelerar. 
+b) Thrust deduction constante: o thrust deduction varia com o RPM e com a veloc do navio. Mas essas variações não mudam 
+muito o tempo necessário para se alcançar uma dada veloc AV. / Ele tb é considerado cte nos cálculos de stopping maneauver. 
+3) STOPPING DISTANCES: 
+> A dist. percorrida na direção original até parar é o "head reach". / Para single-screw ships em moderate maneauvering speeds, o 
+head reach não varia muito se o path for ao longo de uma linha reta ou curva. 
+> Os operadores consideram que o head reach a partir de harbor speed (about 12 kt) é um critério importante para se 
+determinar o backing power de um navio. / O head reach a partir de full speed tem pouca importância, pois nessas velocs é 
+melhor guinar para evitar a colisão. Mas na medida em que a veloc diminui, a stopping maneauver se torna mais importante. 
+> Os dois fatores importantes para se determinar as caracts de stopping dos navios são os mesmos fatores importantes na aceleração: 
+a) a resistência do navio na veloc inicial dissipa uma quantidade substancial de energia cinética no começo da manobra. Mas ela 
+cai rapidamente com a redução da veloc (fig 61). 
+b) o backing thrust desenvolvido pelos props. 
+- Opondo-se à desaceleração causada por essas 2 forças estão: o efeito inercial da massa do navio e a "longitudinal added mass". 
+10 
+
+
+===== PAGINA 49 =====
+
+ssssa^assaaa 
+> Chase pariu um método para se calcular o head reach e o tempo para parar. Esse método considera o tempo finito para a tração 
+mudar de steady AV para steady AR (fig 62), e se aplica a qq navio e qq veloc pela expressão da resistência: R = k.Vn 
+(onde n pode ser qgnúm> 0) 
+• O método assume que, se a resistência varia com uma potência n da veloc na máx veloc do navio, então ela variará nessa mesma 
+potência em todas as velocs até parar. Isso é +- verdade apenas quando n = 2 e, portanto, o método só é válido nesse caso. O erro 
+por causa disso é pequeno para um straight-path stopping. / Vejamos a calculera: 
+• Fig 62: mostra a tração como uma fç linear da dist que o navio percorre até que um valor cte de astern thrust Tx seja atingido. 
+Depois disso, assume-se que a tração permanece cte. / Essa tração cte Tx corresponde à astern thrust com o navio parado, e T0 é a 
+free-running ahead thrust do início da manobra. / T0 e Ti são net thrusts (já incluem as thrust-deduction corrections). 
+- Assumiu-se que o tempo necessário para se obter a astern thrust constante foi o tempo gasto para fechar a ahead throtlle e abrir 
+a astern throtlle (uns 20 segs num navio com controles automatizados). 
+• Os cálculos do head reach e time to stop usaram as mesmas eqs estudas na aceleração. Chase viu que as variáveis naturalmente 
+se agrupavam em 3 razões adimensionais: 
+a) Dynamic Potential "D": 
+- usado para calcular o head reach. 
+b) Dynamic Impulse "T": 
+- usado para calcular o time to stop. 
+c) Ahead Resistance to Astern Thrust: 
+= R/Ti 
+- As eqs d e D e t mostram que o head reach e o time to stop variam inversamente com a força retardadora. 
+- A baixas velocs, a propulsão é a stopping force predominante (pois a resistência é pequena). 
+- Como a baixas velocs a tração varia aprox com (RPM)2, o head reach e o stopping time variam de forma inversa com 
+(RPM)2. Nas velocs mais altas, as "RPM squared characteristics" ficam diluídas pela grande resistência inicial do casco. 
+• D é expresso por D = Dj + ÕD, e r é expresso por r = rt + ôr. 
+- Os termos Dj e rt são os valores do Dynamic Potential e do Dynamic Impulse para um Tj aplicado instantaneamente. 
+- E õD e ôr são as correções d è D e r para compensar o fato de que a aplicação de Tt na verdade leva um tempo finito. 
+• As figs 63 e 64 mostram valores de Dj, rÍ5 ôD e ôr para n = 2. Nessas figs tb aparece o rr, que é o valor de r quando t = tr (tr é o 
+tempo que se leva para abrir a astern throtlle). 
+• Além da assumption que n = 2, as assumptions a seguir podem ser usadas com as figs 63 e 64 para se estimar o head reach S 
+cedo no projeto: 
+- Tx = 5,5.Qi/P (onde Qi é o valor do astern torque quando parado; e P é o pitch do prop). 
+- Xi « - 0,08 m. (8% da massa?) 
+- tr = 20 segs 
+(tempo para abrir a throtlle) 
+- Os valores de Qi podem ser obtidos da fig 60. / As steam turbines da maioria dos mercantes são desenhadas para prover um 
+torque AR igual a 80 % do rated torque AV quando tiverem operando AR com um RPM igual a 50 % do rated RPM AV. Refere-
+se a isso como "80-50 backing power". / Na fig 60, a curva característica da turbina (pontilhada) que passa pelo ponto "80-50" 
+intercepta a curva característica do prop (P/D = 1,0) em uma torque ratio Qi/Q = 0,75. 
+4) STOPPING WITH FREEDOM TO TURN: 
+> Na crash astern maneauver de um single-screw, a trajetória é imprevisível devido à perda de controle direcional (ex fig 65). 
+> Para se evitar colisão com um navio grande a altas velocs e com sea room suficiente, turning é muito melhor que stopping, 
+pois o advance da curva é muito menor que o head reach do stopping, e o controle direcional ainda é mantido (ex fig 66). 
+> Para menores velocs (tipo 6 kt), o head reach e os desvios de path e heading da stopping maneauver são bem menores 
+(o turning perde aquela vantagem enorme). 
+> Se uma força auxiliar puder atuar na popa (como um stern thruster), esta poderá ser capaz de controlar a proa numa stopping 
+maneauver sob condições em que o leme e o bow thruster não conseguiriam fazê-lo. Entretanto, não estamos concluindo que um 
+stern thruster vai de fato afetar o controle direcional quando a parada começar acima de 6 kt! 
+5) RUDDER CYCLING MANEAUVER: (by Esso Bernicia) 
+> É uma forma de se parar sem perder o steering. 
+> A manobra é composta de 4 curvas parciais para lados alternados sobre um rumo base (pois uma grande redução de veloc 
+resulta da reação inercial do casco nas curvas). A máq é reduzida em steps durante a manobra, até que é finalmente revertida 
+(eng orders are keyed to heading changes). 
+> A fig 67 mostra a eficácia da manobra e o sea room lateral necessário. / As vantagens do rudder cycling stopping sobre o crash 
+astern convencional são: a trajetória mais previsível e o head reach reduzido. 
+- Mas se o sea room lateral permitir, uma simples hard-over turn é melhor do que ambos. / E abaixo de 8 kt, o direct crash 
+astern geralmente é a melhor manobra (e se a porrada for inevitável, o crash astern reduzirá a veloc e a energia do impacto). 
+6) EFFECTS OF MACHINERY CHARACTERISTICS AND DYNAMICS: 
+> As caracts e a dinâmica do machinery (engine, gears, shafting e props) podem ter um efeito relevante na controlabilidade. 
+> A "max time rate of change of RPM" (máx taxa temporal de mudança de RPM) dita qual é o tempo necessário para se parar o 
+prop e acelerá-lo para próximo da máx RPM AR. / Para um navio leve e high-powered, o head reach no crash stop diminui 
+bastante com o aumento dessa taxa de mudança de RPM. Mas esse efeito é menor para very large low-powered ships. 
+> Para os "direct drive diesel-powered ships" que possuem uma capacidade limitada de reverter as máqs várias vezes devido a um 
+supply limitado de ar comprimido, a controlabilidade, e particularmente a capacidade de parada, podem ficar muito degradadas em 
+águas restritas (pode ocorrer uma perda temporária da capacidade de inverter os props). 
+11 
+
+
+===== PAGINA 50 =====
+
+^ssss^^gss 
+7) SIMULATION OF STOPPING: 
+> Eqs de simulação contêm termos cuja seleção depende da sua aplicação (desenho, estudos operacionais ou training). Para cada 
+uma dessas aplicações, a simulação deve considerar o efeito do RPM transiente nas forças do leme, e deve considerar outros 
+termos que representem fatores como W, corrente e efeitos de águas rasas. 
+- Vários fatores afetam o grau de resposta do navio, tais como: as configs do prop, casco e leme, o RPM, a taxa de mudança de 
+RPM, as velocs angular e linear do navio, o âng de leme, o ambiente hidrodinâmico (densidade, prof, limites laterais e ondas), etc. 
+- Por esses motivos, mesmo que o computador seja capaz de manipular todos esses termos, são feitas simplificações devido à 
+quantidade limitada de dados, ou para se evitar obscurecer o ponto central do estudo. 
+> Um straight-path stopping com uso contínuo de máq AR é realístico apenas se iniciado a partir de velocs moderadas (ou se houver 
+meios especiais de controlar a proa). Entretanto, a assumption é útil ao se comparar propostas para encurtar a stopping maneauver. 
+y Fig 68: compara os dados de parada calculados e medidos do Esso Suez. A tab 11 fornece as caracts do navio. 
+> Figs 69 e 70: mostram o efeito da veloc inicial na stopping maneauver para dois navios (pelo time history da veloc e dist). 
+> Fig 70: resume o stopping time e head reach de um desses navios, apresentando os resultados para diferentes RPM astern. 
+- A astern thrust predomina quando se pára um tanker grande num straight path a partir de uma veloc moderada. 
+- Entretanto, a cavitação pode reduzir muito a tração AR quando o RPM AR for maior que aprox 70% do máx RPM AV. 
+- Um resultado importante é que, aumentando-se a potência absorvida AR em até 100 % (ex: aumentando o HP AR de 30% 
+para 60% do máx ahead), o head reach original reduz apenas 20-25%. Isso ocorre porque a tração AR aumenta com o SHP 
+numa potência de apenas 2A. Adicionalmente, o time lag para reverter o RPM tende a diluir esse aumento de tração. 
+- For large tankers, o time lag não influencia muito na parada; mas isso pode ser importante para navios leves e high 
+powered (grande tração em rei à massa). 
+> Fig 73: confirma o que acabou de ser dito. A fig mostra a influência da potência nos resultados de parada para até 6 kt. 
+- A variável independente é o "horsepower absorvido AR", sendo mostrados os valores correspondentes de RPM AR e torque AR. 
+- O head reach e o tempo são "normalized" por meio da divisão dos resultados obtidos pelos resultados a 55 revoluções AR. 
+> Fig 71: mostra o efeito do tamanho do navio. Os pontos são "trial data" de navios reais, e as curvas foram computadas. 
+- O head reach e o tempo para parar variam quase que diretamente com o deslocamento, isso se assumirmos que a tração 
+AR é muito pouco afetada pela mudança de imersão do prop. Com essa assumption, a fig 72 mostra o efeito da loading condition 
+numa stopping a 16 kt. 
+8) COASTING: 
+> Coasting com o prop windmilling: consiste em se reduzir a potência para vante ao nível necessário para fazer o prop girar sem 
+produzir tração. Daí o navio perderá veloc somente pela resistência do casco. 
+- Na prática, é provável que o RPM seja um pouco menor que o RPM de zero-slip, de forma que ele exercerá alguma tração a ré. 
+- Com "feed back engine control", o prop poderá ciclar entre very slow AV e AR. 
+> Coasting com o prop parado: o navio perde veloc pela resistência do casco + resistência do prop travado. 
+> As eqs de Dynamic Potential e Dynamic Impulse usadas para estimar dist e tempo de parada tb se aplicam a coasting, mas com as 
+seguintes exceções: 
+a) a veloc final não é zero, mas uma determinada fração de V0. 
+b) com o prop windmilling, a astern thrust Tj = 0. 
+c) com o prop travado, Ti tb é zero, mas a resistência do casco R é aumentada pelo drag do prop ôR. (R = Rh+ ôR). 
+d) Assume-se que o T0 vai a zero instantaneamente no execute (õD = ôT = 0). 
+> Uma medida útil do comportamento em coasting é a dist percorrida para alcançar uma fração específica da veloc inicial. 
+- A tab 12 fornece eqs usadas para estimar a coasting distance, em cujo desenvolvimento considerou-se X^ = - 0,08 m e n = 2. 
+- Um resultado interessante da assumption de que n = 2 é que a dist percorrida no coasting para uma dada fração da veloc 
+inicial é independente do valor da veloc inicial (isso não seria verdadeiro se n fosse diferente de 2). 
+> O aumento da resistência õR de um prop travado é: 
+ôR = Yz CD.p.A.V2 
+onde: 
+A é a developed area do prop 
+V é a veloc do escoamento, que é a speed of advance VA = (1 - w).V0 
+co é o hull wake fraction 
+- Esse ôR é muito grande. A razão ôR / R„ (no speed range onde n = 2) pode chegar a até 3,0 (para fast twin-screw passengers). 
+- In other words: 
+"Um prop travado pode gerar quase que o mesmo arrasto do navio propriamente dito (e até várias vezes mais)." 
+"A dist de coasting pode ser reduzida de 2-4 x se os props forem travados, ao invés de deixados livres." 
+9) BACKING TIMES, DISTANCES AND VELOCITIES: 
+> Os operadores acham que o backing time deveria ser estabelecido primariamente com relação à maneauverability around docks. 
+- No caso de clearing a slip, um bom critério para julgar a backing speed poderia ser a veloc AR alcançada após percorrer uma 
+dist de um L. Eles disseram que a experiência e as condições hidrográficas locais deveriam ditar essa astern speed desejável. 
+- Mas todos concordam que a capacidade de parar a partir de harbor speed é de fato importante. 
+> A astern speed V alcançada "in diferential time" a partir do repouso é calculada por: 
+S.X = Yi. (A - Xj^.V2 
+onde: 
+X é a força de aceleração instantânea 
+S é a dist percorrida 
+Yi.(A - Xj).V2 é a energia cinética. 
+12 
+
+
+===== PAGINA 51 =====
+
+&a 
+10) AUXILIARY STOPPING DEVICES: 
+a) Retarding forces hidrodinâmicas: 
+> A resistência hidrodinâmica é +- proporcional a V2. Logo: 
+- Nas altas velocs, a resistência é o ppal fator contribuinte da força de parada. 
+- Dispositivos como water parachutes e brake flaps são relativamente ineficientes nas paradas a partir de velocs moderadas (e é 
+aí que as paradas não planejadas são mais prováveis de acontecer). 
+> Fig 74: a resistência total foi variada para representar os efeitos dos stopping devices hidrodinâmicos (paraquedas e flaps). 
+- A resistência total aumentada está expressa como um múltiplo da resistência básica do casco. 
+- Conclusão: a baixas velocs, esses dispositivos não adiantam quase nada, mesmo que a sua resistência seja 20 x a do casco. 
+b) Retarding forces não-hidrodinâmicas: 
+y A fig 75 mostra os efeitos de se adicionar uma retarding force não hidrodinâmica (tipo um motor-foguete) a partir de distintas 
+velocs. / Assume-se que essa força é mantida até a parada total. / Um efeito um pouco maior pode ser obtido se aumentarmos a 
+intensidade dessa forca no começo da manobra (em alta veloc), e encurtarmos a sua duração. 
+c) Tugs: 
+> São regularmente usados para prover stopping forces a baixas harbor speeds. Portanto, são parte do sist de controle do navio. 
+- Assume-se que o tug está fixo ao navio empower tie-up. IO seu efeito é prover uma retarding force adicional constante. 
+> Fig 76: mostra tugs parando um navio. A veloc máx foi 6 kt (acima disso, fica difícil fazer o tie-up). Note que: 
+- A veloc de aproximação e a RPM AR do navio tem um efeito muito maior que o número de tugs (desde que o tanker use 
+ao menos 40 RPM AR). Se usarmos 6 tugs com zero RPM AR, o head reach será o mesmo que com 55 RPM AR e zero tug. 
+- No caso de tugs mais poderosos, os mesmos efeitos podem ser alcançados com menos tugs que nesse caso. 
+SECTION 12 - EFFECTS OF THE ENVIRONMENT 
+> A controlabilidade pode ser muito afetada pelas forças do ambiente (W, ondas e corrente), que podem reduzir a course keeping 
+stability e até fazer perder por completo a capacidade de se manter um rumo; bem como aumentar a resistência ao mov para vante. 
+1) DYNAMIC BEHAVIOR IN WIND: 
+>• Quando a relação entre as velocs do W e do navio é grande, o W apresenta um efeito apreciável na controlabilidade. Até mesmo 
+um W moderado pode tornar difícil o controle de um navio que se mova a baixa veloc. 
+> Para prover um controle adequado na presença de W, é necessário obter informações sobre os efeitos do W na controlabilidade em 
+várias situações, e analisar o problema. Pode-se obter uma medida de controle pela variação das caracts do navio (tais como perfil 
+do casco, tamanho do leme e outras variáveis de desenho) e pela adição de thrust devices. 
+> Os efeitos para um dado W aumentam diretamente com: 
+- a área acima d'agua. 
+- a dist do centro da área lateral ao LCG (Iogitudinal CG). 
+- os coefs de arrasto aerodinâmico. 
+> Como alguns tipos de navios (car carriers, container e LNG) possuem uma windage area relativamente grande (devido à BL alta), 
+as suas handling characteristics a baixas velocs são muito influenciadas pelo W. 
+> Fig 82: mostra exemplos de coefs aerodinâmicos adimensionais de side-force de vários navios, plotados contra a direção do W. 
+Note que há um padrão bem uniforme de distribuição em rei a um coef de amplitude de aprox 1,0 (para W a 90°). 
+> As eqs do movimento podem ser modificadas para incluir as forças aerodinâmicas adimensionais de surge e sway e os yawing 
+moments (Xa, Ya e Na;). Essas forças e momentos adicionais são definidos pelas seguintes eqs:.... (videpag269). 
+Onde: 
+pa é a densidade do ar 
+ua e va são as componentes longitudinal e transversal das velocs do W relativo Ua 
+Aax e Aay são as máximas projeções longitudinal e transversal da área aerodinâmica. 
+Xac é a coordenada longitudinal do centro da força aerodinâmica transversal (relative to midships) 
+> Dadas a dir e intensidade do W relativas aos eixos terrestres x0 e y0 (figs 2 e 83), as componentes nos eixos x e y do navio da veloc 
+do navio em rei ao ar são dadas por (fig 83): 
+ua = u + Ua cos (\|/a + y) 
+Onde: 
+- \|/a é a dir de onde vem o W com rei aos eixos terrestres 
+va = V + Ua sen (ya + y) 
+- Ua é a veloc do W 
+> Quando a razão entre as velocs do W e do navio for moderada, será possível andar em linha reta usando-se o leme para compensar 
+as forças e momentos aero e hidrodinâmicos. 
+- Mas se essa razão aumentar, poderá não ser possível manter um rumo estável para um grande range de wind heading angles \|fa. 
+- Quando forem dados a proa/veloc do navio e a dir/intensidade do W, poderemos determinar o âng de leme õR requerido para 
+produzir o "sideslip" ve necessário para manter um straight course. As eqs cascudas de ve e ÕR são fç de várias derivadas... 
+(não deve cair) 
+13 
+
+
+===== PAGINA 52 =====
+
+> Fig 84: mostra o âng de leme necessário (6R) e o side slip (drift angle P) de um navio específico, em fç da veloc do W. 
+- Para uma dada relação entre as velocs do W e do navio, são necessários maiores 8R quando o W está de través. Como o âng de 
+leme de muitos navios é limitado a 35°. o navio não será controlável num W que requeira um õR próximo desse limite. 
+- Na fig, o navio não será controlável em alguns rumos quando a veloc do W de través for relativamente grande (Ua = 10V). Mas 
+ele pode ser controlável num W de mesma magnitude e direção diferente. / Outros cálculos indicam que o requisito de 
+estabilidade apresenta uma veloc de W crítica inferior àquela que resulta de uma aplicação de 35° para se manter o rumo. 
+> Análise da estabilidade de um navio típico (fig 85): os "Eigen-values" ou "stability roots" (semelhante ao stab index a) de um 
+"unsteered ship" com W de proa foram solucionados por computador. 
+- O eixo horiz representa a veloc adimensionalizada do W relativo U„' = U„/U. 
+- A fig mostra as partes real e imaginária das "critical roots" plotadas contra a veloc do W (a raiz com a parte real algebricamente 
+superior é chamada de critical root). 
+a) O navio será neutro quando o vento for zero (U'„ = 0), o que significa que ele não terá uma "preffered heading". 
+b) Quando o W se aproxima de proa (U„ > 0), o mov do navio pode ser caracterizado por 3 propriedades de estabilidade, 
+dependendo da magnitude de U'a: 
+- 0 < U'a < 3 
+- caso estável e não-oscilatório 
+- 3 < U'a < 11 
+- caso estável e oscilatório 
+-U'„>11 
+- caso instável e oscilatório 
+- Nos 2 primeiros casos, o navio tende a manter o rumo original sem a aplicação de forças de controle. 
+- Quando Ua/U > 3, as partes imaginárias de certas raízes deixam de ser zero e aumentam com U'a. Isso signifca que a freq do 
+mov oscilatório aumenta com U'a. 
+c) O navio é sempre instável com W de popa (U'a < 0). A instabilidade aumenta monotonically com o aumento do W de popa. 
+- As partes imaginárias das raízes críticas são iguais a zero, o que implica que os mov do navio em W de popa tendem a 
+divergir sem oscilação depois da perturbação. A taxa de divergência aumenta com o aumento de U'a. 
+> Fig 86: a análise de estabilidade de navios governados automaticamente em ventos de direções arbitrárias leva à solução de uma 
+eq de 5a ordem. A fig mostra as partes reais de raízes críticas com variações da veloc do W. / Nota-se que: 
+- O navio será estável num vento que não seja forte (Ua < 5.V) e que sopre perto da proa (»|/a até 50°), e será instável com 
+um vento de mesma magnitude de outras direções. 
+- O grau de instabilidade é máximo com W de popa (\|/a = 180°). 
+> Conclusão: um unsteered ship será geralmente mais instável na medida em que a veloc do W aumenta. 
+- Obs: é possível obter-se uma grande melhoria na estabilidade em ventos se usarmos um bom sistema de controle automático no 
+lugar do timoneiro (mesmo que este seja dos bons). 
+2) CURRENT EFFECTS: 
+> As correntes afetam a controlabilidade de uma forma diferente do vento. O seu efeito é normalmente tratado por meio da veloc 
+relativa entre o navio e a água (e não pela inclusão de forças hidrodinâmicas nas equações). 
+- Usando uma definição de vetor-velocidade da corr análoga à do W (da fig 83), as velocs relativas ficam: 
+u = u + Uc cos (\|»c + \|/) 
+Onde: Uc é a veloc da corr (drift) com rei aos eixos terrestres. 
+v = v + Uc sen (yc + \|/) 
+\yc é a dir da corr (recíproco do set) com rei aos eixos terrestres. 
+> As velocs das correntes locais de superfície em mar aberto são geralmente modestas e aprox constantes no plano horizontal. Tais 
+correntes não impõem problemas para a open-sea controlability. 
+- Mas as correntes se tornam importantes em águas restritas, onde a veloc do navio é baixa e as correntes não são uniformes. 
+- Elas são mais propensas a afetarem controlabilidade para um navio que viaja downstream num rio ou canal, ppalmente em 
+curvas, onde a tendência é haver grandes "gradientes espaciais" de veloc de corrente. / A SegNav às vezes demanda baixas velocs 
+de fundo, de forma que a veloc na água resultante pode ser muito peq para desenvolver uma força adequada no leme e no casco. 
+> Simuladores de shiphandling são ótimos para avaliar os efeitos das correntes. In fact, estudos detalhados das correntes são muitas 
+vezes um input necessário para estudos de simulador onde na entrada do porto haja fortes correntes cruzadas de marés. 
+3) STABILITY AND CONTROL IN WAVES: 
+> As ondas podem ter um efeito significativo em coursekeeping e maneauvering. Um navio que tenta manter um steady course em 
+mar picado experimenta movimentos oscilatórios induzidos pelas ondas em todos os 6 graus de liberdade. 
+- No cap de ondas, viu-se que, na teoria linear do mov em ondas, as respostas transversais acopladas de sway, yaw e roll podem 
+ser consideradas de forma separada do pitch, heave e surge. Entretanto, o ppal interesse é no roll e, to some extent, tb no sway. 
+- Este capítulo considera ppalmente o yaw e o sway, que estão muito relacionados entre si até mesmo em águas calmas. 
+- O roll tb está envolvido em controlabilidade, especialmente nos high-speed ships. Guinar pode gerar roll (ou heel), e o 
+rolling pode afetar o steering. 
+> Raramente haverá problemas sérios no caso de head and bow seas, onde a freq de encontro com as ondas que causam yawing 
+e swaying é relativamente alta, e onde a course stability é normalmente elevada. Um timoneiro experiente ignora o yaw de alta 
+freq e governa em rei à mean ship heading. Se usarmos controle automático, o sistema vai tender a comandar movs de leme de alta 
+freq que geram aumento da resistência sem grandes efeitos no rumo. Portanto, devemos selecionar o control setting apropriado ou 
+introduzir filtragem no sistema para minimizar os movs desnecessários de leme (como é feito nos "adaptative autopilots"). 
+14 
+
+
+===== PAGINA 53 =====
+
+> Vimos que, quando o navio guina, ocorre yaw-roll rudder coupling (devido ao leme, que produz heeling e yawing moments). 
+- A fig 87 mostra um navio que apresentou esses yaw-rolling coupling effects (autopilot ligado). 
+- Outros coupling effects tb são experimentados quando um navio procede com alta veloc in quartering or following seas. 
+- Na operação de alguns navios, freqüentemente são observados sérios movs em roll associados a problemas de steering na 
+presença de ondas. 
+> Under seagoing conditions (mar de popa), vários fatores novos são introduzidos, particularmente no caminho de "long 
+overtaking waves" a altas velocs. Os motivos são: 
+a) as freqs de encontro são baixas (logo, grandes momentos de roll e yaw can build up). 
+b) navios velozes geralmente possuem pequena estab estática transversal. (GMpequeno) 
+c) na presença de ondas, ocorrem mudanças significativas na estab estática que afetam o roll e, portanto, tb o yaw. Ex: quando o 
+meio do navio estiver num cavado, o righting moment produzido será bem menor, o que causará grandes ângs de roll. 
+d) como o leme tem grande efeito no roll e no yaw, as caracts de desenho do sist de controle automático são muito importantes. 
+e) navios de alta veloc possuem certa fore-and-aft asymmetry, which changes in rolling. 
+- Por esses motivos, é possível que haja um coupling expressivo entre yaw, sway, roll e rudder action, ppalmente em altas velocs. 
+> A fig 88 mostra a assimetria longitudinal devido ao heel para um fast containership. As curvas indicam a dist transversal do CG 
+da "local sectional area" à centerline, para ângs de roll de 0o e 15° em águas calmas. Podemos considerar que essas curvas 
+equivalham à linha de camber de uma asa de avião. 
+- Quando o âng de heel for diferente de zero, a camberline não será uma reta. Então surgirão um yaw moment e uma side force 
+hidrodinâmicos. Essa tendência fica ainda mais pronunciada pela fore-and-aft asymmetry do casco, ppalmente nas altas velocs. 
+- A maioria dos navios velozes possui uma proa bulbosa para melhorar as caracts de resistência. O aumento da assimetria AV-
+AR devido à proa bulbosa introduz uma athwartship asymmetry ainda maior no underwater hull quando o navio inclina. 
+> Sists de controle automático podem ser desenhados para ajudar a vencer acoplamentos desfavoráveis. 
+A fig 89 mostra como os movs representados na fig 87 são suavizados quando se aplica no sistema um yaw rate gain = 1,0. 
+4) COURSE KEEPING IN ASTERN SEAS: 
+> Problemas muito mais sérios de steering e control são experimentados pelos operadores em quartering and following seas. 
+• Goodrich monstrou o grande range de comps de onda nos quais o modelo era carregado na veloc da crista de following waves. 
+• Swaan estudou o problema de coursekeeping e broaching (= turning broadside to the waves) em following seas, concentrando-
+se na condição limite de "veloc do navio = veloc da onda" (freq de encontro = 0). 
+- Ficou evidente que a dificuldade de se governar (e o perigo de eventually broaching) é causada pela "dynamic course 
+instability". E concluiu que "todos os unsteered ships appear to be unstable somewhere on the downward slope of a wave". 
+- Pode-se obter uma redução do risco de broaching pelo aumento da course stability em smooth water. / Entretanto, 
+ninguém especificou o quanto de course stability seria suficiente (ou um valor ótimo). 
+- Alguns autores dizem que um sist de controle porreta pode superar a instabilidade até nas ondas. Swaan tb considerou que 
+as caracts do autopilot são muito importantes. 
+> Fig 90: fornece um diagrama de definições para navios operando em ondas regulares. Segundo o diagrama, o período e a freq de 
+encontro são: Te = Lw / (Vw - V cos X) 
+(De
+ = 211 (Vw - V cos X) I Lw 
+Onde: 
+Te = período de encontro com as component waves 
+&e= freq angular de encontro com as component waves = 2II/TC 
+Lw = comp das wave components 
+(<o = 2tt.J) 
+(Obs: aéa dist do CG avante da crista) 
+V = veloc do navio 
+Vw = veloc da component wave 
+X= âng entre o vetor veloc do navio e a dir de avanço da onda 
+- Fica evidente que, com mar de proa (90° <X< 270°), o cos de Xé negativo e a freq de encontro é maior que com mar de popa. 
+- Num mar de popa, o termo (Vw - V cos X) pode ser muito pequeno; portanto, a freq de encontro tb o será. 
+- Sobretudo devido a essa redução da freq de encontro, o coursekeeping com mar de popa normalmente é mais difícil que 
+com mar de proa (embora não seja sempre fácil governar em mar cascudo de frente). Por isso é que a maioria dos estudos de yaw 
+motion em rough water refere-se a mar de popa. 
+> Há 3 situações possíveis num mar de popa: 
+- V cos X< Vw 
+Overtaking seas: 
+- as ondas passam o navio e a freq é baixa 
+- V cos X = Vw 
+Semistatic case: 
+- a freq é zero, e o navio is "poised on the downslope of a wave". 
+(essa é uma steady-state time-invariant condition) 
+- V cos X> Vw 
+Following seas: 
+- a freq tb pode ser baixa, mas tem sinal oposto ao do overtaking seas 
+(para quem está a bordo, it seams like the waves are falling astern) 
+> Quando a freq de encontro é diferente de zero (num mar de proa ou nas situações a e c acima), as forças/momentos que excitam o 
+sway/yaw oscilam com o tempo. Isso fica evidente pela fig 90 se considerarmos as "velocs orbitais das ondas". 
+a) Quando se tem a popa na crista e proa no cavado (como na fig), as velocs orbitais da onda induzem um momento de yaw 
+desestabilizante (a menos que Xe ft sejam exatamente zero). 
+b) Quando, após um tempo igual à metade do período de encontro, o navio tiver a popa num cavado e a proa numa crista, o 
+momento de yaw induzido pela onda será estabilizante, e fará com que o navio tenda a retomar o seu rumo original. 
+- No caso semistático (b), as forças/momentos excitantes não variam com o tempo, pois o navio não muda de pos com rei à onda. 
+15 
+
+
+===== PAGINA 54 =====
+
+> Eda estudou uma série de modelos navegando com controles fixos a baixas velocs (+-18 kt) em overtaking seas (30° < X < 60°) 
+de ondas regulares (0,5 < Lw/L < 1,5). As amplitudes do yaw variaram da seguinte maneira: 
+a) aumentaram com o aumento da veloc do navio. 
+b) diminuíram abruptamente quando o comp de onda cai de Lw/L = 1,0. 
+c) diminuíram suavemente quando o comp de onda aumenta de Lw/L = 1,0. 
+d) diminuíram muito com o aumento de k (k = longitudinal radius of gyration). (??) 
+- Em overtaking seas, o uso do leme para corrigir o yaw tem um efeito muito pequeno, pois as excitações que a onda exerce 
+são muito maiores que as forças que o leme pode produzir. 
+> Só os navios peqs e rápidos podem atingir o caso semistático (b) com wave components que tenham um comp significativo 
+comparado ao do navio (Lw/L > 1,0). Entretanto, navios podem inadvertidamente ser acelerados para esta condição se 
+operarem num mar de popa de comp de onda significativo, e se a sua veloc inicial em calm water exceder um Fn de 0,25. 
+> Fig 91: mostra a veloc de um modelo em mar de popa em fç do comp de onda para 2 níveis de potência. 
+(Acho que o autor se confundiu. O gráfico é só para full power. Analisando dessa forma, o gráfico passa afazer todo sentido) 
+- Para ambos os níveis de pot, observa-se uma amplitude de surge significativa, com uma veloc média próx da veloc em águas 
+calmas (tanto nas ondas curtas correspondentes ao following seas quanto nas ondas longas correspondentes ao overtaking seas). 
+- Entretanto, quando o range do comp de onda é tal que (1,25 < Lw/L < 2,24), a amplitude do surge é zero, e o modelo é acelerado 
+pelas ondas para a veloc destas. Isso significa que, num grande range de comps de onda, as ondas carregam o modelo a uma 
+veloc maior que a sua veloc em águas calmas, independente da potência entregue pelos props (o navio surfa na onda). 
+> Fig 92: analisa um destroyer viajando no caso semistático, "posed" at various positions on the wave profile (Lw = 2.L). O navio 
+tenta manter um rumo defasado de 15° da dir da onda ((i = 15°, fig 90). O gráfico mostra os valores do desvio de proa (\y) from 
+the prescribed course necessários para se manter o equilíbrio estático, em fç da pos do destroyer num perfil de onda. 
+- Conclusão: o desvio de heading necessário é maior quando a proa está num cavado que quando a proa está numa crista. 
+- Conclusões obtidas da análise da estabilidade com os controles automáticos trabalhando: 
+a) mesmo com os controles trabalhando, há uma grande chance de broaching para qq navio cuja proa esteja no cavado 
+de uma onda de popa cujo comp seja > 1,5.L, caso o navio esteja com a mesma veloc da onda. 
+b) a probabilidade de broaching na situação acima aumenta na medida em que a altura da onda aumenta. 
+c) pode-se reduzir o risco de broaching aumentando a área dos fins AR, melhorando a smooth-water controls-fixed stab. 
+d) um autopilot com uma grande constante de controle kt pode reduzir as regiões de instabilidade (mostradas na fig 93 para o 
+caso de controles fixos). 
+e) a introdução de uma sensibilidade a \|/ no PA não reduz significativamente as regiões de instabilidade, e um aumento do 
+"time lag" nos controles não aumenta significativamente a região de instabilidade. 
+(Não deve ser cobrado PA, pois não há explicações no livro. Deve estar em um cap que não cai.) 
+• Foi realizado um estudo para determinar se as posições de equilíbrio estático da fig 92 seriam estáveis ou instáveis cornos 
+controles fixos. Os resultados estão na fig 93, e confirmam que: 
+- Com a proa no cavado o navio é instável; e quando a proa está na crista ele pode ser estável. 
+- Mesmo que o navio tenha alta controls-fixed stab em smooth water, ele se tornará instável em ondas longas (Lw ÍL > 1,5) 
+na posição a/Lw = 0,25 (onde a é a dist do CG avante da crista, acd fig 90). 
+- Navios instáveis em smooth water podem se tornar estáveis em ondas longas quando a proa estiver perto da crista. 
+> Os movs translacionais dos navios no plano horiz (yaw, sway e surge) não possuem uma freq natural, exceto, possivelmente, 
+uma freq muito baixa associada à resposta do navio ao autopilot. Portanto, os efeitos da freq de encontro sobre esses movs são 
+completamente diferentes dos efeitos em pitch, roll e heave (que possuem freqs naturais). 
+> Fig 94: mostra os resultados obtidos a 15° e 30° de mar de popa, plotados em fç da veloc e da freq de encontro, onde Lw = L. 
+- Quando a freq de encontro é alta (w'c > 2), a diferença entre os movs oscilatórios (em yaw) de steered e unsteered ships 
+é insignificante, regarless of rudder motions (pois a força do leme é muito peq comparado à excitação da onda e à inércia do 
+navio). Mas repare que, nessa situação, os desvios de yaw são pequenos para ambos os navios. 
+- Quando a freq de encontro é peq (oj'e < 2) (navio se aproximando da veloc da onda), a yaw motion do unsteered ship 
+aumenta muito, a eficácia do leme aumenta muito, e a vantagem de se governar é clara. 
+- Quando o Lw diminui para menos de um L, a yaw response diminui muito. Com um encounter angle de 30°, a amplitude do 
+yaw vai a quase zero quando Lw = 0,5.L. 
+> Quando a freq de encontro é peq. a estab do navio melhora bastante com a introdução de um sistema de controle. 
+- A fig 95 mostra que o grau de instabilidade decresce com um aumento das constantes de ganho: ki = yaw gain constant 
+k2 = yaw-rate gain constant 
+> Quando a freq de encontro é grande (como ocorre num quartering seas de 60°), a escolha de ki; k2 e da constante de tempo 
+surtem pouco efeito no sistema de controle, regardless of size of gain constant. 
+- Entretanto, recomenda-se usar um k2 pequeno e grandes constantes de tempo quando operando nessa condição, pois isso irá 
+prevenir a ocorrência de atividades violentas do leme. 
+> Sebemos que o aumento do tamanho do leme é uma forma eficaz de se alcançar maior estabilidade e maior turning ability. Como 
+a rudder-force rate (Y'ô) é prop à área do leme, o efeito do tamanho do leme foi estudado por meio da variação da rudder-force 
+rate (a variação foi de 0,7, 1,0 e 1,3 vezes a standard rudder-force rate): 
+- Para um navio em following seas e na mesma veloc das ondas, houve uma melhoria significativa da estab com o aumento 
+da rudder-force rate (fig 96). 
+- Mas se a freq de encontro for relativamente alta (ex: baixa veloc em quartering seas), o tamanho do leme é praticamente 
+irrelevante for both steered and unsteered ships. 
+16 
+
+
+===== PAGINA 55 =====
+
+SECTION 13 - VESSEL WATERWAY INTERACTIONS 
+> The successful operation of a ship in restricted waterways depends on the factors indicated in fig 97. 
+> Ao se manobrar em águas restritas, as decisões têm sido tomadas com base em rules of thumb, comparison with successful 
+practices and seamen's eye. Mas ultimamente, o problema do controle do navio em águas confinadas vem recebendo uma grande 
+atenção por causa do aumento do tamanho dos navios e das conseqüências ambientais e financeiras de um acidente. 
+> "Águas rasas", com rei à maneauvering performance, é definido como as águas onde a prof < 3 x draft (ou UKC < 2 x draft). 
+At greater ratios, os efeitos de águas rasas perdem importância rapidamente na medida em que a prof, aumenta. 
+> "Restricted waters" são narrow channels or canals, waterways with vertical or everhanging banks, ou áreas com piers e 
+breakwaters; os quais introduzem uma mudança substancial nas caracts de manobra ou nos requirements. 
+> Most restricted waters include shallow water, and many include significant current and tide. 
+> Quando um navio navega em very shallow or restricted waters, o seu comportamento dinâmico muda muito devido às mudanças 
+em magnitude das forças e momentos que atuam sobre ele. / Os efeitos hidrodinâmicos no controle do navio podem ser agrupados 
+nas seguintes categorias gerais: - o efeito da prof em rei ao calado. 
+- o efeito da largura do canal e característica topográfica com rei à boca. 
+- mudanças significativas da prof ou da largura do canal com rei ao tamanho do navio. 
+- interação entre dois navios. 
+- combinações dos itens anteriores. 
+1) SHALLOW WATER EFFECTS: 
+> Yeh mediu as forças e momentos induzidos pela corrente em um navio parado em águas rasas. Foram variados: a prof., a veloc da 
+corrente e o âng do casco com o eixo da corrente. 
+- As figs 98 e 99 mostram várias curvas de side force e yawing moments em fç da relação prof/calado e do âng do escoamento. 
+- Conclusões: - quanto mais raso, maiores são os coefs de side force e de momento. 
+- o momento máx ocorre quando o âng da corrente é aprox 40°. 
+> Fig 100 (a e b): mostra a grande influência da prof na trajetória do navio em curva. 
+- Resumo de dados experimentais em águas rasas. A turn rate em águas rasas é (com rei a águas profundas): 
+a) prof = 1,5 x draft - 90-95 % (o que eqüivale a um aumento de 5-10 % do turning diameter) (Obs: MacEiverey diz que a TS não
+b) prof = 1,25 x draft - 50-60 % (o que eqüivale a um aumento de 60-100 % do turning diameter) 
+- Outro trial mostrou que, quando a prof era 1,5-1,75 x draft, a transfer e o turning diameter aumentaram 30%. 
+> Esso Osaka Trials (fig 101): 
+- O turning diameter aumentou muito quando prof/calado = 1,2 (o resultado é semelhante ao da fig 100). 
+- A stopping distance se mostrou completamente independente da prof (fig 103) (no caso do Osaka!!) 
+- O desvio de heading no stopping aumentou de 18° para: 50° (prof intermediária) e 88° (águas rasas), (independeu da 
+- A "checking ability" e a "conterturning ability": 
+ação do leme-fig W3) 
+a) diminuíram quando a prof passou de deep para intermediate (prof/draft = 1,5). 
+b) aumentaram quando a clearance passou para 20% do calado (prof/draft = 1,2). 
+Esse fenômeno está relacionado a uma aparente inversão na controls-fixed course stability, conforme mostra a fig 102, onde 
+a estab inicialmente diminui, e depois aumenta quando a prof vai ficando muito rasa. 
+> Inoue disse que a stopping distance diminui e o desvio lateral aumenta com a redução da prof. 
+> Uma UKC de 20 %, apesar de ser difícil de testar, não é tão raso assim. Navios freqüentemente operam com uma clearance de 
+10% in low water (baixamar), e de apenas 5% numa atracação. 
+> Dois sujeitos pariram uma tal de "effective ship aspect ratio" (ke), que serve para estimar as derivadas lineares em águas rasas. 
+2) EFFECTS OF NARROW CHANNELS: 
+> Em águas rasas, o escoamento pelo fundo do navio fica restrito, o que aumenta o fluxo nas laterais, o que, por sua vez, muda as 
+side forces e os momentos que atuam no navio. Portanto, as derivadas hidrodinâmicas do navio (tais como Yv, Nv e Yr) tb mudam. 
+- Se além de raso, o channel tb for restrito em largura (como num canal), as derivadas hidrodinâmicas serão ainda mais alteradas. 
+> Se um navio (simétrico no plano x-z) for restrito em seu mov (de forma que o seu eixo x e o seu vetor veloc V sejam colineares 
+com a linha de centro do canal), e se a x-section do canal for constante e simétrica em rei ao plano vertical da sua centerline, então 
+haverá simetria do escoamento a BB e a BE do navio, e o navio não estará sujeito a nenhuma side force ou momento. 
+> Se o mesmo navio se mover ao longo do mesmo canal, com seu eixo x paralelo à centerline do canal, só que deslocado de uma 
+dist y0 da linha de centro, a simetria do escoamento será perturbada (cnf fig 105). 
+- O aumento da veloc do flow entre o navio e a near wall, acoplado com a diminuição da veloc do flow entre o navio e a far wall, 
+criam uma força que joga o navio para a near wall e um momento que tende a girar a proa em direção à far wall (ou seja, Yyo é 
+sempre positivo, e Nyo é sempre negativo; e a magnitude de ambas as derivadas aumenta com a diminuição da largura do canal). 
+- As derivadas Yyo e Ny0 implicam na existência de uma sensibilidade à posição no canal que não existe em mar aberto. 
+> Operações em canais tb apresentam uma sensibilidade de heading que não existe em mar aberto. 
+- Segundo o escoamento da fig 106, a existência de um âng y vai criar um momento N que tende a aumentar \|/. Ou seja, a 
+derivada Nv é sempre positiva e desestabilizante. 
+- Se o path do navio for restrito a ser // à centerline do canal, será impossível fazer uma distinção entre Np e Nv, e entre Yp e Yv, 
+porque, nesse caso, p = y. / Mas no caso genérico, o path do navio não é paralelo à centerline. / Por ex, se o navio estiver 
+governando across the canal (como na fig 106), 6 pode ser igual a zero enquanto y é diferente de zero. Nesse caso, podem existir 
+forças e momentos que correspondem a Yv\p, Yyoyo, Nv\|/ e Nyoyo, enquanto que YpP e NpP só podem ser zero (pois p = 0). 
+17 
+
+
+===== PAGINA 56 =====
+
+nagaaggggaaggwa—— 
+> Em vista das derivadas discutidas (Nv,Yyo e Ny0), nenhum navio possui "controls-fixed positional stab" com relação à 
+centerline do canal, e qq navio operando na centerline está numa pos de equilíbrio instável. 
+- A única forma de se manter um navio na centerline de um canal é pelo uso dos controles (seja manual ou automaticamente). 
+- Se um autopilot for usado, deve haver um sinal contínuo que meça a dist de cada bank; e a eq da deflexão do leme deve incluir 
+um termo adicional que seja sensível à dist yo. 
+> Moody: fez testes com modelos de navios carregados numa seção do Canal do Panamá que foi aprofundada assimetricamente e 
+alargada. Conclusões: 
+1) o widdening e o deepening do canal reduziram muito as forças de interação na maior parte da largura do canal, o que causou 
+uma melhoria expressiva da dynamic course stability dos navios muito grandes. 
+3) a forma assimétrica do canal e a mudança abrupta da prof (entre o "old cut" de um lado e o "new cut" do outro lado) não 
+tiveram nenhum untoward (= inconvenient, unfortunate) effect na performance do navio. 
+> Foram usados modelos matemáticos não-lineares para examinar o comportamento dinâmico de 2 navios em canais. 
+• As figs 107 e 108 mostram os ângs de leme necessários para se manter um rumo cte a várias dists off-centerline, para várias profs 
+e larguras do canal (as abscissas mostram a razão entre a dist off-centerline e o comp ou boca do navio). 
+(Moody: 5Rmáx = 15°) 
+- Será necessário um maior âng de leme: quanto menor for a prof, quanto menor for a largura do canal, e quanto mais 
+longe da centerline estiver o navio. / Em todos os casos, o drift angle de equilíbrio foi relativamente peq. 
+• As fig 109 e 110 mostram as mudanças de heading dos 2 navios após uma perturbação em yaw de 2° a partir do centerline course. 
+- Os movs divergentes oscilatórios com leme fixo (kt = k2 = 0) da fig 109 indicam que ambos os navios são direcionalmente 
+instáveis, e que o grau de instabilidade é maior para o tanker que para o cargo ship. 
+- A fig 110 mostra os movs com o leme ativado (ki = k2 = 4). Ambos os navios agora são direcionalmente estáveis. 
+(obs: quando kj = 4 ek2 — 0, por ex, um âng de leme de 4° será ordenado quando o desvio de heading for de 1 °) 
+- O comportamento dinâmico do cargo ship é melhor que o do tanker, sobretudo por causa do seu menor tamanho com 
+rei às dimensões do canal. 
+• Fig 111: mostra um guia que foi desenvolvido para fornecer parâmetros de controle aceitáveis relacionando tamanho do navio e 
+dimensões do canal, com base nos seguintes critérios de estudo assumidos: 
+- ângs de leme de equilíbrio de 15° e 20°; 5 e 10% ship lengths off-centerline; estabilidade neutra com ki = k2 = 2 e k] = k2 = 4; e 
+bottom clearance de 30 e 60 cm (para o cargo e o tanker, respect.) para permitir o squat na veloc limite de 6 kt. 
+Obs: a região de performance/controlabilidade aceitável fica para direita e para cima dos contornos mostrados na figura. 
+> A importância do operator-ship-steering system foi reconhecida por vários pesquisadores. 
+- "A dificuldade de se manter o navio off a solid boundary constitui o critério básico das canal-transiting qualities. Naturalmente, 
+toda essa operação depende do operador". 
+- "Formas de navio que são full na proa e sharp na popa possuem melhores qualidades de handling num canal." 
+- "As qualidades de manobra de um navio com 1 ou 2 props são melhoradas se o leme for colocado AR do(s) prop(s)." 
+- Há river towboat pilots que fazem as curvas de rios dando ordens de turn rate no autopilot, ao invés de ângs de leme. Esse modo 
+de controle é útil em locais familiares com tows (= cargas) variáveis. 
+> Bindel: do ponto de vista da manobrabilidade, para um dado navio e canal, pode existir uma "veloc crítica", que é a veloc 
+que causa a maior dificuldade ao se passar pelo canal. O quão difícil vai ser depende do navio e do canal. 
+- A fig 112 indica as faixas de velocs críticas para 3 tankers distintos. Nota-se que, quanto maior for a relação entre a área da 
+x-section do canal e a área da seção a meia-nau do navio, maior será a veloc crítica. 
+- Acima e abaixo da critical speed band, a manobrabilidade dos modelos single-screw foi satisfatória. Já a performance do modelo 
+twin-screw foi mais pobre porque o seu leme ficava na centerline (fora da descarga do prop). 
+> Moody: se as qualidades de handling de um navio forem pobres a ponto de ser impossível negotiate restricted waterways, ele 
+sugere usar um tug puxando para trás na popa. As vantagens são: 1) pode-se aumentar o RPM, o que melhora a eficiência do leme; 
+e 2) a tensão da towline na popa melhora a estabilidade, o que reduz a ação do leme necessária para se manter um straight course. 
+3) INTERACTION BETWEEN TWO VESSELS: 
+> Assim como a passagem de um navio perto da boundary de um channel faz com que forças e momentos atuem no navio, so does 
+the passage of another ship close aboard. A ppal diferença entre os dois casos é que a boundary do channel pode ser encarada 
+como sendo bem mais longa que o comp do navio, e a forma da sua x-section como sendo constante. 
+- As forças e momentos de interação em um channel dependem apenas da dist transversal y0 e do yaw angle \|/ do navio. 
+- No caso de dois navios, as forças e momentos são fç de y0, da dist longitudinal x0 que os separa, do tamanho relativo dos navios 
+e do seus ângs de yaw \\f. 
+> Figs 113 e 114: dois modelos foram rebocados com p = õR = 0, em rumos lis e a diferentes pos longitudinais relativas, em velocs 
+de 10 a 20 kt. / Daí mediu-se a Y-force e o N-moment que atuava em cada modelo em cada pos relativa. / A separação long da 
+abscissa da fig 113 é medida entre o midlength dos dois navios. / Os dados de âng de leme mostrados na parte inferior desta fig 
+foram obtidos computando-se os valores de Pi e ôj necessários para manter o equilíbrio em cada uma das pos relativas mostradas. 
+Pos 4 (directly abeam): os navios têm que aplicar inboard rudder para manterem-se paralelos. 
+- Conclusões sobre as magnitudes das máximas forcas de atração (mostradas na fig 113): 
+a) com 10 kt, a força de atração máx para uma beam-to-beam separaton de 15,5 m ocorreu quando os navios estavam abeam. 
+b) essas forças seriam quadruplicadas a 20 kt. 
+c) essas forças seriam reduzidas em 40% se a beam-to-beam separation fosse aumentada para 30 m (acd fig 114). 
+18 
+
+
+===== PAGINA 57 =====
+
+Pos 3 e 5: na pos 3 para o navio A e na pos 5 para o B, as forças e momentos de interação tendem a jogar um navio contra o outro. 
+- Nessas posições, os ângs de leme são tais que os momentos do leme se opõem aos momentos de interação. Entretanto, a força do 
+leme se soma à força de atração. 
+- Portanto, será necessário defletir o leme mais ainda, de forma que não apenas o momento de interação seja vencido, mas que tb 
+apareça um âng de yaw p, que gere uma outboard force capaz de vencer a força do leme mais a força de atração. 
+- Para evitar colisão nessas pos, a separação transversal não pode ser muito pequena, sob pena de a força disponível no leme não 
+ser capaz de corrigir o inward swing causado pelo momento de interação. 
+Conclusões: 
+- No curto período entre as pos 3 e 4 para o navio A (e pos 4 e 5 para o B), o leme terá que ir de uma large port deflection 
+para uma starboard deflection (e não é fácil encontrar o timing preciso). 
+- Passing ships têm a maior chance de colidir nas pos 3 e 5 (as chances ainda aumentam em rough seas ou com W forte). 
+- Se a porrada for iminente na pos 3, A deve diminuir e B deve aumentar a veloc (na pos 5 é o contrário). 
+> Fig 115: mostra as sway forces e momentos atuando em dois navios iguais que se movem com velocs iguais em rumos paralelos. 
+Figs 113,114 e 115: mostram os efeitos de alguns parâmetros (tais como profundidade e separação longitudinal e transversal) nas 
+forças e momentos de interação. 
+Fig 116: mostra (ao se passar um navio parado ou amarrado) a máx força de sway em fç da separação lateral, para vários ship 
+length relativos (L2/Li). Um navio A está amarrado ou em movimento enquanto o outro navio B se aproxima. O pico da força de 
+sway no navio A (que o arranca do cais) será maior quanto menor for a dist de passagem e quanto mais comprido for o navio B. 
+4) SINKAGE AND TRIM: (estudos de Tuck) 
+^ Definições: 
+- Sinkage: é o deslocamento vertical para baixo do CG do navio. 
+- Positive trim: é o âng de rotação do navio sobre o seu CG (proa para cima). / Em muitos casos, o trim pode ser 
+negativo (bow down) devido a operações em baixas velocs em águas rasas. 
+- Squat: é o movimento resultante devido ao sinkage e à bow-up rotation. 
+> Fig 117: mostra curvas de sinkage x Fn para diversas razões entre largura do canal e ship length (W/L). O Fn (velocidade) está 
+em fç na prof. 
+- Quando W/L = 3,4 e com valores moderados de Fn, a diferença do resultado para largura infinita é pequeno. Mas a Fn = 0,8, a 
+diferença já aumenta para cerca de 10%, even for such a wide channel. 
+- A linha pontilhada mostra os resultados da "hydraulic" approximation at W/L = 0,5, que fornecem um valor levemente 
+subestimado de sinkage (comparado com a teoria). Há uma eq para obter o valor da força hidráulica para baixo que age num navio 
+que navega num canal estreito (vide eq 119 da pág 290). 
+> Fig 118: fornece o sinkage e o trim para navios que se movem na centeriine de um channel de paredes verticais. / W é o "effective 
+width" do canal com rei ao comp do navio { W = W/L.V(1 - Fn2) }. / Como os pontos calculados cobrem uma grande variedade 
+de formas de navio e de velocs, essas curvas podem ser consideradas como "curvas universais de sinkage e trim". 
+- Note que o efeito da largura estreita finita é muito maior para a sinkage que para o trim. 
+> Fig 119: compara valores de sinkage e trim oriundos de teoria e experimentos, obtidos para Dw/L = 0,125 e sidewalls no infinito. 
+- Para Fn < 0,7, o agreement é bom; mas ele deteriora quando Fn se aproxima de 1,0 (ou seja, da veloc critica U = Vg.Dw). 
+(obs: essa critical speed se aproxima bastante da veloc das ondas em águas que são rasas em rei ao comp da onda). 
+- O sinkage é o fenômeno dominante nas veloc subcríticas (Fn < 1), e o trim é dominante nas velocs supercríticas (Fn > 1). 
+- O grande sinkage subcrítico e o trim supercrítico são positivos (downward e bow up, respectivamente). 
+> A bottom clearance é um requisito crucial para operações em canais. A fig 120 (by Eda) mostra os contornos das velocs em 
+canais de vários tamanhos que permitem ao navio safar o fundo. 
+SECTION 14 - HYDRODYNAMICS OF CONTROL SURFACES 
+1) GEOMETRY, FORCES AND MOMENTS: 
+> A sup de controle de um navio pode ser composta de uma única superfície móvel ou de uma combinação de partes fixas e móveis. 
+Ela pode ser um leme típico (para controlar o mov horiz de um navio), um diving plane (para controlar o mov vertical de um sub), 
+ou um "activated fin" (para reduzir a rolling motion de um navio). 
+> A control surface possui apenas uma função ao exercer o seu propósito, que é gerar uma força de controle como conseqüência da 
+sua orientação e mov relativo à água. / Por ex: a força de controle exercida por um leme cria um momento no navio (NsôR) que o 
+faz girar e se reorientar com um AOA no escoamento. As forças e momentos gerados por essa rotação e AOA determinam as 
+maneauvering characteristics de um navio. 
+> O tipo mais simples e comum de sup de controle é a all-movable surface da fig 121. / Suas dimensões são expressas em 3 direções 
+ortogonais: dimensões de corda (// à dir do mov), de span (normal à dir do mov) e de thickness (normais ao span e à chord). 
+Como a maioria das sups não é retangular na forma nem uniforme na espessura, cada uma das dimensões pode ter vários valores. 
+> Seguindo a nomenclatura aeronáutica, define-se: 
+(root é a raiz adjacente ao casco, e tirj é a ponta) 
+- Root chord cr, tip chord ct, e a sua média, que é a mean chord c (para straight-edged surfaces). 
+- Analogamente, definimos tr, tt e Tpara a thickness. 
+- O mean span b é a média dos spans do leading e do trailing edges. 
+- b/c é o geometric aspect ratio (alongamento). 
+- t/c é a thickness chord ratio. 
+- ct/cr é a tapper ratio (afilamento). 
+- Ar é a área do perfil, que pode ser tomada como bxc. 
+- A é o sweepback angle da quarter-chord line (enflexamento). 
+19 
+
+
+===== PAGINA 58 =====
+
+{?5g5GÍK*V>7<S'/^"-5g?? 
+> Ao contrário de um avião, a sup de controle deve produzir lift nas 2 direções, por isso o perfil da fíg é simétrico. 
+- Por simplicidade, vamos estudar ppalmente o leme, embora a discussão seja válida para qq sup de controle. 
+- Os efeitos complicadores dos props no fluxo sobre as sups de controle estão num capítulo que não cai na prova. 
+> Consideremos um leme como um corpo isolado bem submerso num fluido não-viscoso, a um âng de ataque a. A teoria 2-D diz 
+que haverá uma circulação que fará surgir uma sustentação perpend à dir do escoamento livre, sem a presença de arrasto. 
+- Entretanto, como o leme possui uma aspect ratio finita, quando houver um AOA, haverá vórtices na raiz (a menos que o leme 
+fique colado ao casco) e na ponta. Isso induzirá velocs no plano y-z do leme. / Essas velocs, quando adicionadas à veloc da 
+stream, causarão uma força de arrasto induzido na dir do movimento, dentre outros efeitos. 
+- Somando-se aos efeitos 2D e 3-D mencionados (que podem ser estimados pela frictionless flow theory), existem as forças de 
+fricção e de separação que surgem porque a água é um fluido viscoso. / A força de fricção age tangencialmente à sup do leme, 
+mas a dir da força causada pela separação não pode ser prevista precisamente. 
+- Um dos efeitos da viscosidade é impedir que se alcance um incremento de pressão positivo na tail da sup de controle, o que 
+introduz o "eddy drag" ou "form drag" no sist de forças do perfil. 
+> A força hidrodinâmica resultante que surge de todos os efeitos mencionados e atua no CP (centro de pressão) (fig 122). 
+- Ao contrário do caso 2-D não-viscoso (onde a força atua normal à dir de movimento), a força resultante para o caso viscoso 
+atua quase normal ao centerplane do leme. As componentes dessa força que são de interesse são o lift L (perpend à dir de 
+mov), o drag D (// à dir de mov) e uma y-component (perpend ao eixo do navio). Essa y-component é a razão do leme existir!! 
+- Se não existisse interação entre o campo de pressões ao redor do leme e o navio/appendages adjacentes, essa y-component seria a 
+control force YsôR, e o seu momento sobre o eixo z do navio seria o control moment N8õR. 
+> De acordo com as figs 22 e 122, a y-component da força total do leme é (desconsiderando-se interações): 
+YsôR = Yrudder = +- (L.cos pR + D.sen PR); e 
+NsôR = Nrudder = Yrudder. xR 
+(Pitéo drift angle no leme; exRéa 
+dist da origem do navio ao CP do leme) 
+- A x-component da resultante da força do leme é: 
+Xrudder = L-Sen PR - D.COS PR 
+- Nessas eqs, os sinais de L, D e pR são sempre positivos. / O xR é negativo se o leme ficar AR da origem. 
+- O sinal de Yrudder dependerá do sinal de ôR. / Se õR for negativo, Y será negativo (e vice-versa). 
+- Xrudder será sempre negativo (i.e., direcionado para ré). 
+> Essas eqs são válidas apenas no caso de um leme bem isolado do navio. Normalmente, há uma interação expressiva leme-navio, 
+de forma que a Y-force total criada pela deflexão do leme atuando no sistema combinado navio-leme será maior que o valor 
+dado por essas eqs. / E ainda, o centro de ação dessa força fica AV do CP do leme (e pode nem ficar sobre o leme at all!!). 
+> Para fins de desenho, a componente da força total do leme (excluindo-se os efeitos de interação) que é normal ao centerplane do 
+leme (F, na fig 122) é bastante importante. O produto dessa componente pela dist entre o CP e a centerline do rudder stock 
+fornece o torque hidrodinâmico QH do stock, ou seja: QH = F(d - CPE). 
+(d é a dist média do leading edge à centerline do stock) 
+(os sinais dos momentos sobre o stock dependem se dé maior ou menor que CP& e independem da regra da mão direita) 
+• Analogamente, o bending moment no stock about the root section será: (L2 + W)A .CPs 
+(onde s denota spanwise) 
+• Os valores máxs antecipados desses momentos são usados no desenho do stock, mancais e steering engine. O diâmetro do stock, 
+por sua vez, determina a espessura da raiz do leme. 
+> Para permitir comparar forças e momentos entre lemes geosims operando a velocs distintas, é conveniente expressarmos as forças 
+e momentos de forma adimensional. Os parâmetros usados para se adimensionalizar são p, U, AR e c ou b (ao invés de p, V e L). 
+- As formas adimensionais dessas forças e momentos estão na pág 293. Há fórmulas para CL, CD, CN (normal force coef), (CM)H 
+(coef de torque sobre o stock), Cmc/4 (coef de momento sobre a quarter chord), e o "bending moment coef. about the root section". 
+2) FLOW AROUND A SHIP'S RUDDER: 
+> O leme trabalha num meio complicado. Há fenômenos de escoamento hidrodinâmico (como stall, cavitation e aeration) que 
+colocam limites definidos na máx performance alcançável. Tais fenômenos são muito complexos, e serão vistos superficialmente. 
+> Stall é definido como uma descontinuidade mais ou menos abrupta na curva L x a. 
+- Na medida em que o AOA aumenta, o ponto onde o escoamento se separa no lado downstream do leme se move para vante ao 
+longo da corda. / Na medida em que a região de separação aumenta, a inclinação da curva começa a diminuir. 
+- Finalmente, se o AOA for aumentado ainda mais até um certo âng crítico (stall), haverá uma descontinuidade abrupta no 
+crescimento de L (ou força normal), e o lift começará a cair com o aumento do AOA. 
+> Cavitation e Aeration: são fenômenos regidos pela magnitude da redução da pressão no lado de downstream do leme. 
+> Cavitação: ocorre quando a soma da máx pressão negativa (below ambient) no lado downstream do leme com as pressões 
+atmosférica e hidrostática fica menor que a pressão de vapor do fluido. 
+- A inception of cavitation depende muito dos nuclei da água e da roughness da superfície do leme. 
+- Fig 123: as áreas sombreadas mostram, para uma dada section shape, a extensão da pressão negativa que não seria alcançável 
+devido à cavitação. Conclusões: 
+a) Por meio da limitação do crescimento da região de pressão negativa sobre o leme, a cavitação reduz a taxa de crescimento de 
+L com o aumento do AOA, a qq veloc (somente a cavitação não pára o crescimento de L, ela apenas o torna mais lento). 
+b) Portanto, em velocs moderadas, a cavitação não é tão restritiva para a performance do leme quanto o stall. 
+c) Mas na medida em que a veloc aumenta, o efeito inibidor da cavitação na sustentação fica maior. 
+d) E ainda, em qq veloc, cavitação pode causar erosão na sup do leme, bem como graves rudder-induced vibrations. 
+20 
+
+
+===== PAGINA 59 =====
+
+> Aeration (ou ventilation): é o arrasto de ar da atmosfera para dentro do suction side (downstream) do leme. 
+- Normalmente ocorre quando o leme está próximo ou na sup da água, e quando a diferença de pressão entre a atmosfera e o 
+suction side do leme excede a "resistência ao air drawing" from the surface. 
+- Se a resistência ao air drawing for peq, a aeration ocorrerá a menores AOA ou a menores velocs que a cavitação. 
+- Esse fenômeno ocorre muito em testes com modelos, e é facilmente reconhecido. Em alguns testes, até a parte de baixo do leme 
+chega a operar sem água. 
+> A ocorrência de stall, cavitation e aeration já são difíceis de prever mesmo para um leme numa freestream onde a veloc e o AOA 
+são exatamente conhecidos. Quando o leme fica embaixo da popa, essas quantidades não são conhecidas com precisão a menos 
+que se use uma instrumentação muito sofisticada, pois o casco e os appendages AV do leme influenciam a dir e a veloc do 
+escoamento (esse escoamento alterado é parte do efeito de interferência mencionado no item 1 dessa section). 
+- Esse efeito de interferência para um navio em curva é mostrado na fig 22 pela "straightening influence" (ângulo "e"), que 
+aumenta o AOA do leme (e diminui o |3). 
+- A veloc da água no leme tb é diferente da veloc do navio, cuja presença diminui a veloc do escoamento para o leme. Mas se o 
+leme ficar AR de um prop, a veloc do escoamento será aumentada pelo race. 
+- Furthermore, como o wake field não é uniforme na popa, o leme é submetido a diferentes magnitudes e direções de velocity 
+vector ao longo do seu span. Portanto, ele passa por um escoamento complicado na popa (similar àquele por que passa um prop). 
+- E mais, o escoamento na popa de um modelo pode ser diferente daquele na popa do navio propriamente dito. 
+3) SCALE EFFECTS: 
+a) Efeitos de Rn: 
+> Cada um dos fenômenos vistos em (2) é regido por diferentes leis de similitude. 
+- Quando free-running models de peq escala típicos são testados de acordo com a lei de Froude, ocorrem grandes efeitos de escala 
+na performance do leme; pois nenhum full-scale Reynolds number ou Weber number pode ser simulado (e o efeito do Rn no lift 
+máx e no âng de stall é sério). / Para os navios, o Rn no leme é da ordem de IO7. Como os testes com modelos normalmente são 
+conduzidos na veloc determinada pela lei de Froude, o Rn para o leme do modelo é bem menor que para o leme do navio. 
+> As figs 124,125e 126 mostram resultados de testes que ilustram as tendências importantes que afetam a correlação dos resultados: 
+- O CLmáx aumenta com Rn por causa do delay do âng de stall (quanto maior o Rn, maior é o AOA de stall). 
+- A inclinação da curva de CL varia pouco com o Rn e com a forma da seção. 
+- O CD diminui com o aumento de Rn ! 
+(acho que é porque a C-L turbulenta demora mais para descolar) 
+- Quanto maior for a aspect ratio, menor será o âng de stall e maior será o CL max ! 
+(minha conclusão -figs 125/126) 
+- Quanto mais rugosafor a superfície, menor será o seu CL máx ! 
+(minha conclusão - fig 125) 
+> A análise acima lida com os efeitos de Rn no stall em fluxo 100% turbulento. Mas a menores Rns, o fluxo no leme do modelo 
+pode ser laminar. E como o escoamento laminar é mais suscetível à separação, ele pode induzir o stall prematuro nos modelos. 
+- Portanto, os resultados de testes com modelos a baixos Rns podem ser conservadores ao prever o CL máx para actual ships. 
+- Resumindo: os lemes dos modelos estolam mais cedo (a um menor CLmáx e menor AOA) por causa do Rn pequeno. 
+b) Efeitos dos cavitation indexes: 
+> Além do scale effect no stall por causa dos Rns diferentes, pode haver scale effects por causa de cavitation indexes dissimilares. 
+- A lei de Froude diz que a veloc do modelo deve ser igual à veloc do navio multiplicada pela raiz quadrada da scale ratio. 
+- Se a similitude geométrica for mantida, a pressão negativa no downstream side do leme, na forma de coeficiente, será idêntica 
+para modelo e navio. E idem para a pressão hidrostática. 
+- Mas como as pressões atmosféricas e de vapor possuem o mesmo valor absoluto para navio e modelo, na forma de coeficiente 
+elas serão muito maiores para o modelo que para o navio. Como a pressão atm normalmente é a maior dessas pressões, ela atrasa o 
+onset da cavitação no modelo para um Fn mais elevado que o correspondente à veloc do navio. 
+- Conclusão: em contraste com o stall scale effect, a cavitação ocorre a menores ângs de leme ou menores velocs nos navios 
+do que nos modelos "run" de acordo com lei de Froude. / Mas o efeito de escala devido à cavitação não costuma ser tão 
+severo quanto ao efeito devido ao stall. 
+c) Efeitos de aeration: 
+Weber number = W = V.(p.R/S)/2 (R = raio do leading edge; S = tensão de superfície da água) 
+> Se o leme penetrar na sup livre, como ocorre com alguns navios em lastro, a ocorrência de air drawing será uma fç do Rn e do 
+Weber number do experimento, bem como do AOA e das propriedades geométricas do leme. 
+- Shiba: para ocorrer air drawing, a separação (stall) é condição necessária, mas não suficiente, pois a sua ocorrência no model 
+range tb depende de um W mínimo. Se W > 0,15.10"2, a ocorrência de air drawing deixa de ser uma fç de W, e poderá acontecer. 
+Mas se ocorrer esta condição e se não houver stall, então air drawing não ocorrerá, mesmo que o leme penetre na sup livre. 
+- Meijer: nenhum critério satisfatório foi estabelecido que relacionasse os diversos fatores que influenciam aeration. 
+> Felizmente, quando a aeration ocorre ela é facilmente visível, e a situação pode ser remediada pela instalação de uma barreira 
+física entre a superfície da água e o topo do leme. / Aeration raramente ocorrerá em navios de 1 leme se o seu topo ficar bem 
+submerso e se o acesso direto à sup livre for protegido pelo casco. 
+> Foram construídas várias belonaves de alta veloc cujo turning diameter de full scale era muito maior que o do modelo. Acredita-se 
+que a causa disso é que ocorreu aeration no navio e no modelo não. 
+> Mesmo que a aeration não ocorra, a proximidade da sup livre pode degradar a performance do leme por causa da geração 
+de ondas (vide dados quantitativos na fig 127). Mas nos testes com modelos, esse efeito é apropriadamente colocado em escala se 
+as velocs do modelo forem determinadas de acordo com a lei de Froude. 
+21 
+
+
+===== PAGINA 60 =====
+
+d) Efeitos do AOA: 
+> O tactical diamenter ou path do navio praticamente independe da veloc a Fns menores que aprox 0,3. A maiores velocs, o 
+diâmetro começa a aumentar, sobretudo por causa da produção de ondas. Para o full scale ship, esse aumento tb pode ser 
+parcialmente atribuído à cavitação do leme. 
+> Na medida em que o diâmetro tático aumenta, o "inflow angle" (f)R na fig 22) no leme diminui, com o conseqüente aumento 
+do AOA do leme (que está sendo mantido a uma deflexão cte). Portanto, a causa do stall de leme severo nos free-turning tests 
+é o aumento do AOA resultante da veloc mais elevada, e não necessariamente a alta veloc em si. 
+e) Efeitos do prop race de navios multi-leme/multi-prop: 
+> Os testes com modelos multi-leme/multi-prop cujos lemes ficam no race dos props ainda estão sujeitos a scale effects adicionais, 
+pois a "veloc do-prop race em rei à veloc da corrente livre" é maior para o modelo que para o navio. Esse é um efeito de Rn, pois o 
+Rn muito menor do modelo faz com que o modelo tenha um CD maior, o que por sua vez requer que o prop do modelo opere com 
+uma slip ratio maior que a do prop do navio, (fig 128 - maior rudder moment para o modelo) 
+- Para tais navios, pode-se esperar que os testes com modelos irão subestimar as caracts de manobra do navio. 
+(Ou seja, o modelo vai manobrar pior que o navio???) 
+f) Efeitos do prop race de navios single-rudder/single-prop: 
+> Ocorre um efeito de escala compensatório, pois o leme/prop operam num escoamento muito influenciado pelo casco AV do leme. 
+- Como resultado do baixo Rn do modelo, a sua C-L e a sua "stern separation zone" são relativamente mais espessos no modelo 
+que no navio. Essa maior espessura relativa reduz a veloc do escoamento para o prop/leme mais no modelo que no navio. 
+- Como essa mudança na veloc é oposta àquela causada pela diferença da slip ratio do prop, esses dois efeitos de escala tendem a 
+se cancelar nos testes com modelos de 1 leme e 1 prop. 
+g) Efeitos do prop race de navios single-rudder multi-prop: 
+> No caso dos single-rudder multi-prop ships, o escoamento para o leme do modelo não é muito influenciado pelo casco, e também 
+o leme não fica AR de nenhum prop. Então os dois efeitos anteriores não existem, e esse cancelamento não ocorrerá. Nestes casos, 
+os testes com modelos irão superestimar o diâmetro tático do navio nuns 10-15% porque a hull wake não estará em escala. 
+(Ou seja, o modelo vai manobrar pior que o navio) 
+4) EFFECT OF ASPECT RATIO: 
+> Uma sup de controle de razão de aspecto infinita apresenta o mesmo padrão de escoamento em todos os planos perpend ao span. 
+Ou seja, não há nenhuma componente do escoamento ao longo da envergadura, e o fluxo sobre qq seção da superfície será 2-D. 
+- Com uma razão de aspecto finita, ocorrerá cross-flow sobre a raiz e a ponta, do lado de alta pressão para o de baixa pressão; e o 
+escoamento sobre todas as seções será 3-D. 
+- Esse x-flow aumenta com a diminuição do span, e ele causa uma diminuição da sustentação do leme em qq AOA. 
+> Esse quadro leva ao conceito de "effective aspect ratio", a saber: 
+- Se a raiz da sup de controle ficar bem próxima do casco de forma que todo o x-flow sobre a raiz seja evitado, o CL desenvolvido 
+por essa superfície para qq AOA será idêntico ao CL gerado por uma sup de controle cuja aspect ratio geométrica seja o dobro. 
+- A fig 129 mostra esse efeito de duplicação por meio da projeção de uma "mirror image" de uma sup de controle flush against a 
+groundboard. No cálculo da sustentação gerada, a área da sup de controle a ser usada é aquela envolta pela linha cheia, mas a 
+"effective aspect ratio" será a = 2.s / c (ao invés de s / c). 
+- A sup de controle da fig 125, por ex, descrita como "geometric aspect ratio = 1, with groundboard" possui um a = 2. 
+- A fig 130 mostra fotos de 2 sups de controle montadas contra um groundborad num túnel de vento. 
+- A fig 137 tb mostra diretamente o efeito do alongamento na inclinação da curva de sustentação: quanto maior a aspect ratio, 
+maior será a inclinação da curva Cr x a. 
+> Prandtl desenvolveu uma teoria para prever o efeito da razão de aspecto sobre L e D, que se aplica a sups de controle cuja 
+distribuição de carga ao longo da envergadura seja elíptica. 
+- A fig 131 (teórica) mostra a relação entre CL e aspect ratio, computada pela eq de Prandtl. Note que a incUnacão de Cr. x a 
+decresce muito com o a redução da aspect ratio, e que o Ci máx praticamente independe da aspect ratio. 
+- A fig 125 (derivada de testes) mostra que uma sup de controle de effective aspect ratio a = 2 alcança um CL máx maior que uma 
+sup de controle de a = 3. / Entretanto, essa mesma fig mostra que os efeitos de Rn e de aspereza são muito mais relevantes para 
+o CL máx que a razão de aspecto. 
+- Como a magnitude da roughness no leme de um navio não é conhecida com precisão, e como normalmente não estão disponíveis 
+os dados de full-scale Rn, o efeito preciso da aspect ratio no Ci_ máx não tem importância prática. 
+5) FREE-STREAM CHARACTERISTICS OF ALL-MOVABLE LOW-ASPECT RATIO CONTROL SURFACES: 
+> Nas décadas de 50 e 60, foram feitos diversos trabalhos em túnel de vento com sups de controle "all movable" de peq razão de 
+aspecto. As tabs 13 e 14 incluem uma grande variedade profile shapes (projeções no plano chord x span) e de section shapes de 
+sups de controle. Os resultados se aplicam para lemes operando in both ahead and astern directions, com o Rn variando de 2-3.10 , 
+e incluem quase todos os dados hidrodinâmicos necessários para o desenho de lemes. Esses dados são (exs nas figs 132 e 133): 
+- CL, CD, coef de momento sobre o quarter-chord point (CnOcA», dist "CP-leading edge" CPc, e dist "CP-seção da raiz" CPs. 
+> Forma da ponta: vários perfis foram testados com as pontas "squared off" ou "faired with circular arcs". 
+- A fig 125 mostra que as sections com squared-off tips alcançam uma sustentação máx bem superior às sections com faired 
+tips. Esse resultado condiz com o aumento no âng de stall apresentado pelas squared-off tips. 
+- Entretanto, na maioria dos casos, as faired tips reduzem um pouco o arrasto em todos os AOA (tabs 13 e 15 e fig 138). 
+22 
+
+
+===== PAGINA 61 =====
+
+Ji-wgaaseaaaaaM 
+> A fig 134 mostra uma relação teórica entre sweep angle e tapper ratio para a qual a spanwise position do CP independe da aspect 
+ratio, e para a qual a distribuição da carga é elíptica. Perfis que são feitos de acordo com essa relação tb teriam: arrasto mínimo, 
+maior resistência à cavitação e improved lift-curve slopes. / Entretanto, os dados experimentais das tab 13 e 15 para perfis que não 
+cumprem com essa relação não confirmam essa vantagem teórica em todos os casos. 
+- A tab 13 mostra que variações do sweep angle para uma tapper ratio cte não afetam expressivamente as caracts de free-stream. 
+- A tab 15, contudo, diz que quando a tapper ratio aumenta com um valor cte de sweep, o CLmáx e o a de stall aumentam. 
+(Obs: quando a taper ratio aumenta, o drag tb aumenta, acd fig 138) 
+> As tabs 14 e 16 resumem o efeito da section shape nas caracts de free-stream. As figs 135/136 mostram as section shapes testadas. 
+- Esses dados indicam que uma wide selection de section shapes possuem caracts razoavelmente boas, cnf mostrado pelo peq 
+passeio do CP e pelos grandes valores de CLmáx e do slope de CL x a. Nos EUA, as sections simétricas NACA são muito usadas. 
+> O efeito da thickness-to-chord ratio nas caracts das sups de controle tb são importantes. Esse efeito é mostrado nas tabs 16 e 17 
+para superfícies de formato retangular testadas sem groundboard. Note que as flat-plate sections possuem as caracts de free-
+stream mais pobres, e que as melhores sections são as que têm a thickness-to-chord ratio entre 0,12 e 0,18. 
+> Dois cientistas mostraram que existe boa correlação entre os dados experimentais existentes e as seguintes eqs teóricas e semi-
+empíricas para se estimar as caracts de free-stream de low-aspect-ratio-all-movable-control-surfaces: 
+- CL = ...eq cascuda, onde aparece o CDc no numerador. 
+- CD = CDO •*" CL 2 / Il.a.e (drag total = drag parasita + drag induzido) 
+- Cmc/4 = ...eq cascuda = moment coef about the quarter chord. 
+- (CP)c = ...eq cascuda = dist CP-leading edge (chordwise). 
+- (CP)s = ...eq cascuda = dist CP-root section (spanwise) / Essa eq se aplica a perfis cujo tapper ratio e sweep angle conformam 
+com a relação da fig 134 para uma distribuição elíptica de carga. 
+Onde: e = fator de eficiência de Oswald (= / para distribuição elíptica, e menor que 1 para as demais) 
+CDC = "crossflow drag coefficient", que depende da tapper ratio e da forma da ponta (vide fig 138) 
+6) INFLUENCE OF HULL SHAPE ON EFFECTIVE ASPECT RATIO OF ALL-MOVABLE CONTROL SURFACES: 
+> Geralmente, a idealização alcançada quando um leme é testado contra um groundboard não é obtida quando o leme é colocado 
+adjacente ao casco de um navio. Embora seja possível obter um gap muito peq entre a seção da raiz e o casco com o leme a meio, 
+esse gap aumenta quando o leme trabalha, pois o casco acima do leme raramente será uma sup plana normal ao stock. Portanto, 
+embora a effective aspect ratio do leme possa ser o dobro da aspect ratio geométrica com zero de deflexão, essa razão vai 
+diminuir as the rudder is laid over. 
+> A fig 139 mostra os resultados de testes de uma sup de controle com um aspect ratio geométrico de 1,0, feitos contra um 
+groundboard convencional e contra um "conical half-body of revolution" (foto na fig 140). A fig 141 mostra as modificações 
+necessárias no perfil do leme para os dois testes. 
+- A fig 139 mostra que, na origem, a inclinação da curva de lift é a mesma para os dois casos. Portanto, a effective aspect ratio 
+com zero de leme será igual a 2 para ambas boundary conditions. / Para AO As maiores que cerca de 6o, as curvas começam a 
+divergir. Note que o lift máx do leme do cone é apenas 80% do lift max do leme do groundboard. 
+- A effective aspect ratio do leme do cone é aproximadamente uma fç linear do âng de leme, variando de 2 (para 5R=0) até 1,7 
+(para 5R=27°). Além de 27°, ela cai mais rápido até aprox 1,5 (no 5R stall = 31°). 
+- O resultado importante é que, mesmo a grandes AO As, um casco que fique apenas moderadamente próximo do leme serve 
+para aumentar a sua "effective AR" bem além do seu valor geométrico. 
+7) INFLUENCE OF FIXED STRUCTURE AND FLAPPED CONTROL SURFACES: 
+a) Fixed structures: 
+> Se uma estrutura fixa for colocada AV do leme (como em 142-c), as forças e momentos que atuam no leme e no navio devido à 
+deflexão do leme serão diferentes. Um leme desses geralmente produz uma força de controle maior do que produziria se a parte 
+fixa não estivesse presente (com o navio movendo AV). Esse leme é chamado de "flapped rudder" ou "hinged rudder". 
+- Por analogia com a asa de avião da fig 142-b, um leme desses desenvolve a sua sustentação pela variação do AOA e do camber. 
+- Se a parte fixa for uma estrutura claramente definida como sendo parte do leme (como em 143-a/b), todas as suas propriedades 
+geométricas (thickness-to-chord ratio, tapper ratio, AR, etc) podem ser computadas como se essa parte fixa fosse de fato uma parte 
+integral do leme. 
+> A fig 144 mostra o efeito favorável da estrutura fixa AV do leme na sustentação (na ahead condition e com zero de inflow angle 
+na estrutura fixa). Note, por ex, que a ângs de leme de 30° a 40°, um leme de 75% de parte móvel produz mais de 90% do lift 
+produzido por um all-movable rudder de mesma área total. 
+- Obs: nesse experimento, não havia gap entre as partes fixa e móvel para quaisquer ângs de deflexão. 
+> O efeito favorável da estrutura fixa AV do leme se reflete em improved coursekeeping. situação em que o inflow angle para 
+a estrutura fixa é zero (vide fig 145-a). 
+- Já numa steady turn, o PR para a estrutura fixa pode ser bem diferente de zero (fig 145-b). Esse ângulo de deriva em curva 
+ofusca o efeito favorável da estrutura fixa na coursekeeping, que só se aplica quando PR = 0. 
+23 
+
+
+===== PAGINA 62 =====
+
+"'1 
+n 
+• 
+Vy', 
+> Na prática, a estrutura fixa (if used) pode ser um "faired sternpost". um "horn" (que pode ser do tipo full ou partial depth, 
+como na fig 143-a/b), ou até mesmo 0 "deadwood" ou "skeg" do navio (tipo uma continuação da quilha que emenda com o leme). 
+- Obs: no caso do skeg rudder, a área da parte móvel é peq comparado com a parte fixa. Do ponto de vista hidrodinâmico, a 
+performance desse tipo de leme só pode ser "predicted" se o navio inteiro AV do leme for tratado como sendo a parte fixa deste. 
+Na teoria, os parâmetros importantes são: 1) a razão entre a corda da parte móvel e o comp do navio; 2) a razão de aspecto da 
+parte móvel; e 3) a razão de aspecto do navio como um todo (i.e., calado/comp). / Na ahead condition, tal leme desenvolveria 
+muito mais lift no navio como um todo do que produziria um leme isolado de área idêntica. / Na astern condition, entretanto, tal 
+leme seria apenas um pequeno flape no bordo de ataque do navio, e como tal seria praticamente ineficaz para guiná-lo. 
+b) Balance area: 
+> Na prática, a parte móvel de um hinged rudder incorpora uma "balance area" AV da centerline do stock para reduzir o torque 
+no leme (vide fig 143). Com o balance, algum gap é inevitável a grandes ângs de deflexão. 
+> A fig 144 incluiu os dados de uma sup de controle montada AR de uma estrutura fixa, para 2 valores de balanço. Comparando-se 
+como os dados similares obtidos para uma sup de controle tipo all-movable (também mostrados na fig), conclui-se que: 
+- Para ambos os valores de balance, o lift desenvolvido foi cerca de 8% menor que o lift que seria desenvolvido caso não 
+houvesse o balance nem o gap resultante. 
+c) Flapped surfaces: 
+> Uma série de 12 control surfaces flapeadas foi testada, onde a área do flape e o balanço (do flape) foram variados (vide o outline 
+na fig 146). / A tab 18 fornece as ppais caracts hidrodinâmicas, e a fig 147 ilustra as propriedades típicas da série. 
+- A fig 148 mostra os resultados do leme n° 5, na forma em que foram apresentados para todos os lemes. Esse leme (40% de flape 
+e 19% de balance) desenvolveu o maior CL da série, praticamente dobrando o CL máx obtido pelo leme n° 32 (unflapped). 
+- Mesmo o "unbalanced doubly all-movable rudder de flap pequeno" apresentou um CL muito maior que o "all movable rudder 
+sem flap". Mas o aumento do tamanho do flap além de 20% tem um efeito pequeno no CL máx. 
+- Os aumentos de lift são alcançados à custa de grandes aumentos dos hinge moments e de algum aumento do arrasto. Entretanto, 
+os hinge moments dos flapes são bem menores que os momentos máximos do leme sem flape. 
+- Comparações a valores fixos de CL indicam que, a CLs maiores que 0,6, o leme com 20% de flape tem menos arrasto que o leme 
+sem flape. A menores valores de CL, o arrasto é +- o mesmo para ambos. As desvantagens dos lemes com flape foram: os seus 
+increased hinge moments, complexidade mecânica e possíveis problemas de manutenção. 
+d) Partial-depth fixed horn rudders (or semi-balanced rudders): 
+> Uma variação de leme muito usada é o leme equipado com "partial-depth fixed horn", tal como o "semi-balanced rudder" da 
+fig 143-b. Esse leme incorpora uma balance area sem que apareça o gap quando o leme é defletido. 
+- Entretanto, ele necessariamente terá um "horizontal break" entre o topo da área balanceada e o lado inferior da parte fixa, o que 
+influenciará negativamente nas suas características. 
+> A fíg 149 mostra 3 semi-balanced skeg rudders de diferentes tapper ratios que foram estudados em túnel de vento. 
+- As diferenças entre os 3 skeg rudders não foram grandes. O aumento da tapper ratio melhorou o lift nos AO As mais 
+elevados. 
+• Uma das variáveis nesses testes foi o drift angle no leme ocasionado pelo cross flow na popa do navio em curva (fig 150). Para 
+que fossem representados os limites realísticos do drift angle no leme, foram usados "skeg test angles" de aprox 15°. 
+- A influência do drift angle num all-movable rudder é simplesmente aumentar (?) o seu AO A. Já no caso do skeg rudder, o 
+inlflow angle no skeg é prejudicial quando em curva (fig 151). Em contrapartida, se o leme for invertido quando o navio 
+estiver em curva, um AOA positivo será desenvolvido pelo skeg, o que auxilia o movimento desejado. 
+- Os resultados para o leme 1 estão na fig 152. As descontinuidades nas curvas de L e D são supostamente devido à 
+separação prematura no downstream side do skeg. Essa separação no skeg começa a ângs de leme relativamente pequenos; 
+já a separação na parte all-movable só começa em ângs maiores. 
+• A fig 154 compara o skeg rudder 1 com o seu all-movable equivalente. Conclusões: 
+- A inclinação de CL x a é menor, o a de stall atrasa cerca de 12°. eoCi. mâx é apenas 10% menor. 
+- Para o mesmo lift, o skeg rudder tem um drag muito maior. 
+Obs: para skeg angles zero ou negativos, o CL máx do skeg rudder é apenas um pouco menor que o do all-movable rudder. 
+Entretanto, uma inversão do leme quando o navio estiver em curva resultará na soma dos ângulos e num CL máx mais elevado. 
+e) Influência dos gaps: 
+> Uma regra geral para flapes de aviões é que os gaps antecipam o stall. A fig 153 mostra resultados para vários sealings de gaps 
+verticais em lemes. Em todos os casos: o Uft desenvolvido com apenas um dos lados do gap fechado é só um pouco menor 
+que com todos os gaps fechados: mas é muito maior que com todos os gaps abertos. 
+24 

@@ -1,0 +1,2406 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>05 · Interação, Squat e Rebocadores — Apostila de Praticagem</title>
+  <meta name="description" content="Efeitos hidrodinâmicos em águas restritas, squat, Voith Water Tractor, capacidades e limitações de rebocadores e escolta.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a2238'/%3E%3Ccircle cx='32' cy='32' r='19' fill='none' stroke='%23d9ad58' stroke-width='2'/%3E%3Cpath d='M39 23l-5 11-11 5 5-11 11-5z' fill='%23d9ad58'/%3E%3C/svg%3E">
+  <style>
+/* ============================================================
+   APOSTILA DE PRATICAGEM — sistema visual
+   Tema navy/teal com papel marfim e acentos dourados.
+   ============================================================ */
+
+:root {
+  --bg: #f3efe5;
+  --bg-deep: #e9e2d2;
+  --surface: #fffdf7;
+  --surface-2: #f8f4e9;
+  --surface-3: #efe9da;
+  --ink: #14212e;
+  --ink-soft: #465866;
+  --ink-faint: #7a8794;
+  --navy: #0a2238;
+  --navy-2: #10344f;
+  --navy-3: #164866;
+  --teal: #0e6b76;
+  --teal-soft: #e0f1f1;
+  --gold: #b3872c;
+  --gold-soft: #f7edd8;
+  --red: #a53e2f;
+  --red-soft: #f9e8e4;
+  --green: #2f6b4f;
+  --green-soft: #e5f2ea;
+  --line: #d8d0bf;
+  --line-strong: #bfb49d;
+  --shadow-sm: 0 1px 2px rgba(20, 33, 46, .08);
+  --shadow-md: 0 10px 30px -12px rgba(10, 34, 56, .35);
+  --shadow-lg: 0 30px 70px -30px rgba(10, 34, 56, .45);
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --sidebar-w: 322px;
+  --content-w: 900px;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --font-body: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --ease: cubic-bezier(.2, .7, .3, 1);
+}
+
+[data-theme="dark"] {
+  --bg: #08131d;
+  --bg-deep: #060f17;
+  --surface: #0f1f2d;
+  --surface-2: #132737;
+  --surface-3: #193143;
+  --ink: #e9eff3;
+  --ink-soft: #b4c4d0;
+  --ink-faint: #8095a7;
+  --navy: #071727;
+  --navy-2: #0b2439;
+  --navy-3: #123b57;
+  --teal: #52b6c0;
+  --teal-soft: rgba(82, 182, 192, .14);
+  --gold: #d9ad58;
+  --gold-soft: rgba(217, 173, 88, .14);
+  --red: #e07c6d;
+  --red-soft: rgba(224, 124, 109, .14);
+  --green: #6fbf92;
+  --green-soft: rgba(111, 191, 146, .13);
+  --line: #24394b;
+  --line-strong: #385165;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, .35);
+  --shadow-md: 0 10px 30px -12px rgba(0, 0, 0, .65);
+  --shadow-lg: 0 30px 70px -30px rgba(0, 0, 0, .8);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 100%;
+  height: auto !important;
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.72;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow-wrap: break-word;
+}
+
+::selection { background: var(--gold-soft); color: var(--ink); }
+
+a { color: var(--teal); text-decoration-color: color-mix(in srgb, var(--teal) 35%, transparent); text-underline-offset: 3px; }
+a:hover { text-decoration-color: currentColor; }
+
+img, svg, video, canvas { max-width: 100%; height: auto; }
+
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 10px;
+  z-index: 999;
+  background: var(--surface);
+  color: var(--ink);
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+}
+.skip-link:focus { left: 10px; }
+
+/* ---------- barra de progresso de leitura ---------- */
+.read-progress {
+  position: fixed;
+  inset: 0 auto auto 0;
+  height: 3px;
+  width: 0;
+  z-index: 120;
+  pointer-events: none;
+  background: linear-gradient(90deg, var(--gold), var(--teal));
+  transition: width .1s linear;
+}
+
+/* ---------- topbar ---------- */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  height: 66px;
+  padding: 0 22px;
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  min-width: 0;
+  color: var(--ink);
+  text-decoration: none;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.02rem;
+  letter-spacing: .01em;
+  white-space: nowrap;
+}
+.brand__mark {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: var(--gold);
+  border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent);
+  background:
+    radial-gradient(circle at 50% 35%, color-mix(in srgb, var(--gold) 18%, transparent), transparent 65%),
+    var(--navy);
+  flex: 0 0 auto;
+}
+.brand__mark svg { width: 20px; height: 20px; }
+.brand small { display: block; font-family: var(--font-body); font-weight: 500; font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-faint); }
+
+.topbar__spacer { flex: 1; }
+
+.icon-btn {
+  display: inline-grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: background .2s, color .2s, border-color .2s, transform .2s;
+}
+.icon-btn:hover { background: var(--surface-2); color: var(--ink); border-color: var(--line-strong); }
+.icon-btn:active { transform: scale(.96); }
+.icon-btn svg { width: 19px; height: 19px; }
+
+.nav-toggle { display: inline-grid; }
+
+.topbar__label {
+  display: block;
+  font-size: .82rem;
+  color: var(--ink-faint);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 40vw;
+}
+
+/* ---------- layout com sidebar ---------- */
+.layout { display: block !important; min-width: 0; width: 100% !important; max-width: 100% !important; position: relative !important; height: auto !important; overflow: visible !important; margin: 0 !important; }
+.scrim { display: none !important; }
+.scrim.is-visible { display: block !important; position: fixed; inset: 66px 0 0; z-index: 90; background: rgba(4,14,22,.55); }
+
+.sidebar {
+  display: none !important;
+  position: fixed;
+  top: 66px;
+  left: 0;
+  bottom: 0;
+  z-index: 95;
+  width: min(340px, 88vw);
+  overflow-y: auto;
+  padding: 30px 24px 48px;
+  background: var(--surface);
+  border-right: 1px solid var(--line);
+  box-shadow: var(--shadow-lg);
+}
+.sidebar.is-open { display: block !important; }
+.sidebar::-webkit-scrollbar { width: 8px; }
+.sidebar::-webkit-scrollbar-thumb { background: var(--line-strong); border-radius: 8px; }
+
+.sidebar__eyebrow {
+  margin: 0 0 14px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.sidebar__group { margin-bottom: 24px; }
+.sidebar__group-title {
+  margin: 0 0 8px;
+  padding: 0 10px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.part-nav { list-style: none; margin: 0; padding: 0; }
+.part-nav a {
+  position: relative;
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr);
+  gap: 8px;
+  align-items: baseline;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-size: .86rem;
+  line-height: 1.35;
+  transition: background .15s, color .15s;
+}
+.part-nav a:hover { background: var(--surface-2); color: var(--ink); }
+.part-nav a.is-active {
+  background: var(--gold-soft);
+  color: var(--ink);
+  font-weight: 650;
+}
+.part-nav a.is-active::before {
+  content: "";
+  position: absolute;
+  left: -24px;
+  top: 8px;
+  bottom: 8px;
+  width: 3px;
+  border-radius: 3px;
+  background: var(--gold);
+}
+.part-nav__num {
+  font-family: var(--font-mono);
+  font-size: .72rem;
+  color: var(--ink-faint);
+  letter-spacing: .03em;
+}
+.part-nav a.is-active .part-nav__num { color: var(--gold); }
+.part-nav__done {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-left: 5px;
+  border-radius: 50%;
+  background: var(--green);
+  vertical-align: middle;
+}
+
+.sidebar__progress {
+  margin-top: 6px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-2);
+}
+.sidebar__progress p { margin: 0 0 10px; font-size: .78rem; color: var(--ink-soft); display: flex; justify-content: space-between; gap: 10px; }
+.sidebar__progress strong { color: var(--ink); }
+
+.bar {
+  height: 7px;
+  border-radius: 99px;
+  background: var(--surface-3);
+  overflow: hidden;
+}
+.bar__fill {
+  height: 100%;
+  width: 0;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--teal), var(--gold));
+  transition: width .5s var(--ease);
+}
+
+/* ---------- conteúdo ---------- */
+.main { display: block !important; position: relative !important; z-index: 1 !important; min-width: 0 !important; width: 100% !important; max-width: 100% !important; overflow: visible !important; min-height: auto !important; height: auto !important; margin: 0 !important; transform: none !important; }
+.content {
+  display: block !important;
+  position: relative !important;
+  z-index: 1 !important;
+  width: auto !important;
+  max-width: 940px !important;
+  margin: 0 auto !important;
+  padding: 40px 24px 80px !important;
+  min-width: 0 !important;
+  overflow: visible !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  height: auto !important;
+  box-sizing: border-box !important;
+  transform: none !important;
+  left: auto !important;
+  right: auto !important;
+}
+.chapter-body, .part-hero, .toc-card, .chapter-end, .breadcrumb, .site-footer {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  max-width: 100%;
+}
+.chapter-nav { display: grid !important; visibility: visible !important; }
+.chapter-body, .part-hero, .toc-card, .chapter-end, .chapter-nav,
+.section, .card, .callout, .def, .formula, .figure, .table-wrap, .example,
+.compare, .keyfacts, .chapter-map, .grid-2, .grid-3, .grid-4 { max-width: 100%; min-width: 0; }
+.chapter-nav a, .grid-2 > *, .grid-3 > *, .grid-4 > *, .compare > *, .keyfacts > * { min-width: 0; }
+pre, code { max-width: 100%; white-space: pre-wrap; overflow-wrap: anywhere; }
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 22px;
+  font-size: .78rem;
+  color: var(--ink-faint);
+}
+.breadcrumb a { color: var(--ink-faint); text-decoration: none; }
+.breadcrumb a:hover { color: var(--teal); }
+.breadcrumb span[aria-hidden] { opacity: .6; }
+
+/* ---------- hero do capítulo ---------- */
+.part-hero {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 42px;
+  padding: clamp(28px, 5vw, 52px);
+  border-radius: var(--radius-lg);
+  color: #f4f7f8;
+  background:
+    radial-gradient(900px 420px at 82% -20%, rgba(67, 158, 170, .42), transparent 60%),
+    radial-gradient(500px 380px at 0% 115%, rgba(179, 135, 44, .22), transparent 65%),
+    linear-gradient(135deg, #071a2b 0%, #0b2b44 55%, #0d3a50 100%);
+  box-shadow: var(--shadow-lg);
+  isolation: isolate;
+}
+.part-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: .28;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, .07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .07) 1px, transparent 1px);
+  background-size: 46px 46px;
+  mask-image: radial-gradient(circle at 75% 30%, #000 0%, transparent 72%);
+  -webkit-mask-image: radial-gradient(circle at 75% 30%, #000 0%, transparent 72%);
+}
+.part-hero::after {
+  content: "";
+  position: absolute;
+  right: -70px;
+  bottom: -90px;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, .13);
+  box-shadow: 0 0 0 42px rgba(255, 255, 255, .045), 0 0 0 86px rgba(255, 255, 255, .03);
+  z-index: -1;
+}
+.part-hero__num {
+  position: absolute;
+  right: clamp(18px, 4vw, 44px);
+  top: clamp(2px, 1vw, 10px);
+  font-family: var(--font-display);
+  font-size: clamp(6rem, 15vw, 11rem);
+  font-weight: 700;
+  line-height: 1;
+  color: rgba(255, 255, 255, .07);
+  letter-spacing: -.05em;
+  pointer-events: none;
+  user-select: none;
+}
+.part-hero__kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 16px;
+  padding: 5px 12px;
+  border: 1px solid rgba(255, 255, 255, .22);
+  border-radius: 99px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: #e7d9b4;
+  background: rgba(255, 255, 255, .05);
+}
+.part-hero__kicker::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #d9ad58;
+  box-shadow: 0 0 10px #d9ad58;
+}
+.part-hero h1 {
+  position: relative;
+  margin: 0 0 14px;
+  max-width: 16ch;
+  font-family: var(--font-display);
+  font-size: clamp(2.1rem, 4.4vw, 3.35rem);
+  font-weight: 700;
+  line-height: 1.06;
+  letter-spacing: -.02em;
+}
+.part-hero__subtitle {
+  margin: 0;
+  max-width: 62ch;
+  font-size: clamp(.98rem, 1.4vw, 1.12rem);
+  line-height: 1.6;
+  color: #c9d8df;
+}
+.part-hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-top: 26px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, .14);
+  font-size: .78rem;
+  color: #b9cbd4;
+}
+.part-hero__meta span { display: inline-flex; align-items: center; gap: 7px; }
+.part-hero__meta svg { width: 15px; height: 15px; opacity: .8; }
+.part-hero__meta a { color: #e7d9b4; }
+
+.hero-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 16px; }
+.hero-tags span {
+  padding: 4px 10px;
+  border-radius: 99px;
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  color: #dfe9ed;
+  background: rgba(255, 255, 255, .09);
+  border: 1px solid rgba(255, 255, 255, .12);
+}
+
+/* ---------- card "neste capítulo" ---------- */
+.toc-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+  gap: 26px;
+  margin-bottom: 42px;
+  padding: 24px 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.toc-card h2 {
+  margin: 0 0 4px;
+  padding: 0;
+  border: 0;
+  font-size: 1.02rem;
+  letter-spacing: .01em;
+}
+.toc-card h2::before, .toc-card h2::after { display: none; }
+.toc-card p { margin: 0; font-size: .83rem; color: var(--ink-faint); }
+.toc-card ol {
+  columns: 2;
+  column-gap: 28px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: toc;
+}
+.toc-card li {
+  break-inside: avoid;
+  margin-bottom: 7px;
+  font-size: .82rem;
+  line-height: 1.4;
+}
+.toc-card li a {
+  display: inline-flex;
+  gap: 8px;
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+.toc-card li a::before {
+  counter-increment: toc;
+  content: counter(toc, decimal-leading-zero);
+  font-family: var(--font-mono);
+  font-size: .68rem;
+  color: var(--gold);
+  padding-top: 2px;
+}
+.toc-card li a:hover { color: var(--teal); }
+.toc-card li a.is-current { color: var(--gold); font-weight: 700; }
+.toc-card li a.is-current::before { color: var(--teal); }
+
+/* ---------- tipografia do conteúdo ---------- */
+.section { margin: 0 0 46px; scroll-margin-top: 90px; }
+
+.section-kicker {
+  margin-bottom: 8px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.content h2 {
+  position: relative;
+  margin: 0 0 18px;
+  padding-bottom: 12px;
+  font-family: var(--font-display);
+  font-size: clamp(1.55rem, 2.6vw, 2.05rem);
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: -.015em;
+  color: var(--ink);
+}
+.content h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 52px;
+  height: 3px;
+  border-radius: 3px;
+  background: linear-gradient(90deg, var(--gold), color-mix(in srgb, var(--gold) 20%, transparent));
+}
+.content h3 {
+  margin: 32px 0 10px;
+  font-family: var(--font-display);
+  font-size: 1.28rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ink);
+}
+.content h4 {
+  margin: 24px 0 8px;
+  font-size: .92rem;
+  font-weight: 750;
+  letter-spacing: .02em;
+  color: var(--ink);
+}
+.content p { margin: 0 0 15px; }
+.content ul, .content ol { margin: 0 0 18px; padding-left: 1.35em; }
+.content li { margin-bottom: 7px; }
+.content li::marker { color: var(--gold); }
+.content strong { font-weight: 700; color: var(--ink); }
+.content em { font-style: italic; }
+.content small { font-size: .8rem; color: var(--ink-faint); }
+
+.anchor {
+  margin-left: 9px;
+  font-size: .72em;
+  color: var(--ink-faint);
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity .15s;
+}
+h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
+
+.lead {
+  font-size: 1.1rem;
+  line-height: 1.66;
+  color: var(--ink-soft);
+}
+.lead strong { color: var(--ink); }
+
+.src {
+  font-family: var(--font-mono);
+  font-size: .7em;
+  font-weight: 500;
+  color: var(--ink-faint);
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  padding: 1px 6px;
+  white-space: nowrap;
+}
+
+.source-line {
+  margin-top: -4px;
+  font-size: .74rem;
+  color: var(--ink-faint);
+  letter-spacing: .02em;
+}
+.source-line::before {
+  content: "Fonte ";
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+/* ---------- cartões e grades ---------- */
+.grid-2, .grid-3, .grid-4 {
+  display: grid;
+  gap: 16px;
+  margin: 22px 0 26px;
+}
+.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+.card {
+  padding: 20px 20px 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.card h3, .card h4 { margin: 0 0 6px; }
+.card h3 { font-size: 1.02rem; }
+.card p:last-child, .card ul:last-child { margin-bottom: 0; }
+.card__num {
+  display: inline-grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background: var(--gold-soft);
+  color: var(--gold);
+  font-family: var(--font-mono);
+  font-size: .74rem;
+  font-weight: 700;
+}
+.card--accent { border-top: 3px solid var(--gold); }
+.card--teal { border-top: 3px solid var(--teal); }
+
+/* ---------- callouts ---------- */
+.callout {
+  position: relative;
+  margin: 22px 0 26px;
+  padding: 18px 20px 16px 22px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--teal);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  background: var(--surface-2);
+}
+.callout > :last-child { margin-bottom: 0; }
+.callout__label {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: .66rem;
+  font-weight: 800;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+.callout p { margin-bottom: 10px; }
+.callout ul, .callout ol { margin-bottom: 0; }
+
+.callout--info { border-left-color: var(--teal); background: color-mix(in srgb, var(--teal-soft) 55%, var(--surface)); }
+.callout--info .callout__label { color: var(--teal); }
+.callout--tip { border-left-color: var(--green); background: color-mix(in srgb, var(--green-soft) 60%, var(--surface)); }
+.callout--tip .callout__label { color: var(--green); }
+.callout--warn { border-left-color: var(--gold); background: color-mix(in srgb, var(--gold-soft) 65%, var(--surface)); }
+.callout--warn .callout__label { color: var(--gold); }
+.callout--danger { border-left-color: var(--red); background: color-mix(in srgb, var(--red-soft) 65%, var(--surface)); }
+.callout--danger .callout__label { color: var(--red); }
+.callout--exam { border-left-color: var(--navy-3); background: color-mix(in srgb, var(--navy-3) 7%, var(--surface)); }
+.callout--exam .callout__label { color: var(--navy-3); }
+[data-theme="dark"] .callout--exam { background: color-mix(in srgb, var(--navy-3) 28%, var(--surface)); }
+
+.callout--mnemonic {
+  border: 1px dashed color-mix(in srgb, var(--gold) 55%, var(--line));
+  border-left: 4px dashed var(--gold);
+  background: var(--gold-soft);
+}
+.callout--mnemonic .callout__label { color: var(--gold); }
+
+/* ---------- definição ---------- */
+.def {
+  margin: 20px 0 24px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--gold-soft) 55%, transparent), transparent 70%),
+    var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.def__term {
+  display: block;
+  margin-bottom: 6px;
+  font-family: var(--font-display);
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.def__term::before {
+  content: "Definição";
+  display: inline-block;
+  margin-right: 9px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: var(--gold);
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: .58rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  vertical-align: 2px;
+}
+.def p { margin: 0; font-size: .95rem; }
+
+/* ---------- fórmulas ---------- */
+.formula {
+  margin: 20px 0 24px;
+  padding: 20px 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--navy);
+  color: #eef4f6;
+  text-align: center;
+  overflow-x: auto;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+.formula__expr {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: clamp(.95rem, 2vw, 1.15rem);
+  letter-spacing: .01em;
+  white-space: nowrap;
+}
+.formula__where {
+  display: block;
+  margin-top: 10px;
+  font-size: .78rem;
+  line-height: 1.6;
+  color: #aebfc8;
+  text-align: left;
+  white-space: normal;
+}
+.formula__where b { color: #e7d9b4; font-weight: 650; }
+.formula sub, .formula sup { font-size: .72em; }
+.formula--light {
+  background: var(--surface-2);
+  color: var(--ink);
+  border-left: 3px solid var(--teal);
+  text-align: left;
+}
+.formula--light .formula__where { color: var(--ink-soft); }
+.formula--light .formula__where b { color: var(--teal); }
+
+/* ---------- tabelas ---------- */
+.table-wrap {
+  margin: 22px 0 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.table-wrap table { width: 100%; border-collapse: collapse; font-size: .88rem; min-width: 100%; }
+.table-wrap caption {
+  padding: 13px 16px;
+  text-align: left;
+  font-size: .76rem;
+  font-weight: 600;
+  color: var(--ink-faint);
+  border-bottom: 1px solid var(--line);
+  background: var(--surface-2);
+}
+.table-wrap th {
+  padding: 11px 14px;
+  text-align: left;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--line-strong);
+  white-space: normal;
+}
+.table-wrap td {
+  padding: 11px 14px;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+  line-height: 1.5;
+}
+.table-wrap tr:last-child td { border-bottom: 0; }
+.table-wrap tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--surface-2) 45%, transparent); }
+.table-wrap td strong { color: var(--ink); }
+
+/* ---------- figuras / svg ---------- */
+.figure {
+  margin: 26px 0 30px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.figure { max-width: 100%; overflow: hidden; }
+.figure svg { display: block; width: 100%; max-width: 100%; height: auto; }
+.figure figcaption {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: .78rem;
+  line-height: 1.55;
+  color: var(--ink-faint);
+}
+.figure figcaption b { color: var(--ink-soft); }
+.figure--flush { padding: 0; overflow: hidden; }
+.figure--flush figcaption { padding: 12px 20px 14px; margin-top: 0; }
+
+.diagram-text { font-family: var(--font-body); }
+.diagram-line { stroke: var(--line-strong); stroke-width: 1.5; fill: none; }
+.diagram-accent { stroke: var(--teal); stroke-width: 2; fill: none; }
+.diagram-gold { stroke: var(--gold); stroke-width: 2; fill: none; }
+.diagram-label { font-family: var(--font-body); font-size: 11px; fill: var(--ink-soft); }
+.diagram-label--strong { font-weight: 700; fill: var(--ink); }
+
+/* ---------- exemplos / passos ---------- */
+.example {
+  margin: 24px 0 28px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+}
+.example__title {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  margin: 0 0 10px;
+  font-size: .95rem;
+  font-weight: 750;
+}
+.example__title span {
+  font-family: var(--font-mono);
+  font-size: .66rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+.steps { list-style: none; margin: 18px 0 4px; padding: 0; counter-reset: step; }
+.steps li {
+  position: relative;
+  margin: 0;
+  padding: 0 0 20px 46px;
+  counter-increment: step;
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--navy);
+  color: var(--gold);
+  font-family: var(--font-mono);
+  font-size: .76rem;
+  font-weight: 700;
+}
+.steps li::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: 34px;
+  bottom: 4px;
+  width: 1px;
+  background: var(--line);
+}
+.steps li:last-child { padding-bottom: 0; }
+.steps li:last-child::after { display: none; }
+.steps strong { display: block; margin-bottom: 2px; }
+
+/* ---------- checklist ---------- */
+.checklist { list-style: none; margin: 18px 0 22px; padding: 0; }
+.checklist li {
+  position: relative;
+  margin: 0;
+  padding: 9px 0 9px 34px;
+  border-bottom: 1px solid var(--line);
+  font-size: .94rem;
+}
+.checklist li:last-child { border-bottom: 0; }
+.checklist li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 14px;
+  width: 17px;
+  height: 17px;
+  border: 1.5px solid var(--gold);
+  border-radius: 4px;
+  background: var(--gold-soft);
+}
+.checklist li::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 18px;
+  width: 9px;
+  height: 5px;
+  border-left: 2px solid var(--green);
+  border-bottom: 2px solid var(--green);
+  transform: rotate(-45deg);
+}
+
+/* ---------- comparação prós/contras ---------- */
+.compare { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 22px 0 28px; }
+.compare > div {
+  padding: 18px 20px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
+.compare h4 { margin-top: 0; display: flex; align-items: center; gap: 8px; }
+.compare .pro { border-top: 3px solid var(--green); }
+.compare .con { border-top: 3px solid var(--red); }
+.compare ul { margin-bottom: 0; }
+.compare .pro h4 { color: var(--green); }
+.compare .con h4 { color: var(--red); }
+
+/* ---------- destaque numérico ---------- */
+.keyfacts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; margin: 24px 0 30px; }
+.keyfact {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  text-align: center;
+}
+.keyfact b {
+  display: block;
+  margin-bottom: 4px;
+  font-family: var(--font-display);
+  font-size: 1.55rem;
+  line-height: 1.1;
+  color: var(--teal);
+}
+.keyfact span { font-size: .74rem; line-height: 1.4; color: var(--ink-faint); }
+
+/* ---------- quiz ---------- */
+.quiz { margin: 22px 0 28px; }
+.quiz details {
+  margin-bottom: 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  overflow: hidden;
+}
+.quiz details[open] { box-shadow: var(--shadow-sm); border-color: var(--line-strong); }
+.quiz summary {
+  position: relative;
+  padding: 16px 48px 16px 20px;
+  cursor: pointer;
+  font-weight: 650;
+  font-size: .94rem;
+  line-height: 1.5;
+  list-style: none;
+  user-select: none;
+}
+.quiz summary::-webkit-details-marker { display: none; }
+.quiz summary::after {
+  content: "+";
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  color: var(--gold);
+  transition: transform .2s;
+}
+.quiz details[open] summary::after { content: "−"; }
+.quiz summary:hover { background: var(--surface-2); }
+.quiz__answer {
+  padding: 0 20px 18px;
+  border-top: 1px solid var(--line);
+  background: color-mix(in srgb, var(--surface-2) 55%, transparent);
+  font-size: .92rem;
+  color: var(--ink-soft);
+}
+.quiz__answer p:first-child { margin-top: 14px; }
+.quiz__answer p:last-child { margin-bottom: 0; }
+
+/* ---------- tags ---------- */
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 0; }
+.tags span {
+  padding: 3px 9px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  font-size: .68rem;
+  font-weight: 600;
+  color: var(--ink-faint);
+  background: var(--surface-2);
+}
+
+/* ---------- conclusão do capítulo ---------- */
+.chapter-end {
+  margin-top: 52px;
+  padding: 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--gold-soft) 55%, transparent), transparent 75%),
+    var(--surface);
+}
+.chapter-end h2 { margin-bottom: 10px; font-size: 1.35rem; }
+.chapter-end h2::after { display: none; }
+.chapter-end p { color: var(--ink-soft); }
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 11px 20px;
+  border: 1px solid var(--line-strong);
+  border-radius: 99px;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: .84rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform .18s var(--ease), box-shadow .18s, background .18s, border-color .18s;
+}
+.btn:hover { transform: translateY(-1px); box-shadow: var(--shadow-sm); border-color: var(--gold); }
+.btn--primary { background: var(--navy); color: #f4f7f8; border-color: var(--navy); }
+.btn--primary:hover { background: var(--navy-2); border-color: var(--navy-2); }
+.btn--gold { background: var(--gold); color: #fffdf7; border-color: var(--gold); }
+.btn--gold:hover { background: color-mix(in srgb, var(--gold) 85%, #000); }
+.btn--done { background: var(--green-soft); color: var(--green); border-color: color-mix(in srgb, var(--green) 40%, var(--line)); }
+.btn svg { width: 16px; height: 16px; }
+
+.chapter-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 34px;
+}
+.chapter-nav a {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color .18s, transform .18s, box-shadow .18s;
+}
+.chapter-nav a:hover { border-color: var(--gold); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.chapter-nav small { font-size: .66rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
+.chapter-nav span { font-family: var(--font-display); font-weight: 700; font-size: 1rem; line-height: 1.3; }
+.chapter-nav a.next { text-align: right; align-items: flex-end; }
+
+.site-footer {
+  margin-top: 54px;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+  font-size: .74rem;
+  color: var(--ink-faint);
+  line-height: 1.6;
+}
+.site-footer p { margin: 0 0 4px; }
+
+/* ============================================================
+   INDEX
+   ============================================================ */
+.index-hero {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(52px, 9vw, 110px) 24px clamp(48px, 7vw, 88px);
+  color: #f4f7f8;
+  background:
+    radial-gradient(900px 500px at 80% 0%, rgba(67, 158, 170, .38), transparent 60%),
+    radial-gradient(700px 500px at 5% 100%, rgba(179, 135, 44, .25), transparent 65%),
+    linear-gradient(150deg, #061522 0%, #0a2438 50%, #0d3a50 100%);
+  isolation: isolate;
+}
+.index-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: .3;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, .06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .06) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(circle at 60% 40%, #000, transparent 75%);
+  -webkit-mask-image: radial-gradient(circle at 60% 40%, #000, transparent 75%);
+}
+.index-hero::after {
+  content: "";
+  position: absolute;
+  right: -120px;
+  bottom: -160px;
+  width: 520px;
+  height: 520px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, .12);
+  box-shadow: 0 0 0 60px rgba(255, 255, 255, .035), 0 0 0 130px rgba(255, 255, 255, .02);
+  z-index: -1;
+}
+.index-hero__inner { width: min(100%, 1120px); margin: 0 auto; }
+.index-hero__kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 6px 14px;
+  border: 1px solid rgba(255, 255, 255, .22);
+  border-radius: 99px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: #e7d9b4;
+  background: rgba(255, 255, 255, .05);
+}
+.index-hero__kicker::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #d9ad58;
+  box-shadow: 0 0 12px #d9ad58;
+}
+.index-hero h1 {
+  max-width: 16ch;
+  margin: 0 0 20px;
+  font-family: var(--font-display);
+  font-size: clamp(2.6rem, 6.2vw, 5rem);
+  font-weight: 700;
+  line-height: .98;
+  letter-spacing: -.035em;
+}
+.index-hero h1 em { font-style: italic; color: #e7d9b4; }
+.index-hero__lead {
+  max-width: 62ch;
+  margin: 0 0 30px;
+  font-size: clamp(1rem, 1.7vw, 1.18rem);
+  line-height: 1.65;
+  color: #c9d8df;
+}
+.index-hero__actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.index-hero .btn--ghost {
+  background: transparent;
+  color: #e9eff2;
+  border-color: rgba(255, 255, 255, .32);
+}
+.index-hero .btn--ghost:hover { background: rgba(255, 255, 255, .08); border-color: #d9ad58; }
+.index-hero__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 46px;
+  margin-top: 44px;
+  padding-top: 26px;
+  border-top: 1px solid rgba(255, 255, 255, .15);
+}
+.index-hero__stats div { display: flex; flex-direction: column; gap: 2px; }
+.index-hero__stats b { font-family: var(--font-display); font-size: 1.7rem; line-height: 1; color: #e7d9b4; }
+.index-hero__stats span { font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: #9fb4bf; }
+
+.index-main { width: min(100% - 48px, 1120px); margin: 0 auto; padding: 50px 0 90px; }
+
+.index-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.index-toolbar h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  letter-spacing: -.01em;
+}
+.search {
+  position: relative;
+  flex: 0 1 320px;
+}
+.search input {
+  width: 100%;
+  padding: 11px 16px 11px 42px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: .88rem;
+  box-shadow: var(--shadow-sm);
+}
+.search input::placeholder { color: var(--ink-faint); }
+.search svg {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 17px;
+  height: 17px;
+  color: var(--ink-faint);
+  pointer-events: none;
+}
+
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 30px; }
+.filter-chip {
+  padding: 7px 14px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  background: var(--surface);
+  color: var(--ink-soft);
+  font-family: var(--font-body);
+  font-size: .76rem;
+  font-weight: 650;
+  cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.filter-chip:hover { border-color: var(--gold); color: var(--ink); }
+.filter-chip[aria-pressed="true"] {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: #f4f7f8;
+}
+
+.parts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 18px; }
+
+.part-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px 22px 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  color: var(--ink);
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform .2s var(--ease), box-shadow .2s, border-color .2s;
+}
+.part-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--teal), var(--gold));
+  opacity: 0;
+  transition: opacity .2s;
+}
+.part-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: var(--line-strong); }
+.part-card:hover::before { opacity: 1; }
+.part-card__top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.part-card__num {
+  font-family: var(--font-mono);
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  color: var(--gold);
+}
+.part-card__module {
+  font-size: .62rem;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.part-card h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.28rem;
+  line-height: 1.2;
+  letter-spacing: -.01em;
+}
+.part-card p { margin: 0; font-size: .84rem; line-height: 1.55; color: var(--ink-soft); }
+.part-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: .7rem;
+  color: var(--ink-faint);
+}
+.part-card__meta span { display: inline-flex; align-items: center; gap: 5px; }
+.part-card__meta svg { width: 13px; height: 13px; }
+.part-card.is-done { border-color: color-mix(in srgb, var(--green) 40%, var(--line)); }
+.part-card.is-done .part-card__num { color: var(--green); }
+.done-badge {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  display: none;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 99px;
+  background: var(--green-soft);
+  color: var(--green);
+  font-size: .6rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.part-card.is-done .done-badge { display: inline-flex; }
+
+.no-results {
+  display: none;
+  padding: 40px;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-md);
+  text-align: center;
+  color: var(--ink-faint);
+}
+.no-results.is-visible { display: block; }
+
+.index-note {
+  margin-top: 42px;
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-2);
+  font-size: .82rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+.index-note strong { color: var(--ink); }
+.index-note p { margin: 0 0 8px; }
+.index-note p:last-child { margin: 0; }
+
+/* ---------- animação de entrada ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal { animation: rise .6s var(--ease) both; }
+  .reveal:nth-child(2) { animation-delay: .04s; }
+  .reveal:nth-child(3) { animation-delay: .08s; }
+  .reveal:nth-child(4) { animation-delay: .12s; }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+/* ---------- responsivo ---------- */
+@media (max-width: 1120px) {
+  :root { --sidebar-w: 280px; }
+  .toc-card { grid-template-columns: 1fr; gap: 16px; }
+}
+
+@media (max-width: 1024px) {
+  .content { width: min(100% - 36px, var(--content-w)); padding-top: 26px; }
+  .grid-3, .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 640px) {
+  body { font-size: 16px; }
+  .content { width: calc(100% - 28px); }
+  .part-hero { border-radius: var(--radius-md); padding: 26px 22px; }
+  .part-hero h1 { font-size: clamp(1.85rem, 8vw, 2.5rem); }
+  .part-hero__num { font-size: 7rem; right: 8px; }
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .compare { grid-template-columns: 1fr; }
+  .chapter-nav { grid-template-columns: 1fr; }
+  .chapter-nav a.next { text-align: left; align-items: flex-start; }
+  .toc-card ol { columns: 1; }
+  .index-main { width: calc(100% - 32px); }
+  .index-toolbar { align-items: stretch; }
+  .search { flex-basis: 100%; }
+  .parts-grid { grid-template-columns: 1fr; }
+  .topbar { padding: 0 14px; gap: 8px; }
+  .brand span { display: none; }
+  .brand small { display: none; }
+  .table-wrap table { min-width: 520px; }
+  .table-wrap th { white-space: nowrap; }
+}
+
+/* ---------- impressão ---------- */
+@media print {
+  :root { --bg: #fff; --surface: #fff; --surface-2: #f6f4ef; --ink: #111; --ink-soft: #333; --ink-faint: #666; --line: #ccc; }
+  body { font-size: 11.5pt; background: #fff; }
+  .topbar, .sidebar, .scrim, .read-progress, .chapter-nav, .chapter-end .btn, .hero-tags, .index-toolbar, .filters, .index-hero__actions { display: none !important; }
+  .layout { display: block; }
+  .content { width: 100%; max-width: none; padding: 0; }
+  .part-hero { color: #111; background: #fff !important; border: 1px solid #ccc; box-shadow: none; padding: 24px; }
+  .part-hero::before, .part-hero::after, .part-hero__num { display: none; }
+  .part-hero h1 { color: #111; }
+  .part-hero__subtitle, .part-hero__meta { color: #333; }
+  .part-hero__meta { border-top-color: #ccc; }
+  .part-hero__kicker { color: #555; border-color: #ccc; background: none; }
+  .part-hero__meta a { color: #333; }
+  .section { break-inside: auto; }
+  .callout, .def, .figure, .example, .quiz details, .table-wrap { break-inside: avoid; }
+  .quiz details { border: 1px solid #ccc; }
+  .quiz__answer { display: block; }
+  .quiz summary::after { display: none; }
+  a { color: inherit; text-decoration: none; }
+  .anchor { display: none; }
+  .source-line, .src { color: #555; }
+}
+
+  </style>
+  <script>
+  (() => {
+    try {
+      const stored = localStorage.getItem("apostila-praticagem-tema");
+      const dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.setAttribute("data-theme", stored || (dark ? "dark" : "light"));
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body class="part-page" data-part="05-interacao-squat-rebocadores">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="read-progress" aria-hidden="true"></div>
+  
+  
+    <header class="topbar">
+      <button class="icon-btn nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="sumario" aria-label="Abrir sumário"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <a class="brand" href="../index.html">
+        <span class="brand__mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.2"/><path d="M12 3.8v2M12 18.2v2M3.8 12h2M18.2 12h2"/><path d="M14.9 9.1l-1.6 4.2-4.2 1.6 1.6-4.2 4.2-1.6Z"/></svg></span>
+        <span>Apostila de Praticagem<small>Estudos para o prático</small></span>
+      </a>
+      <div class="topbar__spacer"></div>
+      <span class="topbar__label">Capítulo 05 de 28</span>
+      <button class="icon-btn" type="button" data-print title="Imprimir / salvar em PDF" aria-label="Imprimir ou salvar em PDF"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 8V3h10v5"/><rect x="4" y="8" width="16" height="9" rx="2"/><path d="M7 14h10v7H7z"/></svg></button>
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Alternar tema"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg></button>
+    </header>
+  <div class="layout">
+    
+      <aside class="sidebar" id="sumario">
+        <p class="sidebar__eyebrow">Sumário da apostila</p>
+        <div class="sidebar__group"><p class="sidebar__group-title">Fundamentos de Arquitetura Naval</p><ul class="part-nav"><li><a href="01-resistencia.html" data-part-id="01-resistencia"><span class="part-nav__num">01</span><span>Resistência ao Avanço</span></a></li><li><a href="02-propulsao.html" data-part-id="02-propulsao"><span class="part-nav__num">02</span><span>Propulsão</span></a></li><li><a href="03-governo-manobrabilidade.html" data-part-id="03-governo-manobrabilidade"><span class="part-nav__num">03</span><span>Governo e Manobrabilidade</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Manobra e Rebocadores</p><ul class="part-nav"><li><a href="04-shiphandling.html" data-part-id="04-shiphandling"><span class="part-nav__num">04</span><span>Shiphandling: Fundamentos e Manobras</span></a></li><li><a href="05-interacao-squat-rebocadores.html" class="is-active" aria-current="page" data-part-id="05-interacao-squat-rebocadores"><span class="part-nav__num">05</span><span>Interação, Squat e Rebocadores</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Navegação e Arte Naval</p><ul class="part-nav"><li><a href="06-radar.html" data-part-id="06-radar"><span class="part-nav__num">06</span><span>Radar e Navegação Radar</span></a></li><li><a href="07-arte-naval.html" data-part-id="07-arte-naval"><span class="part-nav__num">07</span><span>Arte Naval</span></a></li><li><a href="08-btm-cis.html" data-part-id="08-btm-cis"><span class="part-nav__num">08</span><span>Bridge Team Management e CIS</span></a></li><li><a href="09-ripeam.html" data-part-id="09-ripeam"><span class="part-nav__num">09</span><span>RIPEAM / COLREGS</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Regulamentação e Segurança</p><ul class="part-nav"><li><a href="10-legislacao-tribunal.html" data-part-id="10-legislacao-tribunal"><span class="part-nav__num">10</span><span>Legislação e Tribunal Marítimo</span></a></li><li><a href="11-sinalizacao-nautica.html" data-part-id="11-sinalizacao-nautica"><span class="part-nav__num">11</span><span>Sinalização Náutica e IALA</span></a></li><li><a href="12-borda-livre-estabilidade.html" data-part-id="12-borda-livre-estabilidade"><span class="part-nav__num">12</span><span>Borda-Livre e Estabilidade</span></a></li><li><a href="13-trafego-certificacao-praticagem.html" data-part-id="13-trafego-certificacao-praticagem"><span class="part-nav__num">13</span><span>Tráfego, Certificação e Praticagem</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Operações e Meteorologia</p><ul class="part-nav"><li><a href="14-cerimonial-sar.html" data-part-id="14-cerimonial-sar"><span class="part-nav__num">14</span><span>Cerimonial, Roteiro e SAR</span></a></li><li><a href="15-meteorologia.html" data-part-id="15-meteorologia"><span class="part-nav__num">15</span><span>Meteorologia e Marés</span></a></li><li><a href="16-auxilios-gmdss.html" data-part-id="16-auxilios-gmdss"><span class="part-nav__num">16</span><span>Auxílios Eletrônicos e GMDSS</span></a></li></ul></div><div class="sidebar__group"><p class="sidebar__group-title">Programa NORMAM-311 (Anexos 2-A/2-B)</p><ul class="part-nav"><li><a href="p1-manobrabilidade.html" data-part-id="p1-manobrabilidade"><span class="part-nav__num">I</span><span>Área I — Manobrabilidade do Navio</span></a></li><li><a href="p2-arte-naval.html" data-part-id="p2-arte-naval"><span class="part-nav__num">II</span><span>Área II — Arte Naval</span></a></li><li><a href="p3-navegacao-restrita.html" data-part-id="p3-navegacao-restrita"><span class="part-nav__num">III</span><span>Área III — Navegação em Águas Restritas</span></a></li><li><a href="p4-legislacao.html" data-part-id="p4-legislacao"><span class="part-nav__num">IV</span><span>Área IV — Legislação e Regulamentação</span></a></li><li><a href="p5-meteorologia.html" data-part-id="p5-meteorologia"><span class="part-nav__num">V</span><span>Área V — Meteorologia e Oceanografia</span></a></li><li><a href="p6-comunicacoes.html" data-part-id="p6-comunicacoes"><span class="part-nav__num">VI</span><span>Área VI — Comunicações</span></a></li><li><a href="p7-conhecimentos-gerais.html" data-part-id="p7-conhecimentos-gerais"><span class="part-nav__num">VII</span><span>Área VII — Conhecimentos Gerais</span></a></li><li><a href="p1-manobrabilidade-resistencia.html" data-part-id="p1-manobrabilidade-resistencia"><span class="part-nav__num">I.1</span><span>Área I — Manobrabilidade do Navio: Resistência</span></a></li><li><a href="p1-manobrabilidade-propulsao.html" data-part-id="p1-manobrabilidade-propulsao"><span class="part-nav__num">I.2</span><span>Área I — Manobrabilidade do Navio: Propulsão</span></a></li><li><a href="p1-manobrabilidade-lemes.html" data-part-id="p1-manobrabilidade-lemes"><span class="part-nav__num">I.3</span><span>Área I — Manobrabilidade do Navio: Superfícies de Controle</span></a></li><li><a href="p1-manobrabilidade-controlabilidade.html" data-part-id="p1-manobrabilidade-controlabilidade"><span class="part-nav__num">I.4</span><span>Área I — Manobrabilidade do Navio: Controlabilidade</span></a></li><li><a href="p1-manobrabilidade-ambiente.html" data-part-id="p1-manobrabilidade-ambiente"><span class="part-nav__num">I.5</span><span>Área I — Manobrabilidade do Navio: Ambiente e Interações</span></a></li></ul></div>
+        <div class="sidebar__progress">
+          <p><span>Seu progresso</span> <strong><span data-progress-total="28">00</span>/28</strong></p>
+          <div class="bar"><div class="bar__fill"></div></div>
+        </div>
+      </aside>
+      <div class="scrim"></div>
+    <main class="main" id="conteudo">
+      <div class="content">
+        <nav class="breadcrumb" aria-label="Trilha de navegação">
+          <a href="../index.html">Apostila</a>
+          <span aria-hidden="true">/</span>
+          <span>Manobra e Rebocadores</span>
+          <span aria-hidden="true">/</span>
+          <span>Capítulo 05</span>
+        </nav>
+
+        <header class="part-hero">
+          <span class="part-hero__num" aria-hidden="true">05</span>
+          <span class="part-hero__kicker">Squat · Interaction · Tug Use in Port</span>
+          <h1>Interação, Squat e Rebocadores</h1>
+          <p class="part-hero__subtitle">Efeitos hidrodinâmicos em águas restritas, squat, Voith Water Tractor, capacidades e limitações de rebocadores e escolta.</p>
+          <div class="hero-tags"><span>squat</span><span>interação</span><span>rebocador</span><span>escolta</span><span>Voith</span><span>reboque</span><span>banco</span></div>
+          <div class="part-hero__meta">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5v-16Z"/><path d="M4 18.5A2.5 2.5 0 0 1 6.5 16H20"/></svg> pp. 118–179 da fonte</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 1.8"/></svg> ~34 min de leitura</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h7l9 9-7 7-9-9V4Z"/><circle cx="8.2" cy="8.2" r="1.3"/></svg> Manobra e Rebocadores</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></svg> <a href="../../resumo%20curso%20h.pdf#page=118" target="_blank" rel="noopener">abrir PDF original</a></span>
+          </div>
+        </header>
+        
+      <nav class="toc-card" aria-label="Neste capítulo">
+        <div>
+          <h2>Neste capítulo</h2>
+          <p>16 seções · leitura estimada de 34 min</p>
+        </div>
+        <ol><li><a href="#tres-fenomenos-que-decidem-a-manobra">Três fenômenos que decidem a manobra</a></li><li><a href="#interacao-a-fisica-por-tras-da-atracao">Interação: a física por trás da atração</a></li><li><a href="#encontro-ultrapassagem-e-navio-atracado">Encontro, ultrapassagem e navio atracado</a></li><li><a href="#bancos-bacias-e-a-esteira-que-ultrapassa">Bancos, bacias e a esteira que ultrapassa</a></li><li><a href="#squat-o-afundamento-que-engana-o-calado">Squat: o afundamento que engana o calado</a></li><li><a href="#squat-aguas-rasas-largura-de-influencia-e-metodos">Squat: águas rasas, largura de influência e métodos</a></li><li><a href="#squat-no-rio-sinais-antes-do-encalhe">Squat no rio: sinais antes do encalhe</a></li><li><a href="#voith-water-tractor-a-geometria-que-mudou-o-reboque">Voith Water Tractor: a geometria que mudou o reboque</a></li><li><a href="#qual-rebocador-para-cada-posicao">Qual rebocador para cada posição</a></li><li><a href="#metodos-e-posicoes-de-rebocadores">Métodos e posições de rebocadores</a></li><li><a href="#rebocadores-de-escolta-frear-e-governar-em-velocidade">Rebocadores de escolta: frear e governar em velocidade</a></li><li><a href="#cabos-pontos-de-reboque-e-riscos-criticos">Cabos, pontos de reboque e riscos críticos</a></li><li><a href="#bollard-pull-limites-operacionais-e-classificacao">Bollard pull, limites operacionais e classificação</a></li><li><a href="#o-que-levar-para-a-manobra">O que levar para a manobra</a></li><li><a href="#perguntas-para-fixar">Perguntas para fixar</a></li><li><a href="#leituras-de-referencia-disponiveis-na-pasta-tug-use-in-port">Leituras de referência disponíveis na pasta (Tug Use in Port)</a></li></ol>
+      </nav>
+
+        <article class="chapter-body">
+<section class="section" id="tres-fenomenos">
+  <p class="section-kicker">Abertura</p>
+  <h2 id="tres-fenomenos-que-decidem-a-manobra">Três fenômenos que decidem a manobra</h2>
+  <p class="lead">O navio entra no canal com 12 kt, UKC de 10%, outro navio se aproximando na curva e dois rebocadores aguardando na boca do porto. O prático precisa prever, ao mesmo tempo, quanto o casco vai afundar, para onde o navio será atraído e quanto cada rebocador realmente conseguirá entregar. Squat, interaction (interação) e rebocadores não são assuntos separados: formam o mesmo problema de forças, pressões e margens.</p>
+  <p>Este capítulo reúne os três temas na ordem em que aparecem na faina. Primeiro, a interação entre cascos e com margens, bancos e bacias. Depois, o squat (afundamento dinâmico) e suas fórmulas práticas. Por fim, os tipos de rebocador, os métodos de assistência, a escolta e os limites de segurança que o passadiço precisa respeitar.</p>
+  <p class="source-line">pp. 118–179</p>
+
+  <div class="grid-3">
+    <div class="card card--accent">
+      <span class="card__num">01</span>
+      <h3 id="explicar-a-interacao">Explicar a interação</h3>
+      <p>Reconhecer as zonas de atração, repulsão e guinada em encontros, ultrapassagens, margens e bacias, e saber quando o efeito é amplificado por águas rasas.</p>
+    </div>
+    <div class="card card--teal">
+      <span class="card__num">02</span>
+      <h3 id="estimar-o-squat">Estimar o squat</h3>
+      <p>Decidir se o navio está em águas abertas ou confinadas, calcular a largura de influência, aplicar os métodos de squat e interpretar os sinais de perda de UKC.</p>
+    </div>
+    <div class="card">
+      <span class="card__num">03</span>
+      <h3 id="empregar-o-rebocador">Empregar o rebocador</h3>
+      <p>Escolher tipo, posição e método de assistência, compreender a escolta e identificar os riscos de girting, tripping, snap-back e cargas excessivas.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="interacao-fundamentos">
+  <p class="section-kicker">Fundamentos</p>
+  <h2 id="interacao-a-fisica-por-tras-da-atracao">Interação: a física por trás da atração</h2>
+  <p>Um navio em equilíbrio mantém a posição porque as pressões hidrostáticas atuam de forma equilibrada no casco. Quando ele se move, somam-se as pressões dinâmicas, que geram os sistemas de ondas divergente e transversal. Se esse conjunto de pressões é alterado por outro casco, por uma margem ou pelo fundo, o state of balance (equilíbrio de forças) muda. O resultado pode ser aceleração, perda de velocidade, guinada, afundamento ou alteração de trim.</p>
+
+  <div class="def">
+    <span class="def__term">Interação (interaction)</span>
+    <p>Fenômeno hidrodinâmico que faz navios próximos apresentarem mudanças involuntárias de rumo e velocidade quando os campos de pressão ao redor de seus cascos se sobrepõem.</p>
+  </div>
+
+  <p>A intensidade não é aleatória. De forma geral, a interação varia com o quadrado da velocidade, com o inverso da distância entre os cascos e, aproximadamente, com o inverso da raiz quadrada da razão UKC/calado. Isso explica por que o mesmo encontro é benigno a 4 kt e crítico a 10 kt, e por que uma folga de poucos metros faz tanta diferença.</p>
+
+  <div class="formula formula--light">
+    <span class="formula__expr">Interação ∝ V² · (1 / distância) · (1 / √(UKC/T))</span>
+    <span class="formula__where">Relação qualitativa: <b>V</b> é a velocidade relativa; <b>UKC</b> é a folga sob a quilha; <b>T</b> é o calado. A fonte apresenta a tendência, não uma fórmula de projeto.</span>
+  </div>
+
+  <p>Em águas rasas, o fundo restringe o escoamento e modifica as pressões no casco. O navio passa a ter mais tendência ao squat, causa e sente interações mais fortes, e as ondas ficam mais escarpadas: o navio gasta mais energia para gerá-las e perde velocidade. Todos os efeitos de interação descritos adiante se amplificam nessa condição.</p>
+
+  <p>Uma margem age como um “espelho” do navio: o casco se comporta como se estivesse lado a lado com sua imagem. Em geral o navio é sugado para o banco, mas a onda de proa cresce e forma um pressure cushion (almofada de pressão) que empurra a proa para fora. Se a velocidade for alta, essa reação pode superar a sucção e o navio ser afastado do banco. O equilíbrio entre esses dois efeitos é o que torna o governo junto à margem tão delicado.</p>
+
+  <div class="callout callout--info">
+    <span class="callout__label">Para entender</span>
+    <p>Interação não é falha de governo. O navio pode estar com leme e máquina corretos e, ainda assim, guinar porque o campo de pressões mudou. O prático antecipa o efeito; não tenta corrigi-lo apenas com mais leme.</p>
+  </div>
+  <p class="source-line">pp. 118–119</p>
+</section>
+
+<section class="section" id="interacao-navio-navio">
+  <p class="section-kicker">Navio-navio</p>
+  <h2 id="encontro-ultrapassagem-e-navio-atracado">Encontro, ultrapassagem e navio atracado</h2>
+  <p>No encontro head-on (de proas), a sequência de forças é previsível. No início, as proas tendem a se abrir, há um pequeno aumento de velocidade e os navios sentem uma leve repulsão bodily (de corpo inteiro). Durante a passagem, o bow-out (abertura da proa) se transforma em bow-in (fechamento da proa) e a repulsão diminui. Quase no fim, o bow-out retorna com intensidade muito maior, acompanhado de pequena redução de velocidade. Por último, ocorre um bow-in fraco com repulsão.</p>
+
+  <p>A vantagem do encontro head-on é que os navios têm pouco tempo para reagir às forças. Os efeitos dominantes costumam ser o primeiro bow-out, que é pequeno e controlável, e o segundo bow-out, mais forte, que pode fazer os navios guinarem para um shoal (banco raso). O segundo bow-out é o momento de maior atenção no passadiço.</p>
+
+  <p>Na ultrapassagem, o navio que alcança e o navio alcançado sentem inicialmente um fraco momento bow-in. O overtaking (ultrapassador) acelera e o overtaken (ultrapassado) perde velocidade. Como a interação tem tempo para atuar, os dois podem guinar um para cima do outro e colidir. Se não colidirem, ao se emparelharem sentem forte bow-out com atração mútua; em seguida são afastados e as popas podem se tocar.</p>
+
+  <p>Se nada disso ocorrer, o overtaking perde velocidade e o outro acelera por causa do aumento e da redução de resistência. A manobra fica difícil de completar e, em casos extremos, o overtaking pode ficar “trapped” (preso). A prevenção é passar a uma boa distância e reduzir a velocidade relativa. Quanto menor a velocidade relativa, maior a chance de contato; com velocidade relativa zero, como em replenishment at sea (reabastecimento no mar), é preciso conhecer os efeitos para escolher a posição mais benigna ao lado.</p>
+
+  <p>Um navio atracado também sente a passagem de outro. A mesma sequência de forças aparece, mas o sistema de amarração é mais fraco em surge (movimento longitudinal). O navio pode avançar e recuar no berço, e o movimento acoplado a balanço e rotação gera snatch loads (cargas de choque) em cabos frouxos ou mal cuidados, que podem romper. A velocidade de quem passa deve ser a menor possível, especialmente com UKC pequena, e a distância lateral deve ser a maior que a prática permitir.</p>
+
+  <p>Na interação rebocador-navio, o navio é muito maior e uma profundidade rasa para ele pode ser profunda para o rebocador. Por isso, o navio afeta muito o rebocador e o rebocador quase não afeta o navio. Perto da proa e da popa existem regiões a evitar, onde a força do leme do rebocador se soma à interação. Se o timoneiro não estiver atento, o rebocador pode guinar para debaixo da proa do navio.</p>
+
+  <figure class="figure">
+    <svg viewBox="0 0 640 300" role="img" aria-labelledby="fig-interacao-title fig-interacao-desc">
+      <title id="fig-interacao-title">Zonas de pressão em um encontro de proas</title>
+      <desc id="fig-interacao-desc">Dois navios em rumos opostos, com zonas de alta pressão nas proas, baixa pressão no través e setas indicando repulsão e sucção.</desc>
+      <defs>
+        <marker id="seta-interacao" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+        <marker id="seta-succao" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--teal)"/>
+        </marker>
+      </defs>
+      <path d="M45 120 L210 120 Q245 120 270 150 L210 180 L45 180 Q25 150 45 120 Z" fill="var(--surface-2)" stroke="var(--line-strong)" stroke-width="2"/>
+      <path d="M595 120 L430 120 Q395 120 370 150 L430 180 L595 180 Q615 150 595 120 Z" fill="var(--surface-2)" stroke="var(--line-strong)" stroke-width="2"/>
+      <line x1="320" y1="80" x2="320" y2="225" class="diagram-line" stroke-dasharray="6 6"/>
+      <ellipse cx="286" cy="150" rx="24" ry="42" fill="none" stroke="var(--gold)" stroke-width="2" stroke-dasharray="5 4"/>
+      <ellipse cx="354" cy="150" rx="24" ry="42" fill="none" stroke="var(--gold)" stroke-width="2" stroke-dasharray="5 4"/>
+      <ellipse cx="150" cy="150" rx="35" ry="34" fill="none" stroke="var(--teal)" stroke-width="2" stroke-dasharray="5 4"/>
+      <ellipse cx="490" cy="150" rx="35" ry="34" fill="none" stroke="var(--teal)" stroke-width="2" stroke-dasharray="5 4"/>
+      <path d="M300 150 L340 150" class="diagram-gold" marker-end="url(#seta-interacao)"/>
+      <path d="M340 165 L300 165" class="diagram-gold" marker-end="url(#seta-interacao)"/>
+      <path d="M182 205 L205 182" class="diagram-accent" marker-end="url(#seta-succao)"/>
+      <path d="M458 205 L435 182" class="diagram-accent" marker-end="url(#seta-succao)"/>
+      <text x="52" y="110" class="diagram-label">navio A</text>
+      <text x="520" y="110" class="diagram-label">navio B</text>
+      <text x="245" y="62" class="diagram-label diagram-label--strong">proa: alta pressão</text>
+      <text x="120" y="245" class="diagram-label">través: sucção</text>
+      <text x="420" y="245" class="diagram-label">través: sucção</text>
+      <text x="272" y="268" class="diagram-label">repulsão e guinada</text>
+    </svg>
+    <figcaption><b>Figura 1.</b> Esquema das zonas de pressão no encontro de proas. A alta pressão nas proas e a baixa pressão no través mudam de sentido ao longo da passagem; o segundo bow-out costuma ser o efeito mais forte. Fonte: pp. 118–119.</figcaption>
+  </figure>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Situações de interação navio-navio</caption>
+      <thead>
+        <tr><th>Situação</th><th>Sequência dominante</th><th>Risco principal</th><th>Resposta prática</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Head-on</strong></td><td>Bow-out inicial, bow-in na passagem e segundo bow-out mais forte.</td><td>Guinada para banco raso no segundo bow-out.</td><td>Manter rumo firme, antecipar o segundo bow-out e evitar correções bruscas.</td></tr>
+        <tr><td><strong>Ultrapassagem</strong></td><td>Bow-in fraco, atração e forte bow-out no emparelhamento.</td><td>Colisão de costados ou popas; efeito “trapped”.</td><td>Passar afastado e reduzir a velocidade relativa.</td></tr>
+        <tr><td><strong>Navio atracado</strong></td><td>Surge, sway e rotação transmitidos pelas amarras.</td><td>Snatch loads e ruptura de cabos.</td><td>Passar devagar, com grande distance-off e UKC monitorada.</td></tr>
+        <tr><td><strong>Rebocador-navio</strong></td><td>O navio domina o campo de pressões; o rebocador é atraído e guinado.</td><td>Rebocador sob a proa ou junto à popa.</td><td>Evitar as regiões de proa e popa; manter o timoneiro alerta.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>O primeiro bow-out é pequeno e até benéfico. O segundo é mais forte e pode surgir quando a manobra parece resolvida. Não relaxe o governo assim que as proas se cruzam.</p>
+  </div>
+  <p class="source-line">pp. 118–119</p>
+</section>
+
+<section class="section" id="margens-bacias-esteira">
+  <p class="section-kicker">Limites fixos</p>
+  <h2 id="bancos-bacias-e-a-esteira-que-ultrapassa">Bancos, bacias e a esteira que ultrapassa</h2>
+  <p>O bank effect (efeito de margem) se manifesta como um bow-out moment combinado com sucção. Ele ocorre com margem vertical, alagada ou inclinada, e também quando o fundo sobe apenas de um lado do navio. Na prática, o navio tende a guinar para fora porque o bow cushion domina; para seguir paralelo ao banco, é preciso colocar leme para o banco.</p>
+
+  <p>Navegando exatamente na centerline (linha de centro) de um canal uniforme, os efeitos das duas margens se cancelam. Em fairways e rios, porém, as margens não são uniformes e não se pode assumir esse cancelamento. O banco pode atuar como um “dispositivo de controle” e fazer o navio encontrar o centro do rio, mas o navio provavelmente ultrapassa a centerline e encalha do outro lado. Na melhor das hipóteses, ele volta uma vez com auxílio do bank cushion e depois encalha novamente, pois o processo é divergente.</p>
+
+  <p>Em bacias fechadas, navios em manobra ou atracados geram efeitos semelhantes. Um navio que manobra sem assistência usa props e thrusters de forma combinada, colocando a água da bacia em movimento. O swinging (giro) do navio funciona como um remo e gera mais movimento e mudanças de pressão; navios atracados ou fundeados nas proximidades sentem essas variações e podem ranging (oscilar) ou surgir nas amarras.</p>
+
+  <p>Os rebocadores portuários modernos também atuam como bombas em espaços confinados. Em bacias muito estreitas, especialmente com cabos curtos, o fluxo induzido pelo wash reduz a pressão no bordo do rebocador e o navio pode se mover na direção dele, mesmo que a direção do empurro não sugira esse comportamento. Em águas mais rasas, o momento de giro medido em modelo pode até mudar de sinal. É um aviso para usar rebocadores potentes com cabos curtos em bacias fechadas com cautela.</p>
+
+  <p>A esteira também demora a perder velocidade. Quando o navio reduz abruptamente a velocidade em águas rasas e confinadas, a wake (esteira) pode ultrapassá-lo, empurrá-lo para vante e, em casos extremos, fazê-lo guinar de forma descontrolada. A redução deve ser gradual, assim como a manobra de giro.</p>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Dica de passadiço</span>
+    <p>Ao sair de um canal dragado estreito para uma área mais larga, espere a esteira se espalhar e o navio “performar” de forma diferente. A água arrastada precisa de espaço para se dissipar; não aumente potência antes de sentir o casco estabilizar.</p>
+  </div>
+  <p class="source-line">pp. 119–120</p>
+</section>
+
+<section class="section" id="squat-definicao">
+  <p class="section-kicker">Squat</p>
+  <h2 id="squat-o-afundamento-que-engana-o-calado">Squat: o afundamento que engana o calado</h2>
+  <div class="def">
+    <span class="def__term">Squat (afundamento dinâmico)</span>
+    <p>Soma algébrica do afundamento médio do corpo (mean bodily sinkage) com o efeito de trim (pela proa ou pela popa) que ocorre quando o navio se move, ou quando está atracado e exposto a uma maré vazante.</p>
+  </div>
+
+  <p>O squat pode ter duas origens: o movimento para vante do navio ou a condição de navio atracado em uma ebb tide (maré vazante) ao lado de um jetty. Em movimento, ocorre um afundamento médio acompanhado de leve trim. A soma algébrica dos dois é o squat.</p>
+
+  <p>Para um calado qualquer, squat não é a diferença entre as leituras de calado parado e em movimento. A fonte dá um exemplo: a leitura de calado na proa pode variar 2 m devido ao movimento para vante, enquanto a perda real de UKC é de apenas 0,4 m. Confundir as duas coisas leva a decisões erradas. Se o navio estiver atracado ao lado de um jetty em maré vazante, uma interpretação errada da leitura pode resultar em underloading (carregamento insuficiente).</p>
+
+  <p>Para navios pequenos ou lentos, o squat é de poucos centímetros e pode ser negligenciado. Com supertankers pesados, containers velozes e navios de passageiros, ele passou a ser decisivo: da ordem de 1,5 a 1,75 m para navios de grande DWT ou grande velocidade, o que é muito para quem trabalha com clearances (folgas) de 1,0 a 1,5 m.</p>
+
+  <p>Os principais fatores que afetam o squat são:</p>
+  <ul>
+    <li><strong>Velocidade para vante (Vk):</strong> é o fator mais importante, pois o squat varia com Vk².</li>
+    <li><strong>Coeficiente de bloco (CB):</strong> o squat varia diretamente com CB.</li>
+    <li><strong>Razão H/T:</strong> quando a profundidade H diminui em relação ao calado T, o squat aumenta. O trabalho da fonte mediu squat com H/T entre 1,1 e 1,4.</li>
+    <li><strong>Presença de bancos:</strong> quanto mais perto o banco estiver da lateral, maior o squat.</li>
+    <li><strong>Presença de outro navio:</strong> em passing ou crossing, o squat aumenta nos dois navios, em 50 a 100% quando estão pelo través.</li>
+  </ul>
+
+  <p>No caso de outro navio pelo través, o navio se move na direção do outro e surge um ângulo de heel (banda). A bilge do lado do banco se aproxima do fundo e pode danificar a bilge keel. Esse é o transverse squat, que também reduz a UKC.</p>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>Não use a variação da leitura de calado como se fosse perda de UKC. O squat é o afundamento efetivo do casco, não a diferença entre leituras estáticas e em movimento.</p>
+  </div>
+  <p class="source-line">pp. 120–121</p>
+</section>
+
+<section class="section" id="calculo-squat">
+  <p class="section-kicker">Cálculo</p>
+  <h2 id="squat-aguas-rasas-largura-de-influencia-e-metodos">Squat: águas rasas, largura de influência e métodos</h2>
+  <p>A primeira decisão prática é saber se o navio está em deep water (águas profundas) ou em águas rasas. A fonte usa o depth of influence (profundidade de influência) FD, comparado com a profundidade local H:</p>
+
+  <div class="formula">
+    <span class="formula__expr">FD = cte × T</span>
+    <span class="formula__where"><b>FD</b> profundidade de influência; <b>T</b> calado. A constante é 5,68 para um supertanker e 7,07 para um general cargo ship. Se <b>H &gt; FD</b>, o navio opera em águas profundas; se <b>H &lt; FD</b>, opera em águas rasas.</span>
+  </div>
+
+  <p>Em águas profundas, o squat e a resistência não mudam. Em águas rasas, a resistência aumenta, a velocidade e o RPM caem para uma potência constante, e o squat cresce à medida que H/T se aproxima de 1,0. Outros sinais de que o navio entrou em águas rasas são o aumento da formação de ondas para vante, a resposta sluggish (lenta) ao governo, vibração repentina por efeito de água entrainada e redução dos movimentos de roll, pitch e heave pelo amortecimento do fundo.</p>
+
+  <p>Para o cálculo, a fonte define o blockage factor (fator de bloqueio) S e o velocity-return factor S2:</p>
+
+  <div class="formula formula--light">
+    <span class="formula__expr">S = (b · T) / (B · H) &nbsp;&nbsp;&nbsp; S2 = S / (1 − S)</span>
+    <span class="formula__where"><b>b</b> boca do navio; <b>B</b> largura do canal; <b>T</b> calado; <b>H</b> profundidade. O fator S2 representa o retorno de velocidade causado pela restrição do canal.</span>
+  </div>
+
+  <p>A fonte apresenta cinco métodos para o squat máximo Jmáx. O método 1 é mais preciso e mais complexo; os demais são mais simples e erram para o safe side (lado seguro). O método 5 é a regra de bolso usada por práticos e erra ainda mais para o lado seguro.</p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Métodos de estimativa do squat máximo</caption>
+      <thead>
+        <tr><th>Método</th><th>Aplicação</th><th>Expressão</th><th>Observação</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>1</strong></td><td>Open water e canais confinados.</td><td>Jmáx ≈ [CB / (30 · S2<sup>2/3</sup>)] · Vk<sup>2,08</sup></td><td>Mais preciso; o OCR da fonte está truncado neste ponto e a expressão é uma reconstrução.</td></tr>
+        <tr><td><strong>2</strong></td><td>Somente open water.</td><td>Jmáx = CB · Vk² / 100</td><td>Simples; não considera a largura do canal.</td></tr>
+        <tr><td><strong>3</strong></td><td>Open water e canais confinados.</td><td>Jmáx = K · (CB · Vk² / 100), com K = 6S + 0,4</td><td>Corrige o método 2 pelo bloqueio S.</td></tr>
+        <tr><td><strong>4</strong></td><td>Canais confinados com 0,1 &lt; S &lt; 0,265.</td><td>Jmáx = 2 · (CB · Vk² / 100)</td><td>Aplicação restrita à faixa de bloqueio indicada.</td></tr>
+        <tr><td><strong>5</strong></td><td>Regra de bolso para open water.</td><td>Jmáx = Vk² / 100</td><td>Usada por práticos; conservadora e independente da largura do canal.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>As fórmulas foram elaboradas para H/T entre 1,10 e 1,40, ou seja, para águas rasas. Em open water conditions, sem bancos adjacentes, a fonte calcula uma largura artificial de influência, FB, que representa as margens do rio:</p>
+
+  <div class="formula formula--light">
+    <span class="formula__expr">FB = cte × B</span>
+    <span class="formula__where"><b>B</b> boca máxima do navio, medida na meia-nau ou muito próxima dela; a constante depende do tipo de navio. Para um supertanker, a fonte cita FB = 8,32 × B.</span>
+  </div>
+
+  <p>Se a largura real do canal for maior que FB, o navio opera em condições de open water e qualquer largura acima de FB produz o mesmo squat. Nesse caso, usa-se FB como largura do canal nas fórmulas. Se a largura real for menor que FB, a resistência aumenta, há perda de velocidade e RPM e o squat cresce.</p>
+
+  <p>O local do squat máximo depende do trim estático. Para navios on even keel (sem trim) parados, ao se moverem para vante:</p>
+  <ul>
+    <li>Se CB &gt; 0,7, o navio trima pela proa e Jmáx ocorre na proa.</li>
+    <li>Se CB &lt; 0,7, trima pela popa e Jmáx ocorre na popa.</li>
+    <li>Se CB = 0,7, não trima: o squat é apenas um afundamento médio e Jmáx ocorre em todo o navio.</li>
+  </ul>
+
+  <p>Se o navio já tem trim estático pela proa ou pela popa, o movimento provoca afundamento médio mais um leve trim na mesma direção. O trim existente aumenta, e Jmáx deve ser somado ao maior dos calados estáticos das extremidades.</p>
+
+  <p>No exemplo resolvido da fonte, o roteiro é sempre o mesmo: calcular FB e comparar com a largura fornecida do canal; se a largura do canal for maior, tratar como open water e usar os métodos 1, 2, 3 ou a regra de bolso; por fim, verificar o CB para dizer onde o squat máximo ocorrerá. A fonte conclui que, com o navio em even keel e CB &gt; 0,7, o squat máximo ocorre na proa.</p>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>A expressão do método 1 está truncada no OCR. Ela foi reconstruída para fins didáticos, mas não deve ser tratada como fórmula normativa sem conferência na fonte primária. Para decisão operacional, prefira os métodos conservadores e a regra de bolso.</p>
+  </div>
+  <p class="source-line">pp. 120–121</p>
+</section>
+
+<section class="section" id="squat-pratica">
+  <p class="section-kicker">Na prática</p>
+  <h2 id="squat-no-rio-sinais-antes-do-encalhe">Squat no rio: sinais antes do encalhe</h2>
+  <p>No lower river (trecho inferior do rio), os detalhes do navio são passados ao prático do navio e ele faz as contas. A fonte admite uma nominal allowance (margem nominal) de 8 a 10% sobre o calado. A direção do vento importa para o próximo período de rise and fall da maré: um tidal cut (corte de maré) pode fazer os 10% de clearance desaparecerem rapidamente. Um cálculo rápido é tudo o que se precisa para saber se vai dar para safar.</p>
+
+  <p>Transmissões do VTS avisam os outros navios de que o navio está a caminho e fornecem tide gauge readings (leituras de maré) continuamente. Às vezes, o conjunto de correntes atravessadas no berço torna a slack water berthing (atracação na estofa) essencial. O timing é decisivo: se a maré parar de subir antes da passagem por um canal estreito, o plano muda.</p>
+
+  <p>Os primeiros sinais de squat são perda de velocidade, curling wash (esteira curvada), perda generalizada de controle e o dipping da proa. As reações não podem ser generalizadas, mas a regra básica é ser suave. A fonte relata um navio que perdeu o controle por usar potência demais ao passar por uma área mais rasa; o prático reduziu potência e safou o navio.</p>
+
+  <p>Quando o calado é igual à profundidade, o eco-sounder é pouco útil: a navigable mud (lama navegável) é fina e os pulsos penetram até a lama mais dura, indicando uma provável profundidade operável. O prático tende a observar a wake do navio em busca de indícios de proximidade do fundo. Esse aviso costuma começar antes de a proa afundar e é melhor que os outros sinais: o navio “pull her water” (puxa água) antes de guinar ou afundar a proa.</p>
+
+  <p>No upper river (trecho superior), não há por que proceder com full speed se o navio vai ter que esperar pela água. Os canais podem silt up (assorear) até meio metro entre marés, e uma redução de profundidade pode surpreender. O cross-set pode ser alarmante, com 4 a 5 kt comuns, de modo que o track (trajetória sobre o fundo) não tem relação com a proa. Os sinais usuais de squat não aparecem da mesma forma, mas há um que vale em qualquer lugar: se o wash ultrapassar o navio, alguma coisa não vai bem.</p>
+
+  <p>Nessa ordem, o prático escuta e sente: o roar do wash (som grave), as engines começando a trabalhar com queda de velocidade, o navio começando a yaw about (guinar) e, por último, a proa afundando. O sintoma da proa ocorre pouco antes de tudo ir muito mal; nessa hora a potência já deve ter sido reduzida. Em certos lugares, o próprio prático assume o timão para sentir a proximidade do fundo antes de o timoneiro relatar que o navio não governa. Grounding normalmente ocorre por falha mecânica ou por informação incorreta do Master sobre o calado; brief pauses on the bottom (toques breves no fundo), porém, são frequentes.</p>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Dica de passadiço</span>
+    <p>Trate a esteira como seu primeiro sensor de UKC. Se o wash ultrapassa o navio, o squat já está presente. Reduza potência de forma gradual e observe a resposta antes de aumentar novamente.</p>
+  </div>
+  <p class="source-line">pp. 124–125</p>
+</section>
+
+<section class="section" id="voith-water-tractor">
+  <p class="section-kicker">Rebocadores</p>
+  <h2 id="voith-water-tractor-a-geometria-que-mudou-o-reboque">Voith Water Tractor: a geometria que mudou o reboque</h2>
+  <p>O Voith Water Tractor (VWT) reúne características que explicam boa parte da doutrina moderna de reboque. As principais são:</p>
+  <ul>
+    <li><strong>Twin Voith Schneider props:</strong> dois conjuntos de pás verticais dispostos athwartships (através do navio), a não mais de 30% da proa.</li>
+    <li><strong>Nozzle ou guard plate:</strong> aumenta a tração e protege as pás contra impacto no fundo ou no casco de outros navios. A estrutura deve suportar grandes impactos sem danificar as pás nem comprometer a watertight integrity do casco.</li>
+    <li><strong>Fin estabilizador de ré:</strong> foi concebido para course stability, mas ganhou outras aplicações importantes.</li>
+    <li><strong>Towing gear:</strong> quase 100% composto por um winch, com o cabo passando por um towing bollard ou staple sobre o centro do fin.</li>
+    <li><strong>Wheelhouse:</strong> pequena e central, com all-round visibility, às vezes operada por uma pessoa em um central console.</li>
+  </ul>
+
+  <p>O towing point (TP) sobre o fin é uma posição de compromisso: para rebocar para vante de um navio, o TP ideal fica mais próximo do inboard end do skeg; para rebocar para ré, o ideal seria mais próximo do outboard end. Em escort services, um segundo TP pode ser colocado no bulwark sobre o outboard end do skeg para reduzir o esforço do timoneiro nas operações rotineiras.</p>
+
+  <p>Nos anos 1950, muitos rebocadores foram perdidos por girting e por serem overrun under a ship's bow (passados por cima sob a proa do navio). A solução da Voith foi colocar o prop avante e o TP a ré, evitando o equilíbrio instável dos rebocadores convencionais, que tinham prop a ré e TP a meia-nau. A diferença imediata é que o rebocador governa para dentro da curva, em vez de a popa girar para fora. Hoje, a free running speed é de cerca de 15 kt e o BP excede 70 t.</p>
+
+  <p>A geometria também viabiliza o indirect towing (reboque indireto). Com o TP sobre um skeg sob o afterbody, a resistência do casco e do skeg quando puxados pela água em ângulo oblíquo gera towline forces que excedem muito o BP nominal — e, ao contrário dos outros métodos, a força na towline aumenta com a velocidade. Nas operações de escolta, são as resistências do casco e do skeg que geram a força, enquanto os props apenas alinham o casco para obter o towline angle correto.</p>
+
+  <p>As forças elevadas exigem margens de segurança grandes. A fonte cita um tractor de 50 t de BP nominal com brake capacity de 150 t e towline de 180 t. Um tow winch moderno deve ter brake capacity de ao menos 3 vezes o BP, recuperação leve rápida (cerca de 90 m/min) e um drum que evite problemas de spooling. A tendência para harbour ops é BP de 40 a 55 t, com sistemas de reboque de alta performance.</p>
+
+  <div class="compare">
+    <div class="pro">
+      <h4>Pontos fortes</h4>
+      <ul>
+        <li>Tração praticamente igual para vante e para ré.</li>
+        <li>Grande capacidade de side thrust e de reboque indireto.</li>
+        <li>TP na extremidade mais eficaz em cada posição, sem precisar largar o cabo.</li>
+      </ul>
+    </div>
+    <div class="con">
+      <h4>Limitações</h4>
+      <ul>
+        <li>Calado maior e casco cheio, o que prejudica sea keeping em mar aberto.</li>
+        <li>Relação BP/potência menor que a de configurações com nozzle-Kort.</li>
+        <li>Forças muito acima do BP nominal exigem winch, cabo e pontos de reboque compatíveis.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="source-line">pp. 122–123</p>
+</section>
+
+<section class="section" id="tipos-rebocador">
+  <p class="section-kicker">Tipos</p>
+  <h2 id="qual-rebocador-para-cada-posicao">Qual rebocador para cada posição</h2>
+  <p>Não há um sistema uniforme de classificação. A forma mais útil é classificar o rebocador pela posição do prop e do towing point. Isso separa dois grandes grupos: rebocadores com prop a ré e TP próximo à meia-nau, que são os convencionais single e twin screw; e rebocadores com prop avante ou à meia-nau e TP a ré, que são os tractors com props Voith e azimutais. Há ainda tipos intermediários que operam como convencionais ou como tractors, dependendo da posição usada.</p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Tipos de rebocador e emprego típico</caption>
+      <thead>
+        <tr><th>Tipo</th><th>Prop e TP</th><th>Melhor emprego</th><th>Limitação principal</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Convencional</strong></td><td>Prop fixo a ré, um ou mais eixos; TP a cerca de 0,45 LWL da popa.</td><td>Cabo na proa em velocidade; push-pull com pouca corrente.</td><td>BP a ré muito menor; perde eficácia empurrando acima de 3–4 kt.</td></tr>
+        <tr><td><strong>Combi-tug</strong></td><td>Convencional com bow thruster e TP adicional a ré.</td><td>Pode operar como convencional ou quase como tractor.</td><td>Thruster tem limitações de potência e de calado.</td></tr>
+        <tr><td><strong>VS tractor</strong></td><td>Dois conjuntos cicloidais avante; TP a ré, sobre o skeg.</td><td>Escolta, reboque indireto, popa e costado.</td><td>Calado maior; menor BP/potência; mar aberto limitado.</td></tr>
+        <tr><td><strong>Azimuth tractor</strong></td><td>Dois props azimutais avante; TP a ré.</td><td>Cabo na proa, manobra, costado; menor calado.</td><td>Menos eficaz que o VS no método indireto.</td></tr>
+        <tr><td><strong>Reverse tractor</strong></td><td>Props azimutais a ré; TP e guincho avante.</td><td>Cabo na popa e no costado; trabalha com a proa.</td><td>Navega de ré ao acompanhar navio; governo pior em alta velocidade.</td></tr>
+        <tr><td><strong>ASD</strong></td><td>Props azimutais a ré; guincho avante e guincho ou hook a ré.</td><td>Grande flexibilidade: convencional, reverse ou costado.</td><td>Tração a ré 5–10% menor; risco de girting como forward tug.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>O convencional simple-screw é o mais simples, mas a manobrabilidade e a segurança aumentam muito com dois ou três props. Acessórios como lemes de flanco, tubulão-Kort, Towmaster e bow thruster melhoram o governo e a tração avante, mas não alteram substancialmente o BP com máquinas a ré. O tubulão-Kort pode aumentar a tração em 15 a 25%, embora reduza a capacidade de governo e exija lemes mais eficientes.</p>
+
+  <p>Os tractors cicloidais têm tração quase igual avante e a ré, mudança rápida de sentido e grande calado. Os azimutais têm calado menor, skeg menor e custos menores, mas perdem eficiência no método indireto. Os reverse tractors e ASDs trabalham com a proa como extremidade de trabalho; o ASD pode escolher entre operar como convencional, com cabo no gato de ré, ou como reverse tractor. A tração a ré do reverse tractor é cerca de 10% menor que a avante; no ASD, a perda fica em 5 a 10%.</p>
+
+  <p>Para operações portuárias com velocidade máxima de 6 a 7 kt, a fonte propõe um ranking de adequabilidade. Como forward tug towing on a line: ASD, combi, convencional e tractor/reverse. Como stern tug: tractor, ASD e reverse, seguidos de combi e convencional. No costado: ASD, reverse e tractor, seguidos de combi e convencional. O ranking é genérico e muda com o desenho do casco, mas é um bom ponto de partida para a briefing.</p>
+
+  <p>Quando o requisito principal é segurança, tractors, reverse tractors e ASDs vencem os convencionais. Quando o requisito é eficiência como forward tug em velocidade, o convencional e o ASD levam vantagem. Não existe um rebocador melhor em tudo: existe o rebocador certo para a posição, a velocidade e o risco da manobra.</p>
+
+  <div class="callout callout--exam">
+    <span class="callout__label">Cai na prova</span>
+    <p>Guarde a lógica: TP a ré e prop avante favorecem o reboque indireto e a escolta; prop a ré e TP à meia-nau favorecem o cabo na proa em velocidade; ASD e reverse tractor favorecem a popa e o costado. O resto é consequência dessa geometria.</p>
+  </div>
+  <p class="source-line">pp. 126–134, 168–171</p>
+</section>
+
+<section class="section" id="metodos-assistencia">
+  <p class="section-kicker">Assistência</p>
+  <h2 id="metodos-e-posicoes-de-rebocadores">Métodos e posições de rebocadores</h2>
+  <p>A eficácia da assistência depende menos do BP nominal do que da posição do rebocador, do comprimento do cabo e da velocidade do navio. A fonte distingue dois métodos principais: towing on a line (reboque com cabo) e operating at ship's side (operação no costado), frequentemente combinados. Em portos convencionais predomina o cabo; em terminais abertos, o push-pull (empurrar/puxar) ganha espaço.</p>
+
+  <p>Na posição forward (avante), um rebocador de propulsão convencional tem pouca eficácia até o navio estar quase parado; suas forças de governo são mínimas e as de frenagem quase nulas. O braço de alavanca em relação ao ponto de pivô é curto, e a força aplicável é limitada pela velocidade. O Voith tractor melhora a segurança e permite grandes ângulos de cabo sem perda de tração avante, mas não elimina a limitação do braço curto.</p>
+
+  <p>No shoulder (bochecha), empurrar pelo lado de dentro da curva funciona como um backspring (contramola) contra o movimento do navio. Empurrar pelo lado de fora pode inicialmente arrastar o navio para o lado errado, porque a resistência do rebocador induz um efeito de backspring. Um push no shoulder off the berth tem grande valor, mas flare e overhang podem obrigar o rebocador a atuar próximo ao ponto de pivô, reduzindo o momento de giro.</p>
+
+  <p>No quarter (alheta), quanto mais a ré melhor o braço de alavanca, mas o rebocador pode ser arrastado para a zona de baixa pressão ou se aproximar perigosamente do propulsor do navio. Muitas vezes é mais seguro atracar a meia-nau e depois mover a ré para a posição de reboque, ou ficar avante da linha de cabo até ser necessário.</p>
+
+  <p>A posição aft (ré), em line towing, é a mais eficaz para frenagem e governo quando o navio tem velocidade, desde que se usem rebocadores modernos capazes de trabalhar com segurança. No indirect towing, a resistência do casco e do skeg gera força na linha que aumenta com a velocidade e pode exceder o BP nominal. Nas operações de escolta, os propulsores alinham o casco; a força vem da hidrodinâmica do conjunto rebocador-cabo.</p>
+
+  <figure class="figure">
+    <svg viewBox="0 0 640 280" role="img" aria-labelledby="fig-tug-pos-title fig-tug-pos-desc">
+      <title id="fig-tug-pos-title">Posições de assistência de rebocadores</title>
+      <desc id="fig-tug-pos-desc">Navio visto de cima com rebocadores nas posições de proa, bochecha, alheta e popa, indicando forças típicas.</desc>
+      <defs>
+        <marker id="seta-tug" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+      </defs>
+      <path d="M210 110 L430 110 Q470 110 500 140 L430 170 L210 170 Q170 140 210 110 Z" fill="var(--surface-2)" stroke="var(--line-strong)" stroke-width="2"/>
+      <circle cx="355" cy="140" r="4" fill="var(--navy-3)"/>
+      <text x="360" y="132" class="diagram-label">PP</text>
+      <rect x="130" y="128" width="34" height="24" rx="4" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.5"/>
+      <text x="147" y="166" text-anchor="middle" class="diagram-label">proa</text>
+      <path d="M164 140 L195 140" class="diagram-gold" marker-end="url(#seta-tug)"/>
+      <rect x="235" y="56" width="34" height="24" rx="4" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.5"/>
+      <text x="252" y="48" text-anchor="middle" class="diagram-label">bochecha</text>
+      <path d="M252 80 L252 106" class="diagram-gold" marker-end="url(#seta-tug)"/>
+      <rect x="390" y="196" width="34" height="24" rx="4" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.5"/>
+      <text x="407" y="236" text-anchor="middle" class="diagram-label">alheta</text>
+      <path d="M407 196 L407 174" class="diagram-gold" marker-end="url(#seta-tug)"/>
+      <rect x="516" y="128" width="34" height="24" rx="4" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.5"/>
+      <text x="533" y="166" text-anchor="middle" class="diagram-label">popa</text>
+      <path d="M516 140 L485 140" class="diagram-gold" marker-end="url(#seta-tug)"/>
+      <text x="320" y="258" text-anchor="middle" class="diagram-label">Proa: pouco braço. Bochecha/alheta: push-pull. Popa: frenagem e governo em velocidade.</text>
+    </svg>
+    <figcaption><b>Figura 2.</b> Posições típicas de assistência e sentido das forças. A posição de popa ganha importância em velocidade e em escolta; a bochecha é valiosa no afastamento do berço. Fonte: pp. 122–123, 126–127.</figcaption>
+  </figure>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Na prática</span>
+    <p>Ao entrar em canal restrito, combine um rebocador de proa para correções de rumo com um de popa para frenagem e controle de velocidade. Mudar o método durante a manobra exige tempo, cabo e comunicação clara entre prático, comandante e mestres dos rebocadores.</p>
+  </div>
+  <p class="source-line">pp. 122–123, 126–127</p>
+</section>
+
+<section class="section" id="escolta">
+  <p class="section-kicker">Escolta</p>
+  <h2 id="rebocadores-de-escolta-frear-e-governar-em-velocidade">Rebocadores de escolta: frear e governar em velocidade</h2>
+  <p>A escolta (escort) nasceu da necessidade de controlar navios-tanque e cargas perigosas em canais e aproximações, reduzindo o risco de colisão e encalhe após falhas técnicas ou humanas. O objetivo é aplicar forças de governo e frenagem para manter o navio flutuando em segurança ou limitar o impacto de um acidente até a chegada de assistência adicional.</p>
+
+  <p>Os rebocadores de escolta acompanham o navio tethered (amarrados) ou free sailing (livres). Harbour tugs podem escoltar em baixas velocidades e curtas distâncias; escort tugs dedicados operam a 10–12 kt, com velocidade livre típica de 12,5 a 15–16 kt. Em velocidade, as forças de governo são geradas principalmente no método indireto, no qual o casco e o skeg produzem sustentação e arrasto quando colocados oblíquos ao escoamento.</p>
+
+  <p>A terminologia da fonte inclui o direct arrest mode (frenagem direta), com reverse arrest e transverse arrest, e o dynamic arrest mode, com indirect e combination arrest. Em baixa velocidade, o reverse arrest pode produzir força de frenagem elevada; acima de cerca de 8 kt, o transverse arrest tende a ser mais eficiente sem sobrecarregar os motores. Para iniciar um giro, recomenda-se o indirect arrest; para se opor a um giro em velocidades baixas e altas, o combination arrest.</p>
+
+  <p>No método indireto, as forças de governo crescem com a velocidade e podem atingir valores próximos ou superiores ao BP. A posição do towing point e do centro de pressão lateral (CP) é crítica: quanto menor a distância horizontal entre TP e CP em relação ao braço da propulsão, menor o esforço lateral necessário e maior a força útil na linha. Tractors com skeg grande tendem a ser mais eficientes no indireto; ASDs e reverse tractors podem compensar com bulbo, box keel ou skeg avante para trazer o CP mais para frente.</p>
+
+  <figure class="figure">
+    <svg viewBox="0 0 640 260" role="img" aria-labelledby="fig-escort-title fig-escort-desc">
+      <title id="fig-escort-title">Reboque direto e indireto na escolta</title>
+      <desc id="fig-escort-title-2">Comparação esquemática entre reboque direto atrás do navio e reboque indireto com rebocador oblíquo ao escoamento.</desc>
+      <defs>
+        <marker id="seta-escort" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+      </defs>
+      <path d="M60 90 L260 90 Q290 90 310 120 L260 150 L60 150 Q40 120 60 90 Z" fill="var(--surface-2)" stroke="var(--line-strong)" stroke-width="2"/>
+      <rect x="330" y="108" width="40" height="24" rx="4" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.5"/>
+      <line x1="310" y1="120" x2="330" y2="120" class="diagram-line" stroke-width="2"/>
+      <path d="M370 120 L430 120" class="diagram-gold" marker-end="url(#seta-escort)"/>
+      <text x="215" y="60" text-anchor="middle" class="diagram-label diagram-label--strong">Direto: frenagem</text>
+      <text x="380" y="155" text-anchor="middle" class="diagram-label">cabo alinhado</text>
+
+      <path d="M60 210 L260 210 Q290 210 310 240 L60 240 Q40 225 60 210 Z" fill="var(--surface-2)" stroke="var(--line-strong)" stroke-width="2"/>
+      <g transform="translate(360,210) rotate(35)">
+        <rect x="-20" y="-12" width="40" height="24" rx="4" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.5"/>
+      </g>
+      <line x1="310" y1="225" x2="344" y2="218" class="diagram-line" stroke-width="2"/>
+      <path d="M372 232 L430 250" class="diagram-gold" marker-end="url(#seta-escort)"/>
+      <path d="M350 200 L330 185" class="diagram-accent" marker-end="url(#seta-tug)"/>
+      <text x="215" y="186" text-anchor="middle" class="diagram-label diagram-label--strong">Indireto: governo em velocidade</text>
+      <text x="470" y="198" class="diagram-label">lift + arrasto</text>
+    </svg>
+    <figcaption><b>Figura 3.</b> No modo direto, a força vem principalmente da tração do rebocador; no indireto, o casco oblíquo gera forças hidrodinâmicas que aumentam com a velocidade. Fonte: pp. 134–135, 160–164.</figcaption>
+  </figure>
+
+  <div class="callout callout--info">
+    <span class="callout__label">Para entender</span>
+    <p>Escolta não é apenas ter um rebocador atrás. O rebocador precisa de estabilidade, winch, cabo e pontos de reboque dimensionados para forças que podem ultrapassar o BP nominal, especialmente no método indireto e com mar agitado.</p>
+  </div>
+  <p class="source-line">pp. 160–164</p>
+</section>
+
+<section class="section" id="equipamentos-seguranca">
+  <p class="section-kicker">Equipamento e segurança</p>
+  <h2 id="cabos-pontos-de-reboque-e-riscos-criticos">Cabos, pontos de reboque e riscos críticos</h2>
+  <p>O sistema de reboque é tão forte quanto seu elo mais fraco. A fonte recomenda que o MBS (minimum breaking strength, carga mínima de ruptura) da towline seja cerca de 4 vezes o BP do rebocador em operações portuárias, considerando forças estáticas de até 2 × BP em ângulos íngremes e cargas dinâmicas adicionais. Em escolta, o MBS deve ser ao menos 2,2 a 3 vezes as máximas forças de governo e frenagem esperadas.</p>
+
+  <p>Cabos de aço têm limite elástico próximo de 2/3 da MBL e exigem atenção ao endurance limit. Cabos de fibra sintética absorvem melhor choques, mas variam muito em elasticidade e resistência à abrasão: nylon estica bastante e perde resistência quando molhado; polyester é mais estável; HMPE (Dyneema/Spectra) tem altíssima resistência e baixa elasticidade, exigindo stretchers para reduzir cargas dinâmicas. Towlines mistas combinam pennant, stretcher e cabo principal para equilibrar resistência, elasticidade e proteção.</p>
+
+  <p>O comprimento do cabo afeta tempo de reação, espaço de manobra e segurança. Cabos curtos reduzem o path width do navio e aceleram a resposta, mas aumentam o risco em velocidade, transmitem mais carga dinâmica e sofrem mais com o wash do propulsor do rebocador sobre o casco. Em operações de escolta, comprimentos de 60 a 150 m são citados, conforme a situação.</p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Riscos de segurança no reboque</caption>
+      <thead>
+        <tr><th>Risco</th><th>Como ocorre</th><th>Prevenção</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Girting</strong></td><td>Rebocador convencional é puxado para o través pela linha sob tensão, com grande momento emborcante.</td><td>Controlar velocidade, usar gob rope/radial hook, quick release confiável e comunicação constante.</td></tr>
+        <tr><td><strong>Tripping</strong></td><td>Tractor gira sobre a própria linha quando o ângulo de reboque fica excessivo.</td><td>Reduzir velocidade, ajustar posição e evitar ângulos críticos.</td></tr>
+        <tr><td><strong>Snap-back</strong></td><td>Ruptura súbita do cabo libera energia elástica em direção ao convés.</td><td>Manter áreas de snap-back livres, inspecionar cabos e respeitar MBS e fadiga.</td></tr>
+        <tr><td><strong>Interação</strong></td><td>Sucção e momentos junto à proa/popa do navio arrastam o rebocador.</td><td>Evitar aproximações em alta velocidade, coordenar máquinas e usar janelas seguras.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Quick release systems em hooks nem sempre funcionam sob alta carga ou grande ângulo; towing winches com liberação controlada da wheelhouse são preferíveis. Gob ropes, pontos de reboque adicionais e radial systems deslocam o TP para reduzir o momento emborcante e melhorar o governo. Em qualquer caso, o mestre do rebocador precisa de visibilidade, comunicação VHF clara e autoridade para largar o cabo quando a segurança exigir.</p>
+
+  <div class="callout callout--danger">
+    <span class="callout__label">Erro crítico</span>
+    <p>Nunca trate BP nominal como limite de força na linha. No método indireto, em ângulos íngremes ou com cargas dinâmicas, a tração pode superar o BP. Dimensione winch, freio, cabo e strong points para o pior caso plausível, não para o valor de placa.</p>
+  </div>
+  <p class="source-line">pp. 126–129, 150–159, 174–175</p>
+</section>
+
+<section class="section" id="capacidade-classificacao">
+  <p class="section-kicker">Capacidade e normas</p>
+  <h2 id="bollard-pull-limites-operacionais-e-classificacao">Bollard pull, limites operacionais e classificação</h2>
+  <p>O bollard pull (BP) requerido para uma manobra depende do porte, das condições ambientais, da configuração do berço e do método de assistência. A fonte apresenta fatores de segurança típicos de 20% nos cálculos de vento, corrente e ondas, e recomenda acréscimo adicional quando o rebocador opera com cabo curto no costado, onde a perda de eficiência pode ser grande.</p>
+
+  <p>Para forças de vento de través, a fórmula citada é Fw = 0,08 · V² · AL (kgf), com V em m/s e área lateral AL; para corrente, as expressões variam fortemente com a UKC, chegando a valores muito maiores em águas rasas. Para navios de grande deslocamento, uma estimativa prática apresentada é BP = 40 + (Δ · 60 / 100.000). Esses números são indicativos da fonte e devem ser usados com margem e conhecimento local, não como substituto de estudo específico.</p>
+
+  <p>Os limites operacionais também contam: nevoeiro, ondas e vagas restringem a passagem de cabo e a eficácia dos métodos. A fonte cita limites típicos de visibilidade de 0,5 milha para assistência portuária e 1 milha para escolta, e alturas de onda de cerca de 1,5–1,8 m para rebocadores convencionais, 2,0 m para não convencionais e até 4 m para escort tugs dedicados, dependendo do projeto.</p>
+
+  <p>Em termos normativos, a fonte menciona requisitos de estabilidade e critérios para escort vessels (como notações de sociedades classificadoras e ensaios em escala real para determinar steering pull) e referencia diretrizes da OCIMF sobre fittings e troca de informações entre navio, prático e rebocador. Também cita a NORMAM 08 e orientações correlatas sobre responsabilidade pela definição de dispositivos e quantidade de rebocadores. Normas e procedimentos podem ter sido atualizados; confirme sempre a edição vigente aplicável ao porto e à autoridade marítima.</p>
+
+  <ul class="checklist">
+    <li>Velocidade reduzida antes de encontros, margens, bacias e manobras com UKC pequena.</li>
+    <li>Profundidade, maré e largura de canal conferidas antes de estimar squat e interação.</li>
+    <li>Tipo e posição do rebocador compatíveis com a velocidade e o método previsto.</li>
+    <li>Cabo, winch, freio e strong points dimensionados para cargas acima do BP nominal.</li>
+    <li>Comunicação VHF clara: quem manda, quem repete e quem tem autoridade para largar.</li>
+    <li>Tripulação afastada das áreas de snap-back e atenta ao trânsito do cabo.</li>
+  </ul>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção normativa</span>
+    <p>A fonte menciona normas e diretrizes (NORMAM, OCIMF, regras de sociedades classificadoras), mas procedimentos e valores podem ter mudado. Use estas referências como contexto histórico e técnico, não como texto normativo vigente.</p>
+  </div>
+  <p class="source-line">pp. 137–139, 160–164, 175–179</p>
+</section>
+
+<section class="section" id="sintese">
+  <p class="section-kicker">Síntese</p>
+  <h2 id="o-que-levar-para-a-manobra">O que levar para a manobra</h2>
+  <p>Interação, squat e rebocadores compartilham a mesma origem: o escoamento forçado por um casco em espaço restrito. Reduzir velocidade é a medida mais eficaz para todos os três problemas. Antecipar a sequência de pressões, estimar a perda de UKC e escolher o rebocador certo para a posição certa evita que a manobra dependa de correções tardias.</p>
+
+  <div class="keyfacts">
+    <div class="keyfact"><b>V²</b><span>interação e squat crescem com o quadrado da velocidade</span></div>
+    <div class="keyfact"><b>50–100%</b><span>aumento de squat com navios pelo través, segundo a fonte</span></div>
+    <div class="keyfact"><b>4× BP</b><span>ordem de grandeza para MBS de cabo em uso portuário</span></div>
+    <div class="keyfact"><b>8–12 kt</b><span>faixa típica de escolta para tugs dedicados</span></div>
+  </div>
+
+  <p>A síntese operacional é simples: velocidade baixa, margem lateral ampla, UKC confirmada e rebocador posicionado onde seu braço de alavanca e seu método funcionam. Se qualquer um desses elementos faltar, o plano precisa ser revisto antes de entrar no canal ou aproximar do berço.</p>
+  <p class="source-line">pp. 118–125, 160–164, 174–175</p>
+</section>
+
+<section class="section" id="revisao">
+  <p class="section-kicker">Revisão</p>
+  <h2 id="perguntas-para-fixar">Perguntas para fixar</h2>
+  <div class="quiz">
+    <details>
+      <summary>Por que o segundo bow-out no encontro head-on exige mais atenção do que o primeiro?</summary>
+      <div class="quiz__answer"><p>Porque o primeiro bow-out é pequeno e controlável, enquanto o segundo é mais forte e pode guinar os navios para um banco raso quando a passagem parece concluída.</p></div>
+    </details>
+    <details>
+      <summary>O que diferencia squat de uma simples variação de leitura de calado em movimento?</summary>
+      <div class="quiz__answer"><p>O squat é o afundamento médio somado ao efeito de trim. A leitura de calado pode variar muito mais que a perda real de UKC, levando a erro se for interpretada literalmente.</p></div>
+    </details>
+    <details>
+      <summary>Quando o navio está em even keel e parado, onde ocorre o squat máximo segundo o CB?</summary>
+      <div class="quiz__answer"><p>Com CB &gt; 0,7, o squat máximo ocorre na proa; com CB &lt; 0,7, na popa; com CB = 0,7, há afundamento médio sem trim dominante.</p></div>
+    </details>
+    <details>
+      <summary>Por que a posição aft é a mais eficaz para frenagem e governo em velocidade?</summary>
+      <div class="quiz__answer"><p>Porque oferece maior braço de alavanca em relação ao ponto de pivô e, em rebocadores modernos, permite aplicar forças por cabo e pelo método indireto, cuja eficácia cresce com a velocidade.</p></div>
+    </details>
+    <details>
+      <summary>Qual a diferença essencial entre reboque direto e indireto na escolta?</summary>
+      <div class="quiz__answer"><p>No direto, a força vem principalmente da tração do rebocador alinhado ao cabo; no indireto, o casco oblíquo ao escoamento gera lift e arrasto que produzem grande força na linha, muitas vezes acima do BP nominal.</p></div>
+    </details>
+    <details>
+      <summary>Por que girting e tripping são perigosos para tipos diferentes de rebocador?</summary>
+      <div class="quiz__answer"><p>Girting ameaça principalmente rebocadores convencionais quando a linha os puxa para o través; tripping ocorre em tractors quando o ângulo de reboque faz o rebocador girar sobre a própria linha. Em ambos, a estabilidade pode ser comprometida rapidamente.</p></div>
+    </details>
+    <details>
+      <summary>Qual é a medida mais eficaz para reduzir simultaneamente interação e squat?</summary>
+      <div class="quiz__answer"><p>Reduzir a velocidade, pois ambos os fenômenos crescem aproximadamente com o quadrado da velocidade e seus efeitos se amplificam em águas rasas e espaços confinados.</p></div>
+    </details>
+  </div>
+  <p class="source-line">pp. 118–179</p>
+</section>
+
+<section class="section complemento-ref" id="complemento-bibliografico">
+  <p class="section-kicker">Complemento bibliográfico</p>
+  <h2 id="leituras-de-referencia-disponiveis-na-pasta-tug-use-in-port">Leituras de referência disponíveis na pasta (Tug Use in Port)</h2>
+  <p>Complemento com base em <strong><em>Tug Use in Port</em> (3ª ed., Capt. Henk Hensen, The Nautical Institute)</strong>. A bibliografia do processo seletivo indica a <strong>4ª ed. (2021, cap. 1–7, 9)</strong>; a 3ª ed. disponível mantém fundamentos amplamente aplicáveis sobre tipos de rebocadores, assistência, segurança e interação, mas pode divergir em dados, exemplos e atualizações.</p>
+
+  <div class="grid-3">
+    <div class="card">
+      <h3 id="tipos-e-modos-de-atuacao">Tipos e modos de atuação</h3>
+      <p>Rebocadores convencionais, ASD, tratores (Voith/azimutais) e outras variantes diferem em ponto de aplicação de força, capacidade de <em>bollard pull</em> em vários rumos, risco de <em>girting/girding</em> e comportamento em velocidade. A escolha do modo (puxar/empurrar, proa/popa, <em>indirect</em>, escolta) deve considerar energia envolvida e estabilidade do conjunto.</p>
+    </div>
+    <div class="card card--teal">
+      <h3 id="assistencia-e-escolta">Assistência e escolta</h3>
+      <p>Em operações de assistência e escolta, a capacidade efetiva depende de velocidade, ângulo do cabo, hidrodinâmica do rebocador e janela segura de esforço. Planejamento prévio (posição, comprimento de cabo, comando de soltura rápida, comunicação) é parte da segurança tanto quanto a potência nominal.</p>
+    </div>
+    <div class="card card--accent">
+      <h3 id="interacao-e-limites">Interação e limites</h3>
+      <p>A interação navio-rebocador e navio-navio intensifica-se com velocidade e proximidade: forças transversais e guinadas podem surgir rapidamente. Procedimentos conservadores, briefings e respeito aos limites de equipamento reduzem risco de contato, capotamento ou ruptura de reboque.</p>
+    </div>
+  </div>
+
+  <div class="callout callout--gold">
+    <span class="callout__label">Para estudo dirigido</span>
+    <p>Ao revisar este capítulo, relacione cada manobra de rebocador com: (1) vetor de força pretendido no navio assistido, (2) ponto de aplicação/pivot, (3) risco dominante (girting, interação, perda de estabilidade, colisão) e (4) ação de abortagem combinada.</p>
+  </div>
+  <p class="source-line"><em>Tug Use in Port</em>, 3ª ed. (Hensen) — capítulos iniciais sobre projeto/tipos e emprego operacional (consulta em <code>apostila/fonte/refs/tug_ch1-2.txt</code> e seguintes).</p>
+</section>
+
+        </article>
+
+        <section class="chapter-end">
+          <p class="section-kicker">Fim do capítulo</p>
+          <h2>Interação, Squat e Rebocadores</h2>
+          <p>Conteúdo sintetizado de <strong>Squat, Interaction, Manoeuvring · Tug Use in Port · PNV</strong>, pp. 118–179 da fonte. Consulte o original para detalhes, figuras e redação normativa.</p>
+          <button class="btn btn--gold" type="button" data-complete="05-interacao-squat-rebocadores" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7"/></svg><span>Marcar como concluído</span></button>
+        </section>
+
+        <nav class="chapter-nav" aria-label="Navegação entre capítulos">
+          <a class="prev" href="04-shiphandling.html"><small>← Capítulo anterior</small><span>04 · Shiphandling: Fundamentos e Manobras</span></a><a class="next" href="06-radar.html"><small>Próximo capítulo →</small><span>06 · Radar e Navegação Radar</span></a>
+        </nav>
+
+        <footer class="site-footer">
+          <p><strong>Apostila de Praticagem</strong> · material de estudo gerado a partir de <em>resumo curso h.pdf</em>.</p>
+          <p>Não substitui as publicações oficiais (PNA, NORMAM, RIPEAM, CIS, cartas e avisos). Confirme sempre os dados críticos na fonte vigente.</p>
+        </footer>
+      </div>
+    </main>
+  </div>
+  <script>
+(() => {
+  "use strict";
+
+  const STORAGE_KEY = "apostila-praticagem-progresso-v1";
+  const THEME_KEY = "apostila-praticagem-tema";
+  const doc = document;
+  const root = doc.documentElement;
+
+  /* ---------- tema ---------- */
+  function applyTheme(theme) {
+    root.setAttribute("data-theme", theme);
+    const btn = doc.querySelector("[data-theme-toggle]");
+    if (btn) {
+      const dark = theme === "dark";
+      btn.setAttribute("aria-label", dark ? "Ativar tema claro" : "Ativar tema escuro");
+      btn.setAttribute("title", dark ? "Tema claro" : "Tema escuro");
+      btn.innerHTML = dark
+        ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>'
+        : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.4 8.4 0 1 1 9.8 3.5a6.9 6.9 0 0 0 10.7 10.7Z"/></svg>';
+    }
+  }
+
+  function initTheme() {
+    const stored = localStorage.getItem(THEME_KEY);
+    const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    applyTheme(stored || (prefersDark ? "dark" : "light"));
+  }
+
+  function toggleTheme() {
+    const current = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    localStorage.setItem(THEME_KEY, current);
+    applyTheme(current);
+  }
+
+  /* ---------- progresso ---------- */
+  function getProgress() {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+    } catch {
+      return {};
+    }
+  }
+
+  function setDone(partId, done) {
+    const data = getProgress();
+    if (done) data[partId] = Date.now();
+    else delete data[partId];
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+    paintProgress(data);
+  }
+
+  function paintProgress(data = getProgress()) {
+    doc.querySelectorAll("[data-progress-total]").forEach((el) => {
+      const total = Number(el.getAttribute("data-progress-total"));
+      const count = Object.keys(data).filter((k) => data[k]).length;
+      el.textContent = String(count).padStart(2, "0");
+      const fill = el.closest(".sidebar__progress")?.querySelector(".bar__fill");
+      if (fill && total) fill.style.width = `${Math.min(100, (count / total) * 100)}%`;
+    });
+
+    doc.querySelectorAll(".part-nav a[data-part-id]").forEach((a) => {
+      const id = a.getAttribute("data-part-id");
+      const hasDot = a.querySelector(".part-nav__done");
+      if (data[id] && !hasDot) {
+        const dot = doc.createElement("i");
+        dot.className = "part-nav__done";
+        dot.setAttribute("aria-label", "capítulo concluído");
+        a.appendChild(dot);
+      } else if (!data[id] && hasDot) {
+        hasDot.remove();
+      }
+    });
+
+    doc.querySelectorAll(".part-card[data-part-id]").forEach((card) => {
+      card.classList.toggle("is-done", Boolean(data[card.getAttribute("data-part-id")]));
+    });
+
+    const stat = doc.querySelector("[data-index-progress]");
+    if (stat) {
+      const total = Number(stat.getAttribute("data-index-progress"));
+      const count = Object.keys(data).filter((k) => data[k]).length;
+      stat.textContent = total ? `${count}/${total}` : "0";
+    }
+  }
+
+  function initCompleteButton() {
+    const btn = doc.querySelector("[data-complete]");
+    if (!btn) return;
+    const partId = btn.getAttribute("data-complete");
+    const label = btn.querySelector("span");
+
+    const sync = () => {
+      const done = Boolean(getProgress()[partId]);
+      btn.classList.toggle("btn--done", done);
+      btn.classList.toggle("btn--gold", !done);
+      if (label) label.textContent = done ? "Capítulo concluído" : "Marcar como concluído";
+      btn.setAttribute("aria-pressed", String(done));
+    };
+
+    btn.addEventListener("click", () => {
+      const done = Boolean(getProgress()[partId]);
+      setDone(partId, !done);
+      sync();
+    });
+
+    sync();
+  }
+
+  /* ---------- barra de leitura ---------- */
+  function initReadingProgress() {
+    const bar = doc.querySelector(".read-progress");
+    if (!bar) return;
+    let ticking = false;
+    const update = () => {
+      const max = doc.documentElement.scrollHeight - window.innerHeight;
+      const pct = max > 0 ? (window.scrollY / max) * 100 : 0;
+      bar.style.width = `${Math.min(100, Math.max(0, pct))}%`;
+      ticking = false;
+    };
+    window.addEventListener("scroll", () => {
+      if (!ticking) {
+        window.requestAnimationFrame(update);
+        ticking = true;
+      }
+    }, { passive: true });
+    update();
+  }
+
+  /* ---------- sidebar mobile ---------- */
+  function initSidebar() {
+    const sidebar = doc.querySelector(".sidebar");
+    const toggle = doc.querySelector("[data-nav-toggle]");
+    if (!sidebar || !toggle) return;
+
+    let scrim = doc.querySelector(".scrim");
+    if (!scrim) {
+      scrim = doc.createElement("div");
+      scrim.className = "scrim";
+      doc.body.appendChild(scrim);
+    }
+
+    const close = () => {
+      sidebar.classList.remove("is-open");
+      scrim.classList.remove("is-visible");
+      toggle.setAttribute("aria-expanded", "false");
+    };
+    const open = () => {
+      sidebar.classList.add("is-open");
+      scrim.classList.add("is-visible");
+      toggle.setAttribute("aria-expanded", "true");
+    };
+
+    toggle.addEventListener("click", () => {
+      if (sidebar.classList.contains("is-open")) close();
+      else open();
+    });
+    scrim.addEventListener("click", close);
+    doc.addEventListener("keydown", (ev) => {
+      if (ev.key === "Escape") close();
+    });
+    sidebar.querySelectorAll("a").forEach((a) => a.addEventListener("click", close));
+  }
+
+  /* ---------- âncoras nos títulos ---------- */
+  function initAnchors() {
+    doc.querySelectorAll(".content h2[id], .content h3[id]").forEach((heading) => {
+      if (heading.querySelector(".anchor")) return;
+      const a = doc.createElement("a");
+      a.className = "anchor";
+      a.href = `#${heading.id}`;
+      a.textContent = "#";
+      a.setAttribute("aria-label", `Link para: ${heading.textContent.trim()}`);
+      heading.appendChild(a);
+    });
+  }
+
+  /* ---------- scrollspy do sumário ---------- */
+  function initScrollSpy() {
+    const links = [...doc.querySelectorAll(".toc-card a[href^='#']")];
+    if (!links.length || !("IntersectionObserver" in window)) return;
+    const byId = new Map(links.map((l) => [l.getAttribute("href").slice(1), l]));
+    const targets = [...byId.keys()].map((id) => doc.getElementById(id)).filter(Boolean);
+    if (!targets.length) return;
+
+    const setActive = (id) => {
+      links.forEach((l) => l.classList.remove("is-current"));
+      const link = byId.get(id);
+      if (link) link.classList.add("is-current");
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      const visible = entries
+        .filter((e) => e.isIntersecting)
+        .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+      if (visible[0]) setActive(visible[0].target.id);
+    }, { rootMargin: "-90px 0px -65% 0px", threshold: 0 });
+
+    targets.forEach((t) => observer.observe(t));
+  }
+
+  /* ---------- busca e filtros do índice ---------- */
+  function initIndex() {
+    const cards = [...doc.querySelectorAll(".part-card")];
+    const search = doc.querySelector("[data-search]");
+    const chips = [...doc.querySelectorAll(".filter-chip")];
+    const empty = doc.querySelector(".no-results");
+    if (!cards.length) return;
+
+    let module = "todos";
+    let term = "";
+
+    const apply = () => {
+      let shown = 0;
+      cards.forEach((card) => {
+        const text = (card.textContent + " " + (card.dataset.tags || "")).toLowerCase();
+        const matchesTerm = !term || text.includes(term);
+        const matchesModule = module === "todos" || card.dataset.module === module;
+        const show = matchesTerm && matchesModule;
+        card.style.display = show ? "" : "none";
+        if (show) shown += 1;
+      });
+      if (empty) empty.classList.toggle("is-visible", shown === 0);
+    };
+
+    if (search) {
+      search.addEventListener("input", () => {
+        term = search.value.trim().toLowerCase();
+        apply();
+      });
+    }
+
+    chips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        module = chip.getAttribute("data-filter") || "todos";
+        chips.forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
+        apply();
+      });
+    });
+
+    doc.addEventListener("keydown", (ev) => {
+      if (ev.key === "/" && search && doc.activeElement !== search) {
+        ev.preventDefault();
+        search.focus();
+      }
+    });
+  }
+
+  /* ---------- inicialização ---------- */
+  initTheme();
+  paintProgress();
+  initReadingProgress();
+  initSidebar();
+  initAnchors();
+  initScrollSpy();
+  initCompleteButton();
+  initIndex();
+
+  doc.querySelectorAll("[data-theme-toggle]").forEach((btn) => btn.addEventListener("click", toggleTheme));
+
+  const printBtn = doc.querySelector("[data-print]");
+  if (printBtn) printBtn.addEventListener("click", () => window.print());
+
+  doc.querySelectorAll("[data-year]").forEach((el) => {
+    el.textContent = String(new Date().getFullYear());
+  });
+})();
+
+  </script>
+</body>
+</html>

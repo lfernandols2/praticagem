@@ -1,0 +1,313 @@
+<section class="section" id="por-que-governo-importa">
+  <p class="section-kicker">Abertura</p>
+  <h2>Por que governo e manobrabilidade importam</h2>
+  <p class="lead">Controlabilidade (<em>controllability</em>) é a capacidade de iniciar, manter e alterar rumo e velocidade com previsibilidade. Em praticagem, ela define quanto espaço e tempo a manobra exige, como o navio responde ao leme e à máquina, e quais riscos surgem em vento, ondas, águas rasas e canais restritos.</p>
+  <p>A fonte organiza o tema em três áreas: manutenção de rumo (<em>course keeping</em>), manobra (<em>maneuvering</em>) e mudança de velocidade (<em>speed changing</em>). Estas dimensões interagem: um navio pode ser fácil de girar e difícil de manter na reta, ou responder bem ao leme em águas profundas e degradar muito em águas rasas. <span class="src">pp. 39, 44–45</span></p>
+
+  <div class="grid-3">
+    <div class="card card--accent">
+      <span class="card__num">01</span>
+      <h3>Ler a resposta do navio</h3>
+      <p>Interpretar estabilidade de rumo, deriva, guinada e resposta ao leme em termos de segurança e antecipação.</p>
+    </div>
+    <div class="card card--teal">
+      <span class="card__num">02</span>
+      <h3>Quantificar manobras</h3>
+      <p>Conhecer os ensaios padrão (espiral, zigzag, giro, parada) e os índices que descrevem rapidez e capacidade de curva.</p>
+    </div>
+    <div class="card">
+      <span class="card__num">03</span>
+      <h3>Antecipar o ambiente</h3>
+      <p>Avaliar como vento, corrente, ondas, profundidade, largura do canal e interação entre navios alteram forças e trajetórias.</p>
+    </div>
+  </div>
+  <p class="source-line">pp. 39, 44–45</p>
+</section>
+
+<section class="section" id="eixos-forcas-derivadas">
+  <p class="section-kicker">Fundamentos</p>
+  <h2>Eixos, movimentos, forças e derivadas hidrodinâmicas</h2>
+  <p>O movimento no plano horizontal é descrito em eixos fixos à Terra e em eixos fixos ao navio. A orientação do navio (<em>heading</em> ou guinada, <em>yaw</em>, ψ) pode diferir da direção real do movimento do centro de gravidade, criando ângulo de deriva (<em>drift/leeway angle</em>, β). <span class="src">pp. 39–40</span></p>
+
+  <div class="def">
+    <span class="def__term">Movimentos e variáveis</span>
+    <p><strong>Avanço</strong> (<em>surge</em>), <strong>cabanço</strong> (<em>sway</em>) e <strong>guinada</strong> (<em>yaw</em>) são os movimentos relevantes no plano horizontal; <strong>u</strong>, <strong>v</strong> e <strong>r</strong> representam velocidades linear longitudinal, linear transversal e angular de guinada. As forças e momentos resultantes incluem termos hidrodinâmicos, inerciais, ambientais e de controle. <span class="src">pp. 39–41</span></p>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Derivadas hidrodinâmicas e seu significado físico (visão linearizada)</caption>
+      <thead>
+        <tr><th>Derivada</th><th>O que representa</th><th>Observação típica</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Y<sub>v</sub></strong>, <strong>N<sub>v</sub></strong></td><td>Força lateral e momento de guinada por velocidade lateral (deriva).</td><td>Y<sub>v</sub> é negativo; N<sub>v</sub> costuma ser negativo em cascos sem grande efeito estabilizador de popa. <span class="src">pp. 42–43</span></td></tr>
+        <tr><td><strong>Y<sub>r</sub></strong>, <strong>N<sub>r</sub></strong></td><td>Força lateral e momento por velocidade de guinada.</td><td>N<sub>r</sub> é tipicamente grande e negativo (amortecimento da guinada). <span class="src">p. 43</span></td></tr>
+        <tr><td><strong>Y<sub>v̇</sub></strong>, <strong>N<sub>ṙ</sub></strong></td><td>Termos de massa adicionada e inércia virtual.</td><td>Representam reação hidrodinâmica a acelerações; aparecem somados à massa e inércia do navio. <span class="src">p. 41</span></td></tr>
+        <tr><td><strong>Y<sub>δ</sub></strong>, <strong>N<sub>δ</sub></strong></td><td>Força e momento de controle por deflexão do leme (δ<sub>R</sub>).</td><td>Definem a eficácia do leme para iniciar e controlar a manobra. <span class="src">pp. 41–42</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--info">
+    <span class="callout__label">Para entender</span>
+    <p>O leme cria um momento inicial, mas a curva sustentada depende principalmente das forças hidrodinâmicas geradas no casco quando este adquire ângulo de deriva. Assim, forma do casco, apêndices e leme atuam como um sistema acoplado. <span class="src">pp. 41–42, 46</span></p>
+  </div>
+  <p class="source-line">pp. 39–43</p>
+</section>
+
+<section class="section" id="estabilidade-rumo">
+  <p class="section-kicker">Manter o rumo</p>
+  <h2>Estabilidade de rumo: controles fixos e controles atuando</h2>
+  <p>A estabilidade de movimento no plano horizontal descreve como o navio reage após uma perturbação. Com controles fixos (<em>controls fixed</em>), o interesse é saber se o navio retorna a uma trajetória retilínea sem intervenção; com controles atuando (<em>controls working</em>), considera-se a ação do timoneiro ou piloto automático. <span class="src">pp. 40–41</span></p>
+
+  <div class="compare">
+    <div class="pro">
+      <h4>Com controles fixos</h4>
+      <ul>
+        <li>O caso usual é a estabilidade de linha reta (<em>straight-line stability</em>): após perturbação, o navio tende a novo rumo retilíneo. <span class="src">pp. 40–41</span></li>
+        <li>Índices de estabilidade (raízes/coeficientes) indicam tendência de amortecimento ou divergência. <span class="src">pp. 43–44</span></li>
+      </ul>
+    </div>
+    <div class="con">
+      <h4>Com controles atuando</h4>
+      <ul>
+        <li>Mesmo navios com leve instabilidade podem ser governáveis com boa detecção de erro, leme eficaz e resposta rápida. <span class="src">pp. 44–45</span></li>
+        <li>Deficiências de um elemento do ciclo de controle podem ser compensadas por outros, mas com custo operacional. <span class="src">p. 45</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Manobras de espiral e pullout</h3>
+  <p>A <strong>espiral direta de Dieudonné</strong> (<em>Dieudonné direct spiral</em>) mede a taxa de guinada estacionária em função de ângulos de leme aplicados em passos. Em navio estável, a curva de ida e volta tende a coincidir; em navio instável, surge um laço de histerese (<em>hysteresis loop</em>), cuja altura e largura indicam o grau de instabilidade. <span class="src">pp. 44–45</span></p>
+  <p>A <strong>espiral reversa de Bech</strong> (<em>Bech reverse spiral</em>) obtém pontos para taxas de guinada constantes medindo o ângulo médio de leme necessário, sendo alternativa prática para identificar laço em navios instáveis. A <strong>manobra de pullout</strong> (<em>pullout maneuver</em>) avalia a tendência após retorno do leme ao meio: navio estável zera a taxa; navio instável pode manter taxa residual para um dos bordos. <span class="src">p. 45</span></p>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Atenção</span>
+    <p>Instabilidade direcional leve não é automaticamente inaceitável, especialmente em navios grandes e lentos, desde que a resposta ao leme e o sistema de governo permitam controle seguro. O que importa é o grau de instabilidade em relação ao serviço e ao ambiente. <span class="src">p. 45</span></p>
+  </div>
+  <p class="source-line">pp. 40–41, 44–45</p>
+</section>
+
+<section class="section" id="zigzag-kt">
+  <p class="section-kicker">Controle dinâmico</p>
+  <h2>Manobra zigzag e índices K–T</h2>
+  <p>A manobra <strong>zigzag</strong> (ou <em>Kempf overshoot</em>) avalia a capacidade de controlar e inverter a guinada: aplica-se leme a um bordo até atingir um ângulo de guinada pré-definido, inverte-se o leme e repete-se o ciclo. Os principais resultados são o tempo para atingir o desvio comandado e os ângulos de ultrapassagem (<em>overshoot</em>). <span class="src">pp. 45–46</span></p>
+
+  <ol class="steps">
+    <li><strong>Estabilizar.</strong> Manter rumo e velocidade constantes antes do início, sem alterar a máquina durante o ensaio quando aplicável. <span class="src">p. 45</span></li>
+    <li><strong>Executar o leme.</strong> Aplicar ângulo de leme pré-selecionado à taxa máxima até atingir o ângulo de guinada definido. <span class="src">p. 45</span></li>
+    <li><strong>Inverter e repetir.</strong> Contrarraçar ao ângulo oposto e observar resposta, tempos e ultrapassagens em ciclos sucessivos. <span class="src">p. 45</span></li>
+  </ol>
+
+  <div class="def">
+    <span class="def__term">Índices K e T (Nomoto)</span>
+    <p>Na forma simplificada, <strong>K</strong> relaciona-se à capacidade de guinada estacionária (ganho de manobra) e <strong>T</strong> à constante de tempo da resposta (rapidez). Valores de K maiores indicam maior habilidade de curva; valores de T menores indicam resposta inicial mais rápida. A combinação K/T é usada como indicador de manobrabilidade, mas deve ser interpretada junto da estabilidade desejada. <span class="src">p. 46</span></p>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Leitura prática dos indicadores de zigzag e K–T</caption>
+      <thead>
+        <tr><th>Indicador</th><th>Tende a indicar</th><th>Cuidado na interpretação</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Tempo para executar</strong> (<em>time to reach execute</em>)</td><td>Rapidez para mudar o rumo.</td><td>Depende de eficácia do leme, estabilidade e velocidade. <span class="src">pp. 45–46</span></td></tr>
+        <tr><td><strong>Ângulo de ultrapassagem</strong> (<em>overshoot angle</em>)</td><td>Capacidade de contramanobrar e conter a guinada.</td><td>Pode diminuir com estabilidade maior, mas aumentar com leme muito eficaz. <span class="src">p. 45</span></td></tr>
+        <tr><td><strong>K elevado</strong></td><td>Boa habilidade de giro estacionário.</td><td>Não garante, sozinho, boa manutenção de rumo. <span class="src">p. 46</span></td></tr>
+        <tr><td><strong>T pequeno</strong></td><td>Resposta inicial rápida.</td><td>Resposta rápida é útil, mas o equilíbrio com estabilidade depende do navio e do controle. <span class="src">p. 46</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="source-line">pp. 45–46</p>
+</section>
+
+<section class="section" id="fases-giro">
+  <p class="section-kicker">A curva na água</p>
+  <h2>Fases do giro, geometria, banda e perda de velocidade</h2>
+  <p>Ao defletir o leme e mantê-lo, a trajetória passa por fases distintas até atingir um giro estacionário. As grandezas clássicas são avanço (<em>advance</em>), transferência (<em>transfer</em>), diâmetro tático (<em>tactical diameter</em>) e diâmetro de giro estacionário (<em>steady turning diameter</em>). <span class="src">pp. 46–47</span></p>
+
+  <ol class="steps">
+    <li><strong>1ª fase (inicial/transitória).</strong> O leme gera força e momento; predominam acelerações e ainda não há deriva e rotação plenamente desenvolvidas. Pode haver deslocamento lateral inicial oposto ao sentido final da curva. <span class="src">p. 47</span></li>
+    <li><strong>2ª fase.</strong> Surgem ângulo de deriva e velocidade de guinada; as forças hidrodinâmicas no casco crescem e passam a dominar o movimento. <span class="src">p. 47</span></li>
+    <li><strong>3ª fase (estacionária).</strong> Forças e momentos entram em equilíbrio; raio, taxa de guinada e deriva tendem a valores constantes, com redução de velocidade. <span class="src">pp. 47–48</span></li>
+  </ol>
+
+  <figure class="figure">
+    <svg viewBox="0 0 720 320" role="img" aria-labelledby="fig-giro-title fig-giro-desc">
+      <title id="fig-giro-title">Geometria de um giro a boreste</title>
+      <desc id="fig-giro-desc">Linha de aproximação reta, ponto de execução do leme, trajetória curva do navio para boreste e indicações de avanço, transferência, diâmetro tático e diâmetro de giro estacionário.</desc>
+      <defs>
+        <marker id="arrow-giro" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+      </defs>
+      <line x1="80" y1="260" x2="80" y2="40" class="diagram-line" stroke-dasharray="6 5"/>
+      <text x="85" y="52" class="diagram-label">aproximação</text>
+      <circle cx="80" cy="220" r="4" fill="var(--navy)"/>
+      <text x="92" y="224" class="diagram-label">execute</text>
+      <path d="M80 220 C80 150, 120 90, 210 70 C300 50, 390 90, 420 170 C450 250, 370 300, 280 280 C200 262, 150 210, 150 170" class="diagram-accent" fill="none" stroke-width="3"/>
+      <path d="M80 220 L150 220" class="diagram-gold" marker-end="url(#arrow-giro)"/>
+      <text x="100" y="238" class="diagram-label">transferência</text>
+      <path d="M80 220 L80 170" class="diagram-gold" marker-end="url(#arrow-giro)"/>
+      <text x="20" y="195" class="diagram-label">avanço</text>
+      <path d="M80 170 L150 170" class="diagram-line" stroke-dasharray="4 4"/>
+      <path d="M80 280 L420 280" class="diagram-line" stroke-dasharray="4 4" marker-start="url(#arrow-giro)" marker-end="url(#arrow-giro)"/>
+      <text x="250" y="300" text-anchor="middle" class="diagram-label">diâmetro tático (aprox.)</text>
+      <circle cx="285" cy="175" r="95" fill="none" class="diagram-line" stroke-dasharray="3 5"/>
+      <text x="285" y="175" text-anchor="middle" class="diagram-label">giro estacionário</text>
+      <text x="560" y="120" class="diagram-label diagram-label--strong">Curva a boreste</text>
+      <text x="560" y="140" class="diagram-label">perda de velocidade e banda para fora</text>
+    </svg>
+    <figcaption><b>Figura 1.</b> Elementos geométricos do giro. Avanço e transferência descrevem a ocupação de espaço nas fases iniciais; o diâmetro estacionário caracteriza o equilíbrio final. <span class="src">pp. 46–47</span></figcaption>
+  </figure>
+
+  <div class="grid-2">
+    <div class="card card--accent">
+      <h3>Banda (heel) no giro</h3>
+      <p>Na fase inicial, a força do leme e as acelerações podem produzir pequena banda para dentro da curva; na fase estacionária, a combinação de forças hidrodinâmicas e centrífugas tende a gerar banda para fora, frequentemente com ultrapassagem antes do equilíbrio. A redução de velocidade influencia a magnitude desses efeitos. <span class="src">p. 48</span></p>
+    </div>
+    <div class="card card--teal">
+      <h3>Ponto de pivô aparente</h3>
+      <p>Durante a curva, observa-se um ponto de pivô (<em>pivot point</em>) aparentemente à vante, onde o escoamento local fica aproximadamente alinhado ao eixo do navio. Sua posição varia com a fase da manobra e com o equilíbrio entre deriva e rotação. <span class="src">p. 47</span></p>
+    </div>
+  </div>
+
+  <div class="callout callout--danger">
+    <span class="callout__label">Erro crítico</span>
+    <p>Em curvas apertadas, a perda de velocidade pode ser grande. Reduzir leme bruscamente em momento inadequado pode agravar a banda e a instabilidade da resposta. Correções de leme e máquina devem ser coordenadas e progressivas, conforme o comportamento observado. <span class="src">pp. 47–48</span></p>
+  </div>
+  <p class="source-line">pp. 46–48</p>
+</section>
+
+<section class="section" id="aceleracao-parada-re">
+  <p class="section-kicker">Mudança de velocidade</p>
+  <h2>Aceleração, parada, ré e dispositivos auxiliares</h2>
+  <p>Mudar velocidade envolve equilíbrio transitório entre tração, resistência e inércia (incluindo massa adicionada). A fonte trata aceleração, inércia de parada (<em>coasting</em>), parada com máquina à ré (<em>crash astern</em>) e evolução para velocidade à ré, destacando que distância e tempo dependem fortemente da condição inicial e das características do sistema propulsor. <span class="src">pp. 48–51</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Manobras de mudança de velocidade</caption>
+      <thead>
+        <tr><th>Manobra</th><th>O que predomina</th><th>Implicação prática</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Aceleração</strong> (<em>accelerating</em>)</td><td>Excesso de tração sobre resistência disponível em cada velocidade.</td><td>Tempo e distância dependem da curva de tração/resistência e do comportamento do propulsor. <span class="src">pp. 48–49</span></td></tr>
+        <tr><td><strong>Parada por inércia</strong> (<em>coasting</em>)</td><td>Resistência hidrodinâmica dissipa energia cinética.</td><td>Distância pode ser longa; hélice travado ou girando livre altera o arrasto. <span class="src">p. 51</span></td></tr>
+        <tr><td><strong>Parada com ré</strong> (<em>crash stop/stopping</em>)</td><td>Resistência inicial + tração à ré (quando disponível).</td><td>Trajetória pode desviar por perda de controle direcional, sobretudo em mono-hélice; espaço lateral importa. <span class="src">pp. 49–51</span></td></tr>
+        <tr><td><strong>Marcha à ré</strong> (<em>backing</em>)</td><td>Capacidade de gerar tração reversa e controlar rumo.</td><td>Eficiência do leme e autoridade direcional podem ser reduzidas; planejamento deve considerar desvio. <span class="src">pp. 51–52</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="example">
+    <h3 class="example__title"><span>Caso prático</span> Alternar giro e máquina para parar em menos espaço longitudinal</h3>
+    <p>Em certas situações, uma manobra combinada (como ciclos de leme com reduções de máquina, quando aplicável) pode reduzir o avanço longitudinal comparado a uma parada em linha reta, ao custo de ocupar espaço lateral. A escolha depende de área disponível, tráfego e previsibilidade da resposta do navio. <span class="src">p. 50</span></p>
+  </div>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Na prática</span>
+    <p>Dispositivos auxiliares (rebocadores, <em>thrusters</em>, sistemas especiais) podem fornecer forças de controle em baixas velocidades, quando leme e hélice perdem eficácia. Use-os como parte do plano de manobra, não como improviso tardio. <span class="src">pp. 40, 52</span></p>
+  </div>
+  <p class="source-line">pp. 48–52</p>
+</section>
+
+<section class="section" id="ambiente-aguas-restritas">
+  <p class="section-kicker">Ambiente e confinamento</p>
+  <h2>Efeitos de vento, corrente, ondas e interação em águas restritas</h2>
+  <p>Forças ambientais e limites do canal alteram profundamente o equilíbrio de forças e momentos. Em baixas velocidades, o vento pode dominar; em canais e águas rasas, o escoamento confinado modifica derivadas hidrodinâmicas, sinkage/trim (<em>squat</em>) e a capacidade de manter rumo. <span class="src">pp. 52–57</span></p>
+
+  <div class="grid-2">
+    <div class="card">
+      <h3>Vento, corrente e ondas</h3>
+      <ul>
+        <li><strong>Vento:</strong> efeito cresce com área vélica, braço aerodinâmico e baixa velocidade do navio; pode exigir leme e deriva para manter rumo, com limites de controlabilidade. <span class="src">pp. 52–53</span></li>
+        <li><strong>Corrente:</strong> afeta principalmente pela velocidade relativa; gradientes e correntes em curvas de rios/canais exigem antecipação. <span class="src">p. 54</span></li>
+        <li><strong>Ondas:</strong> em mar de popa/alheta, baixas frequências de encontro podem acoplar guinada, balanço e governo, dificultando a manutenção de rumo. <span class="src">pp. 54–55</span></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Águas rasas e canais</h3>
+      <ul>
+        <li>Em águas rasas, diâmetros de giro e resposta mudam significativamente; a profundidade relativa ao calado é crítica. <span class="src">pp. 55–56</span></li>
+        <li>Em canais estreitos, assimetrias de escoamento geram forças e momentos que “empurram” o navio para bordas e afetam estabilidade direcional. <span class="src">pp. 55–56</span></li>
+        <li>Interação entre navios em passagem pode produzir atração e momentos de guinada perigosos em posições relativas específicas. <span class="src">pp. 56–57</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Águas restritas</span>
+    <p>Reduzir velocidade nem sempre aumenta controle: velocidade muito baixa pode diminuir eficácia do leme e aumentar a influência de vento e corrente. Em canais, existe um compromisso entre controle hidrodinâmico, <em>squat</em> e espaço disponível. <span class="src">pp. 55–56</span></p>
+  </div>
+
+  <ul class="checklist">
+    <li>Confirmar profundidade relativa (UKC), largura do canal e efeitos esperados de squat e interação.</li>
+    <li>Avaliar vento relativo e corrente local antes de comprometer o navio em curvas ou passagens estreitas.</li>
+    <li>Planejar folgas para aumento de avanço/transferência em águas rasas e para desvios na parada.</li>
+    <li>Em ultrapassagens e encontros, antecipar fases de atração e guinada induzida pela interação.</li>
+  </ul>
+  <p class="source-line">pp. 52–57</p>
+</section>
+
+<section class="section" id="sintese-governo">
+  <p class="section-kicker">Síntese</p>
+  <h2>O que levar deste capítulo</h2>
+
+  <div class="keyfacts">
+    <div class="keyfact"><b>3</b><span>áreas: manter rumo, manobrar, mudar velocidade</span></div>
+    <div class="keyfact"><b>K–T</b><span>índices simplificados de ganho e tempo de resposta</span></div>
+    <div class="keyfact"><b>3 fases</b><span>inicial, transição e giro estacionário</span></div>
+    <div class="keyfact"><b>&lt; 3×T</b><span>faixa em que efeitos de água rasa passam a ser relevantes (referência típica)</span></div>
+  </div>
+
+  <div class="callout callout--mnemonic">
+    <span class="callout__label">Mnemônico</span>
+    <p><strong>L-E-A-M</strong> — <strong>L</strong>eme (controle), <strong>E</strong>stabilidade (resposta natural), <strong>A</strong>mbiente (vento/corrente/ondas/profundidade), <strong>M</strong>áquina (tração e inércia). Avaliar os quatro reduz surpresas na manobra.</p>
+  </div>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Síntese para levar</span>
+    <p>Manobrabilidade é comportamento do sistema navio-ambiente-controle. Ensaios como espiral, zigzag e giro fornecem linguagem comum para antecipar espaço, tempo e margem de segurança antes da manobra crítica.</p>
+  </div>
+</section>
+
+<section class="section" id="revisao-governo">
+  <p class="section-kicker">Revisão</p>
+  <h2>Perguntas para fechar o capítulo</h2>
+
+  <div class="quiz">
+    <details>
+      <summary>1. Qual a diferença entre manter rumo (course keeping), manobrar (maneuvering) e mudar velocidade (speed changing)?</summary>
+      <div class="quiz__answer"><p>Manter rumo trata de conservar uma trajetória média com pequenas correções; manobrar trata de mudar direção e trajetória de forma controlada; mudar velocidade trata de acelerar, reduzir, parar ou dar ré. São capacidades relacionadas, mas distintas. <span class="src">p. 39</span></p></div>
+    </details>
+    <details>
+      <summary>2. O que é ângulo de deriva (drift/leeway angle) e por que ele é importante no giro?</summary>
+      <div class="quiz__answer"><p>É a diferença entre o rumo (orientação do eixo do navio) e a direção real do movimento. No giro, a deriva gera forças hidrodinâmicas laterais no casco que sustentam a curva; o leme inicia o processo, mas o casco com deriva é decisivo para a trajetória. <span class="src">pp. 39–42, 46–47</span></p></div>
+    </details>
+    <details>
+      <summary>3. O que a manobra espiral de Dieudonné revela sobre a estabilidade direcional?</summary>
+      <div class="quiz__answer"><p>Ao relacionar ângulo de leme e taxa de guinada estacionária, ela mostra se o navio é estável (curva única) ou instável (laço de histerese). A largura e altura do laço indicam o grau de instabilidade com controles fixos. <span class="src">pp. 44–45</span></p></div>
+    </details>
+    <details>
+      <summary>4. Para que serve a manobra zigzag e quais grandezas ela destaca?</summary>
+      <div class="quiz__answer"><p>Ela avalia a capacidade de controle e contramanobra, destacando o tempo para atingir desvios comandados e os ângulos de ultrapassagem (overshoot), que refletem a resposta do conjunto navio-leme e sua tendência a “passar” do rumo desejado. <span class="src">pp. 45–46</span></p></div>
+    </details>
+    <details>
+      <summary>5. Como interpretar os índices K e T de forma simplificada?</summary>
+      <div class="quiz__answer"><p>K está associado à capacidade de guinada estacionária (ganho de curva) e T à rapidez da resposta (constante de tempo). K maior favorece giro; T menor favorece resposta inicial rápida, mas a avaliação deve considerar estabilidade e contexto operacional. <span class="src">p. 46</span></p></div>
+    </details>
+    <details>
+      <summary>6. Quais são as três fases de um giro com leme constante?</summary>
+      <div class="quiz__answer"><p>Fase inicial, dominada por acelerações geradas pelo leme; fase de transição, em que deriva e guinada se desenvolvem e as forças hidrodinâmicas crescem; e fase estacionária, em que forças e momentos se equilibram com raio e taxa aproximadamente constantes. <span class="src">p. 47</span></p></div>
+    </details>
+    <details>
+      <summary>7. Por que a parada com máquina toda à ré pode não ser retilínea, especialmente em navios de um hélice?</summary>
+      <div class="quiz__answer"><p>Porque a tração à ré e o escoamento alterado podem reduzir a autoridade direcional do leme e introduzir forças laterais assimétricas, levando a desvios de trajetória; por isso, espaço lateral e controle de rumo devem ser considerados. <span class="src">pp. 49–51</span></p></div>
+    </details>
+    <details>
+      <summary>8. Cite dois efeitos de águas rasas ou canais restritos na manobrabilidade.</summary>
+      <div class="quiz__answer"><p>Em águas rasas, podem aumentar avanço/diâmetro de giro e alterar resposta direcional; em canais, assimetrias de escoamento geram forças de sucção/repulsão lateral e momentos que dificultam manter a linha de centro, além de efeitos de interação entre navios. <span class="src">pp. 55–57</span></p></div>
+    </details>
+  </div>
+</section>

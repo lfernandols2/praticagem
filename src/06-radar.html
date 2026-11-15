@@ -1,0 +1,405 @@
+<section class="section" id="fundamentos-radar">
+  <p class="section-kicker">Fundamentos</p>
+  <h2>Princípios, bandas e componentes do radar de navegação</h2>
+  <p class="lead">O radar de navegação é um instrumento de medição de distância e marcação por pulsos de radiofrequência. Para usá-lo bem no passadiço, é preciso entender como a emissão, a propagação e a recepção do eco afetam alcance, definição e interpretação da imagem. <span class="src">p. 180</span></p>
+
+  <div class="grid-3">
+    <div class="card card--accent">
+      <span class="card__num">01</span>
+      <h3>Medir com critério</h3>
+      <p>Compreender o que determina alcance máximo, alcance mínimo, discriminação e precisão de distâncias e marcações.</p>
+    </div>
+    <div class="card card--teal">
+      <span class="card__num">02</span>
+      <h3>Interpretar a imagem</h3>
+      <p>Reconhecer efeitos de propagação, clutter, ecos falsos e limitações do feixe antes de tomar decisões.</p>
+    </div>
+    <div class="card">
+      <span class="card__num">03</span>
+      <h3>Aplicar na manobra</h3>
+      <p>Usar o radar na navegação costeira, no fundeio de precisão e na avaliação de movimento relativo para evitar colisão.</p>
+    </div>
+  </div>
+
+  <div class="def">
+    <span class="def__term">Radar de pulsos (<em>pulse radar</em>)</span>
+    <p>Tipo usado na navegação: opera em frequência muito elevada, com pulsos de duração muito curta, feixe estreito no plano horizontal (cerca de 1°–2°) e mais largo no vertical (10°–30°), e antena que gira normalmente no sentido horário. O intervalo entre pulsos é bem maior que a duração do pulso e determina o alcance máximo teórico. <span class="src">p. 180</span></p>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Bandas e componentes principais do radar de navegação</caption>
+      <thead>
+        <tr><th>Elemento</th><th>Características na fonte</th><th>Implicação prática</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Banda S (10 cm)</strong></td><td>Usada em navegação costeira e de alto-mar. <span class="src">p. 180</span></td><td>Menos afetada por chuva e clutter meteorológico que a banda X.</td></tr>
+        <tr><td><strong>Banda X (3 cm)</strong></td><td>Usada em aterragem e navegação em águas restritas. <span class="src">p. 180</span></td><td>Imagem mais detalhada, mas mais sensível a fenômenos meteorológicos.</td></tr>
+        <tr><td><strong>Transmissor / modulador / duplexer</strong></td><td>Circuitos de tempo geram PRF/FRI; modulador dispara o transmissor; a chave T/R controla ciclos de transmissão e recepção. <span class="src">p. 180</span></td><td>Define potência, cadência de pulsos e alternância entre emitir e escutar.</td></tr>
+        <tr><td><strong>Receptor / indicador</strong></td><td>O eco é heterodinado para frequência intermediária (FI), amplificado e apresentado como vídeo. <span class="src">p. 180</span></td><td>A sintonia e o ganho influenciam diretamente a detecção e a qualidade da imagem.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--info">
+    <span class="callout__label">Relações úteis</span>
+    <p>Quanto maior a frequência, menor o comprimento de onda, menor a antena e mais detalhada a imagem, porém menor tende a ser o alcance e maior a sensibilidade a meteorologia. Pulsos curtos melhoram definição e discriminação em distância; pulsos longos favorecem o alcance. <span class="src">p. 180</span></p>
+  </div>
+
+  <ul class="checklist">
+    <li><strong>PRF/FRI (<em>pulse repetition frequency/interval</em>):</strong> quanto menor a PRF, maior o alcance máximo teórico; na prática, rotação da antena e persistência também limitam. <span class="src">p. 180</span></li>
+    <li><strong>Largura de pulso:</strong> distância mínima de detecção ≈ LP/2; poder de discriminação em distância ≈ LP/2. <span class="src">p. 180</span></li>
+    <li><strong>Largura do feixe:</strong> tipicamente 1°–2° no plano horizontal; condiciona o poder de discriminação em marcação. <span class="src">p. 180</span></li>
+  </ul>
+  <p class="source-line">pp. 180</p>
+</section>
+
+<section class="section" id="propagacao-horizonte">
+  <p class="section-kicker">Propagação</p>
+  <h2>Refração, horizonte-radar e zonas de desvanecimento</h2>
+  <p>As ondas do radar propagam-se aproximadamente em linha reta, mas a atmosfera curva sua trajetória. Por isso, o horizonte-radar é maior que o horizonte geográfico e pode variar com as condições de temperatura e umidade. <span class="src">p. 180</span></p>
+
+  <div class="formula">
+    <span class="formula__expr">D = 2√H &nbsp;&nbsp;·&nbsp;&nbsp; D<sub>r</sub> = 2,21√H</span>
+    <span class="formula__where"><b>D</b> horizonte geográfico; <b>D<sub>r</sub></b> horizonte-radar; <b>H</b> altura em metros; <b>D</b> em milhas náuticas. A diferença decorre da refração atmosférica. Para alvo de altura conhecida, soma-se a parcela da antena à parcela do alvo. <span class="src">p. 180</span></span>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Condições de propagação citadas na fonte</caption>
+      <thead>
+        <tr><th>Condição</th><th>Descrição</th><th>Efeito típico</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Super-refração</strong></td><td>Tempo calmo, camada de ar quente e seco sobre ar frio e úmido; comum nos trópicos. <span class="src">p. 180</span></td><td>Aumento do alcance por curvatura mais acentuada do feixe para baixo.</td></tr>
+        <tr><td><strong>Sub-refração</strong></td><td>Camada de ar frio e úmido sobre camada estreita de ar quente e seco; comum em regiões polares. <span class="src">p. 180</span></td><td>Redução do alcance e dificuldade para detectar alvos baixos a curta distância.</td></tr>
+        <tr><td><strong>Propagação em dutos (<em>ducting</em>)</strong></td><td>Caso extremo de super-refração; energia pode ficar aprisionada e refletir repetidamente. <span class="src">p. 180</span></td><td>Detecções muito longas (a fonte cita até 1400 milhas), possíveis ecos confusos e zonas de sombra acima/abaixo do duto.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <figure class="figure">
+    <svg viewBox="0 0 720 280" role="img" aria-labelledby="fig-radar-horiz-title fig-radar-horiz-desc">
+      <title id="fig-radar-horiz-title">Horizonte geográfico e horizonte-radar</title>
+      <desc id="fig-radar-horiz-desc">Perfil esquemático da curvatura da Terra com duas trajetórias: uma reta tangente representando o horizonte geográfico e outra levemente curva para baixo representando o horizonte-radar por refração atmosférica.</desc>
+      <defs>
+        <marker id="arrow-radar-h" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+      </defs>
+      <path d="M20 220 Q360 150 700 220" fill="none" stroke="var(--line-strong)" stroke-width="3"/>
+      <rect x="95" y="150" width="18" height="55" fill="var(--navy-2)" stroke="var(--navy-3)"/>
+      <line x1="113" y1="150" x2="620" y2="120" class="diagram-line" stroke-dasharray="6 5"/>
+      <path d="M113 150 Q360 110 640 145" fill="none" stroke="var(--gold)" stroke-width="2.5" marker-end="url(#arrow-radar-h)"/>
+      <rect x="610" y="120" width="14" height="40" fill="var(--surface-2)" stroke="var(--line-strong)"/>
+      <text x="70" y="140" class="diagram-label diagram-label--strong">antena</text>
+      <text x="590" y="112" class="diagram-label">alvo</text>
+      <text x="380" y="95" class="diagram-label">trajetória refratada (D<tspan baseline-shift="sub" font-size="8">r</tspan>)</text>
+      <text x="420" y="138" class="diagram-label">linha de visada geométrica (D)</text>
+      <text x="360" y="255" text-anchor="middle" class="diagram-label">A curvatura do feixe estende o alcance além do horizonte geométrico. <tspan class="diagram-label">(pp. 180)</tspan></text>
+    </svg>
+    <figcaption><b>Figura 1.</b> O horizonte-radar excede o horizonte geográfico porque a atmosfera refrata as ondas para baixo. Condições anômalas podem ampliar ou reduzir esse efeito. <span class="src">p. 180</span></figcaption>
+  </figure>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Reflexões múltiplas e atenuação</span>
+    <p>Ondas diretas e refletidas no mar podem se somar ou se cancelar, criando lóbulos e zonas de desvanecimento. Difração encurva o feixe atrás de obstáculos; atenuação (dispersão e absorção) reduz a intensidade do sinal, com maior efeito em frequências mais altas. <span class="src">p. 180</span></p>
+  </div>
+  <p class="source-line">pp. 180</p>
+</section>
+
+<section class="section" id="apresentacao-controles">
+  <p class="section-kicker">Operação</p>
+  <h2>Apresentação da imagem e controles operacionais</h2>
+  <p>A utilidade do radar depende tanto do ajuste correto quanto da escolha da apresentação. O operador deve adaptar brilho, ganho, supressores e escala ao objetivo imediato: busca, navegação costeira ou manobra. <span class="src">p. 181</span></p>
+
+  <div class="grid-2">
+    <div class="card card--accent">
+      <h3>Tipos de apresentação</h3>
+      <ul>
+        <li><strong>Movimento relativo (<em>relative motion</em>):</strong> o próprio navio permanece no centro da tela. <span class="src">p. 181</span></li>
+        <li><strong>Estabilizada (norte para cima):</strong> alvos tendem a permanecer fixos e a linha de fé se movimenta. <span class="src">p. 181</span></li>
+        <li><strong>Não estabilizada:</strong> a linha de fé fica em 000°. <span class="src">p. 181</span></li>
+      </ul>
+    </div>
+    <div class="card card--teal">
+      <h3>Ferramentas básicas</h3>
+      <p>O cursor de marcação (<em>bearing cursor</em>), o anel de distância variável (<em>VRM – Variable Range Marker</em>) e a seleção da menor escala adequada ajudam a medir com rapidez e reduzir erros de leitura. <span class="src">p. 181</span></p>
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Controles operacionais e efeitos principais</caption>
+      <thead>
+        <tr><th>Controle</th><th>Ajuste recomendado na fonte</th><th>Efeitos e cuidados</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Brilho (<em>brilliance</em>)</strong></td><td>Deixar o traço da varredura apenas visível. <span class="src">p. 181</span></td><td>Evita mascarar ecos fracos.</td></tr>
+        <tr><td><strong>Ganho (<em>gain</em>)</strong></td><td>Manter a tela levemente salpicada. <span class="src">p. 181</span></td><td>Pouco ganho reduz alcance; muito ganho reduz contraste. Reduzir temporariamente ajuda a separar alvos em áreas congestionadas ou sob chuva.</td></tr>
+        <tr><td><strong>STC / <em>anti-clutter sea</em></strong></td><td>Reduzir o retorno do mar até aparecer como pequenos pontos. <span class="src">p. 181</span></td><td>Atua principalmente nos ecos próximos (máximo de poucos quilômetros/milhas, com efeito nulo além do indicado na fonte). Não deixar fixo.</td></tr>
+        <tr><td><strong>FTC / <em>anti-clutter rain</em></strong></td><td>Usar para diminuir ecos de chuva, granizo ou neve. <span class="src">p. 181</span></td><td>Reduz sensibilidade em toda a PPI, melhora discriminação em distância e pode ajudar a eliminar interferências de RACON.</td></tr>
+        <tr><td><strong>Pulso e sintonia</strong></td><td>Pulso longo para longo alcance; curto para curtos/médios alcances. Ajustar sintonia com frequência. <span class="src">p. 181</span></td><td>Sintonia inadequada degrada ecos; radares com AFC dispensam ajuste manual.</td></tr>
+        <tr><td><strong>Linha de fé (<em>heading marker</em>)</strong></td><td>Ajustar para ficar apenas visível. <span class="src">p. 181</span></td><td>Facilita a navegação de praticagem ao indicar o bordo dos alvos pela proa.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Na prática</span>
+    <p>Selecione sempre a menor escala possível para a tarefa, ajuste ganho e supressores de forma dinâmica e use pulso curto quando a prioridade for definição em águas restritas. <span class="src">p. 181</span></p>
+  </div>
+  <p class="source-line">pp. 181</p>
+</section>
+
+<section class="section" id="interpretacao-ecos">
+  <p class="section-kicker">Interpretação</p>
+  <h2>Discriminação, sombras e ecos indesejados</h2>
+  <p>A imagem do radar não é uma fotografia da realidade. O feixe, o pulso, a geometria do alvo e reflexões múltiplas distorcem forma, posição aparente e continuidade dos ecos. <span class="src">p. 181</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Fatores que afetam a leitura da imagem</caption>
+      <thead>
+        <tr><th>Fator</th><th>Origem</th><th>Consequência</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Discriminação em marcação</strong></td><td>Igual à abertura horizontal do feixe. <span class="src">p. 181</span></td><td>Alvos se alargam angularmente; dois alvos na mesma distância podem fundir-se em um só eco.</td></tr>
+        <tr><td><strong>Discriminação em distância</strong></td><td>Metade da largura do pulso. <span class="src">p. 181</span></td><td>Alvos próximos no mesmo alinhamento podem aparecer unidos.</td></tr>
+        <tr><td><strong>Sombra-radar (<em>shadow sectors</em>)</strong></td><td>Obstrução por terra, estruturas do navio ou grandes alvos. <span class="src">p. 181</span></td><td>Setores cegos ou áreas sem detecção atrás de obstáculos.</td></tr>
+        <tr><td><strong>Ecos múltiplos</strong></td><td>Reflexões sucessivas entre alvo próximo e próprio navio. <span class="src">p. 181</span></td><td>Ecos duplicados, triplos etc.; a distância do segundo eco é o dobro da do alvo real.</td></tr>
+        <tr><td><strong>Ecos falsos/indiretos</strong></td><td>Reflexão em estruturas próprias ou entre alvos. <span class="src">p. 181</span></td><td>Eco em marcação ou posição incorreta; exige cautela na identificação.</td></tr>
+        <tr><td><strong>Ecos laterais (<em>side-lobe echoes</em>)</strong></td><td>Lóbulos secundários da antena. <span class="src">p. 181</span></td><td>Arcos ou círculos aparentes em torno de alvos próximos; podem ser atenuados com ganho/STC.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="compare">
+    <div class="pro">
+      <h4>Quando intervir</h4>
+      <ul>
+        <li>Reduzir ganho ou atuar no <em>anti-clutter sea</em> para confirmar ecos laterais.</li>
+        <li>Usar pulso curto e menor escala para separar alvos em distância. <span class="src">p. 181</span></li>
+      </ul>
+    </div>
+    <div class="con">
+      <h4>Riscos de ajuste excessivo</h4>
+      <ul>
+        <li>Eliminar ecos fracos de pequenos contatos perigosos.</li>
+        <li>Perder sensibilidade em áreas onde o retorno útil já é marginal. <span class="src">p. 181</span></li>
+      </ul>
+    </div>
+  </div>
+  <p class="source-line">pp. 181</p>
+</section>
+
+<section class="section" id="alvos-meteo-auxilios">
+  <p class="section-kicker">Alvos e ambiente</p>
+  <h2>Resposta dos alvos, fenômenos meteorológicos e auxílios-radar</h2>
+  <p>A força do eco depende de material, forma, orientação, altura e superfície refletora. Terras, estruturas, bóias e navios podem produzir imagens enganosas; chuva e mar agitado também competem com os alvos de interesse. <span class="src">pp. 181–182</span></p>
+
+  <div class="grid-2">
+    <div class="card card--accent">
+      <h3>Alvos e linha de costa</h3>
+      <ul>
+        <li>Superfícies verticais e formas côncavas favorecem retorno forte; praias baixas tendem a eco fraco. <span class="src">p. 181</span></li>
+        <li>Recifes, ilhas próximas, arrebentação e relevo atrás da praia podem gerar falsas linhas de costa. <span class="src">pp. 181–182</span></li>
+        <li>Navios de aço costumam produzir ecos fortes; embarcações de madeira/fibra e bóias podem dar resposta fraca e instável. <span class="src">p. 182</span></li>
+      </ul>
+    </div>
+    <div class="card card--teal">
+      <h3>Fenômenos meteorológicos</h3>
+      <ul>
+        <li>Chuva forte pode mascarar terra e contatos; granizo e neve afetam menos, mas ainda reduzem alcance. <span class="src">p. 182</span></li>
+        <li>Nevoeiro não aparece como eco definido, mas reduz alcance; cerração pesada pode ser parcialmente percebida em banda X, segundo a fonte. <span class="src">p. 182</span></li>
+        <li>O clutter do mar tende a ser maior a barlavento. <span class="src">p. 182</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Auxílios à navegação radar citados na fonte</caption>
+      <thead>
+        <tr><th>Auxílio</th><th>Tipo</th><th>Características</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Refletor-radar</strong></td><td>Passivo</td><td>Retro-reflete a energia em ângulos amplos; melhora a detecção de bóias e embarcações pequenas. <span class="src">p. 182</span></td></tr>
+        <tr><td><strong>RACON</strong></td><td>Ativo</td><td>Responde ao pulso do radar com sinal codificado (Morse) em banda S/X, útil para identificação positiva e medição precisa. <span class="src">p. 182</span></td></tr>
+        <tr><td><strong>RAMARK</strong></td><td>Ativo</td><td>Transmite continuamente ou a intervalos, gerando linha radial na PPI; não fornece distância. <span class="src">p. 182</span></td></tr>
+        <tr><td><strong>RTE (<em>Radar Target Enhancer</em>)</strong></td><td>Ativo</td><td>Amplifica e retransmite o pulso recebido sem codificação, reforçando o eco de auxílios e embarcações pequenas. <span class="src">p. 182</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--exam">
+    <span class="callout__label">Cai na prática</span>
+    <p>Bóias têm eco fraco, instável e podem garrear: a fonte recomenda usá-las com cautela e nunca como base única para posição. Refletores, RACON e RTE melhoram a resposta, mas não eliminam a necessidade de conferência. <span class="src">p. 182</span></p>
+  </div>
+  <p class="source-line">pp. 181–182</p>
+</section>
+
+<section class="section" id="precisao-medidas">
+  <p class="section-kicker">Medição</p>
+  <h2>Precisão de distâncias e marcações radar</h2>
+  <p>As distâncias-radar são, em geral, mais precisas que as marcações-radar, mas ambas dependem de calibração, ajuste, geometria do alvo e interpretação correta da borda do eco. <span class="src">p. 183</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Principais fontes de erro</caption>
+      <thead>
+        <tr><th>Tipo</th><th>Causas citadas</th><th>Conduta recomendada</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Distância</strong></td><td>Retardo do receptor, distorção na borda da tela, erro de calibração, falsa interpretação da costa, escala inadequada, tangência imperfeita do estrobo. <span class="src">p. 183</span></td><td>Usar menor escala, verificar calibração, tangenciar a borda interna do eco e confirmar com outros pontos.</td></tr>
+        <tr><td><strong>Marcação</strong></td><td>Largura do feixe, desalinhamento da linha de fé, folgas mecânicas, erro da giro, paralaxe e má centragem do cursor. <span class="src">p. 183</span></td><td>Reduzir ganho quando útil, usar cursor eletrônico, bissetar ecos pequenos e preferir pontos bem definidos.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--warn">
+    <span class="callout__label">Ordem de precisão</span>
+    <p>A fonte indica que a precisão típica de um radar calibrado é de cerca de 100 jardas até o horizonte-radar, decrescendo com o alcance, e que marcações-radar têm precisão da ordem de 2° a 3°. Na obtenção de posição, prefere-se combinar distância-radar com marcação visual ou distância-radar com distância-radar, e usar ao menos três LDPs quando possível. <span class="src">p. 183</span></p>
+  </div>
+  <p class="source-line">pp. 183</p>
+</section>
+
+<section class="section" id="navegacao-costeira-pi">
+  <p class="section-kicker">Aplicação</p>
+  <h2>Navegação costeira, PI, aterragem e fundeio de precisão</h2>
+  <p>Em águas restritas, o radar é ferramenta de controle contínuo da derrota e das margens de segurança. A navegação paralela indexada (<em>parallel indexing</em>, PI) permite monitorar desvios laterais e antecipar pontos de guinada com leitura rápida. <span class="src">pp. 183–185</span></p>
+
+  <ol class="steps">
+    <li><strong>Selecionar pontos confiáveis.</strong> Preferir objetos pequenos, conspícuos e bem cartografados; evitar bóias como referência principal de posição. <span class="src">pp. 182–183</span></li>
+    <li><strong>Traçar referências.</strong> Na carta e no radar, estabelecer linhas paralelas à derrota, retas de segurança e curvas/pontos de guinada, incluindo erro conhecido de distância quando aplicável. <span class="src">p. 184</span></li>
+    <li><strong>Monitorar continuamente.</strong> Usar menor escala adequada, ajustar controles para eliminar clutter sem apagar ecos úteis e informar ao comando bordo, afastamento e limitações de manobra. <span class="src">p. 184</span></li>
+    <li><strong>Confirmar transições.</strong> Em mudanças de rumo e fundeio de precisão, usar marcas de referência, contagem regressiva de distância e checagens visuais/radar para validar o instante de guinar ou largar o ferro. <span class="src">pp. 184–185</span></li>
+  </ol>
+
+  <figure class="figure">
+    <svg viewBox="0 0 720 300" role="img" aria-labelledby="fig-radar-pi-title fig-radar-pi-desc">
+      <title id="fig-radar-pi-title">Esquema de navegação paralela indexada</title>
+      <desc id="fig-radar-pi-desc">Representação simplificada de uma derrota com linha indexada paralela, margem de segurança e ponto de guinada monitorado por distância a um alvo conspícuo.</desc>
+      <defs>
+        <marker id="arrow-radar-pi" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0 0 L10 5 L0 10 z" fill="var(--gold)"/>
+        </marker>
+      </defs>
+      <line x1="80" y1="240" x2="640" y2="80" class="diagram-gold" stroke-width="3" marker-end="url(#arrow-radar-pi)"/>
+      <line x1="120" y1="260" x2="680" y2="100" class="diagram-line" stroke-dasharray="8 6"/>
+      <line x1="40" y1="220" x2="600" y2="60" class="diagram-accent" stroke-dasharray="5 5"/>
+      <circle cx="520" cy="126" r="8" fill="var(--navy-2)" stroke="var(--navy-3)"/>
+      <text x="535" y="112" class="diagram-label">alvo radar</text>
+      <circle cx="360" cy="160" r="7" fill="var(--gold)"/>
+      <text x="372" y="150" class="diagram-label diagram-label--strong">wheel-over</text>
+      <text x="585" y="65" class="diagram-label diagram-label--strong">derrota</text>
+      <text x="620" y="118" class="diagram-label">PI / índice</text>
+      <text x="120" y="240" class="diagram-label">margem de segurança</text>
+      <path d="M520 126 L410 156" class="diagram-line" stroke-dasharray="4 4"/>
+      <text x="430" y="178" class="diagram-label">distância de controle</text>
+    </svg>
+    <figcaption><b>Figura 2.</b> A PI desloca a referência de um ponto fixo para uma linha paralela à derrota, facilitando perceber desvios laterais e antecipar a guinada. <span class="src">pp. 184–185</span></figcaption>
+  </figure>
+
+  <div class="callout callout--danger">
+    <span class="callout__label">Aterragem e segurança</span>
+    <p>Na aterragem com radar, a fonte alerta para erros maiores porque a linha de costa detectada pode não corresponder à real, especialmente em costas baixas e sob efeito da curvatura da Terra. Distâncias-radar também podem ser usadas como LDP de segurança, traçando arcos e linhas de segurança por fora de perigos. <span class="src">pp. 183–184</span></p>
+  </div>
+
+  <div class="example">
+    <h3 class="example__title"><span>Caso prático</span> Fundeio de precisão com apoio do radar</h3>
+    <p>Traça-se na carta o círculo de segurança e o círculo de largar o ferro, define-se a derrota de aproximação com ponto conspícuo pela proa e marcam-se distâncias de referência. Durante a aproximação, o radar fornece contagens e confirma quando a antena atinge a posição prevista para largar, permitindo verificar também eventual garreio após o fundeio. <span class="src">p. 183</span></p>
+  </div>
+  <p class="source-line">pp. 183–185</p>
+</section>
+
+<section class="section" id="movimento-relativo">
+  <p class="section-kicker">Prevenção de abalroamento</p>
+  <h2>Movimento relativo, plotagem e apoio do ARPA</h2>
+  <p>A apresentação radar é, por natureza, uma apresentação em movimento relativo. A análise correta do vetor relativo permite identificar risco de colisão, ponto de maior aproximação (<em>CPA/PMA</em>) e efeito das manobras próprias. <span class="src">pp. 185–186</span></p>
+
+  <div class="def">
+    <span class="def__term">Movimento relativo (<em>relative motion</em>)</span>
+    <p>Movimento aparente do alvo em relação ao próprio navio. A DMR (<em>direção do movimento relativo</em>), a VMR (<em>velocidade do movimento relativo</em>) e o PMA (<em>ponto de maior aproximação</em>) são obtidos da plotagem relativa; rumo e velocidade verdadeiros do alvo exigem o diagrama de velocidades. <span class="src">pp. 185–186</span></p>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Elementos essenciais da avaliação de tráfego no radar</caption>
+      <thead>
+        <tr><th>Elemento</th><th>O que indica</th><th>Uso prático</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>DMR</strong></td><td>Direção do movimento relativo do alvo na PPI. <span class="src">p. 185</span></td><td>DMR apontando para o centro indica risco de colisão.</td></tr>
+        <tr><td><strong>VMR</strong></td><td>Velocidade relativa obtida pela distância percorrida no intervalo observado. <span class="src">p. 185</span></td><td>Permite estimar tempo até o PMA ou até a proa.</td></tr>
+        <tr><td><strong>PMA / CPA</strong></td><td>Menor distância prevista de passagem. <span class="src">p. 185</span></td><td>Base para decidir manobra antecipada e substancial.</td></tr>
+        <tr><td><strong>ARPA</strong></td><td>Sistema automático que adquire, rastreia e calcula vetores, alarmes e efeitos de manobras simuladas. <span class="src">p. 186</span></td><td>Acelera a avaliação, mas não dispensa vigilância visual e verificação contínua.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--mnemonic">
+    <span class="callout__label">Regra de bolso</span>
+    <p>Em apresentação estabilizada, <strong>marcação constante + distância diminuindo</strong> significa rumo de colisão. A plotagem em tempo real e os vetores do ARPA servem para confirmar rapidamente essa tendência e testar alternativas seguras. <span class="src">pp. 185–186</span></p>
+  </div>
+
+  <ul class="checklist">
+    <li>Manobrar com antecedência, de forma ampla e clara, especialmente em baixa visibilidade. <span class="src">p. 186</span></li>
+    <li>Reavaliar o PMA após cada alteração de rumo e/ou velocidade.</li>
+    <li>Usar apresentação em movimento verdadeiro apenas quando suas vantagens forem claras e com atenção às suas limitações. <span class="src">p. 186</span></li>
+  </ul>
+  <p class="source-line">pp. 185–186</p>
+</section>
+
+<section class="section" id="sintese-radar">
+  <p class="section-kicker">Síntese</p>
+  <h2>Pontos-chave para o uso seguro do radar</h2>
+
+  <div class="keyfacts">
+    <div class="keyfact"><b>1°–2°</b><span>abertura horizontal típica do feixe, ligada à discriminação em marcação</span></div>
+    <div class="keyfact"><b>10°–30°</b><span>abertura vertical típica citada para o feixe</span></div>
+    <div class="keyfact"><b>LP/2</b><span>distância mínima e poder de discriminação em distância aproximados</span></div>
+    <div class="keyfact"><b>2°–3°</b><span>ordem de precisão típica das marcações-radar</span></div>
+  </div>
+
+  <div class="callout callout--tip">
+    <span class="callout__label">Síntese para levar</span>
+    <p>Radar bom não é o que “mostra mais ecos”, e sim o que está corretamente ajustado, interpretado com senso crítico e integrado ao plano de navegação. Controle, confirmação cruzada e consciência das limitações valem mais que confiança cega na tela. <span class="src">pp. 180–186</span></p>
+  </div>
+  <p class="source-line">pp. 180–186</p>
+</section>
+
+<section class="section" id="revisao-radar">
+  <p class="section-kicker">Revisão</p>
+  <h2>Perguntas para fechar o capítulo</h2>
+  <div class="quiz">
+    <details>
+      <summary>1. Qual a diferença prática entre banda S e banda X no radar de navegação?</summary>
+      <div class="quiz__answer"><p>A banda S (10 cm) é associada à navegação costeira e de alto-mar, com menor sensibilidade a chuva; a banda X (3 cm) é usada em aterragem e águas restritas, oferecendo maior detalhe, porém com maior influência de meteorologia. <span class="src">p. 180</span></p></div>
+    </details>
+    <details>
+      <summary>2. Por que pulsos curtos e pulsos longos são escolhidos para tarefas diferentes?</summary>
+      <div class="quiz__answer"><p>Pulsos curtos melhoram definição e discriminação em distância, sendo úteis em curtos e médios alcances; pulsos longos concentram mais energia e favorecem a detecção em maiores distâncias. <span class="src">pp. 180–181</span></p></div>
+    </details>
+    <details>
+      <summary>3. O que caracteriza super-refração e por que ela exige cautela?</summary>
+      <div class="quiz__answer"><p>Na super-refração, camadas atmosféricas curvam mais o feixe para baixo, aumentando o alcance. Em casos extremos (dutos), podem surgir ecos muito distantes ou confusos e também zonas onde alvos deixam de ser vistos, exigindo interpretação cuidadosa. <span class="src">p. 180</span></p></div>
+    </details>
+    <details>
+      <summary>4. Por que distâncias-radar costumam ser preferidas a marcações-radar para obter posição?</summary>
+      <div class="quiz__answer"><p>Porque as distâncias sofrem menos com erros angulares como largura do feixe, desalinhamento e paralaxe. A fonte indica maior precisão nas distâncias e recomenda combinar LDPs com critério, preferencialmente usando três referências. <span class="src">p. 183</span></p></div>
+    </details>
+    <details>
+      <summary>5. Qual é a utilidade da navegação paralela indexada (PI)?</summary>
+      <div class="quiz__answer"><p>A PI permite monitorar em tempo real o afastamento lateral da derrota planejada, controlar margens de segurança e antecipar pontos de guinada ou de fundeio por meio de linhas paralelas e distâncias de referência no radar. <span class="src">pp. 184–185</span></p></div>
+    </details>
+    <details>
+      <summary>6. O que indica, na plotagem relativa, um alvo com marcação constante e distância diminuindo?</summary>
+      <div class="quiz__answer"><p>Indica risco de colisão: a direção do movimento relativo aponta para o próprio navio. É necessário avaliar PMA, VMR e executar manobra antecipada e eficaz, confirmando o resultado no radar ou no ARPA. <span class="src">pp. 185–186</span></p></div>
+    </details>
+    <details>
+      <summary>7. Quais limitações devem ser lembradas ao usar ARPA e apresentação em movimento verdadeiro?</summary>
+      <div class="quiz__answer"><p>O ARPA automatiza aquisição e cálculo, mas pode falhar e não substitui vigilância visual e julgamento. A apresentação em movimento verdadeiro facilita reconhecer alvos fixos, porém dificulta perceber riscos de colisão e exige reposicionamento da imagem. <span class="src">p. 186</span></p></div>
+    </details>
+  </div>
+</section>
