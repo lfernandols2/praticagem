@@ -2,6 +2,8 @@
   "use strict";
 
   const STORAGE_KEY = "apostila-praticagem-progresso-v1";
+  const QUESTOES_KEY = "apostila-praticagem-questoes-v1";
+  const RESPOSTAS_KEY = "apostila-praticagem-respostas-v1";
   const THEME_KEY = "apostila-praticagem-tema";
   const doc = document;
   const root = doc.documentElement;
@@ -245,6 +247,284 @@
     });
   }
 
+  /* ---------- banco de questões ---------- */
+  function normalizeText(value) {
+    return (value || "")
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase();
+  }
+
+  function getQuestaoProgress() {
+    try {
+      return JSON.parse(localStorage.getItem(QUESTOES_KEY) || "{}");
+    } catch {
+      return {};
+    }
+  }
+
+  function getRespostas() {
+    try {
+      return JSON.parse(localStorage.getItem(RESPOSTAS_KEY) || "{}");
+    } catch {
+      return {};
+    }
+  }
+
+  function saveRespostas(value) {
+    try {
+      localStorage.setItem(RESPOSTAS_KEY, JSON.stringify(value));
+    } catch {
+      /* navegação privada: a seleção dura apenas nesta sessão */
+    }
+  }
+
+  function paintSelection(card, answers) {
+    const id = card.getAttribute("data-question-id");
+    const selected = answers[id] || "";
+    if (selected) {
+      const radio = card.querySelector('input[data-alternative][value="' + selected + '"]');
+      if (radio) radio.checked = true;
+    }
+    card.querySelectorAll(".alternative").forEach((li) => {
+      li.classList.toggle("is-selected", !!selected && li.getAttribute("data-letter") === selected);
+    });
+    return selected;
+  }
+
+  function setAnswer(card, show) {
+    const box = card.querySelector("[data-answer-box]");
+    if (!box) return;
+    box.hidden = !show;
+    const btn = card.querySelector("[data-reveal]");
+    if (btn) {
+      btn.setAttribute("aria-pressed", String(show));
+      btn.textContent = show ? "Ocultar gabarito" : "Verificar / gabarito";
+    }
+
+    const correct = (card.getAttribute("data-answer-letter") || "").toLowerCase();
+    const checked = card.querySelector("input[data-alternative]:checked");
+    const selected = checked ? checked.value.toLowerCase() : "";
+    const result = card.querySelector("[data-answer-result]");
+
+    card.querySelectorAll(".alternative").forEach((li) => {
+      const letter = li.getAttribute("data-letter");
+      li.classList.toggle("is-correct", show && !!correct && letter === correct);
+      li.classList.toggle("is-wrong", show && !!selected && letter === selected && selected !== correct);
+    });
+
+    if (result) {
+      result.textContent = "";
+      result.classList.remove("is-right", "is-wrong");
+      if (show && correct) {
+        if (!selected) {
+          result.textContent = "Selecione uma alternativa para comparar com o gabarito.";
+        } else if (selected === correct) {
+          result.textContent = "Você acertou!";
+          result.classList.add("is-right");
+        } else {
+          result.textContent = `Você marcou ${selected.toUpperCase()}. Resposta correta: ${correct.toUpperCase()}.`;
+          result.classList.add("is-wrong");
+        }
+      }
+    }
+  }
+
+  function initQuestions() {
+    const page = doc.querySelector("[data-questoes-page]");
+    if (!page || !doc.body.classList.contains("questoes-page")) return;
+
+    const cards = [...doc.querySelectorAll(".question-card")];
+    const grid = doc.querySelector("[data-questions-grid]");
+    const pageSize = Math.max(1, Number(page.getAttribute("data-questoes-page-size") || 10));
+    const yearChips = [...doc.querySelectorAll("[data-quest-year]")];
+    const topicChips = [...doc.querySelectorAll("[data-quest-topic]")];
+    const search = doc.querySelector("[data-questoes-search]");
+    const counter = doc.querySelector("[data-questoes-count]");
+    const range = doc.querySelector("[data-questoes-range]");
+    const empty = doc.querySelector("[data-questoes-empty]");
+    const revealAll = doc.querySelector("[data-reveal-all]");
+    const hideAll = doc.querySelector("[data-hide-all]");
+    const doneEls = [...doc.querySelectorAll("[data-questoes-done]")];
+    const answeredEls = [...doc.querySelectorAll("[data-questoes-answered]")];
+    const bar = doc.querySelector("[data-questoes-bar]");
+    const currentEls = [...doc.querySelectorAll("[data-page-current]")];
+    const totalEls = [...doc.querySelectorAll("[data-page-total]")];
+    const prevButtons = [...doc.querySelectorAll("[data-page-prev]")];
+    const nextButtons = [...doc.querySelectorAll("[data-page-next]")];
+    const total = Number(page.getAttribute("data-questoes-total") || cards.length);
+
+    let year = "todos";
+    let topic = "todos";
+    let term = "";
+    let currentPage = 1;
+    let matching = cards;
+
+    const paintAnswers = () => {
+      const answers = getRespostas();
+      let answered = 0;
+      cards.forEach((card) => {
+        const selected = paintSelection(card, answers);
+        if (selected && card.getAttribute("data-answer-letter")) answered += 1;
+        const box = card.querySelector("[data-answer-box]");
+        if (box && !box.hidden) setAnswer(card, true);
+      });
+      answeredEls.forEach((el) => { el.textContent = String(answered); });
+    };
+
+    const apply = (scrollToGrid = false) => {
+      matching = cards.filter((card) => {
+        const text = normalizeText(card.getAttribute("data-search"));
+        const okYear = year === "todos" || card.getAttribute("data-question-year") === year;
+        const okTopic = topic === "todos" || card.getAttribute("data-topic") === topic;
+        const okTerm = !term || text.includes(term);
+        return okYear && okTopic && okTerm;
+      });
+
+      const pageCount = Math.max(1, Math.ceil(matching.length / pageSize));
+      currentPage = Math.min(Math.max(1, currentPage), pageCount);
+      const start = (currentPage - 1) * pageSize;
+      const visible = new Set(matching.slice(start, start + pageSize));
+      cards.forEach((card) => { card.hidden = !visible.has(card); });
+
+      const shown = matching.length;
+      if (counter) counter.textContent = String(shown);
+      if (range) {
+        if (!shown) {
+          range.textContent = "Nenhuma questão para os filtros atuais";
+        } else if (pageSize === 1) {
+          range.textContent = `Questão ${currentPage} de ${shown}`;
+        } else {
+          range.textContent = `Mostrando ${start + 1}–${Math.min(start + pageSize, shown)} de ${shown}`;
+        }
+      }
+      currentEls.forEach((el) => { el.textContent = String(currentPage); });
+      totalEls.forEach((el) => { el.textContent = String(pageCount); });
+      prevButtons.forEach((btn) => { btn.disabled = currentPage <= 1; });
+      nextButtons.forEach((btn) => { btn.disabled = currentPage >= pageCount; });
+      if (empty) empty.classList.toggle("is-visible", shown === 0);
+
+      if (scrollToGrid && grid) {
+        const top = grid.getBoundingClientRect().top + window.scrollY - 88;
+        window.scrollTo({ top, behavior: "smooth" });
+      }
+    };
+
+    const resetPage = () => {
+      currentPage = 1;
+      apply();
+    };
+
+    if (search) {
+      search.addEventListener("input", () => {
+        term = normalizeText(search.value.trim());
+        resetPage();
+      });
+    }
+
+    yearChips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        year = chip.getAttribute("data-quest-year") || "todos";
+        yearChips.forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
+        resetPage();
+      });
+    });
+    topicChips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        topic = chip.getAttribute("data-quest-topic") || "todos";
+        topicChips.forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
+        resetPage();
+      });
+    });
+
+    prevButtons.forEach((btn) => btn.addEventListener("click", () => {
+      if (currentPage > 1) {
+        currentPage -= 1;
+        apply(true);
+      }
+    }));
+    nextButtons.forEach((btn) => btn.addEventListener("click", () => {
+      if (currentPage < Math.max(1, Math.ceil(matching.length / pageSize))) {
+        currentPage += 1;
+        apply(true);
+      }
+    }));
+
+    cards.forEach((card) => {
+      card.querySelectorAll("input[data-alternative]").forEach((radio) => {
+        radio.addEventListener("change", () => {
+          const id = card.getAttribute("data-question-id");
+          const answers = getRespostas();
+          answers[id] = radio.value;
+          saveRespostas(answers);
+          paintAnswers();
+        });
+      });
+    });
+
+    doc.querySelectorAll(".question-card [data-clear-choice]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const card = btn.closest(".question-card");
+        if (!card) return;
+        const id = card.getAttribute("data-question-id");
+        const answers = getRespostas();
+        delete answers[id];
+        saveRespostas(answers);
+        card.querySelectorAll("input[data-alternative]").forEach((radio) => { radio.checked = false; });
+        paintAnswers();
+      });
+    });
+
+    doc.querySelectorAll(".question-card [data-reveal]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const card = btn.closest(".question-card");
+        if (card) setAnswer(card, btn.getAttribute("aria-pressed") !== "true");
+      });
+    });
+    if (revealAll) revealAll.addEventListener("click", () => cards.forEach((c) => setAnswer(c, true)));
+    if (hideAll) hideAll.addEventListener("click", () => cards.forEach((c) => setAnswer(c, false)));
+
+    const doneButtons = [...doc.querySelectorAll("[data-qdone]")];
+    const paintDone = () => {
+      const progress = getQuestaoProgress();
+      let count = 0;
+      doneButtons.forEach((btn) => {
+        const id = btn.getAttribute("data-qdone");
+        const done = Boolean(progress[id]);
+        if (done) count += 1;
+        btn.classList.toggle("is-done", done);
+        btn.classList.toggle("btn--gold", !done);
+        btn.setAttribute("aria-pressed", String(done));
+        btn.textContent = done ? "Estudada ✓" : "Marcar como estudada";
+      });
+      doneEls.forEach((el) => { el.textContent = String(count); });
+      if (bar) bar.style.width = total ? `${Math.min(100, (count / total) * 100)}%` : "0%";
+    };
+
+    doneButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const id = btn.getAttribute("data-qdone");
+        if (!id) return;
+        const progress = getQuestaoProgress();
+        if (progress[id]) delete progress[id];
+        else progress[id] = Date.now();
+        localStorage.setItem(QUESTOES_KEY, JSON.stringify(progress));
+        paintDone();
+      });
+    });
+
+    doc.addEventListener("keydown", (ev) => {
+      if (ev.key === "/" && search && doc.activeElement !== search) {
+        ev.preventDefault();
+        search.focus();
+      }
+    });
+
+    paintDone();
+    paintAnswers();
+    apply();
+  }
+
   /* ---------- inicialização ---------- */
   initTheme();
   paintProgress();
@@ -254,13 +534,15 @@
   initScrollSpy();
   initCompleteButton();
   initIndex();
+  initQuestions();
 
   doc.querySelectorAll("[data-theme-toggle]").forEach((btn) => btn.addEventListener("click", toggleTheme));
 
   const printBtn = doc.querySelector("[data-print]");
   if (printBtn) printBtn.addEventListener("click", () => window.print());
 
-  doc.querySelectorAll("[data-year]").forEach((el) => {
-    el.textContent = String(new Date().getFullYear());
+  // Apenas o rodapé usa este marcador; os cards de questões têm atributo próprio.
+  doc.querySelectorAll("span[data-year]").forEach((el) => {
+    if (!el.textContent.trim()) el.textContent = String(new Date().getFullYear());
   });
 })();

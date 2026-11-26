@@ -7,6 +7,7 @@
   <title>I · Área I — Manobrabilidade do Navio — Apostila de Praticagem</title>
   <meta name="description" content="Resistência, propulsão, lemes, controlabilidade, forças ambientais e interações.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a2238'/%3E%3Ccircle cx='32' cy='32' r='19' fill='none' stroke='%23d9ad58' stroke-width='2'/%3E%3Cpath d='M39 23l-5 11-11 5 5-11 11-5z' fill='%23d9ad58'/%3E%3C/svg%3E">
+  
   <style>
 /* ============================================================
    APOSTILA DE PRATICAGEM — sistema visual
@@ -188,6 +189,41 @@ img, svg, video, canvas { max-width: 100%; height: auto; }
 .brand small { display: block; font-family: var(--font-body); font-weight: 500; font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-faint); }
 
 .topbar__spacer { flex: 1; }
+
+.topbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  background: var(--surface-2);
+}
+.topbar-nav__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px;
+  border-radius: 99px;
+  color: var(--ink-soft);
+  font-size: .76rem;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background .18s, color .18s;
+}
+.topbar-nav__link svg { width: 15px; height: 15px; flex: 0 0 auto; }
+.topbar-nav__link:hover { color: var(--ink); background: var(--surface); }
+.topbar-nav__link.is-active {
+  color: #f4f7f8;
+  background: var(--navy);
+  box-shadow: var(--shadow-sm);
+}
+
+@media (max-width: 980px) {
+  .topbar-nav__link span { display: none; }
+  .topbar-nav__link { padding: 8px; }
+}
 
 .icon-btn {
   display: inline-grid;
@@ -1443,6 +1479,327 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
   .table-wrap th { white-space: nowrap; }
 }
 
+/* ---------- aba de questões ---------- */
+[hidden] { display: none !important; }
+
+.topbar__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  background: var(--surface);
+  color: var(--ink-soft);
+  font-size: .78rem;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background .18s, color .18s, border-color .18s;
+}
+.topbar__link svg { width: 16px; height: 16px; }
+.topbar__link:hover { color: var(--ink); border-color: var(--gold); background: var(--surface-2); }
+.topbar__link.is-active {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: #f4f7f8;
+}
+
+.btn--ghost { background: transparent; color: var(--ink); border-color: var(--line-strong); }
+.btn--ghost:hover { background: var(--surface-2); }
+.btn--small { padding: 7px 13px; font-size: .72rem; }
+.btn--text { background: transparent; border-color: transparent; color: var(--teal); padding-left: 0; padding-right: 0; }
+.btn.is-done { background: var(--green-soft); color: var(--green); border-color: color-mix(in srgb, var(--green) 40%, var(--line)); }
+
+.questions-hero {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  padding: clamp(26px, 4vw, 44px);
+  border-radius: var(--radius-lg);
+  color: #f4f7f8;
+  background:
+    radial-gradient(700px 340px at 85% -15%, rgba(67, 158, 170, .45), transparent 62%),
+    radial-gradient(520px 300px at 0% 120%, rgba(179, 135, 44, .22), transparent 65%),
+    linear-gradient(135deg, #071a2b 0%, #0b2b44 55%, #0d3a50 100%);
+  box-shadow: var(--shadow-lg);
+}
+.questions-hero h1 { margin: 8px 0 12px; font-family: var(--font-display); font-size: clamp(2rem, 4.5vw, 3.1rem); line-height: 1.08; }
+.questions-hero h1 em { color: var(--gold); font-style: italic; }
+.questions-hero p { max-width: 720px; margin: 0; color: #c9d9e1; font-size: .96rem; }
+.questions-hero__stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 26px;
+}
+.questions-hero__stats > div {
+  padding: 12px 14px;
+  border: 1px solid rgba(255, 255, 255, .16);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, .06);
+}
+.questions-hero__stats b { display: block; font-family: var(--font-display); font-size: 1.45rem; line-height: 1.1; }
+.questions-hero__stats span { font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; color: #9fb8c6; }
+.questions-hero__actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+.questions-hero .btn--ghost { color: #f4f7f8; border-color: rgba(255, 255, 255, .28); }
+.questions-hero .btn--ghost:hover { background: rgba(255, 255, 255, .09); }
+
+.questions-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+.questions-toolbar h2 { margin: 0; font-size: 1.25rem; }
+.questions-toolbar .search { flex: 1 1 320px; max-width: 420px; }
+
+.questions-filters {
+  display: grid;
+  gap: 14px;
+  margin-bottom: 18px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.filter-group__label {
+  margin: 0 0 8px;
+  font-size: .66rem;
+  font-weight: 800;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.filter-row { display: flex; flex-wrap: wrap; gap: 7px; }
+.filter-chip small { margin-left: 4px; opacity: .7; font-size: .68rem; }
+
+.questions-progress {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 18px;
+  margin-bottom: 22px;
+  padding: 13px 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-2);
+}
+.questions-progress__info { flex: 1 1 320px; }
+.questions-progress p { margin: 0; font-size: .78rem; color: var(--ink-soft); }
+.questions-progress__range { margin-top: 3px !important; font-size: .72rem !important; color: var(--ink-faint) !important; }
+.questions-progress .bar { flex: 1 1 220px; }
+.questions-progress > .btn { flex: 0 0 auto; }
+
+.questions-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  flex: 1 1 100%;
+}
+.questions-pagination span { font-size: .76rem; color: var(--ink-soft); }
+.questions-pagination span strong { color: var(--ink); }
+.questions-pagination .btn:disabled { opacity: .45; cursor: not-allowed; transform: none; box-shadow: none; }
+.questions-pagination--bottom {
+  justify-content: center;
+  margin-top: 24px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-2);
+}
+
+.questions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 18px;
+  align-items: start;
+}
+.question-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: box-shadow .2s, border-color .2s, transform .2s;
+}
+.question-card:hover { border-color: var(--line-strong); box-shadow: var(--shadow-md); transform: translateY(-1px); }
+.question-card.is-annulled { border-style: dashed; }
+.question-card__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 15px;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface-2);
+}
+.question-card__num {
+  font-family: var(--font-mono);
+  font-size: .82rem;
+  font-weight: 800;
+  color: var(--navy-3);
+}
+.question-card__badges { display: flex; flex-wrap: wrap; gap: 6px; }
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 9px;
+  border-radius: 99px;
+  background: var(--gold-soft);
+  color: var(--gold);
+  font-size: .64rem;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.badge--topic { background: var(--teal-soft); color: var(--teal); letter-spacing: .02em; text-transform: none; }
+.badge--muted { background: var(--surface-3); color: var(--ink-faint); }
+.badge--annulled { background: var(--red-soft); color: var(--red); }
+.question-card__body {
+  flex: 1;
+  padding: 16px 17px 8px;
+  font-size: .88rem;
+  line-height: 1.62;
+}
+.question-card__body p { margin: 0 0 11px; }
+.question-card__body > p:first-child { color: var(--ink); }
+
+.quest-table {
+  width: 100%;
+  margin: 14px 0;
+  border-collapse: collapse;
+  font-size: .76rem;
+  line-height: 1.45;
+}
+.quest-table caption {
+  caption-side: top;
+  padding: 0 0 7px;
+  text-align: left;
+  font-size: .68rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.quest-table th, .quest-table td {
+  padding: 7px 9px;
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+.quest-table th { background: var(--surface-3); color: var(--ink); font-size: .7rem; }
+.quest-table tbody tr:nth-child(even) td { background: var(--surface-2); }
+
+.question-figure {
+  margin: 14px 0;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  text-align: center;
+}
+.question-figure img { display: block; margin: 0 auto; max-width: 100%; max-height: 420px; object-fit: contain; }
+.question-figure figcaption { margin-top: 8px; font-size: .66rem; color: var(--ink-faint); }
+
+.question-note {
+  margin: 12px 0;
+  padding: 10px 12px;
+  border-left: 3px solid var(--gold);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  background: var(--gold-soft);
+  font-size: .78rem;
+}
+.alternatives { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 7px; }
+.alternative {
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--surface-2);
+  transition: border-color .15s, background .15s;
+}
+.alternative__label {
+  display: grid;
+  grid-template-columns: 16px 22px minmax(0, 1fr);
+  gap: 8px;
+  align-items: start;
+  cursor: pointer;
+}
+.alternative input[type="radio"] {
+  width: 16px;
+  height: 16px;
+  margin: 3px 0 0;
+  accent-color: var(--teal);
+  cursor: pointer;
+}
+.alternative__letter {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--surface-3);
+  color: var(--ink-soft);
+  font-family: var(--font-mono);
+  font-size: .7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.alternative:hover { border-color: var(--line-strong); }
+.alternative.is-selected { border-color: var(--teal); background: var(--teal-soft); }
+.alternative.is-selected .alternative__letter { background: var(--teal); color: #fff; }
+.alternative.is-correct { border-color: var(--green); background: var(--green-soft); }
+.alternative.is-correct .alternative__letter { background: var(--green); color: #fff; }
+.alternative.is-wrong { border-color: var(--red); background: var(--red-soft); }
+.alternative.is-wrong .alternative__letter { background: var(--red); color: #fff; }
+
+.answer-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  margin-top: 13px;
+  padding: 10px 12px;
+  border: 1px solid color-mix(in srgb, var(--green) 40%, var(--line));
+  border-radius: var(--radius-sm);
+  background: var(--green-soft);
+  font-size: .78rem;
+}
+.answer-box__label strong { color: var(--green); }
+.answer-box__result { width: 100%; font-weight: 700; }
+.answer-box__result.is-right { color: var(--green); }
+.answer-box__result.is-wrong { color: var(--red); }
+.answer-box--annulled { border-color: var(--line); background: var(--surface-3); color: var(--ink-soft); }
+.answer-box--annulled .answer-box__label { color: var(--red); font-weight: 800; }
+
+.question-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 15px 14px;
+  border-top: 1px solid var(--line);
+  background: var(--surface-2);
+}
+.question-actions .btn--text { margin-left: auto; }
+.katex { font-size: 1.01em; }
+
+@media (max-width: 780px) {
+  .questions-hero__stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .questions-grid { grid-template-columns: 1fr; }
+  .questions-progress { flex-direction: column; align-items: stretch; }
+  .questions-progress > .btn { align-self: flex-start; }
+  .questions-pagination { justify-content: center; }
+  .topbar__label { display: none; }
+}
+
 /* ---------- impressão ---------- */
 @media print {
   :root { --bg: #fff; --surface: #fff; --surface-2: #f6f4ef; --ink: #111; --ink-soft: #333; --ink-faint: #666; --line: #ccc; }
@@ -1465,6 +1822,19 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
   a { color: inherit; text-decoration: none; }
   .anchor { display: none; }
   .source-line, .src { color: #555; }
+  .questions-hero__actions, .questions-toolbar, .questions-filters,
+  .questions-progress, .question-actions, [data-reveal-all], [data-hide-all] { display: none !important; }
+  .questions-hero { padding: 20px; color: #111; background: #fff !important; border: 1px solid #ccc; box-shadow: none; }
+  .questions-hero h1 em, .questions-hero p { color: #333; }
+  .questions-hero__stats > div { border-color: #ccc; background: #f6f4ef; color: #111; }
+  .questions-hero__stats span { color: #555; }
+  .questions-grid { display: block; }
+  .questions-pagination, .questions-pagination--bottom { display: none !important; }
+  .question-card[hidden] { display: flex !important; }
+  .question-card { break-inside: avoid; box-shadow: none; border: 1px solid #ccc; margin-bottom: 14px; }
+  .answer-box, .answer-box[hidden] { display: flex !important; border-color: #ccc; background: #f6f4ef; }
+  .quest-table { font-size: 9pt; }
+  .question-figure img { max-height: 320px; }
 }
 
   </style>
@@ -1490,6 +1860,7 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         <span>Apostila de Praticagem<small>Estudos para o prático</small></span>
       </a>
       <div class="topbar__spacer"></div>
+      <nav class="topbar-nav" aria-label="Navegação principal"><a class="topbar-nav__link is-active" href="../index.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5v-16Z"/><path d="M4 18.5A2.5 2.5 0 0 1 6.5 16H20"/></svg><span>Apostila</span></a><a class="topbar-nav__link" href="../questoes.html" data-topbar-questoes><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4.5h11l3 3V20H5V4.5Z"/><path d="M8 9h7M8 12.5h7M8 16h4"/><path d="M16 4.5V8h3"/></svg><span>Questões</span></a><a class="topbar-nav__link" href="../conteudo-programatico.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 1.8"/></svg><span>Programa</span></a><a class="topbar-nav__link" href="../cobertura-bibliografica.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5v-16Z"/><path d="M4 18.5A2.5 2.5 0 0 1 6.5 16H20"/></svg><span>Bibliografia</span></a></nav>
       <span class="topbar__label">Capítulo I de 28</span>
       <button class="icon-btn" type="button" data-print title="Imprimir / salvar em PDF" aria-label="Imprimir ou salvar em PDF"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 8V3h10v5"/><rect x="4" y="8" width="16" height="9" rx="2"/><path d="M7 14h10v7H7z"/></svg></button>
       <button class="icon-btn" type="button" data-theme-toggle aria-label="Alternar tema"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg></button>
@@ -1557,6 +1928,8 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
   "use strict";
 
   const STORAGE_KEY = "apostila-praticagem-progresso-v1";
+  const QUESTOES_KEY = "apostila-praticagem-questoes-v1";
+  const RESPOSTAS_KEY = "apostila-praticagem-respostas-v1";
   const THEME_KEY = "apostila-praticagem-tema";
   const doc = document;
   const root = doc.documentElement;
@@ -1800,6 +2173,284 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
     });
   }
 
+  /* ---------- banco de questões ---------- */
+  function normalizeText(value) {
+    return (value || "")
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase();
+  }
+
+  function getQuestaoProgress() {
+    try {
+      return JSON.parse(localStorage.getItem(QUESTOES_KEY) || "{}");
+    } catch {
+      return {};
+    }
+  }
+
+  function getRespostas() {
+    try {
+      return JSON.parse(localStorage.getItem(RESPOSTAS_KEY) || "{}");
+    } catch {
+      return {};
+    }
+  }
+
+  function saveRespostas(value) {
+    try {
+      localStorage.setItem(RESPOSTAS_KEY, JSON.stringify(value));
+    } catch {
+      /* navegação privada: a seleção dura apenas nesta sessão */
+    }
+  }
+
+  function paintSelection(card, answers) {
+    const id = card.getAttribute("data-question-id");
+    const selected = answers[id] || "";
+    if (selected) {
+      const radio = card.querySelector('input[data-alternative][value="' + selected + '"]');
+      if (radio) radio.checked = true;
+    }
+    card.querySelectorAll(".alternative").forEach((li) => {
+      li.classList.toggle("is-selected", !!selected && li.getAttribute("data-letter") === selected);
+    });
+    return selected;
+  }
+
+  function setAnswer(card, show) {
+    const box = card.querySelector("[data-answer-box]");
+    if (!box) return;
+    box.hidden = !show;
+    const btn = card.querySelector("[data-reveal]");
+    if (btn) {
+      btn.setAttribute("aria-pressed", String(show));
+      btn.textContent = show ? "Ocultar gabarito" : "Verificar / gabarito";
+    }
+
+    const correct = (card.getAttribute("data-answer-letter") || "").toLowerCase();
+    const checked = card.querySelector("input[data-alternative]:checked");
+    const selected = checked ? checked.value.toLowerCase() : "";
+    const result = card.querySelector("[data-answer-result]");
+
+    card.querySelectorAll(".alternative").forEach((li) => {
+      const letter = li.getAttribute("data-letter");
+      li.classList.toggle("is-correct", show && !!correct && letter === correct);
+      li.classList.toggle("is-wrong", show && !!selected && letter === selected && selected !== correct);
+    });
+
+    if (result) {
+      result.textContent = "";
+      result.classList.remove("is-right", "is-wrong");
+      if (show && correct) {
+        if (!selected) {
+          result.textContent = "Selecione uma alternativa para comparar com o gabarito.";
+        } else if (selected === correct) {
+          result.textContent = "Você acertou!";
+          result.classList.add("is-right");
+        } else {
+          result.textContent = `Você marcou ${selected.toUpperCase()}. Resposta correta: ${correct.toUpperCase()}.`;
+          result.classList.add("is-wrong");
+        }
+      }
+    }
+  }
+
+  function initQuestions() {
+    const page = doc.querySelector("[data-questoes-page]");
+    if (!page || !doc.body.classList.contains("questoes-page")) return;
+
+    const cards = [...doc.querySelectorAll(".question-card")];
+    const grid = doc.querySelector("[data-questions-grid]");
+    const pageSize = Math.max(1, Number(page.getAttribute("data-questoes-page-size") || 10));
+    const yearChips = [...doc.querySelectorAll("[data-quest-year]")];
+    const topicChips = [...doc.querySelectorAll("[data-quest-topic]")];
+    const search = doc.querySelector("[data-questoes-search]");
+    const counter = doc.querySelector("[data-questoes-count]");
+    const range = doc.querySelector("[data-questoes-range]");
+    const empty = doc.querySelector("[data-questoes-empty]");
+    const revealAll = doc.querySelector("[data-reveal-all]");
+    const hideAll = doc.querySelector("[data-hide-all]");
+    const doneEls = [...doc.querySelectorAll("[data-questoes-done]")];
+    const answeredEls = [...doc.querySelectorAll("[data-questoes-answered]")];
+    const bar = doc.querySelector("[data-questoes-bar]");
+    const currentEls = [...doc.querySelectorAll("[data-page-current]")];
+    const totalEls = [...doc.querySelectorAll("[data-page-total]")];
+    const prevButtons = [...doc.querySelectorAll("[data-page-prev]")];
+    const nextButtons = [...doc.querySelectorAll("[data-page-next]")];
+    const total = Number(page.getAttribute("data-questoes-total") || cards.length);
+
+    let year = "todos";
+    let topic = "todos";
+    let term = "";
+    let currentPage = 1;
+    let matching = cards;
+
+    const paintAnswers = () => {
+      const answers = getRespostas();
+      let answered = 0;
+      cards.forEach((card) => {
+        const selected = paintSelection(card, answers);
+        if (selected && card.getAttribute("data-answer-letter")) answered += 1;
+        const box = card.querySelector("[data-answer-box]");
+        if (box && !box.hidden) setAnswer(card, true);
+      });
+      answeredEls.forEach((el) => { el.textContent = String(answered); });
+    };
+
+    const apply = (scrollToGrid = false) => {
+      matching = cards.filter((card) => {
+        const text = normalizeText(card.getAttribute("data-search"));
+        const okYear = year === "todos" || card.getAttribute("data-question-year") === year;
+        const okTopic = topic === "todos" || card.getAttribute("data-topic") === topic;
+        const okTerm = !term || text.includes(term);
+        return okYear && okTopic && okTerm;
+      });
+
+      const pageCount = Math.max(1, Math.ceil(matching.length / pageSize));
+      currentPage = Math.min(Math.max(1, currentPage), pageCount);
+      const start = (currentPage - 1) * pageSize;
+      const visible = new Set(matching.slice(start, start + pageSize));
+      cards.forEach((card) => { card.hidden = !visible.has(card); });
+
+      const shown = matching.length;
+      if (counter) counter.textContent = String(shown);
+      if (range) {
+        if (!shown) {
+          range.textContent = "Nenhuma questão para os filtros atuais";
+        } else if (pageSize === 1) {
+          range.textContent = `Questão ${currentPage} de ${shown}`;
+        } else {
+          range.textContent = `Mostrando ${start + 1}–${Math.min(start + pageSize, shown)} de ${shown}`;
+        }
+      }
+      currentEls.forEach((el) => { el.textContent = String(currentPage); });
+      totalEls.forEach((el) => { el.textContent = String(pageCount); });
+      prevButtons.forEach((btn) => { btn.disabled = currentPage <= 1; });
+      nextButtons.forEach((btn) => { btn.disabled = currentPage >= pageCount; });
+      if (empty) empty.classList.toggle("is-visible", shown === 0);
+
+      if (scrollToGrid && grid) {
+        const top = grid.getBoundingClientRect().top + window.scrollY - 88;
+        window.scrollTo({ top, behavior: "smooth" });
+      }
+    };
+
+    const resetPage = () => {
+      currentPage = 1;
+      apply();
+    };
+
+    if (search) {
+      search.addEventListener("input", () => {
+        term = normalizeText(search.value.trim());
+        resetPage();
+      });
+    }
+
+    yearChips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        year = chip.getAttribute("data-quest-year") || "todos";
+        yearChips.forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
+        resetPage();
+      });
+    });
+    topicChips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        topic = chip.getAttribute("data-quest-topic") || "todos";
+        topicChips.forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
+        resetPage();
+      });
+    });
+
+    prevButtons.forEach((btn) => btn.addEventListener("click", () => {
+      if (currentPage > 1) {
+        currentPage -= 1;
+        apply(true);
+      }
+    }));
+    nextButtons.forEach((btn) => btn.addEventListener("click", () => {
+      if (currentPage < Math.max(1, Math.ceil(matching.length / pageSize))) {
+        currentPage += 1;
+        apply(true);
+      }
+    }));
+
+    cards.forEach((card) => {
+      card.querySelectorAll("input[data-alternative]").forEach((radio) => {
+        radio.addEventListener("change", () => {
+          const id = card.getAttribute("data-question-id");
+          const answers = getRespostas();
+          answers[id] = radio.value;
+          saveRespostas(answers);
+          paintAnswers();
+        });
+      });
+    });
+
+    doc.querySelectorAll(".question-card [data-clear-choice]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const card = btn.closest(".question-card");
+        if (!card) return;
+        const id = card.getAttribute("data-question-id");
+        const answers = getRespostas();
+        delete answers[id];
+        saveRespostas(answers);
+        card.querySelectorAll("input[data-alternative]").forEach((radio) => { radio.checked = false; });
+        paintAnswers();
+      });
+    });
+
+    doc.querySelectorAll(".question-card [data-reveal]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const card = btn.closest(".question-card");
+        if (card) setAnswer(card, btn.getAttribute("aria-pressed") !== "true");
+      });
+    });
+    if (revealAll) revealAll.addEventListener("click", () => cards.forEach((c) => setAnswer(c, true)));
+    if (hideAll) hideAll.addEventListener("click", () => cards.forEach((c) => setAnswer(c, false)));
+
+    const doneButtons = [...doc.querySelectorAll("[data-qdone]")];
+    const paintDone = () => {
+      const progress = getQuestaoProgress();
+      let count = 0;
+      doneButtons.forEach((btn) => {
+        const id = btn.getAttribute("data-qdone");
+        const done = Boolean(progress[id]);
+        if (done) count += 1;
+        btn.classList.toggle("is-done", done);
+        btn.classList.toggle("btn--gold", !done);
+        btn.setAttribute("aria-pressed", String(done));
+        btn.textContent = done ? "Estudada ✓" : "Marcar como estudada";
+      });
+      doneEls.forEach((el) => { el.textContent = String(count); });
+      if (bar) bar.style.width = total ? `${Math.min(100, (count / total) * 100)}%` : "0%";
+    };
+
+    doneButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const id = btn.getAttribute("data-qdone");
+        if (!id) return;
+        const progress = getQuestaoProgress();
+        if (progress[id]) delete progress[id];
+        else progress[id] = Date.now();
+        localStorage.setItem(QUESTOES_KEY, JSON.stringify(progress));
+        paintDone();
+      });
+    });
+
+    doc.addEventListener("keydown", (ev) => {
+      if (ev.key === "/" && search && doc.activeElement !== search) {
+        ev.preventDefault();
+        search.focus();
+      }
+    });
+
+    paintDone();
+    paintAnswers();
+    apply();
+  }
+
   /* ---------- inicialização ---------- */
   initTheme();
   paintProgress();
@@ -1809,17 +2460,20 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
   initScrollSpy();
   initCompleteButton();
   initIndex();
+  initQuestions();
 
   doc.querySelectorAll("[data-theme-toggle]").forEach((btn) => btn.addEventListener("click", toggleTheme));
 
   const printBtn = doc.querySelector("[data-print]");
   if (printBtn) printBtn.addEventListener("click", () => window.print());
 
-  doc.querySelectorAll("[data-year]").forEach((el) => {
-    el.textContent = String(new Date().getFullYear());
+  // Apenas o rodapé usa este marcador; os cards de questões têm atributo próprio.
+  doc.querySelectorAll("span[data-year]").forEach((el) => {
+    if (!el.textContent.trim()) el.textContent = String(new Date().getFullYear());
   });
 })();
 
   </script>
+  
 </body>
 </html>

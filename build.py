@@ -8,9 +8,11 @@ import json
 import re
 import unicodedata
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data" / "partes.json"
+QUESTOES_DATA = ROOT / "data" / "questoes.json"
 SRC = ROOT / "src"
 OUT = ROOT / "partes"
 PDF = "resumo curso h.pdf"
@@ -25,6 +27,7 @@ ICON_CHECK = """<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strok
 ICON_SUN = """<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>"""
 ICON_PRINT = """<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 8V3h10v5"/><rect x="4" y="8" width="16" height="9" rx="2"/><path d="M7 14h10v7H7z"/></svg>"""
 ICON_MENU = """<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>"""
+ICON_QUEST = """<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4.5h11l3 3V20H5V4.5Z"/><path d="M8 9h7M8 12.5h7M8 16h4"/><path d="M16 4.5V8h3"/></svg>"""
 
 THEME_SCRIPT = """<script>
   (() => {
@@ -143,12 +146,24 @@ def sidebar(meta: dict, active_id: str | None, prefix: str) -> str:
       <div class="scrim"></div>"""
 
 
-def topbar(prefix: str, label: str, show_nav: bool) -> str:
+def topbar(prefix: str, label: str, show_nav: bool, active: str = "") -> str:
     nav_btn = (
         f'<button class="icon-btn nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="sumario" aria-label="Abrir sumário">{ICON_MENU}</button>'
         if show_nav
         else ""
     )
+
+    tabs = [
+        ("apostila", f"{prefix}index.html", "Apostila", ICON_BOOK, ""),
+        ("questoes", f"{prefix}questoes.html", "Questões", ICON_QUEST, " data-topbar-questoes"),
+        ("programa", f"{prefix}conteudo-programatico.html", "Programa", ICON_CLOCK, ""),
+        ("bibliografia", f"{prefix}cobertura-bibliografica.html", "Bibliografia", ICON_BOOK, ""),
+    ]
+    tab_links = "".join(
+        f'<a class="topbar-nav__link{" is-active" if active == key else ""}" href="{href}"{attrs}>{icon}<span>{text}</span></a>'
+        for key, href, text, icon, attrs in tabs
+    )
+
     return f"""
     <header class="topbar">
       {nav_btn}
@@ -157,13 +172,24 @@ def topbar(prefix: str, label: str, show_nav: bool) -> str:
         <span>Apostila de Praticagem<small>Estudos para o prático</small></span>
       </a>
       <div class="topbar__spacer"></div>
+      <nav class="topbar-nav" aria-label="Navegação principal">{tab_links}</nav>
       <span class="topbar__label">{html.escape(label)}</span>
       <button class="icon-btn" type="button" data-print title="Imprimir / salvar em PDF" aria-label="Imprimir ou salvar em PDF">{ICON_PRINT}</button>
       <button class="icon-btn" type="button" data-theme-toggle aria-label="Alternar tema">{ICON_SUN}</button>
     </header>"""
 
 
-def page_shell(title: str, description: str, body_class: str, data_attrs: str, prefix: str, content: str) -> str:
+def page_shell(
+    title: str,
+    description: str,
+    body_class: str,
+    data_attrs: str,
+    prefix: str,
+    content: str,
+    *,
+    extra_head: str = "",
+    extra_scripts: str = "",
+) -> str:
     css = (ROOT / "assets" / "style.css").read_text(encoding="utf-8")
     js = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
     # escape closing tags for safe inlining
@@ -178,6 +204,7 @@ def page_shell(title: str, description: str, body_class: str, data_attrs: str, p
   <title>{html.escape(title)}</title>
   <meta name="description" content="{html.escape(description)}">
   <link rel="icon" href="{FAVICON}">
+  {extra_head}
   <style>
 {css}
   </style>
@@ -190,6 +217,7 @@ def page_shell(title: str, description: str, body_class: str, data_attrs: str, p
   <script>
 {js}
   </script>
+  {extra_scripts}
 </body>
 </html>
 """
@@ -242,7 +270,7 @@ def build_part(part: dict, meta: dict, index: int) -> str:
         nav_links.append('<span></span>')
 
     content = f"""
-  {topbar('../', f'Capítulo {part["numero"]} de {len(meta["partes"]):02d}', True)}
+  {topbar('../', f'Capítulo {part["numero"]} de {len(meta["partes"]):02d}', True, active='apostila')}
   <div class="layout">
     {sidebar(meta, pid, '')}
     <main class="main" id="conteudo">
@@ -303,7 +331,220 @@ def build_part(part: dict, meta: dict, index: int) -> str:
     )
 
 
-def build_index(meta: dict, minutes_by_part: dict[str, int]) -> str:
+def render_question_body(question: dict) -> str:
+    parts = []
+    for paragraph in question["statement"]:
+        if paragraph == "[[TABELA]]" and question.get("tableHtml"):
+            parts.append(question["tableHtml"])
+        elif paragraph == "[[FIGURA]]" and question.get("figure"):
+            alt = html.escape(question.get("figureAlt") or "Figura do enunciado", quote=True)
+            parts.append(
+                f'<figure class="question-figure"><img src="{html.escape(question["figure"], quote=True)}" '
+                f'alt="{alt}" loading="lazy"><figcaption>Figura do enunciado · fonte: {html.escape(question["source"])}</figcaption></figure>'
+            )
+        else:
+            parts.append(f"<p>{html.escape(paragraph)}</p>")
+    return "".join(parts)
+
+
+def build_questoes(data: dict) -> str:
+    questions = data.get("questoes", [])
+    years = sorted({q["year"] for q in questions})
+    topics = sorted({q["topic"] for q in questions})
+    total = len(questions)
+    page_size = 1
+    total_pages = max(1, (total + page_size - 1) // page_size)
+    page_label = "Questão" if page_size == 1 else "Página"
+    prev_label = "← Questão anterior" if page_size == 1 else "← Anterior"
+    next_label = "Próxima questão →" if page_size == 1 else "Próxima →"
+
+    pagination_html = f"""
+      <nav class="questions-pagination" aria-label="Navegação entre questões">
+        <button class="btn btn--small btn--ghost" type="button" data-page-prev disabled>{prev_label}</button>
+        <span>{page_label} <strong data-page-current>1</strong> de <strong data-page-total>{total_pages}</strong></span>
+        <button class="btn btn--small btn--ghost" type="button" data-page-next>{next_label}</button>
+      </nav>"""
+
+    year_chips = ['<button class="filter-chip" type="button" data-quest-year="todos" aria-pressed="true">Todos os anos</button>']
+    for year in years:
+        count = sum(1 for q in questions if q["year"] == year)
+        year_chips.append(
+            f'<button class="filter-chip" type="button" data-quest-year="{html.escape(year)}" aria-pressed="false">{html.escape(year)} <small>{count}</small></button>'
+        )
+    topic_chips = ['<button class="filter-chip" type="button" data-quest-topic="todos" aria-pressed="true">Todos os temas</button>']
+    for topic in topics:
+        count = sum(1 for q in questions if q["topic"] == topic)
+        topic_chips.append(
+            f'<button class="filter-chip" type="button" data-quest-topic="{html.escape(topic, quote=True)}" aria-pressed="false">{html.escape(topic)} <small>{count}</small></button>'
+        )
+
+    cards = []
+    for q in questions:
+        qid = f'q-{q["year"]}-{q["num"]}'
+        answer = q.get("answer")
+        answer_upper = answer.upper() if answer else ""
+        if answer:
+            answer_html = (
+                f'<div class="answer-box" data-answer-box hidden>'
+                f'<span class="answer-box__label">Gabarito: <strong>{answer_upper}</strong></span>'
+                f'<span>{html.escape(q.get("answerText", ""))}</span>'
+                f'<span class="answer-box__result" data-answer-result></span></div>'
+            )
+            reveal_btn = (
+                f'<button class="btn btn--small btn--gold" type="button" data-reveal aria-pressed="false">'
+                f'Verificar / gabarito</button>'
+            )
+        else:
+            answer_html = (
+                '<div class="answer-box answer-box--annulled">'
+                '<span class="answer-box__label">Questão anulada</span>'
+                '<span>Sem gabarito vigente na prova original.</span></div>'
+            )
+            reveal_btn = ""
+
+        note_html = ""
+        if q.get("note"):
+            note_html = (
+                f'<div class="question-note"><strong>Observação da banca:</strong> {html.escape(q["note"])}</div>'
+            )
+
+        alternatives = "".join(
+            f'<li class="alternative" data-letter="{html.escape(a["letter"], quote=True)}">'
+            f'<label class="alternative__label">'
+            f'<input type="radio" name="resposta-{qid}" value="{html.escape(a["letter"], quote=True)}" '
+            f'data-alternative aria-label="Alternativa {html.escape(a["letter"].upper())}">'
+            f'<span class="alternative__letter">{html.escape(a["letter"])}</span>'
+            f'<span class="alternative__text">{html.escape(a["text"])}</span>'
+            f'</label></li>'
+            for a in q["alternatives"]
+        )
+
+        badges = [f'<span class="badge">{html.escape(q["year"])}</span>',
+                  f'<span class="badge badge--topic">{html.escape(q["topic"])}</span>']
+        if q.get("pontos"):
+            label = "ponto" if q["pontos"].replace(",", ".") == "1.0" else "pontos"
+            badges.append(f'<span class="badge badge--muted">{html.escape(q["pontos"])} {label}</span>')
+        if q.get("annulled"):
+            badges.append('<span class="badge badge--annulled">Anulada</span>')
+
+        search_text = " ".join(
+            [q["year"], str(q["num"]), q["topic"]]
+            + q["statement"]
+            + [a["text"] for a in q["alternatives"]]
+            + [q.get("answerText", ""), q.get("note") or ""]
+        )
+        source_url = f'../{quote(q["source"])}#page={q["page"]}'
+
+        cards.append(f"""
+        <article class="question-card{' is-annulled' if q.get('annulled') else ''}" id="{qid}"
+                 data-question-id="{qid}" data-question-year="{html.escape(q['year'])}"
+                 data-topic="{html.escape(q['topic'], quote=True)}"
+                 data-answer-letter="{html.escape(answer or '', quote=True)}"
+                 data-search="{html.escape(search_text.lower(), quote=True)}">
+          <header class="question-card__head">
+            <span class="question-card__num">Q{int(q['num']):02d}</span>
+            <div class="question-card__badges">{''.join(badges)}</div>
+          </header>
+          <div class="question-card__body">
+            {render_question_body(q)}
+            {note_html}
+            <ol class="alternatives">{alternatives}</ol>
+            {answer_html}
+          </div>
+          <footer class="question-actions">
+            {reveal_btn}
+            {'' if not answer else '<button class="btn btn--small btn--text" type="button" data-clear-choice>Limpar escolha</button>'}
+            <button class="btn btn--small btn--ghost" type="button" data-qdone="{qid}" aria-pressed="false">Marcar como estudada</button>
+            <a class="btn btn--small btn--text" href="{source_url}" target="_blank" rel="noopener">PDF original · p. {q['page']}</a>
+          </footer>
+        </article>""")
+
+    content = f"""
+  {topbar('', f'Banco de questões · {total}', False, active='questoes')}
+  <main class="main questions-main" id="conteudo">
+    <div class="content">
+      <header class="questions-hero" data-questoes-page>
+        <span class="part-hero__kicker">Banco de questões · provas de praticagem</span>
+        <h1>Questões de <em>2006 a 2012</em></h1>
+        <p>Os enunciados das quatro provas organizados para estudo: texto digitado, figuras necessárias recortadas das provas e equações em LaTeX. Navegue de questão em questão, selecione uma alternativa e confira o gabarito.</p>
+        <div class="questions-hero__stats">
+          <div><b>{total}</b><span>questões</span></div>
+          <div><b>{len(years)}</b><span>provas</span></div>
+          <div><b>{len(topics)}</b><span>temas</span></div>
+          <div><b data-questoes-done>0</b><span>estudadas</span></div>
+        </div>
+        <div class="questions-hero__actions">
+          <a class="btn btn--ghost" href="index.html">← Voltar à apostila</a>
+          <button class="btn btn--gold" type="button" data-reveal-all>Mostrar todos os gabaritos</button>
+        </div>
+      </header>
+
+      <section class="questions-toolbar" aria-label="Buscar questões">
+        <h2>Banco de questões</h2>
+        <label class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.2"/><path d="m15.3 15.3 4.2 4.2"/></svg>
+          <input type="search" placeholder="Buscar por tema, palavra, norma ou número…" aria-label="Buscar questões" data-questoes-search>
+        </label>
+      </section>
+
+      <section class="questions-filters" aria-label="Filtrar questões">
+        <div class="filter-group">
+          <p class="filter-group__label">Ano da prova</p>
+          <div class="filter-row">{''.join(year_chips)}</div>
+        </div>
+        <div class="filter-group">
+          <p class="filter-group__label">Tema</p>
+          <div class="filter-row">{''.join(topic_chips)}</div>
+        </div>
+      </section>
+
+      <section class="questions-progress" aria-label="Progresso de estudo">
+        <div class="questions-progress__info">
+          <p><strong><span data-questoes-count>{total}</span> questões encontradas</strong> · <span data-questoes-answered>0</span> respondidas · <span data-questoes-done>0</span>/{total} estudadas</p>
+          <p class="questions-progress__range" data-questoes-range>{(f'Questão 1 de {total}' if page_size == 1 else f'Mostrando 1–{min(page_size, total)} de {total}')}</p>
+        </div>
+        <div class="bar"><div class="bar__fill" data-questoes-bar></div></div>
+        <button class="btn btn--small btn--ghost" type="button" data-hide-all>Ocultar gabaritos</button>
+        {pagination_html}
+      </section>
+
+      <div class="questions-grid" data-questions-grid>{''.join(cards)}</div>
+      <div class="no-results" data-questoes-empty>Nenhuma questão encontrada com esses filtros. Tente outro termo ou tema.</div>
+      <div class="questions-pagination questions-pagination--bottom" data-questoes-pagination-bottom>{pagination_html}</div>
+
+      <footer class="site-footer">
+        <p><strong>Apostila de Praticagem</strong> · banco reunido de <em>praticante_de_pratico_de_2006.pdf</em>, <em>praticante_de_pratico_08.pdf</em>, <em>prova_objetiva_com_gabarito_2011_1.pdf</em> e <em>PROVAROSA2012-GABARITODEFINITIVO-22FEV2013.pdf</em>.</p>
+        <p>Questões anuladas foram mantidas e identificadas. Confira sempre a redação e o gabarito na publicação oficial vigente.</p>
+      </footer>
+    </div>
+  </main>"""
+
+    katex_head = '<link rel="stylesheet" href="assets/vendor/katex/katex.min.css">'
+    katex_scripts = """
+  <script src="assets/vendor/katex/katex.min.js"></script>
+  <script src="assets/vendor/katex/contrib/auto-render.min.js"></script>
+  <script>
+    if (window.renderMathInElement) {
+      renderMathInElement(document.querySelector("[data-questoes-page]") || document.body, {
+        delimiters: [{ left: "$", right: "$", display: false }],
+        throwOnError: false,
+        ignoredTags: ["script", "noscript", "style", "textarea"]
+      });
+    }
+  </script>"""
+    return page_shell(
+        f"Banco de questões 2006–2012 — Apostila de Praticagem",
+        "Questões das provas de praticagem de 2006, 2008, 2011 e 2012, com figuras, tabelas, equações em LaTeX e gabaritos.",
+        "questoes-page",
+        f' data-questoes-page data-questoes-total="{total}" data-questoes-page-size="{page_size}"',
+        "",
+        content,
+        extra_head=katex_head,
+        extra_scripts=katex_scripts,
+    )
+
+
+def build_index(meta: dict, minutes_by_part: dict[str, int], question_total: int = 0) -> str:
     total = len(meta["partes"])
     total_min = sum(minutes_by_part.values())
     cards = []
@@ -336,20 +577,22 @@ def build_index(meta: dict, minutes_by_part: dict[str, int]) -> str:
         )
 
     content = f"""
-  {topbar('', 'Biblioteca de estudos', False)}
+  {topbar('', 'Biblioteca de estudos', False, active='apostila')}
   <header class="index-hero">
     <div class="index-hero__inner">
       <span class="index-hero__kicker">Curso de praticagem · edição de estudo</span>
       <h1>Apostila de <em>Praticagem</em></h1>
       <p class="index-hero__lead">Uma travessia organizada por assunto pelos fundamentos de arquitetura naval, manobra, navegação, legislação e meteorologia — com sínteses, quadros, fórmulas, diagramas e perguntas de revisão.</p>
       <div class="index-hero__actions">
-        <a class="btn btn--gold" href="partes/{meta["partes"][0]["id"]}.html">Começar pelo capítulo 01 →</a>
+        <a class="btn btn--gold" href="questoes.html">{ICON_QUEST} Banco de questões ({question_total})</a>
+        <a class="btn btn--ghost" href="partes/{meta["partes"][0]["id"]}.html">Começar pelo capítulo 01 →</a>
         <a class="btn btn--ghost" href="#biblioteca">Explorar os {total} capítulos</a>
         <a class="btn btn--ghost" href="conteudo-programatico.html">Conteúdo programático</a>
         <a class="btn btn--ghost" href="cobertura-bibliografica.html">Cobertura bibliográfica</a>
       </div>
       <div class="index-hero__stats">
         <div><b>{total}</b><span>capítulos</span></div>
+        <div><b>{question_total}</b><span>questões de prova</span></div>
         <div><b>{meta["totalPaginasFonte"]}</b><span>páginas de fonte</span></div>
         <div><b>{len(meta["modulos"])}</b><span>módulos</span></div>
         <div><b>~{total_min}</b><span>minutos de leitura</span></div>
@@ -397,6 +640,8 @@ def build_index(meta: dict, minutes_by_part: dict[str, int]) -> str:
 
 def main() -> None:
     meta = json.loads(DATA.read_text(encoding="utf-8"))
+    questoes = json.loads(QUESTOES_DATA.read_text(encoding="utf-8")) if QUESTOES_DATA.exists() else {"questoes": []}
+    question_total = len(questoes.get("questoes", []))
     OUT.mkdir(exist_ok=True)
     minutes_by_part: dict[str, int] = {}
     missing = []
@@ -410,8 +655,11 @@ def main() -> None:
         (OUT / f"{part['id']}.html").write_text(build_part(part, meta, i), encoding="utf-8")
         print(f"  ok  partes/{part['id']}.html ({minutes_by_part[part['id']]} min)")
 
-    (ROOT / "index.html").write_text(build_index(meta, minutes_by_part), encoding="utf-8")
+    (ROOT / "index.html").write_text(build_index(meta, minutes_by_part, question_total), encoding="utf-8")
     print(f"  ok  index.html ({len(meta['partes'])} capítulos, ~{sum(minutes_by_part.values())} min)")
+
+    (ROOT / "questoes.html").write_text(build_questoes(questoes), encoding="utf-8")
+    print(f"  ok  questoes.html ({question_total} questões)")
     if missing:
         print(f"\n  ATENÇÃO: fragmentos ausentes em src/: {', '.join(missing)}")
 
