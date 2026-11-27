@@ -339,6 +339,7 @@
     const pageSize = Math.max(1, Number(page.getAttribute("data-questoes-page-size") || 10));
     const yearChips = [...doc.querySelectorAll("[data-quest-year]")];
     const topicChips = [...doc.querySelectorAll("[data-quest-topic]")];
+    const sourceChips = [...doc.querySelectorAll("[data-quest-source]")];
     const search = doc.querySelector("[data-questoes-search]");
     const counter = doc.querySelector("[data-questoes-count]");
     const range = doc.querySelector("[data-questoes-range]");
@@ -356,6 +357,7 @@
 
     let year = "todos";
     let topic = "todos";
+    let source = "todos";
     let term = "";
     let currentPage = 1;
     let matching = cards;
@@ -377,8 +379,9 @@
         const text = normalizeText(card.getAttribute("data-search"));
         const okYear = year === "todos" || card.getAttribute("data-question-year") === year;
         const okTopic = topic === "todos" || card.getAttribute("data-topic") === topic;
+        const okSource = source === "todos" || (source === "pna" && card.getAttribute("data-pna") === "1");
         const okTerm = !term || text.includes(term);
-        return okYear && okTopic && okTerm;
+        return okYear && okTopic && okSource && okTerm;
       });
 
       const pageCount = Math.max(1, Math.ceil(matching.length / pageSize));
@@ -433,6 +436,13 @@
       chip.addEventListener("click", () => {
         topic = chip.getAttribute("data-quest-topic") || "todos";
         topicChips.forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
+        resetPage();
+      });
+    });
+    sourceChips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        source = chip.getAttribute("data-quest-source") || "todos";
+        sourceChips.forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
         resetPage();
       });
     });

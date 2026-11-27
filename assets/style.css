@@ -1651,6 +1651,7 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
   text-transform: uppercase;
 }
 .badge--topic { background: var(--teal-soft); color: var(--teal); letter-spacing: .02em; text-transform: none; }
+.badge--pna { background: var(--gold-soft); color: var(--gold); border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent); }
 .badge--muted { background: var(--surface-3); color: var(--ink-faint); }
 .badge--annulled { background: var(--red-soft); color: var(--red); }
 .question-card__body {

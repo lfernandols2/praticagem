@@ -347,11 +347,24 @@ def render_question_body(question: dict) -> str:
     return "".join(parts)
 
 
+PNA_PATTERN = re.compile(r"\bPNA\b|Principles of Naval", re.I)
+
+
+def uses_pna(question: dict) -> bool:
+    """Identifica questões que citam expressamente Principles of Naval Architecture."""
+    text = " ".join(question["statement"])
+    text += " " + question.get("answerText", "")
+    text += " " + " ".join(a["text"] for a in question["alternatives"])
+    text += " " + (question.get("note") or "")
+    return bool(PNA_PATTERN.search(text))
+
+
 def build_questoes(data: dict) -> str:
     questions = data.get("questoes", [])
     years = sorted({q["year"] for q in questions})
     topics = sorted({q["topic"] for q in questions})
     total = len(questions)
+    pna_count = sum(1 for q in questions if uses_pna(q))
     page_size = 1
     total_pages = max(1, (total + page_size - 1) // page_size)
     page_label = "Questão" if page_size == 1 else "Página"
@@ -377,10 +390,16 @@ def build_questoes(data: dict) -> str:
         topic_chips.append(
             f'<button class="filter-chip" type="button" data-quest-topic="{html.escape(topic, quote=True)}" aria-pressed="false">{html.escape(topic)} <small>{count}</small></button>'
         )
+    source_chips = [
+        '<button class="filter-chip" type="button" data-quest-source="todos" aria-pressed="true">Todas as fontes</button>',
+        f'<button class="filter-chip" type="button" data-quest-source="pna" aria-pressed="false">PNA · Principles of Naval Architecture <small>{pna_count}</small></button>',
+    ]
 
     cards = []
     for q in questions:
         qid = f'q-{q["year"]}-{q["num"]}'
+        is_pna = uses_pna(q)
+        pna_attr = ' data-pna="1"' if is_pna else ""
         answer = q.get("answer")
         answer_upper = answer.upper() if answer else ""
         if answer:
@@ -424,6 +443,8 @@ def build_questoes(data: dict) -> str:
         if q.get("pontos"):
             label = "ponto" if q["pontos"].replace(",", ".") == "1.0" else "pontos"
             badges.append(f'<span class="badge badge--muted">{html.escape(q["pontos"])} {label}</span>')
+        if is_pna:
+            badges.append('<span class="badge badge--pna">PNA</span>')
         if q.get("annulled"):
             badges.append('<span class="badge badge--annulled">Anulada</span>')
 
@@ -438,7 +459,7 @@ def build_questoes(data: dict) -> str:
         cards.append(f"""
         <article class="question-card{' is-annulled' if q.get('annulled') else ''}" id="{qid}"
                  data-question-id="{qid}" data-question-year="{html.escape(q['year'])}"
-                 data-topic="{html.escape(q['topic'], quote=True)}"
+                 data-topic="{html.escape(q['topic'], quote=True)}"{pna_attr}
                  data-answer-letter="{html.escape(answer or '', quote=True)}"
                  data-search="{html.escape(search_text.lower(), quote=True)}">
           <header class="question-card__head">
@@ -466,7 +487,7 @@ def build_questoes(data: dict) -> str:
       <header class="questions-hero" data-questoes-page>
         <span class="part-hero__kicker">Banco de questões · provas de praticagem</span>
         <h1>Questões de <em>2006 a 2012</em></h1>
-        <p>Os enunciados das quatro provas organizados para estudo: texto digitado, figuras necessárias recortadas das provas e equações em LaTeX. Navegue de questão em questão, selecione uma alternativa e confira o gabarito.</p>
+        <p>Os enunciados das quatro provas organizados para estudo: texto digitado, figuras necessárias recortadas das provas e equações em LaTeX. Navegue de questão em questão, selecione uma alternativa e confira o gabarito. Use o filtro <strong>PNA</strong> para isolar as questões baseadas em <em>Principles of Naval Architecture</em>.</p>
         <div class="questions-hero__stats">
           <div><b>{total}</b><span>questões</span></div>
           <div><b>{len(years)}</b><span>provas</span></div>
@@ -495,6 +516,10 @@ def build_questoes(data: dict) -> str:
         <div class="filter-group">
           <p class="filter-group__label">Tema</p>
           <div class="filter-row">{''.join(topic_chips)}</div>
+        </div>
+        <div class="filter-group">
+          <p class="filter-group__label">Fonte citada no enunciado</p>
+          <div class="filter-row">{''.join(source_chips)}</div>
         </div>
       </section>
 

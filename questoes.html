@@ -1662,6 +1662,7 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
   text-transform: uppercase;
 }
 .badge--topic { background: var(--teal-soft); color: var(--teal); letter-spacing: .02em; text-transform: none; }
+.badge--pna { background: var(--gold-soft); color: var(--gold); border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent); }
 .badge--muted { background: var(--surface-3); color: var(--ink-faint); }
 .badge--annulled { background: var(--red-soft); color: var(--red); }
 .question-card__body {
@@ -1870,7 +1871,7 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
       <header class="questions-hero" data-questoes-page>
         <span class="part-hero__kicker">Banco de questões · provas de praticagem</span>
         <h1>Questões de <em>2006 a 2012</em></h1>
-        <p>Os enunciados das quatro provas organizados para estudo: texto digitado, figuras necessárias recortadas das provas e equações em LaTeX. Navegue de questão em questão, selecione uma alternativa e confira o gabarito.</p>
+        <p>Os enunciados das quatro provas organizados para estudo: texto digitado, figuras necessárias recortadas das provas e equações em LaTeX. Navegue de questão em questão, selecione uma alternativa e confira o gabarito. Use o filtro <strong>PNA</strong> para isolar as questões baseadas em <em>Principles of Naval Architecture</em>.</p>
         <div class="questions-hero__stats">
           <div><b>264</b><span>questões</span></div>
           <div><b>4</b><span>provas</span></div>
@@ -1899,6 +1900,10 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         <div class="filter-group">
           <p class="filter-group__label">Tema</p>
           <div class="filter-row"><button class="filter-chip" type="button" data-quest-topic="todos" aria-pressed="true">Todos os temas</button><button class="filter-chip" type="button" data-quest-topic="Arquitetura naval" aria-pressed="false">Arquitetura naval <small>9</small></button><button class="filter-chip" type="button" data-quest-topic="Comunicações e CIS" aria-pressed="false">Comunicações e CIS <small>16</small></button><button class="filter-chip" type="button" data-quest-topic="Geral" aria-pressed="false">Geral <small>18</small></button><button class="filter-chip" type="button" data-quest-topic="Legislação e normas" aria-pressed="false">Legislação e normas <small>53</small></button><button class="filter-chip" type="button" data-quest-topic="Meteorologia e oceanografia" aria-pressed="false">Meteorologia e oceanografia <small>67</small></button><button class="filter-chip" type="button" data-quest-topic="Navegação e cartas" aria-pressed="false">Navegação e cartas <small>44</small></button><button class="filter-chip" type="button" data-quest-topic="Questões anuladas" aria-pressed="false">Questões anuladas <small>9</small></button><button class="filter-chip" type="button" data-quest-topic="Rebocadores e manobra" aria-pressed="false">Rebocadores e manobra <small>47</small></button><button class="filter-chip" type="button" data-quest-topic="Segurança e emergência" aria-pressed="false">Segurança e emergência <small>1</small></button></div>
+        </div>
+        <div class="filter-group">
+          <p class="filter-group__label">Fonte citada no enunciado</p>
+          <div class="filter-row"><button class="filter-chip" type="button" data-quest-source="todos" aria-pressed="true">Todas as fontes</button><button class="filter-chip" type="button" data-quest-source="pna" aria-pressed="false">PNA · Principles of Naval Architecture <small>23</small></button></div>
         </div>
       </section>
 
@@ -2580,12 +2585,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2006-31"
                  data-question-id="q-2006-31" data-question-year="2006"
-                 data-topic="Rebocadores e manobra"
+                 data-topic="Rebocadores e manobra" data-pna="1"
                  data-answer-letter="b"
                  data-search="2006 31 rebocadores e manobra pilot richard is studying momentum theory of propeller action. he wants to better understand why she moves as function of propellers forces. richard pointed out the following notes about propeller’s momentum theory: i) the momentum theory is used to describe the action of an “ideal” propeller. the propeller it self is assumed to be a “disc”. ii) the propeller causes uniform increase in pressure as the fluid passes through the disc coupled with uniform increase in fluid velocity. iii) the exact nature of the propeller (pitch, number of blades, shaft rpm, etc) is not important. iv) there is an unlimited inflow of water to the propeller and the flow is not frictionless. from theory of “principles of naval architecture”, mark the correct alternative: i, ii, iii, solely are true. i and iii, solely are true. ii and iv, solely are true. iv, solely is true. iii, solely is true. i and iii, solely are true. ">
           <header class="question-card__head">
             <span class="question-card__num">Q31</span>
-            <div class="question-card__badges"><span class="badge">2006</span><span class="badge badge--topic">Rebocadores e manobra</span></div>
+            <div class="question-card__badges"><span class="badge">2006</span><span class="badge badge--topic">Rebocadores e manobra</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>Pilot Richard is studying momentum theory of propeller action. He wants to better understand why she moves as function of propellers forces. Richard pointed out the following notes about propeller’s momentum theory:</p><p>I) The momentum theory is used to describe the action of an “ideal” propeller. The propeller it self is assumed to be a “disc”.</p><p>II) The propeller causes uniform increase in pressure as the fluid passes through the disc coupled with uniform increase in fluid velocity.</p><p>III) The exact nature of the propeller (pitch, number of blades, shaft rpm, etc) is not important.</p><p>IV) There is an unlimited inflow of water to the propeller and the flow is not frictionless. From theory of “Principles of Naval Architecture”, mark the correct alternative:</p>
@@ -2624,12 +2629,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2006-33"
                  data-question-id="q-2006-33" data-question-year="2006"
-                 data-topic="Rebocadores e manobra"
+                 data-topic="Rebocadores e manobra" data-pna="1"
                  data-answer-letter="a"
                  data-search="2006 33 rebocadores e manobra pilot lúcia, working in a ship, in shallow water, realized that she takes more horsepower to meet her required speed when compared with deep water condition. lúcia looked at the free surface and listed the following notes in her notebook: i) the flow of water around the bottom of the hull is restricted in shallow water, therefore the water flowing under the hull speeds up. ii) the faster moving water decreases the pressure under the hull, causing the ship to “squat”, increasing wetted surface area and increasing frictional resistance. iii) the waves produced in shallow water tend to be longer than do waves produced in deep water at the same speed. iv) the energy required to produce ship’s waves in shallow water is the same to deep water at the same speed. following “principles of naval architecture” what is the correct alternative? i, ii e iii solely are true. i e iii solely are true. ii e iv solely are true. iv solely is true. i solely is true. i, ii e iii solely are true. ">
           <header class="question-card__head">
             <span class="question-card__num">Q33</span>
-            <div class="question-card__badges"><span class="badge">2006</span><span class="badge badge--topic">Rebocadores e manobra</span></div>
+            <div class="question-card__badges"><span class="badge">2006</span><span class="badge badge--topic">Rebocadores e manobra</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>Pilot Lúcia, working in a ship, in shallow water, realized that she takes more horsepower to meet her required speed when compared with deep water condition. Lúcia looked at the free surface and listed the following notes in her notebook:</p><p>I) The flow of water around the bottom of the hull is restricted in shallow water, therefore the water flowing under the hull speeds up.</p><p>II) The faster moving water decreases the pressure under the hull, causing the ship to “squat”, increasing wetted surface area and increasing frictional resistance.</p><p>III) The waves produced in shallow water tend to be longer than do waves produced in deep water at the same speed.</p><p>IV) The energy required to produce ship’s waves in shallow water is the same to deep water at the same speed. Following “Principles of Naval Architecture” what is the correct alternative?</p>
@@ -2888,12 +2893,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2006-45"
                  data-question-id="q-2006-45" data-question-year="2006"
-                 data-topic="Rebocadores e manobra"
+                 data-topic="Rebocadores e manobra" data-pna="1"
                  data-answer-letter="e"
                  data-search="2006 45 rebocadores e manobra pilot robert was afraid about the resultant movement due to sinkage and to bow-up rotation of a container ship with blockage coefficient = 0,83, he knows that in this case the trim can be negative (that is, bow down) owing to low-speed operation in shallow water. robert, following the “principles of naval architecture”, was introduced to the results and theoretical studies of professor tuck. from his studies, robert, achieved a value to describe the hydraulic force (squat´s force) acting on the ship proceeding in relatively narrow canal. what is the alternative that is not important in a tuck’s squat calculation, used by robert? cross-sectional area of the canal. mass density of canal water. beam of ship. froude number. displacement of the ship. displacement of the ship. ">
           <header class="question-card__head">
             <span class="question-card__num">Q45</span>
-            <div class="question-card__badges"><span class="badge">2006</span><span class="badge badge--topic">Rebocadores e manobra</span></div>
+            <div class="question-card__badges"><span class="badge">2006</span><span class="badge badge--topic">Rebocadores e manobra</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>Pilot Robert was afraid about the resultant movement due to sinkage and to bow-up rotation of a container ship with Blockage Coefficient = 0,83, he knows that in this case the trim can be negative (that is, bow down) owing to low-speed operation in shallow water. Robert, following the “Principles of Naval Architecture”, was introduced to the results and theoretical studies of Professor Tuck. From his studies, Robert, achieved a value to describe the hydraulic force (squat´s force) acting on the ship proceeding in relatively narrow canal. What is the alternative that is not important in a Tuck’s squat calculation, used by Robert?</p>
@@ -3042,12 +3047,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2006-52"
                  data-question-id="q-2006-52" data-question-year="2006"
-                 data-topic="Rebocadores e manobra"
+                 data-topic="Rebocadores e manobra" data-pna="1"
                  data-answer-letter="b"
                  data-search="2006 52 rebocadores e manobra pilot gabriela needs to reduce as fast as possible the speed of a ship with 16 knots, in an emergency situation. the lateral sea room permits all available maneuvers. what is the better maneuver to be executed by gabriela, as function of ship’s actual speed, according to “principles of naval architecture”? rudder cycling. hard-over turn. crash astern. zig-zag. pull out. hard-over turn. ">
           <header class="question-card__head">
             <span class="question-card__num">Q52</span>
-            <div class="question-card__badges"><span class="badge">2006</span><span class="badge badge--topic">Rebocadores e manobra</span></div>
+            <div class="question-card__badges"><span class="badge">2006</span><span class="badge badge--topic">Rebocadores e manobra</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>Pilot Gabriela needs to reduce as fast as possible the speed of a ship with 16 knots, in an emergency situation. The lateral sea room permits all available maneuvers. What is the better maneuver to be executed by Gabriela, as function of ship’s actual speed, according to “Principles of Naval Architecture”?</p>
@@ -3130,12 +3135,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2006-56"
                  data-question-id="q-2006-56" data-question-year="2006"
-                 data-topic="Geral"
+                 data-topic="Geral" data-pna="1"
                  data-answer-letter="b"
                  data-search="2006 56 geral according to the studies of chase, stated in the book “principles of naval architecture”, when clearing a ship slip, what is the adequate criterion for judging backing speed with respect a ship’s operators (pilot included) opinion: astern speed achieved after the ship has traveled half ship lenght. astern speed achieved after the ship has traveled one ship lenght. astern speed achieved after the ship has traveled two ship lenghts. astern speed achieved after the ship has traveled three ship lenghts. astern speed achieved after the ship has traveled four ship lenghts. astern speed achieved after the ship has traveled one ship lenght. ">
           <header class="question-card__head">
             <span class="question-card__num">Q56</span>
-            <div class="question-card__badges"><span class="badge">2006</span><span class="badge badge--topic">Geral</span></div>
+            <div class="question-card__badges"><span class="badge">2006</span><span class="badge badge--topic">Geral</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>According to the studies of Chase, stated in the book “Principles of Naval Architecture”, when clearing a ship slip, what is the adequate criterion for judging backing speed with respect a ship’s operators (Pilot included) opinion:</p>
@@ -3504,12 +3509,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2008-3"
                  data-question-id="q-2008-3" data-question-year="2008"
-                 data-topic="Meteorologia e oceanografia"
+                 data-topic="Meteorologia e oceanografia" data-pna="1"
                  data-answer-letter="e"
                  data-search="2008 3 meteorologia e oceanografia em um mar com ondas de comprimento longo (lw/l 1,5), em que situação é mais provável que ocorra dificuldade em manter o rumo, de acordo com o livro “principles of naval arquitecture” (pna)? mar de proa. mar de través. mar pela bochecha de be. mar pela bochecha de bb. mar de popa. mar de popa. ">
           <header class="question-card__head">
             <span class="question-card__num">Q03</span>
-            <div class="question-card__badges"><span class="badge">2008</span><span class="badge badge--topic">Meteorologia e oceanografia</span><span class="badge badge--muted">0,5 pontos</span></div>
+            <div class="question-card__badges"><span class="badge">2008</span><span class="badge badge--topic">Meteorologia e oceanografia</span><span class="badge badge--muted">0,5 pontos</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>Em um mar com ondas de comprimento longo (Lw/L 1,5), em que situação é mais provável que ocorra dificuldade em manter o rumo, de acordo com o livro “Principles of Naval Arquitecture” (PNA)?</p>
@@ -3592,12 +3597,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2008-7"
                  data-question-id="q-2008-7" data-question-year="2008"
-                 data-topic="Rebocadores e manobra"
+                 data-topic="Rebocadores e manobra" data-pna="1"
                  data-answer-letter="b"
                  data-search="2008 7 rebocadores e manobra de acordo com o livro “principles of naval arquitecture” (pna), a maioria dos navios mercantes tem diâmetro de guinada (turning diameter) com leme totalmente carregado: menor que dois comprimentos de navio. entre 2 e 4 comprimentos de navio. entre 2 e 6 comprimentos de navio. entre 4 e 7 comprimentos de navio. entre 5 e 10 comprimentos de navio. entre 2 e 4 comprimentos de navio. ">
           <header class="question-card__head">
             <span class="question-card__num">Q07</span>
-            <div class="question-card__badges"><span class="badge">2008</span><span class="badge badge--topic">Rebocadores e manobra</span><span class="badge badge--muted">0,7 pontos</span></div>
+            <div class="question-card__badges"><span class="badge">2008</span><span class="badge badge--topic">Rebocadores e manobra</span><span class="badge badge--muted">0,7 pontos</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>De acordo com o livro “Principles of Naval Arquitecture” (PNA), a maioria dos navios mercantes tem diâmetro de guinada (turning diameter) com leme totalmente carregado:</p>
@@ -3768,12 +3773,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2008-15"
                  data-question-id="q-2008-15" data-question-year="2008"
-                 data-topic="Meteorologia e oceanografia"
+                 data-topic="Meteorologia e oceanografia" data-pna="1"
                  data-answer-letter="d"
                  data-search="2008 15 meteorologia e oceanografia um prático, preocupado com os efeitos do vento em um navio, releu suas anotações, baseadas no livro “principles of naval architecture” (pna): i) para um vento de través, tanto o casco como a superestrutura têm a mesma resistência específica; dessa forma, a área efetiva é aproximadamente igual à área projetada longitudinal. ii) quando um navio está navegando sob efeito do vento, a maior resistência ao avanço ocorre quando o vento é de proa. iii) quando um navio se move contra o vento, o vento resultante apresenta o mesmo gradiente que o vento natural. iv) if there is a strong wind on the beam, the ship will make leeway, which leads to an important increase in hydrodynamic resistance. das anotações listadas acima, indique, a seguir, quais as que estão corretas: todas ii), iii) and iv) i) and iv) i), iii) and iv) i) e iii) i), iii) and iv) ">
           <header class="question-card__head">
             <span class="question-card__num">Q15</span>
-            <div class="question-card__badges"><span class="badge">2008</span><span class="badge badge--topic">Meteorologia e oceanografia</span><span class="badge badge--muted">1,0 ponto</span></div>
+            <div class="question-card__badges"><span class="badge">2008</span><span class="badge badge--topic">Meteorologia e oceanografia</span><span class="badge badge--muted">1,0 ponto</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>Um prático, preocupado com os efeitos do vento em um navio, releu suas anotações, baseadas no livro “Principles of Naval Architecture” (PNA):</p><p>I) para um vento de través, tanto o casco como a superestrutura têm a mesma resistência específica; dessa forma, a área efetiva é aproximadamente igual à área projetada longitudinal.</p><p>II) quando um navio está navegando sob efeito do vento, a maior resistência ao avanço ocorre quando o vento é de proa.</p><p>III) quando um navio se move contra o vento, o vento resultante apresenta o mesmo gradiente que o vento natural.</p><p>IV) if there is a strong wind on the beam, the ship will make leeway, which leads to an important increase in hydrodynamic resistance. Das anotações listadas acima, indique, a seguir, quais as que estão corretas:</p>
@@ -3966,12 +3971,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2008-24"
                  data-question-id="q-2008-24" data-question-year="2008"
-                 data-topic="Rebocadores e manobra"
+                 data-topic="Rebocadores e manobra" data-pna="1"
                  data-answer-letter="d"
                  data-search="2008 24 rebocadores e manobra de acordo com o livro “principles of naval arquitecture” (pna), coloque v (verdadeiro) ou f (falso) nas afirmativas abaixo, assinalando, a seguir, a opção correta: ( ) normalmente, considera-se a distância de parada de um navio (stopping head reach) àquela obtida para velocidades de porto. ( ) with sufficient see room, turning of a large ship is much superior to stopping for avoiding a hazard. ( ) astern thrust predominates when stopping a large tanker on a straight path from moderate speed. ( ) o tempo necessário para inverter a rotação do hélice é mais importante para navios maiores. (v) (v) (v) (f) (v) (f) (f) (v) (v) (v) (f) (f) (v) (f) (v) (f) (v) (f) (v) (v) (v) (f) (v) (f) ">
           <header class="question-card__head">
             <span class="question-card__num">Q24</span>
-            <div class="question-card__badges"><span class="badge">2008</span><span class="badge badge--topic">Rebocadores e manobra</span><span class="badge badge--muted">1,0 ponto</span></div>
+            <div class="question-card__badges"><span class="badge">2008</span><span class="badge badge--topic">Rebocadores e manobra</span><span class="badge badge--muted">1,0 ponto</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>De acordo com o livro “Principles of Naval Arquitecture” (PNA), coloque V (verdadeiro) ou F (falso) nas afirmativas abaixo, assinalando, a seguir, a opção correta: ( ) normalmente, considera-se a distância de parada de um navio (stopping head reach) àquela obtida para velocidades de porto. ( ) with sufficient see room, turning of a large ship is much superior to stopping for avoiding a hazard. ( ) astern thrust predominates when stopping a large tanker on a straight path from moderate speed. ( ) o tempo necessário para inverter a rotação do hélice é mais importante para navios maiores.</p>
@@ -4186,12 +4191,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2008-34"
                  data-question-id="q-2008-34" data-question-year="2008"
-                 data-topic="Rebocadores e manobra"
+                 data-topic="Rebocadores e manobra" data-pna="1"
                  data-answer-letter="c"
                  data-search="2008 34 rebocadores e manobra for interaction between hull and propeller, we use the thrust deduction factor as a mean of deduct the thrust available at the propeller. according to the book “principles of naval arquitecture” (pna), the main reason for this deduction is that: around the stern, the relative velocity of the water past the hull will be less than the ship speed. the ship stern form a wave pattern and the water particles in the crest of the wave have a forward velocity. the pressure over some stern areas is reduced by the action of the propeller in accelerating the water flowing into it. the frictional drag of the hull causes a following current which increases in velocity and volume toward the stern. around the stern, the relative velocity of the water past the hull will be superior than the ship speed. the pressure over some stern areas is reduced by the action of the propeller in accelerating the water flowing into it. ">
           <header class="question-card__head">
             <span class="question-card__num">Q34</span>
-            <div class="question-card__badges"><span class="badge">2008</span><span class="badge badge--topic">Rebocadores e manobra</span><span class="badge badge--muted">1,0 ponto</span></div>
+            <div class="question-card__badges"><span class="badge">2008</span><span class="badge badge--topic">Rebocadores e manobra</span><span class="badge badge--muted">1,0 ponto</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>For interaction between hull and propeller, we use the thrust deduction factor as a mean of deduct the thrust available at the propeller. According to the book “Principles of Naval Arquitecture” (PNA), the main reason for this deduction is that:</p>
@@ -4362,12 +4367,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2008-42"
                  data-question-id="q-2008-42" data-question-year="2008"
-                 data-topic="Navegação e cartas"
+                 data-topic="Navegação e cartas" data-pna="1"
                  data-answer-letter="b"
                  data-search="2008 42 navegação e cartas um navio está navegando em um canal restrito em profundidade e largura. sabe-se que a profundidade e a largura do canal são uniformes. seu rumo é paralelo ao eixo central do canal, mas o navio está navegando a bombordo desse eixo. quais serão as tendências do navio, de acordo com o livro “principles of naval arquitecture” (pna)? centro de gravidade com tendência para bb e proa com tendência para bb. centro de gravidade com tendência para bb e proa com tendência para be. centro de gravidade com tendência para be e proa com tendência para be. centro de gravidade com tendência para be e proa com tendência para bb. girar em torno do centro de gravidade com a proa caindo para be. centro de gravidade com tendência para bb e proa com tendência para be. ">
           <header class="question-card__head">
             <span class="question-card__num">Q42</span>
-            <div class="question-card__badges"><span class="badge">2008</span><span class="badge badge--topic">Navegação e cartas</span><span class="badge badge--muted">1,0 ponto</span></div>
+            <div class="question-card__badges"><span class="badge">2008</span><span class="badge badge--topic">Navegação e cartas</span><span class="badge badge--muted">1,0 ponto</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>Um navio está navegando em um canal restrito em profundidade e largura. Sabe-se que a profundidade e a largura do canal são uniformes. Seu rumo é paralelo ao eixo central do canal, mas o navio está navegando a bombordo desse eixo. Quais serão as tendências do navio, de acordo com o livro “Principles of Naval Arquitecture” (PNA)?</p>
@@ -4538,12 +4543,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2008-50"
                  data-question-id="q-2008-50" data-question-year="2008"
-                 data-topic="Navegação e cartas"
+                 data-topic="Navegação e cartas" data-pna="1"
                  data-answer-letter="a"
                  data-search="2008 50 navegação e cartas nas anotações de um prático, tiradas do livro “principles of naval arquitecture” (pna), estava escrito: i) quanto maior a relação área do canal / área da seção mestra, maior será a velocidade crítica para manobrabilidade. ii) navios com proa cheia e popa afilada são mais favoráveis a ter melhores qualidades de manobra em canais. iii) uma maneira prática de melhorar as qualidades de manobra de um navio em um canal é amarrar, com cabo de reboque, um rebocador na popa do navio. iv) qualquer navio operando na linha de centro de um canal está numa posição de equilíbrio instável. quais das afirmativas acima estão corretas? todas i), ii) e iii) i), ii) e iv) ii), iii) e iv) ii) e iii) todas ">
           <header class="question-card__head">
             <span class="question-card__num">Q50</span>
-            <div class="question-card__badges"><span class="badge">2008</span><span class="badge badge--topic">Navegação e cartas</span><span class="badge badge--muted">1,0 ponto</span></div>
+            <div class="question-card__badges"><span class="badge">2008</span><span class="badge badge--topic">Navegação e cartas</span><span class="badge badge--muted">1,0 ponto</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>Nas anotações de um prático, tiradas do livro “Principles of Naval Arquitecture” (PNA), estava escrito:</p><p>I) quanto maior a relação área do canal / área da seção mestra, maior será a velocidade crítica para manobrabilidade.</p><p>II) navios com proa cheia e popa afilada são mais favoráveis a ter melhores qualidades de manobra em canais.</p><p>III) uma maneira prática de melhorar as qualidades de manobra de um navio em um canal é amarrar, com cabo de reboque, um rebocador na popa do navio.</p><p>IV) qualquer navio operando na linha de centro de um canal está numa posição de equilíbrio instável. Quais das afirmativas acima estão corretas?</p>
@@ -4780,12 +4785,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2008-61"
                  data-question-id="q-2008-61" data-question-year="2008"
-                 data-topic="Arquitetura naval"
+                 data-topic="Arquitetura naval" data-pna="1"
                  data-answer-letter="c"
                  data-search="2008 61 arquitetura naval the spiral maneuver, as described in the book “principles of naval arquitecture” (pna), serves mainly to determine: control characteristics. turning characteristics. stability characteristics. maneuver characteristics. spiral characteristics. stability characteristics. ">
           <header class="question-card__head">
             <span class="question-card__num">Q61</span>
-            <div class="question-card__badges"><span class="badge">2008</span><span class="badge badge--topic">Arquitetura naval</span><span class="badge badge--muted">1,0 ponto</span></div>
+            <div class="question-card__badges"><span class="badge">2008</span><span class="badge badge--topic">Arquitetura naval</span><span class="badge badge--muted">1,0 ponto</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>The spiral maneuver, as described in the book “Principles of Naval Arquitecture” (PNA), serves mainly to determine:</p>
@@ -5000,12 +5005,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2008-71"
                  data-question-id="q-2008-71" data-question-year="2008"
-                 data-topic="Arquitetura naval"
+                 data-topic="Arquitetura naval" data-pna="1"
                  data-answer-letter="b"
                  data-search="2008 71 arquitetura naval according to the book “principles of naval arquitecture” (pna), the cavitations forms on marine propellers are mainly: traveling and fixed types. fixed and vortex types. vortex and vibratory types. fixed and vibratory types. vortex and traveling types. fixed and vortex types. ">
           <header class="question-card__head">
             <span class="question-card__num">Q71</span>
-            <div class="question-card__badges"><span class="badge">2008</span><span class="badge badge--topic">Arquitetura naval</span><span class="badge badge--muted">1,0 ponto</span></div>
+            <div class="question-card__badges"><span class="badge">2008</span><span class="badge badge--topic">Arquitetura naval</span><span class="badge badge--muted">1,0 ponto</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>According to the book “Principles of Naval Arquitecture” (PNA), the cavitations forms on marine propellers are mainly:</p>
@@ -5066,12 +5071,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2011-1"
                  data-question-id="q-2011-1" data-question-year="2011"
-                 data-topic="Rebocadores e manobra"
+                 data-topic="Rebocadores e manobra" data-pna="1"
                  data-answer-letter="d"
                  data-search="2011 1 rebocadores e manobra de acordo com o contido no livro “principles of naval architecture” (sname - 3a edição: 1988/1989), analise as afirmativas abaixo, identifique quais são verdadeiras e assinale a opção correta: i) a manobra “dieudonne spiral” identifica as características de estabilidade direcional de um navio. ii) a manobra de “pull out” provê indicações das qualidades de um navio em realizar uma curva de giro. iii) a manobra “kempf overshoot” provê indicações da habilidade de um leme em controlar um navio. iv) a manobra “turning” identifica as características de estabilidade direcional de um navio. v) a manobra “bech reverse spiral” identifica, principalmente, as características de estabilidade direcional de um navio. apenas as afirmativas i) e iii) são verdadeiras. apenas as afirmativas i), ii) e v) são verdadeiras. apenas as afirmativas ii) e iii) são verdadeiras. apenas as afirmativas i), iii) e v) são verdadeiras. apenas as afirmativas iv) e v) são verdadeiras. apenas as afirmativas i), iii) e v) são verdadeiras. ">
           <header class="question-card__head">
             <span class="question-card__num">Q01</span>
-            <div class="question-card__badges"><span class="badge">2011</span><span class="badge badge--topic">Rebocadores e manobra</span><span class="badge badge--muted">1,2 pontos</span></div>
+            <div class="question-card__badges"><span class="badge">2011</span><span class="badge badge--topic">Rebocadores e manobra</span><span class="badge badge--muted">1,2 pontos</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>De acordo com o contido no livro “Principles of Naval Architecture” (SNAME - 3a edição: 1988/1989), analise as afirmativas abaixo, identifique quais são verdadeiras e assinale a opção correta:</p><p>I) A manobra “Dieudonne Spiral” identifica as características de estabilidade direcional de um navio.</p><p>II) A manobra de “Pull out” provê indicações das qualidades de um navio em realizar uma curva de giro.</p><p>III) A manobra “Kempf Overshoot” provê indicações da habilidade de um leme em controlar um navio.</p><p>IV) A manobra “Turning” identifica as características de estabilidade direcional de um navio.</p><p>V) A manobra “Bech Reverse Spiral” identifica, principalmente, as características de estabilidade direcional de um navio.</p>
@@ -5484,12 +5489,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2011-20"
                  data-question-id="q-2011-20" data-question-year="2011"
-                 data-topic="Meteorologia e oceanografia"
+                 data-topic="Meteorologia e oceanografia" data-pna="1"
                  data-answer-letter="b"
                  data-search="2011 20 meteorologia e oceanografia de acordo com o contido no livro “principles of naval architecture” (sname - 3a edição: 1988/1989), analise as afirmativas abaixo, identifique quais são verdadeiras e assinale a opção correta: i) a resistência ao avanço total de um navio pode ser considerada como composta pela “frictional resistance”; “wave-making resistance”; “eddy-resistance”; “viscous pressure drag”; “separation resistance”; “wave-braking resistance”; e “air and wind resistance”. ii) a resistência ao atrito (“frictional resistance”) representa cerca de 50% da resistência total em navios de baixa velocidade e cerca de 80 a 85% em navios de alta velocidade. iii) a resistência a ondas (“wave-making resistance”) é a força resultante da atuação das pressões do fluido tangencialmente em toda a extensão do casco. iv) a resistência ao atrito (“frictional resistance”) é a força resultante da atuação das pressões do fluido tangencialmente em toda a extensão do casco. v) a maior parcela da resistência de ondas (“wave-making resistance”) é gerada pelas partes do casco próximas à marca da linha d’água de águas calmas. apenas as afirmativas i), ii) e iii) são verdadeiras. apenas as afirmativas i), iv) e v) são verdadeiras. apenas as afirmativas ii) e iii) são verdadeiras. apenas as afirmativas iii), iv) e v) são verdadeiras. apenas as afirmativas i) e iv) são verdadeiras. apenas as afirmativas i), iv) e v) são verdadeiras. ">
           <header class="question-card__head">
             <span class="question-card__num">Q20</span>
-            <div class="question-card__badges"><span class="badge">2011</span><span class="badge badge--topic">Meteorologia e oceanografia</span><span class="badge badge--muted">1,2 pontos</span></div>
+            <div class="question-card__badges"><span class="badge">2011</span><span class="badge badge--topic">Meteorologia e oceanografia</span><span class="badge badge--muted">1,2 pontos</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>De acordo com o contido no livro “Principles of Naval Architecture” (SNAME - 3a edição: 1988/1989), analise as afirmativas abaixo, identifique quais são verdadeiras e assinale a opção correta:</p><p>I) A resistência ao avanço total de um navio pode ser considerada como composta pela “frictional resistance”; “wave-making resistance”; “eddy-resistance”; “viscous pressure drag”; “separation resistance”; “wave-braking resistance”; e “air and wind resistance”.</p><p>II) A resistência ao atrito (“frictional resistance”) representa cerca de 50% da resistência total em navios de baixa velocidade e cerca de 80 a 85% em navios de alta velocidade.</p><p>III) A resistência a ondas (“wave-making resistance”) é a força resultante da atuação das pressões do fluido tangencialmente em toda a extensão do casco.</p><p>IV) A resistência ao atrito (“frictional resistance”) é a força resultante da atuação das pressões do fluido tangencialmente em toda a extensão do casco.</p><p>V) A maior parcela da resistência de ondas (“wave-making resistance”) é gerada pelas partes do casco próximas à marca da linha d’água de águas calmas.</p>
@@ -5572,12 +5577,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2011-24"
                  data-question-id="q-2011-24" data-question-year="2011"
-                 data-topic="Rebocadores e manobra"
+                 data-topic="Rebocadores e manobra" data-pna="1"
                  data-answer-letter="a"
                  data-search="2011 24 rebocadores e manobra assinale a opção correta. de acordo com contido no livro “principles of naval architecture” (sname - 3a edição: 1988/1989), a propulsão a jato d’água não é muito usada em navios mercantes porque: i) exige, para uma mesma capacidade de carga, um aumento nas dimensões do navio. ii) diminui a manobrabilidade. iii) para aumentar a eficiência, é necessário aumentar a área de descarga. iv) a existência de dutos de aspiração provoca perda de velocidade da água, que terá que ser compensada pelo propulsor. v) a máxima eficiência é, normalmente, inferior à obtida pelos propulsores convencionais. ii) e iii) são falsas. i) e ii) são falsas. todas são verdadeiras. somente a ii) é falsa. somente a iii) é falsa. ii) e iii) são falsas. gabarito preliminar alterado de “d” para “a”.">
           <header class="question-card__head">
             <span class="question-card__num">Q24</span>
-            <div class="question-card__badges"><span class="badge">2011</span><span class="badge badge--topic">Rebocadores e manobra</span><span class="badge badge--muted">1,2 pontos</span></div>
+            <div class="question-card__badges"><span class="badge">2011</span><span class="badge badge--topic">Rebocadores e manobra</span><span class="badge badge--muted">1,2 pontos</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>Assinale a opção correta. De acordo com contido no livro “Principles of Naval Architecture” (SNAME - 3a edição: 1988/1989), a propulsão a jato d’água não é muito usada em navios mercantes porque:</p><p>I) Exige, para uma mesma capacidade de carga, um aumento nas dimensões do navio.</p><p>II) Diminui a manobrabilidade.</p><p>III) Para aumentar a eficiência, é necessário aumentar a área de descarga.</p><p>IV) A existência de dutos de aspiração provoca perda de velocidade da água, que terá que ser compensada pelo propulsor.</p><p>V) A máxima eficiência é, normalmente, inferior à obtida pelos propulsores convencionais.</p>
@@ -5858,12 +5863,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2011-37"
                  data-question-id="q-2011-37" data-question-year="2011"
-                 data-topic="Meteorologia e oceanografia"
+                 data-topic="Meteorologia e oceanografia" data-pna="1"
                  data-answer-letter="e"
                  data-search="2011 37 meteorologia e oceanografia de acordo com o contido no livro “principles of naval architecture” (sname - 3a edição: 1988/1989), analise as afirmativas abaixo, identifique quais são verdadeiras e assinale a opção correta: i) a eficiência propulsiva (“propulsive efficiency”) é obtida pela multiplicação das: eficiência de transmissão do eixo propulsor (“shaft transmission efficiency”); eficiência do casco (“hull efficiency”); eficiência relativa rotativa (“relative rotative efficiency”); e eficiência do propulsor em água aberta (“open propeller efficiency). ii) a eficiência propulsiva (“propulsive efficiency”) é obtida pela multiplicação das: eficiência de transmissão do eixo propulsor (“shaft transmission efficiency”); eficiência do casco (“hull efficiency”); e eficiência do propulsor em água aberta (“open propeller efficiency). iii) usando a teoria de elemento da pá (“blade element theory), os testes realizados por brockett (1966) demonstraram que o “lift” com valor igual a zero na pá de um propulsor ocorre quando o ângulo de incidência do escoamento é igual a 0 (zero). iv) o propulsor, quando desenvolvendo empuxo, desacelera a água a vante dele, provocando o aumento da pressão ao redor da popa e, também, a redução de velocidade nesta região, o que causa a redução da resistência ao avanço acima daquela medida em reboque. v) o aumento do número de pás de um propulsor reduz a intensidade das forças de excitação do casco e aumenta a sua freqüência, o que contribui para evitar condições de ressonância e de vibração forçada no casco do navio. apenas as afirmativas ii), iii) e iv) são verdadeiras. apenas as afirmativas ii) e iii) são verdadeiras. apenas as afirmativas ii), e iv) são verdadeiras. apenas as afirmativas i) e iv) são verdadeiras. apenas as afirmativas i) e v) são verdadeiras. apenas as afirmativas i) e v) são verdadeiras. ">
           <header class="question-card__head">
             <span class="question-card__num">Q37</span>
-            <div class="question-card__badges"><span class="badge">2011</span><span class="badge badge--topic">Meteorologia e oceanografia</span><span class="badge badge--muted">1,2 pontos</span></div>
+            <div class="question-card__badges"><span class="badge">2011</span><span class="badge badge--topic">Meteorologia e oceanografia</span><span class="badge badge--muted">1,2 pontos</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>De acordo com o contido no livro “Principles of Naval Architecture” (SNAME - 3a edição: 1988/1989), analise as afirmativas abaixo, identifique quais são verdadeiras e assinale a opção correta:</p><p>I) A eficiência propulsiva (“propulsive efficiency”) é obtida pela multiplicação das: eficiência de transmissão do eixo propulsor (“shaft transmission efficiency”); eficiência do casco (“hull efficiency”); eficiência relativa rotativa (“relative rotative efficiency”); e eficiência do propulsor em água aberta (“open propeller efficiency).</p><p>II) A eficiência propulsiva (“propulsive efficiency”) é obtida pela multiplicação das: eficiência de transmissão do eixo propulsor (“shaft transmission efficiency”); eficiência do casco (“hull efficiency”); e eficiência do propulsor em água aberta (“open propeller efficiency).</p><p>III) Usando a teoria de elemento da pá (“Blade Element Theory), os testes realizados por Brockett (1966) demonstraram que o “lift” com valor igual a zero na pá de um propulsor ocorre quando o ângulo de incidência do escoamento é igual a 0 (zero).</p><p>IV) O propulsor, quando desenvolvendo empuxo, desacelera a água a vante dele, provocando o aumento da pressão ao redor da popa e, também, a redução de velocidade nesta região, o que causa a redução da resistência ao avanço acima daquela medida em reboque.</p><p>V) O aumento do número de pás de um propulsor reduz a intensidade das forças de excitação do casco e aumenta a sua freqüência, o que contribui para evitar condições de ressonância e de vibração forçada no casco do navio.</p>
@@ -6188,12 +6193,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2011-52"
                  data-question-id="q-2011-52" data-question-year="2011"
-                 data-topic="Meteorologia e oceanografia"
+                 data-topic="Meteorologia e oceanografia" data-pna="1"
                  data-answer-letter="a"
                  data-search="2011 52 meteorologia e oceanografia de acordo com o contido no livro “principles of naval architecture” (sname - 3a edição: 1988/1989), analise as afirmativas abaixo, identifique quais são verdadeiras e assinale a opção correta: i) o efeito da corrente é, normalmente, estudado usando a velocidade relativa entre o navio e a água. ii) as correntes em mar aberto são, normalmente, fracas e quase constantes no plano horizontal, não apresentando dificuldades para a controlabilidade. iii) em canais e rios, as correntes podem prejudicar a controlabilidade, principalmente para um navio navegando a favor da corrente. iv) os efeitos do vento na controlabilidade de um navio somente dependem da área acima da linha d’água e da distância do centro da área lateral ao lcg. apenas as afirmativas i), ii), iii) são verdadeiras. apenas as afirmativas i), iii), iv) são verdadeiras. apenas as afirmativas i), ii), iii), iv) são verdadeiras. apenas as afirmativas i), ii), iv) são verdadeiras. apenas as afirmativas ii), iii), iv) são verdadeiras. apenas as afirmativas i), ii), iii) são verdadeiras. ">
           <header class="question-card__head">
             <span class="question-card__num">Q52</span>
-            <div class="question-card__badges"><span class="badge">2011</span><span class="badge badge--topic">Meteorologia e oceanografia</span><span class="badge badge--muted">1,2 pontos</span></div>
+            <div class="question-card__badges"><span class="badge">2011</span><span class="badge badge--topic">Meteorologia e oceanografia</span><span class="badge badge--muted">1,2 pontos</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>De acordo com o contido no livro “Principles of Naval Architecture” (SNAME - 3a edição: 1988/1989), analise as afirmativas abaixo, identifique quais são verdadeiras e assinale a opção correta:</p><p>I) O efeito da corrente é, normalmente, estudado usando a velocidade relativa entre o navio e a água.</p><p>II) As correntes em mar aberto são, normalmente, fracas e quase constantes no plano horizontal, não apresentando dificuldades para a controlabilidade.</p><p>III) Em canais e rios, as correntes podem prejudicar a controlabilidade, principalmente para um navio navegando a favor da corrente.</p><p>IV) Os efeitos do vento na controlabilidade de um navio somente dependem da área acima da linha d’água e da distância do centro da área lateral ao LCG.</p>
@@ -6408,12 +6413,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2011-62"
                  data-question-id="q-2011-62" data-question-year="2011"
-                 data-topic="Meteorologia e oceanografia"
+                 data-topic="Meteorologia e oceanografia" data-pna="1"
                  data-answer-letter="e"
                  data-search="2011 62 meteorologia e oceanografia um prático estava conduzindo um “marine-class vessel” na condição de plena carga (“full load”) em um rumo tal que a direção do vento estava pelo través (“beam wind”). nessa ocasião, verificou que, devido à magnitude da velocidade do vento, os efeitos aerodinâmicos e hidrodinâmicos excediam a capacidade do leme, o que dificultava em muito o controle do navio. de acordo com o contido no livro “principles of naval architecture” (sname - 3a edição: 1988/1989), assinale a opção que apresenta o valor correto da velocidade do vento nessa ocasião: 3 (três) vezes a velocidade do navio. 5 (cinco) vezes a velocidade do navio. 7 (sete) vezes a velocidade do navio. 8 (oito) vezes a velocidade do navio. 10 (dez) vezes a velocidade do navio. 10 (dez) vezes a velocidade do navio. ">
           <header class="question-card__head">
             <span class="question-card__num">Q62</span>
-            <div class="question-card__badges"><span class="badge">2011</span><span class="badge badge--topic">Meteorologia e oceanografia</span><span class="badge badge--muted">1,2 pontos</span></div>
+            <div class="question-card__badges"><span class="badge">2011</span><span class="badge badge--topic">Meteorologia e oceanografia</span><span class="badge badge--muted">1,2 pontos</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>Um prático estava conduzindo um “Marine-Class Vessel” na condição de plena carga (“full load”) em um rumo tal que a direção do vento estava pelo través (“beam wind”). Nessa ocasião, verificou que, devido à magnitude da velocidade do vento, os efeitos aerodinâmicos e hidrodinâmicos excediam a capacidade do leme, o que dificultava em muito o controle do navio. De acordo com o contido no livro “Principles of Naval Architecture” (SNAME - 3a edição: 1988/1989), assinale a opção que apresenta o valor correto da velocidade do vento nessa ocasião:</p>
@@ -7508,12 +7513,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2012-41"
                  data-question-id="q-2012-41" data-question-year="2012"
-                 data-topic="Meteorologia e oceanografia"
+                 data-topic="Meteorologia e oceanografia" data-pna="1"
                  data-answer-letter="a"
                  data-search="2012 41 meteorologia e oceanografia de acordo com o contido no livro “principles of naval architecture” (sname – 3a edição:1988/1989) a respeito dos componentes da resistência ao avanço de um navio em águas tranquilas, analise as afirmativas abaixo, identifique as verdadeiras e assinale a opção correta: i) grande parte do componente da resistência ao avanço devido à geração de ondas é causado pela parte superior do casco em contato com a água e junto à linha d’água. ii) em baixa velocidade, as ondas geradas pelo navio são diminutas, e a resistência ao avanço passa a ser quase que totalmente constituída pelos componentes de resistência viscosa do casco. iii) experimentos realizados demonstram que, mesmo para cascos lisos ou com baixa rugosidade de navios novos, a resistência de atrito corresponde a 80 a 85% da resistência total em navios de baixa velocidade e chega a 50% da resistência total em navios de alta velocidade, quando navegando em alta velocidade. iv) a resistência devido à geração de vórtices é causada pela formação de redemoinhos provocados por distúrbios nas linhas de corrente devido a alterações abruptas de forma, apêndices ou outras projeções do casco abaixo da linha d’água, mas exclui os vórtices que geram o atrito tangencial ao casco. todas as afirmativas são verdadeiras. apenas as afirmativas iii) e iv) são verdadeiras. apenas as afirmativas i), iii) e iv) são verdadeiras. apenas as afirmativas i) e ii) são verdadeiras. apenas a afirmativas i), ii) e iv) são verdadeiras. todas as afirmativas são verdadeiras. ">
           <header class="question-card__head">
             <span class="question-card__num">Q41</span>
-            <div class="question-card__badges"><span class="badge">2012</span><span class="badge badge--topic">Meteorologia e oceanografia</span><span class="badge badge--muted">1,6 pontos</span></div>
+            <div class="question-card__badges"><span class="badge">2012</span><span class="badge badge--topic">Meteorologia e oceanografia</span><span class="badge badge--muted">1,6 pontos</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>De acordo com o contido no livro “Principles of Naval Architecture” (SNAME – 3a edição:1988/1989) a respeito dos componentes da resistência ao avanço de um navio em águas tranquilas, analise as afirmativas abaixo, identifique as verdadeiras e assinale a opção correta:</p><p>I) Grande parte do componente da resistência ao avanço devido à geração de ondas é causado pela parte superior do casco em contato com a água e junto à linha d’água.</p><p>II) Em baixa velocidade, as ondas geradas pelo navio são diminutas, e a resistência ao avanço passa a ser quase que totalmente constituída pelos componentes de resistência viscosa do casco.</p><p>III) Experimentos realizados demonstram que, mesmo para cascos lisos ou com baixa rugosidade de navios novos, a resistência de atrito corresponde a 80 a 85% da resistência total em navios de baixa velocidade e chega a 50% da resistência total em navios de alta velocidade, quando navegando em alta velocidade.</p><p>IV) A resistência devido à geração de vórtices é causada pela formação de redemoinhos provocados por distúrbios nas linhas de corrente devido a alterações abruptas de forma, apêndices ou outras projeções do casco abaixo da linha d’água, mas exclui os vórtices que geram o atrito tangencial ao casco.</p>
@@ -7530,12 +7535,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2012-42"
                  data-question-id="q-2012-42" data-question-year="2012"
-                 data-topic="Meteorologia e oceanografia"
+                 data-topic="Meteorologia e oceanografia" data-pna="1"
                  data-answer-letter="b"
                  data-search="2012 42 meteorologia e oceanografia de acordo com o contido sobre cavitação no livro “principles of naval architecture” (sname – 3a edição:1988/1989), analise as afirmativas abaixo, identifique as verdadeiras e assinale a opção correta: i) devido aos tipos de hélices empregados e às velocidades de operação típicas, tal fenômeno não ocorre em navios mercantes, somente preocupando quem projeta ou opera embarcações de recreio de alta velocidade ou navios militares. ii) é um fenômeno encontrado em hélices propulsores submetidos a cargas severas, onde, a partir de um valor específico de rotações, ocorre uma progressiva quebra no escoamento e consequente perda de tração. iii) a cavitação ocasiona danos que podem ocorrer principalmente devido ao processo de colapso de bolhas formadas na superfície das pás dos hélices propulsores. iv) apesar de ser usual assumir que a cavitação deve ocorrer quando a pressão nas pás do hélice atingir a pressão de vapor da água, tal fenômeno pode ocorrer antes disso, pois a água do mar possui ar dissolvido e arrastado, o que antecipa a formação de bolhas. todas as afirmativas são verdadeiras. apenas as afirmativas ii), iii) e iv) são verdadeiras. apenas as afirmativas i) e iii) são verdadeiras. apenas a afirmativa iv) é verdadeira. apenas as afirmativas i) e ii) são verdadeiras. apenas as afirmativas ii), iii) e iv) são verdadeiras. ">
           <header class="question-card__head">
             <span class="question-card__num">Q42</span>
-            <div class="question-card__badges"><span class="badge">2012</span><span class="badge badge--topic">Meteorologia e oceanografia</span><span class="badge badge--muted">1,6 pontos</span></div>
+            <div class="question-card__badges"><span class="badge">2012</span><span class="badge badge--topic">Meteorologia e oceanografia</span><span class="badge badge--muted">1,6 pontos</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>De acordo com o contido sobre cavitação no livro “Principles of Naval Architecture” (SNAME – 3a edição:1988/1989), analise as afirmativas abaixo, identifique as verdadeiras e assinale a opção correta:</p><p>I) Devido aos tipos de hélices empregados e às velocidades de operação típicas, tal fenômeno não ocorre em navios mercantes, somente preocupando quem projeta ou opera embarcações de recreio de alta velocidade ou navios militares.</p><p>II) É um fenômeno encontrado em hélices propulsores submetidos a cargas severas, onde, a partir de um valor específico de rotações, ocorre uma progressiva quebra no escoamento e consequente perda de tração.</p><p>III) A cavitação ocasiona danos que podem ocorrer principalmente devido ao processo de colapso de bolhas formadas na superfície das pás dos hélices propulsores.</p><p>IV) Apesar de ser usual assumir que a cavitação deve ocorrer quando a pressão nas pás do hélice atingir a pressão de vapor da água, tal fenômeno pode ocorrer antes disso, pois a água do mar possui ar dissolvido e arrastado, o que antecipa a formação de bolhas.</p>
@@ -7552,12 +7557,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         </article>
         <article class="question-card" id="q-2012-43"
                  data-question-id="q-2012-43" data-question-year="2012"
-                 data-topic="Rebocadores e manobra"
+                 data-topic="Rebocadores e manobra" data-pna="1"
                  data-answer-letter="d"
                  data-search="2012 43 rebocadores e manobra de acordo com o contido no livro “principles of naval architecture” (sname – 3a edição: 1988/1989), o trajeto de uma curva de giro quando o leme de um navio é mantido em um ângulo fixo é, em geral, caracterizado por quatro medidas numéricas: avanço, transferência, diâmetro tático e diâmetro de giro constante. considerando os eixos fixos em relação à terra x e y, em que o eixo x se localiza sobre o plano diametral, no sentido popa-proa do navio, antes do início da guinada, e o eixo y se orienta perpendicularmente ao eixo x na direção do través do navio no sentido be, antes do início da guinada, é correto afirmar, para uma guinada a be, que: transferência é a distância, medida no eixo x, percorrida pelo centro de gravidade da embarcação, desde o instante de início da deflexão do leme até o instante em que a proa do navio tenha guinado 90 graus. avanço é a distância, medida no eixo y, percorrida pelo centro de gravidade da embarcação, desde o instante de início da deflexão do leme até o instante em que a proa do navio tenha guinado 180 graus. diâmetro de giro constante é a distância, medida no eixo y, percorrida pelo centro de gravidade da embarcação, desde o instante de início da deflexão do leme até o instante em que a proa da embarcação tenha guinado 180 graus. o diâmetro de giro constante é alcançado na curva de giro após o estabelecimento do equilíbrio final de forças sobre o navio, sendo menor que o diâmetro tático. nenhuma das afirmativas acima é verdadeira. o diâmetro de giro constante é alcançado na curva de giro após o estabelecimento do equilíbrio final de forças sobre o navio, sendo menor que o diâmetro tático. ">
           <header class="question-card__head">
             <span class="question-card__num">Q43</span>
-            <div class="question-card__badges"><span class="badge">2012</span><span class="badge badge--topic">Rebocadores e manobra</span><span class="badge badge--muted">1,6 pontos</span></div>
+            <div class="question-card__badges"><span class="badge">2012</span><span class="badge badge--topic">Rebocadores e manobra</span><span class="badge badge--muted">1,6 pontos</span><span class="badge badge--pna">PNA</span></div>
           </header>
           <div class="question-card__body">
             <p>De acordo com o contido no livro “Principles of Naval Architecture” (SNAME – 3a edição: 1988/1989), o trajeto de uma curva de giro quando o leme de um navio é mantido em um ângulo fixo é, em geral, caracterizado por quatro medidas numéricas: avanço, transferência, diâmetro tático e diâmetro de giro constante. Considerando os eixos fixos em relação à Terra x e y, em que o eixo x se localiza sobre o plano diametral, no sentido popa-proa do navio, antes do início da guinada, e o eixo y se orienta perpendicularmente ao eixo x na direção do través do navio no sentido BE, antes do início da guinada, é correto afirmar, para uma guinada a BE, que:</p>
@@ -8082,6 +8087,7 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
     const pageSize = Math.max(1, Number(page.getAttribute("data-questoes-page-size") || 10));
     const yearChips = [...doc.querySelectorAll("[data-quest-year]")];
     const topicChips = [...doc.querySelectorAll("[data-quest-topic]")];
+    const sourceChips = [...doc.querySelectorAll("[data-quest-source]")];
     const search = doc.querySelector("[data-questoes-search]");
     const counter = doc.querySelector("[data-questoes-count]");
     const range = doc.querySelector("[data-questoes-range]");
@@ -8099,6 +8105,7 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
 
     let year = "todos";
     let topic = "todos";
+    let source = "todos";
     let term = "";
     let currentPage = 1;
     let matching = cards;
@@ -8120,8 +8127,9 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         const text = normalizeText(card.getAttribute("data-search"));
         const okYear = year === "todos" || card.getAttribute("data-question-year") === year;
         const okTopic = topic === "todos" || card.getAttribute("data-topic") === topic;
+        const okSource = source === "todos" || (source === "pna" && card.getAttribute("data-pna") === "1");
         const okTerm = !term || text.includes(term);
-        return okYear && okTopic && okTerm;
+        return okYear && okTopic && okSource && okTerm;
       });
 
       const pageCount = Math.max(1, Math.ceil(matching.length / pageSize));
@@ -8176,6 +8184,13 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
       chip.addEventListener("click", () => {
         topic = chip.getAttribute("data-quest-topic") || "todos";
         topicChips.forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
+        resetPage();
+      });
+    });
+    sourceChips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        source = chip.getAttribute("data-quest-source") || "todos";
+        sourceChips.forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
         resetPage();
       });
     });

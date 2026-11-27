@@ -1662,6 +1662,7 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
   text-transform: uppercase;
 }
 .badge--topic { background: var(--teal-soft); color: var(--teal); letter-spacing: .02em; text-transform: none; }
+.badge--pna { background: var(--gold-soft); color: var(--gold); border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent); }
 .badge--muted { background: var(--surface-3); color: var(--ink-faint); }
 .badge--annulled { background: var(--red-soft); color: var(--red); }
 .question-card__body {
@@ -2380,6 +2381,7 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
     const pageSize = Math.max(1, Number(page.getAttribute("data-questoes-page-size") || 10));
     const yearChips = [...doc.querySelectorAll("[data-quest-year]")];
     const topicChips = [...doc.querySelectorAll("[data-quest-topic]")];
+    const sourceChips = [...doc.querySelectorAll("[data-quest-source]")];
     const search = doc.querySelector("[data-questoes-search]");
     const counter = doc.querySelector("[data-questoes-count]");
     const range = doc.querySelector("[data-questoes-range]");
@@ -2397,6 +2399,7 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
 
     let year = "todos";
     let topic = "todos";
+    let source = "todos";
     let term = "";
     let currentPage = 1;
     let matching = cards;
@@ -2418,8 +2421,9 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
         const text = normalizeText(card.getAttribute("data-search"));
         const okYear = year === "todos" || card.getAttribute("data-question-year") === year;
         const okTopic = topic === "todos" || card.getAttribute("data-topic") === topic;
+        const okSource = source === "todos" || (source === "pna" && card.getAttribute("data-pna") === "1");
         const okTerm = !term || text.includes(term);
-        return okYear && okTopic && okTerm;
+        return okYear && okTopic && okSource && okTerm;
       });
 
       const pageCount = Math.max(1, Math.ceil(matching.length / pageSize));
@@ -2474,6 +2478,13 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; }
       chip.addEventListener("click", () => {
         topic = chip.getAttribute("data-quest-topic") || "todos";
         topicChips.forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
+        resetPage();
+      });
+    });
+    sourceChips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        source = chip.getAttribute("data-quest-source") || "todos";
+        sourceChips.forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
         resetPage();
       });
     });
